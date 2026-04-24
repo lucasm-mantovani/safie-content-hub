@@ -589,7 +589,7 @@ img {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: rgba(255,255,255,0.45);
+  color: var(--branco);
   margin-bottom: 18px;
 }
 
