@@ -45,10 +45,16 @@ Extraída dos blogs filhos na Fase 2. Tokens salvos em assets/css/tokens.css.
 - Email: contato@safie.com.br
 - Copyright: SAFIE Sociedade de Advogados
 
-## Estado do projeto (atualizar a cada fase)
+## Repositório e deploy
+- GitHub: https://github.com/lucasm-mantovani/safie-content-hub
+- Cloudflare Pages: https://safie-content-hub.pages.dev/
+- Domínio final: https://safie.blog.br (DNS pendente — pagamento Registro.br)
+
+## Estado do projeto (atualizado em 2026-04-24)
 - [x] Fase 1 — Setup
-- [ ] Fase 2 — Identidade visual
-- [ ] Fase 3 — HTML/SEO/GEO
-- [ ] Fase 4 — RSS opcional
-- [ ] Fase 5 — Deploy
-- [ ] Fase 6 — Validação
+- [x] Fase 2 — Identidade visual
+- [x] Fase 3 — HTML/SEO/GEO
+- [ ] Fase 4 — RSS opcional (pulada por ora)
+- [x] Fase 5 — GitHub + Cloudflare Pages
+- [ ] Fase 5 DNS — Apontar safie.blog.br após pagamento no Registro.br
+- [ ] Fase 6 — Validação SEO
