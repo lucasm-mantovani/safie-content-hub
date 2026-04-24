@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Páginas do hub principal -->
+  <sitemap>
+    <loc>https://safie.blog.br/sitemap-hub.xml</loc>
+    <lastmod>2026-04-24</lastmod>
+  </sitemap>
+
+  <!-- Sitemaps dos blogs filhos -->
+  <sitemap>
+    <loc>https://cripto.safie.blog.br/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://ecommerce.safie.blog.br/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://fintechs.safie.blog.br/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://ia.safie.blog.br/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://reformatributaria.safie.blog.br/sitemap.xml</loc>
+  </sitemap>
+
+</sitemapindex>
