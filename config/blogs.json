@@ -1,0 +1,50 @@
+{
+  "rede": {
+    "nome": "Content Hub SAFIE",
+    "descricao": "Rede de blogs jurídicos e contábeis para empresas digitais e da nova economia",
+    "url": "https://safie.blog.br",
+    "site_institucional": "https://safie.com.br"
+  },
+  "blogs": [
+    {
+      "nome": "SAFIE Cripto",
+      "slug": "cripto",
+      "url": "https://cripto.safie.blog.br",
+      "descricao_curta": "Direito e contabilidade para criptoativos e blockchain",
+      "descricao_longa": "Análises jurídicas, tributárias e regulatórias do mercado de criptoativos, blockchain, tokenização e DeFi no Brasil.",
+      "publico": "Founders de exchanges, investidores profissionais, advogados e contadores do mercado cripto"
+    },
+    {
+      "nome": "SAFIE E-commerce",
+      "slug": "ecommerce",
+      "url": "https://ecommerce.safie.blog.br",
+      "descricao_curta": "Direito e contabilidade para e-commerce e comércio digital",
+      "descricao_longa": "Notícias jurídicas, contábeis e regulatórias relevantes para quem opera no comércio eletrônico e empresas digitais.",
+      "publico": "Founders de e-commerces, gestores de marketplace, executivos de varejo digital"
+    },
+    {
+      "nome": "SAFIE Fintechs",
+      "slug": "fintechs",
+      "url": "https://fintechs.safie.blog.br",
+      "descricao_curta": "Direito e contabilidade para fintechs e serviços financeiros digitais",
+      "descricao_longa": "Cobertura jurídica, contábil e regulatória para fintechs, bancos digitais, meios de pagamento e serviços financeiros inovadores.",
+      "publico": "Founders de fintechs, compliance officers, investidores do setor financeiro"
+    },
+    {
+      "nome": "SAFIE IA for Business",
+      "slug": "ia",
+      "url": "https://ia.safie.blog.br",
+      "descricao_curta": "Direito e contabilidade para empresas de IA e tecnologia disruptiva",
+      "descricao_longa": "Análises sobre regulação de IA, contratos, propriedade intelectual, LGPD e tributação aplicados a startups de IA e empresas que adotam inteligência artificial.",
+      "publico": "Founders de startups de IA, CTOs, empresas adotando IA em operações"
+    },
+    {
+      "nome": "SAFIE Reforma Tributária",
+      "slug": "reforma-tributaria",
+      "url": "https://reformatributaria.safie.blog.br",
+      "descricao_curta": "Impactos da reforma tributária para empresas brasileiras",
+      "descricao_longa": "Análises diárias sobre IBS, CBS, Imposto Seletivo, transição tributária e regulamentações que afetam empresas de todos os portes.",
+      "publico": "CEOs, CFOs, contadores, advogados tributaristas, consultores"
+    }
+  ]
+}
