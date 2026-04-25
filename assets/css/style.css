@@ -128,12 +128,23 @@ img {
 
 /* ── Hero ── */
 .hero {
-  background: var(--preto);
+  background: linear-gradient(160deg, #0c0e18 0%, #0f0f0f 55%, #1a1a1a 100%);
   color: var(--branco);
   padding: 80px 20px 96px;
   text-align: center;
   position: relative;
   overflow: hidden;
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(to right, #2563eb, #db2777, #059669, #7c3aed, #b8860b);
+  opacity: 0.85;
 }
 
 .hero::before {
@@ -256,31 +267,70 @@ img {
   display: block;
   background: var(--branco);
   border: 1px solid var(--cinza-claro);
+  border-left: 4px solid var(--cor-blog, var(--azul));
   border-radius: var(--radius);
   padding: 28px;
-  transition: box-shadow 0.2s, border-color 0.2s, transform 0.2s;
+  transition: box-shadow 0.2s, transform 0.2s;
   text-decoration: none;
   color: inherit;
   position: relative;
+  overflow: hidden;
+}
+
+.card-blog::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--cor-blog, var(--azul));
+  opacity: 0;
+  transition: opacity 0.2s;
+  pointer-events: none;
+  border-radius: inherit;
 }
 
 .card-blog:hover {
-  box-shadow: var(--sombra);
-  border-color: var(--azul);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.10);
   transform: translateY(-2px);
   color: inherit;
+}
+
+.card-blog:hover::after {
+  opacity: 0.04;
 }
 
 .card-blog-icone {
   width: 44px;
   height: 44px;
-  background: var(--azul);
+  background: var(--cor-blog, var(--azul));
   border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 16px;
   font-size: 1.2rem;
+  position: relative;
+  z-index: 1;
+}
+
+.card-blog-deco {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  color: var(--cor-blog, var(--azul));
+  opacity: 0.18;
+  pointer-events: none;
+  transition: opacity 0.2s;
+}
+
+.card-blog:hover .card-blog-deco {
+  opacity: 0.28;
+}
+
+.card-blog-nome,
+.card-blog-desc,
+.card-blog-cta {
+  position: relative;
+  z-index: 1;
 }
 
 .card-blog-nome {
@@ -304,12 +354,13 @@ img {
   gap: 6px;
   font-size: 0.82rem;
   font-weight: 600;
-  color: var(--azul);
+  color: var(--cor-blog, var(--azul));
   transition: color 0.2s;
 }
 
 .card-blog:hover .card-blog-cta {
-  color: var(--ciano);
+  color: var(--cor-blog, var(--ciano));
+  opacity: 0.85;
 }
 
 .card-blog-cta svg {
@@ -624,6 +675,85 @@ img {
   border-color: var(--ciano);
   color: var(--ciano);
   background: rgba(20,223,250,0.08);
+}
+
+/* ── Últimas publicações da rede ── */
+.secao-ultimos {
+  padding: 64px 0 72px;
+  background: var(--branco);
+}
+
+.ultimos-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.ultimo-item {
+  display: flex;
+  align-items: stretch;
+  gap: 0;
+  background: var(--branco);
+  border: 1px solid var(--cinza-claro);
+  border-radius: var(--radius);
+  text-decoration: none;
+  color: inherit;
+  overflow: hidden;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.ultimo-item:hover {
+  box-shadow: 0 3px 14px rgba(0,0,0,0.09);
+  transform: translateY(-1px);
+}
+
+.ultimo-cor {
+  width: 4px;
+  flex-shrink: 0;
+  background: var(--cor-post, var(--azul));
+}
+
+.ultimo-conteudo {
+  flex: 1;
+  padding: 14px 18px;
+}
+
+.ultimo-meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+
+.ultimo-blog-nome {
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: var(--cor-post, var(--azul));
+}
+
+.ultimo-data {
+  font-size: 0.72rem;
+  color: var(--cinza);
+}
+
+.ultimo-titulo {
+  font-size: 0.93rem;
+  font-weight: 600;
+  color: var(--escuro);
+  line-height: 1.45;
+}
+
+/* ── Footer arco-íris ── */
+.footer-arco-iris {
+  height: 3px;
+  background: linear-gradient(to right, #2563eb, #db2777, #059669, #7c3aed, #b8860b);
+  border-radius: 2px;
+  margin-bottom: 28px;
+  opacity: 0.65;
 }
 
 /* ── Responsivo ── */
