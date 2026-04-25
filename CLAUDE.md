@@ -8,10 +8,10 @@ Deploy: Cloudflare Pages (repositório GitHub próprio)
 ## REGRA DE PROTEÇÃO ABSOLUTA
 NUNCA modificar, mover ou apagar arquivos dentro das pastas dos 5 blogs:
 - ~/CLAUDE/Blog-Cripto
-- ~/CLAUDE/Blog-ecommerce
-- ~/CLAUDE/Blog-fintechs
-- ~/CLAUDE/Blog-ia-for-business
-- ~/CLAUDE/Blog-reforma-tributaria
+- ~/CLAUDE/Blog-Ecommerce
+- ~/CLAUDE/Blog-Fintechs
+- ~/CLAUDE/Blog-IA-for-Business
+- ~/CLAUDE/Blog-Reforma-Tributaria
 
 ## Estrutura do projeto
 Content-Hub-SAFIE/
