@@ -27,7 +27,7 @@ document.querySelectorAll('.faq-pergunta').forEach(btn => {
 
     const secao = lista.closest('.secao-ultimos');
 
-    lista.innerHTML = posts.slice(0, 8).map(p => `
+    lista.innerHTML = posts.slice(0, 12).map(p => `
       <a href="${p.url}" class="ultimo-item" role="listitem" target="_blank" rel="noopener"
          style="--cor-post: ${p.cor}">
         <div class="ultimo-cor"></div>
