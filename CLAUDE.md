@@ -48,13 +48,13 @@ Extraída dos blogs filhos na Fase 2. Tokens salvos em assets/css/tokens.css.
 ## Repositório e deploy
 - GitHub: https://github.com/lucasm-mantovani/safie-content-hub
 - Cloudflare Pages: https://safie-content-hub.pages.dev/
-- Domínio final: https://safie.blog.br (DNS pendente — pagamento Registro.br)
+- Domínio: www.safie.blog.br (DNS propagado em 2026-04-28)
 
-## Estado do projeto (atualizado em 2026-04-24)
+## Estado do projeto (atualizado em 2026-04-28)
 - [x] Fase 1 — Setup
 - [x] Fase 2 — Identidade visual
 - [x] Fase 3 — HTML/SEO/GEO
-- [ ] Fase 4 — RSS opcional (pulada por ora)
+- [x] Fase 4 — fetch_posts.py + GitHub Actions (roda às 9h, gera ultimos_posts.json com 15 posts)
 - [x] Fase 5 — GitHub + Cloudflare Pages
-- [ ] Fase 5 DNS — Apontar safie.blog.br após pagamento no Registro.br
-- [ ] Fase 6 — Validação SEO
+- [x] Fase 5 DNS — www.safie.blog.br propagado ✅
+- [x] Fase 6 — Validação SEO concluída (2026-04-28): DNS confirmado, HTTP 200, robots.txt + sitemap ok, 15 posts dos 5 blogs no ar
