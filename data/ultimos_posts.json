@@ -1,6 +1,58 @@
 {
-  "gerado_em": "2026-04-28T20:31:38Z",
+  "gerado_em": "2026-04-29T17:10:55Z",
   "posts": [
+    {
+      "blog": "SAFIE Cripto",
+      "blog_slug": "cripto",
+      "blog_url": "https://cripto.safie.blog.br",
+      "cor": "#2563eb",
+      "slug": "2026-04-29-regulacao-de-criptoativos-no-brasil-em-2026",
+      "titulo": "Regulação de criptoativos no Brasil em 2026",
+      "resumo": "A América Latina consolida-se como região de adoção expressiva de criptoativos, com o Brasil ocupando posição central nesse movimento. O país conta com marco legal desde 2023 (Lei 14.478) e regulament",
+      "tema": "Regulação de criptoativos no Brasil",
+      "data_iso": "2026-04-29",
+      "data": "29 abr 2026",
+      "url": "https://cripto.safie.blog.br/artigos/2026-04-29-regulacao-de-criptoativos-no-brasil-em-2026.html"
+    },
+    {
+      "blog": "SAFIE E-commerce",
+      "blog_slug": "ecommerce",
+      "blog_url": "https://ecommerce.safie.blog.br",
+      "cor": "#db2777",
+      "slug": "2026-04-29-correios-prejuizo-e-o-impacto-no-cross-border",
+      "titulo": "Correios: prejuízo e o impacto no",
+      "resumo": "O balanço prévio dos Correios aponta prejuízo de R$ 3,4 bilhões no primeiro trimestre de 2026, segundo o G1 Economia. Esse resultado coloca em evidência a fragilidade operacional da estatal que é, ain",
+      "tema": "Importação e cross-border",
+      "data_iso": "2026-04-29",
+      "data": "29 abr 2026",
+      "url": "https://ecommerce.safie.blog.br/artigos/2026-04-29-correios-prejuizo-e-o-impacto-no-cross-border.html"
+    },
+    {
+      "blog": "SAFIE Fintechs",
+      "blog_slug": "fintechs",
+      "blog_url": "https://fintechs.safie.blog.br",
+      "cor": "#059669",
+      "slug": "2026-04-29-regulacao-do-banco-central-para-fintechs-em-2026",
+      "titulo": "Regulação do Banco Central para fintechs",
+      "resumo": "O Banco Central do Brasil consolidou nos últimos anos um arcabouço regulatório robusto para fintechs, organizado principalmente por meio das Resoluções BCB e da Lei 14.286/2021. As instituições de pag",
+      "tema": "Regulação do Banco Central para fintechs",
+      "data_iso": "2026-04-29",
+      "data": "29 abr 2026",
+      "url": "https://fintechs.safie.blog.br/artigos/2026-04-29-regulacao-do-banco-central-para-fintechs-em-2026.html"
+    },
+    {
+      "blog": "SAFIE IA for Business",
+      "blog_slug": "ia",
+      "blog_url": "https://ia.safie.blog.br",
+      "cor": "#7c3aed",
+      "slug": "2026-04-29-ia-na-saude-regulacao-e-riscos-no-brasil",
+      "titulo": "IA na Saúde: Regulação e Riscos no",
+      "resumo": "Ferramentas de inteligência artificial já estão sendo usadas na assistência à saúde no Brasil, mas estudos indicam que precisão técnica não garante melhora nos resultados clínicos dos pacientes. Do po",
+      "tema": "Regulação de IA no Brasil",
+      "data_iso": "2026-04-29",
+      "data": "29 abr 2026",
+      "url": "https://ia.safie.blog.br/artigos/2026-04-29-ia-na-saude-regulacao-e-riscos-no-brasil.html"
+    },
     {
       "blog": "SAFIE Cripto",
       "blog_slug": "cripto",
@@ -67,19 +119,6 @@
       "url": "https://reformatributaria.safie.blog.br/artigos/2026-04-28-regulamento-do-ibs-e-cbs-aprovado-o-que-muda.html"
     },
     {
-      "blog": "SAFIE Cripto",
-      "blog_slug": "cripto",
-      "blog_url": "https://cripto.safie.blog.br",
-      "cor": "#2563eb",
-      "slug": "2026-04-27-jornada-de-6h-em-corretoras-de-cripto-o-que-muda",
-      "titulo": "Jornada de 6h em corretoras de cripto: o que muda?",
-      "resumo": "Um projeto de lei em tramitação no Brasil propõe alterar a CLT para fixar jornada de seis horas diárias aos trabalhadores de corretoras de criptoativos, reconhecendo o setor como atividade de natureza",
-      "tema": "Regulação de criptoativos no Brasil",
-      "data_iso": "2026-04-27",
-      "data": "27 abr 2026",
-      "url": "https://cripto.safie.blog.br/artigos/2026-04-27-jornada-de-6h-em-corretoras-de-cripto-o-que-muda.html"
-    },
-    {
       "blog": "SAFIE E-commerce",
       "blog_slug": "ecommerce",
       "blog_url": "https://ecommerce.safie.blog.br",
@@ -132,32 +171,6 @@
       "url": "https://reformatributaria.safie.blog.br/artigos/2026-04-27-ibs-e-cbs-o-que-muda-para-sua-empresa-em-2026.html"
     },
     {
-      "blog": "SAFIE E-commerce",
-      "blog_slug": "ecommerce",
-      "blog_url": "https://ecommerce.safie.blog.br",
-      "cor": "#db2777",
-      "slug": "2026-04-26-lgpd-no-e-commerce-o-que-sua-loja-precisa-saber",
-      "titulo": "LGPD no E-commerce: O Que Sua Loja Precisa Saber",
-      "resumo": "A LGPD impõe obrigações concretas a qualquer loja virtual que coleta dados de clientes, e o descumprimento pode gerar multas de até 2% do faturamento, limitadas a R$ 50 milhões por infração. Um artigo",
-      "tema": "LGPD e privacidade no e-commerce",
-      "data_iso": "2026-04-26",
-      "data": "26 abr 2026",
-      "url": "https://ecommerce.safie.blog.br/artigos/2026-04-26-lgpd-no-e-commerce-o-que-sua-loja-precisa-saber.html"
-    },
-    {
-      "blog": "SAFIE Fintechs",
-      "blog_slug": "fintechs",
-      "blog_url": "https://fintechs.safie.blog.br",
-      "cor": "#059669",
-      "slug": "2026-04-26-tributacao-de-fintechs-ganho-de-capital-e-ir",
-      "titulo": "Tributação de fintechs: ganho de capital e IR",
-      "resumo": "A venda de imóveis gera obrigações tributárias específicas no Brasil, incluindo o recolhimento de GCAP e a declaração no IRPF, com isenções condicionadas a critérios legais precisos. Para fintechs que",
-      "tema": "Tributação de fintechs",
-      "data_iso": "2026-04-26",
-      "data": "26 abr 2026",
-      "url": "https://fintechs.safie.blog.br/artigos/2026-04-26-tributacao-de-fintechs-ganho-de-capital-e-ir.html"
-    },
-    {
       "blog": "SAFIE IA for Business",
       "blog_slug": "ia",
       "blog_url": "https://ia.safie.blog.br",
@@ -182,19 +195,6 @@
       "data_iso": "2026-04-26",
       "data": "26 abr 2026",
       "url": "https://reformatributaria.safie.blog.br/artigos/2026-04-26-ibs-e-cbs-o-que-muda-na-tributacao-das-empresas.html"
-    },
-    {
-      "blog": "SAFIE IA for Business",
-      "blog_slug": "ia",
-      "blog_url": "https://ia.safie.blog.br",
-      "cor": "#7c3aed",
-      "slug": "2026-04-25-regulacao-de-ia-no-brasil-kyc-fraudes-e-compliance",
-      "titulo": "Regulação de IA no Brasil: KYC, Fraudes e Compliance",
-      "resumo": "A MIT Technology Review Brasil identificou dezenas de canais no Telegram oferecendo serviços para burlar processos de KYC em bancos e corretoras de criptomoedas, usando ferramentas baseadas em IA gene",
-      "tema": "Regulação de IA no Brasil",
-      "data_iso": "2026-04-25",
-      "data": "25 abr 2026",
-      "url": "https://ia.safie.blog.br/artigos/2026-04-25-regulacao-de-ia-no-brasil-kyc-fraudes-e-compliance.html"
     }
   ]
 }
