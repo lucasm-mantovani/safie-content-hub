@@ -1,6 +1,84 @@
 {
-  "gerado_em": "2026-04-29T17:10:55Z",
+  "gerado_em": "2026-04-30T17:04:07Z",
   "posts": [
+    {
+      "blog": "SAFIE Cripto",
+      "blog_slug": "cripto",
+      "blog_url": "https://cripto.safie.blog.br",
+      "cor": "#2563eb",
+      "slug": "2026-04-30-banco-central-quer-proibir-stablecoins-nao-reguladas",
+      "titulo": "Banco Central quer proibir stablecoins não",
+      "resumo": "O Banco Central do Brasil recomendou a proibição de stablecoins emitidas por empresas não regulamentadas no país, como Tether (USDT) e Circle (USDC). A medida, se implementada, afetará diretamente exc",
+      "tema": "Regulação de criptoativos no Brasil",
+      "data_iso": "2026-04-30",
+      "data": "30 abr 2026",
+      "url": "https://cripto.safie.blog.br/artigos/2026-04-30-banco-central-quer-proibir-stablecoins-nao-reguladas.html"
+    },
+    {
+      "blog": "SAFIE Cripto",
+      "blog_slug": "cripto",
+      "blog_url": "https://cripto.safie.blog.br",
+      "cor": "#2563eb",
+      "slug": "2026-04-30-regulacao-de-criptoativos-no-brasil-em-2026",
+      "titulo": "Regulação de Criptoativos no Brasil em 2026",
+      "resumo": "A história de Luana Lopes Lara, cofundadora brasileira da plataforma Kalshi e detentora de Bitcoin desde 2014, ilustra como o mercado cripto amadureceu antes da regulação formal no Brasil. A Lei 14.47",
+      "tema": "Regulação de criptoativos no Brasil",
+      "data_iso": "2026-04-30",
+      "data": "30 abr 2026",
+      "url": "https://cripto.safie.blog.br/artigos/2026-04-30-regulacao-de-criptoativos-no-brasil-em-2026.html"
+    },
+    {
+      "blog": "SAFIE E-commerce",
+      "blog_slug": "ecommerce",
+      "blog_url": "https://ecommerce.safie.blog.br",
+      "cor": "#db2777",
+      "slug": "2026-04-30-contratabrasil-meis-em-marketplaces-publicos",
+      "titulo": "Contrata+Brasil: MEIs em marketplaces",
+      "resumo": "O governo federal lançou o Contrata+Brasil, plataforma digital que permite a microempreendedores individuais oferecer serviços diretamente a órgãos públicos. A iniciativa cria um novo canal de vendas ",
+      "tema": "Marketplaces e plataformas digitais",
+      "data_iso": "2026-04-30",
+      "data": "30 abr 2026",
+      "url": "https://ecommerce.safie.blog.br/artigos/2026-04-30-contratabrasil-meis-em-marketplaces-publicos.html"
+    },
+    {
+      "blog": "SAFIE Fintechs",
+      "blog_slug": "fintechs",
+      "blog_url": "https://fintechs.safie.blog.br",
+      "cor": "#059669",
+      "slug": "2026-04-30-regulacao-do-banco-central-para-fintechs-em-2026",
+      "titulo": "Regulação do Banco Central para fintechs",
+      "resumo": "O Banco Central do Brasil consolidou nos últimos anos um arcabouço regulatório específico para fintechs, abrangendo Instituições de Pagamento, Sociedades de Crédito Direto e Correspondentes Digitais. ",
+      "tema": "Regulação do Banco Central para fintechs",
+      "data_iso": "2026-04-30",
+      "data": "30 abr 2026",
+      "url": "https://fintechs.safie.blog.br/artigos/2026-04-30-regulacao-do-banco-central-para-fintechs-em-2026.html"
+    },
+    {
+      "blog": "SAFIE IA for Business",
+      "blog_slug": "ia",
+      "blog_url": "https://ia.safie.blog.br",
+      "cor": "#7c3aed",
+      "slug": "2026-04-30-regulacao-de-ia-no-brasil-o-que-muda-em-2026",
+      "titulo": "Regulação de IA no Brasil: o que",
+      "resumo": "O Brasil avança na regulação de inteligência artificial com o PL 2.338/2023, aprovado pelo Senado e em tramitação na Câmara, que estabelece obrigações de transparência, responsabilidade civil e avalia",
+      "tema": "Regulação de IA no Brasil",
+      "data_iso": "2026-04-30",
+      "data": "30 abr 2026",
+      "url": "https://ia.safie.blog.br/artigos/2026-04-30-regulacao-de-ia-no-brasil-o-que-muda-em-2026.html"
+    },
+    {
+      "blog": "SAFIE Reforma Tributária",
+      "blog_slug": "reforma-tributaria",
+      "blog_url": "https://reformatributaria.safie.blog.br",
+      "cor": "#b8860b",
+      "slug": "2026-04-30-regulamento-cbsibs-o-que-muda-para-empresas",
+      "titulo": "Regulamento CBS/IBS: o que muda",
+      "resumo": "A Receita Federal e o Comitê Gestor do IBS publicaram conjuntamente o Regulamento do CBS e do IBS, inaugurando um modelo inédito de cooperação federativa na regulamentação tributária brasileira. O ato",
+      "tema": "Regulamentação infralegal",
+      "data_iso": "2026-04-30",
+      "data": "30 abr 2026",
+      "url": "https://reformatributaria.safie.blog.br/artigos/2026-04-30-regulamento-cbsibs-o-que-muda-para-empresas.html"
+    },
     {
       "blog": "SAFIE Cripto",
       "blog_slug": "cripto",
@@ -54,32 +132,6 @@
       "url": "https://ia.safie.blog.br/artigos/2026-04-29-ia-na-saude-regulacao-e-riscos-no-brasil.html"
     },
     {
-      "blog": "SAFIE Cripto",
-      "blog_slug": "cripto",
-      "blog_url": "https://cripto.safie.blog.br",
-      "cor": "#2563eb",
-      "slug": "2026-04-28-regulacao-de-criptoativos-no-brasil-em-2026",
-      "titulo": "Regulação de criptoativos no Brasil em 2026",
-      "resumo": "No primeiro trimestre de 2026, brasileiros dobraram o volume de compras de criptomoedas, atingindo R$ 34 bilhões, segundo o Portal do Bitcoin. O crescimento expressivo ocorre sob um marco regulatório ",
-      "tema": "Regulação de criptoativos no Brasil",
-      "data_iso": "2026-04-28",
-      "data": "28 abr 2026",
-      "url": "https://cripto.safie.blog.br/artigos/2026-04-28-regulacao-de-criptoativos-no-brasil-em-2026.html"
-    },
-    {
-      "blog": "SAFIE Cripto",
-      "blog_slug": "cripto",
-      "blog_url": "https://cripto.safie.blog.br",
-      "cor": "#2563eb",
-      "slug": "2026-04-28-b3-lanca-contratos-de-eventos-para-bitcoin-e-dolar",
-      "titulo": "B3 lança Contratos de Eventos para Bitcoin e dólar",
-      "resumo": "A B3 lançou Contratos de Eventos referenciados em Ibovespa, dólar e Bitcoin, criando uma alternativa regulada aos mercados preditivos proibidos pelo Banco Central em 2025. O movimento representa uma r",
-      "tema": "Regulação de criptoativos no Brasil",
-      "data_iso": "2026-04-28",
-      "data": "28 abr 2026",
-      "url": "https://cripto.safie.blog.br/artigos/2026-04-28-b3-lanca-contratos-de-eventos-para-bitcoin-e-dolar.html"
-    },
-    {
       "blog": "SAFIE E-commerce",
       "blog_slug": "ecommerce",
       "blog_url": "https://ecommerce.safie.blog.br",
@@ -119,32 +171,6 @@
       "url": "https://reformatributaria.safie.blog.br/artigos/2026-04-28-regulamento-do-ibs-e-cbs-aprovado-o-que-muda.html"
     },
     {
-      "blog": "SAFIE E-commerce",
-      "blog_slug": "ecommerce",
-      "blog_url": "https://ecommerce.safie.blog.br",
-      "cor": "#db2777",
-      "slug": "2026-04-27-lgpd-e-privacidade-no-e-commerce-o-que-muda",
-      "titulo": "LGPD e Privacidade no E-commerce: O Que Muda",
-      "resumo": "A LGPD impõe obrigações concretas a qualquer loja virtual que colete, armazene ou processe dados de clientes. O descumprimento pode gerar multas de até 2% do faturamento, limitadas a R$ 50 milhões por",
-      "tema": "LGPD e privacidade no e-commerce",
-      "data_iso": "2026-04-27",
-      "data": "27 abr 2026",
-      "url": "https://ecommerce.safie.blog.br/artigos/2026-04-27-lgpd-e-privacidade-no-e-commerce-o-que-muda.html"
-    },
-    {
-      "blog": "SAFIE Fintechs",
-      "blog_slug": "fintechs",
-      "blog_url": "https://fintechs.safie.blog.br",
-      "cor": "#059669",
-      "slug": "2026-04-27-open-finance-e-ia-o-novo-modelo-de-dados-financeiros",
-      "titulo": "Open Finance e IA: o novo modelo de dados financeiros",
-      "resumo": "A startup brasileira Segura recebeu aporte liderado pela Andreessen Horowitz (a16z) e pela Kaszek para aplicar inteligência artificial sobre dados financeiros de corretores e segurados. O movimento ev",
-      "tema": "Open Finance e dados financeiros",
-      "data_iso": "2026-04-27",
-      "data": "27 abr 2026",
-      "url": "https://fintechs.safie.blog.br/artigos/2026-04-27-open-finance-e-ia-o-novo-modelo-de-dados-financeiros.html"
-    },
-    {
       "blog": "SAFIE IA for Business",
       "blog_slug": "ia",
       "blog_url": "https://ia.safie.blog.br",
@@ -169,32 +195,6 @@
       "data_iso": "2026-04-27",
       "data": "27 abr 2026",
       "url": "https://reformatributaria.safie.blog.br/artigos/2026-04-27-ibs-e-cbs-o-que-muda-para-sua-empresa-em-2026.html"
-    },
-    {
-      "blog": "SAFIE IA for Business",
-      "blog_slug": "ia",
-      "blog_url": "https://ia.safie.blog.br",
-      "cor": "#7c3aed",
-      "slug": "2026-04-26-regulacao-de-ia-no-brasil-o-que-muda-em-2026",
-      "titulo": "Regulação de IA no Brasil: o que muda em 2026",
-      "resumo": "O Brasil avança na regulamentação de inteligência artificial com o PL 2.338/2023, aprovado pelo Senado em 2024 e em tramitação na Câmara. Para empresas de IA, a questão central não é apenas inovar, ma",
-      "tema": "Regulação de IA no Brasil",
-      "data_iso": "2026-04-26",
-      "data": "26 abr 2026",
-      "url": "https://ia.safie.blog.br/artigos/2026-04-26-regulacao-de-ia-no-brasil-o-que-muda-em-2026.html"
-    },
-    {
-      "blog": "SAFIE Reforma Tributária",
-      "blog_slug": "reforma-tributaria",
-      "blog_url": "https://reformatributaria.safie.blog.br",
-      "cor": "#b8860b",
-      "slug": "2026-04-26-ibs-e-cbs-o-que-muda-na-tributacao-das-empresas",
-      "titulo": "IBS e CBS: o que muda na tributação das empresas",
-      "resumo": "A reforma tributária cria o IBS e a CBS para substituir cinco tributos atuais, simplificando o sistema mas exigindo adaptação imediata das empresas. Uma decisão recente do CARF, aplicando o Tema 985 d",
-      "tema": "IBS e CBS — novos tributos",
-      "data_iso": "2026-04-26",
-      "data": "26 abr 2026",
-      "url": "https://reformatributaria.safie.blog.br/artigos/2026-04-26-ibs-e-cbs-o-que-muda-na-tributacao-das-empresas.html"
     }
   ]
 }
