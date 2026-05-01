@@ -1,6 +1,71 @@
 {
-  "gerado_em": "2026-04-30T17:04:07Z",
+  "gerado_em": "2026-05-01T15:36:26Z",
   "posts": [
+    {
+      "blog": "SAFIE Cripto",
+      "blog_slug": "cripto",
+      "blog_url": "https://cripto.safie.blog.br",
+      "cor": "#2563eb",
+      "slug": "2026-05-01-criptoativos-e-eleicoes-regulacao-no-brasil",
+      "titulo": "Criptoativos e eleições: regulação no Brasil",
+      "resumo": "O Paraná Eleitoral divulgou estudo técnico recomendando a criação de regras específicas para doações em criptomoedas no financiamento de campanhas eleitorais brasileiras. A ausência de regulamentação ",
+      "tema": "Regulação de criptoativos no Brasil",
+      "data_iso": "2026-05-01",
+      "data": "1 mai 2026",
+      "url": "https://cripto.safie.blog.br/artigos/2026-05-01-criptoativos-e-eleicoes-regulacao-no-brasil.html"
+    },
+    {
+      "blog": "SAFIE E-commerce",
+      "blog_slug": "ecommerce",
+      "blog_url": "https://ecommerce.safie.blog.br",
+      "cor": "#db2777",
+      "slug": "2026-05-01-dividendos-de-marketplaces-o-que-o-investidor-precisa-saber",
+      "titulo": "Dividendos de Marketplaces: o que o",
+      "resumo": "A agenda de dividendos de maio de 2026 inclui o Magazine Luiza, uma das maiores plataformas de marketplace do Brasil. Para investidores e empresários do setor digital, entender como essas distribuiçõe",
+      "tema": "Marketplaces e plataformas digitais",
+      "data_iso": "2026-05-01",
+      "data": "1 mai 2026",
+      "url": "https://ecommerce.safie.blog.br/artigos/2026-05-01-dividendos-de-marketplaces-o-que-o-investidor-precisa-saber.html"
+    },
+    {
+      "blog": "SAFIE Fintechs",
+      "blog_slug": "fintechs",
+      "blog_url": "https://fintechs.safie.blog.br",
+      "cor": "#059669",
+      "slug": "2026-05-01-regulacao-do-banco-central-para-fintechs-em-2026",
+      "titulo": "Regulação do Banco Central para fintechs",
+      "resumo": "O Banco Central do Brasil consolidou, ao longo dos últimos anos, um conjunto normativo robusto que governa a atuação de fintechs no país, incluindo Instituições de Pagamento, Sociedades de Crédito Dir",
+      "tema": "Regulação do Banco Central para fintechs",
+      "data_iso": "2026-05-01",
+      "data": "1 mai 2026",
+      "url": "https://fintechs.safie.blog.br/artigos/2026-05-01-regulacao-do-banco-central-para-fintechs-em-2026.html"
+    },
+    {
+      "blog": "SAFIE IA for Business",
+      "blog_slug": "ia",
+      "blog_url": "https://ia.safie.blog.br",
+      "cor": "#7c3aed",
+      "slug": "2026-05-01-regulacao-de-ia-no-brasil-o-que-muda-em-2026",
+      "titulo": "Regulação de IA no Brasil: o que",
+      "resumo": "Trabalhadores informais na Nigéria e na Índia estão sendo contratados para gravar tarefas domésticas e treinar robôs humanoides, expondo lacunas graves em proteção de dados, direitos trabalhistas e ra",
+      "tema": "Regulação de IA no Brasil",
+      "data_iso": "2026-05-01",
+      "data": "1 mai 2026",
+      "url": "https://ia.safie.blog.br/artigos/2026-05-01-regulacao-de-ia-no-brasil-o-que-muda-em-2026.html"
+    },
+    {
+      "blog": "SAFIE Reforma Tributária",
+      "blog_slug": "reforma-tributaria",
+      "blog_url": "https://reformatributaria.safie.blog.br",
+      "cor": "#b8860b",
+      "slug": "2026-05-01-ibs-cbs-e-simples-nacional-o-que-muda-em-2026",
+      "titulo": "IBS, CBS e Simples Nacional: o",
+      "resumo": "O programa Receita Sintonia, da Receita Federal, passou a incluir empresas do Simples Nacional em sua avaliação de conformidade tributária, uma novidade que antecipa a lógica de controle fiscal da ref",
+      "tema": "IBS e CBS — novos tributos",
+      "data_iso": "2026-05-01",
+      "data": "1 mai 2026",
+      "url": "https://reformatributaria.safie.blog.br/artigos/2026-05-01-ibs-cbs-e-simples-nacional-o-que-muda-em-2026.html"
+    },
     {
       "blog": "SAFIE Cripto",
       "blog_slug": "cripto",
@@ -80,19 +145,6 @@
       "url": "https://reformatributaria.safie.blog.br/artigos/2026-04-30-regulamento-cbsibs-o-que-muda-para-empresas.html"
     },
     {
-      "blog": "SAFIE Cripto",
-      "blog_slug": "cripto",
-      "blog_url": "https://cripto.safie.blog.br",
-      "cor": "#2563eb",
-      "slug": "2026-04-29-regulacao-de-criptoativos-no-brasil-em-2026",
-      "titulo": "Regulação de criptoativos no Brasil em 2026",
-      "resumo": "A América Latina consolida-se como região de adoção expressiva de criptoativos, com o Brasil ocupando posição central nesse movimento. O país conta com marco legal desde 2023 (Lei 14.478) e regulament",
-      "tema": "Regulação de criptoativos no Brasil",
-      "data_iso": "2026-04-29",
-      "data": "29 abr 2026",
-      "url": "https://cripto.safie.blog.br/artigos/2026-04-29-regulacao-de-criptoativos-no-brasil-em-2026.html"
-    },
-    {
       "blog": "SAFIE E-commerce",
       "blog_slug": "ecommerce",
       "blog_url": "https://ecommerce.safie.blog.br",
@@ -132,32 +184,6 @@
       "url": "https://ia.safie.blog.br/artigos/2026-04-29-ia-na-saude-regulacao-e-riscos-no-brasil.html"
     },
     {
-      "blog": "SAFIE E-commerce",
-      "blog_slug": "ecommerce",
-      "blog_url": "https://ecommerce.safie.blog.br",
-      "cor": "#db2777",
-      "slug": "2026-04-28-tributacao-no-e-commerce-guia-completo",
-      "titulo": "Tributação no E-commerce: Guia Completo",
-      "resumo": "A tributação no e-commerce brasileiro envolve tributos federais, estaduais e municipais que variam conforme o regime tributário, o tipo de produto e o destino da venda. Compreender essas regras é indi",
-      "tema": "Tributação no e-commerce",
-      "data_iso": "2026-04-28",
-      "data": "28 abr 2026",
-      "url": "https://ecommerce.safie.blog.br/artigos/2026-04-28-tributacao-no-e-commerce-guia-completo.html"
-    },
-    {
-      "blog": "SAFIE Fintechs",
-      "blog_slug": "fintechs",
-      "blog_url": "https://fintechs.safie.blog.br",
-      "cor": "#059669",
-      "slug": "2026-04-28-captacao-em-fintechs-o-risco-do-singapore-washing",
-      "titulo": "Captação em fintechs: o risco do Singapore-washing",
-      "resumo": "O governo chinês ordenou que a Meta desfaça a aquisição da Manus, startup de IA incorporada em Singapura mas fundada por chineses, bloqueando uma operação de US$ 2 bilhões. O caso expõe a prática do '",
-      "tema": "Investimento e captação em fintechs",
-      "data_iso": "2026-04-28",
-      "data": "28 abr 2026",
-      "url": "https://fintechs.safie.blog.br/artigos/2026-04-28-captacao-em-fintechs-o-risco-do-singapore-washing.html"
-    },
-    {
       "blog": "SAFIE Reforma Tributária",
       "blog_slug": "reforma-tributaria",
       "blog_url": "https://reformatributaria.safie.blog.br",
@@ -169,32 +195,6 @@
       "data_iso": "2026-04-28",
       "data": "28 abr 2026",
       "url": "https://reformatributaria.safie.blog.br/artigos/2026-04-28-regulamento-do-ibs-e-cbs-aprovado-o-que-muda.html"
-    },
-    {
-      "blog": "SAFIE IA for Business",
-      "blog_slug": "ia",
-      "blog_url": "https://ia.safie.blog.br",
-      "cor": "#7c3aed",
-      "slug": "2026-04-27-regulacao-de-ia-no-brasil-o-que-muda-em-2026",
-      "titulo": "Regulação de IA no Brasil: o que muda em 2026",
-      "resumo": "O Brasil avança na construção de um marco regulatório para inteligência artificial, com o PL 2.338/2023 em tramitação no Congresso e diretrizes já emanadas por órgãos setoriais. Para empresas de IA, i",
-      "tema": "Regulação de IA no Brasil",
-      "data_iso": "2026-04-27",
-      "data": "27 abr 2026",
-      "url": "https://ia.safie.blog.br/artigos/2026-04-27-regulacao-de-ia-no-brasil-o-que-muda-em-2026.html"
-    },
-    {
-      "blog": "SAFIE Reforma Tributária",
-      "blog_slug": "reforma-tributaria",
-      "blog_url": "https://reformatributaria.safie.blog.br",
-      "cor": "#b8860b",
-      "slug": "2026-04-27-ibs-e-cbs-o-que-muda-para-sua-empresa-em-2026",
-      "titulo": "IBS e CBS: o que muda para sua empresa em 2026",
-      "resumo": "O Conselho Administrativo de Recursos Fiscais (Carf) aplicou recentemente a modulação de efeitos do Tema 985 do STF, afastando a contribuição previdenciária sobre o terço constitucional de férias. A d",
-      "tema": "IBS e CBS — novos tributos",
-      "data_iso": "2026-04-27",
-      "data": "27 abr 2026",
-      "url": "https://reformatributaria.safie.blog.br/artigos/2026-04-27-ibs-e-cbs-o-que-muda-para-sua-empresa-em-2026.html"
     }
   ]
 }
