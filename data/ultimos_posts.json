@@ -1,6 +1,84 @@
 {
-  "gerado_em": "2026-05-01T15:36:26Z",
+  "gerado_em": "2026-05-02T14:40:22Z",
   "posts": [
+    {
+      "blog": "SAFIE Cripto",
+      "blog_slug": "cripto",
+      "blog_url": "https://cripto.safie.blog.br",
+      "cor": "#2563eb",
+      "slug": "2026-05-02-bc-proibe-criptoativos-em-remessas-efx-no-brasil",
+      "titulo": "BC proíbe criptoativos em remessas eFX no",
+      "resumo": "O Banco Central do Brasil proibiu prestadores de serviços de câmbio eletrônico (eFX) de utilizar criptoativos, incluindo Bitcoin e stablecoins, em operações de remessa internacional. A medida não afet",
+      "tema": "Regulação de criptoativos no Brasil",
+      "data_iso": "2026-05-02",
+      "data": "2 mai 2026",
+      "url": "https://cripto.safie.blog.br/artigos/2026-05-02-bc-proibe-criptoativos-em-remessas-efx-no-brasil.html"
+    },
+    {
+      "blog": "SAFIE Cripto",
+      "blog_slug": "cripto",
+      "blog_url": "https://cripto.safie.blog.br",
+      "cor": "#2563eb",
+      "slug": "2026-05-02-governo-investe-r-8-mi-para-rastrear-criptoativos",
+      "titulo": "Governo investe R$ 8 mi para rastrear",
+      "resumo": "O governo federal brasileiro anunciou contratação de solução de rastreamento de criptoativos avaliada em até R$ 8 milhões, destinada a órgãos de fiscalização e investigação. A medida reforça o ambient",
+      "tema": "Regulação de criptoativos no Brasil",
+      "data_iso": "2026-05-02",
+      "data": "2 mai 2026",
+      "url": "https://cripto.safie.blog.br/artigos/2026-05-02-governo-investe-r-8-mi-para-rastrear-criptoativos.html"
+    },
+    {
+      "blog": "SAFIE E-commerce",
+      "blog_slug": "ecommerce",
+      "blog_url": "https://ecommerce.safie.blog.br",
+      "cor": "#db2777",
+      "slug": "2026-05-02-tributacao-no-e-commerce-guia-completo",
+      "titulo": "Tributação no E-commerce: Guia Completo",
+      "resumo": "A tributação no e-commerce brasileiro envolve tributos federais, estaduais e municipais que variam conforme o regime tributário, o tipo de produto ou serviço vendido e o estado de destino da mercadori",
+      "tema": "Tributação no e-commerce",
+      "data_iso": "2026-05-02",
+      "data": "2 mai 2026",
+      "url": "https://ecommerce.safie.blog.br/artigos/2026-05-02-tributacao-no-e-commerce-guia-completo.html"
+    },
+    {
+      "blog": "SAFIE Fintechs",
+      "blog_slug": "fintechs",
+      "blog_url": "https://fintechs.safie.blog.br",
+      "cor": "#059669",
+      "slug": "2026-05-02-open-finance-dados-financeiros-e-compliance",
+      "titulo": "Open Finance: dados financeiros e",
+      "resumo": "O Open Finance brasileiro, regulado pelo Banco Central, estrutura o compartilhamento padronizado de dados financeiros entre instituições autorizadas mediante consentimento do cliente. Para fintechs, i",
+      "tema": "Open Finance e dados financeiros",
+      "data_iso": "2026-05-02",
+      "data": "2 mai 2026",
+      "url": "https://fintechs.safie.blog.br/artigos/2026-05-02-open-finance-dados-financeiros-e-compliance.html"
+    },
+    {
+      "blog": "SAFIE IA for Business",
+      "blog_slug": "ia",
+      "blog_url": "https://ia.safie.blog.br",
+      "cor": "#7c3aed",
+      "slug": "2026-05-02-regulacao-de-ia-no-brasil-o-que-muda-em-2026",
+      "titulo": "Regulação de IA no Brasil: o que",
+      "resumo": "A valorização de profissionais com domínio de IA, apontada pela InfoMoney, não ocorre num vácuo regulatório: o Brasil acelera a aprovação do marco legal de inteligência artificial (PL 2338/2023), que ",
+      "tema": "Regulação de IA no Brasil",
+      "data_iso": "2026-05-02",
+      "data": "2 mai 2026",
+      "url": "https://ia.safie.blog.br/artigos/2026-05-02-regulacao-de-ia-no-brasil-o-que-muda-em-2026.html"
+    },
+    {
+      "blog": "SAFIE Reforma Tributária",
+      "blog_slug": "reforma-tributaria",
+      "blog_url": "https://reformatributaria.safie.blog.br",
+      "cor": "#b8860b",
+      "slug": "2026-05-02-ibs-e-cbs-o-receita-sintonia-chega-ao-simples",
+      "titulo": "IBS e CBS: o Receita Sintonia",
+      "resumo": "O programa Receita Sintonia passou a incluir empresas do Simples Nacional pela primeira vez, ampliando o critério de 'bom contribuinte' para esse segmento. A mudança tem impacto direto na transição pa",
+      "tema": "IBS e CBS — novos tributos",
+      "data_iso": "2026-05-02",
+      "data": "2 mai 2026",
+      "url": "https://reformatributaria.safie.blog.br/artigos/2026-05-02-ibs-e-cbs-o-receita-sintonia-chega-ao-simples.html"
+    },
     {
       "blog": "SAFIE Cripto",
       "blog_slug": "cripto",
@@ -67,32 +145,6 @@
       "url": "https://reformatributaria.safie.blog.br/artigos/2026-05-01-ibs-cbs-e-simples-nacional-o-que-muda-em-2026.html"
     },
     {
-      "blog": "SAFIE Cripto",
-      "blog_slug": "cripto",
-      "blog_url": "https://cripto.safie.blog.br",
-      "cor": "#2563eb",
-      "slug": "2026-04-30-banco-central-quer-proibir-stablecoins-nao-reguladas",
-      "titulo": "Banco Central quer proibir stablecoins não",
-      "resumo": "O Banco Central do Brasil recomendou a proibição de stablecoins emitidas por empresas não regulamentadas no país, como Tether (USDT) e Circle (USDC). A medida, se implementada, afetará diretamente exc",
-      "tema": "Regulação de criptoativos no Brasil",
-      "data_iso": "2026-04-30",
-      "data": "30 abr 2026",
-      "url": "https://cripto.safie.blog.br/artigos/2026-04-30-banco-central-quer-proibir-stablecoins-nao-reguladas.html"
-    },
-    {
-      "blog": "SAFIE Cripto",
-      "blog_slug": "cripto",
-      "blog_url": "https://cripto.safie.blog.br",
-      "cor": "#2563eb",
-      "slug": "2026-04-30-regulacao-de-criptoativos-no-brasil-em-2026",
-      "titulo": "Regulação de Criptoativos no Brasil em 2026",
-      "resumo": "A história de Luana Lopes Lara, cofundadora brasileira da plataforma Kalshi e detentora de Bitcoin desde 2014, ilustra como o mercado cripto amadureceu antes da regulação formal no Brasil. A Lei 14.47",
-      "tema": "Regulação de criptoativos no Brasil",
-      "data_iso": "2026-04-30",
-      "data": "30 abr 2026",
-      "url": "https://cripto.safie.blog.br/artigos/2026-04-30-regulacao-de-criptoativos-no-brasil-em-2026.html"
-    },
-    {
       "blog": "SAFIE E-commerce",
       "blog_slug": "ecommerce",
       "blog_url": "https://ecommerce.safie.blog.br",
@@ -143,58 +195,6 @@
       "data_iso": "2026-04-30",
       "data": "30 abr 2026",
       "url": "https://reformatributaria.safie.blog.br/artigos/2026-04-30-regulamento-cbsibs-o-que-muda-para-empresas.html"
-    },
-    {
-      "blog": "SAFIE E-commerce",
-      "blog_slug": "ecommerce",
-      "blog_url": "https://ecommerce.safie.blog.br",
-      "cor": "#db2777",
-      "slug": "2026-04-29-correios-prejuizo-e-o-impacto-no-cross-border",
-      "titulo": "Correios: prejuízo e o impacto no",
-      "resumo": "O balanço prévio dos Correios aponta prejuízo de R$ 3,4 bilhões no primeiro trimestre de 2026, segundo o G1 Economia. Esse resultado coloca em evidência a fragilidade operacional da estatal que é, ain",
-      "tema": "Importação e cross-border",
-      "data_iso": "2026-04-29",
-      "data": "29 abr 2026",
-      "url": "https://ecommerce.safie.blog.br/artigos/2026-04-29-correios-prejuizo-e-o-impacto-no-cross-border.html"
-    },
-    {
-      "blog": "SAFIE Fintechs",
-      "blog_slug": "fintechs",
-      "blog_url": "https://fintechs.safie.blog.br",
-      "cor": "#059669",
-      "slug": "2026-04-29-regulacao-do-banco-central-para-fintechs-em-2026",
-      "titulo": "Regulação do Banco Central para fintechs",
-      "resumo": "O Banco Central do Brasil consolidou nos últimos anos um arcabouço regulatório robusto para fintechs, organizado principalmente por meio das Resoluções BCB e da Lei 14.286/2021. As instituições de pag",
-      "tema": "Regulação do Banco Central para fintechs",
-      "data_iso": "2026-04-29",
-      "data": "29 abr 2026",
-      "url": "https://fintechs.safie.blog.br/artigos/2026-04-29-regulacao-do-banco-central-para-fintechs-em-2026.html"
-    },
-    {
-      "blog": "SAFIE IA for Business",
-      "blog_slug": "ia",
-      "blog_url": "https://ia.safie.blog.br",
-      "cor": "#7c3aed",
-      "slug": "2026-04-29-ia-na-saude-regulacao-e-riscos-no-brasil",
-      "titulo": "IA na Saúde: Regulação e Riscos no",
-      "resumo": "Ferramentas de inteligência artificial já estão sendo usadas na assistência à saúde no Brasil, mas estudos indicam que precisão técnica não garante melhora nos resultados clínicos dos pacientes. Do po",
-      "tema": "Regulação de IA no Brasil",
-      "data_iso": "2026-04-29",
-      "data": "29 abr 2026",
-      "url": "https://ia.safie.blog.br/artigos/2026-04-29-ia-na-saude-regulacao-e-riscos-no-brasil.html"
-    },
-    {
-      "blog": "SAFIE Reforma Tributária",
-      "blog_slug": "reforma-tributaria",
-      "blog_url": "https://reformatributaria.safie.blog.br",
-      "cor": "#b8860b",
-      "slug": "2026-04-28-regulamento-do-ibs-e-cbs-aprovado-o-que-muda",
-      "titulo": "Regulamento do IBS e CBS aprovado: o que muda",
-      "resumo": "O Comitê Gestor do IBS aprovou, em abril de 2026, o regulamento infralegal que disciplina a aplicação do IBS e da CBS. A norma, elaborada por grupo técnico com representantes de estados e municípios, ",
-      "tema": "Regulamentação infralegal",
-      "data_iso": "2026-04-28",
-      "data": "28 abr 2026",
-      "url": "https://reformatributaria.safie.blog.br/artigos/2026-04-28-regulamento-do-ibs-e-cbs-aprovado-o-que-muda.html"
     }
   ]
 }
