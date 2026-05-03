@@ -1,6 +1,84 @@
 {
-  "gerado_em": "2026-05-02T14:40:22Z",
+  "gerado_em": "2026-05-03T15:06:19Z",
   "posts": [
+    {
+      "blog": "SAFIE Cripto",
+      "blog_slug": "cripto",
+      "blog_url": "https://cripto.safie.blog.br",
+      "cor": "#2563eb",
+      "slug": "2026-05-03-pl-49322023-regulacao-cripto-avanca-no-brasil",
+      "titulo": "PL 4.932/2023: regulação cripto avança no",
+      "resumo": "O PL 4.932/2023, que complementa o marco legal de criptoativos (Lei 14.478/2022), avança no Congresso com potencial de atrair investimentos institucionais ao setor. Segundo a Associação Brasileira de ",
+      "tema": "Regulação de criptoativos no Brasil",
+      "data_iso": "2026-05-03",
+      "data": "3 mai 2026",
+      "url": "https://cripto.safie.blog.br/artigos/2026-05-03-pl-49322023-regulacao-cripto-avanca-no-brasil.html"
+    },
+    {
+      "blog": "SAFIE Cripto",
+      "blog_slug": "cripto",
+      "blog_url": "https://cripto.safie.blog.br",
+      "cor": "#2563eb",
+      "slug": "2026-05-03-tokenizacao-de-ativos-anbima-inicia-fase-de-testes",
+      "titulo": "Tokenização de ativos: ANBIMA inicia fase de",
+      "resumo": "A ANBIMA iniciou em maio de 2026 a fase de testes de seu projeto-piloto de tokenização, envolvendo debêntures e cotas de fundos de investimento. A iniciativa representa um avanço concreto na regulação",
+      "tema": "Regulação de criptoativos no Brasil",
+      "data_iso": "2026-05-03",
+      "data": "3 mai 2026",
+      "url": "https://cripto.safie.blog.br/artigos/2026-05-03-tokenizacao-de-ativos-anbima-inicia-fase-de-testes.html"
+    },
+    {
+      "blog": "SAFIE E-commerce",
+      "blog_slug": "ecommerce",
+      "blog_url": "https://ecommerce.safie.blog.br",
+      "cor": "#db2777",
+      "slug": "2026-05-03-lgpd-no-e-commerce-privacidade-e-dados",
+      "titulo": "LGPD no E-commerce: Privacidade e Dados",
+      "resumo": "A LGPD impõe obrigações concretas a qualquer loja virtual que colete dados de clientes, funcionários ou visitantes. O descumprimento pode gerar multas de até 2% do faturamento, limitadas a R$ 50 milhõ",
+      "tema": "LGPD e privacidade no e-commerce",
+      "data_iso": "2026-05-03",
+      "data": "3 mai 2026",
+      "url": "https://ecommerce.safie.blog.br/artigos/2026-05-03-lgpd-no-e-commerce-privacidade-e-dados.html"
+    },
+    {
+      "blog": "SAFIE Fintechs",
+      "blog_slug": "fintechs",
+      "blog_url": "https://fintechs.safie.blog.br",
+      "cor": "#059669",
+      "slug": "2026-05-03-open-finance-e-vgblpgbl-dados-heranca-e-ir-2026",
+      "titulo": "Open Finance e VGBL/PGBL: dados, herança e",
+      "resumo": "A declaração de VGBL e PGBL recebidos por herança exige tratamento fiscal distinto conforme o tipo de plano, com regras específicas de tributação na fonte e obrigações acessórias. O Open Finance ampli",
+      "tema": "Open Finance e dados financeiros",
+      "data_iso": "2026-05-03",
+      "data": "3 mai 2026",
+      "url": "https://fintechs.safie.blog.br/artigos/2026-05-03-open-finance-e-vgblpgbl-dados-heranca-e-ir-2026.html"
+    },
+    {
+      "blog": "SAFIE IA for Business",
+      "blog_slug": "ia",
+      "blog_url": "https://ia.safie.blog.br",
+      "cor": "#7c3aed",
+      "slug": "2026-05-03-regulacao-de-ia-no-brasil-o-que-muda-em-2026",
+      "titulo": "Regulação de IA no Brasil: o que",
+      "resumo": "O Brasil avança na regulação de inteligência artificial enquanto o mercado global de robôs humanoides com IA atinge escala comercial inédita. O PL 2.338/2023, aprovado pelo Senado e em tramitação na C",
+      "tema": "Regulação de IA no Brasil",
+      "data_iso": "2026-05-03",
+      "data": "3 mai 2026",
+      "url": "https://ia.safie.blog.br/artigos/2026-05-03-regulacao-de-ia-no-brasil-o-que-muda-em-2026.html"
+    },
+    {
+      "blog": "SAFIE Reforma Tributária",
+      "blog_slug": "reforma-tributaria",
+      "blog_url": "https://reformatributaria.safie.blog.br",
+      "cor": "#b8860b",
+      "slug": "2026-05-03-transicao-2026-2033-creditos-de-piscofins-em-risco",
+      "titulo": "Transição 2026-2033: créditos de",
+      "resumo": "O CARF decidiu que a compra de ouro financeiro não gera crédito de PIS/Cofins quando o ativo é revendido como mercadoria, pois a aquisição não foi tributada pelas contribuições. A decisão reforça um r",
+      "tema": "Transição tributária (2026-2033)",
+      "data_iso": "2026-05-03",
+      "data": "3 mai 2026",
+      "url": "https://reformatributaria.safie.blog.br/artigos/2026-05-03-transicao-2026-2033-creditos-de-piscofins-em-risco.html"
+    },
     {
       "blog": "SAFIE Cripto",
       "blog_slug": "cripto",
@@ -13,19 +91,6 @@
       "data_iso": "2026-05-02",
       "data": "2 mai 2026",
       "url": "https://cripto.safie.blog.br/artigos/2026-05-02-bc-proibe-criptoativos-em-remessas-efx-no-brasil.html"
-    },
-    {
-      "blog": "SAFIE Cripto",
-      "blog_slug": "cripto",
-      "blog_url": "https://cripto.safie.blog.br",
-      "cor": "#2563eb",
-      "slug": "2026-05-02-governo-investe-r-8-mi-para-rastrear-criptoativos",
-      "titulo": "Governo investe R$ 8 mi para rastrear",
-      "resumo": "O governo federal brasileiro anunciou contratação de solução de rastreamento de criptoativos avaliada em até R$ 8 milhões, destinada a órgãos de fiscalização e investigação. A medida reforça o ambient",
-      "tema": "Regulação de criptoativos no Brasil",
-      "data_iso": "2026-05-02",
-      "data": "2 mai 2026",
-      "url": "https://cripto.safie.blog.br/artigos/2026-05-02-governo-investe-r-8-mi-para-rastrear-criptoativos.html"
     },
     {
       "blog": "SAFIE E-commerce",
@@ -80,19 +145,6 @@
       "url": "https://reformatributaria.safie.blog.br/artigos/2026-05-02-ibs-e-cbs-o-receita-sintonia-chega-ao-simples.html"
     },
     {
-      "blog": "SAFIE Cripto",
-      "blog_slug": "cripto",
-      "blog_url": "https://cripto.safie.blog.br",
-      "cor": "#2563eb",
-      "slug": "2026-05-01-criptoativos-e-eleicoes-regulacao-no-brasil",
-      "titulo": "Criptoativos e eleições: regulação no Brasil",
-      "resumo": "O Paraná Eleitoral divulgou estudo técnico recomendando a criação de regras específicas para doações em criptomoedas no financiamento de campanhas eleitorais brasileiras. A ausência de regulamentação ",
-      "tema": "Regulação de criptoativos no Brasil",
-      "data_iso": "2026-05-01",
-      "data": "1 mai 2026",
-      "url": "https://cripto.safie.blog.br/artigos/2026-05-01-criptoativos-e-eleicoes-regulacao-no-brasil.html"
-    },
-    {
       "blog": "SAFIE E-commerce",
       "blog_slug": "ecommerce",
       "blog_url": "https://ecommerce.safie.blog.br",
@@ -143,58 +195,6 @@
       "data_iso": "2026-05-01",
       "data": "1 mai 2026",
       "url": "https://reformatributaria.safie.blog.br/artigos/2026-05-01-ibs-cbs-e-simples-nacional-o-que-muda-em-2026.html"
-    },
-    {
-      "blog": "SAFIE E-commerce",
-      "blog_slug": "ecommerce",
-      "blog_url": "https://ecommerce.safie.blog.br",
-      "cor": "#db2777",
-      "slug": "2026-04-30-contratabrasil-meis-em-marketplaces-publicos",
-      "titulo": "Contrata+Brasil: MEIs em marketplaces",
-      "resumo": "O governo federal lançou o Contrata+Brasil, plataforma digital que permite a microempreendedores individuais oferecer serviços diretamente a órgãos públicos. A iniciativa cria um novo canal de vendas ",
-      "tema": "Marketplaces e plataformas digitais",
-      "data_iso": "2026-04-30",
-      "data": "30 abr 2026",
-      "url": "https://ecommerce.safie.blog.br/artigos/2026-04-30-contratabrasil-meis-em-marketplaces-publicos.html"
-    },
-    {
-      "blog": "SAFIE Fintechs",
-      "blog_slug": "fintechs",
-      "blog_url": "https://fintechs.safie.blog.br",
-      "cor": "#059669",
-      "slug": "2026-04-30-regulacao-do-banco-central-para-fintechs-em-2026",
-      "titulo": "Regulação do Banco Central para fintechs",
-      "resumo": "O Banco Central do Brasil consolidou nos últimos anos um arcabouço regulatório específico para fintechs, abrangendo Instituições de Pagamento, Sociedades de Crédito Direto e Correspondentes Digitais. ",
-      "tema": "Regulação do Banco Central para fintechs",
-      "data_iso": "2026-04-30",
-      "data": "30 abr 2026",
-      "url": "https://fintechs.safie.blog.br/artigos/2026-04-30-regulacao-do-banco-central-para-fintechs-em-2026.html"
-    },
-    {
-      "blog": "SAFIE IA for Business",
-      "blog_slug": "ia",
-      "blog_url": "https://ia.safie.blog.br",
-      "cor": "#7c3aed",
-      "slug": "2026-04-30-regulacao-de-ia-no-brasil-o-que-muda-em-2026",
-      "titulo": "Regulação de IA no Brasil: o que",
-      "resumo": "O Brasil avança na regulação de inteligência artificial com o PL 2.338/2023, aprovado pelo Senado e em tramitação na Câmara, que estabelece obrigações de transparência, responsabilidade civil e avalia",
-      "tema": "Regulação de IA no Brasil",
-      "data_iso": "2026-04-30",
-      "data": "30 abr 2026",
-      "url": "https://ia.safie.blog.br/artigos/2026-04-30-regulacao-de-ia-no-brasil-o-que-muda-em-2026.html"
-    },
-    {
-      "blog": "SAFIE Reforma Tributária",
-      "blog_slug": "reforma-tributaria",
-      "blog_url": "https://reformatributaria.safie.blog.br",
-      "cor": "#b8860b",
-      "slug": "2026-04-30-regulamento-cbsibs-o-que-muda-para-empresas",
-      "titulo": "Regulamento CBS/IBS: o que muda",
-      "resumo": "A Receita Federal e o Comitê Gestor do IBS publicaram conjuntamente o Regulamento do CBS e do IBS, inaugurando um modelo inédito de cooperação federativa na regulamentação tributária brasileira. O ato",
-      "tema": "Regulamentação infralegal",
-      "data_iso": "2026-04-30",
-      "data": "30 abr 2026",
-      "url": "https://reformatributaria.safie.blog.br/artigos/2026-04-30-regulamento-cbsibs-o-que-muda-para-empresas.html"
     }
   ]
 }
