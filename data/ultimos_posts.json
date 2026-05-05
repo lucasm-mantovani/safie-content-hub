@@ -1,6 +1,84 @@
 {
-  "gerado_em": "2026-05-04T17:17:46Z",
+  "gerado_em": "2026-05-05T17:08:20Z",
   "posts": [
+    {
+      "blog": "SAFIE Cripto",
+      "blog_slug": "cripto",
+      "blog_url": "https://cripto.safie.blog.br",
+      "cor": "#2563eb",
+      "slug": "2026-05-05-bitcoin-a-us-80-mil-como-declarar-e-pagar-ir",
+      "titulo": "Bitcoin a US$ 80 mil: como declarar e pagar",
+      "resumo": "O Bitcoin superou US$ 80 mil em 5 de maio de 2026, segundo o CoinTelegraph Brasil, elevando o valor dos portfólios de investidores brasileiros e, consequentemente, o potencial de ganho tributável. No ",
+      "tema": "Tributação de criptoativos",
+      "data_iso": "2026-05-05",
+      "data": "5 mai 2026",
+      "url": "https://cripto.safie.blog.br/artigos/2026-05-05-bitcoin-a-us-80-mil-como-declarar-e-pagar-ir.html"
+    },
+    {
+      "blog": "SAFIE Cripto",
+      "blog_slug": "cripto",
+      "blog_url": "https://cripto.safie.blog.br",
+      "cor": "#2563eb",
+      "slug": "2026-05-05-regulacao-de-criptoativos-no-brasil-em-2026",
+      "titulo": "Regulação de criptoativos no Brasil em 2026",
+      "resumo": "O token SkyAI, que integra inteligência artificial e blockchain, registrou alta de 300% em uma semana, atraindo atenção de investidores brasileiros. No Brasil, tokens com essa característica podem ser",
+      "tema": "Regulação de criptoativos no Brasil",
+      "data_iso": "2026-05-05",
+      "data": "5 mai 2026",
+      "url": "https://cripto.safie.blog.br/artigos/2026-05-05-regulacao-de-criptoativos-no-brasil-em-2026.html"
+    },
+    {
+      "blog": "SAFIE E-commerce",
+      "blog_slug": "ecommerce",
+      "blog_url": "https://ecommerce.safie.blog.br",
+      "cor": "#db2777",
+      "slug": "2026-05-05-iss-e-saneamento-basico-impacto-no-e-commerce",
+      "titulo": "ISS e Saneamento Básico: Impacto no",
+      "resumo": "A discussão sobre a cobrança do ISS em obras de saneamento básico levanta questões jurídicas relevantes para empresas que contratam serviços de infraestrutura. O tema afeta diretamente o custo de oper",
+      "tema": "Tributação no e-commerce",
+      "data_iso": "2026-05-05",
+      "data": "5 mai 2026",
+      "url": "https://ecommerce.safie.blog.br/artigos/2026-05-05-iss-e-saneamento-basico-impacto-no-e-commerce.html"
+    },
+    {
+      "blog": "SAFIE Fintechs",
+      "blog_slug": "fintechs",
+      "blog_url": "https://fintechs.safie.blog.br",
+      "cor": "#059669",
+      "slug": "2026-05-05-regulacao-do-banco-central-para-fintechs-em-2026",
+      "titulo": "Regulação do Banco Central para fintechs",
+      "resumo": "O Banco Central do Brasil mantém um conjunto estruturado de normas que disciplina a atuação das fintechs, com destaque para as categorias de Sociedade de Crédito Direto (SCD) e Sociedade de Empréstimo",
+      "tema": "Regulação do Banco Central para fintechs",
+      "data_iso": "2026-05-05",
+      "data": "5 mai 2026",
+      "url": "https://fintechs.safie.blog.br/artigos/2026-05-05-regulacao-do-banco-central-para-fintechs-em-2026.html"
+    },
+    {
+      "blog": "SAFIE IA for Business",
+      "blog_slug": "ia",
+      "blog_url": "https://ia.safie.blog.br",
+      "cor": "#7c3aed",
+      "slug": "2026-05-05-regulacao-de-ia-no-brasil-o-que-muda-em-2026",
+      "titulo": "Regulação de IA no Brasil: o que",
+      "resumo": "O Brasil caminha para consolidar seu marco legal de inteligência artificial, com o PL 2.338/2023 em estágio avançado no Congresso e a ANPD ampliando sua atuação sobre sistemas automatizados de decisão",
+      "tema": "Regulação de IA no Brasil",
+      "data_iso": "2026-05-05",
+      "data": "5 mai 2026",
+      "url": "https://ia.safie.blog.br/artigos/2026-05-05-regulacao-de-ia-no-brasil-o-que-muda-em-2026.html"
+    },
+    {
+      "blog": "SAFIE Reforma Tributária",
+      "blog_slug": "reforma-tributaria",
+      "blog_url": "https://reformatributaria.safie.blog.br",
+      "cor": "#b8860b",
+      "slug": "2026-05-05-ibs-e-cbs-entenda-os-novos-tributos-da-reforma",
+      "titulo": "IBS e CBS: entenda os novos",
+      "resumo": "A reforma tributária brasileira criou dois novos tributos sobre consumo: o IBS (Imposto sobre Bens e Serviços) e a CBS (Contribuição sobre Bens e Serviços). Ambos substituem cinco tributos existentes ",
+      "tema": "IBS e CBS — novos tributos",
+      "data_iso": "2026-05-05",
+      "data": "5 mai 2026",
+      "url": "https://reformatributaria.safie.blog.br/artigos/2026-05-05-ibs-e-cbs-entenda-os-novos-tributos-da-reforma.html"
+    },
     {
       "blog": "SAFIE Cripto",
       "blog_slug": "cripto",
@@ -13,19 +91,6 @@
       "data_iso": "2026-05-04",
       "data": "4 mai 2026",
       "url": "https://cripto.safie.blog.br/artigos/2026-05-04-tributacao-de-criptoativos-no-brasil-em-2026.html"
-    },
-    {
-      "blog": "SAFIE Cripto",
-      "blog_slug": "cripto",
-      "blog_url": "https://cripto.safie.blog.br",
-      "cor": "#2563eb",
-      "slug": "2026-05-04-regulacao-de-criptoativos-no-brasil-em-2026",
-      "titulo": "Regulação de criptoativos no Brasil em 2026",
-      "resumo": "Uma pesquisa divulgada pelo CoinTelegraph Brasil em maio de 2026 aponta que a maioria dos americanos desconfia de criptomoedas e de inteligência artificial, mesmo com o setor injetando recursos bilion",
-      "tema": "Regulação de criptoativos no Brasil",
-      "data_iso": "2026-05-04",
-      "data": "4 mai 2026",
-      "url": "https://cripto.safie.blog.br/artigos/2026-05-04-regulacao-de-criptoativos-no-brasil-em-2026.html"
     },
     {
       "blog": "SAFIE E-commerce",
@@ -80,19 +145,6 @@
       "url": "https://reformatributaria.safie.blog.br/artigos/2026-05-04-transicao-2026-2033-creditos-de-piscofins-em-risco.html"
     },
     {
-      "blog": "SAFIE Cripto",
-      "blog_slug": "cripto",
-      "blog_url": "https://cripto.safie.blog.br",
-      "cor": "#2563eb",
-      "slug": "2026-05-03-pl-49322023-regulacao-cripto-avanca-no-brasil",
-      "titulo": "PL 4.932/2023: regulação cripto avança no",
-      "resumo": "O PL 4.932/2023, que complementa o marco legal de criptoativos (Lei 14.478/2022), avança no Congresso com potencial de atrair investimentos institucionais ao setor. Segundo a Associação Brasileira de ",
-      "tema": "Regulação de criptoativos no Brasil",
-      "data_iso": "2026-05-03",
-      "data": "3 mai 2026",
-      "url": "https://cripto.safie.blog.br/artigos/2026-05-03-pl-49322023-regulacao-cripto-avanca-no-brasil.html"
-    },
-    {
       "blog": "SAFIE E-commerce",
       "blog_slug": "ecommerce",
       "blog_url": "https://ecommerce.safie.blog.br",
@@ -143,58 +195,6 @@
       "data_iso": "2026-05-03",
       "data": "3 mai 2026",
       "url": "https://reformatributaria.safie.blog.br/artigos/2026-05-03-transicao-2026-2033-creditos-de-piscofins-em-risco.html"
-    },
-    {
-      "blog": "SAFIE E-commerce",
-      "blog_slug": "ecommerce",
-      "blog_url": "https://ecommerce.safie.blog.br",
-      "cor": "#db2777",
-      "slug": "2026-05-02-tributacao-no-e-commerce-guia-completo",
-      "titulo": "Tributação no E-commerce: Guia Completo",
-      "resumo": "A tributação no e-commerce brasileiro envolve tributos federais, estaduais e municipais que variam conforme o regime tributário, o tipo de produto ou serviço vendido e o estado de destino da mercadori",
-      "tema": "Tributação no e-commerce",
-      "data_iso": "2026-05-02",
-      "data": "2 mai 2026",
-      "url": "https://ecommerce.safie.blog.br/artigos/2026-05-02-tributacao-no-e-commerce-guia-completo.html"
-    },
-    {
-      "blog": "SAFIE Fintechs",
-      "blog_slug": "fintechs",
-      "blog_url": "https://fintechs.safie.blog.br",
-      "cor": "#059669",
-      "slug": "2026-05-02-open-finance-dados-financeiros-e-compliance",
-      "titulo": "Open Finance: dados financeiros e",
-      "resumo": "O Open Finance brasileiro, regulado pelo Banco Central, estrutura o compartilhamento padronizado de dados financeiros entre instituições autorizadas mediante consentimento do cliente. Para fintechs, i",
-      "tema": "Open Finance e dados financeiros",
-      "data_iso": "2026-05-02",
-      "data": "2 mai 2026",
-      "url": "https://fintechs.safie.blog.br/artigos/2026-05-02-open-finance-dados-financeiros-e-compliance.html"
-    },
-    {
-      "blog": "SAFIE IA for Business",
-      "blog_slug": "ia",
-      "blog_url": "https://ia.safie.blog.br",
-      "cor": "#7c3aed",
-      "slug": "2026-05-02-regulacao-de-ia-no-brasil-o-que-muda-em-2026",
-      "titulo": "Regulação de IA no Brasil: o que",
-      "resumo": "A valorização de profissionais com domínio de IA, apontada pela InfoMoney, não ocorre num vácuo regulatório: o Brasil acelera a aprovação do marco legal de inteligência artificial (PL 2338/2023), que ",
-      "tema": "Regulação de IA no Brasil",
-      "data_iso": "2026-05-02",
-      "data": "2 mai 2026",
-      "url": "https://ia.safie.blog.br/artigos/2026-05-02-regulacao-de-ia-no-brasil-o-que-muda-em-2026.html"
-    },
-    {
-      "blog": "SAFIE Reforma Tributária",
-      "blog_slug": "reforma-tributaria",
-      "blog_url": "https://reformatributaria.safie.blog.br",
-      "cor": "#b8860b",
-      "slug": "2026-05-02-ibs-e-cbs-o-receita-sintonia-chega-ao-simples",
-      "titulo": "IBS e CBS: o Receita Sintonia",
-      "resumo": "O programa Receita Sintonia passou a incluir empresas do Simples Nacional pela primeira vez, ampliando o critério de 'bom contribuinte' para esse segmento. A mudança tem impacto direto na transição pa",
-      "tema": "IBS e CBS — novos tributos",
-      "data_iso": "2026-05-02",
-      "data": "2 mai 2026",
-      "url": "https://reformatributaria.safie.blog.br/artigos/2026-05-02-ibs-e-cbs-o-receita-sintonia-chega-ao-simples.html"
     }
   ]
 }
