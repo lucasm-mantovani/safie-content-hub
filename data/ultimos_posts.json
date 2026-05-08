@@ -1,6 +1,84 @@
 {
-  "gerado_em": "2026-05-07T18:01:09Z",
+  "gerado_em": "2026-05-08T16:53:28Z",
   "posts": [
+    {
+      "blog": "SAFIE Cripto",
+      "blog_slug": "cripto",
+      "blog_url": "https://cripto.safie.blog.br",
+      "cor": "#2563eb",
+      "slug": "2026-05-08-stablecoins-e-tributacao-o-que-o-bc-esta-preparando",
+      "titulo": "Stablecoins e tributação: o que o BC está",
+      "resumo": "O Banco Central do Brasil está estruturando um marco regulatório que permitirá à Receita Federal cobrar imposto sobre operações com stablecoins, tratando esses ativos de forma distinta das demais crip",
+      "tema": "Tokenização e ativos digitais",
+      "data_iso": "2026-05-08",
+      "data": "8 mai 2026",
+      "url": "https://cripto.safie.blog.br/artigos/2026-05-08-stablecoins-e-tributacao-o-que-o-bc-esta-preparando.html"
+    },
+    {
+      "blog": "SAFIE E-commerce",
+      "blog_slug": "ecommerce",
+      "blog_url": "https://ecommerce.safie.blog.br",
+      "cor": "#db2777",
+      "slug": "2026-05-08-tributacao-no-e-commerce-guia-completo",
+      "titulo": "Tributação no E-commerce: Guia Completo",
+      "resumo": "A tributação no e-commerce brasileiro envolve impostos federais, estaduais e municipais, com regras específicas para operações interestaduais e venda ao consumidor final. Conhecer cada tributo e o reg",
+      "tema": "Tributação no e-commerce",
+      "data_iso": "2026-05-08",
+      "data": "8 mai 2026",
+      "url": "https://ecommerce.safie.blog.br/artigos/2026-05-08-tributacao-no-e-commerce-guia-completo.html"
+    },
+    {
+      "blog": "SAFIE Fintechs",
+      "blog_slug": "fintechs",
+      "blog_url": "https://fintechs.safie.blog.br",
+      "cor": "#059669",
+      "slug": "2026-05-08-tributacao-de-fintechs-pgbl-e-vgbl-no-ir-2026",
+      "titulo": "Tributação de fintechs: PGBL e VGBL no IR",
+      "resumo": "A declaração de previdência privada no Imposto de Renda 2026 exige atenção redobrada de fintechs que operam produtos PGBL e VGBL, pois as regras tributárias distintas entre os dois planos impactam dir",
+      "tema": "Tributação de fintechs",
+      "data_iso": "2026-05-08",
+      "data": "8 mai 2026",
+      "url": "https://fintechs.safie.blog.br/artigos/2026-05-08-tributacao-de-fintechs-pgbl-e-vgbl-no-ir-2026.html"
+    },
+    {
+      "blog": "SAFIE IA for Business",
+      "blog_slug": "ia",
+      "blog_url": "https://ia.safie.blog.br",
+      "cor": "#7c3aed",
+      "slug": "2026-05-08-direitos-autorais-e-ia-generativa-no-brasil",
+      "titulo": "Direitos autorais e IA generativa",
+      "resumo": "A ausência de regulação específica sobre direitos autorais em obras geradas por IA cria insegurança jurídica real para empresas brasileiras que desenvolvem ou utilizam modelos generativos. A Lei 9.610",
+      "tema": "Direitos autorais e IA generativa",
+      "data_iso": "2026-05-08",
+      "data": "8 mai 2026",
+      "url": "https://ia.safie.blog.br/artigos/2026-05-08-direitos-autorais-e-ia-generativa-no-brasil.html"
+    },
+    {
+      "blog": "SAFIE IA for Business",
+      "blog_slug": "ia",
+      "blog_url": "https://ia.safie.blog.br",
+      "cor": "#7c3aed",
+      "slug": "2026-05-08-ia-e-energia-nuclear-o-que-muda-para-investidores",
+      "titulo": "IA e energia nuclear: o que muda",
+      "resumo": "O avanço da inteligência artificial impulsiona a demanda por energia nuclear como fonte de base para data centers. No Brasil, esse movimento exige atenção ao marco regulatório nuclear, às obrigações a",
+      "tema": "Investimento em IA e deep tech",
+      "data_iso": "2026-05-08",
+      "data": "8 mai 2026",
+      "url": "https://ia.safie.blog.br/artigos/2026-05-08-ia-e-energia-nuclear-o-que-muda-para-investidores.html"
+    },
+    {
+      "blog": "SAFIE Reforma Tributária",
+      "blog_slug": "reforma-tributaria",
+      "blog_url": "https://reformatributaria.safie.blog.br",
+      "cor": "#b8860b",
+      "slug": "2026-05-08-transicao-tributaria-2026-2033-o-que-muda-agora",
+      "titulo": "Transição tributária 2026-2033:",
+      "resumo": "O regulamento da reforma tributária marca o início da fase operacional do novo sistema, com CBS e IBS começando a ganhar forma prática a partir de 2026. Ainda há lacunas normativas, sistemas em matura",
+      "tema": "Transição tributária (2026-2033)",
+      "data_iso": "2026-05-08",
+      "data": "8 mai 2026",
+      "url": "https://reformatributaria.safie.blog.br/artigos/2026-05-08-transicao-tributaria-2026-2033-o-que-muda-agora.html"
+    },
     {
       "blog": "SAFIE Cripto",
       "blog_slug": "cripto",
@@ -93,19 +171,6 @@
       "url": "https://ia.safie.blog.br/artigos/2026-05-07-tributacao-de-empresas-de-ia-no-brasil-o-essencial.html"
     },
     {
-      "blog": "SAFIE IA for Business",
-      "blog_slug": "ia",
-      "blog_url": "https://ia.safie.blog.br",
-      "cor": "#7c3aed",
-      "slug": "2026-05-07-ai-act-e-regulacao-internacional-de-ia-em-2026",
-      "titulo": "AI Act e Regulação Internacional de",
-      "resumo": "O AI Act da União Europeia, em vigor desde 2024 e com obrigações escalonadas até 2027, é o primeiro marco regulatório abrangente de IA com impacto extraterritorial relevante. Empresas brasileiras que ",
-      "tema": "AI Act e regulação internacional",
-      "data_iso": "2026-05-07",
-      "data": "7 mai 2026",
-      "url": "https://ia.safie.blog.br/artigos/2026-05-07-ai-act-e-regulacao-internacional-de-ia-em-2026.html"
-    },
-    {
       "blog": "SAFIE Reforma Tributária",
       "blog_slug": "reforma-tributaria",
       "blog_url": "https://reformatributaria.safie.blog.br",
@@ -130,71 +195,6 @@
       "data_iso": "2026-05-07",
       "data": "7 mai 2026",
       "url": "https://reformatributaria.safie.blog.br/artigos/2026-05-07-imposto-seletivo-e-o-fim-da-multa-por-erro-fiscal.html"
-    },
-    {
-      "blog": "SAFIE Cripto",
-      "blog_slug": "cripto",
-      "blog_url": "https://cripto.safie.blog.br",
-      "cor": "#2563eb",
-      "slug": "2026-05-06-stablecoins-e-brasileiros-no-exterior-obrigacoes-fiscais",
-      "titulo": "Stablecoins e brasileiros no exterior:",
-      "resumo": "Um relatório citado pelo CoinTelegraph Brasil aponta que estudantes de medicina brasileiros residentes na Argentina utilizam stablecoins para movimentar recursos, contornando as limitações do sistema ",
-      "tema": "Regulação de criptoativos no Brasil",
-      "data_iso": "2026-05-06",
-      "data": "6 mai 2026",
-      "url": "https://cripto.safie.blog.br/artigos/2026-05-06-stablecoins-e-brasileiros-no-exterior-obrigacoes-fiscais.html"
-    },
-    {
-      "blog": "SAFIE E-commerce",
-      "blog_slug": "ecommerce",
-      "blog_url": "https://ecommerce.safie.blog.br",
-      "cor": "#db2777",
-      "slug": "2026-05-06-responsabilidade-tributaria-nos-marketplaces",
-      "titulo": "Responsabilidade tributária nos",
-      "resumo": "A atribuição de responsabilidade tributária às plataformas digitais representa uma mudança estrutural nas obrigações fiscais do comércio eletrônico brasileiro. Marketplaces como Mercado Livre, Shopee ",
-      "tema": "Marketplaces e plataformas digitais",
-      "data_iso": "2026-05-06",
-      "data": "6 mai 2026",
-      "url": "https://ecommerce.safie.blog.br/artigos/2026-05-06-responsabilidade-tributaria-nos-marketplaces.html"
-    },
-    {
-      "blog": "SAFIE Fintechs",
-      "blog_slug": "fintechs",
-      "blog_url": "https://fintechs.safie.blog.br",
-      "cor": "#059669",
-      "slug": "2026-05-06-regulacao-do-banco-central-para-fintechs",
-      "titulo": "Regulação do Banco Central para fintechs",
-      "resumo": "O Banco Central do Brasil estruturou um conjunto de normas específicas para fintechs, abrangendo desde o credenciamento como Instituição de Pagamento até a autorização para funcionar como Sociedade de",
-      "tema": "Regulação do Banco Central para fintechs",
-      "data_iso": "2026-05-06",
-      "data": "6 mai 2026",
-      "url": "https://fintechs.safie.blog.br/artigos/2026-05-06-regulacao-do-banco-central-para-fintechs.html"
-    },
-    {
-      "blog": "SAFIE IA for Business",
-      "blog_slug": "ia",
-      "blog_url": "https://ia.safie.blog.br",
-      "cor": "#7c3aed",
-      "slug": "2026-05-06-lgpd-e-ia-obrigacoes-reais-para-startups",
-      "titulo": "LGPD e IA: obrigações reais para",
-      "resumo": "O avanço da inteligência aplicada nas empresas brasileiras amplia a superfície de exposição à LGPD, especialmente em sistemas que coletam, processam e inferem dados pessoais de forma automatizada. A A",
-      "tema": "LGPD e proteção de dados em IA",
-      "data_iso": "2026-05-06",
-      "data": "6 mai 2026",
-      "url": "https://ia.safie.blog.br/artigos/2026-05-06-lgpd-e-ia-obrigacoes-reais-para-startups.html"
-    },
-    {
-      "blog": "SAFIE Reforma Tributária",
-      "blog_slug": "reforma-tributaria",
-      "blog_url": "https://reformatributaria.safie.blog.br",
-      "cor": "#b8860b",
-      "slug": "2026-05-06-ibs-e-cbs-entenda-os-novos-tributos-da-reforma",
-      "titulo": "IBS e CBS: entenda os novos",
-      "resumo": "A reforma tributária brasileira criou dois novos tributos, o IBS e a CBS, que substituirão cinco impostos e contribuições existentes. A transição começou em 2026 e se estende até 2033, exigindo adapta",
-      "tema": "IBS e CBS — novos tributos",
-      "data_iso": "2026-05-06",
-      "data": "6 mai 2026",
-      "url": "https://reformatributaria.safie.blog.br/artigos/2026-05-06-ibs-e-cbs-entenda-os-novos-tributos-da-reforma.html"
     }
   ]
 }
