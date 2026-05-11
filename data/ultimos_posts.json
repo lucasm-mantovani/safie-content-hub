@@ -1,6 +1,136 @@
 {
-  "gerado_em": "2026-05-10T13:38:29Z",
+  "gerado_em": "2026-05-11T15:21:03Z",
   "posts": [
+    {
+      "blog": "SAFIE Cripto",
+      "blog_slug": "cripto",
+      "blog_url": "https://cripto.safie.blog.br",
+      "cor": "#2563eb",
+      "slug": "2026-05-11-defi-e-stablecoins-riscos-e-regras-no-brasil",
+      "titulo": "DeFi e Stablecoins: riscos e regras no Brasil",
+      "resumo": "O mercado de finanças descentralizadas (DeFi) e stablecoins cresce globalmente, mas ainda opera em zona regulatória cinzenta no Brasil. A Lei 14.478/2022 estabeleceu as bases para a regulação de cript",
+      "tema": "DeFi e stablecoins",
+      "data_iso": "2026-05-11",
+      "data": "11 mai 2026",
+      "url": "https://cripto.safie.blog.br/artigos/2026-05-11-defi-e-stablecoins-riscos-e-regras-no-brasil.html"
+    },
+    {
+      "blog": "SAFIE Cripto",
+      "blog_slug": "cripto",
+      "blog_url": "https://cripto.safie.blog.br",
+      "cor": "#2563eb",
+      "slug": "2026-05-11-stablecoins-pld-e-compliance-cripto-no-brasil",
+      "titulo": "Stablecoins, PLD e compliance cripto no",
+      "resumo": "Grandes bancos norte-americanos alertaram que o projeto de lei Clarity for Payment Stablecoins Act pode criar brechas para lavagem de dinheiro via stablecoins emitidas fora do sistema bancário tradici",
+      "tema": "Compliance e PLD cripto",
+      "data_iso": "2026-05-11",
+      "data": "11 mai 2026",
+      "url": "https://cripto.safie.blog.br/artigos/2026-05-11-stablecoins-pld-e-compliance-cripto-no-brasil.html"
+    },
+    {
+      "blog": "SAFIE E-commerce",
+      "blog_slug": "ecommerce",
+      "blog_url": "https://ecommerce.safie.blog.br",
+      "cor": "#db2777",
+      "slug": "2026-05-11-tributacao-no-e-commerce-guia-completo",
+      "titulo": "Tributação no E-commerce: Guia Completo",
+      "resumo": "A tributação no e-commerce segue as mesmas bases do comércio físico, mas apresenta particularidades relevantes, especialmente no ICMS interestadual e na emissão de documentos fiscais. Conhecer as regr",
+      "tema": "Tributação no e-commerce",
+      "data_iso": "2026-05-11",
+      "data": "11 mai 2026",
+      "url": "https://ecommerce.safie.blog.br/artigos/2026-05-11-tributacao-no-e-commerce-guia-completo.html"
+    },
+    {
+      "blog": "SAFIE E-commerce",
+      "blog_slug": "ecommerce",
+      "blog_url": "https://ecommerce.safie.blog.br",
+      "cor": "#db2777",
+      "slug": "2026-05-11-importacao-cross-border-licoes-do-caso-argentina",
+      "titulo": "Importação cross-border: lições do caso",
+      "resumo": "O governo Milei reduziu barreiras para compras de argentinos no exterior como resposta à alta de preços internos, especialmente no vestuário. O episódio é um alerta para e-commerces brasileiros sobre ",
+      "tema": "Importação e cross-border",
+      "data_iso": "2026-05-11",
+      "data": "11 mai 2026",
+      "url": "https://ecommerce.safie.blog.br/artigos/2026-05-11-importacao-cross-border-licoes-do-caso-argentina.html"
+    },
+    {
+      "blog": "SAFIE Fintechs",
+      "blog_slug": "fintechs",
+      "blog_url": "https://fintechs.safie.blog.br",
+      "cor": "#059669",
+      "slug": "2026-05-11-insurtech-no-brasil-regulacao-e-oportunidades",
+      "titulo": "Insurtech no Brasil: regulação e",
+      "resumo": "O mercado de seguros digitais (insurtech) no Brasil opera sob supervisão da SUSEP e do CNSP, com regras específicas para distribuição, subscrição e gestão de riscos. A entrada de grandes grupos de tel",
+      "tema": "Seguros digitais (insurtech)",
+      "data_iso": "2026-05-11",
+      "data": "11 mai 2026",
+      "url": "https://fintechs.safie.blog.br/artigos/2026-05-11-insurtech-no-brasil-regulacao-e-oportunidades.html"
+    },
+    {
+      "blog": "SAFIE Fintechs",
+      "blog_slug": "fintechs",
+      "blog_url": "https://fintechs.safie.blog.br",
+      "cor": "#059669",
+      "slug": "2026-05-11-pagamento-agentico-o-que-muda-para-fintechs",
+      "titulo": "Pagamento Agêntico: o que muda para",
+      "resumo": "O pagamento agêntico, em que agentes de inteligência artificial executam transações financeiras de forma autônoma em nome de usuários, representa uma nova camada de complexidade regulatória para o mer",
+      "tema": "PIX e meios de pagamento",
+      "data_iso": "2026-05-11",
+      "data": "11 mai 2026",
+      "url": "https://fintechs.safie.blog.br/artigos/2026-05-11-pagamento-agentico-o-que-muda-para-fintechs.html"
+    },
+    {
+      "blog": "SAFIE IA for Business",
+      "blog_slug": "ia",
+      "blog_url": "https://ia.safie.blog.br",
+      "cor": "#7c3aed",
+      "slug": "2026-05-11-lgpd-e-protecao-de-dados-em-ia-guia-pratico",
+      "titulo": "LGPD e proteção de dados em IA:",
+      "resumo": "A LGPD (Lei nº 13.709/2018) impõe obrigações concretas a qualquer empresa que utilize dados pessoais para treinar, operar ou melhorar sistemas de inteligência artificial no Brasil. O descumprimento po",
+      "tema": "LGPD e proteção de dados em IA",
+      "data_iso": "2026-05-11",
+      "data": "11 mai 2026",
+      "url": "https://ia.safie.blog.br/artigos/2026-05-11-lgpd-e-protecao-de-dados-em-ia-guia-pratico.html"
+    },
+    {
+      "blog": "SAFIE IA for Business",
+      "blog_slug": "ia",
+      "blog_url": "https://ia.safie.blog.br",
+      "cor": "#7c3aed",
+      "slug": "2026-05-11-contratos-e-responsabilidade-civil-em-ia-no-brasil",
+      "titulo": "Contratos e responsabilidade civil",
+      "resumo": "A ausência de legislação específica sobre IA no Brasil não elimina a responsabilidade civil das empresas que desenvolvem ou implantam sistemas inteligentes. O Código Civil, o CDC e a LGPD já formam o ",
+      "tema": "Contratos e responsabilidade em IA",
+      "data_iso": "2026-05-11",
+      "data": "11 mai 2026",
+      "url": "https://ia.safie.blog.br/artigos/2026-05-11-contratos-e-responsabilidade-civil-em-ia-no-brasil.html"
+    },
+    {
+      "blog": "SAFIE Reforma Tributária",
+      "blog_slug": "reforma-tributaria",
+      "blog_url": "https://reformatributaria.safie.blog.br",
+      "cor": "#b8860b",
+      "slug": "2026-05-11-ibs-e-cbs-entenda-os-novos-tributos-da-reforma",
+      "titulo": "IBS e CBS: entenda os novos",
+      "resumo": "A EC 132/2023 criou o IBS e a CBS como os dois pilares da nova tributação sobre o consumo no Brasil. Esses tributos substituem cinco impostos atuais e seguem o modelo de IVA dual, com crédito amplo e ",
+      "tema": "IBS e CBS — novos tributos",
+      "data_iso": "2026-05-11",
+      "data": "11 mai 2026",
+      "url": "https://reformatributaria.safie.blog.br/artigos/2026-05-11-ibs-e-cbs-entenda-os-novos-tributos-da-reforma.html"
+    },
+    {
+      "blog": "SAFIE Reforma Tributária",
+      "blog_slug": "reforma-tributaria",
+      "blog_url": "https://reformatributaria.safie.blog.br",
+      "cor": "#b8860b",
+      "slug": "2026-05-11-simples-nacional-e-regimes-especiais-na-reforma",
+      "titulo": "Simples Nacional e regimes",
+      "resumo": "A reforma tributária (EC 132/2023 e LC 214/2025) traz mudanças profundas para empresas enquadradas no Simples Nacional e nos regimes especiais de tributação. Com a chegada do IBS e da CBS, o modelo de",
+      "tema": "Regimes especiais e o Simples Nacional",
+      "data_iso": "2026-05-11",
+      "data": "11 mai 2026",
+      "url": "https://reformatributaria.safie.blog.br/artigos/2026-05-11-simples-nacional-e-regimes-especiais-na-reforma.html"
+    },
     {
       "blog": "SAFIE Cripto",
       "blog_slug": "cripto",
@@ -13,19 +143,6 @@
       "data_iso": "2026-05-10",
       "data": "10 mai 2026",
       "url": "https://cripto.safie.blog.br/artigos/2026-05-10-estruturacao-societaria-de-empresas-cripto.html"
-    },
-    {
-      "blog": "SAFIE Cripto",
-      "blog_slug": "cripto",
-      "blog_url": "https://cripto.safie.blog.br",
-      "cor": "#2563eb",
-      "slug": "2026-05-10-regulacao-de-criptoativos-no-brasil-em-2026",
-      "titulo": "Regulação de criptoativos no Brasil em 2026",
-      "resumo": "O Comitê Bancário do Senado dos EUA votou a Lei CLARITY, que estabelece critérios claros para classificar criptoativos como commodities ou valores mobiliários. No Brasil, a regulação segue estruturada",
-      "tema": "Regulação de criptoativos no Brasil",
-      "data_iso": "2026-05-10",
-      "data": "10 mai 2026",
-      "url": "https://cripto.safie.blog.br/artigos/2026-05-10-regulacao-de-criptoativos-no-brasil-em-2026.html"
     },
     {
       "blog": "SAFIE E-commerce",
@@ -41,19 +158,6 @@
       "url": "https://ecommerce.safie.blog.br/artigos/2026-05-10-lgpd-no-e-commerce-obrigacoes-e-riscos.html"
     },
     {
-      "blog": "SAFIE E-commerce",
-      "blog_slug": "ecommerce",
-      "blog_url": "https://ecommerce.safie.blog.br",
-      "cor": "#db2777",
-      "slug": "2026-05-10-marketplaces-e-o-endividamento-do-consumidor",
-      "titulo": "Marketplaces e o endividamento do",
-      "resumo": "O uso intensivo de aplicativos de compra e a facilidade do parcelamento em marketplaces estão contribuindo para um ciclo de endividamento entre consumidores brasileiros. Para as plataformas digitais, ",
-      "tema": "Marketplaces e plataformas digitais",
-      "data_iso": "2026-05-10",
-      "data": "10 mai 2026",
-      "url": "https://ecommerce.safie.blog.br/artigos/2026-05-10-marketplaces-e-o-endividamento-do-consumidor.html"
-    },
-    {
       "blog": "SAFIE Fintechs",
       "blog_slug": "fintechs",
       "blog_url": "https://fintechs.safie.blog.br",
@@ -65,19 +169,6 @@
       "data_iso": "2026-05-10",
       "data": "10 mai 2026",
       "url": "https://fintechs.safie.blog.br/artigos/2026-05-10-open-finance-e-fraudes-o-que-fintechs-precisam-saber.html"
-    },
-    {
-      "blog": "SAFIE Fintechs",
-      "blog_slug": "fintechs",
-      "blog_url": "https://fintechs.safie.blog.br",
-      "cor": "#059669",
-      "slug": "2026-05-10-regulacao-do-banco-central-para-fintechs-em-2026",
-      "titulo": "Regulação do Banco Central para Fintechs",
-      "resumo": "O Banco Central do Brasil mantém um arcabouço regulatório próprio para fintechs, estruturado principalmente pelas Resoluções BCB e pela Lei 4.595/1964, com atualizações constantes via Resolução CMN 4.",
-      "tema": "Regulação do Banco Central para fintechs",
-      "data_iso": "2026-05-10",
-      "data": "10 mai 2026",
-      "url": "https://fintechs.safie.blog.br/artigos/2026-05-10-regulacao-do-banco-central-para-fintechs-em-2026.html"
     },
     {
       "blog": "SAFIE IA for Business",
@@ -93,19 +184,6 @@
       "url": "https://ia.safie.blog.br/artigos/2026-05-10-tributacao-de-empresas-de-tecnologia-e-ia.html"
     },
     {
-      "blog": "SAFIE IA for Business",
-      "blog_slug": "ia",
-      "blog_url": "https://ia.safie.blog.br",
-      "cor": "#7c3aed",
-      "slug": "2026-05-10-regulacao-de-ia-no-brasil-o-que-muda-em-2026",
-      "titulo": "Regulação de IA no Brasil: o que",
-      "resumo": "O Brasil avança na construção de um marco regulatório para inteligência artificial, com o PL 2338/2023 em tramitação no Congresso e normas setoriais já em vigor. Para empresas de IA, isso significa ob",
-      "tema": "Regulação de IA no Brasil",
-      "data_iso": "2026-05-10",
-      "data": "10 mai 2026",
-      "url": "https://ia.safie.blog.br/artigos/2026-05-10-regulacao-de-ia-no-brasil-o-que-muda-em-2026.html"
-    },
-    {
       "blog": "SAFIE Reforma Tributária",
       "blog_slug": "reforma-tributaria",
       "blog_url": "https://reformatributaria.safie.blog.br",
@@ -117,84 +195,6 @@
       "data_iso": "2026-05-10",
       "data": "10 mai 2026",
       "url": "https://reformatributaria.safie.blog.br/artigos/2026-05-10-imposto-seletivo-o-que-muda-para-empresas.html"
-    },
-    {
-      "blog": "SAFIE Reforma Tributária",
-      "blog_slug": "reforma-tributaria",
-      "blog_url": "https://reformatributaria.safie.blog.br",
-      "cor": "#b8860b",
-      "slug": "2026-05-10-imposto-seletivo-criticas-e-impacto-nas-empresas",
-      "titulo": "Imposto Seletivo: críticas e",
-      "resumo": "O professor Heleno Torres, da USP, classificou o Imposto Seletivo criado pela reforma tributária como tecnicamente mal desenhado. A crítica acende um alerta importante: empresas que lidam com produtos",
-      "tema": "IBS e CBS — novos tributos",
-      "data_iso": "2026-05-10",
-      "data": "10 mai 2026",
-      "url": "https://reformatributaria.safie.blog.br/artigos/2026-05-10-imposto-seletivo-criticas-e-impacto-nas-empresas.html"
-    },
-    {
-      "blog": "SAFIE Cripto",
-      "blog_slug": "cripto",
-      "blog_url": "https://cripto.safie.blog.br",
-      "cor": "#2563eb",
-      "slug": "2026-05-09-tributacao-de-criptoativos-no-brasil-em-2026",
-      "titulo": "Tributação de Criptoativos no Brasil em 2026",
-      "resumo": "O Banco Central do Brasil incluiu criptomoedas na pauta de sua conferência anual de 2026, sinalizando aprofundamento da agenda regulatória no país. Para investidores e empresas, isso reforça a necessi",
-      "tema": "Tributação de criptoativos",
-      "data_iso": "2026-05-09",
-      "data": "9 mai 2026",
-      "url": "https://cripto.safie.blog.br/artigos/2026-05-09-tributacao-de-criptoativos-no-brasil-em-2026.html"
-    },
-    {
-      "blog": "SAFIE E-commerce",
-      "blog_slug": "ecommerce",
-      "blog_url": "https://ecommerce.safie.blog.br",
-      "cor": "#db2777",
-      "slug": "2026-05-09-tributacao-no-e-commerce-guia-completo",
-      "titulo": "Tributação no E-commerce: Guia Completo",
-      "resumo": "A tributação no e-commerce brasileiro envolve tributos federais, estaduais e municipais que variam conforme o regime tributário, o tipo de produto e o destino da venda. Compreender essas regras é indi",
-      "tema": "Tributação no e-commerce",
-      "data_iso": "2026-05-09",
-      "data": "9 mai 2026",
-      "url": "https://ecommerce.safie.blog.br/artigos/2026-05-09-tributacao-no-e-commerce-guia-completo.html"
-    },
-    {
-      "blog": "SAFIE Fintechs",
-      "blog_slug": "fintechs",
-      "blog_url": "https://fintechs.safie.blog.br",
-      "cor": "#059669",
-      "slug": "2026-05-09-captacao-em-fintechs-risco-brasil-eua-e-o-impacto",
-      "titulo": "Captação em Fintechs: Risco Brasil-EUA e o",
-      "resumo": "A crise diplomática entre Brasil e Estados Unidos, debatida intensamente no cenário político em maio de 2026, gerou ruído no ambiente de investimentos e captação de fintechs brasileiras. Do ponto de v",
-      "tema": "Investimento e captação em fintechs",
-      "data_iso": "2026-05-09",
-      "data": "9 mai 2026",
-      "url": "https://fintechs.safie.blog.br/artigos/2026-05-09-captacao-em-fintechs-risco-brasil-eua-e-o-impacto.html"
-    },
-    {
-      "blog": "SAFIE IA for Business",
-      "blog_slug": "ia",
-      "blog_url": "https://ia.safie.blog.br",
-      "cor": "#7c3aed",
-      "slug": "2026-05-09-lgpd-e-protecao-de-dados-em-ia-guia-pratico",
-      "titulo": "LGPD e proteção de dados em IA:",
-      "resumo": "A LGPD (Lei nº 13.709/2018) se aplica integralmente ao desenvolvimento e uso de sistemas de inteligência artificial que tratam dados pessoais no Brasil. Empresas de IA precisam identificar bases legai",
-      "tema": "LGPD e proteção de dados em IA",
-      "data_iso": "2026-05-09",
-      "data": "9 mai 2026",
-      "url": "https://ia.safie.blog.br/artigos/2026-05-09-lgpd-e-protecao-de-dados-em-ia-guia-pratico.html"
-    },
-    {
-      "blog": "SAFIE Reforma Tributária",
-      "blog_slug": "reforma-tributaria",
-      "blog_url": "https://reformatributaria.safie.blog.br",
-      "cor": "#b8860b",
-      "slug": "2026-05-09-ibs-e-cbs-entenda-os-novos-tributos-da-reforma",
-      "titulo": "IBS e CBS: entenda os novos",
-      "resumo": "A reforma tributária brasileira criou dois novos tributos, o IBS e a CBS, que substituirão progressivamente cinco impostos e contribuições existentes. Ambos seguem o modelo de IVA dual, com não cumula",
-      "tema": "IBS e CBS — novos tributos",
-      "data_iso": "2026-05-09",
-      "data": "9 mai 2026",
-      "url": "https://reformatributaria.safie.blog.br/artigos/2026-05-09-ibs-e-cbs-entenda-os-novos-tributos-da-reforma.html"
     }
   ]
 }
