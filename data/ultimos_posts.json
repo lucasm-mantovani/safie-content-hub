@@ -1,6 +1,110 @@
 {
-  "gerado_em": "2026-05-21T15:37:39Z",
+  "gerado_em": "2026-05-22T14:47:42Z",
   "posts": [
+    {
+      "blog": "SAFIE Cripto",
+      "blog_slug": "cripto",
+      "blog_url": "https://cripto.safie.blog.br",
+      "cor": "#2563eb",
+      "slug": "2026-05-22-bitcoin-pizza-day-e-a-regulacao-cripto-no-brasil",
+      "titulo": "Bitcoin Pizza Day e a regulação cripto no",
+      "resumo": "Em 22 de maio de 2010, Laszlo Hanyecz pagou 10.000 BTC por duas pizzas, marcando a primeira transação comercial com Bitcoin. Dezesseis anos depois, o Brasil conta com um marco regulatório próprio para",
+      "tema": "Regulação de criptoativos no Brasil",
+      "data_iso": "2026-05-22",
+      "data": "22 mai 2026",
+      "url": "https://cripto.safie.blog.br/artigos/2026-05-22-bitcoin-pizza-day-e-a-regulacao-cripto-no-brasil.html"
+    },
+    {
+      "blog": "SAFIE E-commerce",
+      "blog_slug": "ecommerce",
+      "blog_url": "https://ecommerce.safie.blog.br",
+      "cor": "#db2777",
+      "slug": "2026-05-22-pl-do-cdc-fiscalizacao-mais-fraca-no-e-commerce",
+      "titulo": "PL do CDC: fiscalização mais fraca no",
+      "resumo": "O PL 2.766/2021, pronto para votação no Senado, altera regras do Código de Defesa do Consumidor e pode tornar menos custoso para empresas descumprir obrigações legais. O secretário da Senacon alertou ",
+      "tema": "Direito do consumidor no digital",
+      "data_iso": "2026-05-22",
+      "data": "22 mai 2026",
+      "url": "https://ecommerce.safie.blog.br/artigos/2026-05-22-pl-do-cdc-fiscalizacao-mais-fraca-no-e-commerce.html"
+    },
+    {
+      "blog": "SAFIE E-commerce",
+      "blog_slug": "ecommerce",
+      "blog_url": "https://ecommerce.safie.blog.br",
+      "cor": "#db2777",
+      "slug": "2026-05-22-lgpd-no-e-commerce-o-que-o-vazamento-do-inss-ensina",
+      "titulo": "LGPD no E-commerce: o que o vazamento do",
+      "resumo": "O vazamento de dados de segurados do INSS, comunicado à ANPD em maio de 2026, expõe um risco que não se limita ao setor público. Lojas virtuais coletam volumes consideráveis de dados pessoais e estão ",
+      "tema": "LGPD e privacidade no e-commerce",
+      "data_iso": "2026-05-22",
+      "data": "22 mai 2026",
+      "url": "https://ecommerce.safie.blog.br/artigos/2026-05-22-lgpd-no-e-commerce-o-que-o-vazamento-do-inss-ensina.html"
+    },
+    {
+      "blog": "SAFIE Fintechs",
+      "blog_slug": "fintechs",
+      "blog_url": "https://fintechs.safie.blog.br",
+      "cor": "#059669",
+      "slug": "2026-05-22-compliance-e-pld-em-fintechs-o-que-exige-a-lei",
+      "titulo": "Compliance e PLD em Fintechs: o que exige",
+      "resumo": "Fintechs brasileiras estão sujeitas a um conjunto robusto de obrigações de Prevenção à Lavagem de Dinheiro (PLD) e compliance regulatório, definidos principalmente pela Lei 9.613/1998, pelas resoluçõe",
+      "tema": "Compliance e PLD em fintechs",
+      "data_iso": "2026-05-22",
+      "data": "22 mai 2026",
+      "url": "https://fintechs.safie.blog.br/artigos/2026-05-22-compliance-e-pld-em-fintechs-o-que-exige-a-lei.html"
+    },
+    {
+      "blog": "SAFIE Fintechs",
+      "blog_slug": "fintechs",
+      "blog_url": "https://fintechs.safie.blog.br",
+      "cor": "#059669",
+      "slug": "2026-05-22-credito-digital-e-bnpl-risco-de-lavagem-de-dinheiro",
+      "titulo": "Crédito Digital e BNPL: Risco de Lavagem",
+      "resumo": "Investigações da Polícia Civil de Pernambuco apontaram que fintechs foram utilizadas para fragmentar e dissimular recursos ligados ao PCC no caso envolvendo a influenciadora Deolane Bezerra. O episódi",
+      "tema": "Crédito digital e BNPL",
+      "data_iso": "2026-05-22",
+      "data": "22 mai 2026",
+      "url": "https://fintechs.safie.blog.br/artigos/2026-05-22-credito-digital-e-bnpl-risco-de-lavagem-de-dinheiro.html"
+    },
+    {
+      "blog": "SAFIE IA for Business",
+      "blog_slug": "ia",
+      "blog_url": "https://ia.safie.blog.br",
+      "cor": "#7c3aed",
+      "slug": "2026-05-22-robbin-capta-us-108-mi-ia-e-credito-b2b-via-pix",
+      "titulo": "Robbin capta US$ 108 mi: IA e",
+      "resumo": "A Robbin captou US$ 108 milhões para expandir sua infraestrutura de crédito B2B baseada em Pix, sinalizando maturidade do mercado de fintechs com IA no Brasil. Do ponto de vista jurídico, a operação e",
+      "tema": "Investimento em IA e deep tech",
+      "data_iso": "2026-05-22",
+      "data": "22 mai 2026",
+      "url": "https://ia.safie.blog.br/artigos/2026-05-22-robbin-capta-us-108-mi-ia-e-credito-b2b-via-pix.html"
+    },
+    {
+      "blog": "SAFIE IA for Business",
+      "blog_slug": "ia",
+      "blog_url": "https://ia.safie.blog.br",
+      "cor": "#7c3aed",
+      "slug": "2026-05-22-tv-30-e-ia-regulacao-e-impactos-no-brasil",
+      "titulo": "TV 3.0 e IA: regulação e impactos",
+      "resumo": "A Empresa Brasil de Comunicação (EBC) avança com a TV 3.0, padrão que integra interatividade, dados e inteligência artificial à televisão aberta brasileira. Do ponto de vista jurídico, a iniciativa op",
+      "tema": "Regulação de IA no Brasil",
+      "data_iso": "2026-05-22",
+      "data": "22 mai 2026",
+      "url": "https://ia.safie.blog.br/artigos/2026-05-22-tv-30-e-ia-regulacao-e-impactos-no-brasil.html"
+    },
+    {
+      "blog": "SAFIE Reforma Tributária",
+      "blog_slug": "reforma-tributaria",
+      "blog_url": "https://reformatributaria.safie.blog.br",
+      "cor": "#b8860b",
+      "slug": "2026-05-22-ibs-e-cbs-entenda-os-novos-tributos-da-reforma",
+      "titulo": "IBS e CBS: entenda os novos",
+      "resumo": "A reforma tributária criou dois novos tributos sobre o consumo: o IBS (Imposto sobre Bens e Serviços) e a CBS (Contribuição sobre Bens e Serviços). Juntos, eles substituem ICMS, ISS, PIS e COFINS, alé",
+      "tema": "IBS e CBS — novos tributos",
+      "data_iso": "2026-05-22",
+      "data": "22 mai 2026",
+      "url": "https://reformatributaria.safie.blog.br/artigos/2026-05-22-ibs-e-cbs-entenda-os-novos-tributos-da-reforma.html"
+    },
     {
       "blog": "SAFIE Cripto",
       "blog_slug": "cripto",
@@ -54,19 +158,6 @@
       "url": "https://fintechs.safie.blog.br/artigos/2026-05-21-pix-e-lavagem-de-dinheiro-o-que-fintechs-devem-saber.html"
     },
     {
-      "blog": "SAFIE Fintechs",
-      "blog_slug": "fintechs",
-      "blog_url": "https://fintechs.safie.blog.br",
-      "cor": "#059669",
-      "slug": "2026-05-21-regulacao-do-banco-central-para-fintechs",
-      "titulo": "Regulação do Banco Central para Fintechs",
-      "resumo": "O Banco Central do Brasil estruturou ao longo dos últimos anos um conjunto normativo específico para fintechs, que abrange desde a autorização de funcionamento até obrigações de compliance, capital mí",
-      "tema": "Regulação do Banco Central para fintechs",
-      "data_iso": "2026-05-21",
-      "data": "21 mai 2026",
-      "url": "https://fintechs.safie.blog.br/artigos/2026-05-21-regulacao-do-banco-central-para-fintechs.html"
-    },
-    {
       "blog": "SAFIE IA for Business",
       "blog_slug": "ia",
       "blog_url": "https://ia.safie.blog.br",
@@ -78,19 +169,6 @@
       "data_iso": "2026-05-21",
       "data": "21 mai 2026",
       "url": "https://ia.safie.blog.br/artigos/2026-05-21-direitos-autorais-e-ia-generativa-no-brasil.html"
-    },
-    {
-      "blog": "SAFIE IA for Business",
-      "blog_slug": "ia",
-      "blog_url": "https://ia.safie.blog.br",
-      "cor": "#7c3aed",
-      "slug": "2026-05-21-ai-act-e-regulacao-internacional-de-ia-em-2026",
-      "titulo": "AI Act e regulação internacional de",
-      "resumo": "O AI Act europeu entrou em vigor em agosto de 2024 e aplica obrigações extraterritoriais a qualquer empresa que ofereça sistemas de IA a usuários na União Europeia, incluindo startups brasileiras. O B",
-      "tema": "AI Act e regulação internacional",
-      "data_iso": "2026-05-21",
-      "data": "21 mai 2026",
-      "url": "https://ia.safie.blog.br/artigos/2026-05-21-ai-act-e-regulacao-internacional-de-ia-em-2026.html"
     },
     {
       "blog": "SAFIE Reforma Tributária",
@@ -117,84 +195,6 @@
       "data_iso": "2026-05-21",
       "data": "21 mai 2026",
       "url": "https://reformatributaria.safie.blog.br/artigos/2026-05-21-simples-nacional-e-regimes-especiais-na-reforma.html"
-    },
-    {
-      "blog": "SAFIE Cripto",
-      "blog_slug": "cripto",
-      "blog_url": "https://cripto.safie.blog.br",
-      "cor": "#2563eb",
-      "slug": "2026-05-20-defi-e-stablecoins-no-brasil-o-que-muda-com-a-b3",
-      "titulo": "DeFi e Stablecoins no Brasil: o que muda com",
-      "resumo": "A B3 realizou o evento B3 Tokenização Day para debater tokenização, DeFi e stablecoins no mercado brasileiro, sinalizando que a bolsa oficial do país reconhece formalmente esses instrumentos como part",
-      "tema": "DeFi e stablecoins",
-      "data_iso": "2026-05-20",
-      "data": "20 mai 2026",
-      "url": "https://cripto.safie.blog.br/artigos/2026-05-20-defi-e-stablecoins-no-brasil-o-que-muda-com-a-b3.html"
-    },
-    {
-      "blog": "SAFIE E-commerce",
-      "blog_slug": "ecommerce",
-      "blog_url": "https://ecommerce.safie.blog.br",
-      "cor": "#db2777",
-      "slug": "2026-05-20-tributacao-no-e-commerce-guia-completo",
-      "titulo": "Tributação no E-commerce: Guia Completo",
-      "resumo": "A tributação no e-commerce brasileiro envolve múltiplos tributos federais, estaduais e municipais, com regras específicas para operações digitais e interestaduais. Conhecer cada obrigação fiscal é ess",
-      "tema": "Tributação no e-commerce",
-      "data_iso": "2026-05-20",
-      "data": "20 mai 2026",
-      "url": "https://ecommerce.safie.blog.br/artigos/2026-05-20-tributacao-no-e-commerce-guia-completo.html"
-    },
-    {
-      "blog": "SAFIE E-commerce",
-      "blog_slug": "ecommerce",
-      "blog_url": "https://ecommerce.safie.blog.br",
-      "cor": "#db2777",
-      "slug": "2026-05-20-marketplaces-e-lancamentos-riscos-juridicos",
-      "titulo": "Marketplaces e lançamentos: riscos",
-      "resumo": "O lançamento de um relógio Swatch em maio de 2026 gerou filas, confusão e revenda imediata em marketplaces digitais. O episódio expõe obrigações legais e contábeis que muitos vendedores desconhecem. E",
-      "tema": "Marketplaces e plataformas digitais",
-      "data_iso": "2026-05-20",
-      "data": "20 mai 2026",
-      "url": "https://ecommerce.safie.blog.br/artigos/2026-05-20-marketplaces-e-lancamentos-riscos-juridicos.html"
-    },
-    {
-      "blog": "SAFIE Fintechs",
-      "blog_slug": "fintechs",
-      "blog_url": "https://fintechs.safie.blog.br",
-      "cor": "#059669",
-      "slug": "2026-05-20-recompra-de-acoes-e-captacao-em-fintechs",
-      "titulo": "Recompra de ações e captação em fintechs",
-      "resumo": "A Movida aprovou programa de recompra de até 15% das próprias ações, operação regulada pela CVM que sinaliza gestão ativa de capital. Para fintechs em estágio de maturidade, o mecanismo é uma ferramen",
-      "tema": "Investimento e captação em fintechs",
-      "data_iso": "2026-05-20",
-      "data": "20 mai 2026",
-      "url": "https://fintechs.safie.blog.br/artigos/2026-05-20-recompra-de-acoes-e-captacao-em-fintechs.html"
-    },
-    {
-      "blog": "SAFIE IA for Business",
-      "blog_slug": "ia",
-      "blog_url": "https://ia.safie.blog.br",
-      "cor": "#7c3aed",
-      "slug": "2026-05-20-lgpd-e-ia-obrigacoes-reais-para-startups-em-2026",
-      "titulo": "LGPD e IA: obrigações reais para",
-      "resumo": "O avanço da IA corporativa no Brasil intensifica o escrutínio regulatório sobre tratamento de dados pessoais. A LGPD já se aplica a modelos de IA, coleta de dados para treinamento e decisões automatiz",
-      "tema": "LGPD e proteção de dados em IA",
-      "data_iso": "2026-05-20",
-      "data": "20 mai 2026",
-      "url": "https://ia.safie.blog.br/artigos/2026-05-20-lgpd-e-ia-obrigacoes-reais-para-startups-em-2026.html"
-    },
-    {
-      "blog": "SAFIE Reforma Tributária",
-      "blog_slug": "reforma-tributaria",
-      "blog_url": "https://reformatributaria.safie.blog.br",
-      "cor": "#b8860b",
-      "slug": "2026-05-20-ibs-e-cbs-fim-do-contencioso-tributario",
-      "titulo": "IBS e CBS: fim do contencioso",
-      "resumo": "Uma pesquisa do Insper diagnosticou o contencioso tributário brasileiro como um dos maiores do mundo, consumindo recursos, tempo e energia das empresas. A reforma tributária, com a introdução do IBS e",
-      "tema": "IBS e CBS — novos tributos",
-      "data_iso": "2026-05-20",
-      "data": "20 mai 2026",
-      "url": "https://reformatributaria.safie.blog.br/artigos/2026-05-20-ibs-e-cbs-fim-do-contencioso-tributario.html"
     }
   ]
 }
