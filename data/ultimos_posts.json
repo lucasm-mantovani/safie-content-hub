@@ -1,6 +1,97 @@
 {
-  "gerado_em": "2026-06-02T16:41:08Z",
+  "gerado_em": "2026-06-03T16:58:03Z",
   "posts": [
+    {
+      "blog": "SAFIE Cripto",
+      "blog_slug": "cripto",
+      "blog_url": "https://cripto.safie.blog.br",
+      "cor": "#2563eb",
+      "slug": "2026-06-03-tokenizacao-e-privacidade-riscos-juridicos-no-brasil",
+      "titulo": "Tokenização e privacidade: riscos jurídicos",
+      "resumo": "Especialistas debatem que a transparência nativa das blockchains públicas expõe dados financeiros de empresas e pessoas, criando riscos regulatórios e de privacidade. No Brasil, essa tensão envolve di",
+      "tema": "Tokenização e ativos digitais",
+      "data_iso": "2026-06-03",
+      "data": "3 jun 2026",
+      "url": "https://cripto.safie.blog.br/artigos/2026-06-03-tokenizacao-e-privacidade-riscos-juridicos-no-brasil.html"
+    },
+    {
+      "blog": "SAFIE E-commerce",
+      "blog_slug": "ecommerce",
+      "blog_url": "https://ecommerce.safie.blog.br",
+      "cor": "#db2777",
+      "slug": "2026-06-03-tributacao-no-e-commerce-guia-completo",
+      "titulo": "Tributação no E-commerce: Guia Completo",
+      "resumo": "A tributação no e-commerce brasileiro envolve tributos federais, estaduais e municipais que variam conforme o regime tributário, o tipo de produto ou serviço vendido e os estados de origem e destino d",
+      "tema": "Tributação no e-commerce",
+      "data_iso": "2026-06-03",
+      "data": "3 jun 2026",
+      "url": "https://ecommerce.safie.blog.br/artigos/2026-06-03-tributacao-no-e-commerce-guia-completo.html"
+    },
+    {
+      "blog": "SAFIE Fintechs",
+      "blog_slug": "fintechs",
+      "blog_url": "https://fintechs.safie.blog.br",
+      "cor": "#059669",
+      "slug": "2026-06-03-captacao-em-fintechs-licoes-do-caso-deepseek",
+      "titulo": "Captação em fintechs: lições do caso",
+      "resumo": "A DeepSeek, startup chinesa de inteligência artificial, iniciou sua primeira rodada de captação com valuation de US$ 59 bilhões, pretendendo levantar cerca de 50 bilhões de yuans. O caso evidencia com",
+      "tema": "Investimento e captação em fintechs",
+      "data_iso": "2026-06-03",
+      "data": "3 jun 2026",
+      "url": "https://fintechs.safie.blog.br/artigos/2026-06-03-captacao-em-fintechs-licoes-do-caso-deepseek.html"
+    },
+    {
+      "blog": "SAFIE Fintechs",
+      "blog_slug": "fintechs",
+      "blog_url": "https://fintechs.safie.blog.br",
+      "cor": "#059669",
+      "slug": "2026-06-03-pix-em-2026-regulacao-riscos-e-oportunidades",
+      "titulo": "PIX em 2026: regulação, riscos e",
+      "resumo": "O PIX consolidou-se como o principal meio de pagamento instantâneo do Brasil, processando mais de 60 bilhões de transações acumuladas desde seu lançamento. O Banco Central segue ampliando o escopo do ",
+      "tema": "PIX e meios de pagamento",
+      "data_iso": "2026-06-03",
+      "data": "3 jun 2026",
+      "url": "https://fintechs.safie.blog.br/artigos/2026-06-03-pix-em-2026-regulacao-riscos-e-oportunidades.html"
+    },
+    {
+      "blog": "SAFIE IA for Business",
+      "blog_slug": "ia",
+      "blog_url": "https://ia.safie.blog.br",
+      "cor": "#7c3aed",
+      "slug": "2026-06-03-investimento-em-ia-e-deep-tech-no-brasil-em-2026",
+      "titulo": "Investimento em IA e deep tech no",
+      "resumo": "O ecossistema brasileiro de startups de IA e deep tech enfrenta um paradoxo: há capital disponível, mas as exigências estruturais para captação ainda excluem a maioria dos fundadores. Juridicamente, a",
+      "tema": "Investimento em IA e deep tech",
+      "data_iso": "2026-06-03",
+      "data": "3 jun 2026",
+      "url": "https://ia.safie.blog.br/artigos/2026-06-03-investimento-em-ia-e-deep-tech-no-brasil-em-2026.html"
+    },
+    {
+      "blog": "SAFIE IA for Business",
+      "blog_slug": "ia",
+      "blog_url": "https://ia.safie.blog.br",
+      "cor": "#7c3aed",
+      "slug": "2026-06-03-lgpd-e-ia-o-que-sua-startup-precisa-saber",
+      "titulo": "LGPD e IA: o que sua startup",
+      "resumo": "O avanço das agtechs brasileiras, documentado em estudo da ABStartups com a USP, expõe um desafio regulatório central: o tratamento de dados pessoais e sensíveis em sistemas de IA agrícola ainda opera",
+      "tema": "LGPD e proteção de dados em IA",
+      "data_iso": "2026-06-03",
+      "data": "3 jun 2026",
+      "url": "https://ia.safie.blog.br/artigos/2026-06-03-lgpd-e-ia-o-que-sua-startup-precisa-saber.html"
+    },
+    {
+      "blog": "SAFIE Reforma Tributária",
+      "blog_slug": "reforma-tributaria",
+      "blog_url": "https://reformatributaria.safie.blog.br",
+      "cor": "#b8860b",
+      "slug": "2026-06-03-ibs-e-cbs-entenda-os-novos-tributos-da-reforma",
+      "titulo": "IBS e CBS: entenda os novos",
+      "resumo": "A reforma tributária brasileira, promulgada pela EC 132/2023, cria dois novos tributos sobre consumo: o IBS (Imposto sobre Bens e Serviços) e a CBS (Contribuição sobre Bens e Serviços). Juntos, eles s",
+      "tema": "IBS e CBS — novos tributos",
+      "data_iso": "2026-06-03",
+      "data": "3 jun 2026",
+      "url": "https://reformatributaria.safie.blog.br/artigos/2026-06-03-ibs-e-cbs-entenda-os-novos-tributos-da-reforma.html"
+    },
     {
       "blog": "SAFIE Cripto",
       "blog_slug": "cripto",
@@ -80,19 +171,6 @@
       "url": "https://ia.safie.blog.br/artigos/2026-06-02-ai-act-e-regulacao-internacional-de-ia-em-2026.html"
     },
     {
-      "blog": "SAFIE IA for Business",
-      "blog_slug": "ia",
-      "blog_url": "https://ia.safie.blog.br",
-      "cor": "#7c3aed",
-      "slug": "2026-06-02-lgpd-e-ia-o-que-sua-empresa-precisa-saber",
-      "titulo": "LGPD e IA: o que sua empresa",
-      "resumo": "A Lei Geral de Proteção de Dados (Lei 13.709/2018) se aplica integralmente ao desenvolvimento e à operação de sistemas de inteligência artificial que tratam dados pessoais no Brasil. Empresas de IA pr",
-      "tema": "LGPD e proteção de dados em IA",
-      "data_iso": "2026-06-02",
-      "data": "2 jun 2026",
-      "url": "https://ia.safie.blog.br/artigos/2026-06-02-lgpd-e-ia-o-que-sua-empresa-precisa-saber.html"
-    },
-    {
       "blog": "SAFIE Reforma Tributária",
       "blog_slug": "reforma-tributaria",
       "blog_url": "https://reformatributaria.safie.blog.br",
@@ -106,71 +184,6 @@
       "url": "https://reformatributaria.safie.blog.br/artigos/2026-06-02-ibs-e-cbs-entenda-os-novos-tributos-da-reforma.html"
     },
     {
-      "blog": "SAFIE Cripto",
-      "blog_slug": "cripto",
-      "blog_url": "https://cripto.safie.blog.br",
-      "cor": "#2563eb",
-      "slug": "2026-06-01-tributacao-de-criptoativos-no-brasil-guia-completo",
-      "titulo": "Tributação de Criptoativos no Brasil: Guia",
-      "resumo": "No Brasil, criptoativos são tributados pelo Imposto de Renda com alíquotas de 15% a 22,5% sobre ganho de capital, conforme a Instrução Normativa RFB nº 1.888/2019 e a Lei nº 14.478/2022. Pessoas físic",
-      "tema": "Tributação de criptoativos",
-      "data_iso": "2026-06-01",
-      "data": "1 jun 2026",
-      "url": "https://cripto.safie.blog.br/artigos/2026-06-01-tributacao-de-criptoativos-no-brasil-guia-completo.html"
-    },
-    {
-      "blog": "SAFIE E-commerce",
-      "blog_slug": "ecommerce",
-      "blog_url": "https://ecommerce.safie.blog.br",
-      "cor": "#db2777",
-      "slug": "2026-06-01-tributacao-no-e-commerce-guia-completo",
-      "titulo": "Tributação no E-commerce: Guia Completo",
-      "resumo": "A tributação no e-commerce segue as mesmas bases do comércio físico, mas apresenta particularidades importantes, especialmente na apuração do ICMS em vendas interestaduais. Conhecer os regimes tributá",
-      "tema": "Tributação no e-commerce",
-      "data_iso": "2026-06-01",
-      "data": "1 jun 2026",
-      "url": "https://ecommerce.safie.blog.br/artigos/2026-06-01-tributacao-no-e-commerce-guia-completo.html"
-    },
-    {
-      "blog": "SAFIE Fintechs",
-      "blog_slug": "fintechs",
-      "blog_url": "https://fintechs.safie.blog.br",
-      "cor": "#059669",
-      "slug": "2026-06-01-regulacao-do-banco-central-para-fintechs",
-      "titulo": "Regulação do Banco Central para fintechs",
-      "resumo": "O Banco Central do Brasil criou um arcabouço regulatório específico para fintechs, estruturado principalmente em torno das Instituições de Pagamento (IPs) e das Sociedades de Crédito Direto (SCDs) e d",
-      "tema": "Regulação do Banco Central para fintechs",
-      "data_iso": "2026-06-01",
-      "data": "1 jun 2026",
-      "url": "https://fintechs.safie.blog.br/artigos/2026-06-01-regulacao-do-banco-central-para-fintechs.html"
-    },
-    {
-      "blog": "SAFIE Fintechs",
-      "blog_slug": "fintechs",
-      "blog_url": "https://fintechs.safie.blog.br",
-      "cor": "#059669",
-      "slug": "2026-06-01-insurtech-composicao-residencial-e-precificacao-de-seguros",
-      "titulo": "Insurtech: composição residencial e",
-      "resumo": "A composição do núcleo familiar influencia diretamente a precificação de apólices de seguro residencial e de vida, prática reconhecida pelas seguradoras e regulada pela SUSEP. Para fintechs e insurtec",
-      "tema": "Seguros digitais (insurtech)",
-      "data_iso": "2026-06-01",
-      "data": "1 jun 2026",
-      "url": "https://fintechs.safie.blog.br/artigos/2026-06-01-insurtech-composicao-residencial-e-precificacao-de-seguros.html"
-    },
-    {
-      "blog": "SAFIE IA for Business",
-      "blog_slug": "ia",
-      "blog_url": "https://ia.safie.blog.br",
-      "cor": "#7c3aed",
-      "slug": "2026-06-01-lgpd-e-protecao-de-dados-em-ia-guia-pratico",
-      "titulo": "LGPD e proteção de dados em IA:",
-      "resumo": "A LGPD se aplica integralmente ao desenvolvimento e à operação de sistemas de IA que tratam dados pessoais no Brasil. Empresas de IA precisam identificar bases legais adequadas, implementar governança",
-      "tema": "LGPD e proteção de dados em IA",
-      "data_iso": "2026-06-01",
-      "data": "1 jun 2026",
-      "url": "https://ia.safie.blog.br/artigos/2026-06-01-lgpd-e-protecao-de-dados-em-ia-guia-pratico.html"
-    },
-    {
       "blog": "SAFIE Reforma Tributária",
       "blog_slug": "reforma-tributaria",
       "blog_url": "https://reformatributaria.safie.blog.br",
@@ -182,19 +195,6 @@
       "data_iso": "2026-06-01",
       "data": "1 jun 2026",
       "url": "https://reformatributaria.safie.blog.br/artigos/2026-06-01-ibs-e-cbs-entenda-os-novos-tributos-da-reforma.html"
-    },
-    {
-      "blog": "SAFIE Reforma Tributária",
-      "blog_slug": "reforma-tributaria",
-      "blog_url": "https://reformatributaria.safie.blog.br",
-      "cor": "#b8860b",
-      "slug": "2026-05-23-imposto-seletivo-o-que-muda-na-pratica",
-      "titulo": "Imposto Seletivo: o que muda na",
-      "resumo": "O Imposto Seletivo incide sobre produtos e serviços considerados prejudiciais à saúde ou ao meio ambiente, mas a Lei Complementar 214/2025 deixou imprecisões relevantes sobre seu fato gerador. Empresa",
-      "tema": "Imposto Seletivo",
-      "data_iso": "2026-05-23",
-      "data": "23 mai 2026",
-      "url": "https://reformatributaria.safie.blog.br/artigos/2026-05-23-imposto-seletivo-o-que-muda-na-pratica.html"
     }
   ]
 }
