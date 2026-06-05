@@ -1,6 +1,123 @@
 {
-  "gerado_em": "2026-06-04T15:24:28Z",
+  "gerado_em": "2026-06-05T15:13:32Z",
   "posts": [
+    {
+      "blog": "SAFIE Cripto",
+      "blog_slug": "cripto",
+      "blog_url": "https://cripto.safie.blog.br",
+      "cor": "#2563eb",
+      "slug": "2026-06-05-estruturacao-societaria-de-empresas-cripto",
+      "titulo": "Estruturação societária de empresas cripto",
+      "resumo": "A estruturação societária de empresas cripto no Brasil exige atenção à Lei 14.478/2022, às normas do Banco Central e às obrigações contábeis e fiscais específicas do setor. Escolher o tipo societário ",
+      "tema": "Estruturação societária de empresas cripto",
+      "data_iso": "2026-06-05",
+      "data": "5 jun 2026",
+      "url": "https://cripto.safie.blog.br/artigos/2026-06-05-estruturacao-societaria-de-empresas-cripto.html"
+    },
+    {
+      "blog": "SAFIE Cripto",
+      "blog_slug": "cripto",
+      "blog_url": "https://cripto.safie.blog.br",
+      "cor": "#2563eb",
+      "slug": "2026-06-05-defi-stablecoins-e-mineracao-o-que-o-brasil-precisa-saber",
+      "titulo": "DeFi, Stablecoins e Mineração: O Que o",
+      "resumo": "A retomada da mineração de bitcoin na Venezuela, impulsionada por uma reforma elétrica em discussão na Assembleia Nacional, coloca em evidência o papel das stablecoins e do DeFi como infraestrutura fi",
+      "tema": "DeFi e stablecoins",
+      "data_iso": "2026-06-05",
+      "data": "5 jun 2026",
+      "url": "https://cripto.safie.blog.br/artigos/2026-06-05-defi-stablecoins-e-mineracao-o-que-o-brasil-precisa-saber.html"
+    },
+    {
+      "blog": "SAFIE E-commerce",
+      "blog_slug": "ecommerce",
+      "blog_url": "https://ecommerce.safie.blog.br",
+      "cor": "#db2777",
+      "slug": "2026-06-05-tributacao-no-e-commerce-guia-completo",
+      "titulo": "Tributação no E-commerce: Guia Completo",
+      "resumo": "A tributação no e-commerce segue regras específicas que variam conforme o regime tributário, o tipo de produto ou serviço vendido e o destino da mercadoria. Empresas que operam lojas virtuais precisam",
+      "tema": "Tributação no e-commerce",
+      "data_iso": "2026-06-05",
+      "data": "5 jun 2026",
+      "url": "https://ecommerce.safie.blog.br/artigos/2026-06-05-tributacao-no-e-commerce-guia-completo.html"
+    },
+    {
+      "blog": "SAFIE Fintechs",
+      "blog_slug": "fintechs",
+      "blog_url": "https://fintechs.safie.blog.br",
+      "cor": "#059669",
+      "slug": "2026-06-05-insurtech-no-brasil-regulacao-e-oportunidades",
+      "titulo": "Insurtech no Brasil: regulação e",
+      "resumo": "O mercado de seguros digitais (insurtech) cresce no Brasil impulsionado pela digitalização e pela abertura regulatória promovida pela SUSEP. Fintechs que operam ou pretendem operar nesse segmento prec",
+      "tema": "Seguros digitais (insurtech)",
+      "data_iso": "2026-06-05",
+      "data": "5 jun 2026",
+      "url": "https://fintechs.safie.blog.br/artigos/2026-06-05-insurtech-no-brasil-regulacao-e-oportunidades.html"
+    },
+    {
+      "blog": "SAFIE Fintechs",
+      "blog_slug": "fintechs",
+      "blog_url": "https://fintechs.safie.blog.br",
+      "cor": "#059669",
+      "slug": "2026-06-05-open-finance-e-pagamentos-internacionais-zelle-x-pix",
+      "titulo": "Open Finance e Pagamentos Internacionais:",
+      "resumo": "Eduardo Bolsonaro sugeriu o Zelle americano como pauta de negociação entre Brasil e EUA, colocando em evidência as diferenças estruturais entre os dois sistemas de pagamento. Do ponto de vista jurídic",
+      "tema": "Open Finance e dados financeiros",
+      "data_iso": "2026-06-05",
+      "data": "5 jun 2026",
+      "url": "https://fintechs.safie.blog.br/artigos/2026-06-05-open-finance-e-pagamentos-internacionais-zelle-x-pix.html"
+    },
+    {
+      "blog": "SAFIE IA for Business",
+      "blog_slug": "ia",
+      "blog_url": "https://ia.safie.blog.br",
+      "cor": "#7c3aed",
+      "slug": "2026-06-05-ai-act-e-chips-cerebrais-o-que-muda-para-startups",
+      "titulo": "AI Act e chips cerebrais: o que",
+      "resumo": "A China aprovou o primeiro implante cerebral invasivo com chip de interface cérebro-computador (BCI) do mundo, sinalizando uma corrida regulatória global em neurotecnologia e IA de alto risco. O AI Ac",
+      "tema": "AI Act e regulação internacional",
+      "data_iso": "2026-06-05",
+      "data": "5 jun 2026",
+      "url": "https://ia.safie.blog.br/artigos/2026-06-05-ai-act-e-chips-cerebrais-o-que-muda-para-startups.html"
+    },
+    {
+      "blog": "SAFIE IA for Business",
+      "blog_slug": "ia",
+      "blog_url": "https://ia.safie.blog.br",
+      "cor": "#7c3aed",
+      "slug": "2026-06-05-contratos-e-responsabilidade-em-ia-o-que-saber",
+      "titulo": "Contratos e responsabilidade em IA:",
+      "resumo": "A ausência de cláusulas claras de responsabilidade em contratos de IA expõe fornecedores e contratantes a riscos jurídicos elevados no Brasil. O marco regulatório brasileiro ainda está em construção, ",
+      "tema": "Contratos e responsabilidade em IA",
+      "data_iso": "2026-06-05",
+      "data": "5 jun 2026",
+      "url": "https://ia.safie.blog.br/artigos/2026-06-05-contratos-e-responsabilidade-em-ia-o-que-saber.html"
+    },
+    {
+      "blog": "SAFIE Reforma Tributária",
+      "blog_slug": "reforma-tributaria",
+      "blog_url": "https://reformatributaria.safie.blog.br",
+      "cor": "#b8860b",
+      "slug": "2026-06-05-cde-nao-e-tributo-impactos-na-transicao-2026-2033",
+      "titulo": "CDE não é tributo: impactos na",
+      "resumo": "O STJ consolidou o entendimento de que a Conta de Desenvolvimento Energético (CDE) não tem natureza tributária. Essa definição impacta diretamente a base de cálculo do ICMS, PIS, Cofins, IRPJ e CSLL p",
+      "tema": "Transição tributária (2026-2033)",
+      "data_iso": "2026-06-05",
+      "data": "5 jun 2026",
+      "url": "https://reformatributaria.safie.blog.br/artigos/2026-06-05-cde-nao-e-tributo-impactos-na-transicao-2026-2033.html"
+    },
+    {
+      "blog": "SAFIE Reforma Tributária",
+      "blog_slug": "reforma-tributaria",
+      "blog_url": "https://reformatributaria.safie.blog.br",
+      "cor": "#b8860b",
+      "slug": "2026-06-05-imposto-seletivo-e-creditos-o-que-muda-para-empresas",
+      "titulo": "Imposto Seletivo e créditos: o",
+      "resumo": "A reforma tributária garante não cumulatividade ampla no IBS e na CBS, mas impõe restrições ao creditamento quando bens ou serviços são adquiridos para uso ou consumo pessoal. Para empresas que operam",
+      "tema": "Imposto Seletivo",
+      "data_iso": "2026-06-05",
+      "data": "5 jun 2026",
+      "url": "https://reformatributaria.safie.blog.br/artigos/2026-06-05-imposto-seletivo-e-creditos-o-que-muda-para-empresas.html"
+    },
     {
       "blog": "SAFIE Cripto",
       "blog_slug": "cripto",
@@ -13,19 +130,6 @@
       "data_iso": "2026-06-04",
       "data": "4 jun 2026",
       "url": "https://cripto.safie.blog.br/artigos/2026-06-04-bloqueio-de-cripto-por-embriaguez-o-que-muda.html"
-    },
-    {
-      "blog": "SAFIE Cripto",
-      "blog_slug": "cripto",
-      "blog_url": "https://cripto.safie.blog.br",
-      "cor": "#2563eb",
-      "slug": "2026-06-04-manipulacao-de-mercado-cripto-riscos-e-regulacao",
-      "titulo": "Manipulação de mercado cripto: riscos e",
-      "resumo": "George Santos, ex-deputado americano filho de brasileiros, é investigado por suposta manipulação de mercado na plataforma de apostas Kalshi. O caso acende um alerta sobre práticas ilícitas em mercados",
-      "tema": "Regulação de criptoativos no Brasil",
-      "data_iso": "2026-06-04",
-      "data": "4 jun 2026",
-      "url": "https://cripto.safie.blog.br/artigos/2026-06-04-manipulacao-de-mercado-cripto-riscos-e-regulacao.html"
     },
     {
       "blog": "SAFIE E-commerce",
@@ -67,19 +171,6 @@
       "url": "https://fintechs.safie.blog.br/artigos/2026-06-04-compliance-e-pld-em-fintechs-obrigacoes-e-riscos.html"
     },
     {
-      "blog": "SAFIE Fintechs",
-      "blog_slug": "fintechs",
-      "blog_url": "https://fintechs.safie.blog.br",
-      "cor": "#059669",
-      "slug": "2026-06-04-credito-digital-e-bnpl-riscos-e-oportunidades",
-      "titulo": "Crédito digital e BNPL: riscos e",
-      "resumo": "O crédito digital e o modelo BNPL (Buy Now, Pay Later) cresceram de forma acelerada no Brasil, mas seguem sob escrutínio regulatório crescente do Banco Central e do Conselho Monetário Nacional. A ausê",
-      "tema": "Crédito digital e BNPL",
-      "data_iso": "2026-06-04",
-      "data": "4 jun 2026",
-      "url": "https://fintechs.safie.blog.br/artigos/2026-06-04-credito-digital-e-bnpl-riscos-e-oportunidades.html"
-    },
-    {
       "blog": "SAFIE IA for Business",
       "blog_slug": "ia",
       "blog_url": "https://ia.safie.blog.br",
@@ -93,19 +184,6 @@
       "url": "https://ia.safie.blog.br/artigos/2026-06-04-tributacao-de-empresas-de-ia-no-brasil-o-que-muda.html"
     },
     {
-      "blog": "SAFIE IA for Business",
-      "blog_slug": "ia",
-      "blog_url": "https://ia.safie.blog.br",
-      "cor": "#7c3aed",
-      "slug": "2026-06-04-regulacao-de-ia-no-brasil-o-que-muda-em-2026",
-      "titulo": "Regulação de IA no Brasil: o que",
-      "resumo": "O Brasil consolida em 2026 um arcabouço regulatório para inteligência artificial, com o PL 2338/2023 em fase avançada no Congresso e normas setoriais do Banco Central e da ANPD já em vigor. Para start",
-      "tema": "Regulação de IA no Brasil",
-      "data_iso": "2026-06-04",
-      "data": "4 jun 2026",
-      "url": "https://ia.safie.blog.br/artigos/2026-06-04-regulacao-de-ia-no-brasil-o-que-muda-em-2026.html"
-    },
-    {
       "blog": "SAFIE Reforma Tributária",
       "blog_slug": "reforma-tributaria",
       "blog_url": "https://reformatributaria.safie.blog.br",
@@ -117,84 +195,6 @@
       "data_iso": "2026-06-04",
       "data": "4 jun 2026",
       "url": "https://reformatributaria.safie.blog.br/artigos/2026-06-04-ibs-e-cbs-entenda-os-novos-tributos-da-reforma.html"
-    },
-    {
-      "blog": "SAFIE Reforma Tributária",
-      "blog_slug": "reforma-tributaria",
-      "blog_url": "https://reformatributaria.safie.blog.br",
-      "cor": "#b8860b",
-      "slug": "2026-06-04-ibs-e-cbs-competencia-judicial-na-reforma-tributaria",
-      "titulo": "IBS e CBS: competência judicial",
-      "resumo": "A reforma tributária criou uma lacuna relevante: a legislação ainda não definiu com clareza qual justiça, federal ou estadual, será competente para julgar litígios envolvendo IBS e CBS. Esse vazio jur",
-      "tema": "IBS e CBS — novos tributos",
-      "data_iso": "2026-06-04",
-      "data": "4 jun 2026",
-      "url": "https://reformatributaria.safie.blog.br/artigos/2026-06-04-ibs-e-cbs-competencia-judicial-na-reforma-tributaria.html"
-    },
-    {
-      "blog": "SAFIE Cripto",
-      "blog_slug": "cripto",
-      "blog_url": "https://cripto.safie.blog.br",
-      "cor": "#2563eb",
-      "slug": "2026-06-03-tokenizacao-e-privacidade-riscos-juridicos-no-brasil",
-      "titulo": "Tokenização e privacidade: riscos jurídicos",
-      "resumo": "Especialistas debatem que a transparência nativa das blockchains públicas expõe dados financeiros de empresas e pessoas, criando riscos regulatórios e de privacidade. No Brasil, essa tensão envolve di",
-      "tema": "Tokenização e ativos digitais",
-      "data_iso": "2026-06-03",
-      "data": "3 jun 2026",
-      "url": "https://cripto.safie.blog.br/artigos/2026-06-03-tokenizacao-e-privacidade-riscos-juridicos-no-brasil.html"
-    },
-    {
-      "blog": "SAFIE E-commerce",
-      "blog_slug": "ecommerce",
-      "blog_url": "https://ecommerce.safie.blog.br",
-      "cor": "#db2777",
-      "slug": "2026-06-03-tributacao-no-e-commerce-guia-completo",
-      "titulo": "Tributação no E-commerce: Guia Completo",
-      "resumo": "A tributação no e-commerce brasileiro envolve tributos federais, estaduais e municipais que variam conforme o regime tributário, o tipo de produto ou serviço vendido e os estados de origem e destino d",
-      "tema": "Tributação no e-commerce",
-      "data_iso": "2026-06-03",
-      "data": "3 jun 2026",
-      "url": "https://ecommerce.safie.blog.br/artigos/2026-06-03-tributacao-no-e-commerce-guia-completo.html"
-    },
-    {
-      "blog": "SAFIE Fintechs",
-      "blog_slug": "fintechs",
-      "blog_url": "https://fintechs.safie.blog.br",
-      "cor": "#059669",
-      "slug": "2026-06-03-captacao-em-fintechs-licoes-do-caso-deepseek",
-      "titulo": "Captação em fintechs: lições do caso",
-      "resumo": "A DeepSeek, startup chinesa de inteligência artificial, iniciou sua primeira rodada de captação com valuation de US$ 59 bilhões, pretendendo levantar cerca de 50 bilhões de yuans. O caso evidencia com",
-      "tema": "Investimento e captação em fintechs",
-      "data_iso": "2026-06-03",
-      "data": "3 jun 2026",
-      "url": "https://fintechs.safie.blog.br/artigos/2026-06-03-captacao-em-fintechs-licoes-do-caso-deepseek.html"
-    },
-    {
-      "blog": "SAFIE IA for Business",
-      "blog_slug": "ia",
-      "blog_url": "https://ia.safie.blog.br",
-      "cor": "#7c3aed",
-      "slug": "2026-06-03-investimento-em-ia-e-deep-tech-no-brasil-em-2026",
-      "titulo": "Investimento em IA e deep tech no",
-      "resumo": "O ecossistema brasileiro de startups de IA e deep tech enfrenta um paradoxo: há capital disponível, mas as exigências estruturais para captação ainda excluem a maioria dos fundadores. Juridicamente, a",
-      "tema": "Investimento em IA e deep tech",
-      "data_iso": "2026-06-03",
-      "data": "3 jun 2026",
-      "url": "https://ia.safie.blog.br/artigos/2026-06-03-investimento-em-ia-e-deep-tech-no-brasil-em-2026.html"
-    },
-    {
-      "blog": "SAFIE Reforma Tributária",
-      "blog_slug": "reforma-tributaria",
-      "blog_url": "https://reformatributaria.safie.blog.br",
-      "cor": "#b8860b",
-      "slug": "2026-06-03-ibs-e-cbs-entenda-os-novos-tributos-da-reforma",
-      "titulo": "IBS e CBS: entenda os novos",
-      "resumo": "A reforma tributária brasileira, promulgada pela EC 132/2023, cria dois novos tributos sobre consumo: o IBS (Imposto sobre Bens e Serviços) e a CBS (Contribuição sobre Bens e Serviços). Juntos, eles s",
-      "tema": "IBS e CBS — novos tributos",
-      "data_iso": "2026-06-03",
-      "data": "3 jun 2026",
-      "url": "https://reformatributaria.safie.blog.br/artigos/2026-06-03-ibs-e-cbs-entenda-os-novos-tributos-da-reforma.html"
     }
   ]
 }
