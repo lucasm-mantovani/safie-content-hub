@@ -1,6 +1,123 @@
 {
-  "gerado_em": "2026-06-11T16:10:04Z",
+  "gerado_em": "2026-06-12T15:24:29Z",
   "posts": [
+    {
+      "blog": "SAFIE Cripto",
+      "blog_slug": "cripto",
+      "blog_url": "https://cripto.safie.blog.br",
+      "cor": "#2563eb",
+      "slug": "2026-06-12-estruturacao-societaria-de-empresas-cripto",
+      "titulo": "Estruturação societária de empresas cripto",
+      "resumo": "A tributação de criptoativos no Brasil exige planejamento societário desde o início, pois o tipo de pessoa jurídica escolhido define alíquotas, obrigações acessórias e exposição regulatória. Empresas ",
+      "tema": "Estruturação societária de empresas cripto",
+      "data_iso": "2026-06-12",
+      "data": "12 jun 2026",
+      "url": "https://cripto.safie.blog.br/artigos/2026-06-12-estruturacao-societaria-de-empresas-cripto.html"
+    },
+    {
+      "blog": "SAFIE E-commerce",
+      "blog_slug": "ecommerce",
+      "blog_url": "https://ecommerce.safie.blog.br",
+      "cor": "#db2777",
+      "slug": "2026-06-12-tributacao-no-e-commerce-guia-completo",
+      "titulo": "Tributação no E-commerce: Guia Completo",
+      "resumo": "A tributação no e-commerce segue as mesmas regras gerais do comércio físico, mas apresenta particularidades importantes, especialmente nas operações interestaduais e na incidência do DIFAL. Conhecer o",
+      "tema": "Tributação no e-commerce",
+      "data_iso": "2026-06-12",
+      "data": "12 jun 2026",
+      "url": "https://ecommerce.safie.blog.br/artigos/2026-06-12-tributacao-no-e-commerce-guia-completo.html"
+    },
+    {
+      "blog": "SAFIE E-commerce",
+      "blog_slug": "ecommerce",
+      "blog_url": "https://ecommerce.safie.blog.br",
+      "cor": "#db2777",
+      "slug": "2026-06-12-lgpd-no-e-commerce-o-que-muda-com-os-decretos",
+      "titulo": "LGPD no e-commerce: o que muda com os",
+      "resumo": "O STF consolidou o direito à proteção de dados como fundamental, e o governo federal editou decretos para regulamentar essa decisão. Para o e-commerce, isso significa que as obrigações da LGPD continu",
+      "tema": "LGPD e privacidade no e-commerce",
+      "data_iso": "2026-06-12",
+      "data": "12 jun 2026",
+      "url": "https://ecommerce.safie.blog.br/artigos/2026-06-12-lgpd-no-e-commerce-o-que-muda-com-os-decretos.html"
+    },
+    {
+      "blog": "SAFIE Fintechs",
+      "blog_slug": "fintechs",
+      "blog_url": "https://fintechs.safie.blog.br",
+      "cor": "#059669",
+      "slug": "2026-06-12-insurtech-no-brasil-seguros-digitais-em-2026",
+      "titulo": "Insurtech no Brasil: seguros digitais em",
+      "resumo": "O mercado de insurtech brasileiro cresce apoiado em regulamentação da SUSEP e na digitalização de produtos securitários. Para fintechs, distribuir ou operar seguros digitais exige enquadramento regula",
+      "tema": "Seguros digitais (insurtech)",
+      "data_iso": "2026-06-12",
+      "data": "12 jun 2026",
+      "url": "https://fintechs.safie.blog.br/artigos/2026-06-12-insurtech-no-brasil-seguros-digitais-em-2026.html"
+    },
+    {
+      "blog": "SAFIE Fintechs",
+      "blog_slug": "fintechs",
+      "blog_url": "https://fintechs.safie.blog.br",
+      "cor": "#059669",
+      "slug": "2026-06-12-open-finance-dados-financeiros-e-governanca",
+      "titulo": "Open Finance: dados financeiros e",
+      "resumo": "O Open Finance brasileiro, regulado pelo Banco Central, estrutura o compartilhamento de dados financeiros entre instituições autorizadas com base no consentimento do titular. A LGPD e as Resoluções BC",
+      "tema": "Open Finance e dados financeiros",
+      "data_iso": "2026-06-12",
+      "data": "12 jun 2026",
+      "url": "https://fintechs.safie.blog.br/artigos/2026-06-12-open-finance-dados-financeiros-e-governanca.html"
+    },
+    {
+      "blog": "SAFIE IA for Business",
+      "blog_slug": "ia",
+      "blog_url": "https://ia.safie.blog.br",
+      "cor": "#7c3aed",
+      "slug": "2026-06-12-contratos-e-responsabilidade-em-ia-o-que-sua-empresa-deve-saber",
+      "titulo": "Contratos e responsabilidade em IA:",
+      "resumo": "A ausência de cláusulas específicas sobre responsabilidade em contratos de sistemas de IA expõe empresas a riscos jurídicos relevantes no Brasil. O Código Civil, a LGPD e o Marco Legal da IA em tramit",
+      "tema": "Contratos e responsabilidade em IA",
+      "data_iso": "2026-06-12",
+      "data": "12 jun 2026",
+      "url": "https://ia.safie.blog.br/artigos/2026-06-12-contratos-e-responsabilidade-em-ia-o-que-sua-empresa-deve-saber.html"
+    },
+    {
+      "blog": "SAFIE IA for Business",
+      "blog_slug": "ia",
+      "blog_url": "https://ia.safie.blog.br",
+      "cor": "#7c3aed",
+      "slug": "2026-06-12-ia-no-trabalho-riscos-trabalhistas-ao-escalar-rapido",
+      "titulo": "IA no trabalho: riscos trabalhistas",
+      "resumo": "Startups que crescem rápido sem alinhar processos de gestão de pessoas acumulam passivos trabalhistas silenciosos, especialmente quando adotam IA para automatizar funções antes exercidas por humanos. ",
+      "tema": "IA no trabalho e questões trabalhistas",
+      "data_iso": "2026-06-12",
+      "data": "12 jun 2026",
+      "url": "https://ia.safie.blog.br/artigos/2026-06-12-ia-no-trabalho-riscos-trabalhistas-ao-escalar-rapido.html"
+    },
+    {
+      "blog": "SAFIE Reforma Tributária",
+      "blog_slug": "reforma-tributaria",
+      "blog_url": "https://reformatributaria.safie.blog.br",
+      "cor": "#b8860b",
+      "slug": "2026-06-12-regulamentacao-infralegal-do-ibs-e-cbs-riscos-reais",
+      "titulo": "Regulamentação infralegal do IBS",
+      "resumo": "Os regulamentos infralegais de CBS e IBS foram publicados com mais de 600 artigos cada, concluindo a primeira camada normativa da reforma tributária. O detalhamento inclui regimes específicos, partes ",
+      "tema": "Regulamentação infralegal",
+      "data_iso": "2026-06-12",
+      "data": "12 jun 2026",
+      "url": "https://reformatributaria.safie.blog.br/artigos/2026-06-12-regulamentacao-infralegal-do-ibs-e-cbs-riscos-reais.html"
+    },
+    {
+      "blog": "SAFIE Reforma Tributária",
+      "blog_slug": "reforma-tributaria",
+      "blog_url": "https://reformatributaria.safie.blog.br",
+      "cor": "#b8860b",
+      "slug": "2026-06-12-ibs-e-cbs-entenda-os-novos-tributos-da-reforma",
+      "titulo": "IBS e CBS: entenda os novos",
+      "resumo": "A reforma tributária brasileira criou dois novos tributos, o IBS e a CBS, que substituirão cinco tributos existentes ao longo de um período de transição até 2033. Ambos seguem o modelo de IVA dual, co",
+      "tema": "IBS e CBS — novos tributos",
+      "data_iso": "2026-06-12",
+      "data": "12 jun 2026",
+      "url": "https://reformatributaria.safie.blog.br/artigos/2026-06-12-ibs-e-cbs-entenda-os-novos-tributos-da-reforma.html"
+    },
     {
       "blog": "SAFIE Cripto",
       "blog_slug": "cripto",
@@ -41,19 +158,6 @@
       "url": "https://ecommerce.safie.blog.br/artigos/2026-06-11-tributacao-no-e-commerce-guia-completo.html"
     },
     {
-      "blog": "SAFIE E-commerce",
-      "blog_slug": "ecommerce",
-      "blog_url": "https://ecommerce.safie.blog.br",
-      "cor": "#db2777",
-      "slug": "2026-06-11-direito-do-consumidor-no-e-commerce",
-      "titulo": "Direito do consumidor no e-commerce",
-      "resumo": "As reclamações sobre figurinhas e álbuns da Copa do Mundo 2026 no Procon-SP expõem falhas recorrentes no comércio digital, como não entrega, cobranças indevidas e produtos distintos do anunciado. O Có",
-      "tema": "Direito do consumidor no digital",
-      "data_iso": "2026-06-11",
-      "data": "11 jun 2026",
-      "url": "https://ecommerce.safie.blog.br/artigos/2026-06-11-direito-do-consumidor-no-e-commerce.html"
-    },
-    {
       "blog": "SAFIE Fintechs",
       "blog_slug": "fintechs",
       "blog_url": "https://fintechs.safie.blog.br",
@@ -65,19 +169,6 @@
       "data_iso": "2026-06-11",
       "data": "11 jun 2026",
       "url": "https://fintechs.safie.blog.br/artigos/2026-06-11-captacao-em-fintechs-licoes-de-ofertas-de-acoes.html"
-    },
-    {
-      "blog": "SAFIE Fintechs",
-      "blog_slug": "fintechs",
-      "blog_url": "https://fintechs.safie.blog.br",
-      "cor": "#059669",
-      "slug": "2026-06-11-tributacao-de-fintechs-e-o-pix-pensao",
-      "titulo": "Tributação de Fintechs e o Pix Pensão",
-      "resumo": "A CCJ do Senado aprovou em 2026 o projeto que cria o Pix Pensão, mecanismo de bloqueio automático de valores para pagamento de pensão alimentícia via Pix. Para fintechs, a novidade traz obrigações ope",
-      "tema": "Tributação de fintechs",
-      "data_iso": "2026-06-11",
-      "data": "11 jun 2026",
-      "url": "https://fintechs.safie.blog.br/artigos/2026-06-11-tributacao-de-fintechs-e-o-pix-pensao.html"
     },
     {
       "blog": "SAFIE IA for Business",
@@ -93,19 +184,6 @@
       "url": "https://ia.safie.blog.br/artigos/2026-06-11-gargalo-em-engenharia-ameaca-startups-de-ia-no-brasil.html"
     },
     {
-      "blog": "SAFIE IA for Business",
-      "blog_slug": "ia",
-      "blog_url": "https://ia.safie.blog.br",
-      "cor": "#7c3aed",
-      "slug": "2026-06-11-tributacao-de-data-centers-e-ia-no-brasil",
-      "titulo": "Tributação de Data Centers e IA no",
-      "resumo": "O Brasil reúne condições únicas para liderar a infraestrutura global de data centers sustentáveis, especialmente pela abundância de energia renovável. Para empresas de IA, isso cria oportunidades conc",
-      "tema": "Tributação de empresas de tecnologia e IA",
-      "data_iso": "2026-06-11",
-      "data": "11 jun 2026",
-      "url": "https://ia.safie.blog.br/artigos/2026-06-11-tributacao-de-data-centers-e-ia-no-brasil.html"
-    },
-    {
       "blog": "SAFIE Reforma Tributária",
       "blog_slug": "reforma-tributaria",
       "blog_url": "https://reformatributaria.safie.blog.br",
@@ -117,84 +195,6 @@
       "data_iso": "2026-06-11",
       "data": "11 jun 2026",
       "url": "https://reformatributaria.safie.blog.br/artigos/2026-06-11-funrural-e-reforma-tributaria-o-que-muda-no-agro.html"
-    },
-    {
-      "blog": "SAFIE Reforma Tributária",
-      "blog_slug": "reforma-tributaria",
-      "blog_url": "https://reformatributaria.safie.blog.br",
-      "cor": "#b8860b",
-      "slug": "2026-06-11-ibs-e-cbs-impacto-real-no-setor-aereo",
-      "titulo": "IBS e CBS: impacto real no setor",
-      "resumo": "Jerome Cadier, CEO da Latam no Brasil, afirmou que a reforma tributária deve aumentar o custo das passagens aéreas. O alerta expõe um problema estrutural: o setor aéreo tem características que dificul",
-      "tema": "IBS e CBS — novos tributos",
-      "data_iso": "2026-06-11",
-      "data": "11 jun 2026",
-      "url": "https://reformatributaria.safie.blog.br/artigos/2026-06-11-ibs-e-cbs-impacto-real-no-setor-aereo.html"
-    },
-    {
-      "blog": "SAFIE Cripto",
-      "blog_slug": "cripto",
-      "blog_url": "https://cripto.safie.blog.br",
-      "cor": "#2563eb",
-      "slug": "2026-06-10-regulacao-de-criptoativos-no-brasil-em-2026",
-      "titulo": "Regulação de criptoativos no Brasil em 2026",
-      "resumo": "Luana Lopes Lara, fundadora da Kalshi, afirmou que proibir mercados de criptoativos é a pior escolha regulatória possível, pois elimina arrecadação tributária, remove proteção ao consumidor e apaga o ",
-      "tema": "Regulação de criptoativos no Brasil",
-      "data_iso": "2026-06-10",
-      "data": "10 jun 2026",
-      "url": "https://cripto.safie.blog.br/artigos/2026-06-10-regulacao-de-criptoativos-no-brasil-em-2026.html"
-    },
-    {
-      "blog": "SAFIE E-commerce",
-      "blog_slug": "ecommerce",
-      "blog_url": "https://ecommerce.safie.blog.br",
-      "cor": "#db2777",
-      "slug": "2026-06-10-importacao-cross-border-regras-e-riscos-no-brasil",
-      "titulo": "Importação Cross-Border: Regras e Riscos",
-      "resumo": "O comércio cross-border envolve obrigações fiscais e aduaneiras específicas que muitos lojistas brasileiros desconhecem. A instabilidade política e econômica em países fornecedores, como o México, afe",
-      "tema": "Importação e cross-border",
-      "data_iso": "2026-06-10",
-      "data": "10 jun 2026",
-      "url": "https://ecommerce.safie.blog.br/artigos/2026-06-10-importacao-cross-border-regras-e-riscos-no-brasil.html"
-    },
-    {
-      "blog": "SAFIE Fintechs",
-      "blog_slug": "fintechs",
-      "blog_url": "https://fintechs.safie.blog.br",
-      "cor": "#059669",
-      "slug": "2026-06-10-credito-digital-e-bnpl-regulacao-e-riscos-no-brasil",
-      "titulo": "Crédito Digital e BNPL: Regulação e Riscos",
-      "resumo": "O modelo Buy Now, Pay Later (BNPL) cresce no Brasil, mas opera em zona de atenção regulatória crescente do Banco Central e do BACEN. Fintechs que oferecem crédito parcelado sem cobrar juros explícitos",
-      "tema": "Crédito digital e BNPL",
-      "data_iso": "2026-06-10",
-      "data": "10 jun 2026",
-      "url": "https://fintechs.safie.blog.br/artigos/2026-06-10-credito-digital-e-bnpl-regulacao-e-riscos-no-brasil.html"
-    },
-    {
-      "blog": "SAFIE IA for Business",
-      "blog_slug": "ia",
-      "blog_url": "https://ia.safie.blog.br",
-      "cor": "#7c3aed",
-      "slug": "2026-06-10-regulacao-de-ia-no-brasil-o-que-muda-em-2026",
-      "titulo": "Regulação de IA no Brasil: o que",
-      "resumo": "O Brasil caminha para consolidar seu marco legal de inteligência artificial, com o PL 2.338/2023 em estágio avançado no Congresso e a ANPD ampliando sua atuação sobre sistemas automatizados. Para empr",
-      "tema": "Regulação de IA no Brasil",
-      "data_iso": "2026-06-10",
-      "data": "10 jun 2026",
-      "url": "https://ia.safie.blog.br/artigos/2026-06-10-regulacao-de-ia-no-brasil-o-que-muda-em-2026.html"
-    },
-    {
-      "blog": "SAFIE Reforma Tributária",
-      "blog_slug": "reforma-tributaria",
-      "blog_url": "https://reformatributaria.safie.blog.br",
-      "cor": "#b8860b",
-      "slug": "2026-06-10-grupos-economicos-e-o-ibs-creditos-em-risco",
-      "titulo": "Grupos econômicos e o IBS:",
-      "resumo": "A reforma tributária impõe a não cumulatividade plena como regra, mas grupos econômicos com operações internas podem enfrentar restrições ao aproveitamento de créditos de IBS e CBS. O modelo europeu d",
-      "tema": "Compliance e adaptação das empresas",
-      "data_iso": "2026-06-10",
-      "data": "10 jun 2026",
-      "url": "https://reformatributaria.safie.blog.br/artigos/2026-06-10-grupos-economicos-e-o-ibs-creditos-em-risco.html"
     }
   ]
 }
