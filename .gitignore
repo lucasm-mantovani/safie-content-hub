@@ -15,3 +15,6 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Artefatos de design (não versionar — fonte em _design-archive local)
+_design-archive/

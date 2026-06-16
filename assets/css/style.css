@@ -816,3 +816,28 @@ img {
     text-align: center;
   }
 }
+
+/* ============================================
+   Adoção de identidade v3 (16/06/2026)
+   Só sobrepõe tipografia/foco/logo — NÃO reescreve os componentes.
+   ============================================ */
+h1, h2, h3, h4,
+.logo-marca, .secao-kicker, .card-blog-nome {
+  font-family: var(--fonte-display);
+}
+.hero em {
+  font-family: var(--fonte-serif);
+  font-style: italic;
+}
+/* foco: sem ring do navegador em clique/navegação; ring só no teclado (a11y) */
+:focus { outline: none; }
+:focus-visible { outline: 2px solid var(--azul); outline-offset: 3px; border-radius: 2px; }
+/* logo SVG (gorila) no header/footer */
+.logo { flex-direction: row; align-items: center; gap: 14px; }   /* era column; agora img + identificador lado a lado */
+.logo-img { height: 26px; width: auto; display: block; }
+.blog-id {
+  font-family: var(--fonte-display); font-weight: 500; font-size: 0.95rem;
+  color: var(--azul); align-self: center;
+}
+/* CNPJs no footer (requisito legal — padrão dos 5 blogs) */
+.footer-cnpjs { display: flex; flex-direction: column; gap: 4px; margin: 16px 0; font-size: 0.78rem; color: var(--cinza); line-height: 1.5; }
