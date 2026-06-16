@@ -1,6 +1,84 @@
 {
-  "gerado_em": "2026-06-15T17:19:55Z",
+  "gerado_em": "2026-06-16T17:02:55Z",
   "posts": [
+    {
+      "blog": "SAFIE Cripto",
+      "blog_slug": "cripto",
+      "blog_url": "https://cripto.safie.blog.br",
+      "cor": "#2563eb",
+      "slug": "2026-06-16-tokenizacao-de-ipos-o-caso-spacex-na-hyperliquid",
+      "titulo": "Tokenização de IPOs: o caso SpaceX na",
+      "resumo": "A Hyperliquid registrou volume de US$ 1,4 bilhão em derivativos tokenizados vinculados ao IPO da SpaceX, sinalizando a expansão da tokenização de ativos do mercado tradicional em plataformas descentra",
+      "tema": "Tokenização e ativos digitais",
+      "data_iso": "2026-06-16",
+      "data": "16 jun 2026",
+      "url": "https://cripto.safie.blog.br/artigos/2026-06-16-tokenizacao-de-ipos-o-caso-spacex-na-hyperliquid.html"
+    },
+    {
+      "blog": "SAFIE Cripto",
+      "blog_slug": "cripto",
+      "blog_url": "https://cripto.safie.blog.br",
+      "cor": "#2563eb",
+      "slug": "2026-06-16-pld-cripto-banimento-de-privacy-coins-nas-filipinas",
+      "titulo": "PLD Cripto: banimento de privacy coins nas",
+      "resumo": "O Banco Central das Filipinas (BSP) publicou novas regras que proíbem a listagem de privacy coins em exchanges reguladas e impõem critérios mais rígidos para aprovação de qualquer criptoativo. A medid",
+      "tema": "Compliance e PLD cripto",
+      "data_iso": "2026-06-16",
+      "data": "16 jun 2026",
+      "url": "https://cripto.safie.blog.br/artigos/2026-06-16-pld-cripto-banimento-de-privacy-coins-nas-filipinas.html"
+    },
+    {
+      "blog": "SAFIE E-commerce",
+      "blog_slug": "ecommerce",
+      "blog_url": "https://ecommerce.safie.blog.br",
+      "cor": "#db2777",
+      "slug": "2026-06-16-tributacao-de-compras-internacionais-muda-em-2027",
+      "titulo": "Tributação de compras internacionais",
+      "resumo": "A partir de 2027, compras internacionais de baixo valor voltarão a ser tributadas no Brasil, mas sob um novo modelo: o IBS substituirá o Imposto de Importação atual, com alíquota e base de cálculo dis",
+      "tema": "Importação e cross-border",
+      "data_iso": "2026-06-16",
+      "data": "16 jun 2026",
+      "url": "https://ecommerce.safie.blog.br/artigos/2026-06-16-tributacao-de-compras-internacionais-muda-em-2027.html"
+    },
+    {
+      "blog": "SAFIE Fintechs",
+      "blog_slug": "fintechs",
+      "blog_url": "https://fintechs.safie.blog.br",
+      "cor": "#059669",
+      "slug": "2026-06-16-pix-em-2026-regulacao-tarifas-e-o-futuro",
+      "titulo": "PIX em 2026: regulação, tarifas e o futuro",
+      "resumo": "O PIX consolidou-se como o principal instrumento de pagamento instantâneo do Brasil, com mais de 250 milhões de chaves cadastradas e volume transacionado superior a R$ 20 trilhões em 2025. O ambiente ",
+      "tema": "PIX e meios de pagamento",
+      "data_iso": "2026-06-16",
+      "data": "16 jun 2026",
+      "url": "https://fintechs.safie.blog.br/artigos/2026-06-16-pix-em-2026-regulacao-tarifas-e-o-futuro.html"
+    },
+    {
+      "blog": "SAFIE IA for Business",
+      "blog_slug": "ia",
+      "blog_url": "https://ia.safie.blog.br",
+      "cor": "#7c3aed",
+      "slug": "2026-06-16-ai-act-e-o-cenario-regulatorio-global-de-ia-em-2026",
+      "titulo": "AI Act e o cenário regulatório",
+      "resumo": "A desaceleração econômica da China, com queda inédita no varejo em mais de três anos registrada em junho de 2026, reorienta o mapa global de investimentos em tecnologia e IA. No plano regulatório, o A",
+      "tema": "AI Act e regulação internacional",
+      "data_iso": "2026-06-16",
+      "data": "16 jun 2026",
+      "url": "https://ia.safie.blog.br/artigos/2026-06-16-ai-act-e-o-cenario-regulatorio-global-de-ia-em-2026.html"
+    },
+    {
+      "blog": "SAFIE Reforma Tributária",
+      "blog_slug": "reforma-tributaria",
+      "blog_url": "https://reformatributaria.safie.blog.br",
+      "cor": "#b8860b",
+      "slug": "2026-06-16-bonificacoes-e-piscofins-o-que-muda-com-o-tema-1412",
+      "titulo": "Bonificações e PIS/Cofins: o que",
+      "resumo": "O STJ analisa no Tema 1.412 se bonificações e descontos concedidos por fornecedores integram a base de cálculo do PIS/Cofins do adquirente. A decisão afeta empresas de varejo, distribuição e indústria",
+      "tema": "Transição tributária (2026-2033)",
+      "data_iso": "2026-06-16",
+      "data": "16 jun 2026",
+      "url": "https://reformatributaria.safie.blog.br/artigos/2026-06-16-bonificacoes-e-piscofins-o-que-muda-com-o-tema-1412.html"
+    },
     {
       "blog": "SAFIE Cripto",
       "blog_slug": "cripto",
@@ -13,19 +91,6 @@
       "data_iso": "2026-06-15",
       "data": "15 jun 2026",
       "url": "https://cripto.safie.blog.br/artigos/2026-06-15-estruturacao-societaria-de-empresas-cripto.html"
-    },
-    {
-      "blog": "SAFIE Cripto",
-      "blog_slug": "cripto",
-      "blog_url": "https://cripto.safie.blog.br",
-      "cor": "#2563eb",
-      "slug": "2026-06-15-defi-e-stablecoins-o-que-muda-para-o-brasil",
-      "titulo": "DeFi e Stablecoins: o que muda para o Brasil",
-      "resumo": "Um relatório da gestora americana Bitwise indica que assessores financeiros estão deslocando sua atenção do Bitcoin para stablecoins e ativos tokenizados. No Brasil, esse movimento colide com um ambie",
-      "tema": "DeFi e stablecoins",
-      "data_iso": "2026-06-15",
-      "data": "15 jun 2026",
-      "url": "https://cripto.safie.blog.br/artigos/2026-06-15-defi-e-stablecoins-o-que-muda-para-o-brasil.html"
     },
     {
       "blog": "SAFIE E-commerce",
@@ -130,71 +195,6 @@
       "data_iso": "2026-06-15",
       "data": "15 jun 2026",
       "url": "https://reformatributaria.safie.blog.br/artigos/2026-06-15-ibs-e-cbs-o-que-sao-os-novos-tributos.html"
-    },
-    {
-      "blog": "SAFIE Cripto",
-      "blog_slug": "cripto",
-      "blog_url": "https://cripto.safie.blog.br",
-      "cor": "#2563eb",
-      "slug": "2026-06-14-tributacao-de-criptoativos-no-brasil-em-2026",
-      "titulo": "Tributação de Criptoativos no Brasil em 2026",
-      "resumo": "Brad Garlinghouse, CEO da Ripple, criticou publicamente Jamie Dimon, do JPMorgan, por se opor à legislação cripto nos EUA, acusando-o de defender interesses corporativos em detrimento da inovação. O e",
-      "tema": "Tributação de criptoativos",
-      "data_iso": "2026-06-14",
-      "data": "14 jun 2026",
-      "url": "https://cripto.safie.blog.br/artigos/2026-06-14-tributacao-de-criptoativos-no-brasil-em-2026.html"
-    },
-    {
-      "blog": "SAFIE E-commerce",
-      "blog_slug": "ecommerce",
-      "blog_url": "https://ecommerce.safie.blog.br",
-      "cor": "#db2777",
-      "slug": "2026-06-14-tributacao-no-e-commerce-guia-completo",
-      "titulo": "Tributação no E-commerce: guia completo",
-      "resumo": "A tributação no e-commerce brasileiro envolve impostos federais, estaduais e municipais que variam conforme o regime fiscal, o tipo de produto e o destino da venda. Conhecer essas regras é essencial p",
-      "tema": "Tributação no e-commerce",
-      "data_iso": "2026-06-14",
-      "data": "14 jun 2026",
-      "url": "https://ecommerce.safie.blog.br/artigos/2026-06-14-tributacao-no-e-commerce-guia-completo.html"
-    },
-    {
-      "blog": "SAFIE Fintechs",
-      "blog_slug": "fintechs",
-      "blog_url": "https://fintechs.safie.blog.br",
-      "cor": "#059669",
-      "slug": "2026-06-14-tributacao-de-fintechs-no-brasil-o-que-saber",
-      "titulo": "Tributação de Fintechs no Brasil: O Que",
-      "resumo": "Fintechs brasileiras enfrentam um regime tributário complexo, com incidência de PIS/COFINS sobre receitas financeiras, ISS sobre serviços digitais e IOF sobre operações de crédito. Compreender essas o",
-      "tema": "Tributação de fintechs",
-      "data_iso": "2026-06-14",
-      "data": "14 jun 2026",
-      "url": "https://fintechs.safie.blog.br/artigos/2026-06-14-tributacao-de-fintechs-no-brasil-o-que-saber.html"
-    },
-    {
-      "blog": "SAFIE IA for Business",
-      "blog_slug": "ia",
-      "blog_url": "https://ia.safie.blog.br",
-      "cor": "#7c3aed",
-      "slug": "2026-06-14-tributacao-de-empresas-de-tecnologia-e-ia",
-      "titulo": "Tributação de empresas de",
-      "resumo": "Pequenas empresas e startups de IA estão adotando ferramentas como o Notion AI para automatizar tarefas administrativas, o que levanta questões tributárias relevantes no Brasil. A contratação de soluç",
-      "tema": "Tributação de empresas de tecnologia e IA",
-      "data_iso": "2026-06-14",
-      "data": "14 jun 2026",
-      "url": "https://ia.safie.blog.br/artigos/2026-06-14-tributacao-de-empresas-de-tecnologia-e-ia.html"
-    },
-    {
-      "blog": "SAFIE Reforma Tributária",
-      "blog_slug": "reforma-tributaria",
-      "blog_url": "https://reformatributaria.safie.blog.br",
-      "cor": "#b8860b",
-      "slug": "2026-06-14-ibs-e-cbs-entenda-os-novos-tributos-da-reforma",
-      "titulo": "IBS e CBS: entenda os novos",
-      "resumo": "A reforma tributária criou dois novos tributos, o IBS e a CBS, que substituirão gradualmente o ICMS, o ISS, o PIS e o COFINS entre 2026 e 2033. Ambos seguem o modelo de IVA dual, com não cumulatividad",
-      "tema": "IBS e CBS — novos tributos",
-      "data_iso": "2026-06-14",
-      "data": "14 jun 2026",
-      "url": "https://reformatributaria.safie.blog.br/artigos/2026-06-14-ibs-e-cbs-entenda-os-novos-tributos-da-reforma.html"
     }
   ]
 }
