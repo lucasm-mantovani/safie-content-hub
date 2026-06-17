@@ -1,3 +1,7 @@
+⚠️ ANTES DE QUALQUER OPERAÇÃO: Ler ~/CLAUDE/CONVENCOES.md
+Esse documento define regras de isolamento entre projetos do ecossistema.
+Modificar arquivo de outro projeto sem confirmação explícita é ERRO grave.
+
 # Content Hub SAFIE — Instruções Permanentes
 
 ## O que é este projeto
