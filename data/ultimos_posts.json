@@ -1,6 +1,110 @@
 {
-  "gerado_em": "2026-06-21T14:19:55Z",
+  "gerado_em": "2026-06-22T17:04:04Z",
   "posts": [
+    {
+      "blog": "SAFIE Cripto",
+      "blog_slug": "cripto",
+      "blog_url": "https://cripto.safie.blog.br",
+      "cor": "#4a9eff",
+      "slug": "2026-06-22-tributacao-de-criptoativos-no-brasil-em-2026",
+      "titulo": "Tributação de Criptoativos no Brasil em 2026",
+      "resumo": "A Perplexity lançou o Brain, uma camada de memória autoaprimorável para seu agente de IA, capaz de aprender com erros anteriores e melhorar decisões futuras. No campo dos criptoativos, essa evolução t",
+      "tema": "Tributação de criptoativos",
+      "data_iso": "2026-06-22",
+      "data": "22 jun 2026",
+      "url": "https://cripto.safie.blog.br/artigos/2026-06-22-tributacao-de-criptoativos-no-brasil-em-2026.html"
+    },
+    {
+      "blog": "SAFIE Cripto",
+      "blog_slug": "cripto",
+      "blog_url": "https://cripto.safie.blog.br",
+      "cor": "#4a9eff",
+      "slug": "2026-06-22-regulacao-de-criptoativos-no-brasil-em-2026",
+      "titulo": "Regulação de criptoativos no Brasil em 2026",
+      "resumo": "Um ex-integrante da Fundação Ethereum alertou publicamente sobre um possível déficit de financiamento para o desenvolvimento central da rede, o que levanta questões relevantes sobre a sustentabilidade",
+      "tema": "Regulação de criptoativos no Brasil",
+      "data_iso": "2026-06-22",
+      "data": "22 jun 2026",
+      "url": "https://cripto.safie.blog.br/artigos/2026-06-22-regulacao-de-criptoativos-no-brasil-em-2026.html"
+    },
+    {
+      "blog": "SAFIE E-commerce",
+      "blog_slug": "ecommerce",
+      "blog_url": "https://ecommerce.safie.blog.br",
+      "cor": "#ff6b9d",
+      "slug": "2026-06-22-marketplaces-e-o-boom-de-vendas-na-copa-2026",
+      "titulo": "Marketplaces e o boom de vendas na Copa 2026",
+      "resumo": "A Copa do Mundo 2026 impulsionou a venda de antenas digitais em 250%, segundo a Folha Mercado, reflexo direto da disputa entre Globo, SBT e CazéTV pelos direitos de transmissão. Para vendedores que op",
+      "tema": "Marketplaces e plataformas digitais",
+      "data_iso": "2026-06-22",
+      "data": "22 jun 2026",
+      "url": "https://ecommerce.safie.blog.br/artigos/2026-06-22-marketplaces-e-o-boom-de-vendas-na-copa-2026.html"
+    },
+    {
+      "blog": "SAFIE E-commerce",
+      "blog_slug": "ecommerce",
+      "blog_url": "https://ecommerce.safie.blog.br",
+      "cor": "#ff6b9d",
+      "slug": "2026-06-22-lgpd-e-privacidade-no-e-commerce-o-que-muda",
+      "titulo": "LGPD e privacidade no e-commerce: o que muda",
+      "resumo": "A LGPD exige que lojas virtuais coletem, tratem e armazenem dados pessoais de clientes com base legal definida e transparência. O descumprimento sujeita empresas a multas de até 2% do faturamento, lim",
+      "tema": "LGPD e privacidade no e-commerce",
+      "data_iso": "2026-06-22",
+      "data": "22 jun 2026",
+      "url": "https://ecommerce.safie.blog.br/artigos/2026-06-22-lgpd-e-privacidade-no-e-commerce-o-que-muda.html"
+    },
+    {
+      "blog": "SAFIE Fintechs",
+      "blog_slug": "fintechs",
+      "blog_url": "https://fintechs.safie.blog.br",
+      "cor": "#3dd68c",
+      "slug": "2026-06-22-open-finance-dados-financeiros-e-transparencia",
+      "titulo": "Open Finance: dados financeiros e transparência",
+      "resumo": "O Open Finance consolida no Brasil um modelo regulado de compartilhamento de dados financeiros entre instituições, sob supervisão do Banco Central. Para fintechs, o sistema abre oportunidades de acess",
+      "tema": "Open Finance e dados financeiros",
+      "data_iso": "2026-06-22",
+      "data": "22 jun 2026",
+      "url": "https://fintechs.safie.blog.br/artigos/2026-06-22-open-finance-dados-financeiros-e-transparencia.html"
+    },
+    {
+      "blog": "SAFIE Fintechs",
+      "blog_slug": "fintechs",
+      "blog_url": "https://fintechs.safie.blog.br",
+      "cor": "#3dd68c",
+      "slug": "2026-06-22-regulacao-do-banco-central-para-fintechs-em-2026",
+      "titulo": "Regulação do Banco Central para Fintechs em 2026",
+      "resumo": "O Banco Central do Brasil mantém um arcabouço regulatório ativo para fintechs, com normas que abrangem desde a autorização de funcionamento até requisitos de capital e governança. Em 2026, o ambiente ",
+      "tema": "Regulação do Banco Central para fintechs",
+      "data_iso": "2026-06-22",
+      "data": "22 jun 2026",
+      "url": "https://fintechs.safie.blog.br/artigos/2026-06-22-regulacao-do-banco-central-para-fintechs-em-2026.html"
+    },
+    {
+      "blog": "SAFIE IA for Business",
+      "blog_slug": "ia",
+      "blog_url": "https://ia.safie.blog.br",
+      "cor": "#a78bfa",
+      "slug": "2026-06-22-tributacao-de-empresas-de-ia-no-brasil-em-2026",
+      "titulo": "Tributação de empresas de IA no Brasil em 2026",
+      "resumo": "Empresas de tecnologia e inteligência artificial enfrentam um ambiente tributário brasileiro complexo, com alíquotas elevadas e regimes fiscais que nem sempre foram desenhados para modelos de negócio ",
+      "tema": "Tributação de empresas de tecnologia e IA",
+      "data_iso": "2026-06-22",
+      "data": "22 jun 2026",
+      "url": "https://ia.safie.blog.br/artigos/2026-06-22-tributacao-de-empresas-de-ia-no-brasil-em-2026.html"
+    },
+    {
+      "blog": "SAFIE IA for Business",
+      "blog_slug": "ia",
+      "blog_url": "https://ia.safie.blog.br",
+      "cor": "#a78bfa",
+      "slug": "2026-06-22-regulacao-de-ia-no-brasil-o-que-muda-em-2026",
+      "titulo": "Regulação de IA no Brasil: o que muda em 2026",
+      "resumo": "O Brasil avança na construção de um marco regulatório específico para inteligência artificial, com impacto direto sobre startups, plataformas e sistemas automatizados de decisão. O PL 2.338/2023, em t",
+      "tema": "Regulação de IA no Brasil",
+      "data_iso": "2026-06-22",
+      "data": "22 jun 2026",
+      "url": "https://ia.safie.blog.br/artigos/2026-06-22-regulacao-de-ia-no-brasil-o-que-muda-em-2026.html"
+    },
     {
       "blog": "SAFIE Cripto",
       "blog_slug": "cripto",
@@ -28,19 +132,6 @@
       "url": "https://ecommerce.safie.blog.br/artigos/2026-06-19-marketplaces-e-venda-de-produtos-de-saude.html"
     },
     {
-      "blog": "SAFIE E-commerce",
-      "blog_slug": "ecommerce",
-      "blog_url": "https://ecommerce.safie.blog.br",
-      "cor": "#ff6b9d",
-      "slug": "2026-06-19-lgpd-no-e-commerce-o-que-sua-loja-precisa-saber",
-      "titulo": "LGPD no E-commerce: O Que Sua Loja Precisa Saber",
-      "resumo": "A LGPD impõe obrigações concretas a todo e-commerce que coleta dados de clientes, desde o cadastro até o pós-venda. O descumprimento pode gerar multas de até 2% do faturamento, limitadas a R$ 50 milhõ",
-      "tema": "LGPD e privacidade no e-commerce",
-      "data_iso": "2026-06-19",
-      "data": "19 jun 2026",
-      "url": "https://ecommerce.safie.blog.br/artigos/2026-06-19-lgpd-no-e-commerce-o-que-sua-loja-precisa-saber.html"
-    },
-    {
       "blog": "SAFIE Fintechs",
       "blog_slug": "fintechs",
       "blog_url": "https://fintechs.safie.blog.br",
@@ -52,19 +143,6 @@
       "data_iso": "2026-06-19",
       "data": "19 jun 2026",
       "url": "https://fintechs.safie.blog.br/artigos/2026-06-19-captacao-em-fintechs-em-tempos-de-bolha-de-ia.html"
-    },
-    {
-      "blog": "SAFIE Fintechs",
-      "blog_slug": "fintechs",
-      "blog_url": "https://fintechs.safie.blog.br",
-      "cor": "#3dd68c",
-      "slug": "2026-06-19-open-finance-dados-financeiros-e-lgpd-em-2026",
-      "titulo": "Open Finance: dados financeiros e LGPD em 2026",
-      "resumo": "O Open Finance brasileiro, regulado pelo Banco Central por meio das Resoluções Conjuntas nº 1/2020 e nº 6/2023, consolida o direito dos consumidores de compartilhar seus dados financeiros com terceiro",
-      "tema": "Open Finance e dados financeiros",
-      "data_iso": "2026-06-19",
-      "data": "19 jun 2026",
-      "url": "https://fintechs.safie.blog.br/artigos/2026-06-19-open-finance-dados-financeiros-e-lgpd-em-2026.html"
     },
     {
       "blog": "SAFIE IA for Business",
@@ -80,19 +158,6 @@
       "url": "https://ia.safie.blog.br/artigos/2026-06-19-lgpd-e-ia-no-esporte-dados-de-atletas-em-risco.html"
     },
     {
-      "blog": "SAFIE IA for Business",
-      "blog_slug": "ia",
-      "blog_url": "https://ia.safie.blog.br",
-      "cor": "#a78bfa",
-      "slug": "2026-06-19-tributacao-de-empresas-de-ia-no-brasil-guia-pratico",
-      "titulo": "Tributação de empresas de IA no Brasil: guia prático",
-      "resumo": "O setor de tecnologia e inteligência artificial movimenta bilhões no Brasil, mas ainda enfrenta insegurança tributária significativa. Compreender os regimes fiscais disponíveis, os incentivos legais e",
-      "tema": "Tributação de empresas de tecnologia e IA",
-      "data_iso": "2026-06-19",
-      "data": "19 jun 2026",
-      "url": "https://ia.safie.blog.br/artigos/2026-06-19-tributacao-de-empresas-de-ia-no-brasil-guia-pratico.html"
-    },
-    {
       "blog": "SAFIE Reforma Tributária",
       "blog_slug": "reforma-tributaria",
       "blog_url": "https://reformatributaria.safie.blog.br",
@@ -104,71 +169,6 @@
       "data_iso": "2026-06-19",
       "data": "19 jun 2026",
       "url": "https://reformatributaria.safie.blog.br/artigos/2026-06-19-ibs-e-cbs-nas-telecomunicacoes-o-que-muda.html"
-    },
-    {
-      "blog": "SAFIE Cripto",
-      "blog_slug": "cripto",
-      "blog_url": "https://cripto.safie.blog.br",
-      "cor": "#4a9eff",
-      "slug": "2026-06-17-regulacao-de-criptoativos-no-brasil-em-2026",
-      "titulo": "Regulação de criptoativos no Brasil em 2026",
-      "resumo": "O banco Standard Chartered projeta que a tokenização de ativos do mundo real pode levar o mercado DeFi a US$ 2,7 trilhões, com potencial de valorização de 40 vezes em determinadas criptomoedas. No Bra",
-      "tema": "Regulação de criptoativos no Brasil",
-      "data_iso": "2026-06-17",
-      "data": "17 jun 2026",
-      "url": "https://cripto.safie.blog.br/artigos/2026-06-17-regulacao-de-criptoativos-no-brasil-em-2026.html"
-    },
-    {
-      "blog": "SAFIE Cripto",
-      "blog_slug": "cripto",
-      "blog_url": "https://cripto.safie.blog.br",
-      "cor": "#4a9eff",
-      "slug": "2026-06-17-tributacao-de-criptoativos-no-brasil-guia-completo",
-      "titulo": "Tributação de Criptoativos no Brasil: Guia Completo",
-      "resumo": "No Brasil, criptoativos são tributados pelo Imposto de Renda sobre o ganho de capital, com alíquotas entre 15% e 22,5%, conforme a Lei 13.259/2016. A Receita Federal exige declaração anual de saldos a",
-      "tema": "Tributação de criptoativos",
-      "data_iso": "2026-06-17",
-      "data": "17 jun 2026",
-      "url": "https://cripto.safie.blog.br/artigos/2026-06-17-tributacao-de-criptoativos-no-brasil-guia-completo.html"
-    },
-    {
-      "blog": "SAFIE E-commerce",
-      "blog_slug": "ecommerce",
-      "blog_url": "https://ecommerce.safie.blog.br",
-      "cor": "#ff6b9d",
-      "slug": "2026-06-17-tributacao-no-e-commerce-guia-completo",
-      "titulo": "Tributação no E-commerce: Guia Completo",
-      "resumo": "A tributação no e-commerce segue regras específicas que combinam impostos federais, estaduais e municipais, com particularidades para operações interestaduais e vendas a consumidores finais. Conhecer ",
-      "tema": "Tributação no e-commerce",
-      "data_iso": "2026-06-17",
-      "data": "17 jun 2026",
-      "url": "https://ecommerce.safie.blog.br/artigos/2026-06-17-tributacao-no-e-commerce-guia-completo.html"
-    },
-    {
-      "blog": "SAFIE Fintechs",
-      "blog_slug": "fintechs",
-      "blog_url": "https://fintechs.safie.blog.br",
-      "cor": "#3dd68c",
-      "slug": "2026-06-17-bnpl-no-agronegocio-credito-digital-no-campo",
-      "titulo": "BNPL no agronegócio: crédito digital no campo",
-      "resumo": "A Vivo anunciou investimento de R$ 192 milhões para expandir conectividade no agronegócio e na logística do Paraná, sinalizando maturidade de infraestrutura para serviços financeiros digitais no inter",
-      "tema": "Crédito digital e BNPL",
-      "data_iso": "2026-06-17",
-      "data": "17 jun 2026",
-      "url": "https://fintechs.safie.blog.br/artigos/2026-06-17-bnpl-no-agronegocio-credito-digital-no-campo.html"
-    },
-    {
-      "blog": "SAFIE IA for Business",
-      "blog_slug": "ia",
-      "blog_url": "https://ia.safie.blog.br",
-      "cor": "#a78bfa",
-      "slug": "2026-06-17-stf-marco-civil-e-ia-o-que-muda-para-startups",
-      "titulo": "STF, Marco Civil e IA: o que muda para startups",
-      "resumo": "O STF concluiu o julgamento sobre a responsabilidade civil das plataformas digitais prevista no artigo 19 do Marco Civil da Internet (Lei 12.965/2014). A decisão redefine o regime de responsabilização",
-      "tema": "Regulação de IA no Brasil",
-      "data_iso": "2026-06-17",
-      "data": "17 jun 2026",
-      "url": "https://ia.safie.blog.br/artigos/2026-06-17-stf-marco-civil-e-ia-o-que-muda-para-startups.html"
     },
     {
       "blog": "SAFIE Reforma Tributária",
