@@ -1,6 +1,136 @@
 {
-  "gerado_em": "2026-06-25T14:40:21Z",
+  "gerado_em": "2026-06-26T14:33:24Z",
   "posts": [
+    {
+      "blog": "SAFIE Cripto",
+      "blog_slug": "cripto",
+      "blog_url": "https://cripto.safie.blog.br",
+      "cor": "#4a9eff",
+      "slug": "2026-06-26-tokenizacao-de-ativos-regulacao-e-contabilidade",
+      "titulo": "Tokenização de Ativos: Regulação e Contabilidade",
+      "resumo": "O mercado brasileiro de tokenização de ativos consolida novos movimentos em 2026, com plataformas como Liqi, Fireblocks e Mercado Bitcoin ampliando produtos e parcerias. Do ponto de vista jurídico, es",
+      "tema": "Tokenização e ativos digitais",
+      "data_iso": "2026-06-26",
+      "data": "26 jun 2026",
+      "url": "https://cripto.safie.blog.br/artigos/2026-06-26-tokenizacao-de-ativos-regulacao-e-contabilidade.html"
+    },
+    {
+      "blog": "SAFIE Cripto",
+      "blog_slug": "cripto",
+      "blog_url": "https://cripto.safie.blog.br",
+      "cor": "#4a9eff",
+      "slug": "2026-06-26-bitcoin-a-us-58-mil-o-que-fazer-com-o-ir",
+      "titulo": "Bitcoin a US$ 58 mil: o que fazer com o IR?",
+      "resumo": "Em 26 de junho de 2026, o Bitcoin recuou para US$ 58 mil, acumulando queda superior a 5% no dia, segundo o CoinTelegraph Brasil. Do ponto de vista jurídico-tributário, quedas expressivas como essa ger",
+      "tema": "Tributação de criptoativos",
+      "data_iso": "2026-06-26",
+      "data": "26 jun 2026",
+      "url": "https://cripto.safie.blog.br/artigos/2026-06-26-bitcoin-a-us-58-mil-o-que-fazer-com-o-ir.html"
+    },
+    {
+      "blog": "SAFIE E-commerce",
+      "blog_slug": "ecommerce",
+      "blog_url": "https://ecommerce.safie.blog.br",
+      "cor": "#ff6b9d",
+      "slug": "2026-06-26-anatel-e-marketplaces-contra-minicelulares-ilegais",
+      "titulo": "Anatel e marketplaces contra minicelulares ilegais",
+      "resumo": "A Anatel firmou acordo com grandes lojas online para coibir a comercialização de minicelulares utilizados em presídios. O movimento reforça a responsabilidade jurídica dos marketplaces pelo controle d",
+      "tema": "Marketplaces e plataformas digitais",
+      "data_iso": "2026-06-26",
+      "data": "26 jun 2026",
+      "url": "https://ecommerce.safie.blog.br/artigos/2026-06-26-anatel-e-marketplaces-contra-minicelulares-ilegais.html"
+    },
+    {
+      "blog": "SAFIE E-commerce",
+      "blog_slug": "ecommerce",
+      "blog_url": "https://ecommerce.safie.blog.br",
+      "cor": "#ff6b9d",
+      "slug": "2026-06-26-lgpd-no-e-commerce-o-que-muda-com-a-anpd",
+      "titulo": "LGPD no E-commerce: o que muda com a ANPD",
+      "resumo": "A Autoridade Nacional de Proteção de Dados (ANPD) vem consolidando competências regulatórias que vão além da Lei 13.709/2018, criando obrigações concretas para operadores de e-commerce. Esse movimento",
+      "tema": "LGPD e privacidade no e-commerce",
+      "data_iso": "2026-06-26",
+      "data": "26 jun 2026",
+      "url": "https://ecommerce.safie.blog.br/artigos/2026-06-26-lgpd-no-e-commerce-o-que-muda-com-a-anpd.html"
+    },
+    {
+      "blog": "SAFIE Fintechs",
+      "blog_slug": "fintechs",
+      "blog_url": "https://fintechs.safie.blog.br",
+      "cor": "#3dd68c",
+      "slug": "2026-06-26-regulacao-do-banco-central-para-fintechs-em-2026",
+      "titulo": "Regulação do Banco Central para fintechs em 2026",
+      "resumo": "O Banco Central do Brasil consolidou ao longo dos últimos anos um arcabouço regulatório robusto para fintechs, abrangendo desde a Resolução BCB nº 80/2021 até as normas de open finance e arranjos de p",
+      "tema": "Regulação do Banco Central para fintechs",
+      "data_iso": "2026-06-26",
+      "data": "26 jun 2026",
+      "url": "https://fintechs.safie.blog.br/artigos/2026-06-26-regulacao-do-banco-central-para-fintechs-em-2026.html"
+    },
+    {
+      "blog": "SAFIE Fintechs",
+      "blog_slug": "fintechs",
+      "blog_url": "https://fintechs.safie.blog.br",
+      "cor": "#3dd68c",
+      "slug": "2026-06-26-open-finance-dados-do-bc-e-obrigacoes-para-fintechs",
+      "titulo": "Open Finance: dados do BC e obrigações para fintechs",
+      "resumo": "O Banco Central divulgou em 26 de junho de 2026 dados relevantes do sistema financeiro nacional, incluindo indicadores de crédito e endividamento. Para fintechs, esses dados reforçam a centralidade do",
+      "tema": "Open Finance e dados financeiros",
+      "data_iso": "2026-06-26",
+      "data": "26 jun 2026",
+      "url": "https://fintechs.safie.blog.br/artigos/2026-06-26-open-finance-dados-do-bc-e-obrigacoes-para-fintechs.html"
+    },
+    {
+      "blog": "SAFIE IA for Business",
+      "blog_slug": "ia",
+      "blog_url": "https://ia.safie.blog.br",
+      "cor": "#a78bfa",
+      "slug": "2026-06-26-tributacao-de-empresas-de-ia-no-brasil-em-2026",
+      "titulo": "Tributação de Empresas de IA no Brasil em 2026",
+      "resumo": "O cenário macroeconômico brasileiro em 2026, com juros elevados e volatilidade cambial, pressiona diretamente a estrutura de custos das empresas de IA. Nesse contexto, escolher o regime tributário cor",
+      "tema": "Tributação de empresas de tecnologia e IA",
+      "data_iso": "2026-06-26",
+      "data": "26 jun 2026",
+      "url": "https://ia.safie.blog.br/artigos/2026-06-26-tributacao-de-empresas-de-ia-no-brasil-em-2026.html"
+    },
+    {
+      "blog": "SAFIE IA for Business",
+      "blog_slug": "ia",
+      "blog_url": "https://ia.safie.blog.br",
+      "cor": "#a78bfa",
+      "slug": "2026-06-26-regulacao-de-ia-no-brasil-o-que-muda-em-2026",
+      "titulo": "Regulação de IA no Brasil: o que muda em 2026",
+      "resumo": "A Coreia do Sul lidera globalmente a adoção cultural e industrial de inteligência artificial, com suporte regulatório ativo do Estado. O Brasil, por outro lado, ainda consolida seu marco legal de IA, ",
+      "tema": "Regulação de IA no Brasil",
+      "data_iso": "2026-06-26",
+      "data": "26 jun 2026",
+      "url": "https://ia.safie.blog.br/artigos/2026-06-26-regulacao-de-ia-no-brasil-o-que-muda-em-2026.html"
+    },
+    {
+      "blog": "SAFIE Reforma Tributária",
+      "blog_slug": "reforma-tributaria",
+      "blog_url": "https://reformatributaria.safie.blog.br",
+      "cor": "#d4a857",
+      "slug": "2026-06-26-simples-nacional-e-regimes-especiais-na-reforma-tributaria",
+      "titulo": "Simples Nacional e regimes especiais na reforma tributária",
+      "resumo": "A reforma tributária mantém o Simples Nacional como regime diferenciado, mas impõe ajustes relevantes na forma como as empresas optantes interagem com o IBS e a CBS. O período de transição (2026-2033)",
+      "tema": "Regimes especiais e o Simples Nacional",
+      "data_iso": "2026-06-26",
+      "data": "26 jun 2026",
+      "url": "https://reformatributaria.safie.blog.br/artigos/2026-06-26-simples-nacional-e-regimes-especiais-na-reforma-tributaria.html"
+    },
+    {
+      "blog": "SAFIE Reforma Tributária",
+      "blog_slug": "reforma-tributaria",
+      "blog_url": "https://reformatributaria.safie.blog.br",
+      "cor": "#d4a857",
+      "slug": "2026-06-26-imposto-seletivo-e-pcd-stf-analisa-restricoes",
+      "titulo": "Imposto Seletivo e PcD: STF analisa restrições",
+      "resumo": "O STF iniciou em 25 de junho de 2026 a análise de ações que contestam critérios da Lei Complementar 214/2025 para concessão de alíquota zero do IBS e da CBS na compra de veículos por pessoas com defic",
+      "tema": "Imposto Seletivo",
+      "data_iso": "2026-06-26",
+      "data": "26 jun 2026",
+      "url": "https://reformatributaria.safie.blog.br/artigos/2026-06-26-imposto-seletivo-e-pcd-stf-analisa-restricoes.html"
+    },
     {
       "blog": "SAFIE Cripto",
       "blog_slug": "cripto",
@@ -13,19 +143,6 @@
       "data_iso": "2026-06-24",
       "data": "24 jun 2026",
       "url": "https://cripto.safie.blog.br/artigos/2026-06-24-cripto-e-eleicoes-por-que-a-doacao-e-proibida.html"
-    },
-    {
-      "blog": "SAFIE Cripto",
-      "blog_slug": "cripto",
-      "blog_url": "https://cripto.safie.blog.br",
-      "cor": "#4a9eff",
-      "slug": "2026-06-24-estruturacao-societaria-de-empresas-cripto",
-      "titulo": "Estruturação societária de empresas cripto",
-      "resumo": "A correlação entre o mercado de tecnologia e o preço do Bitcoin, evidenciada pela queda registrada em junho de 2026, reforça que empresas cripto precisam de estruturas societárias sólidas para suporta",
-      "tema": "Estruturação societária de empresas cripto",
-      "data_iso": "2026-06-24",
-      "data": "24 jun 2026",
-      "url": "https://cripto.safie.blog.br/artigos/2026-06-24-estruturacao-societaria-de-empresas-cripto.html"
     },
     {
       "blog": "SAFIE E-commerce",
@@ -41,19 +158,6 @@
       "url": "https://ecommerce.safie.blog.br/artigos/2026-06-24-cross-border-e-logistica-obrigacoes-fiscais.html"
     },
     {
-      "blog": "SAFIE E-commerce",
-      "blog_slug": "ecommerce",
-      "blog_url": "https://ecommerce.safie.blog.br",
-      "cor": "#ff6b9d",
-      "slug": "2026-06-24-transparencia-de-precos-no-e-commerce-o-que-a-lei-exige",
-      "titulo": "Transparência de preços no e-commerce: o que a lei exige",
-      "resumo": "A Secretaria Nacional do Consumidor (Senacon) abriu procedimento administrativo contra a 99food para apurar possível falta de transparência na exibição de preços ao consumidor. O caso reacende o debat",
-      "tema": "Direito do consumidor no digital",
-      "data_iso": "2026-06-24",
-      "data": "24 jun 2026",
-      "url": "https://ecommerce.safie.blog.br/artigos/2026-06-24-transparencia-de-precos-no-e-commerce-o-que-a-lei-exige.html"
-    },
-    {
       "blog": "SAFIE Fintechs",
       "blog_slug": "fintechs",
       "blog_url": "https://fintechs.safie.blog.br",
@@ -65,19 +169,6 @@
       "data_iso": "2026-06-24",
       "data": "24 jun 2026",
       "url": "https://fintechs.safie.blog.br/artigos/2026-06-24-pix-em-2026-regulacao-limites-e-obrigacoes.html"
-    },
-    {
-      "blog": "SAFIE Fintechs",
-      "blog_slug": "fintechs",
-      "blog_url": "https://fintechs.safie.blog.br",
-      "cor": "#3dd68c",
-      "slug": "2026-06-24-compliance-e-pld-em-fintechs-o-que-exige-a-lei",
-      "titulo": "Compliance e PLD em Fintechs: o que exige a lei",
-      "resumo": "Fintechs brasileiras estão sujeitas a obrigações rigorosas de prevenção à lavagem de dinheiro (PLD) e financiamento ao terrorismo (FT), reguladas pelo Bacen e pelo COAF. O descumprimento dessas normas",
-      "tema": "Compliance e PLD em fintechs",
-      "data_iso": "2026-06-24",
-      "data": "24 jun 2026",
-      "url": "https://fintechs.safie.blog.br/artigos/2026-06-24-compliance-e-pld-em-fintechs-o-que-exige-a-lei.html"
     },
     {
       "blog": "SAFIE IA for Business",
@@ -93,19 +184,6 @@
       "url": "https://ia.safie.blog.br/artigos/2026-06-24-direitos-autorais-e-ia-generativa-no-brasil.html"
     },
     {
-      "blog": "SAFIE IA for Business",
-      "blog_slug": "ia",
-      "blog_url": "https://ia.safie.blog.br",
-      "cor": "#a78bfa",
-      "slug": "2026-06-24-ai-act-e-regulacao-de-ia-o-que-muda-para-o-brasil",
-      "titulo": "AI Act e regulação de IA: o que muda para o Brasil",
-      "resumo": "O AI Act da União Europeia entrou em aplicação plena em 2026 e estabelece obrigações concretas para sistemas de inteligência artificial classificados por nível de risco. Empresas brasileiras de IA que",
-      "tema": "AI Act e regulação internacional",
-      "data_iso": "2026-06-24",
-      "data": "24 jun 2026",
-      "url": "https://ia.safie.blog.br/artigos/2026-06-24-ai-act-e-regulacao-de-ia-o-que-muda-para-o-brasil.html"
-    },
-    {
       "blog": "SAFIE Reforma Tributária",
       "blog_slug": "reforma-tributaria",
       "blog_url": "https://reformatributaria.safie.blog.br",
@@ -117,84 +195,6 @@
       "data_iso": "2026-06-24",
       "data": "24 jun 2026",
       "url": "https://reformatributaria.safie.blog.br/artigos/2026-06-24-ibs-e-cbs-stj-vai-arbitrar-conflitos-federativos.html"
-    },
-    {
-      "blog": "SAFIE Cripto",
-      "blog_slug": "cripto",
-      "blog_url": "https://cripto.safie.blog.br",
-      "cor": "#4a9eff",
-      "slug": "2026-06-22-tributacao-de-criptoativos-no-brasil-em-2026",
-      "titulo": "Tributação de Criptoativos no Brasil em 2026",
-      "resumo": "A Perplexity lançou o Brain, uma camada de memória autoaprimorável para seu agente de IA, capaz de aprender com erros anteriores e melhorar decisões futuras. No campo dos criptoativos, essa evolução t",
-      "tema": "Tributação de criptoativos",
-      "data_iso": "2026-06-22",
-      "data": "22 jun 2026",
-      "url": "https://cripto.safie.blog.br/artigos/2026-06-22-tributacao-de-criptoativos-no-brasil-em-2026.html"
-    },
-    {
-      "blog": "SAFIE E-commerce",
-      "blog_slug": "ecommerce",
-      "blog_url": "https://ecommerce.safie.blog.br",
-      "cor": "#ff6b9d",
-      "slug": "2026-06-22-marketplaces-e-o-boom-de-vendas-na-copa-2026",
-      "titulo": "Marketplaces e o boom de vendas na Copa 2026",
-      "resumo": "A Copa do Mundo 2026 impulsionou a venda de antenas digitais em 250%, segundo a Folha Mercado, reflexo direto da disputa entre Globo, SBT e CazéTV pelos direitos de transmissão. Para vendedores que op",
-      "tema": "Marketplaces e plataformas digitais",
-      "data_iso": "2026-06-22",
-      "data": "22 jun 2026",
-      "url": "https://ecommerce.safie.blog.br/artigos/2026-06-22-marketplaces-e-o-boom-de-vendas-na-copa-2026.html"
-    },
-    {
-      "blog": "SAFIE Fintechs",
-      "blog_slug": "fintechs",
-      "blog_url": "https://fintechs.safie.blog.br",
-      "cor": "#3dd68c",
-      "slug": "2026-06-22-open-finance-dados-financeiros-e-transparencia",
-      "titulo": "Open Finance: dados financeiros e transparência",
-      "resumo": "O Open Finance consolida no Brasil um modelo regulado de compartilhamento de dados financeiros entre instituições, sob supervisão do Banco Central. Para fintechs, o sistema abre oportunidades de acess",
-      "tema": "Open Finance e dados financeiros",
-      "data_iso": "2026-06-22",
-      "data": "22 jun 2026",
-      "url": "https://fintechs.safie.blog.br/artigos/2026-06-22-open-finance-dados-financeiros-e-transparencia.html"
-    },
-    {
-      "blog": "SAFIE IA for Business",
-      "blog_slug": "ia",
-      "blog_url": "https://ia.safie.blog.br",
-      "cor": "#a78bfa",
-      "slug": "2026-06-22-tributacao-de-empresas-de-ia-no-brasil-em-2026",
-      "titulo": "Tributação de empresas de IA no Brasil em 2026",
-      "resumo": "Empresas de tecnologia e inteligência artificial enfrentam um ambiente tributário brasileiro complexo, com alíquotas elevadas e regimes fiscais que nem sempre foram desenhados para modelos de negócio ",
-      "tema": "Tributação de empresas de tecnologia e IA",
-      "data_iso": "2026-06-22",
-      "data": "22 jun 2026",
-      "url": "https://ia.safie.blog.br/artigos/2026-06-22-tributacao-de-empresas-de-ia-no-brasil-em-2026.html"
-    },
-    {
-      "blog": "SAFIE Reforma Tributária",
-      "blog_slug": "reforma-tributaria",
-      "blog_url": "https://reformatributaria.safie.blog.br",
-      "cor": "#d4a857",
-      "slug": "2026-06-19-ibs-e-cbs-nas-telecomunicacoes-o-que-muda",
-      "titulo": "IBS e CBS nas Telecomunicações: o que muda",
-      "resumo": "O setor de telecomunicações entra na reforma tributária carregando disputas históricas sobre base de cálculo, créditos e alíquotas que o sistema anterior nunca resolveu. Com a substituição do ICMS e d",
-      "tema": "IBS e CBS — novos tributos",
-      "data_iso": "2026-06-19",
-      "data": "19 jun 2026",
-      "url": "https://reformatributaria.safie.blog.br/artigos/2026-06-19-ibs-e-cbs-nas-telecomunicacoes-o-que-muda.html"
-    },
-    {
-      "blog": "SAFIE Reforma Tributária",
-      "blog_slug": "reforma-tributaria",
-      "blog_url": "https://reformatributaria.safie.blog.br",
-      "cor": "#d4a857",
-      "slug": "2026-06-17-ibs-e-cbs-entenda-os-novos-tributos-da-reforma",
-      "titulo": "IBS e CBS: entenda os novos tributos da reforma",
-      "resumo": "A reforma tributária brasileira criou dois novos tributos — o IBS e a CBS — que substituirão cinco tributos existentes sobre consumo. Ambos seguem a lógica do IVA dual, com não cumulatividade plena e ",
-      "tema": "IBS e CBS — novos tributos",
-      "data_iso": "2026-06-17",
-      "data": "17 jun 2026",
-      "url": "https://reformatributaria.safie.blog.br/artigos/2026-06-17-ibs-e-cbs-entenda-os-novos-tributos-da-reforma.html"
     }
   ]
 }
