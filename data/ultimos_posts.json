@@ -1,6 +1,110 @@
 {
-  "gerado_em": "2026-06-28T13:56:27Z",
+  "gerado_em": "2026-06-29T15:53:53Z",
   "posts": [
+    {
+      "blog": "SAFIE Cripto",
+      "blog_slug": "cripto",
+      "blog_url": "https://cripto.safie.blog.br",
+      "cor": "#4a9eff",
+      "slug": "2026-06-29-stablecoins-e-risco-sistemico-o-alerta-do-bis",
+      "titulo": "Stablecoins e risco sistêmico: o alerta do BIS",
+      "resumo": "O Banco de Compensações Internacionais (BIS) publicou alerta formal indicando que stablecoins representam risco de fragmentação do sistema financeiro global, ao criar circuitos monetários paralelos fo",
+      "tema": "Regulação de criptoativos no Brasil",
+      "data_iso": "2026-06-29",
+      "data": "29 jun 2026",
+      "url": "https://cripto.safie.blog.br/artigos/2026-06-29-stablecoins-e-risco-sistemico-o-alerta-do-bis.html"
+    },
+    {
+      "blog": "SAFIE Cripto",
+      "blog_slug": "cripto",
+      "blog_url": "https://cripto.safie.blog.br",
+      "cor": "#4a9eff",
+      "slug": "2026-06-29-defi-e-stablecoins-tokenizacao-rumo-a-us-678-tri",
+      "titulo": "DeFi e Stablecoins: tokenização rumo a US$ 6,78 tri",
+      "resumo": "Relatório da Binance Research aponta que ativos tokenizados já ultrapassaram US$ 10 bilhões e podem atingir US$ 6,78 trilhões com a democratização do acesso via DeFi e stablecoins. No Brasil, essa exp",
+      "tema": "DeFi e stablecoins",
+      "data_iso": "2026-06-29",
+      "data": "29 jun 2026",
+      "url": "https://cripto.safie.blog.br/artigos/2026-06-29-defi-e-stablecoins-tokenizacao-rumo-a-us-678-tri.html"
+    },
+    {
+      "blog": "SAFIE E-commerce",
+      "blog_slug": "ecommerce",
+      "blog_url": "https://ecommerce.safie.blog.br",
+      "cor": "#ff6b9d",
+      "slug": "2026-06-29-lgpd-e-privacidade-no-e-commerce-em-2026",
+      "titulo": "LGPD e privacidade no e-commerce em 2026",
+      "resumo": "A Europa abandonou sua postura regulatória rígida em tecnologia para priorizar soberania digital e competitividade, segundo análise publicada pela Folha Mercado. Esse movimento reacende o debate sobre",
+      "tema": "LGPD e privacidade no e-commerce",
+      "data_iso": "2026-06-29",
+      "data": "29 jun 2026",
+      "url": "https://ecommerce.safie.blog.br/artigos/2026-06-29-lgpd-e-privacidade-no-e-commerce-em-2026.html"
+    },
+    {
+      "blog": "SAFIE Fintechs",
+      "blog_slug": "fintechs",
+      "blog_url": "https://fintechs.safie.blog.br",
+      "cor": "#3dd68c",
+      "slug": "2026-06-29-open-finance-dados-financeiros-e-obrigacoes-legais",
+      "titulo": "Open Finance: dados financeiros e obrigações legais",
+      "resumo": "O Open Finance brasileiro, regulado pelo Banco Central, estrutura o compartilhamento de dados financeiros entre instituições mediante consentimento do titular. A framework combina a Resolução Conjunta",
+      "tema": "Open Finance e dados financeiros",
+      "data_iso": "2026-06-29",
+      "data": "29 jun 2026",
+      "url": "https://fintechs.safie.blog.br/artigos/2026-06-29-open-finance-dados-financeiros-e-obrigacoes-legais.html"
+    },
+    {
+      "blog": "SAFIE Fintechs",
+      "blog_slug": "fintechs",
+      "blog_url": "https://fintechs.safie.blog.br",
+      "cor": "#3dd68c",
+      "slug": "2026-06-29-pix-e-instabilidade-macro-riscos-para-fintechs",
+      "titulo": "PIX e instabilidade macro: riscos para fintechs",
+      "resumo": "A Franklin Templeton alertou que o Brasil corre o risco de repetir o padrão de crescimento curto e fraco conhecido como 'voo de galinha', impulsionado por desequilíbrio fiscal e pressão inflacionária.",
+      "tema": "PIX e meios de pagamento",
+      "data_iso": "2026-06-29",
+      "data": "29 jun 2026",
+      "url": "https://fintechs.safie.blog.br/artigos/2026-06-29-pix-e-instabilidade-macro-riscos-para-fintechs.html"
+    },
+    {
+      "blog": "SAFIE IA for Business",
+      "blog_slug": "ia",
+      "blog_url": "https://ia.safie.blog.br",
+      "cor": "#a78bfa",
+      "slug": "2026-06-29-regulacao-de-ia-no-brasil-o-que-muda-em-2026",
+      "titulo": "Regulação de IA no Brasil: o que muda em 2026",
+      "resumo": "O Brasil avança na regulação de inteligência artificial com o PL 2.338/2023, aprovado pelo Senado em 2024 e em tramitação na Câmara. O marco estabelece obrigações de transparência, responsabilidade ci",
+      "tema": "Regulação de IA no Brasil",
+      "data_iso": "2026-06-29",
+      "data": "29 jun 2026",
+      "url": "https://ia.safie.blog.br/artigos/2026-06-29-regulacao-de-ia-no-brasil-o-que-muda-em-2026.html"
+    },
+    {
+      "blog": "SAFIE IA for Business",
+      "blog_slug": "ia",
+      "blog_url": "https://ia.safie.blog.br",
+      "cor": "#a78bfa",
+      "slug": "2026-06-29-investimento-em-ia-licoes-do-colapso-das-bets",
+      "titulo": "Investimento em IA: lições do colapso das bets",
+      "resumo": "A intervenção regulatória que desestruturou o mercado de apostas esportivas no Brasil serve como alerta direto para o ecossistema de IA e deep tech: regulação tardia, quando chega, chega com força. Fo",
+      "tema": "Investimento em IA e deep tech",
+      "data_iso": "2026-06-29",
+      "data": "29 jun 2026",
+      "url": "https://ia.safie.blog.br/artigos/2026-06-29-investimento-em-ia-licoes-do-colapso-das-bets.html"
+    },
+    {
+      "blog": "SAFIE Reforma Tributária",
+      "blog_slug": "reforma-tributaria",
+      "blog_url": "https://reformatributaria.safie.blog.br",
+      "cor": "#d4a857",
+      "slug": "2026-06-29-zfm-e-ibs-a-reforma-que-tornou-manaus-mais-atrativa",
+      "titulo": "ZFM e IBS: a reforma que tornou Manaus mais atrativa",
+      "resumo": "Ao contrário do que se esperava, a EC 132/2023 não esvaziou a Zona Franca de Manaus. A estrutura do IBS e da CBS preservou e, em alguns aspectos, ampliou os incentivos fiscais da ZFM, tornando-a ainda",
+      "tema": "IBS e CBS — novos tributos",
+      "data_iso": "2026-06-29",
+      "data": "29 jun 2026",
+      "url": "https://reformatributaria.safie.blog.br/artigos/2026-06-29-zfm-e-ibs-a-reforma-que-tornou-manaus-mais-atrativa.html"
+    },
     {
       "blog": "SAFIE Cripto",
       "blog_slug": "cripto",
@@ -13,19 +117,6 @@
       "data_iso": "2026-06-26",
       "data": "26 jun 2026",
       "url": "https://cripto.safie.blog.br/artigos/2026-06-26-tokenizacao-de-ativos-regulacao-e-contabilidade.html"
-    },
-    {
-      "blog": "SAFIE Cripto",
-      "blog_slug": "cripto",
-      "blog_url": "https://cripto.safie.blog.br",
-      "cor": "#4a9eff",
-      "slug": "2026-06-26-bitcoin-a-us-58-mil-o-que-fazer-com-o-ir",
-      "titulo": "Bitcoin a US$ 58 mil: o que fazer com o IR?",
-      "resumo": "Em 26 de junho de 2026, o Bitcoin recuou para US$ 58 mil, acumulando queda superior a 5% no dia, segundo o CoinTelegraph Brasil. Do ponto de vista jurídico-tributário, quedas expressivas como essa ger",
-      "tema": "Tributação de criptoativos",
-      "data_iso": "2026-06-26",
-      "data": "26 jun 2026",
-      "url": "https://cripto.safie.blog.br/artigos/2026-06-26-bitcoin-a-us-58-mil-o-que-fazer-com-o-ir.html"
     },
     {
       "blog": "SAFIE E-commerce",
@@ -67,19 +158,6 @@
       "url": "https://fintechs.safie.blog.br/artigos/2026-06-26-regulacao-do-banco-central-para-fintechs-em-2026.html"
     },
     {
-      "blog": "SAFIE Fintechs",
-      "blog_slug": "fintechs",
-      "blog_url": "https://fintechs.safie.blog.br",
-      "cor": "#3dd68c",
-      "slug": "2026-06-26-open-finance-dados-do-bc-e-obrigacoes-para-fintechs",
-      "titulo": "Open Finance: dados do BC e obrigações para fintechs",
-      "resumo": "O Banco Central divulgou em 26 de junho de 2026 dados relevantes do sistema financeiro nacional, incluindo indicadores de crédito e endividamento. Para fintechs, esses dados reforçam a centralidade do",
-      "tema": "Open Finance e dados financeiros",
-      "data_iso": "2026-06-26",
-      "data": "26 jun 2026",
-      "url": "https://fintechs.safie.blog.br/artigos/2026-06-26-open-finance-dados-do-bc-e-obrigacoes-para-fintechs.html"
-    },
-    {
       "blog": "SAFIE IA for Business",
       "blog_slug": "ia",
       "blog_url": "https://ia.safie.blog.br",
@@ -91,19 +169,6 @@
       "data_iso": "2026-06-26",
       "data": "26 jun 2026",
       "url": "https://ia.safie.blog.br/artigos/2026-06-26-tributacao-de-empresas-de-ia-no-brasil-em-2026.html"
-    },
-    {
-      "blog": "SAFIE IA for Business",
-      "blog_slug": "ia",
-      "blog_url": "https://ia.safie.blog.br",
-      "cor": "#a78bfa",
-      "slug": "2026-06-26-regulacao-de-ia-no-brasil-o-que-muda-em-2026",
-      "titulo": "Regulação de IA no Brasil: o que muda em 2026",
-      "resumo": "A Coreia do Sul lidera globalmente a adoção cultural e industrial de inteligência artificial, com suporte regulatório ativo do Estado. O Brasil, por outro lado, ainda consolida seu marco legal de IA, ",
-      "tema": "Regulação de IA no Brasil",
-      "data_iso": "2026-06-26",
-      "data": "26 jun 2026",
-      "url": "https://ia.safie.blog.br/artigos/2026-06-26-regulacao-de-ia-no-brasil-o-que-muda-em-2026.html"
     },
     {
       "blog": "SAFIE Reforma Tributária",
@@ -130,71 +195,6 @@
       "data_iso": "2026-06-26",
       "data": "26 jun 2026",
       "url": "https://reformatributaria.safie.blog.br/artigos/2026-06-26-imposto-seletivo-e-pcd-stf-analisa-restricoes.html"
-    },
-    {
-      "blog": "SAFIE Cripto",
-      "blog_slug": "cripto",
-      "blog_url": "https://cripto.safie.blog.br",
-      "cor": "#4a9eff",
-      "slug": "2026-06-24-cripto-e-eleicoes-por-que-a-doacao-e-proibida",
-      "titulo": "Cripto e eleições: por que a doação é proibida",
-      "resumo": "O Ministério Público Federal alertou que criptomoedas são vedadas como forma de financiamento eleitoral no Brasil porque a legislação exige identificação clara e rastreável da origem dos recursos. A p",
-      "tema": "Compliance e PLD cripto",
-      "data_iso": "2026-06-24",
-      "data": "24 jun 2026",
-      "url": "https://cripto.safie.blog.br/artigos/2026-06-24-cripto-e-eleicoes-por-que-a-doacao-e-proibida.html"
-    },
-    {
-      "blog": "SAFIE E-commerce",
-      "blog_slug": "ecommerce",
-      "blog_url": "https://ecommerce.safie.blog.br",
-      "cor": "#ff6b9d",
-      "slug": "2026-06-24-cross-border-e-logistica-obrigacoes-fiscais",
-      "titulo": "Cross-border e logística: obrigações fiscais",
-      "resumo": "O crescimento das entregas urbanas impulsionado pelo e-commerce está atraindo montadoras para o segmento de veículos comerciais leves, o que amplia a cadeia logística do comércio digital. Para empresa",
-      "tema": "Importação e cross-border",
-      "data_iso": "2026-06-24",
-      "data": "24 jun 2026",
-      "url": "https://ecommerce.safie.blog.br/artigos/2026-06-24-cross-border-e-logistica-obrigacoes-fiscais.html"
-    },
-    {
-      "blog": "SAFIE Fintechs",
-      "blog_slug": "fintechs",
-      "blog_url": "https://fintechs.safie.blog.br",
-      "cor": "#3dd68c",
-      "slug": "2026-06-24-pix-em-2026-regulacao-limites-e-obrigacoes",
-      "titulo": "PIX em 2026: regulação, limites e obrigações",
-      "resumo": "O PIX segue sendo o meio de pagamento instantâneo mais utilizado no Brasil, com mais de 60 bilhões de transações acumuladas desde 2020. O Banco Central avança em novas regulações sobre limites, segura",
-      "tema": "PIX e meios de pagamento",
-      "data_iso": "2026-06-24",
-      "data": "24 jun 2026",
-      "url": "https://fintechs.safie.blog.br/artigos/2026-06-24-pix-em-2026-regulacao-limites-e-obrigacoes.html"
-    },
-    {
-      "blog": "SAFIE IA for Business",
-      "blog_slug": "ia",
-      "blog_url": "https://ia.safie.blog.br",
-      "cor": "#a78bfa",
-      "slug": "2026-06-24-direitos-autorais-e-ia-generativa-no-brasil",
-      "titulo": "Direitos Autorais e IA Generativa no Brasil",
-      "resumo": "Modelos de IA generativa treinam sobre obras protegidas e produzem conteúdo que pode infringir direitos autorais de terceiros, ou não ser protegível por lei. No Brasil, a Lei 9.610/98 não prevê autori",
-      "tema": "Direitos autorais e IA generativa",
-      "data_iso": "2026-06-24",
-      "data": "24 jun 2026",
-      "url": "https://ia.safie.blog.br/artigos/2026-06-24-direitos-autorais-e-ia-generativa-no-brasil.html"
-    },
-    {
-      "blog": "SAFIE Reforma Tributária",
-      "blog_slug": "reforma-tributaria",
-      "blog_url": "https://reformatributaria.safie.blog.br",
-      "cor": "#d4a857",
-      "slug": "2026-06-24-ibs-e-cbs-stj-vai-arbitrar-conflitos-federativos",
-      "titulo": "IBS e CBS: STJ vai arbitrar conflitos federativos",
-      "resumo": "A 1ª Seção do STJ foi designada para julgar os conflitos federativos decorrentes da reforma tributária, especialmente os que envolverem IBS e CBS. A escolha reflete a complexidade da convivência entre",
-      "tema": "IBS e CBS — novos tributos",
-      "data_iso": "2026-06-24",
-      "data": "24 jun 2026",
-      "url": "https://reformatributaria.safie.blog.br/artigos/2026-06-24-ibs-e-cbs-stj-vai-arbitrar-conflitos-federativos.html"
     }
   ]
 }
