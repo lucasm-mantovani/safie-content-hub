@@ -1,6 +1,110 @@
 {
-  "gerado_em": "2026-06-30T14:27:31Z",
+  "gerado_em": "2026-07-01T14:44:57Z",
   "posts": [
+    {
+      "blog": "SAFIE Cripto",
+      "blog_slug": "cripto",
+      "blog_url": "https://cripto.safie.blog.br",
+      "cor": "#4a9eff",
+      "slug": "2026-07-01-compliance-e-pld-no-mercado-cripto-brasileiro",
+      "titulo": "Compliance e PLD no Mercado Cripto Brasileiro",
+      "resumo": "A Câmara dos Deputados realizou audiência pública com o Banco Central, a Receita Federal e a Polícia Federal para debater a regulação das stablecoins no Brasil. O debate coloca em evidência as obrigaç",
+      "tema": "Compliance e PLD cripto",
+      "data_iso": "2026-07-01",
+      "data": "1 jul 2026",
+      "url": "https://cripto.safie.blog.br/artigos/2026-07-01-compliance-e-pld-no-mercado-cripto-brasileiro.html"
+    },
+    {
+      "blog": "SAFIE Cripto",
+      "blog_slug": "cripto",
+      "blog_url": "https://cripto.safie.blog.br",
+      "cor": "#4a9eff",
+      "slug": "2026-07-01-stablecoins-e-tributacao-o-que-os-dados-da-receita-revelam",
+      "titulo": "Stablecoins e tributação: o que os dados da Receita revelam",
+      "resumo": "Dados divulgados pela Receita Federal às vésperas da primeira entrega da DeCripto revelam que stablecoins respondem por 80% do volume de criptoativos declarados no Brasil. Esse dado reposiciona o deba",
+      "tema": "Tributação de criptoativos",
+      "data_iso": "2026-07-01",
+      "data": "1 jul 2026",
+      "url": "https://cripto.safie.blog.br/artigos/2026-07-01-stablecoins-e-tributacao-o-que-os-dados-da-receita-revelam.html"
+    },
+    {
+      "blog": "SAFIE Fintechs",
+      "blog_slug": "fintechs",
+      "blog_url": "https://fintechs.safie.blog.br",
+      "cor": "#3dd68c",
+      "slug": "2026-07-01-regulacao-do-banco-central-para-fintechs",
+      "titulo": "Regulação do Banco Central para Fintechs",
+      "resumo": "O Banco Central do Brasil consolidou ao longo dos últimos anos um arcabouço regulatório específico para fintechs, estruturado principalmente pelas Resoluções BCB n.º 80/2021, 150/2021 e pelo marco das",
+      "tema": "Regulação do Banco Central para fintechs",
+      "data_iso": "2026-07-01",
+      "data": "1 jul 2026",
+      "url": "https://fintechs.safie.blog.br/artigos/2026-07-01-regulacao-do-banco-central-para-fintechs.html"
+    },
+    {
+      "blog": "SAFIE Fintechs",
+      "blog_slug": "fintechs",
+      "blog_url": "https://fintechs.safie.blog.br",
+      "cor": "#3dd68c",
+      "slug": "2026-07-01-dividendos-e-captacao-o-que-fintechs-precisam-saber",
+      "titulo": "Dividendos e captação: o que fintechs precisam saber",
+      "resumo": "A agenda de dividendos de julho de 2026, com pagamentos de Allos, Equatorial e Alupar, evidencia como empresas estruturadas conseguem distribuir resultados de forma recorrente e previsível. Para finte",
+      "tema": "Investimento e captação em fintechs",
+      "data_iso": "2026-07-01",
+      "data": "1 jul 2026",
+      "url": "https://fintechs.safie.blog.br/artigos/2026-07-01-dividendos-e-captacao-o-que-fintechs-precisam-saber.html"
+    },
+    {
+      "blog": "SAFIE IA for Business",
+      "blog_slug": "ia",
+      "blog_url": "https://ia.safie.blog.br",
+      "cor": "#a78bfa",
+      "slug": "2026-07-01-tributacao-de-empresas-de-ia-no-brasil-o-que-saber",
+      "titulo": "Tributação de empresas de IA no Brasil: o que saber",
+      "resumo": "A expansão das empresas de IA no Brasil traz obrigações tributárias específicas que muitos founders e gestores ainda desconhecem. O enquadramento fiscal incorreto pode gerar autuações, perda de benefí",
+      "tema": "Tributação de empresas de tecnologia e IA",
+      "data_iso": "2026-07-01",
+      "data": "1 jul 2026",
+      "url": "https://ia.safie.blog.br/artigos/2026-07-01-tributacao-de-empresas-de-ia-no-brasil-o-que-saber.html"
+    },
+    {
+      "blog": "SAFIE IA for Business",
+      "blog_slug": "ia",
+      "blog_url": "https://ia.safie.blog.br",
+      "cor": "#a78bfa",
+      "slug": "2026-07-01-ai-act-da-ue-o-que-muda-para-startups-brasileiras",
+      "titulo": "AI Act da UE: o que muda para startups brasileiras",
+      "resumo": "O AI Act da União Europeia entrou em plena aplicação em 2026, criando obrigações concretas para qualquer empresa que desenvolva ou comercialize sistemas de IA no mercado europeu, incluindo empresas br",
+      "tema": "AI Act e regulação internacional",
+      "data_iso": "2026-07-01",
+      "data": "1 jul 2026",
+      "url": "https://ia.safie.blog.br/artigos/2026-07-01-ai-act-da-ue-o-que-muda-para-startups-brasileiras.html"
+    },
+    {
+      "blog": "SAFIE Reforma Tributária",
+      "blog_slug": "reforma-tributaria",
+      "blog_url": "https://reformatributaria.safie.blog.br",
+      "cor": "#d4a857",
+      "slug": "2026-07-01-transicao-tributaria-2026-2033-o-que-muda-na-pratica",
+      "titulo": "Transição tributária 2026-2033: o que muda na prática",
+      "resumo": "A reforma tributária brasileira entra em fase operacional em 2026, com a coexistência dos tributos antigos e dos novos até 2033. O período de transição não é apenas burocrático: exige adaptação de sis",
+      "tema": "Transição tributária (2026-2033)",
+      "data_iso": "2026-07-01",
+      "data": "1 jul 2026",
+      "url": "https://reformatributaria.safie.blog.br/artigos/2026-07-01-transicao-tributaria-2026-2033-o-que-muda-na-pratica.html"
+    },
+    {
+      "blog": "SAFIE Reforma Tributária",
+      "blog_slug": "reforma-tributaria",
+      "blog_url": "https://reformatributaria.safie.blog.br",
+      "cor": "#d4a857",
+      "slug": "2026-07-01-imposto-seletivo-e-concessoes-de-rodovias",
+      "titulo": "Imposto Seletivo e Concessões de Rodovias",
+      "resumo": "A reforma tributária (EC 132/2023 e LC 214/2025) altera a carga tributária efetiva sobre concessões de rodovias, exigindo revisão dos contratos para reequilíbrio econômico-financeiro. Empresas concess",
+      "tema": "Imposto Seletivo",
+      "data_iso": "2026-07-01",
+      "data": "1 jul 2026",
+      "url": "https://reformatributaria.safie.blog.br/artigos/2026-07-01-imposto-seletivo-e-concessoes-de-rodovias.html"
+    },
     {
       "blog": "SAFIE Cripto",
       "blog_slug": "cripto",
@@ -13,19 +117,6 @@
       "data_iso": "2026-06-29",
       "data": "29 jun 2026",
       "url": "https://cripto.safie.blog.br/artigos/2026-06-29-stablecoins-e-risco-sistemico-o-alerta-do-bis.html"
-    },
-    {
-      "blog": "SAFIE Cripto",
-      "blog_slug": "cripto",
-      "blog_url": "https://cripto.safie.blog.br",
-      "cor": "#4a9eff",
-      "slug": "2026-06-29-defi-e-stablecoins-tokenizacao-rumo-a-us-678-tri",
-      "titulo": "DeFi e Stablecoins: tokenização rumo a US$ 6,78 tri",
-      "resumo": "Relatório da Binance Research aponta que ativos tokenizados já ultrapassaram US$ 10 bilhões e podem atingir US$ 6,78 trilhões com a democratização do acesso via DeFi e stablecoins. No Brasil, essa exp",
-      "tema": "DeFi e stablecoins",
-      "data_iso": "2026-06-29",
-      "data": "29 jun 2026",
-      "url": "https://cripto.safie.blog.br/artigos/2026-06-29-defi-e-stablecoins-tokenizacao-rumo-a-us-678-tri.html"
     },
     {
       "blog": "SAFIE E-commerce",
@@ -54,19 +145,6 @@
       "url": "https://fintechs.safie.blog.br/artigos/2026-06-29-open-finance-dados-financeiros-e-obrigacoes-legais.html"
     },
     {
-      "blog": "SAFIE Fintechs",
-      "blog_slug": "fintechs",
-      "blog_url": "https://fintechs.safie.blog.br",
-      "cor": "#3dd68c",
-      "slug": "2026-06-29-pix-e-instabilidade-macro-riscos-para-fintechs",
-      "titulo": "PIX e instabilidade macro: riscos para fintechs",
-      "resumo": "A Franklin Templeton alertou que o Brasil corre o risco de repetir o padrão de crescimento curto e fraco conhecido como 'voo de galinha', impulsionado por desequilíbrio fiscal e pressão inflacionária.",
-      "tema": "PIX e meios de pagamento",
-      "data_iso": "2026-06-29",
-      "data": "29 jun 2026",
-      "url": "https://fintechs.safie.blog.br/artigos/2026-06-29-pix-e-instabilidade-macro-riscos-para-fintechs.html"
-    },
-    {
       "blog": "SAFIE IA for Business",
       "blog_slug": "ia",
       "blog_url": "https://ia.safie.blog.br",
@@ -80,19 +158,6 @@
       "url": "https://ia.safie.blog.br/artigos/2026-06-29-regulacao-de-ia-no-brasil-o-que-muda-em-2026.html"
     },
     {
-      "blog": "SAFIE IA for Business",
-      "blog_slug": "ia",
-      "blog_url": "https://ia.safie.blog.br",
-      "cor": "#a78bfa",
-      "slug": "2026-06-29-investimento-em-ia-licoes-do-colapso-das-bets",
-      "titulo": "Investimento em IA: lições do colapso das bets",
-      "resumo": "A intervenção regulatória que desestruturou o mercado de apostas esportivas no Brasil serve como alerta direto para o ecossistema de IA e deep tech: regulação tardia, quando chega, chega com força. Fo",
-      "tema": "Investimento em IA e deep tech",
-      "data_iso": "2026-06-29",
-      "data": "29 jun 2026",
-      "url": "https://ia.safie.blog.br/artigos/2026-06-29-investimento-em-ia-licoes-do-colapso-das-bets.html"
-    },
-    {
       "blog": "SAFIE Reforma Tributária",
       "blog_slug": "reforma-tributaria",
       "blog_url": "https://reformatributaria.safie.blog.br",
@@ -104,19 +169,6 @@
       "data_iso": "2026-06-29",
       "data": "29 jun 2026",
       "url": "https://reformatributaria.safie.blog.br/artigos/2026-06-29-zfm-e-ibs-a-reforma-que-tornou-manaus-mais-atrativa.html"
-    },
-    {
-      "blog": "SAFIE Cripto",
-      "blog_slug": "cripto",
-      "blog_url": "https://cripto.safie.blog.br",
-      "cor": "#4a9eff",
-      "slug": "2026-06-26-tokenizacao-de-ativos-regulacao-e-contabilidade",
-      "titulo": "Tokenização de Ativos: Regulação e Contabilidade",
-      "resumo": "O mercado brasileiro de tokenização de ativos consolida novos movimentos em 2026, com plataformas como Liqi, Fireblocks e Mercado Bitcoin ampliando produtos e parcerias. Do ponto de vista jurídico, es",
-      "tema": "Tokenização e ativos digitais",
-      "data_iso": "2026-06-26",
-      "data": "26 jun 2026",
-      "url": "https://cripto.safie.blog.br/artigos/2026-06-26-tokenizacao-de-ativos-regulacao-e-contabilidade.html"
     },
     {
       "blog": "SAFIE E-commerce",
@@ -143,58 +195,6 @@
       "data_iso": "2026-06-26",
       "data": "26 jun 2026",
       "url": "https://ecommerce.safie.blog.br/artigos/2026-06-26-lgpd-no-e-commerce-o-que-muda-com-a-anpd.html"
-    },
-    {
-      "blog": "SAFIE Fintechs",
-      "blog_slug": "fintechs",
-      "blog_url": "https://fintechs.safie.blog.br",
-      "cor": "#3dd68c",
-      "slug": "2026-06-26-regulacao-do-banco-central-para-fintechs-em-2026",
-      "titulo": "Regulação do Banco Central para fintechs em 2026",
-      "resumo": "O Banco Central do Brasil consolidou ao longo dos últimos anos um arcabouço regulatório robusto para fintechs, abrangendo desde a Resolução BCB nº 80/2021 até as normas de open finance e arranjos de p",
-      "tema": "Regulação do Banco Central para fintechs",
-      "data_iso": "2026-06-26",
-      "data": "26 jun 2026",
-      "url": "https://fintechs.safie.blog.br/artigos/2026-06-26-regulacao-do-banco-central-para-fintechs-em-2026.html"
-    },
-    {
-      "blog": "SAFIE IA for Business",
-      "blog_slug": "ia",
-      "blog_url": "https://ia.safie.blog.br",
-      "cor": "#a78bfa",
-      "slug": "2026-06-26-tributacao-de-empresas-de-ia-no-brasil-em-2026",
-      "titulo": "Tributação de Empresas de IA no Brasil em 2026",
-      "resumo": "O cenário macroeconômico brasileiro em 2026, com juros elevados e volatilidade cambial, pressiona diretamente a estrutura de custos das empresas de IA. Nesse contexto, escolher o regime tributário cor",
-      "tema": "Tributação de empresas de tecnologia e IA",
-      "data_iso": "2026-06-26",
-      "data": "26 jun 2026",
-      "url": "https://ia.safie.blog.br/artigos/2026-06-26-tributacao-de-empresas-de-ia-no-brasil-em-2026.html"
-    },
-    {
-      "blog": "SAFIE Reforma Tributária",
-      "blog_slug": "reforma-tributaria",
-      "blog_url": "https://reformatributaria.safie.blog.br",
-      "cor": "#d4a857",
-      "slug": "2026-06-26-simples-nacional-e-regimes-especiais-na-reforma-tributaria",
-      "titulo": "Simples Nacional e regimes especiais na reforma tributária",
-      "resumo": "A reforma tributária mantém o Simples Nacional como regime diferenciado, mas impõe ajustes relevantes na forma como as empresas optantes interagem com o IBS e a CBS. O período de transição (2026-2033)",
-      "tema": "Regimes especiais e o Simples Nacional",
-      "data_iso": "2026-06-26",
-      "data": "26 jun 2026",
-      "url": "https://reformatributaria.safie.blog.br/artigos/2026-06-26-simples-nacional-e-regimes-especiais-na-reforma-tributaria.html"
-    },
-    {
-      "blog": "SAFIE Reforma Tributária",
-      "blog_slug": "reforma-tributaria",
-      "blog_url": "https://reformatributaria.safie.blog.br",
-      "cor": "#d4a857",
-      "slug": "2026-06-26-imposto-seletivo-e-pcd-stf-analisa-restricoes",
-      "titulo": "Imposto Seletivo e PcD: STF analisa restrições",
-      "resumo": "O STF iniciou em 25 de junho de 2026 a análise de ações que contestam critérios da Lei Complementar 214/2025 para concessão de alíquota zero do IBS e da CBS na compra de veículos por pessoas com defic",
-      "tema": "Imposto Seletivo",
-      "data_iso": "2026-06-26",
-      "data": "26 jun 2026",
-      "url": "https://reformatributaria.safie.blog.br/artigos/2026-06-26-imposto-seletivo-e-pcd-stf-analisa-restricoes.html"
     }
   ]
 }
