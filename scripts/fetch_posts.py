@@ -93,7 +93,7 @@ for blog in BLOGS:
             "tema": artigo["tema"],
             "data_iso": data_iso,
             "data": formatar_data(data_str),
-            "url": f"{blog['url']}/artigos/{artigo['slug']}.html",
+            "url": f"{blog['url']}/artigos/{artigo['slug']}",
         })
 
 posts.sort(key=lambda p: p["data_iso"], reverse=True)
