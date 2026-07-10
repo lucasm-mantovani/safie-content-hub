@@ -18,10 +18,13 @@ jobs:
       - name: Executar fetch_posts.py
         run: python3 scripts/fetch_posts.py
 
+      - name: Generate llms.txt
+        run: python3 scripts/gerar_llms_txt.py
+
       - name: Commit e push se houver mudanças
         run: |
           git config user.name "safie-bot"
           git config user.email "bot@safie.com.br"
-          git add data/ultimos_posts.json
+          git add data/ultimos_posts.json llms.txt
           git diff --staged --quiet || git commit -m "auto: atualizar últimos posts $(date +%Y-%m-%d)"
           git push
