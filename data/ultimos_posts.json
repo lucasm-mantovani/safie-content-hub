@@ -1,6 +1,58 @@
 {
-  "gerado_em": "2026-07-10T14:36:16Z",
+  "gerado_em": "2026-07-11T13:35:36Z",
   "posts": [
+    {
+      "blog": "SAFIE Cripto",
+      "blog_slug": "cripto",
+      "blog_url": "https://cripto.safie.blog.br",
+      "cor": "#4a9eff",
+      "slug": "2026-07-10-multas-de-criptomoedas-r-83-mi-arrecadados-pela-receita",
+      "titulo": "Multas de criptomoedas: R$ 8,3 mi arrecadados pela Receita",
+      "resumo": "A Receita Federal do Brasil arrecadou R$ 8,3 milhões em multas aplicadas a contribuintes que cometeram falhas nas declarações de operações com criptomoedas, conforme dados divulgados pelo Portal do Bi",
+      "tema": "Regulação de criptoativos no Brasil",
+      "data_iso": "2026-07-10",
+      "data": "10 jul 2026",
+      "url": "https://cripto.safie.blog.br/artigos/2026-07-10-multas-de-criptomoedas-r-83-mi-arrecadados-pela-receita"
+    },
+    {
+      "blog": "SAFIE E-commerce",
+      "blog_slug": "ecommerce",
+      "blog_url": "https://ecommerce.safie.blog.br",
+      "cor": "#ff6b9d",
+      "slug": "2026-07-10-shein-e-o-ipo-de-hong-kong-impacto-no-brasil",
+      "titulo": "Shein e o IPO de Hong Kong: impacto no Brasil",
+      "resumo": "O IPO da Shein em Hong Kong, após tentativas frustradas em Londres e Nova York, consolida a empresa como protagonista global do cross-border e reacende o debate sobre tributação de importações de baix",
+      "tema": "Importação e cross-border",
+      "data_iso": "2026-07-10",
+      "data": "10 jul 2026",
+      "url": "https://ecommerce.safie.blog.br/artigos/2026-07-10-shein-e-o-ipo-de-hong-kong-impacto-no-brasil"
+    },
+    {
+      "blog": "SAFIE Fintechs",
+      "blog_slug": "fintechs",
+      "blog_url": "https://fintechs.safie.blog.br",
+      "cor": "#3dd68c",
+      "slug": "2026-07-10-regulacao-do-banco-central-para-fintechs-em-2026",
+      "titulo": "Regulação do Banco Central para fintechs em 2026",
+      "resumo": "O arcabouço regulatório do Banco Central do Brasil impõe obrigações concretas de governança, compliance e integridade a fintechs, instituições de pagamento e bancos digitais, independentemente de disp",
+      "tema": "Regulação do Banco Central para fintechs",
+      "data_iso": "2026-07-10",
+      "data": "10 jul 2026",
+      "url": "https://fintechs.safie.blog.br/artigos/2026-07-10-regulacao-do-banco-central-para-fintechs-em-2026"
+    },
+    {
+      "blog": "SAFIE IA for Business",
+      "blog_slug": "ia",
+      "blog_url": "https://ia.safie.blog.br",
+      "cor": "#a78bfa",
+      "slug": "2026-07-10-aquisicao-em-ia-o-que-a-compra-da-data-rudder-revela",
+      "titulo": "Aquisição em IA: o que a compra da Data Rudder revela",
+      "resumo": "A Núclea anunciou acordo para aquisição da Data Rudder, startup de inteligência artificial especializada em prevenção a fraudes, sinalizando maturidade do M&A em deep tech no Brasil. Operações desse t",
+      "tema": "Investimento em IA e deep tech",
+      "data_iso": "2026-07-10",
+      "data": "10 jul 2026",
+      "url": "https://ia.safie.blog.br/artigos/2026-07-10-aquisicao-em-ia-o-que-a-compra-da-data-rudder-revela"
+    },
     {
       "blog": "SAFIE Cripto",
       "blog_slug": "cripto",
@@ -130,58 +182,6 @@
       "data_iso": "2026-07-08",
       "data": "8 jul 2026",
       "url": "https://reformatributaria.safie.blog.br/artigos/2026-07-08-transicao-tributaria-2026-2033-riscos-do-periodo"
-    },
-    {
-      "blog": "SAFIE Cripto",
-      "blog_slug": "cripto",
-      "blog_url": "https://cripto.safie.blog.br",
-      "cor": "#4a9eff",
-      "slug": "2026-07-06-rublo-digital-e-cbdcs-o-que-muda-no-brasil",
-      "titulo": "Rublo Digital e CBDCs: O Que Muda no Brasil?",
-      "resumo": "A presidente do Banco Central da Rússia, Elvira Nabiullina, anunciou que o país está pronto para iniciar o uso do rublo digital até setembro de 2026, consolidando a tendência global de moedas digitais",
-      "tema": "Tributação de criptoativos",
-      "data_iso": "2026-07-06",
-      "data": "6 jul 2026",
-      "url": "https://cripto.safie.blog.br/artigos/2026-07-06-rublo-digital-e-cbdcs-o-que-muda-no-brasil"
-    },
-    {
-      "blog": "SAFIE E-commerce",
-      "blog_slug": "ecommerce",
-      "blog_url": "https://ecommerce.safie.blog.br",
-      "cor": "#ff6b9d",
-      "slug": "2026-07-06-lgpd-e-privacidade-no-e-commerce-brinquedos-com-ia",
-      "titulo": "LGPD e privacidade no e-commerce: brinquedos com IA",
-      "resumo": "O Ministério da Justiça investiga brinquedos com inteligência artificial suspeitos de violar a privacidade de crianças, descumprindo a LGPD e normas do Estatuto da Criança e do Adolescente. O caso exp",
-      "tema": "LGPD e privacidade no e-commerce",
-      "data_iso": "2026-07-06",
-      "data": "6 jul 2026",
-      "url": "https://ecommerce.safie.blog.br/artigos/2026-07-06-lgpd-e-privacidade-no-e-commerce-brinquedos-com-ia"
-    },
-    {
-      "blog": "SAFIE Fintechs",
-      "blog_slug": "fintechs",
-      "blog_url": "https://fintechs.safie.blog.br",
-      "cor": "#3dd68c",
-      "slug": "2026-07-06-opa-e-captacao-licoes-para-fintechs",
-      "titulo": "OPA e captação: lições para fintechs",
-      "resumo": "A HBR Realty aprovou a realização de uma Oferta Pública de Aquisição (OPA) para adquirir a Helbor, operação sujeita às regras da CVM e da Lei das S.A. O movimento reacende o debate sobre estruturas de",
-      "tema": "Investimento e captação em fintechs",
-      "data_iso": "2026-07-06",
-      "data": "6 jul 2026",
-      "url": "https://fintechs.safie.blog.br/artigos/2026-07-06-opa-e-captacao-licoes-para-fintechs"
-    },
-    {
-      "blog": "SAFIE IA for Business",
-      "blog_slug": "ia",
-      "blog_url": "https://ia.safie.blog.br",
-      "cor": "#a78bfa",
-      "slug": "2026-07-06-faturamento-em-ia-metricas-reais-para-investidores",
-      "titulo": "Faturamento em IA: métricas reais para investidores",
-      "resumo": "O Startupi alertou que o faturamento de empresas de IA pode esconder a real saúde financeira do negócio, especialmente quando contratos são inflados por créditos gratuitos ou receitas não recorrentes.",
-      "tema": "Investimento em IA e deep tech",
-      "data_iso": "2026-07-06",
-      "data": "6 jul 2026",
-      "url": "https://ia.safie.blog.br/artigos/2026-07-06-faturamento-em-ia-metricas-reais-para-investidores"
     },
     {
       "blog": "SAFIE Reforma Tributária",
