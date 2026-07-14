@@ -841,3 +841,14 @@ h1, h2, h3, h4,
 }
 /* CNPJs no footer (requisito legal — padrão dos 5 blogs) */
 .footer-cnpjs { display: flex; flex-direction: column; gap: 4px; margin: 16px 0; font-size: 0.78rem; color: var(--cinza); line-height: 1.5; }
+/* Botão CTA compartilhado (artigo, home, footer) — tokens do Hub (A2.1) */
+.cta-btn {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: var(--azul); color: var(--branco);
+  font-family: var(--fonte); font-weight: 500;
+  padding: 14px 28px; border: none; border-radius: 9999px;
+  box-shadow: 0 8px 24px -4px rgba(21, 78, 250, 0.38);
+  cursor: pointer; transition: background .2s ease, transform .15s ease;
+}
+.cta-btn:hover { background: #002bab; transform: translateY(-1px); }
+.cta-btn:disabled, .cta-btn[aria-disabled="true"] { opacity: .55; cursor: not-allowed; box-shadow: none; transform: none; }

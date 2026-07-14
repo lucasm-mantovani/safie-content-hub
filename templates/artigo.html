@@ -35,10 +35,10 @@
 {{SCHEMA_JSON}}
   </script>
 
-  <!-- NOTE A2: style.css (design system do Hub) ainda NAO contem as classes de corpo de
-       artigo (.artigo-wrapper, .resumo-executivo, .relacionados, .key-takeaways, .citacao...).
-       Consolidar o CSS de artigo do estilo.css dos blogs no design system antes da migracao (A3). -->
+  <!-- Chrome (header/footer/tokens do Hub) + corpo de artigo (artigo.css, consolidado em A2.1).
+       Ordem importa: style.css primeiro, artigo.css por cima. -->
   <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/artigo.css">
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
