@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta name="google-site-verification" content="o2ME48MD1myosxdzANOv2RozPmZyghqIt_zVWQqmHOA" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Insurtech: composição residencial e precificação de seguros — SAFIE Blog</title>
+  <meta name="description" content="Entenda como a composição do domicílio afeta o preço do seguro digital e o que isso significa para fintechs e insurtechs no Brasil.">
+  <link rel="canonical" href="https://safie.blog.br/artigos/2026-06-01-insurtech-composicao-residencial-e-precificacao-de-seguros">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="author" content="SAFIE">
+  <meta name="keywords" content="insurtech, composição, residencial, precificação, seguros, digitais, ANPD">
+
+  <!-- Open Graph -->
+  <meta property="og:type"        content="article">
+  <meta property="og:title"       content="Insurtech: composição residencial e precificação de seguros — SAFIE Blog">
+  <meta property="og:description" content="Entenda como a composição do domicílio afeta o preço do seguro digital e o que isso significa para fintechs e insurtechs no Brasil.">
+  <meta property="og:url"         content="https://safie.blog.br/artigos/2026-06-01-insurtech-composicao-residencial-e-precificacao-de-seguros">
+  <meta property="og:site_name"   content="SAFIE Blog">
+  <meta property="og:locale"      content="pt_BR">
+  <meta property="og:image"       content="https://safie.blog.br/assets/img/artigos/2026-06-01-insurtech-composicao-residencial-e-precificacao-de-seguros.svg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="article:published_time" content="2026-06-01T11:15:06Z">
+  <meta property="article:section"       content="Seguros digitais (insurtech)">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:title"       content="Insurtech: composição residencial e precificação de seguros — SAFIE Blog">
+  <meta name="twitter:description" content="Entenda como a composição do domicílio afeta o preço do seguro digital e o que isso significa para fintechs e insurtechs no Brasil.">
+  <meta name="twitter:image"       content="https://safie.blog.br/assets/img/artigos/2026-06-01-insurtech-composicao-residencial-e-precificacao-de-seguros.svg">
+
+  <!-- Schema.org JSON-LD (BlogPosting + FAQPage) -->
+  <script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Insurtech: composição residencial e precificação de seguros",
+    "description": "Entenda como a composição do domicílio afeta o preço do seguro digital e o que isso significa para fintechs e insurtechs no Brasil.",
+    "datePublished": "2026-06-01T11:15:06Z",
+    "dateModified": "2026-07-10T10:01:12-03:00",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://safie.blog.br/artigos/2026-06-01-insurtech-composicao-residencial-e-precificacao-de-seguros"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Lucas Mantovani",
+      "sameAs": [
+        "https://www.linkedin.com/in/lucasm-mantovani/",
+        "https://www.instagram.com/lucasm.mantovani/"
+      ]
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "SAFIE",
+      "url": "https://safie.com.br",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://consultoria.safie.com.br/wp-content/uploads/2025/11/cropped-2-1-1024x292.webp"
+      },
+      "sameAs": [
+        "https://www.instagram.com/safiegroup/",
+        "https://www.instagram.com/safiecontabilidade/"
+      ]
+    },
+    "url": "https://safie.blog.br/artigos/2026-06-01-insurtech-composicao-residencial-e-precificacao-de-seguros",
+    "articleSection": "Seguros digitais (insurtech)",
+    "inLanguage": "pt-BR"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Uma fintech pode coletar dados de moradores para precificar um seguro residencial?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim, desde que a coleta esteja amparada em base legal válida da LGPD (como execução de contrato ou legítimo interesse), que os dados sejam minimizados ao necessário para a finalidade de subscrição, e que o usuário seja informado de forma clara sobre o uso dessas informações. Dados sensíveis, como condição de saúde de moradores, exigem consentimento explícito."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quais critérios de precificação de seguros são vedados no Brasil?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A regulação brasileira não lista taxativamente todos os critérios proibidos, mas veda discriminação com base em raça, religião, orientação sexual e outros fatores protegidos pela Constituição e por legislação infraconstitucional. Critérios atuariais precisam ser tecnicamente justificados e registrados nas notas técnicas aprovadas pela SUSEP. Critérios arbitrários ou sem respaldo estatístico podem ser questionados pelo consumidor e pelo regulador."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O que é subscrição automatizada e quais são os riscos regulatórios para insurtechs?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Subscrição automatizada é o processo pelo qual um algoritmo decide, sem intervenção humana, se aceita ou recusa um risco e a qual preço. O risco regulatório principal está na falta de explicabilidade do modelo: a SUSEP pode exigir que a seguradora demonstre como o algoritmo chegou àquela decisão. Além disso, se o modelo gerar decisões discriminatórias de forma indireta, há exposição à ANPD e ao Código de Defesa do Consumidor."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Insurtechs precisam de licença específica da SUSEP para operar no Brasil?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Depende do modelo de negócio. Insurtechs que assumem risco precisam de autorização como seguradora. As que apenas distribuem produtos de terceiros podem operar como corretoras (licença SUSEP) ou como correspondentes de microsseguro, com requisitos mais simplificados. Plataformas que apenas integram APIs de seguradoras parceiras precisam avaliar se a atividade caracteriza intermediação regulada."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Como a composição do domicílio afeta as provisões técnicas de uma seguradora parceira de uma fintech?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Se a fintech distribui um produto em que a precificação considera o perfil dos moradores, os dados coletados influenciam as premissas atuariais usadas para calcular provisões como a PPNG (Provisão de Prêmios Não Ganhos) e a PSL (Provisão de Sinistros a Liquidar). Se os dados forem imprecisos ou incompletos, a sinistralidade real pode divergir da esperada, gerando insuficiência de provisão e necessidade de aporte patrimonial pela seguradora, o que pode afetar parcerias e condições comerciais com a fintech distribuidora."
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Início",
+        "item": "https://safie.blog.br"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Seguros digitais (insurtech)",
+        "item": "https://safie.blog.br/categorias/insurtech"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Insurtech: composição residencial e precificação de seguros",
+        "item": "https://safie.blog.br/artigos/2026-06-01-insurtech-composicao-residencial-e-precificacao-de-seguros"
+      }
+    ]
+  }
+]
+  </script>
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/artigo.css">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="/assets/img/android-chrome-512x512.png">
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+</head>
+<body data-nicho="fintechs">
+
+<!-- partial: header — cabeçalho comum do SAFIE Blog (injetado via {{HEADER}}) -->
+<header class="site-header" role="banner">
+  <div class="header-inner">
+    <a href="/" class="logo" aria-label="SAFIE Blog — Página inicial">
+      <img class="logo-img" src="/assets/logos/safie-logo-branco.svg" alt="SAFIE">
+      <span class="blog-id">Blog</span>
+    </a>
+    <nav id="nav-principal" class="nav-principal" aria-label="Navegação principal">
+      <a href="/">Início</a>
+      <a href="/artigos/">Artigos</a>
+      <a href="/categorias/">Categorias</a>
+      <a href="/sobre">Sobre</a>
+    </nav>
+    <form class="header-busca" role="search" action="/busca" method="get">
+      <label for="busca-q-header" class="sr-only">Buscar artigos</label>
+      <input type="search" id="busca-q-header" name="q" placeholder="Buscar…" autocomplete="off">
+      <button type="submit" aria-label="Buscar">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      </button>
+    </form>
+    <a href="https://safie.com.br" class="nav-voltar" target="_blank" rel="noopener">Voltar ao site SAFIE →</a>
+    <button id="menu-toggle" class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+<nav class="breadcrumb" aria-label="Trilha de navegação">
+  <div class="container">
+    <a href="/">Início</a> <span aria-hidden="true">›</span>
+    <a href="/categorias/insurtech">Seguros digitais (insurtech)</a> <span aria-hidden="true">›</span>
+    <span aria-current="page">Insurtech: composição residencial e precificação de seguros</span>
+  </div>
+</nav>
+
+  <article class="artigo-wrapper" itemscope itemtype="https://schema.org/BlogPosting">
+
+    <header class="artigo-header">
+      <a class="artigo-tema" href="/categorias/insurtech">Seguros digitais (insurtech)</a>
+
+      <h1 class="artigo-titulo" itemprop="headline">Insurtech: composição residencial e precificação de seguros</h1>
+
+      <div class="artigo-meta">
+        <span>Por <strong itemprop="author">SAFIE</strong></span>
+        <span>·</span>
+        <time datetime="2026-06-01T11:15:06Z" itemprop="datePublished">1 de junho de 2026</time>
+        <span>·</span>
+        <span>4 min de leitura</span>
+      </div>
+    </header>
+
+    <img class="artigo-capa" src="/assets/img/artigos/2026-06-01-insurtech-composicao-residencial-e-precificacao-de-seguros.svg" alt="Insurtech: composição residencial e precificação de seguros — capa ilustrativa do artigo sobre Seguros digitais (insurtech)" width="1200" height="630" loading="lazy">
+
+    <!-- Resumo executivo (para IAs generativas / GEO) -->
+    <aside class="resumo-executivo" itemprop="abstract">
+      <strong>Resumo executivo</strong>
+      A composição do núcleo familiar influencia diretamente a precificação de apólices de seguro residencial e de vida, prática reconhecida pelas seguradoras e regulada pela SUSEP. Para fintechs e insurtechs que distribuem ou desenvolvem produtos securitários, compreender os critérios de subscrição e os limites legais para uso de dados pessoais é essencial para evitar passivos regulatórios e garantir conformidade com a LGPD.
+    </aside>
+
+    <!-- Corpo do artigo -->
+    <div class="artigo-corpo" itemprop="articleBody">
+      <p>Uma reportagem publicada pela InfoMoney revelou que quem mora com o segurado pode encarecer ou baratear o custo de uma apólice. Perfil de moradores, histórico de sinistros e até a presença de animais domésticos entram no cálculo das seguradoras ao definir o prêmio a ser cobrado. O tema é relevante porque expõe a lógica atuarial por trás dos produtos digitais de seguro, cada vez mais distribuídos por fintechs e plataformas embarcadas.</p><p>Para o consumidor final, a percepção é simples: o preço mudou porque a seguradora soube mais sobre quem vive na casa. Para as insurtechs e distribuidoras digitais, a questão é mais complexa: quais dados podem ser coletados, como devem ser tratados e quais critérios de subscrição são juridicamente sustentáveis no Brasil?</p><p>Este artigo parte do caso reportado pela InfoMoney para aprofundar a análise jurídica e contábil do tema, com foco nos pontos que afetam diretamente founders, gestores de produto e equipes de compliance de fintechs que operam no segmento de seguros digitais.</p>
+
+<h2>Contexto jurídico e regulatório</h2>
+<h2>O que a regulação brasileira diz sobre subscrição e uso de dados em seguros</h2><p>A Superintendência de Seguros Privados (SUSEP) é o órgão responsável pela regulação, supervisão e controle do mercado de seguros no Brasil, com base no Decreto-Lei nº 73/1966. A autarquia permite que seguradoras utilizem critérios de risco para precificação, incluindo características do imóvel, localização, histórico de sinistros e perfil dos moradores, desde que esses critérios sejam tecnicamente justificados e não configurem discriminação vedada por lei.</p><p>A Circular SUSEP nº 667/2022, que trata das regras gerais de seguros, reforça a obrigatoriedade de transparência nas condições gerais das apólices. Isso significa que os critérios que elevam ou reduzem o prêmio precisam estar descritos de forma acessível ao segurado. Para insurtechs que operam com produtos parametrizados e onboarding digital, esse requisito impõe atenção especial ao design das jornadas de contratação.</p><p>Quando a coleta de dados sobre moradores envolve informações pessoais, entra em cena a Lei Geral de Proteção de Dados (Lei nº 13.709/2018). Dados como nome, idade, profissão ou histórico de saúde dos moradores são considerados dados pessoais e, em alguns casos, dados sensíveis. O tratamento desses dados para fins de subscrição precisa estar amparado em uma base legal válida, preferencialmente o legítimo interesse ou a execução do contrato, com registro adequado no mapeamento de dados (ROPA) da empresa.</p><p>A Resolução CNJ nº 455/2022 e a própria estrutura do Código Civil brasileiro (artigos 757 a 802) também são referências para entender os limites da relação contratual em seguros: o segurado tem dever de informar com veracidade as circunstâncias que possam influir na aceitação do risco, e a omissão dolosa pode resultar em perda do direito à indenização. Esse ponto é especialmente sensível em produtos digitais, onde o preenchimento de formulários automatizados pode gerar lacunas de informação.</p>
+
+<h2>Impacto prático</h2>
+<p>Para fintechs que atuam como correspondentes de seguros, agentes autônomos ou insurtechs licenciadas, o principal impacto prático está na arquitetura do produto. A coleta de dados sobre moradores durante o onboarding precisa ser justificada, minimizada e vinculada a uma finalidade legítima. Formulários que perguntam sobre cônjuges, filhos ou outros moradores sem explicar o motivo podem gerar questionamentos da ANPD e da SUSEP, além de comprometer a experiência do usuário.</p><p>Do ponto de vista contábil, a precificação dinâmica baseada em perfil residencial afeta diretamente a sinistralidade esperada e, consequentemente, as provisões técnicas que as seguradoras parceiras precisam constituir. Fintechs que desenvolvem produtos em modelo de co-seguro ou que assumem risco por meio de estruturas de cosseguro fronting precisam garantir que os critérios de subscrição estejam alinhados com as premissas atuariais registradas junto à SUSEP. Divergências entre o risco assumido e o risco precificado podem gerar insuficiência de provisão, um passivo contábil relevante.</p><p>Outro ponto prático envolve o uso de inteligência artificial e modelos preditivos para subscrição automatizada. Insurtechs que utilizam algoritmos para definir prêmios com base em dados de moradores precisam garantir que esses modelos sejam explicáveis e auditáveis, tanto para fins regulatórios quanto para responder a eventuais contestações de consumidores junto à SUSEP ou ao PROCON. A Resolução SUSEP nº 407/2021, que trata de tecnologia e inovação, já antecipa esse debate ao exigir governança sobre sistemas automatizados de decisão.</p>
+
+<h2>Considerações finais</h2>
+<p>A notícia da InfoMoney sobre o impacto dos moradores no preço do seguro é um ponto de entrada para um debate mais estrutural: como insurtechs e fintechs podem usar dados para personalizar produtos sem ultrapassar os limites legais e regulatórios. O mercado brasileiro de seguros digitais movimentou R$ 22,3 bilhões em prêmios no primeiro semestre de 2024, segundo dados da CNseg, e a tendência de personalização via dados tende a se intensificar.</p><p>Para founders e gestores do setor, o caminho sustentável passa por três pilares: transparência nas condições de subscrição, governança de dados alinhada à LGPD e modelos atuariais auditáveis. Fintechs que investem nessa estrutura antes de escalar ganham vantagem competitiva e reduzem o risco de enforcement regulatório, que no segmento de seguros pode incluir suspensão de produtos, multas da SUSEP e responsabilidade solidária em casos de dano ao consumidor.</p>
+    </div>
+
+    <!-- FAQ -->
+    <section class="faq-section" id="faq" itemscope itemtype="https://schema.org/FAQPage">
+      <h2>Perguntas frequentes</h2>
+      <div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Uma fintech pode coletar dados de moradores para precificar um seguro residencial?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">Sim, desde que a coleta esteja amparada em base legal válida da LGPD (como execução de contrato ou legítimo interesse), que os dados sejam minimizados ao necessário para a finalidade de subscrição, e que o usuário seja informado de forma clara sobre o uso dessas informações. Dados sensíveis, como condição de saúde de moradores, exigem consentimento explícito.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Quais critérios de precificação de seguros são vedados no Brasil?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">A regulação brasileira não lista taxativamente todos os critérios proibidos, mas veda discriminação com base em raça, religião, orientação sexual e outros fatores protegidos pela Constituição e por legislação infraconstitucional. Critérios atuariais precisam ser tecnicamente justificados e registrados nas notas técnicas aprovadas pela SUSEP. Critérios arbitrários ou sem respaldo estatístico podem ser questionados pelo consumidor e pelo regulador.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">O que é subscrição automatizada e quais são os riscos regulatórios para insurtechs?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">Subscrição automatizada é o processo pelo qual um algoritmo decide, sem intervenção humana, se aceita ou recusa um risco e a qual preço. O risco regulatório principal está na falta de explicabilidade do modelo: a SUSEP pode exigir que a seguradora demonstre como o algoritmo chegou àquela decisão. Além disso, se o modelo gerar decisões discriminatórias de forma indireta, há exposição à ANPD e ao Código de Defesa do Consumidor.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Insurtechs precisam de licença específica da SUSEP para operar no Brasil?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">Depende do modelo de negócio. Insurtechs que assumem risco precisam de autorização como seguradora. As que apenas distribuem produtos de terceiros podem operar como corretoras (licença SUSEP) ou como correspondentes de microsseguro, com requisitos mais simplificados. Plataformas que apenas integram APIs de seguradoras parceiras precisam avaliar se a atividade caracteriza intermediação regulada.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Como a composição do domicílio afeta as provisões técnicas de uma seguradora parceira de uma fintech?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">Se a fintech distribui um produto em que a precificação considera o perfil dos moradores, os dados coletados influenciam as premissas atuariais usadas para calcular provisões como a PPNG (Provisão de Prêmios Não Ganhos) e a PSL (Provisão de Sinistros a Liquidar). Se os dados forem imprecisos ou incompletos, a sinistralidade real pode divergir da esperada, gerando insuficiência de provisão e necessidade de aporte patrimonial pela seguradora, o que pode afetar parcerias e condições comerciais com a fintech distribuidora.</span></div>
+</div>
+
+    </section>
+
+    <!-- Referências -->
+    <aside class="referencias">
+      <h2>Fontes e referências</h2>
+      <ul>
+<li><a href="https://www.infomoney.com.br/minhas-financas/seguro-mais-caro-ou-barato-quem-mora-com-voce-pode-pesar-na-conta/" target="_blank" rel="noopener">InfoMoney</a></li>
+<li><span class="ref-label">Fonte original:</span> <a href="https://www.infomoney.com.br/minhas-financas/seguro-mais-caro-ou-barato-quem-mora-com-voce-pode-pesar-na-conta/" target="_blank" rel="noopener">InfoMoney - Seguro mais caro ou barato? Quem mora com você pode pesar na conta</a></li>
+<li>Decreto-Lei nº 73/1966 - Lei do Sistema Nacional de Seguros Privados</li>
+<li>Lei nº 13.709/2018 - Lei Geral de Proteção de Dados (LGPD)</li>
+<li>Circular SUSEP nº 667/2022 - Regras gerais sobre seguros</li>
+<li>Resolução SUSEP nº 407/2021 - Tecnologia e inovação no mercado de seguros</li>
+<li>Código Civil Brasileiro - artigos 757 a 802 (Contrato de Seguro)</li>
+<li><span class="ref-label">CNseg - Confederação Nacional das Seguradoras:</span> <a href="https://www.cnseg.org.br" target="_blank" rel="noopener">https://www.cnseg.org.br</a></li>
+</ul>
+
+    </aside>
+
+  </article>
+    <!-- CTA consultivo (leva ao WhatsApp da SAFIE) -->
+    <div class="container">
+      <div class="artigo-cta">
+        <h3>Decisão jurídica ou contábil pendente?</h3>
+        <p>A SAFIE atende founders e gestores com acesso direto aos sócios — jurídico e contabilidade integrados sob o mesmo teto. Conversamos para entender o caso antes de qualquer recomendação.</p>
+        <a href="https://wa.me/5511934329769?text=Ol%C3%A1!%20Vim%20pelo%20blog%20da%20SAFIE%20e%20gostaria%20de%20conversar." class="cta-btn" target="_blank" rel="noopener">Falar com a SAFIE</a>
+      </div>
+    </div>
+
+
+
+  <!-- Sobre os autores -->
+  <div class="container">
+    <div class="sobre-autores">
+      <span class="sobre-autores-titulo">Sobre os autores</span>
+      <p>Conteúdo produzido pela SAFIE, consultoria jurídico-contábil para empresas digitais e de tecnologia. A SAFIE é liderada por <a href="https://instagram.com/lucasm.mantovani" target="_blank" rel="noopener"><strong>Lucas Mantovani</strong></a> e <a href="https://instagram.com/euitalocunha" target="_blank" rel="noopener"><strong>Italo Cunha</strong></a>.</p>
+    </div>
+  </div>
+
+  <!-- Artigos relacionados -->
+  <div class="container">
+    <section class="relacionados">
+      <h2>Continue lendo</h2>
+      <div class="relacionados-lista">
+<ul class="relacionados-items">
+  <li><a href="/artigos/2026-06-12-insurtech-no-brasil-seguros-digitais-em-2026">Insurtech no Brasil: seguros digitais em 2026</a></li>
+  <li><a href="/artigos/2026-06-09-insurtech-no-brasil-regulacao-e-oportunidades">Insurtech no Brasil: regulação e oportunidades</a></li>
+  <li><a href="/artigos/2026-07-13-imposto-seletivo-o-que-muda-para-sua-empresa">Imposto Seletivo: o que muda para sua empresa</a></li>
+</ul>
+</div>
+    </section>
+  </div>
+</main>
+
+<!-- partial: footer — rodapé comum COM formulário (injetado via {{FOOTER}}) -->
+<!-- Formulário de contato — placeholder. Submit inerte; integração HubSpot na fase A5/A6. -->
+<section class="footer-form-wrap" aria-label="Fale com a SAFIE">
+  <div class="footer-form-inner">
+    <div class="footer-form-texto">
+      <p class="secao-kicker">Fale com a SAFIE</p>
+      <h2>Decisão jurídica ou contábil pendente?</h2>
+      <p>Atendemos founders e gestores com acesso direto aos sócios — jurídico e contabilidade sob o mesmo teto.</p>
+    </div>
+    <!-- TODO A5/A6: HubSpot — este form ainda NÃO envia. -->
+    <form class="footer-form" data-form="rodape" onsubmit="return false" novalidate>
+      <label>Nome*
+        <input type="text" name="nome" autocomplete="name" required>
+      </label>
+      <label>E-mail*
+        <input type="email" name="email" autocomplete="email" required>
+      </label>
+      <label>Empresa
+        <input type="text" name="empresa" autocomplete="organization">
+      </label>
+      <label>Mensagem
+        <textarea name="mensagem" rows="3"></textarea>
+      </label>
+      <button type="submit" class="cta-btn" disabled aria-disabled="true">Enviar (em breve)</button>
+      <p class="footer-form-nota">Formulário em configuração. Por ora, fale conosco em
+        <a href="mailto:contato@safie.com.br">contato@safie.com.br</a>.</p>
+    </form>
+  </div>
+</section>
+
+<footer class="site-footer" role="contentinfo">
+  <div class="footer-inner">
+    <div class="footer-topo">
+      <div class="footer-marca">
+        <span class="logo-marca footer-logo-texto">Blog <span style="color:var(--ciano)">SAFIE</span></span>
+        <p>Consultoria jurídico-contábil para negócios digitais, startups e a nova economia.</p>
+      </div>
+      <div class="footer-nav">
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="/">Início</a></li>
+            <li><a href="/artigos/">Artigos</a></li>
+            <li><a href="/categorias/">Categorias</a></li>
+            <li><a href="/sobre">Sobre</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Links</h4>
+          <ul>
+            <li><a href="https://safie.com.br" target="_blank" rel="noopener">safie.com.br</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+            <li><a href="mailto:contato@safie.com.br">contato@safie.com.br</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-arco-iris" aria-hidden="true"></div>
+    <div class="footer-cnpjs" aria-label="CNPJs SAFIE">
+      <span>SAFIE Consultoria e Contabilidade Ltda — 59.931.854/0001-34</span>
+      <span>SAFIE Tecnologia e Consultoria Ltda — 42.224.278/0001-92</span>
+      <span>Cunha &amp; Mantovani Advogados Associados — 34.924.976/0001-72</span>
+    </div>
+    <div class="footer-base">
+      <span>&copy; 2026 SAFIE. Todos os direitos reservados.</span>
+      <span>Conteúdo informativo; não constitui parecer jurídico ou contábil individualizado.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/js/busca.js"></script>
+<script>
+fetch('https://safie-analytics.lucas-mantovani.workers.dev/track', {
+  method: 'POST',
+  headers: {'Content-Type': 'application/json'},
+  body: JSON.stringify({ url: window.location.pathname, blog: 'fintechs' })
+}).catch(() => {});
+</script>
+<script src="/assets/js/widget-whatsapp.js" defer></script>
+</body>
+</html>

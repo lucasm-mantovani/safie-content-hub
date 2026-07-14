@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta name="google-site-verification" content="o2ME48MD1myosxdzANOv2RozPmZyghqIt_zVWQqmHOA" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>IA na Saúde: Regulação e Riscos Jurídicos no Brasil — SAFIE Blog</title>
+  <meta name="description" content="IA na saúde preventiva avança no Brasil. Entenda o marco regulatório, os riscos jurídicos e o que founders e CTOs precisam saber antes de lançar sua solução.">
+  <link rel="canonical" href="https://safie.blog.br/artigos/2026-04-24-ia-na-saude-regulacao-e-riscos-juridicos-no-brasil">
+
+  <!-- Open Graph -->
+  <meta property="og:type"        content="article">
+  <meta property="og:title"       content="IA na Saúde: Regulação e Riscos Jurídicos no Brasil — SAFIE Blog">
+  <meta property="og:description" content="IA na saúde preventiva avança no Brasil. Entenda o marco regulatório, os riscos jurídicos e o que founders e CTOs precisam saber antes de lançar sua solução.">
+  <meta property="og:url"         content="https://safie.blog.br/artigos/2026-04-24-ia-na-saude-regulacao-e-riscos-juridicos-no-brasil">
+  <meta property="og:site_name"   content="SAFIE Blog">
+  <meta property="og:locale"      content="pt_BR">
+  <meta property="og:image"       content="https://safie.blog.br/assets/img/artigos/2026-04-24-ia-na-saude-regulacao-e-riscos-juridicos-no-brasil.svg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="article:published_time" content="2026-04-24T03:51:17Z">
+  <meta property="article:section"       content="Regulação de IA no Brasil">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:title"       content="IA na Saúde: Regulação e Riscos Jurídicos no Brasil — SAFIE Blog">
+  <meta name="twitter:description" content="IA na saúde preventiva avança no Brasil. Entenda o marco regulatório, os riscos jurídicos e o que founders e CTOs precisam saber antes de lançar sua solução.">
+  <meta name="twitter:image"       content="https://safie.blog.br/assets/img/artigos/2026-04-24-ia-na-saude-regulacao-e-riscos-juridicos-no-brasil.svg">
+
+  <!-- Schema.org JSON-LD (BlogPosting + FAQPage) -->
+  <script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "IA na Saúde: Regulação e Riscos Jurídicos no Brasil",
+    "description": "IA na saúde preventiva avança no Brasil. Entenda o marco regulatório, os riscos jurídicos e o que founders e CTOs precisam saber antes de lançar sua solução.",
+    "image": "https://safie.blog.br/assets/img/artigos/2026-04-24-ia-na-saude-regulacao-e-riscos-juridicos-no-brasil.svg",
+    "datePublished": "2026-04-24T03:51:17Z",
+    "dateModified": "2026-07-10T10:01:59-03:00",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://safie.blog.br/artigos/2026-04-24-ia-na-saude-regulacao-e-riscos-juridicos-no-brasil"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Lucas Mantovani",
+      "sameAs": [
+        "https://www.linkedin.com/in/lucasm-mantovani/",
+        "https://www.instagram.com/lucasm.mantovani/"
+      ]
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "SAFIE",
+      "url": "https://safie.com.br",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://consultoria.safie.com.br/wp-content/uploads/2025/11/cropped-2-1-1024x292.webp"
+      },
+      "sameAs": [
+        "https://www.instagram.com/safiegroup/",
+        "https://www.instagram.com/safiecontabilidade/"
+      ]
+    },
+    "url": "https://safie.blog.br/artigos/2026-04-24-ia-na-saude-regulacao-e-riscos-juridicos-no-brasil",
+    "articleSection": "Regulação de IA no Brasil",
+    "inLanguage": "pt-BR"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Meu aplicativo de saúde com IA precisa de registro na ANVISA?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Depende da funcionalidade. Se o aplicativo auxilia diagnóstico, triagem, monitoramento clínico ou recomendação de conduta terapêutica, muito provavelmente é classificado como Software como Dispositivo Médico (SaMD) pela RDC 657/2022 e exige registro sanitário antes da comercialização. Aplicativos de bem-estar geral, sem finalidade diagnóstica ou terapêutica, ficam fora dessa exigência, mas a linha entre as categorias é técnica e exige avaliação caso a caso."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Como a LGPD se aplica a dados de saúde coletados por IA?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Dados de saúde são dados sensíveis pela LGPD (art. 11). O tratamento exige base legal específica: consentimento expresso e destacado do titular, ou enquadramento em hipóteses como tutela da saúde por profissional habilitado. A empresa deve manter registros de consentimento, elaborar Política de Privacidade clara e, para operações em escala, produzir um Relatório de Impacto à Proteção de Dados (RIPD). A ANPD tem saúde como área prioritária de fiscalização em 2025-2026."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O que o PL 2.338/2023 muda para startups de IA na saúde?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "O projeto classifica sistemas de IA em saúde como de alto risco, impondo obrigações de transparência algorítmica, supervisão humana obrigatória e documentação técnica dos modelos. A principal mudança é a responsabilidade objetiva do fornecedor do sistema em caso de dano ao paciente, sem necessidade de comprovação de culpa. Startups devem começar a documentar seus processos de desenvolvimento e as limitações dos modelos desde agora, antes da aprovação da lei."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quem é responsável se um algoritmo de IA causar dano a um paciente?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A responsabilidade pode ser compartilhada entre o desenvolvedor do sistema (startup ou fornecedor de IA), o prestador de serviço de saúde que o utilizou e, em alguns casos, a operadora de plano de saúde. O Código de Defesa do Consumidor permite responsabilidade solidária na cadeia de fornecimento. Com o PL 2.338/2023, a responsabilidade objetiva do fornecedor do sistema de alto risco tende a ser positivada, facilitando ações de indenização."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Como provisionar contabilmente os custos de conformidade regulatória em saúde com IA?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Os custos de compliance regulatório devem ser tratados como despesas operacionais recorrentes, não como eventos extraordinários. Isso inclui: honorários de consultoria regulatória, auditoria de algoritmos, custos de registro ANVISA, seguro de responsabilidade civil e infraestrutura de gestão de consentimentos. No planejamento financeiro, recomenda-se reservar entre 5% e 10% do budget de tecnologia para conformidade, valor que varia conforme o nível de risco regulatório do produto."
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Início",
+        "item": "https://safie.blog.br"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Regulação de IA no Brasil",
+        "item": "https://safie.blog.br/categorias/regulacao-ia-brasil"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "IA na Saúde: Regulação e Riscos Jurídicos no Brasil",
+        "item": "https://safie.blog.br/artigos/2026-04-24-ia-na-saude-regulacao-e-riscos-juridicos-no-brasil"
+      }
+    ]
+  }
+]
+  </script>
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/artigo.css">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="/assets/img/android-chrome-512x512.png">
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+</head>
+<body data-nicho="ia">
+
+<!-- partial: header — cabeçalho comum do SAFIE Blog (injetado via {{HEADER}}) -->
+<header class="site-header" role="banner">
+  <div class="header-inner">
+    <a href="/" class="logo" aria-label="SAFIE Blog — Página inicial">
+      <img class="logo-img" src="/assets/logos/safie-logo-branco.svg" alt="SAFIE">
+      <span class="blog-id">Blog</span>
+    </a>
+    <nav id="nav-principal" class="nav-principal" aria-label="Navegação principal">
+      <a href="/">Início</a>
+      <a href="/artigos/">Artigos</a>
+      <a href="/categorias/">Categorias</a>
+      <a href="/sobre">Sobre</a>
+    </nav>
+    <form class="header-busca" role="search" action="/busca" method="get">
+      <label for="busca-q-header" class="sr-only">Buscar artigos</label>
+      <input type="search" id="busca-q-header" name="q" placeholder="Buscar…" autocomplete="off">
+      <button type="submit" aria-label="Buscar">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      </button>
+    </form>
+    <a href="https://safie.com.br" class="nav-voltar" target="_blank" rel="noopener">Voltar ao site SAFIE →</a>
+    <button id="menu-toggle" class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+<nav class="breadcrumb" aria-label="Trilha de navegação">
+  <div class="container">
+    <a href="/">Início</a> <span aria-hidden="true">›</span>
+    <a href="/categorias/regulacao-ia-brasil">Regulação de IA no Brasil</a> <span aria-hidden="true">›</span>
+    <span aria-current="page">IA na Saúde: Regulação e Riscos Jurídicos no Brasil</span>
+  </div>
+</nav>
+
+  <article class="artigo-wrapper" itemscope itemtype="https://schema.org/BlogPosting">
+
+    <header class="artigo-header">
+      <a class="artigo-tema" href="/categorias/regulacao-ia-brasil">Regulação de IA no Brasil</a>
+
+      <h1 class="artigo-titulo" itemprop="headline">IA na Saúde: Regulação e Riscos Jurídicos no Brasil</h1>
+
+      <div class="artigo-meta">
+        <span>Por <strong itemprop="author">SAFIE</strong></span>
+        <span>·</span>
+        <time datetime="2026-04-24T03:51:17Z" itemprop="datePublished">24 de abril de 2026</time>
+        <span>·</span>
+        <span>4 min de leitura</span>
+      </div>
+    </header>
+
+    <!-- Resumo executivo (para IAs generativas / GEO) -->
+    <img class="artigo-capa" src="/assets/img/artigos/2026-04-24-ia-na-saude-regulacao-e-riscos-juridicos-no-brasil.svg" alt="IA na Saúde: Regulação e Riscos Jurídicos no Brasil — capa ilustrativa do artigo sobre Regulação de IA no Brasil" width="1200" height="630" loading="lazy">
+
+    <aside class="resumo-executivo" itemprop="abstract">
+      <strong>Resumo executivo</strong>
+      A inteligência artificial está migrando a saúde de um modelo reativo para um modelo preventivo e personalizado, com uso de dados em tempo real. No Brasil, esse avanço ocorre em um vácuo regulatório parcial: a LGPD, as resoluções da ANS e as normas da ANVISA criam obrigações concretas para empresas de IA na saúde, mas o PL 2.338/2023 ainda aguarda aprovação no Senado. Startups e healthtechs que ignoram esse cenário expõem-se a sanções administrativas, responsabilidade civil solidária e riscos reputacionais relevantes.
+    </aside>
+
+    <!-- Corpo do artigo -->
+    <div class="artigo-corpo" itemprop="articleBody">
+      <p>A MIT Technology Review Brasil trouxe, em abril de 2026, uma análise sobre como a inteligência artificial está transformando o setor de saúde: dados em tempo real, modelos preditivos e cuidado contínuo estão substituindo a lógica tradicional de atendimento apenas quando o paciente já está doente. A mudança é estrutural, não cosmética.</p><p>Para startups e healthtechs, a oportunidade é evidente. O mercado global de IA em saúde deve atingir US$ 187 bilhões até 2030, segundo a Grand View Research (2024). No Brasil, o setor movimenta bilhões em planos de saúde, hospitais e clínicas, e a digitalização acelerou após a pandemia.</p><p>O que muitos founders e CTOs subestimam é que essa mesma transformação tecnológica exige um mapa jurídico detalhado. No Brasil, operar IA na saúde sem compreender LGPD, regulação da ANS, normas da ANVISA e o cenário legislativo em curso é assumir um risco calculado da forma errada.</p>
+
+<h2>Contexto jurídico e regulatório</h2>
+<h2>O que a lei brasileira já exige hoje</h2><p>A Lei Geral de Proteção de Dados (Lei 13.709/2018, a LGPD) é o ponto de partida obrigatório. Dados de saúde são classificados como dados sensíveis (art. 11), o que impõe restrições mais severas ao tratamento. A base legal principal para healthtechs é o consentimento específico do titular ou a tutela da saúde, prestada por profissional habilitado ou entidade sanitária (art. 11, II, f).</p><p>Na prática, isso significa que um aplicativo de monitoramento preventivo que coleta dados de frequência cardíaca, padrões de sono ou glicemia precisa de consentimento granular, política de privacidade clara e, dependendo do volume e da natureza do tratamento, um Relatório de Impacto à Proteção de Dados Pessoais (RIPD). A Autoridade Nacional de Proteção de Dados (ANPD) já sinalizou, em sua Agenda Regulatória 2025-2026, que o setor de saúde é área prioritária de fiscalização.</p><p>A ANVISA regula software como dispositivo médico (SaMD, na sigla em inglês) por meio da RDC 657/2022. Sistemas de IA que auxiliam diagnóstico, triagem ou prescrição podem ser enquadrados como dispositivos médicos de classe II, III ou IV, exigindo registro sanitário antes da comercialização. Ignorar essa exigência caracteriza infração sanitária com multas que chegam a R$ 1,5 milhão por infração (Lei 6.437/1977).</p><h2>O PL 2.338/2023 e o que muda para IA em saúde</h2><p>O Projeto de Lei 2.338/2023, o chamado Marco Brasileiro de IA, tramita no Senado Federal e classifica sistemas de IA usados em saúde como de alto risco. Isso implica, quando aprovado, obrigações de transparência, avaliação de impacto algorítmico, supervisão humana obrigatória e documentação técnica detalhada dos modelos utilizados.</p><p>A classificação de alto risco não proíbe o uso, mas cria responsabilidade objetiva para o fornecedor do sistema em caso de dano ao paciente, independentemente de culpa. Startups que hoje desenvolvem modelos preditivos sem documentação adequada do processo de treinamento, dos dados utilizados e das limitações do modelo estão construindo passivos que poderão ser cobrados retroativamente após a aprovação da lei.</p><p>A ANS, por sua vez, já exige que operadoras de planos de saúde que utilizam algoritmos para negar ou restringir cobertura informem os critérios técnicos utilizados (Resolução Normativa 566/2022). Startups que fornecem tecnologia para operadoras tornam-se parte dessa cadeia de responsabilidade.</p>
+
+<h2>Impacto prático</h2>
+<p>Para founders e CTOs de healthtechs, o primeiro movimento prático é mapear se o produto é um SaMD segundo os critérios da ANVISA. Essa análise deve ocorrer antes do lançamento, não depois da primeira notificação. O registro sanitário pode levar de 60 dias a mais de um ano, dependendo da classe de risco, e esse prazo precisa entrar no roadmap do produto.</p><p>Do ponto de vista contábil, os custos de conformidade regulatória em saúde precisam ser provisionados como despesas operacionais recorrentes, não como evento extraordinário. Isso inclui honorários de consultoria regulatória, custos de auditoria de algoritmos, seguros de responsabilidade civil profissional e eventual contratação de um Data Protection Officer (DPO), que, embora não seja exigência legal expressa para todas as empresas, é recomendação formal da ANPD para operações com dados sensíveis em escala.</p><p>Investidores em deep tech e healthtech devem incluir due diligence regulatória específica nos processos de investimento. Startups sem registro ANVISA adequado, sem gestão documentada de consentimentos LGPD e sem preparação para o PL 2.338/2023 representam risco de portfólio que vai além do risco de mercado tradicional. Em uma eventual saída (M&A ou IPO), passivos regulatórios ocultos têm derrubado valuations em até 30%, segundo análises de transações no setor de saúde digital publicadas pela Rock Health (2024).</p>
+
+<h2>Considerações finais</h2>
+<p>A convergência entre IA e saúde preventiva é uma das transformações mais relevantes da última década. No Brasil, ela acontece em paralelo à construção do arcabouço regulatório, o que cria tanto oportunidade quanto responsabilidade. Empresas que tratarem compliance como diferencial competitivo, e não como obstáculo, estarão melhor posicionadas quando a fiscalização intensificar.</p><p>O conselho prático é direto: mapeie seu produto contra a RDC 657/2022 da ANVISA, revise sua base legal na LGPD, prepare sua documentação técnica pensando no PL 2.338/2023 e provisione os custos de conformidade no seu modelo financeiro. Regulação na saúde não é opcional, e o custo de ignorá-la é sempre maior do que o custo de endereçá-la preventivamente.</p>
+    </div>
+
+    <!-- FAQ -->
+    <section class="faq-section" id="faq" itemscope itemtype="https://schema.org/FAQPage">
+      <h2>Perguntas frequentes</h2>
+      <div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Meu aplicativo de saúde com IA precisa de registro na ANVISA?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">Depende da funcionalidade. Se o aplicativo auxilia diagnóstico, triagem, monitoramento clínico ou recomendação de conduta terapêutica, muito provavelmente é classificado como Software como Dispositivo Médico (SaMD) pela RDC 657/2022 e exige registro sanitário antes da comercialização. Aplicativos de bem-estar geral, sem finalidade diagnóstica ou terapêutica, ficam fora dessa exigência, mas a linha entre as categorias é técnica e exige avaliação caso a caso.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Como a LGPD se aplica a dados de saúde coletados por IA?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">Dados de saúde são dados sensíveis pela LGPD (art. 11). O tratamento exige base legal específica: consentimento expresso e destacado do titular, ou enquadramento em hipóteses como tutela da saúde por profissional habilitado. A empresa deve manter registros de consentimento, elaborar Política de Privacidade clara e, para operações em escala, produzir um Relatório de Impacto à Proteção de Dados (RIPD). A ANPD tem saúde como área prioritária de fiscalização em 2025-2026.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">O que o PL 2.338/2023 muda para startups de IA na saúde?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">O projeto classifica sistemas de IA em saúde como de alto risco, impondo obrigações de transparência algorítmica, supervisão humana obrigatória e documentação técnica dos modelos. A principal mudança é a responsabilidade objetiva do fornecedor do sistema em caso de dano ao paciente, sem necessidade de comprovação de culpa. Startups devem começar a documentar seus processos de desenvolvimento e as limitações dos modelos desde agora, antes da aprovação da lei.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Quem é responsável se um algoritmo de IA causar dano a um paciente?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">A responsabilidade pode ser compartilhada entre o desenvolvedor do sistema (startup ou fornecedor de IA), o prestador de serviço de saúde que o utilizou e, em alguns casos, a operadora de plano de saúde. O Código de Defesa do Consumidor permite responsabilidade solidária na cadeia de fornecimento. Com o PL 2.338/2023, a responsabilidade objetiva do fornecedor do sistema de alto risco tende a ser positivada, facilitando ações de indenização.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Como provisionar contabilmente os custos de conformidade regulatória em saúde com IA?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">Os custos de compliance regulatório devem ser tratados como despesas operacionais recorrentes, não como eventos extraordinários. Isso inclui: honorários de consultoria regulatória, auditoria de algoritmos, custos de registro ANVISA, seguro de responsabilidade civil e infraestrutura de gestão de consentimentos. No planejamento financeiro, recomenda-se reservar entre 5% e 10% do budget de tecnologia para conformidade, valor que varia conforme o nível de risco regulatório do produto.</span></div>
+</div>
+
+    </section>
+
+    <!-- Referências -->
+    <aside class="referencias">
+      <h3>Fontes e referências</h3>
+      <a href="https://mittechreview.com.br/podcast-ia-e-saude/" target="_blank" rel="noopener">MIT Technology Review Brasil</a>
+<span>- Fonte original: MIT Technology Review Brasil (https://mittechreview.com.br/podcast-ia-e-saude/)</span>
+<span>- Lei Geral de Proteção de Dados (LGPD) - Lei 13.709/2018 (https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm)</span>
+<span>- ANVISA - RDC 657/2022 - Regulamentação de Software como Dispositivo Médico (https://www.in.gov.br/en/web/dou/-/resolucao-rdc-n-657-de-20-de-dezembro-de-2022)</span>
+<span>- Senado Federal - PL 2.338/2023 - Marco Brasileiro de Inteligência Artificial (https://www25.senado.leg.br/web/atividade/materias/-/materia/157233)</span>
+<span>- ANS - Resolução Normativa 566/2022 (https://www.ans.gov.br/component/legislacao/?view=legislacao&task=TextoLei&format=raw&id=NDAzNg==)</span>
+<span>- ANPD - Agenda Regulatória 2025-2026 (https://www.gov.br/anpd/pt-br)</span>
+<span>- Grand View Research - AI in Healthcare Market Report 2024 (https://www.grandviewresearch.com/industry-analysis/artificial-intelligence-ai-healthcare-market)</span>
+<span>- Rock Health - Digital Health Funding Report 2024 (https://rockhealth.com/insights/)</span>
+<span>- Lei 6.437/1977 - Infrações à legislação sanitária federal (https://www.planalto.gov.br/ccivil_03/leis/l6437.htm)</span>
+
+    </aside>
+
+  </article>
+    <!-- CTA consultivo (leva ao WhatsApp da SAFIE) -->
+    <div class="container">
+      <div class="artigo-cta">
+        <h3>Decisão jurídica ou contábil pendente?</h3>
+        <p>A SAFIE atende founders e gestores com acesso direto aos sócios — jurídico e contabilidade integrados sob o mesmo teto. Conversamos para entender o caso antes de qualquer recomendação.</p>
+        <a href="https://wa.me/5511934329769?text=Ol%C3%A1!%20Vim%20pelo%20blog%20da%20SAFIE%20e%20gostaria%20de%20conversar." class="cta-btn" target="_blank" rel="noopener">Falar com a SAFIE</a>
+      </div>
+    </div>
+
+
+  <!-- Artigos relacionados -->
+  <div class="container">
+    <section class="relacionados">
+      <h2>Continue lendo</h2>
+      <div class="relacionados-lista">
+<ul class="relacionados-items">
+  <li><a href="/artigos/2026-07-13-regulacao-de-ia-no-brasil-o-que-muda-em-2026">Regulação de IA no Brasil: o que muda em 2026</a></li>
+  <li><a href="/artigos/2026-06-17-stf-marco-civil-e-ia-o-que-muda-para-startups">STF, Marco Civil e IA: o que muda para startups</a></li>
+  <li><a href="/artigos/2026-05-22-tv-30-e-ia-regulacao-e-impactos-no-brasil">TV 3.0 e IA: regulação e impactos no Brasil</a></li>
+</ul>
+</div>
+    </section>
+  </div>
+
+  <!-- Sobre os autores -->
+  <div class="container">
+    <div class="sobre-autores">
+      <span class="sobre-autores-titulo">Sobre os autores</span>
+      <p>Conteúdo produzido pela SAFIE, consultoria jurídico-contábil para empresas digitais e de tecnologia. A SAFIE é liderada por <a href="https://instagram.com/lucasm.mantovani" target="_blank" rel="noopener"><strong>Lucas Mantovani</strong></a> e <a href="https://instagram.com/euitalocunha" target="_blank" rel="noopener"><strong>Italo Cunha</strong></a>.</p>
+    </div>
+  </div>
+
+</main>
+
+<!-- partial: footer — rodapé comum COM formulário (injetado via {{FOOTER}}) -->
+<!-- Formulário de contato — placeholder. Submit inerte; integração HubSpot na fase A5/A6. -->
+<section class="footer-form-wrap" aria-label="Fale com a SAFIE">
+  <div class="footer-form-inner">
+    <div class="footer-form-texto">
+      <p class="secao-kicker">Fale com a SAFIE</p>
+      <h2>Decisão jurídica ou contábil pendente?</h2>
+      <p>Atendemos founders e gestores com acesso direto aos sócios — jurídico e contabilidade sob o mesmo teto.</p>
+    </div>
+    <!-- TODO A5/A6: HubSpot — este form ainda NÃO envia. -->
+    <form class="footer-form" data-form="rodape" onsubmit="return false" novalidate>
+      <label>Nome*
+        <input type="text" name="nome" autocomplete="name" required>
+      </label>
+      <label>E-mail*
+        <input type="email" name="email" autocomplete="email" required>
+      </label>
+      <label>Empresa
+        <input type="text" name="empresa" autocomplete="organization">
+      </label>
+      <label>Mensagem
+        <textarea name="mensagem" rows="3"></textarea>
+      </label>
+      <button type="submit" class="cta-btn" disabled aria-disabled="true">Enviar (em breve)</button>
+      <p class="footer-form-nota">Formulário em configuração. Por ora, fale conosco em
+        <a href="mailto:contato@safie.com.br">contato@safie.com.br</a>.</p>
+    </form>
+  </div>
+</section>
+
+<footer class="site-footer" role="contentinfo">
+  <div class="footer-inner">
+    <div class="footer-topo">
+      <div class="footer-marca">
+        <span class="logo-marca footer-logo-texto">Blog <span style="color:var(--ciano)">SAFIE</span></span>
+        <p>Consultoria jurídico-contábil para negócios digitais, startups e a nova economia.</p>
+      </div>
+      <div class="footer-nav">
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="/">Início</a></li>
+            <li><a href="/artigos/">Artigos</a></li>
+            <li><a href="/categorias/">Categorias</a></li>
+            <li><a href="/sobre">Sobre</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Links</h4>
+          <ul>
+            <li><a href="https://safie.com.br" target="_blank" rel="noopener">safie.com.br</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+            <li><a href="mailto:contato@safie.com.br">contato@safie.com.br</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-arco-iris" aria-hidden="true"></div>
+    <div class="footer-cnpjs" aria-label="CNPJs SAFIE">
+      <span>SAFIE Consultoria e Contabilidade Ltda — 59.931.854/0001-34</span>
+      <span>SAFIE Tecnologia e Consultoria Ltda — 42.224.278/0001-92</span>
+      <span>Cunha &amp; Mantovani Advogados Associados — 34.924.976/0001-72</span>
+    </div>
+    <div class="footer-base">
+      <span>&copy; 2026 SAFIE. Todos os direitos reservados.</span>
+      <span>Conteúdo informativo; não constitui parecer jurídico ou contábil individualizado.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/js/busca.js"></script>
+<script>
+fetch('https://safie-analytics.lucas-mantovani.workers.dev/track', {
+  method: 'POST',
+  headers: {'Content-Type': 'application/json'},
+  body: JSON.stringify({ url: window.location.pathname, blog: 'ia' })
+}).catch(() => {});
+</script>
+<script src="/assets/js/widget-whatsapp.js" defer></script>
+</body>
+</html>

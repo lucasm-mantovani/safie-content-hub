@@ -1,46 +1,31 @@
-// Menu mobile
-const toggle = document.querySelector('.menu-toggle');
-const nav = document.querySelector('.nav-principal');
-if (toggle && nav) {
-  toggle.addEventListener('click', () => nav.classList.toggle('aberto'));
-}
-
-// FAQ accordion
-document.querySelectorAll('.faq-pergunta').forEach(btn => {
-  btn.addEventListener('click', () => {
-    const item = btn.closest('.faq-item');
-    const aberto = item.classList.contains('aberto');
-    document.querySelectorAll('.faq-item.aberto').forEach(i => i.classList.remove('aberto'));
-    if (!aberto) item.classList.add('aberto');
-  });
-});
-
-// Últimas publicações da rede
-(async () => {
-  const lista = document.getElementById('ultimos-lista');
-  if (!lista) return;
-  try {
-    const res = await fetch('data/ultimos_posts.json');
-    if (!res.ok) return;
-    const { posts } = await res.json();
-    if (!posts || posts.length === 0) return;
-
-    const secao = lista.closest('.secao-ultimos');
-
-    lista.innerHTML = posts.slice(0, 12).map(p => `
-      <a href="${p.url}" class="ultimo-item" role="listitem" target="_blank" rel="noopener"
-         style="--cor-post: ${p.cor}">
-        <div class="ultimo-cor"></div>
-        <div class="ultimo-conteudo">
-          <div class="ultimo-meta">
-            <span class="ultimo-blog-nome">${p.blog}</span>
-            <span class="ultimo-data">${p.data}</span>
-          </div>
-          <div class="ultimo-titulo">${p.titulo}</div>
-        </div>
-      </a>
-    `).join('');
-
-    if (secao) secao.removeAttribute('hidden');
-  } catch (_) {}
+/* main.js — home. Recentes (9) + grid de nichos. Depende de card.js (SafieCard). */
+(function () {
+  "use strict";
+  function init() {
+    var recentes = document.getElementById("recentes-lista");
+    if (recentes) {
+      var limite = parseInt(recentes.getAttribute("data-limite") || "9", 10);
+      SafieCard.fetchIndice().then(function (idx) {
+        SafieCard.renderGrid(recentes, idx === null ? null : SafieCard.ordenarRecentes(idx).slice(0, limite),
+          "Em breve, os primeiros artigos.");
+      });
+    }
+    var nichosEl = document.getElementById("nichos-lista");
+    if (nichosEl) {
+      fetch("/config/site.json").then(function (r) { return r.ok ? r.json() : {}; })
+        .catch(function () { return {}; })
+        .then(function (site) {
+          var nichos = (site && site.nichos) || {};
+          var html = Object.keys(nichos).map(function (n) {
+            return '<a class="nicho-card" href="/categorias/' + n + '">' +
+              "<h3>" + SafieCard.escapeHtml(nichos[n].nome || n) + "</h3>" +
+              (nichos[n].descricao ? "<p>" + SafieCard.escapeHtml(nichos[n].descricao) + "</p>" : "") +
+              "</a>";
+          }).join("\n");
+          nichosEl.innerHTML = html || '<p class="lista-vazia">Categorias em breve.</p>';
+        });
+    }
+  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init);
+  else init();
 })();

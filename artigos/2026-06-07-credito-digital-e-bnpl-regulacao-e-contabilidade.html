@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta name="google-site-verification" content="o2ME48MD1myosxdzANOv2RozPmZyghqIt_zVWQqmHOA" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Crédito digital e BNPL: regulação e contabilidade — SAFIE Blog</title>
+  <meta name="description" content="Entenda como o BNPL e o crédito digital são regulados no Brasil, os impactos contábeis e os riscos jurídicos para fintechs que operam esse modelo.">
+  <link rel="canonical" href="https://safie.blog.br/artigos/2026-06-07-credito-digital-e-bnpl-regulacao-e-contabilidade">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="author" content="SAFIE">
+  <meta name="keywords" content="crédito, digital, bnpl, regulação, contabilidade, Lei 4.595/1964, Lei 8.078/1990, Lei 7.492/1986, Lei 13.709/2018, ANPD">
+
+  <!-- Open Graph -->
+  <meta property="og:type"        content="article">
+  <meta property="og:title"       content="Crédito digital e BNPL: regulação e contabilidade — SAFIE Blog">
+  <meta property="og:description" content="Entenda como o BNPL e o crédito digital são regulados no Brasil, os impactos contábeis e os riscos jurídicos para fintechs que operam esse modelo.">
+  <meta property="og:url"         content="https://safie.blog.br/artigos/2026-06-07-credito-digital-e-bnpl-regulacao-e-contabilidade">
+  <meta property="og:site_name"   content="SAFIE Blog">
+  <meta property="og:locale"      content="pt_BR">
+  <meta property="og:image"       content="https://safie.blog.br/assets/img/artigos/2026-06-07-credito-digital-e-bnpl-regulacao-e-contabilidade.svg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="article:published_time" content="2026-06-07T03:31:05Z">
+  <meta property="article:section"       content="Crédito digital e BNPL">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:title"       content="Crédito digital e BNPL: regulação e contabilidade — SAFIE Blog">
+  <meta name="twitter:description" content="Entenda como o BNPL e o crédito digital são regulados no Brasil, os impactos contábeis e os riscos jurídicos para fintechs que operam esse modelo.">
+  <meta name="twitter:image"       content="https://safie.blog.br/assets/img/artigos/2026-06-07-credito-digital-e-bnpl-regulacao-e-contabilidade.svg">
+
+  <!-- Schema.org JSON-LD (BlogPosting + FAQPage) -->
+  <script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Crédito digital e BNPL: regulação e contabilidade",
+    "description": "Entenda como o BNPL e o crédito digital são regulados no Brasil, os impactos contábeis e os riscos jurídicos para fintechs que operam esse modelo.",
+    "datePublished": "2026-06-07T03:31:05Z",
+    "dateModified": "2026-07-10T10:01:12-03:00",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://safie.blog.br/artigos/2026-06-07-credito-digital-e-bnpl-regulacao-e-contabilidade"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Lucas Mantovani",
+      "sameAs": [
+        "https://www.linkedin.com/in/lucasm-mantovani/",
+        "https://www.instagram.com/lucasm.mantovani/"
+      ]
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "SAFIE",
+      "url": "https://safie.com.br",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://consultoria.safie.com.br/wp-content/uploads/2025/11/cropped-2-1-1024x292.webp"
+      },
+      "sameAs": [
+        "https://www.instagram.com/safiegroup/",
+        "https://www.instagram.com/safiecontabilidade/"
+      ]
+    },
+    "url": "https://safie.blog.br/artigos/2026-06-07-credito-digital-e-bnpl-regulacao-e-contabilidade",
+    "articleSection": "Crédito digital e BNPL",
+    "inLanguage": "pt-BR"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Uma fintech sem autorização do Banco Central pode oferecer BNPL?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não de forma independente. Para conceder crédito diretamente, a fintech precisa ser uma instituição autorizada pelo Banco Central, como uma SCD (Sociedade de Crédito Direto). A alternativa é atuar como correspondente bancária de uma instituição já autorizada, com contrato formal e responsabilidades de compliance definidas. Operar fora dessas estruturas configura exercício irregular de atividade financeira, sujeito a sanções administrativas e penais."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O BNPL precisa informar o CET (Custo Efetivo Total) ao consumidor?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim. A Resolução CMN 4.949/2021 e o Código de Defesa do Consumidor exigem transparência sobre o custo total da operação de crédito. Mesmo que o BNPL seja estruturado como 'sem juros para o consumidor', com custo embutido na comissão do lojista, a fintech precisa documentar essa estrutura e garantir que o CET divulgado reflita a realidade da operação. O regulador pode questionar estruturas que obscurecem o custo real do crédito."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Como calcular a provisão para perdas em carteiras de BNPL?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Pela Resolução CMN 4.966/2021 (IFRS 9), a provisão deve ser calculada com base na perda de crédito esperada (ECL) desde a originação da operação. Isso exige modelos estatísticos que considerem probabilidade de default, exposição no momento do default e perda dado o default. Fintechs sem histórico próprio devem usar benchmarks setoriais documentados e revisá-los periodicamente. A provisão insuficiente é um dos pontos mais verificados pelo Banco Central em inspeções."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O uso de dados de Open Finance para análise de crédito no BNPL é permitido?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim, é permitido, mas exige consentimento explícito do consumidor, com finalidade específica e prazo determinado, conforme as regras do Open Finance (Resolução Conjunta BCB/CMN 1/2020) e da LGPD (Lei 13.709/2018). O dado compartilhado só pode ser usado para a finalidade declarada no momento do consentimento. O descumprimento pode gerar sanções da ANPD de até 2% do faturamento bruto, limitadas a R$ 50 milhões por infração."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Qual é o capital mínimo para operar como SCD e oferecer BNPL diretamente?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "O capital mínimo exigido para uma Sociedade de Crédito Direto (SCD) é de R$ 1 milhão, conforme a Resolução BCB 199/2022. Além do capital, a autorização exige estrutura societária específica, políticas de governança, compliance e gestão de riscos documentadas, e passa por processo de aprovação no Banco Central que costuma durar entre 12 e 24 meses. Por isso, muitas fintechs optam por parcerias com instituições já autorizadas nos estágios iniciais."
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Início",
+        "item": "https://safie.blog.br"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Crédito digital e BNPL",
+        "item": "https://safie.blog.br/categorias/credito-digital"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Crédito digital e BNPL: regulação e contabilidade",
+        "item": "https://safie.blog.br/artigos/2026-06-07-credito-digital-e-bnpl-regulacao-e-contabilidade"
+      }
+    ]
+  }
+]
+  </script>
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/artigo.css">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="/assets/img/android-chrome-512x512.png">
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+</head>
+<body data-nicho="fintechs">
+
+<!-- partial: header — cabeçalho comum do SAFIE Blog (injetado via {{HEADER}}) -->
+<header class="site-header" role="banner">
+  <div class="header-inner">
+    <a href="/" class="logo" aria-label="SAFIE Blog — Página inicial">
+      <img class="logo-img" src="/assets/logos/safie-logo-branco.svg" alt="SAFIE">
+      <span class="blog-id">Blog</span>
+    </a>
+    <nav id="nav-principal" class="nav-principal" aria-label="Navegação principal">
+      <a href="/">Início</a>
+      <a href="/artigos/">Artigos</a>
+      <a href="/categorias/">Categorias</a>
+      <a href="/sobre">Sobre</a>
+    </nav>
+    <form class="header-busca" role="search" action="/busca" method="get">
+      <label for="busca-q-header" class="sr-only">Buscar artigos</label>
+      <input type="search" id="busca-q-header" name="q" placeholder="Buscar…" autocomplete="off">
+      <button type="submit" aria-label="Buscar">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      </button>
+    </form>
+    <a href="https://safie.com.br" class="nav-voltar" target="_blank" rel="noopener">Voltar ao site SAFIE →</a>
+    <button id="menu-toggle" class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+<nav class="breadcrumb" aria-label="Trilha de navegação">
+  <div class="container">
+    <a href="/">Início</a> <span aria-hidden="true">›</span>
+    <a href="/categorias/credito-digital">Crédito digital e BNPL</a> <span aria-hidden="true">›</span>
+    <span aria-current="page">Crédito digital e BNPL: regulação e contabilidade</span>
+  </div>
+</nav>
+
+  <article class="artigo-wrapper" itemscope itemtype="https://schema.org/BlogPosting">
+
+    <header class="artigo-header">
+      <a class="artigo-tema" href="/categorias/credito-digital">Crédito digital e BNPL</a>
+
+      <h1 class="artigo-titulo" itemprop="headline">Crédito digital e BNPL: regulação e contabilidade</h1>
+
+      <div class="artigo-meta">
+        <span>Por <strong itemprop="author">SAFIE</strong></span>
+        <span>·</span>
+        <time datetime="2026-06-07T03:31:05Z" itemprop="datePublished">7 de junho de 2026</time>
+        <span>·</span>
+        <span>4 min de leitura</span>
+      </div>
+    </header>
+
+    <img class="artigo-capa" src="/assets/img/artigos/2026-06-07-credito-digital-e-bnpl-regulacao-e-contabilidade.svg" alt="Crédito digital e BNPL: regulação e contabilidade — capa ilustrativa do artigo sobre Crédito digital e BNPL" width="1200" height="630" loading="lazy">
+
+    <!-- Resumo executivo (para IAs generativas / GEO) -->
+    <aside class="resumo-executivo" itemprop="abstract">
+      <strong>Resumo executivo</strong>
+      O modelo Buy Now, Pay Later (BNPL) cresce no Brasil, mas opera em zona regulatória ainda em consolidação pelo Banco Central e pelo CMN. Fintechs que oferecem crédito parcelado sem juros explícitos precisam observar as regras de transparência, classificação contábil de recebíveis e as exigências de capital das Resoluções CMN 4.966 e BCB 199. A ausência de enquadramento correto expõe a empresa a autuações, bloqueios operacionais e riscos de reputação.
+    </aside>
+
+    <!-- Corpo do artigo -->
+    <div class="artigo-corpo" itemprop="articleBody">
+      <p>O mercado brasileiro de crédito digital vive um momento de expansão relevante. Segundo dados do Banco Central divulgados em 2025, as operações de crédito via canais digitais já representam mais de 40% do total de concessões para pessoas físicas no país, com destaque para modalidades como crédito pessoal online, cartão de crédito digital e, sobretudo, o BNPL (Buy Now, Pay Later), o parcelamento sem juros intermediado por fintechs.</p><p>O BNPL ganhou tração no Brasil a partir de 2022 e hoje está presente em marketplaces, e-commerces e até no varejo físico. O modelo permite ao consumidor dividir uma compra em parcelas, sem custo aparente, enquanto a fintech antecipa o valor ao lojista e assume o risco de crédito. É um produto simples para o usuário final, mas contabilmente e juridicamente complexo para quem o opera.</p><p>Este artigo explora o que founders e gestores de fintechs precisam entender sobre o arcabouço regulatório do BNPL e do crédito digital no Brasil, os pontos de atenção contábil e os riscos práticos de uma operação mal estruturada.</p>
+
+<h2>Contexto jurídico e regulatório</h2>
+<h2>Como o Banco Central enquadra o BNPL</h2><p>No Brasil, a concessão de crédito é atividade privativa de instituições autorizadas pelo Banco Central, conforme a Lei 4.595/1964. Fintechs que operam BNPL precisam, portanto, ser Sociedades de Crédito Direto (SCD) ou Sociedades de Empréstimo entre Pessoas (SEP), reguladas pela Resolução BCB 199/2022, ou atuar em parceria com uma instituição financeira já autorizada.</p><p>A Resolução CMN 4.966/2021, que adotou o padrão IFRS 9 para o sistema financeiro nacional, trouxe mudanças relevantes na classificação e mensuração de ativos financeiros. Recebíveis de BNPL precisam ser classificados corretamente, em geral como ativos mensurados ao custo amortizado, e devem ter provisão para perdas esperadas (ECL, Expected Credit Loss) calculada desde a originação da operação, não apenas quando há inadimplência.</p><p>A transparência na relação com o consumidor também é exigência regulatória. O Código de Defesa do Consumidor (Lei 8.078/1990) e a Resolução CMN 4.949/2021 (relacionada ao crédito responsável) obrigam a divulgação do Custo Efetivo Total (CET) mesmo em operações estruturadas como "sem juros". Se a fintech embute seu custo na comissão cobrada do lojista e não há repasse explícito ao consumidor, o CET pode ser considerado zero, mas a estrutura precisa ser documentada para suportar essa afirmação perante o regulador.</p><p>Outro ponto sensível é o enquadramento como correspondente bancário. Fintechs que distribuem BNPL sem autorização própria e sem vínculo formal com uma instituição autorizada incorrem em exercício irregular de atividade financeira, tipificado no artigo 16 da Lei 7.492/1986 (Lei dos Crimes contra o Sistema Financeiro Nacional), com pena de reclusão de 1 a 4 anos.</p><h2>Open Finance e portabilidade de dados no crédito digital</h2><p>A Resolução Conjunta BCB/CMN 1/2020 e as circulares subsequentes estruturaram o Open Finance no Brasil. Para fintechs de crédito digital, isso significa que o consumidor pode compartilhar seu histórico financeiro para obter ofertas de crédito mais personalizadas, e que as instituições receptoras de dados têm obrigações específicas de segurança e consentimento sob a Lei Geral de Proteção de Dados (Lei 13.709/2018).</p><p>O uso de dados de Open Finance para precificação de risco no BNPL é permitido, mas exige consentimento granular, finalidade específica e prazo determinado. O descumprimento pode gerar sanções da ANPD de até 2% do faturamento bruto, limitadas a R$ 50 milhões por infração.</p>
+
+<h2>Impacto prático</h2>
+<p>Para fintechs que operam ou pretendem operar BNPL, o primeiro passo é definir a estrutura jurídica correta. Atuar como SCD exige capital mínimo de R$ 1 milhão, enquadramento societário específico e aprovação pelo Banco Central, processo que costuma levar de 12 a 24 meses. A alternativa mais rápida é uma parceria formal com banco ou financeira já autorizada, formalizada por contrato de correspondência bancária registrado e com responsabilidades de compliance claramente delimitadas.</p><p>Na prática contábil, a adoção do ECL desde a originação exige modelos estatísticos de perda esperada, o que demanda dados históricos de inadimplência, segmentação de carteira e revisão periódica das premissas. Fintechs novas, sem histórico próprio, precisam usar benchmarks setoriais e documentar as premissas adotadas para fins de auditoria e supervisão do Bacen. A provisão insuficiente é um dos pontos mais autuados em inspeções do regulador.</p><p>Do ponto de vista operacional, a oferta de BNPL no varejo físico ou digital exige integração com sistemas antifraude, monitoramento de concentração de crédito e política de crédito documentada. Investidores institucionais e fundos que aportam capital em fintechs de BNPL também têm exigido, com frequência, relatórios de due diligence regulatória e pareceres jurídicos sobre a estrutura operacional antes de fechar rodadas.</p>
+
+<h2>Considerações finais</h2>
+<p>O crédito digital e o BNPL representam oportunidades reais no mercado brasileiro, especialmente para segmentos da população com acesso limitado ao sistema bancário tradicional. Mas a simplicidade do produto para o consumidor não se traduz em simplicidade operacional para quem o oferece. A combinação de exigências do Banco Central, normas contábeis baseadas em IFRS 9 e obrigações da LGPD cria um ambiente regulatório denso, que exige estrutura jurídica adequada desde o início.</p><p>Founders e gestores que ignoram esse arcabouço no início da operação tendem a enfrentar custos de adequação muito maiores depois, seja por exigências de investidores, seja por ações do regulador. Construir a operação de crédito digital sobre bases regulatórias sólidas não é apenas uma obrigação legal, é uma vantagem competitiva.</p>
+    </div>
+
+    <!-- FAQ -->
+    <section class="faq-section" id="faq" itemscope itemtype="https://schema.org/FAQPage">
+      <h2>Perguntas frequentes</h2>
+      <div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Uma fintech sem autorização do Banco Central pode oferecer BNPL?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">Não de forma independente. Para conceder crédito diretamente, a fintech precisa ser uma instituição autorizada pelo Banco Central, como uma SCD (Sociedade de Crédito Direto). A alternativa é atuar como correspondente bancária de uma instituição já autorizada, com contrato formal e responsabilidades de compliance definidas. Operar fora dessas estruturas configura exercício irregular de atividade financeira, sujeito a sanções administrativas e penais.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">O BNPL precisa informar o CET (Custo Efetivo Total) ao consumidor?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">Sim. A Resolução CMN 4.949/2021 e o Código de Defesa do Consumidor exigem transparência sobre o custo total da operação de crédito. Mesmo que o BNPL seja estruturado como 'sem juros para o consumidor', com custo embutido na comissão do lojista, a fintech precisa documentar essa estrutura e garantir que o CET divulgado reflita a realidade da operação. O regulador pode questionar estruturas que obscurecem o custo real do crédito.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Como calcular a provisão para perdas em carteiras de BNPL?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">Pela Resolução CMN 4.966/2021 (IFRS 9), a provisão deve ser calculada com base na perda de crédito esperada (ECL) desde a originação da operação. Isso exige modelos estatísticos que considerem probabilidade de default, exposição no momento do default e perda dado o default. Fintechs sem histórico próprio devem usar benchmarks setoriais documentados e revisá-los periodicamente. A provisão insuficiente é um dos pontos mais verificados pelo Banco Central em inspeções.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">O uso de dados de Open Finance para análise de crédito no BNPL é permitido?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">Sim, é permitido, mas exige consentimento explícito do consumidor, com finalidade específica e prazo determinado, conforme as regras do Open Finance (Resolução Conjunta BCB/CMN 1/2020) e da LGPD (Lei 13.709/2018). O dado compartilhado só pode ser usado para a finalidade declarada no momento do consentimento. O descumprimento pode gerar sanções da ANPD de até 2% do faturamento bruto, limitadas a R$ 50 milhões por infração.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Qual é o capital mínimo para operar como SCD e oferecer BNPL diretamente?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">O capital mínimo exigido para uma Sociedade de Crédito Direto (SCD) é de R$ 1 milhão, conforme a Resolução BCB 199/2022. Além do capital, a autorização exige estrutura societária específica, políticas de governança, compliance e gestão de riscos documentadas, e passa por processo de aprovação no Banco Central que costuma durar entre 12 e 24 meses. Por isso, muitas fintechs optam por parcerias com instituições já autorizadas nos estágios iniciais.</span></div>
+</div>
+
+    </section>
+
+    <!-- Referências -->
+    <aside class="referencias">
+      <h2>Fontes e referências</h2>
+      <ul>
+<li><a href="https://www.infomoney.com.br/esportes/endrick-brilha-e-brasil-vence-o-egito-em-ultimo-confronto-antes-da-copa-do-mundo/" target="_blank" rel="noopener">InfoMoney</a></li>
+<li>Banco Central do Brasil: Resolução BCB 199/2022 (https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolucao%20BCB&numero=199)</li>
+<li>Conselho Monetário Nacional: Resolução CMN 4.966/2021 (https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolucao%20CMN&numero=4966)</li>
+<li>Conselho Monetário Nacional: Resolução CMN 4.949/2021</li>
+<li>Resolução Conjunta BCB/CMN 1/2020 (Open Finance) (https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolucao%20Conjunta&numero=1)</li>
+<li>Lei 4.595/1964 (Lei do Sistema Financeiro Nacional)</li>
+<li>Lei 7.492/1986 (Lei dos Crimes contra o Sistema Financeiro Nacional)</li>
+<li>Lei 8.078/1990 (Código de Defesa do Consumidor)</li>
+<li>Lei 13.709/2018 (Lei Geral de Proteção de Dados)</li>
+<li>Banco Central do Brasil: Nota de Crédito 2025 (https://www.bcb.gov.br/publicacoes/notacreditojan2025)</li>
+</ul>
+
+    </aside>
+
+  </article>
+    <!-- CTA consultivo (leva ao WhatsApp da SAFIE) -->
+    <div class="container">
+      <div class="artigo-cta">
+        <h3>Decisão jurídica ou contábil pendente?</h3>
+        <p>A SAFIE atende founders e gestores com acesso direto aos sócios — jurídico e contabilidade integrados sob o mesmo teto. Conversamos para entender o caso antes de qualquer recomendação.</p>
+        <a href="https://wa.me/5511934329769?text=Ol%C3%A1!%20Vim%20pelo%20blog%20da%20SAFIE%20e%20gostaria%20de%20conversar." class="cta-btn" target="_blank" rel="noopener">Falar com a SAFIE</a>
+      </div>
+    </div>
+
+
+
+  <!-- Sobre os autores -->
+  <div class="container">
+    <div class="sobre-autores">
+      <span class="sobre-autores-titulo">Sobre os autores</span>
+      <p>Conteúdo produzido pela SAFIE, consultoria jurídico-contábil para empresas digitais e de tecnologia. A SAFIE é liderada por <a href="https://instagram.com/lucasm.mantovani" target="_blank" rel="noopener"><strong>Lucas Mantovani</strong></a> e <a href="https://instagram.com/euitalocunha" target="_blank" rel="noopener"><strong>Italo Cunha</strong></a>.</p>
+    </div>
+  </div>
+
+  <!-- Artigos relacionados -->
+  <div class="container">
+    <section class="relacionados">
+      <h2>Continue lendo</h2>
+      <div class="relacionados-lista">
+<ul class="relacionados-items">
+  <li><a href="/artigos/2026-06-17-bnpl-no-agronegocio-credito-digital-no-campo">BNPL no agronegócio: crédito digital no campo</a></li>
+  <li><a href="/artigos/2026-06-14-credito-digital-e-bnpl-regulacao-e-riscos-no-brasil">Crédito digital e BNPL: regulação e riscos no Brasil</a></li>
+  <li><a href="/artigos/2026-06-04-credito-digital-e-bnpl-riscos-e-oportunidades">Crédito digital e BNPL: riscos e oportunidades</a></li>
+</ul>
+</div>
+    </section>
+  </div>
+</main>
+
+<!-- partial: footer — rodapé comum COM formulário (injetado via {{FOOTER}}) -->
+<!-- Formulário de contato — placeholder. Submit inerte; integração HubSpot na fase A5/A6. -->
+<section class="footer-form-wrap" aria-label="Fale com a SAFIE">
+  <div class="footer-form-inner">
+    <div class="footer-form-texto">
+      <p class="secao-kicker">Fale com a SAFIE</p>
+      <h2>Decisão jurídica ou contábil pendente?</h2>
+      <p>Atendemos founders e gestores com acesso direto aos sócios — jurídico e contabilidade sob o mesmo teto.</p>
+    </div>
+    <!-- TODO A5/A6: HubSpot — este form ainda NÃO envia. -->
+    <form class="footer-form" data-form="rodape" onsubmit="return false" novalidate>
+      <label>Nome*
+        <input type="text" name="nome" autocomplete="name" required>
+      </label>
+      <label>E-mail*
+        <input type="email" name="email" autocomplete="email" required>
+      </label>
+      <label>Empresa
+        <input type="text" name="empresa" autocomplete="organization">
+      </label>
+      <label>Mensagem
+        <textarea name="mensagem" rows="3"></textarea>
+      </label>
+      <button type="submit" class="cta-btn" disabled aria-disabled="true">Enviar (em breve)</button>
+      <p class="footer-form-nota">Formulário em configuração. Por ora, fale conosco em
+        <a href="mailto:contato@safie.com.br">contato@safie.com.br</a>.</p>
+    </form>
+  </div>
+</section>
+
+<footer class="site-footer" role="contentinfo">
+  <div class="footer-inner">
+    <div class="footer-topo">
+      <div class="footer-marca">
+        <span class="logo-marca footer-logo-texto">Blog <span style="color:var(--ciano)">SAFIE</span></span>
+        <p>Consultoria jurídico-contábil para negócios digitais, startups e a nova economia.</p>
+      </div>
+      <div class="footer-nav">
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="/">Início</a></li>
+            <li><a href="/artigos/">Artigos</a></li>
+            <li><a href="/categorias/">Categorias</a></li>
+            <li><a href="/sobre">Sobre</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Links</h4>
+          <ul>
+            <li><a href="https://safie.com.br" target="_blank" rel="noopener">safie.com.br</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+            <li><a href="mailto:contato@safie.com.br">contato@safie.com.br</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-arco-iris" aria-hidden="true"></div>
+    <div class="footer-cnpjs" aria-label="CNPJs SAFIE">
+      <span>SAFIE Consultoria e Contabilidade Ltda — 59.931.854/0001-34</span>
+      <span>SAFIE Tecnologia e Consultoria Ltda — 42.224.278/0001-92</span>
+      <span>Cunha &amp; Mantovani Advogados Associados — 34.924.976/0001-72</span>
+    </div>
+    <div class="footer-base">
+      <span>&copy; 2026 SAFIE. Todos os direitos reservados.</span>
+      <span>Conteúdo informativo; não constitui parecer jurídico ou contábil individualizado.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/js/busca.js"></script>
+<script>
+fetch('https://safie-analytics.lucas-mantovani.workers.dev/track', {
+  method: 'POST',
+  headers: {'Content-Type': 'application/json'},
+  body: JSON.stringify({ url: window.location.pathname, blog: 'fintechs' })
+}).catch(() => {});
+</script>
+<script src="/assets/js/widget-whatsapp.js" defer></script>
+</body>
+</html>

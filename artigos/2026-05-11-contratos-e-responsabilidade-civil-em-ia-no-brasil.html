@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta name="google-site-verification" content="o2ME48MD1myosxdzANOv2RozPmZyghqIt_zVWQqmHOA" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Contratos e responsabilidade civil em IA no Brasil — SAFIE Blog</title>
+  <meta name="description" content="Entenda como estruturar contratos de IA com cláusulas de responsabilidade civil válidas no Brasil. Guia para founders, CTOs e advogados.">
+  <link rel="canonical" href="https://safie.blog.br/artigos/2026-05-11-contratos-e-responsabilidade-civil-em-ia-no-brasil">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="author" content="SAFIE">
+  <meta name="keywords" content="contratos, responsabilidade, civil, brasil, Lei 10.406/2002, Lei 8.078/1990, Lei 13.709/2018, PL 2.338/2023, ANPD">
+
+  <!-- Open Graph -->
+  <meta property="og:type"        content="article">
+  <meta property="og:title"       content="Contratos e responsabilidade civil em IA no Brasil — SAFIE Blog">
+  <meta property="og:description" content="Entenda como estruturar contratos de IA com cláusulas de responsabilidade civil válidas no Brasil. Guia para founders, CTOs e advogados.">
+  <meta property="og:url"         content="https://safie.blog.br/artigos/2026-05-11-contratos-e-responsabilidade-civil-em-ia-no-brasil">
+  <meta property="og:site_name"   content="SAFIE Blog">
+  <meta property="og:locale"      content="pt_BR">
+  <meta property="og:image"       content="https://safie.blog.br/assets/img/artigos/2026-05-11-contratos-e-responsabilidade-civil-em-ia-no-brasil.svg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="article:published_time" content="2026-05-11T09:32:17Z">
+  <meta property="article:section"       content="Contratos e responsabilidade em IA">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:title"       content="Contratos e responsabilidade civil em IA no Brasil — SAFIE Blog">
+  <meta name="twitter:description" content="Entenda como estruturar contratos de IA com cláusulas de responsabilidade civil válidas no Brasil. Guia para founders, CTOs e advogados.">
+  <meta name="twitter:image"       content="https://safie.blog.br/assets/img/artigos/2026-05-11-contratos-e-responsabilidade-civil-em-ia-no-brasil.svg">
+
+  <!-- Schema.org JSON-LD (BlogPosting + FAQPage) -->
+  <script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Contratos e responsabilidade civil em IA no Brasil",
+    "description": "Entenda como estruturar contratos de IA com cláusulas de responsabilidade civil válidas no Brasil. Guia para founders, CTOs e advogados.",
+    "datePublished": "2026-05-11T09:32:17Z",
+    "dateModified": "2026-07-10T10:01:59-03:00",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://safie.blog.br/artigos/2026-05-11-contratos-e-responsabilidade-civil-em-ia-no-brasil"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Lucas Mantovani",
+      "sameAs": [
+        "https://www.linkedin.com/in/lucasm-mantovani/",
+        "https://www.instagram.com/lucasm.mantovani/"
+      ]
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "SAFIE",
+      "url": "https://safie.com.br",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://consultoria.safie.com.br/wp-content/uploads/2025/11/cropped-2-1-1024x292.webp"
+      },
+      "sameAs": [
+        "https://www.instagram.com/safiegroup/",
+        "https://www.instagram.com/safiecontabilidade/"
+      ]
+    },
+    "url": "https://safie.blog.br/artigos/2026-05-11-contratos-e-responsabilidade-civil-em-ia-no-brasil",
+    "articleSection": "Contratos e responsabilidade em IA",
+    "inLanguage": "pt-BR"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Quem responde civilmente quando um sistema de IA causa dano a um usuário no Brasil?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Depende da cadeia contratual e do tipo de relação. Se o usuário final é consumidor, o fornecedor do sistema responde objetivamente pelo CDC (art. 14). Em relações B2B, aplica-se o Código Civil, e a responsabilidade pode ser subjetiva ou objetiva conforme o risco da atividade (art. 927, parágrafo único). A LGPD também responsabiliza controlador e operador de dados por danos decorrentes de violação à lei."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "É possível limitar contratualmente a responsabilidade de uma empresa de IA?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim, mas com restrições importantes. Cláusulas de limitação de responsabilidade são válidas em contratos B2B dentro do Código Civil. No entanto, não funcionam para afastar responsabilidade perante consumidores (CDC proíbe cláusulas abusivas) nem em casos de danos decorrentes de violação da LGPD. O contrato precisa ser segmentado por tipo de risco e perfil de cliente."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O que o artigo 20 da LGPD exige de sistemas de IA que tomam decisões automatizadas?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "O artigo 20 da LGPD garante ao titular de dados o direito de solicitar revisão humana de qualquer decisão tomada exclusivamente por tratamento automatizado que afete seus interesses. Sistemas de IA usados em crédito, seleção de candidatos, saúde ou seguros devem prever esse mecanismo. Contratos com clientes também devem alocar a responsabilidade por viabilizar essa revisão."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Como uma startup de IA deve provisionar contabilmente os riscos de responsabilidade civil?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Pelo CPC 25, a empresa deve registrar provisão quando a obrigação de indenizar é provável e o valor é mensurável. Para startups em mercados sensíveis, o mapeamento de contingências passivas deve ser feito em conjunto com advogado e contador, e refletido nas demonstrações financeiras. Investidores e fundos de venture capital analisam esse disclosure no processo de due diligence."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O PL 2.338/2023 já está em vigor? O que muda quando for aprovado?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não. O PL 2.338/2023 foi aprovado pelo Senado em dezembro de 2024 e aguarda votação na Câmara dos Deputados. Quando aprovado, deve estabelecer obrigações de transparência, avaliação de impacto algorítmico e requisitos específicos para sistemas de IA de alto risco. Empresas devem acompanhar o texto e iniciar a adequação preventiva, especialmente aquelas que operam em saúde, segurança pública, crédito e emprego."
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Início",
+        "item": "https://safie.blog.br"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Contratos e responsabilidade em IA",
+        "item": "https://safie.blog.br/categorias/contratos-ia"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Contratos e responsabilidade civil em IA no Brasil",
+        "item": "https://safie.blog.br/artigos/2026-05-11-contratos-e-responsabilidade-civil-em-ia-no-brasil"
+      }
+    ]
+  }
+]
+  </script>
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/artigo.css">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="/assets/img/android-chrome-512x512.png">
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+</head>
+<body data-nicho="ia">
+
+<!-- partial: header — cabeçalho comum do SAFIE Blog (injetado via {{HEADER}}) -->
+<header class="site-header" role="banner">
+  <div class="header-inner">
+    <a href="/" class="logo" aria-label="SAFIE Blog — Página inicial">
+      <img class="logo-img" src="/assets/logos/safie-logo-branco.svg" alt="SAFIE">
+      <span class="blog-id">Blog</span>
+    </a>
+    <nav id="nav-principal" class="nav-principal" aria-label="Navegação principal">
+      <a href="/">Início</a>
+      <a href="/artigos/">Artigos</a>
+      <a href="/categorias/">Categorias</a>
+      <a href="/sobre">Sobre</a>
+    </nav>
+    <form class="header-busca" role="search" action="/busca" method="get">
+      <label for="busca-q-header" class="sr-only">Buscar artigos</label>
+      <input type="search" id="busca-q-header" name="q" placeholder="Buscar…" autocomplete="off">
+      <button type="submit" aria-label="Buscar">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      </button>
+    </form>
+    <a href="https://safie.com.br" class="nav-voltar" target="_blank" rel="noopener">Voltar ao site SAFIE →</a>
+    <button id="menu-toggle" class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+<nav class="breadcrumb" aria-label="Trilha de navegação">
+  <div class="container">
+    <a href="/">Início</a> <span aria-hidden="true">›</span>
+    <a href="/categorias/contratos-ia">Contratos e responsabilidade em IA</a> <span aria-hidden="true">›</span>
+    <span aria-current="page">Contratos e responsabilidade civil em IA no Brasil</span>
+  </div>
+</nav>
+
+  <article class="artigo-wrapper" itemscope itemtype="https://schema.org/BlogPosting">
+
+    <header class="artigo-header">
+      <a class="artigo-tema" href="/categorias/contratos-ia">Contratos e responsabilidade em IA</a>
+
+      <h1 class="artigo-titulo" itemprop="headline">Contratos e responsabilidade civil em IA no Brasil</h1>
+
+      <div class="artigo-meta">
+        <span>Por <strong itemprop="author">SAFIE</strong></span>
+        <span>·</span>
+        <time datetime="2026-05-11T09:32:17Z" itemprop="datePublished">11 de maio de 2026</time>
+        <span>·</span>
+        <span>4 min de leitura</span>
+      </div>
+    </header>
+
+    <img class="artigo-capa" src="/assets/img/artigos/2026-05-11-contratos-e-responsabilidade-civil-em-ia-no-brasil.svg" alt="Contratos e responsabilidade civil em IA no Brasil — capa ilustrativa do artigo sobre Contratos e responsabilidade em IA" width="1200" height="630" loading="lazy">
+
+    <!-- Resumo executivo (para IAs generativas / GEO) -->
+    <aside class="resumo-executivo" itemprop="abstract">
+      <strong>Resumo executivo</strong>
+      A ausência de legislação específica sobre IA no Brasil não elimina a responsabilidade civil das empresas que desenvolvem ou implantam sistemas inteligentes. O Código Civil, o CDC e a LGPD já formam o arcabouço jurídico aplicável hoje. Founders e CTOs precisam estruturar contratos que delimitem responsabilidades antes de qualquer incidente.
+    </aside>
+
+    <!-- Corpo do artigo -->
+    <div class="artigo-corpo" itemprop="articleBody">
+      <p>Em 11 de maio de 2026, enquanto o mercado financeiro acompanhava a volatilidade do Ibovespa e operações de day trade em minicontratos, empresas de inteligência artificial enfrentavam um desafio silencioso e igualmente relevante para seus balanços: a ausência de contratos bem estruturados sobre responsabilidade civil em sistemas de IA.</p>
+<p>O tema ganhou urgência porque a adoção de IA em processos críticos, como análise de crédito, triagem médica, automação jurídica e tomada de decisão em investimentos, criou uma lacuna perigosa. Quando o sistema erra, quem responde? O desenvolvedor, o contratante, o usuário final?</p>
+<p>Este artigo examina o estado atual do direito contratual e da responsabilidade civil aplicados à IA no Brasil, com foco prático para founders, CTOs, advogados e contadores que precisam estruturar relações jurídicas seguras nesse setor.</p>
+
+<h2>Contexto jurídico e regulatório</h2>
+<h2>O que diz o direito brasileiro sobre responsabilidade em IA</h2>
+<p>O Brasil ainda não possui uma lei específica sobre inteligência artificial. O PL 2.338/2023, aprovado pelo Senado em dezembro de 2024 e aguardando votação na Câmara dos Deputados, estabelece princípios e obrigações gerais, mas ainda não é lei. Até lá, o regime jurídico aplicável resulta da combinação de três diplomas principais.</p>
+<p>O <strong>Código Civil (Lei 10.406/2002)</strong> é o ponto de partida. O artigo 186 define ato ilícito e o artigo 927 estabelece o dever de indenizar. Para fornecedores de IA que operam como empresas, o parágrafo único do artigo 927 pode impor responsabilidade objetiva quando a atividade, por sua natureza, implica risco para terceiros, o que é facilmente caracterizável em sistemas que tomam decisões automatizadas com impacto sobre pessoas.</p>
+<p>O <strong>Código de Defesa do Consumidor (Lei 8.078/1990)</strong> entra em cena sempre que o usuário final do sistema de IA é um consumidor. Nesses casos, a responsabilidade do fornecedor é objetiva pelo artigo 14, independente de culpa. Isso inclui plataformas de saúde, educação, crédito e atendimento ao cliente baseadas em IA.</p>
+<h2>LGPD e a dimensão dos dados nos contratos de IA</h2>
+<p>A <strong>Lei Geral de Proteção de Dados (Lei 13.709/2018)</strong> adiciona uma camada decisiva. Sistemas de IA frequentemente processam dados pessoais para funcionar. O artigo 42 da LGPD prevê responsabilidade civil do controlador e do operador de dados por danos causados em violação à lei. A ANPD pode ainda impor sanções administrativas de até 2% do faturamento bruto da empresa no Brasil, limitadas a R$ 50 milhões por infração.</p>
+<p>O artigo 20 da LGPD é particularmente relevante: garante ao titular o direito de solicitar revisão de decisões tomadas exclusivamente por tratamento automatizado de dados pessoais. Isso impacta diretamente modelos de IA usados em concessão de crédito, seleção de candidatos e avaliação de risco. Empresas que não preveem esse mecanismo contratualmente estão em desconformidade.</p>
+<p>Contratos de fornecimento de IA precisam, portanto, mapear quem é controlador e quem é operador de dados, definir responsabilidades específicas para cada papel e incluir cláusulas de cooperação em caso de incidentes. Isso não é opcional: é exigência legal.</p>
+
+<h2>Impacto prático</h2>
+<p>Para founders e CTOs, o primeiro impacto prático é na estrutura dos contratos B2B. Um contrato de fornecimento de software de IA precisa ir além do SLA tradicional. Deve incluir cláusulas de alocação de risco para decisões automatizadas, limites de responsabilidade diferenciados conforme o tipo de dado processado, e obrigações de auditabilidade do modelo.</p>
+<p>Cláusulas de limitação de responsabilidade, comuns em contratos de tecnologia, têm eficácia reduzida quando o dano envolve consumidor (CDC) ou violação de dados pessoais (LGPD). Founders que incluem caps genéricos de responsabilidade sem distinguir essas hipóteses podem ter surpresas desagradáveis em litígios. A recomendação técnica é segmentar as cláusulas por tipo de risco e pelo perfil do cliente.</p>
+<p>Do ponto de vista contábil, a exposição a contingências passivas precisa ser provisionada. O CPC 25 (Provisões, Passivos Contingentes e Ativos Contingentes) exige que empresas registrem provisão quando a obrigação é provável e mensurável. Startups de IA com produtos em mercados sensíveis como saúde, crédito ou RH devem mapear sua exposição junto ao contador e ao advogado, e refletir isso no balanço e no disclosure para investidores.</p>
+
+<h2>Considerações finais</h2>
+<p>Contratos mal estruturados em IA não são apenas um risco jurídico: são um risco de negócio. Investidores em deep tech analisam cada vez mais o compliance contratual e regulatório como parte do due diligence. Uma startup com exposição não mapeada em responsabilidade civil ou em proteção de dados vale menos na prateleira de qualquer fundo sério.</p>
+<p>O momento de estruturar esses contratos é antes do incidente, não depois. Com o PL 2.338/2023 avançando na Câmara e a ANPD ampliando sua capacidade de fiscalização, o ciclo de tolerância com descuidos regulatórios em IA está se encerrando. Founders, CTOs e seus assessores jurídicos precisam agir agora.</p>
+    </div>
+
+    <!-- FAQ -->
+    <section class="faq-section" id="faq" itemscope itemtype="https://schema.org/FAQPage">
+      <h2>Perguntas frequentes</h2>
+      <div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Quem responde civilmente quando um sistema de IA causa dano a um usuário no Brasil?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">Depende da cadeia contratual e do tipo de relação. Se o usuário final é consumidor, o fornecedor do sistema responde objetivamente pelo CDC (art. 14). Em relações B2B, aplica-se o Código Civil, e a responsabilidade pode ser subjetiva ou objetiva conforme o risco da atividade (art. 927, parágrafo único). A LGPD também responsabiliza controlador e operador de dados por danos decorrentes de violação à lei.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">É possível limitar contratualmente a responsabilidade de uma empresa de IA?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">Sim, mas com restrições importantes. Cláusulas de limitação de responsabilidade são válidas em contratos B2B dentro do Código Civil. No entanto, não funcionam para afastar responsabilidade perante consumidores (CDC proíbe cláusulas abusivas) nem em casos de danos decorrentes de violação da LGPD. O contrato precisa ser segmentado por tipo de risco e perfil de cliente.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">O que o artigo 20 da LGPD exige de sistemas de IA que tomam decisões automatizadas?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">O artigo 20 da LGPD garante ao titular de dados o direito de solicitar revisão humana de qualquer decisão tomada exclusivamente por tratamento automatizado que afete seus interesses. Sistemas de IA usados em crédito, seleção de candidatos, saúde ou seguros devem prever esse mecanismo. Contratos com clientes também devem alocar a responsabilidade por viabilizar essa revisão.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Como uma startup de IA deve provisionar contabilmente os riscos de responsabilidade civil?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">Pelo CPC 25, a empresa deve registrar provisão quando a obrigação de indenizar é provável e o valor é mensurável. Para startups em mercados sensíveis, o mapeamento de contingências passivas deve ser feito em conjunto com advogado e contador, e refletido nas demonstrações financeiras. Investidores e fundos de venture capital analisam esse disclosure no processo de due diligence.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">O PL 2.338/2023 já está em vigor? O que muda quando for aprovado?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">Não. O PL 2.338/2023 foi aprovado pelo Senado em dezembro de 2024 e aguarda votação na Câmara dos Deputados. Quando aprovado, deve estabelecer obrigações de transparência, avaliação de impacto algorítmico e requisitos específicos para sistemas de IA de alto risco. Empresas devem acompanhar o texto e iniciar a adequação preventiva, especialmente aquelas que operam em saúde, segurança pública, crédito e emprego.</span></div>
+</div>
+
+    </section>
+
+    <!-- Referências -->
+    <aside class="referencias">
+      <h2>Fontes e referências</h2>
+      <ul>
+<li><a href="https://www.infomoney.com.br/mercados/mercados-day-trade-hoje-analistas-11052026/" target="_blank" rel="noopener">InfoMoney</a></li>
+<li>Lei 10.406/2002, Código Civil Brasileiro, arts. 186 e 927</li>
+<li>Lei 8.078/1990, Código de Defesa do Consumidor, arts. 14 e 51</li>
+<li>Lei 13.709/2018, Lei Geral de Proteção de Dados (LGPD), arts. 20 e 42</li>
+<li>CPC 25, Pronunciamento Contábil sobre Provisões, Passivos Contingentes e Ativos Contingentes (CPC/CFC)</li>
+<li>PL 2.338/2023, Projeto de Lei sobre Inteligência Artificial, aprovado pelo Senado em dezembro de 2024</li>
+<li>Autoridade Nacional de Proteção de Dados (ANPD): https://www.gov.br/anpd</li>
+<li>Fonte de contexto de mercado: InfoMoney, 'Day Trade hoje (11): Ibovespa sobe e tenta recuperação', 11/05/2026 (https://www.infomoney.com.br/mercados/mercados-day-trade-hoje-analistas-11052026/)</li>
+</ul>
+
+    </aside>
+
+  </article>
+    <!-- CTA consultivo (leva ao WhatsApp da SAFIE) -->
+    <div class="container">
+      <div class="artigo-cta">
+        <h3>Decisão jurídica ou contábil pendente?</h3>
+        <p>A SAFIE atende founders e gestores com acesso direto aos sócios — jurídico e contabilidade integrados sob o mesmo teto. Conversamos para entender o caso antes de qualquer recomendação.</p>
+        <a href="https://wa.me/5511934329769?text=Ol%C3%A1!%20Vim%20pelo%20blog%20da%20SAFIE%20e%20gostaria%20de%20conversar." class="cta-btn" target="_blank" rel="noopener">Falar com a SAFIE</a>
+      </div>
+    </div>
+
+
+
+  <!-- Sobre os autores -->
+  <div class="container">
+    <div class="sobre-autores">
+      <span class="sobre-autores-titulo">Sobre os autores</span>
+      <p>Conteúdo produzido pela SAFIE, consultoria jurídico-contábil para empresas digitais e de tecnologia. A SAFIE é liderada por <a href="https://instagram.com/lucasm.mantovani" target="_blank" rel="noopener"><strong>Lucas Mantovani</strong></a> e <a href="https://instagram.com/euitalocunha" target="_blank" rel="noopener"><strong>Italo Cunha</strong></a>.</p>
+    </div>
+  </div>
+
+  <!-- Artigos relacionados -->
+  <div class="container">
+    <section class="relacionados">
+      <h2>Continue lendo</h2>
+      <div class="relacionados-lista">
+<ul class="relacionados-items">
+  <li><a href="/artigos/2026-06-12-contratos-e-responsabilidade-em-ia-o-que-sua-empresa-deve-saber">Contratos e responsabilidade em IA: o que sua empresa deve saber</a></li>
+  <li><a href="/artigos/2026-06-05-contratos-e-responsabilidade-em-ia-o-que-saber">Contratos e responsabilidade em IA: o que saber</a></li>
+  <li><a href="/artigos/2026-05-19-contratos-de-ia-e-infraestrutura-critica-riscos-reais">Contratos de IA e infraestrutura crítica: riscos reais</a></li>
+</ul>
+</div>
+    </section>
+  </div>
+</main>
+
+<!-- partial: footer — rodapé comum COM formulário (injetado via {{FOOTER}}) -->
+<!-- Formulário de contato — placeholder. Submit inerte; integração HubSpot na fase A5/A6. -->
+<section class="footer-form-wrap" aria-label="Fale com a SAFIE">
+  <div class="footer-form-inner">
+    <div class="footer-form-texto">
+      <p class="secao-kicker">Fale com a SAFIE</p>
+      <h2>Decisão jurídica ou contábil pendente?</h2>
+      <p>Atendemos founders e gestores com acesso direto aos sócios — jurídico e contabilidade sob o mesmo teto.</p>
+    </div>
+    <!-- TODO A5/A6: HubSpot — este form ainda NÃO envia. -->
+    <form class="footer-form" data-form="rodape" onsubmit="return false" novalidate>
+      <label>Nome*
+        <input type="text" name="nome" autocomplete="name" required>
+      </label>
+      <label>E-mail*
+        <input type="email" name="email" autocomplete="email" required>
+      </label>
+      <label>Empresa
+        <input type="text" name="empresa" autocomplete="organization">
+      </label>
+      <label>Mensagem
+        <textarea name="mensagem" rows="3"></textarea>
+      </label>
+      <button type="submit" class="cta-btn" disabled aria-disabled="true">Enviar (em breve)</button>
+      <p class="footer-form-nota">Formulário em configuração. Por ora, fale conosco em
+        <a href="mailto:contato@safie.com.br">contato@safie.com.br</a>.</p>
+    </form>
+  </div>
+</section>
+
+<footer class="site-footer" role="contentinfo">
+  <div class="footer-inner">
+    <div class="footer-topo">
+      <div class="footer-marca">
+        <span class="logo-marca footer-logo-texto">Blog <span style="color:var(--ciano)">SAFIE</span></span>
+        <p>Consultoria jurídico-contábil para negócios digitais, startups e a nova economia.</p>
+      </div>
+      <div class="footer-nav">
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="/">Início</a></li>
+            <li><a href="/artigos/">Artigos</a></li>
+            <li><a href="/categorias/">Categorias</a></li>
+            <li><a href="/sobre">Sobre</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Links</h4>
+          <ul>
+            <li><a href="https://safie.com.br" target="_blank" rel="noopener">safie.com.br</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+            <li><a href="mailto:contato@safie.com.br">contato@safie.com.br</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-arco-iris" aria-hidden="true"></div>
+    <div class="footer-cnpjs" aria-label="CNPJs SAFIE">
+      <span>SAFIE Consultoria e Contabilidade Ltda — 59.931.854/0001-34</span>
+      <span>SAFIE Tecnologia e Consultoria Ltda — 42.224.278/0001-92</span>
+      <span>Cunha &amp; Mantovani Advogados Associados — 34.924.976/0001-72</span>
+    </div>
+    <div class="footer-base">
+      <span>&copy; 2026 SAFIE. Todos os direitos reservados.</span>
+      <span>Conteúdo informativo; não constitui parecer jurídico ou contábil individualizado.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/js/busca.js"></script>
+<script>
+fetch('https://safie-analytics.lucas-mantovani.workers.dev/track', {
+  method: 'POST',
+  headers: {'Content-Type': 'application/json'},
+  body: JSON.stringify({ url: window.location.pathname, blog: 'ia' })
+}).catch(() => {});
+</script>
+<script src="/assets/js/widget-whatsapp.js" defer></script>
+</body>
+</html>

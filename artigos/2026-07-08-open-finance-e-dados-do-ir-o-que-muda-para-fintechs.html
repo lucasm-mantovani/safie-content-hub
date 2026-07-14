@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta name="google-site-verification" content="o2ME48MD1myosxdzANOv2RozPmZyghqIt_zVWQqmHOA" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Open Finance e dados do IR: o que muda para fintechs — SAFIE Blog</title>
+  <meta name="description" content="Open Finance permite cruzar dados financeiros com informações do IR. Entenda os impactos jurídicos e práticos para fintechs e bancos digitais.">
+  <link rel="canonical" href="https://safie.blog.br/artigos/2026-07-08-open-finance-e-dados-do-ir-o-que-muda-para-fintechs">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="author" content="SAFIE">
+  <meta name="keywords" content="open, finance, dados, fintechs, financeiros, ANPD, Banco Central, Receita Federal">
+
+  <!-- Open Graph -->
+  <meta property="og:type"        content="article">
+  <meta property="og:title"       content="Open Finance e dados do IR: o que muda para fintechs — SAFIE Blog">
+  <meta property="og:description" content="Open Finance permite cruzar dados financeiros com informações do IR. Entenda os impactos jurídicos e práticos para fintechs e bancos digitais.">
+  <meta property="og:url"         content="https://safie.blog.br/artigos/2026-07-08-open-finance-e-dados-do-ir-o-que-muda-para-fintechs">
+  <meta property="og:site_name"   content="SAFIE Blog">
+  <meta property="og:locale"      content="pt_BR">
+  <meta property="og:image"       content="https://safie.blog.br/assets/img/artigos/2026-07-08-open-finance-e-dados-do-ir-o-que-muda-para-fintechs.svg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="article:published_time" content="2026-07-08T09:16:25Z">
+  <meta property="article:section"       content="Open Finance e dados financeiros">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:title"       content="Open Finance e dados do IR: o que muda para fintechs — SAFIE Blog">
+  <meta name="twitter:description" content="Open Finance permite cruzar dados financeiros com informações do IR. Entenda os impactos jurídicos e práticos para fintechs e bancos digitais.">
+  <meta name="twitter:image"       content="https://safie.blog.br/assets/img/artigos/2026-07-08-open-finance-e-dados-do-ir-o-que-muda-para-fintechs.svg">
+
+  <!-- Schema.org JSON-LD (BlogPosting + FAQPage) -->
+  <script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Open Finance e dados do IR: o que muda para fintechs",
+    "description": "Open Finance permite cruzar dados financeiros com informações do IR. Entenda os impactos jurídicos e práticos para fintechs e bancos digitais.",
+    "datePublished": "2026-07-08T09:16:25Z",
+    "dateModified": "2026-07-10T10:01:12-03:00",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://safie.blog.br/artigos/2026-07-08-open-finance-e-dados-do-ir-o-que-muda-para-fintechs"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Lucas Mantovani",
+      "sameAs": [
+        "https://www.linkedin.com/in/lucasm-mantovani/",
+        "https://www.instagram.com/lucasm.mantovani/"
+      ]
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "SAFIE",
+      "url": "https://safie.com.br",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://consultoria.safie.com.br/wp-content/uploads/2025/11/cropped-2-1-1024x292.webp"
+      },
+      "sameAs": [
+        "https://www.instagram.com/safiegroup/",
+        "https://www.instagram.com/safiecontabilidade/"
+      ]
+    },
+    "url": "https://safie.blog.br/artigos/2026-07-08-open-finance-e-dados-do-ir-o-que-muda-para-fintechs",
+    "articleSection": "Open Finance e dados financeiros",
+    "inLanguage": "pt-BR"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Uma fintech pode usar dados do Open Finance para oferecer antecipação de restituição do IR?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim, mas com restrições importantes. A fintech precisa ter autorização do Banco Central para operar como SCD ou correspondente bancário, obter consentimento específico do usuário para o tratamento dos dados bancários via Open Finance e, separadamente, uma base legal para acessar qualquer informação tributária. Não existe integração automática entre o Open Finance e os sistemas da Receita Federal."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Qual é a base legal na LGPD para tratar dados financeiros e tributários combinados?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A base legal mais segura é o consentimento do titular (artigo 7º, inciso I da LGPD), que deve ser livre, informado, inequívoco e específico para cada finalidade. Em contratos de crédito, a execução do contrato (inciso V do mesmo artigo) pode complementar essa base. Dados tributários exigem atenção redobrada porque podem ser classificados como dados sensíveis dependendo do contexto de tratamento."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O que é uma DPIA e quando minha fintech precisa fazer uma?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A DPIA (Avaliação de Impacto à Proteção de Dados) é um processo interno de análise de riscos para operações de tratamento de dados que possam representar alto risco aos titulares. A ANPD recomenda sua realização quando há tratamento em larga escala de dados financeiros ou cruzamento de múltiplas bases de dados. O artigo 38 da LGPD autoriza a ANPD a exigir esse relatório de qualquer controlador."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Qual regulação do Banco Central se aplica a fintechs que oferecem crédito com base em dados do Open Finance?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "As principais normas são a Resolução Conjunta BCB/CMN nº 1 de 2020 (Open Finance), a Resolução BCB nº 29 de 2020 (SCDs e SEPs) e a Resolução CMN nº 4.878 de 2020, que trata das condições de contratação de operações de crédito. Fintechs sem autorização para operar como instituição financeira não podem conceder crédito diretamente, apenas intermediar."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Como o usuário pode revogar o consentimento dado a uma fintech no Open Finance?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "O usuário pode revogar o consentimento a qualquer momento, diretamente pela plataforma da instituição que detém os dados (instituição transmissora) ou pela interface da fintech que os recebe (instituição receptora). A Resolução Conjunta nº 1 obriga as instituições a disponibilizarem mecanismos simples e acessíveis de revogação, sem custo para o titular."
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Início",
+        "item": "https://safie.blog.br"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Open Finance e dados financeiros",
+        "item": "https://safie.blog.br/categorias/open-finance"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Open Finance e dados do IR: o que muda para fintechs",
+        "item": "https://safie.blog.br/artigos/2026-07-08-open-finance-e-dados-do-ir-o-que-muda-para-fintechs"
+      }
+    ]
+  }
+]
+  </script>
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/artigo.css">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="/assets/img/android-chrome-512x512.png">
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+</head>
+<body data-nicho="fintechs">
+
+<!-- partial: header — cabeçalho comum do SAFIE Blog (injetado via {{HEADER}}) -->
+<header class="site-header" role="banner">
+  <div class="header-inner">
+    <a href="/" class="logo" aria-label="SAFIE Blog — Página inicial">
+      <img class="logo-img" src="/assets/logos/safie-logo-branco.svg" alt="SAFIE">
+      <span class="blog-id">Blog</span>
+    </a>
+    <nav id="nav-principal" class="nav-principal" aria-label="Navegação principal">
+      <a href="/">Início</a>
+      <a href="/artigos/">Artigos</a>
+      <a href="/categorias/">Categorias</a>
+      <a href="/sobre">Sobre</a>
+    </nav>
+    <form class="header-busca" role="search" action="/busca" method="get">
+      <label for="busca-q-header" class="sr-only">Buscar artigos</label>
+      <input type="search" id="busca-q-header" name="q" placeholder="Buscar…" autocomplete="off">
+      <button type="submit" aria-label="Buscar">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      </button>
+    </form>
+    <a href="https://safie.com.br" class="nav-voltar" target="_blank" rel="noopener">Voltar ao site SAFIE →</a>
+    <button id="menu-toggle" class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+<nav class="breadcrumb" aria-label="Trilha de navegação">
+  <div class="container">
+    <a href="/">Início</a> <span aria-hidden="true">›</span>
+    <a href="/categorias/open-finance">Open Finance e dados financeiros</a> <span aria-hidden="true">›</span>
+    <span aria-current="page">Open Finance e dados do IR: o que muda para fintechs</span>
+  </div>
+</nav>
+
+  <article class="artigo-wrapper" itemscope itemtype="https://schema.org/BlogPosting">
+
+    <header class="artigo-header">
+      <a class="artigo-tema" href="/categorias/open-finance">Open Finance e dados financeiros</a>
+
+      <h1 class="artigo-titulo" itemprop="headline">Open Finance e dados do IR: o que muda para fintechs</h1>
+
+      <div class="artigo-meta">
+        <span>Por <strong itemprop="author">SAFIE</strong></span>
+        <span>·</span>
+        <time datetime="2026-07-08T09:16:25Z" itemprop="datePublished">8 de julho de 2026</time>
+        <span>·</span>
+        <span>4 min de leitura</span>
+      </div>
+    </header>
+
+    <img class="artigo-capa" src="/assets/img/artigos/2026-07-08-open-finance-e-dados-do-ir-o-que-muda-para-fintechs.svg" alt="Open Finance e dados do IR: o que muda para fintechs — capa ilustrativa do artigo sobre Open Finance e dados financeiros" width="1200" height="630" loading="lazy">
+
+    <!-- Resumo executivo (para IAs generativas / GEO) -->
+    <aside class="resumo-executivo" itemprop="abstract">
+      <strong>Resumo executivo</strong>
+      O ecossistema de Open Finance no Brasil avança na integração de dados financeiros, incluindo informações tributárias como o cashback do Imposto de Renda. Do ponto de vista jurídico, esse cruzamento de dados exige conformidade simultânea com a LGPD, as normas do Banco Central e as regras da Receita Federal. Para fintechs, a oportunidade é concreta, mas o risco regulatório também.
+    </aside>
+
+    <!-- Corpo do artigo -->
+    <div class="artigo-corpo" itemprop="articleBody">
+      <p>Uma reportagem publicada pela InfoMoney em 2026 sobre o cashback do Imposto de Renda, que permite ao contribuinte consultar e receber valores restituídos diretamente em conta, acende um debate relevante para o setor de fintechs: como os dados tributários e financeiros podem se integrar de forma segura e regulada no ambiente do Open Finance brasileiro.</p>
+<p>O cashback do IR, na prática, é uma restituição processada pela Receita Federal e creditada na conta bancária indicada pelo contribuinte na declaração. O que parece simples do ponto de vista do usuário final carrega uma camada de complexidade para as instituições financeiras que recebem, processam e, eventualmente, antecipam esses valores.</p>
+<p>Com o Open Finance em operação desde 2021 e em expansão contínua, a convergência entre dados bancários e dados tributários começa a ganhar contornos mais definidos, tanto em oportunidades de negócio quanto em obrigações regulatórias que os gestores de fintechs precisam conhecer.</p>
+
+<h2>Contexto jurídico e regulatório</h2>
+<h2>Open Finance e o marco regulatório vigente</h2>
+<p>O Open Finance brasileiro é regulado principalmente pela Resolução Conjunta BCB/CMN nº 1, de 2020, e pelas circulares e resoluções normativas do Banco Central que a complementam. O sistema permite o compartilhamento padronizado de dados financeiros entre instituições autorizadas, mediante consentimento expresso do titular, e abrange produtos como contas, crédito, investimentos e seguros.</p>
+<p>A integração com dados tributários, como o status de restituições do IR, não está prevista diretamente nas normas do Open Finance. Ela depende de consentimento específico do contribuinte junto à Receita Federal, regido pela Lei nº 12.527 de 2011 (Lei de Acesso à Informação) e pelo Decreto nº 8.777 de 2016, que institui a Política de Dados Abertos do Poder Executivo Federal.</p>
+<p>Do ponto de vista da proteção de dados, qualquer tratamento de informações tributárias por fintechs está sujeito à Lei Geral de Proteção de Dados (Lei nº 13.709 de 2018), que classifica dados financeiros e fiscais como dados sensíveis em determinados contextos. A base legal mais adequada para esse tratamento é o consentimento do titular, conforme o artigo 7º, inciso I da LGPD, ou a execução de contrato, conforme o inciso V do mesmo artigo.</p>
+<h2>Antecipação de restituição e regulação de crédito</h2>
+<p>Fintechs que oferecem antecipação da restituição do IR operam como correspondentes bancários ou como Sociedades de Crédito Direto (SCDs), modalidade regulada pela Resolução BCB nº 29 de 2020. Essa operação configura concessão de crédito e exige autorização prévia do Banco Central, além de observância às normas do Conselho Monetário Nacional sobre transparência e precificação, em especial a Resolução CMN nº 4.878 de 2020, que trata da contratação de operações e prestação de serviços pelos clientes.</p>
+
+<h2>Impacto prático</h2>
+<p>Para fintechs que atuam no segmento de crédito pessoal ou de gestão financeira, a possibilidade de cruzar dados do Open Finance com informações tributárias abre oportunidades relevantes de personalização de produtos. Uma fintech com acesso consentido ao extrato bancário de um usuário pode, por exemplo, identificar que ele tem restituição a receber e oferecer um produto de antecipação com condições mais precisas de risco.</p>
+<p>O desafio operacional está na gestão do consentimento. O Open Finance exige que o consentimento seja granular, com prazo definido e possibilidade de revogação a qualquer momento, conforme a Resolução Conjunta nº 1. Qualquer extensão desse consentimento para dados externos ao sistema financeiro, como informações da Receita Federal, precisa de uma base jurídica autônoma e documentada.</p>
+<p>Bancos digitais e fintechs de crédito também precisam atentar para o risco de concentração de informações. A Autoridade Nacional de Proteção de Dados (ANPD) tem orientado que o acúmulo de dados financeiros e tributários em uma mesma base exige avaliação de impacto à proteção de dados (DPIA), instrumento previsto no artigo 38 da LGPD e recomendado nas diretrizes da própria ANPD publicadas em 2023.</p>
+
+<h2>Considerações finais</h2>
+<p>O avanço do Open Finance cria condições para que fintechs utilizem dados financeiros de forma mais inteligente, mas esse potencial só se realiza dentro de um quadro regulatório bem estruturado. Cruzar informações bancárias com dados tributários como os da restituição do IR exige consentimento robusto, base legal clara sob a LGPD e, nos casos de antecipação de valores, autorização do Banco Central para operar como instituição de crédito.</p>
+<p>Founders e gestores que quiserem explorar esse mercado devem começar pelo mapeamento de dados (data mapping), identificar as bases legais aplicáveis e consultar assessoria jurídica especializada antes de lançar qualquer produto que combine essas fontes de informação. O custo de conformidade é real, mas o custo de uma autuação da ANPD ou do Banco Central é substancialmente maior.</p>
+    </div>
+
+    <!-- FAQ -->
+    <section class="faq-section" id="faq" itemscope itemtype="https://schema.org/FAQPage">
+      <h2>Perguntas frequentes</h2>
+      <div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Uma fintech pode usar dados do Open Finance para oferecer antecipação de restituição do IR?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">Sim, mas com restrições importantes. A fintech precisa ter autorização do Banco Central para operar como SCD ou correspondente bancário, obter consentimento específico do usuário para o tratamento dos dados bancários via Open Finance e, separadamente, uma base legal para acessar qualquer informação tributária. Não existe integração automática entre o Open Finance e os sistemas da Receita Federal.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Qual é a base legal na LGPD para tratar dados financeiros e tributários combinados?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">A base legal mais segura é o consentimento do titular (artigo 7º, inciso I da LGPD), que deve ser livre, informado, inequívoco e específico para cada finalidade. Em contratos de crédito, a execução do contrato (inciso V do mesmo artigo) pode complementar essa base. Dados tributários exigem atenção redobrada porque podem ser classificados como dados sensíveis dependendo do contexto de tratamento.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">O que é uma DPIA e quando minha fintech precisa fazer uma?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">A DPIA (Avaliação de Impacto à Proteção de Dados) é um processo interno de análise de riscos para operações de tratamento de dados que possam representar alto risco aos titulares. A ANPD recomenda sua realização quando há tratamento em larga escala de dados financeiros ou cruzamento de múltiplas bases de dados. O artigo 38 da LGPD autoriza a ANPD a exigir esse relatório de qualquer controlador.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Qual regulação do Banco Central se aplica a fintechs que oferecem crédito com base em dados do Open Finance?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">As principais normas são a Resolução Conjunta BCB/CMN nº 1 de 2020 (Open Finance), a Resolução BCB nº 29 de 2020 (SCDs e SEPs) e a Resolução CMN nº 4.878 de 2020, que trata das condições de contratação de operações de crédito. Fintechs sem autorização para operar como instituição financeira não podem conceder crédito diretamente, apenas intermediar.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Como o usuário pode revogar o consentimento dado a uma fintech no Open Finance?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">O usuário pode revogar o consentimento a qualquer momento, diretamente pela plataforma da instituição que detém os dados (instituição transmissora) ou pela interface da fintech que os recebe (instituição receptora). A Resolução Conjunta nº 1 obriga as instituições a disponibilizarem mecanismos simples e acessíveis de revogação, sem custo para o titular.</span></div>
+</div>
+
+    </section>
+
+    <!-- Referências -->
+    <aside class="referencias">
+      <h2>Fontes e referências</h2>
+      <ul>
+<li><span class="ref-label">Fonte original:</span> <a href="https://www.infomoney.com.br/minhas-financas/cashback-do-imposto-de-renda-como-consultar-e-o-que-fazer-se-nao-receber/" target="_blank" rel="noopener">InfoMoney</a></li>
+<li><span class="ref-label">Resolução Conjunta BCB/CMN nº 1, de 4 de maio de 2020 (Open Finance):</span> <a href="https://www.bcb.gov.br/estabilidadefinanceira/openfinance" target="_blank" rel="noopener">Banco Central do Brasil</a></li>
+<li><span class="ref-label">Resolução BCB nº 29, de 26 de outubro de 2020 (SCDs e SEPs):</span> <a href="https://www.bcb.gov.br/" target="_blank" rel="noopener">Banco Central do Brasil</a></li>
+<li><span class="ref-label">Resolução CMN nº 4.878, de 23 de dezembro de 2020 (contratação de crédito):</span> <a href="https://www.bcb.gov.br/" target="_blank" rel="noopener">Banco Central do Brasil</a></li>
+<li><span class="ref-label">Lei nº 13.709, de 14 de agosto de 2018 (LGPD):</span> <a href="https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm" target="_blank" rel="noopener">Planalto</a></li>
+<li><span class="ref-label">Diretrizes para Avaliação de Impacto à Proteção de Dados (ANPD, 2023):</span> <a href="https://www.gov.br/anpd/" target="_blank" rel="noopener">ANPD</a></li>
+<li><span class="ref-label">Lei nº 12.527, de 18 de novembro de 2011 (Lei de Acesso à Informação):</span> <a href="https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm" target="_blank" rel="noopener">Planalto</a></li>
+</ul>
+
+    </aside>
+
+  </article>
+
+  <!-- CTA consultivo (leva ao WhatsApp da SAFIE) -->
+  <div class="container">
+    <div class="artigo-cta">
+      <h3>Decisão jurídica ou contábil pendente?</h3>
+      <p>A SAFIE atende founders e gestores com acesso direto aos sócios — jurídico e contabilidade integrados sob o mesmo teto. Conversamos para entender o caso antes de qualquer recomendação.</p>
+      <a href="https://wa.me/5511934329769?text=Ol%C3%A1!%20Vim%20pelo%20blog%20da%20SAFIE%20e%20gostaria%20de%20conversar." class="cta-btn" target="_blank" rel="noopener">Falar com a SAFIE</a>
+    </div>
+  </div>
+
+
+  <!-- Sobre os autores -->
+  <div class="container">
+    <div class="sobre-autores">
+      <span class="sobre-autores-titulo">Sobre os autores</span>
+      <p>Conteúdo produzido pela SAFIE, consultoria jurídico-contábil para empresas digitais e de tecnologia. A SAFIE é liderada por <a href="https://instagram.com/lucasm.mantovani" target="_blank" rel="noopener"><strong>Lucas Mantovani</strong></a> e <a href="https://instagram.com/euitalocunha" target="_blank" rel="noopener"><strong>Italo Cunha</strong></a>.</p>
+    </div>
+  </div>
+
+  <!-- Artigos relacionados -->
+  <div class="container">
+    <section class="relacionados">
+      <h2>Continue lendo</h2>
+      <div class="relacionados-lista">
+<ul class="relacionados-items">
+  <li><a href="/artigos/2026-07-13-open-finance-e-dados-financeiros-no-brasil">Open Finance e dados financeiros no Brasil</a></li>
+  <li><a href="/artigos/2026-07-03-open-finance-e-dados-financeiros-de-investidores">Open Finance e dados financeiros de investidores</a></li>
+  <li><a href="/artigos/2026-06-29-open-finance-dados-financeiros-e-obrigacoes-legais">Open Finance: dados financeiros e obrigações legais</a></li>
+</ul>
+</div>
+    </section>
+  </div>
+</main>
+
+<!-- partial: footer — rodapé comum COM formulário (injetado via {{FOOTER}}) -->
+<!-- Formulário de contato — placeholder. Submit inerte; integração HubSpot na fase A5/A6. -->
+<section class="footer-form-wrap" aria-label="Fale com a SAFIE">
+  <div class="footer-form-inner">
+    <div class="footer-form-texto">
+      <p class="secao-kicker">Fale com a SAFIE</p>
+      <h2>Decisão jurídica ou contábil pendente?</h2>
+      <p>Atendemos founders e gestores com acesso direto aos sócios — jurídico e contabilidade sob o mesmo teto.</p>
+    </div>
+    <!-- TODO A5/A6: HubSpot — este form ainda NÃO envia. -->
+    <form class="footer-form" data-form="rodape" onsubmit="return false" novalidate>
+      <label>Nome*
+        <input type="text" name="nome" autocomplete="name" required>
+      </label>
+      <label>E-mail*
+        <input type="email" name="email" autocomplete="email" required>
+      </label>
+      <label>Empresa
+        <input type="text" name="empresa" autocomplete="organization">
+      </label>
+      <label>Mensagem
+        <textarea name="mensagem" rows="3"></textarea>
+      </label>
+      <button type="submit" class="cta-btn" disabled aria-disabled="true">Enviar (em breve)</button>
+      <p class="footer-form-nota">Formulário em configuração. Por ora, fale conosco em
+        <a href="mailto:contato@safie.com.br">contato@safie.com.br</a>.</p>
+    </form>
+  </div>
+</section>
+
+<footer class="site-footer" role="contentinfo">
+  <div class="footer-inner">
+    <div class="footer-topo">
+      <div class="footer-marca">
+        <span class="logo-marca footer-logo-texto">Blog <span style="color:var(--ciano)">SAFIE</span></span>
+        <p>Consultoria jurídico-contábil para negócios digitais, startups e a nova economia.</p>
+      </div>
+      <div class="footer-nav">
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="/">Início</a></li>
+            <li><a href="/artigos/">Artigos</a></li>
+            <li><a href="/categorias/">Categorias</a></li>
+            <li><a href="/sobre">Sobre</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Links</h4>
+          <ul>
+            <li><a href="https://safie.com.br" target="_blank" rel="noopener">safie.com.br</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+            <li><a href="mailto:contato@safie.com.br">contato@safie.com.br</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-arco-iris" aria-hidden="true"></div>
+    <div class="footer-cnpjs" aria-label="CNPJs SAFIE">
+      <span>SAFIE Consultoria e Contabilidade Ltda — 59.931.854/0001-34</span>
+      <span>SAFIE Tecnologia e Consultoria Ltda — 42.224.278/0001-92</span>
+      <span>Cunha &amp; Mantovani Advogados Associados — 34.924.976/0001-72</span>
+    </div>
+    <div class="footer-base">
+      <span>&copy; 2026 SAFIE. Todos os direitos reservados.</span>
+      <span>Conteúdo informativo; não constitui parecer jurídico ou contábil individualizado.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/js/busca.js"></script>
+<script>
+fetch('https://safie-analytics.lucas-mantovani.workers.dev/track', {
+  method: 'POST',
+  headers: {'Content-Type': 'application/json'},
+  body: JSON.stringify({ url: window.location.pathname, blog: 'fintechs' })
+}).catch(() => {});
+</script>
+<script src="/assets/js/widget-whatsapp.js" defer></script>
+</body>
+</html>

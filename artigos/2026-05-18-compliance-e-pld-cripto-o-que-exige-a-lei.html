@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta name="google-site-verification" content="o2ME48MD1myosxdzANOv2RozPmZyghqIt_zVWQqmHOA" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Compliance e PLD Cripto: o que exige a lei — SAFIE Blog</title>
+  <meta name="description" content="Entenda as obrigações de compliance e prevenção à lavagem de dinheiro para empresas de criptoativos no Brasil em 2026, com base na regulação vigente.">
+  <link rel="canonical" href="https://safie.blog.br/artigos/2026-05-18-compliance-e-pld-cripto-o-que-exige-a-lei">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="author" content="SAFIE">
+  <meta name="keywords" content="compliance, cripto, exige, Lei 14.478, Lei 9.613/1998, Lei 12.683/2012, Banco Central, COAF">
+
+  <!-- Open Graph -->
+  <meta property="og:type"        content="article">
+  <meta property="og:title"       content="Compliance e PLD Cripto: o que exige a lei — SAFIE Blog">
+  <meta property="og:description" content="Entenda as obrigações de compliance e prevenção à lavagem de dinheiro para empresas de criptoativos no Brasil em 2026, com base na regulação vigente.">
+  <meta property="og:url"         content="https://safie.blog.br/artigos/2026-05-18-compliance-e-pld-cripto-o-que-exige-a-lei">
+  <meta property="og:site_name"   content="SAFIE Blog">
+  <meta property="og:locale"      content="pt_BR">
+  <meta property="og:image"       content="https://safie.blog.br/assets/img/artigos/2026-05-18-compliance-e-pld-cripto-o-que-exige-a-lei.svg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="article:published_time" content="2026-05-18T03:16:59Z">
+  <meta property="article:section"       content="Compliance e PLD cripto">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:title"       content="Compliance e PLD Cripto: o que exige a lei — SAFIE Blog">
+  <meta name="twitter:description" content="Entenda as obrigações de compliance e prevenção à lavagem de dinheiro para empresas de criptoativos no Brasil em 2026, com base na regulação vigente.">
+  <meta name="twitter:image"       content="https://safie.blog.br/assets/img/artigos/2026-05-18-compliance-e-pld-cripto-o-que-exige-a-lei.svg">
+
+  <!-- Schema.org JSON-LD (BlogPosting + FAQPage) -->
+  <script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Compliance e PLD Cripto: o que exige a lei",
+    "description": "Entenda as obrigações de compliance e prevenção à lavagem de dinheiro para empresas de criptoativos no Brasil em 2026, com base na regulação vigente.",
+    "datePublished": "2026-05-18T03:16:59Z",
+    "dateModified": "2026-07-10T10:02:53-03:00",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://safie.blog.br/artigos/2026-05-18-compliance-e-pld-cripto-o-que-exige-a-lei"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Lucas Mantovani",
+      "sameAs": [
+        "https://www.linkedin.com/in/lucasm-mantovani/",
+        "https://www.instagram.com/lucasm.mantovani/"
+      ]
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "SAFIE",
+      "url": "https://safie.com.br",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://consultoria.safie.com.br/wp-content/uploads/2025/11/cropped-2-1-1024x292.webp"
+      },
+      "sameAs": [
+        "https://www.instagram.com/safiegroup/",
+        "https://www.instagram.com/safiecontabilidade/"
+      ]
+    },
+    "url": "https://safie.blog.br/artigos/2026-05-18-compliance-e-pld-cripto-o-que-exige-a-lei",
+    "articleSection": "Compliance e PLD cripto",
+    "inLanguage": "pt-BR"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "O que é um token encapsulado (wrapped token) e como ele se enquadra na regulação brasileira?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Um token encapsulado é um ativo digital que representa outro ativo (como o Bitcoin) em uma rede blockchain diferente. No Brasil, esses tokens são enquadrados como ativos virtuais nos termos da Lei 14.478/2022, e as exchanges que os oferecem são consideradas VASPs, sujeitas à autorização do Banco Central e às obrigações de PLD/FT do COAF."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O que é a Travel Rule e ela já se aplica às exchanges brasileiras?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A Travel Rule é uma diretriz do GAFI que exige que VASPs transmitam dados de identificação do remetente e do destinatário em transferências de criptoativos acima de um determinado valor (geralmente US$ 1.000). O Brasil ainda está implementando essa exigência formalmente, mas o Banco Central já sinalizou que ela integrará os requisitos das VASPs autorizadas. Exchanges devem preparar seus sistemas agora."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Uma bridge blockchain pode criar risco de compliance para uma exchange?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim. Protocolos de ponte (bridges) que não preservam metadados de transações, têm governança opaca ou carecem de auditorias regulares dificultam o cumprimento das obrigações de rastreabilidade exigidas pela Lei 9.613/1998 e pela Resolução COAF 36/2021. A escolha da infraestrutura técnica é, portanto, um elemento do programa de PLD/FT de qualquer VASP."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O COAF pode multar uma exchange por usar um protocolo de bridge inseguro?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não diretamente por isso, mas sim pelas falhas de controle que uma bridge insegura pode gerar. Se o protocolo impede a rastreabilidade das operações ou facilita a ocultação de origem de recursos, a VASP pode ser responsabilizada por deficiência em seu programa de PLD/FT, sujeita às sanções da Lei 9.613/1998, que incluem multas de até R$ 20 milhões e suspensão de atividades."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Como uma empresa cripto deve avaliar o risco de um protocolo de interoperabilidade para fins de compliance?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A avaliação deve considerar: histórico de auditorias públicas do protocolo, qualidade da governança (quem controla atualizações e como), histórico de incidentes de segurança, compatibilidade com preservação de metadados de transações e reputação dos desenvolvedores no mercado. Esses critérios devem estar documentados na política de PLD/FT da empresa e revisados periodicamente."
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Início",
+        "item": "https://safie.blog.br"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Compliance e PLD cripto",
+        "item": "https://safie.blog.br/categorias/compliance-cripto"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Compliance e PLD Cripto: o que exige a lei",
+        "item": "https://safie.blog.br/artigos/2026-05-18-compliance-e-pld-cripto-o-que-exige-a-lei"
+      }
+    ]
+  }
+]
+  </script>
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/artigo.css">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="/assets/img/android-chrome-512x512.png">
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+</head>
+<body data-nicho="cripto">
+
+<!-- partial: header — cabeçalho comum do SAFIE Blog (injetado via {{HEADER}}) -->
+<header class="site-header" role="banner">
+  <div class="header-inner">
+    <a href="/" class="logo" aria-label="SAFIE Blog — Página inicial">
+      <img class="logo-img" src="/assets/logos/safie-logo-branco.svg" alt="SAFIE">
+      <span class="blog-id">Blog</span>
+    </a>
+    <nav id="nav-principal" class="nav-principal" aria-label="Navegação principal">
+      <a href="/">Início</a>
+      <a href="/artigos/">Artigos</a>
+      <a href="/categorias/">Categorias</a>
+      <a href="/sobre">Sobre</a>
+    </nav>
+    <form class="header-busca" role="search" action="/busca" method="get">
+      <label for="busca-q-header" class="sr-only">Buscar artigos</label>
+      <input type="search" id="busca-q-header" name="q" placeholder="Buscar…" autocomplete="off">
+      <button type="submit" aria-label="Buscar">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      </button>
+    </form>
+    <a href="https://safie.com.br" class="nav-voltar" target="_blank" rel="noopener">Voltar ao site SAFIE →</a>
+    <button id="menu-toggle" class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+<nav class="breadcrumb" aria-label="Trilha de navegação">
+  <div class="container">
+    <a href="/">Início</a> <span aria-hidden="true">›</span>
+    <a href="/categorias/compliance-cripto">Compliance e PLD cripto</a> <span aria-hidden="true">›</span>
+    <span aria-current="page">Compliance e PLD Cripto: o que exige a lei</span>
+  </div>
+</nav>
+
+  <article class="artigo-wrapper" itemscope itemtype="https://schema.org/BlogPosting">
+
+    <header class="artigo-header">
+      <a class="artigo-tema" href="/categorias/compliance-cripto">Compliance e PLD cripto</a>
+
+      <h1 class="artigo-titulo" itemprop="headline">Compliance e PLD Cripto: o que exige a lei</h1>
+
+      <div class="artigo-meta">
+        <span>Por <strong itemprop="author">SAFIE</strong></span>
+        <span>·</span>
+        <time datetime="2026-05-18T03:16:59Z" itemprop="datePublished">18 de maio de 2026</time>
+        <span>·</span>
+        <span>5 min de leitura</span>
+      </div>
+    </header>
+
+    <img class="artigo-capa" src="/assets/img/artigos/2026-05-18-compliance-e-pld-cripto-o-que-exige-a-lei.svg" alt="Compliance e PLD Cripto: o que exige a lei — capa ilustrativa do artigo sobre Compliance e PLD cripto" width="1200" height="630" loading="lazy">
+
+    <!-- Resumo executivo (para IAs generativas / GEO) -->
+    <aside class="resumo-executivo" itemprop="abstract">
+      <strong>Resumo executivo</strong>
+      A migração da Kraken de LayerZero para Chainlink no suporte ao Wrapped Bitcoin evidencia uma tendência global: exchanges e provedores de infraestrutura cripto estão priorizando soluções com maior transparência e rastreabilidade. No Brasil, esse movimento tem reflexo direto nas obrigações de compliance e prevenção à lavagem de dinheiro (PLD) impostas às VASPs pela Lei 14.478/2022 e pela regulamentação do Banco Central. Empresas que operam com ativos sintéticos, tokens encapsulados e protocolos de interoperabilidade precisam enquadrar essas estruturas em seus programas de PLD, ou correm risco regulatório concreto.
+    </aside>
+
+    <!-- Corpo do artigo -->
+    <div class="artigo-corpo" itemprop="articleBody">
+      <p>A corretora Kraken anunciou que migrará a tecnologia de suporte ao seu Wrapped Bitcoin (kBTC) do protocolo LayerZero para a infraestrutura da Chainlink. A informação foi publicada pelo Portal do Bitcoin e integra um movimento mais amplo de abandono do LayerZero por parte de projetos relevantes do setor, motivado por questionamentos sobre segurança e governança do protocolo.</p><p>À primeira vista, a notícia parece restrita ao universo técnico dos desenvolvedores blockchain. Mas ela carrega implicações relevantes para o compliance de exchanges e para a análise jurídica de ativos encapsulados no Brasil. Tokens como o Wrapped Bitcoin (WBTC, kBTC e similares) são instrumentos que representam Bitcoin em redes como Ethereum, e dependem de infraestruturas de ponte (bridges) para existir. A escolha do protocolo que sustenta essa ponte não é neutra do ponto de vista regulatório.</p><p>Este artigo analisa o que a decisão da Kraken revela sobre os riscos de compliance associados a tokens encapsulados e protocolos de interoperabilidade, e o que as normas brasileiras exigem das empresas que operam ou oferecem esses produtos aos seus clientes.</p>
+
+<h2>Contexto jurídico e regulatório</h2>
+<h2>O enquadramento regulatório das VASPs no Brasil</h2><p>A Lei 14.478, de 21 de dezembro de 2022, estabeleceu o marco legal para prestadores de serviços de ativos virtuais no Brasil, denominados VASPs (Virtual Asset Service Providers). A norma atribuiu ao Banco Central a competência para autorizar e supervisionar essas entidades, competência que está sendo exercida progressivamente desde 2023.</p><p>A Resolução BCB 316/2023 detalhou os requisitos de autorização e funcionamento das VASPs, incluindo exigências de estrutura de governança, controles internos e, de forma expressa, a implementação de programas de prevenção à lavagem de dinheiro e ao financiamento do terrorismo (PLD/FT). Essas obrigações seguem também o disposto na Lei 9.613/1998 (Lei de Lavagem de Dinheiro), com as alterações trazidas pela Lei 12.683/2012.</p><h2>Tokens encapsulados e a rastreabilidade exigida pelo COAF</h2><p>O Conselho de Controle de Atividades Financeiras (COAF) enquadra as VASPs como pessoas obrigadas à comunicação de operações suspeitas, nos termos da Resolução COAF 36/2021. O ponto crítico aqui é a rastreabilidade das transações: a obrigação de identificar a origem e o destino dos recursos aplica-se inclusive quando os ativos circulam por meio de tokens encapsulados ou pontes entre blockchains.</p><p>Quando uma exchange oferece um produto como o kBTC da Kraken, ela está intermediando um ativo sintético lastreado em Bitcoin, mas que circula em outra rede. A rastreabilidade dessa estrutura depende diretamente da qualidade e da transparência do protocolo de ponte utilizado. Protocolos com falhas de auditoria ou governança opaca criam lacunas que dificultam o cumprimento das obrigações de PLD, pois tornam mais difícil rastrear a origem dos ativos até o Bitcoin subjacente.</p><p>A substituição do LayerZero pelo Chainlink, nesse contexto, tem relevância regulatória: o Chainlink opera com uma rede de oráculos com maior histórico de auditorias públicas e transparência de governança. Do ponto de vista do compliance, a escolha de infraestruturas mais auditáveis é um critério que reguladores estão começando a observar com mais atenção, especialmente após os colapsos de pontes como Ronin (US$ 625 milhões em 2022) e Wormhole (US$ 320 milhões em 2022).</p><h2>A Travel Rule e os desafios das pontes blockchain</h2><p>O Grupo de Ação Financeira Internacional (GAFI/FATF) publicou orientações em 2021 que estendem a chamada Travel Rule, que exige a transmissão de dados do remetente e do destinatário em transferências acima de US$ 1.000, para o ambiente cripto. O Brasil está em processo de implementação dessas diretrizes, e o Banco Central já sinalizou que a Travel Rule será parte das exigências para VASPs autorizadas.</p><p>O problema prático é que pontes blockchain, por natureza, fragmentam o fluxo de informações entre redes distintas. Quando um usuário converte Bitcoin em kBTC usando uma bridge, os dados que identificam o originador da transação podem não ser preservados de forma legível entre as duas redes. Protocolos com melhor documentação e padrões técnicos mais robustos, como o Chainlink CCIP (Cross-Chain Interoperability Protocol), oferecem mecanismos mais compatíveis com a preservação de metadados exigida pela Travel Rule.</p>
+
+<h2>Impacto prático</h2>
+<p>Para exchanges e custodiantes brasileiros que oferecem tokens encapsulados em sua grade de produtos, a escolha da infraestrutura de bridge deixou de ser apenas uma decisão técnica. Ela integra o escopo do programa de PLD/FT da empresa, que deve contemplar a avaliação de risco dos protocolos utilizados, a qualidade de suas auditorias e o histórico de incidentes de segurança.</p><p>Na prática, isso significa que o compliance officer de uma VASP precisa, em 2026, incluir em seu mapeamento de riscos não apenas os clientes e as transações, mas também os protocolos de infraestrutura que sustentam os produtos ofertados. Uma bridge com governança opaca ou sem auditoria recente é um fator de risco que deve constar da matriz de risco da instituição, com controles proporcionais ao seu impacto potencial.</p><p>Para investidores e usuários, o recado é mais direto: exchanges que migram para infraestruturas mais auditáveis e transparentes tendem a apresentar menor risco de interrupção abrupta de serviços e maior aderência às exigências regulatórias que estão sendo consolidadas no Brasil. A due diligence sobre o ambiente técnico que sustenta um produto cripto é, portanto, parte da avaliação de risco de qualquer investidor institucional ou profissional.</p>
+
+<h2>Considerações finais</h2>
+<p>A decisão da Kraken de migrar do LayerZero para o Chainlink ilustra como escolhas de infraestrutura técnica têm dimensões regulatórias reais. No Brasil, onde o marco regulatório das VASPs está sendo consolidado pelo Banco Central e pelo COAF, a rastreabilidade, a auditabilidade e a governança dos protocolos utilizados por exchanges são elementos que compõem o programa de compliance exigido por lei.</p><p>Empresas que ainda tratam a escolha de bridges e protocolos de interoperabilidade como decisão exclusivamente técnica correm o risco de acumular passivos regulatórios silenciosos. O momento de estruturar ou revisar o programa de PLD/FT, incluindo a avaliação de infraestrutura, é antes da fiscalização, e não depois dela.</p>
+    </div>
+
+    <!-- FAQ -->
+    <section class="faq-section" id="faq" itemscope itemtype="https://schema.org/FAQPage">
+      <h2>Perguntas frequentes</h2>
+      <div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">O que é um token encapsulado (wrapped token) e como ele se enquadra na regulação brasileira?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">Um token encapsulado é um ativo digital que representa outro ativo (como o Bitcoin) em uma rede blockchain diferente. No Brasil, esses tokens são enquadrados como ativos virtuais nos termos da Lei 14.478/2022, e as exchanges que os oferecem são consideradas VASPs, sujeitas à autorização do Banco Central e às obrigações de PLD/FT do COAF.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">O que é a Travel Rule e ela já se aplica às exchanges brasileiras?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">A Travel Rule é uma diretriz do GAFI que exige que VASPs transmitam dados de identificação do remetente e do destinatário em transferências de criptoativos acima de um determinado valor (geralmente US$ 1.000). O Brasil ainda está implementando essa exigência formalmente, mas o Banco Central já sinalizou que ela integrará os requisitos das VASPs autorizadas. Exchanges devem preparar seus sistemas agora.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Uma bridge blockchain pode criar risco de compliance para uma exchange?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">Sim. Protocolos de ponte (bridges) que não preservam metadados de transações, têm governança opaca ou carecem de auditorias regulares dificultam o cumprimento das obrigações de rastreabilidade exigidas pela Lei 9.613/1998 e pela Resolução COAF 36/2021. A escolha da infraestrutura técnica é, portanto, um elemento do programa de PLD/FT de qualquer VASP.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">O COAF pode multar uma exchange por usar um protocolo de bridge inseguro?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">Não diretamente por isso, mas sim pelas falhas de controle que uma bridge insegura pode gerar. Se o protocolo impede a rastreabilidade das operações ou facilita a ocultação de origem de recursos, a VASP pode ser responsabilizada por deficiência em seu programa de PLD/FT, sujeita às sanções da Lei 9.613/1998, que incluem multas de até R$ 20 milhões e suspensão de atividades.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Como uma empresa cripto deve avaliar o risco de um protocolo de interoperabilidade para fins de compliance?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">A avaliação deve considerar: histórico de auditorias públicas do protocolo, qualidade da governança (quem controla atualizações e como), histórico de incidentes de segurança, compatibilidade com preservação de metadados de transações e reputação dos desenvolvedores no mercado. Esses critérios devem estar documentados na política de PLD/FT da empresa e revisados periodicamente.</span></div>
+</div>
+
+    </section>
+
+    <!-- Referências -->
+    <aside class="referencias">
+      <h2>Fontes e referências</h2>
+      <ul>
+<li><span class="ref-label">Fonte original:</span> <a href="https://portaldobitcoin.uol.com.br/kraken-migrara-tecnologia-de-wrapped-bitcoin-para-chainlink-a-medida-que-a-debandada-do-layerzero-se-expande/" target="_blank" rel="noopener">Portal do Bitcoin</a></li>
+<li>Lei 14.478/2022: Marco Legal dos Criptoativos no Brasil (Planalto Federal)</li>
+<li>Resolução BCB 316/2023: Requisitos para autorização e funcionamento de VASPs (Banco Central do Brasil)</li>
+<li>Resolução COAF 36/2021: Obrigações de PLD/FT para pessoas obrigadas, incluindo VASPs (Ministério da Fazenda)</li>
+<li>Lei 9.613/1998, com alterações da Lei 12.683/2012: Lei de Prevenção à Lavagem de Dinheiro (Planalto Federal)</li>
+<li>FATF/GAFI: Updated Guidance for a Risk-Based Approach to Virtual Assets and Virtual Asset Service Providers (2021)</li>
+<li><span class="ref-label">Chainlink CCIP (Cross-Chain Interoperability Protocol): documentação técnica oficial em:</span> <a href="https://chain.link/cross-chain" target="_blank" rel="noopener">chain.link</a></li>
+</ul>
+
+    </aside>
+
+  </article>
+    <!-- CTA consultivo (leva ao WhatsApp da SAFIE) -->
+    <div class="container">
+      <div class="artigo-cta">
+        <h3>Decisão jurídica ou contábil pendente?</h3>
+        <p>A SAFIE atende founders e gestores com acesso direto aos sócios — jurídico e contabilidade integrados sob o mesmo teto. Conversamos para entender o caso antes de qualquer recomendação.</p>
+        <a href="https://wa.me/5511934329769?text=Ol%C3%A1!%20Vim%20pelo%20blog%20da%20SAFIE%20e%20gostaria%20de%20conversar." class="cta-btn" target="_blank" rel="noopener">Falar com a SAFIE</a>
+      </div>
+    </div>
+
+
+  <!-- Artigos relacionados -->
+  <div class="container">
+    <section class="relacionados">
+      <h2>Continue lendo</h2>
+      <div class="relacionados-lista">
+<ul class="relacionados-items">
+  <li><a href="/artigos/2026-07-01-compliance-e-pld-no-mercado-cripto-brasileiro">Compliance e PLD no Mercado Cripto Brasileiro</a></li>
+  <li><a href="/artigos/2026-06-24-cripto-e-eleicoes-por-que-a-doacao-e-proibida">Cripto e eleições: por que a doação é proibida</a></li>
+  <li><a href="/artigos/2026-06-16-pld-cripto-banimento-de-privacy-coins-nas-filipinas">PLD Cripto: banimento de privacy coins nas Filipinas</a></li>
+</ul>
+</div>
+    </section>
+  </div>
+
+  <!-- Sobre os autores -->
+  <div class="container">
+    <div class="sobre-autores">
+      <span class="sobre-autores-titulo">Sobre os autores</span>
+      <p>Conteúdo produzido pela SAFIE, consultoria jurídico-contábil para empresas digitais e de tecnologia. A SAFIE é liderada por <a href="https://instagram.com/lucasm.mantovani" target="_blank" rel="noopener"><strong>Lucas Mantovani</strong></a> e <a href="https://instagram.com/euitalocunha" target="_blank" rel="noopener"><strong>Italo Cunha</strong></a>.</p>
+    </div>
+  </div>
+
+</main>
+
+<!-- partial: footer — rodapé comum COM formulário (injetado via {{FOOTER}}) -->
+<!-- Formulário de contato — placeholder. Submit inerte; integração HubSpot na fase A5/A6. -->
+<section class="footer-form-wrap" aria-label="Fale com a SAFIE">
+  <div class="footer-form-inner">
+    <div class="footer-form-texto">
+      <p class="secao-kicker">Fale com a SAFIE</p>
+      <h2>Decisão jurídica ou contábil pendente?</h2>
+      <p>Atendemos founders e gestores com acesso direto aos sócios — jurídico e contabilidade sob o mesmo teto.</p>
+    </div>
+    <!-- TODO A5/A6: HubSpot — este form ainda NÃO envia. -->
+    <form class="footer-form" data-form="rodape" onsubmit="return false" novalidate>
+      <label>Nome*
+        <input type="text" name="nome" autocomplete="name" required>
+      </label>
+      <label>E-mail*
+        <input type="email" name="email" autocomplete="email" required>
+      </label>
+      <label>Empresa
+        <input type="text" name="empresa" autocomplete="organization">
+      </label>
+      <label>Mensagem
+        <textarea name="mensagem" rows="3"></textarea>
+      </label>
+      <button type="submit" class="cta-btn" disabled aria-disabled="true">Enviar (em breve)</button>
+      <p class="footer-form-nota">Formulário em configuração. Por ora, fale conosco em
+        <a href="mailto:contato@safie.com.br">contato@safie.com.br</a>.</p>
+    </form>
+  </div>
+</section>
+
+<footer class="site-footer" role="contentinfo">
+  <div class="footer-inner">
+    <div class="footer-topo">
+      <div class="footer-marca">
+        <span class="logo-marca footer-logo-texto">Blog <span style="color:var(--ciano)">SAFIE</span></span>
+        <p>Consultoria jurídico-contábil para negócios digitais, startups e a nova economia.</p>
+      </div>
+      <div class="footer-nav">
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="/">Início</a></li>
+            <li><a href="/artigos/">Artigos</a></li>
+            <li><a href="/categorias/">Categorias</a></li>
+            <li><a href="/sobre">Sobre</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Links</h4>
+          <ul>
+            <li><a href="https://safie.com.br" target="_blank" rel="noopener">safie.com.br</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+            <li><a href="mailto:contato@safie.com.br">contato@safie.com.br</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-arco-iris" aria-hidden="true"></div>
+    <div class="footer-cnpjs" aria-label="CNPJs SAFIE">
+      <span>SAFIE Consultoria e Contabilidade Ltda — 59.931.854/0001-34</span>
+      <span>SAFIE Tecnologia e Consultoria Ltda — 42.224.278/0001-92</span>
+      <span>Cunha &amp; Mantovani Advogados Associados — 34.924.976/0001-72</span>
+    </div>
+    <div class="footer-base">
+      <span>&copy; 2026 SAFIE. Todos os direitos reservados.</span>
+      <span>Conteúdo informativo; não constitui parecer jurídico ou contábil individualizado.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/js/busca.js"></script>
+<script>
+fetch('https://safie-analytics.lucas-mantovani.workers.dev/track', {
+  method: 'POST',
+  headers: {'Content-Type': 'application/json'},
+  body: JSON.stringify({ url: window.location.pathname, blog: 'cripto' })
+}).catch(() => {});
+</script>
+<script src="/assets/js/widget-whatsapp.js" defer></script>
+</body>
+</html>

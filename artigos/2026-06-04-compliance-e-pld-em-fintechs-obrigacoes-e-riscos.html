@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta name="google-site-verification" content="o2ME48MD1myosxdzANOv2RozPmZyghqIt_zVWQqmHOA" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Compliance e PLD em Fintechs: Obrigações e Riscos — SAFIE Blog</title>
+  <meta name="description" content="Entenda as obrigações de PLD/FT para fintechs no Brasil, as normas do BACEN e COAF e os riscos práticos de não conformidade. Análise técnica e objetiva.">
+  <link rel="canonical" href="https://safie.blog.br/artigos/2026-06-04-compliance-e-pld-em-fintechs-obrigacoes-e-riscos">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="author" content="SAFIE">
+  <meta name="keywords" content="compliance, fintechs, obrigações, riscos, art. 12, Banco Central, CVM, COAF">
+
+  <!-- Open Graph -->
+  <meta property="og:type"        content="article">
+  <meta property="og:title"       content="Compliance e PLD em Fintechs: Obrigações e Riscos — SAFIE Blog">
+  <meta property="og:description" content="Entenda as obrigações de PLD/FT para fintechs no Brasil, as normas do BACEN e COAF e os riscos práticos de não conformidade. Análise técnica e objetiva.">
+  <meta property="og:url"         content="https://safie.blog.br/artigos/2026-06-04-compliance-e-pld-em-fintechs-obrigacoes-e-riscos">
+  <meta property="og:site_name"   content="SAFIE Blog">
+  <meta property="og:locale"      content="pt_BR">
+  <meta property="og:image"       content="https://safie.blog.br/assets/img/artigos/2026-06-04-compliance-e-pld-em-fintechs-obrigacoes-e-riscos.svg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="article:published_time" content="2026-06-04T10:46:39Z">
+  <meta property="article:section"       content="Compliance e PLD em fintechs">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:title"       content="Compliance e PLD em Fintechs: Obrigações e Riscos — SAFIE Blog">
+  <meta name="twitter:description" content="Entenda as obrigações de PLD/FT para fintechs no Brasil, as normas do BACEN e COAF e os riscos práticos de não conformidade. Análise técnica e objetiva.">
+  <meta name="twitter:image"       content="https://safie.blog.br/assets/img/artigos/2026-06-04-compliance-e-pld-em-fintechs-obrigacoes-e-riscos.svg">
+
+  <!-- Schema.org JSON-LD (BlogPosting + FAQPage) -->
+  <script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Compliance e PLD em Fintechs: Obrigações e Riscos",
+    "description": "Entenda as obrigações de PLD/FT para fintechs no Brasil, as normas do BACEN e COAF e os riscos práticos de não conformidade. Análise técnica e objetiva.",
+    "datePublished": "2026-06-04T10:46:39Z",
+    "dateModified": "2026-07-10T10:01:12-03:00",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://safie.blog.br/artigos/2026-06-04-compliance-e-pld-em-fintechs-obrigacoes-e-riscos"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Lucas Mantovani",
+      "sameAs": [
+        "https://www.linkedin.com/in/lucasm-mantovani/",
+        "https://www.instagram.com/lucasm.mantovani/"
+      ]
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "SAFIE",
+      "url": "https://safie.com.br",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://consultoria.safie.com.br/wp-content/uploads/2025/11/cropped-2-1-1024x292.webp"
+      },
+      "sameAs": [
+        "https://www.instagram.com/safiegroup/",
+        "https://www.instagram.com/safiecontabilidade/"
+      ]
+    },
+    "url": "https://safie.blog.br/artigos/2026-06-04-compliance-e-pld-em-fintechs-obrigacoes-e-riscos",
+    "articleSection": "Compliance e PLD em fintechs",
+    "inLanguage": "pt-BR"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Quais fintechs são obrigadas a ter programa de PLD/FT no Brasil?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Todas as instituições autorizadas pelo Banco Central (incluindo IPs, SCDs, SEPs e bancos digitais) estão sujeitas à Circular BCB nº 3.978/2020. Gestoras de FIDCs e demais participantes do mercado de capitais seguem a regulação da CVM. Se a fintech tiver autorização de ambos os reguladores, os dois regimes se aplicam de forma cumulativa."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O que é a Avaliação Interna de Risco (AIR) e quem precisa fazer?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A AIR é um documento obrigatório exigido pela Circular BCB nº 3.978/2020 para todas as instituições financeiras autorizadas. Ela deve mapear os riscos de lavagem de dinheiro e financiamento do terrorismo específicos do negócio, considerando perfil de clientes, produtos, canais e geografia. Deve ser revisada sempre que houver mudanças relevantes no modelo de negócio e, no mínimo, periodicamente."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quais são as penalidades por descumprimento das normas de PLD?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "O art. 12 da Lei nº 9.613/1998 prevê advertência, multa de até R$ 20 milhões ou 1% do faturamento dos 12 meses anteriores (o que for maior), inabilitação temporária de administradores e cassação da autorização de funcionamento. Além disso, administradores podem responder criminalmente pelo crime de lavagem de dinheiro em caso de omissão dolosa."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Como identificar o beneficiário final em estruturas de FIDC com SPEs?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A Resolução BCB nº 119/2021 exige identificar a pessoa física que detém, direta ou indiretamente, 25% ou mais do capital ou dos direitos de voto de uma pessoa jurídica. Em SPEs e holdings fechadas, isso exige análise da cadeia societária até a pessoa física final, com documentação comprobatória. O processo deve ser registrado e atualizado sempre que houver alteração societária."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Fintechs pequenas (seed, série A) precisam de um departamento de compliance dedicado?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A norma não exige necessariamente um departamento próprio, mas exige um diretor responsável pelo programa de PLD, que pode acumular outras funções em empresas menores, desde que haja independência funcional. O importante é que o programa esteja documentado, implementado e operacional. Terceirização parcial de algumas funções (como monitoramento transacional) é possível, mas a responsabilidade regulatória permanece com a instituição."
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Início",
+        "item": "https://safie.blog.br"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Compliance e PLD em fintechs",
+        "item": "https://safie.blog.br/categorias/compliance-pld"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Compliance e PLD em Fintechs: Obrigações e Riscos",
+        "item": "https://safie.blog.br/artigos/2026-06-04-compliance-e-pld-em-fintechs-obrigacoes-e-riscos"
+      }
+    ]
+  }
+]
+  </script>
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/artigo.css">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="/assets/img/android-chrome-512x512.png">
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+</head>
+<body data-nicho="fintechs">
+
+<!-- partial: header — cabeçalho comum do SAFIE Blog (injetado via {{HEADER}}) -->
+<header class="site-header" role="banner">
+  <div class="header-inner">
+    <a href="/" class="logo" aria-label="SAFIE Blog — Página inicial">
+      <img class="logo-img" src="/assets/logos/safie-logo-branco.svg" alt="SAFIE">
+      <span class="blog-id">Blog</span>
+    </a>
+    <nav id="nav-principal" class="nav-principal" aria-label="Navegação principal">
+      <a href="/">Início</a>
+      <a href="/artigos/">Artigos</a>
+      <a href="/categorias/">Categorias</a>
+      <a href="/sobre">Sobre</a>
+    </nav>
+    <form class="header-busca" role="search" action="/busca" method="get">
+      <label for="busca-q-header" class="sr-only">Buscar artigos</label>
+      <input type="search" id="busca-q-header" name="q" placeholder="Buscar…" autocomplete="off">
+      <button type="submit" aria-label="Buscar">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      </button>
+    </form>
+    <a href="https://safie.com.br" class="nav-voltar" target="_blank" rel="noopener">Voltar ao site SAFIE →</a>
+    <button id="menu-toggle" class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+<nav class="breadcrumb" aria-label="Trilha de navegação">
+  <div class="container">
+    <a href="/">Início</a> <span aria-hidden="true">›</span>
+    <a href="/categorias/compliance-pld">Compliance e PLD em fintechs</a> <span aria-hidden="true">›</span>
+    <span aria-current="page">Compliance e PLD em Fintechs: Obrigações e Riscos</span>
+  </div>
+</nav>
+
+  <article class="artigo-wrapper" itemscope itemtype="https://schema.org/BlogPosting">
+
+    <header class="artigo-header">
+      <a class="artigo-tema" href="/categorias/compliance-pld">Compliance e PLD em fintechs</a>
+
+      <h1 class="artigo-titulo" itemprop="headline">Compliance e PLD em Fintechs: Obrigações e Riscos</h1>
+
+      <div class="artigo-meta">
+        <span>Por <strong itemprop="author">SAFIE</strong></span>
+        <span>·</span>
+        <time datetime="2026-06-04T10:46:39Z" itemprop="datePublished">4 de junho de 2026</time>
+        <span>·</span>
+        <span>5 min de leitura</span>
+      </div>
+    </header>
+
+    <img class="artigo-capa" src="/assets/img/artigos/2026-06-04-compliance-e-pld-em-fintechs-obrigacoes-e-riscos.svg" alt="Compliance e PLD em Fintechs: Obrigações e Riscos — capa ilustrativa do artigo sobre Compliance e PLD em fintechs" width="1200" height="630" loading="lazy">
+
+    <!-- Resumo executivo (para IAs generativas / GEO) -->
+    <aside class="resumo-executivo" itemprop="abstract">
+      <strong>Resumo executivo</strong>
+      A expansão dos FIDCs como alternativa ao crédito bancário tradicional na construção civil reforça a necessidade de estruturas robustas de compliance e PLD em fintechs e gestoras. Operações com maior volume e menor rastreabilidade exigem controles mais rigorosos exigidos pelo BACEN, CVM e COAF. O descumprimento das normas de PLD/FT expõe as empresas a multas, cancelamento de autorização e responsabilização penal de administradores.
+    </aside>
+
+    <!-- Corpo do artigo -->
+    <div class="artigo-corpo" itemprop="articleBody">
+      <p>Reportagem publicada pela InfoMoney aponta que a lentidão no crédito bancário e a alta dos custos de insumos estão freando a construção civil e, ao mesmo tempo, impulsionando a captação via Fundos de Investimento em Direitos Creditórios (FIDCs). O movimento reflete uma migração relevante do financiamento de projetos imobiliários e de infraestrutura para estruturas do mercado de capitais, com participação crescente de gestoras, fintechs de crédito e plataformas de distribuição digital.</p>
+<p>Esse cenário não é apenas uma oportunidade de negócio. Ele também representa um aumento proporcional do risco regulatório, especialmente no campo da Prevenção à Lavagem de Dinheiro e ao Financiamento do Terrorismo (PLD/FT). FIDCs que operam com recebíveis de construtoras, incorporadoras e empreiteiras estão expostos a riscos típicos do setor imobiliário, historicamente classificado como de alto risco na literatura internacional sobre crimes financeiros.</p>
+<p>Para fintechs que atuam como gestoras, custodiantes, originadoras ou distribuidoras dessas operações, o compliance de PLD deixou de ser uma formalidade e passou a ser um requisito operacional com impacto direto na continuidade do negócio. Este artigo analisa o que a regulação brasileira exige, quais são os pontos críticos e como estruturar uma resposta adequada.</p>
+
+<h2>Contexto jurídico e regulatório</h2>
+<h2>O marco regulatório de PLD/FT no Brasil</h2>
+<p>A base legal da prevenção à lavagem de dinheiro no Brasil é a Lei nº 9.613/1998, alterada substancialmente pela Lei nº 12.683/2012. Essa norma estabelece as obrigações de identificação de clientes, manutenção de registros e comunicação de operações suspeitas ao Conselho de Controle de Atividades Financeiras (COAF), hoje vinculado ao Banco Central do Brasil.</p>
+<p>Para fintechs e demais instituições financeiras autorizadas pelo BACEN, a regulamentação específica está na Circular nº 3.978/2020, que substituiu normativas anteriores e instituiu uma abordagem baseada em risco. A norma exige que cada instituição avalie seu próprio perfil de exposição e calibre os controles de acordo com os riscos identificados, incluindo a natureza dos clientes, os produtos ofertados, os canais de distribuição e as regiões geográficas atendidas.</p>
+<p>Para gestoras de FIDCs e demais participantes do mercado de capitais, a Instrução CVM nº 617/2019 (atualmente incorporada ao âmbito da Resolução CVM nº 50/2021) define as obrigações de PLD aplicáveis. Isso significa que uma fintech que atua simultaneamente como instituição de pagamento autorizada pelo BACEN e como gestora de FIDC registrada na CVM pode estar sujeita a dois regimes regulatórios distintos e cumulativos, com obrigações que precisam ser harmonizadas internamente.</p>
+<h2>Setor imobiliário e FIDCs: por que o risco é maior</h2>
+<p>O Grupo de Ação Financeira Internacional (GAFI/FATF) classifica o setor imobiliário como um dos principais vetores de lavagem de dinheiro globalmente. No Brasil, o COAF já publicou relatórios de inteligência destacando o uso de estruturas de securitização e fundos para dissimular a origem de recursos. Quando uma fintech origina ou distribui cotas de FIDCs lastreados em recebíveis imobiliários, ela assume exposição direta a esse vetor de risco.</p>
+<p>A Circular BACEN 3.978/2020 exige que a avaliação interna de risco (AIR) das instituições contemple explicitamente os produtos e serviços oferecidos. FIDCs com cedentes do setor de construção civil devem, portanto, figurar com ponderação de risco mais elevada na AIR da gestora ou da fintech originadora, com procedimentos de diligência reforçada (enhanced due diligence) para os cedentes e cotistas envolvidos.</p>
+<p>Além disso, a Resolução BCB nº 119/2021 detalha os requisitos de identificação de beneficiários finais. Em estruturas de FIDC com cedentes que são SPEs (Sociedades de Propósito Específico) ou holdings de capital fechado, a identificação da cadeia de controle até a pessoa física beneficiária final é obrigatória e, na prática, uma das etapas mais desafiadoras do processo de onboarding.</p>
+
+<h2>Impacto prático</h2>
+<p>Para fintechs que operam como originadoras, gestoras ou distribuidoras de FIDCs imobiliários, o crescimento do volume de operações não pode ser acompanhado apenas por mais comercial e tecnologia. Ele exige proporcional expansão da estrutura de compliance, com profissionais dedicados, sistemas de monitoramento transacional e políticas documentadas de KYC (Know Your Customer) e KYB (Know Your Business).</p>
+<p>O principal risco prático está na ausência ou insuficiência da Avaliação Interna de Risco. O BACEN tem utilizado esse documento como ponto central das inspeções de PLD. Fintechs que não conseguem demonstrar que conhecem seu próprio perfil de risco, que não têm uma matriz formalizada e que não revisam a AIR periodicamente estão expostas a penalidades que vão de advertência formal a multas de até R$ 20 milhões, conforme previsto no art. 12 da Lei nº 9.613/1998, com os valores atualizados pela Lei nº 12.683/2012.</p>
+<p>Há também um impacto contábil relevante. Os custos de compliance de PLD, que incluem sistemas de monitoramento, treinamento de equipes, contratação de oficiais de conformidade e eventuais consultorias externas, precisam ser provisionados no orçamento operacional. Fintechs em estágio inicial frequentemente subestimam esses custos, o que cria tanto um risco regulatório quanto um risco financeiro no médio prazo, especialmente quando o crescimento da base de clientes ultrapassa a capacidade instalada de monitoramento.</p>
+
+<h2>Considerações finais</h2>
+<p>O movimento de expansão dos FIDCs como alternativa ao crédito bancário é legítimo, relevante para a economia e abre oportunidades reais para fintechs. Mas ele também amplia o perímetro de responsabilidade regulatória dessas empresas, especialmente no campo de PLD/FT. Ignorar essa dimensão no planejamento estratégico e operacional é um erro que pode comprometer a autorização de funcionamento e a reputação da empresa no mercado.</p>
+<p>Estruturar um programa de PLD/FT robusto não é apenas uma obrigação legal; é também um diferencial competitivo em um setor onde investidores institucionais, fundos de venture capital e parceiros bancários avaliam a maturidade regulatória das fintechs antes de firmar qualquer compromisso. Compliance bem feito protege o negócio e viabiliza o crescimento sustentável.</p>
+    </div>
+
+    <!-- FAQ -->
+    <section class="faq-section" id="faq" itemscope itemtype="https://schema.org/FAQPage">
+      <h2>Perguntas frequentes</h2>
+      <div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Quais fintechs são obrigadas a ter programa de PLD/FT no Brasil?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">Todas as instituições autorizadas pelo Banco Central (incluindo IPs, SCDs, SEPs e bancos digitais) estão sujeitas à Circular BCB nº 3.978/2020. Gestoras de FIDCs e demais participantes do mercado de capitais seguem a regulação da CVM. Se a fintech tiver autorização de ambos os reguladores, os dois regimes se aplicam de forma cumulativa.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">O que é a Avaliação Interna de Risco (AIR) e quem precisa fazer?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">A AIR é um documento obrigatório exigido pela Circular BCB nº 3.978/2020 para todas as instituições financeiras autorizadas. Ela deve mapear os riscos de lavagem de dinheiro e financiamento do terrorismo específicos do negócio, considerando perfil de clientes, produtos, canais e geografia. Deve ser revisada sempre que houver mudanças relevantes no modelo de negócio e, no mínimo, periodicamente.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Quais são as penalidades por descumprimento das normas de PLD?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">O art. 12 da Lei nº 9.613/1998 prevê advertência, multa de até R$ 20 milhões ou 1% do faturamento dos 12 meses anteriores (o que for maior), inabilitação temporária de administradores e cassação da autorização de funcionamento. Além disso, administradores podem responder criminalmente pelo crime de lavagem de dinheiro em caso de omissão dolosa.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Como identificar o beneficiário final em estruturas de FIDC com SPEs?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">A Resolução BCB nº 119/2021 exige identificar a pessoa física que detém, direta ou indiretamente, 25% ou mais do capital ou dos direitos de voto de uma pessoa jurídica. Em SPEs e holdings fechadas, isso exige análise da cadeia societária até a pessoa física final, com documentação comprobatória. O processo deve ser registrado e atualizado sempre que houver alteração societária.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Fintechs pequenas (seed, série A) precisam de um departamento de compliance dedicado?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">A norma não exige necessariamente um departamento próprio, mas exige um diretor responsável pelo programa de PLD, que pode acumular outras funções em empresas menores, desde que haja independência funcional. O importante é que o programa esteja documentado, implementado e operacional. Terceirização parcial de algumas funções (como monitoramento transacional) é possível, mas a responsabilidade regulatória permanece com a instituição.</span></div>
+</div>
+
+    </section>
+
+    <!-- Referências -->
+    <aside class="referencias">
+      <h2>Fontes e referências</h2>
+      <ul>
+<li><a href="https://www.infomoney.com.br/economia/credito-bancario-lento-e-alta-de-custos-freiam-construcao-civil-e-impulsionam-fidcs/" target="_blank" rel="noopener">InfoMoney</a></li>
+<li><span class="ref-label">Fonte original:</span> <a href="https://www.infomoney.com.br/economia/credito-bancario-lento-e-alta-de-custos-freiam-construcao-civil-e-impulsionam-fidcs/" target="_blank" rel="noopener">InfoMoney - Crédito bancário lento e alta de custos freiam construção civil e impulsionam FIDCs</a></li>
+<li>Lei nº 9.613/1998, alterada pela Lei nº 12.683/2012 (Lei de Lavagem de Dinheiro)</li>
+<li>Circular BCB nº 3.978/2020 (Política de PLD/FT para instituições financeiras)</li>
+<li>Resolução BCB nº 119/2021 (Identificação de beneficiários finais)</li>
+<li>Resolução CVM nº 50/2021 (PLD/FT para o mercado de capitais)</li>
+<li><span class="ref-label">COAF - Conselho de Controle de Atividades Financeiras:</span> <a href="https://www.gov.br/coaf" target="_blank" rel="noopener">gov.br/coaf</a></li>
+<li><span class="ref-label">GAFI/FATF - Guidance on Real Estate Sector (2022):</span> <a href="https://www.fatf-gafi.org" target="_blank" rel="noopener">fatf-gafi.org</a></li>
+</ul>
+
+    </aside>
+
+  </article>
+    <!-- CTA consultivo (leva ao WhatsApp da SAFIE) -->
+    <div class="container">
+      <div class="artigo-cta">
+        <h3>Decisão jurídica ou contábil pendente?</h3>
+        <p>A SAFIE atende founders e gestores com acesso direto aos sócios — jurídico e contabilidade integrados sob o mesmo teto. Conversamos para entender o caso antes de qualquer recomendação.</p>
+        <a href="https://wa.me/5511934329769?text=Ol%C3%A1!%20Vim%20pelo%20blog%20da%20SAFIE%20e%20gostaria%20de%20conversar." class="cta-btn" target="_blank" rel="noopener">Falar com a SAFIE</a>
+      </div>
+    </div>
+
+
+
+  <!-- Sobre os autores -->
+  <div class="container">
+    <div class="sobre-autores">
+      <span class="sobre-autores-titulo">Sobre os autores</span>
+      <p>Conteúdo produzido pela SAFIE, consultoria jurídico-contábil para empresas digitais e de tecnologia. A SAFIE é liderada por <a href="https://instagram.com/lucasm.mantovani" target="_blank" rel="noopener"><strong>Lucas Mantovani</strong></a> e <a href="https://instagram.com/euitalocunha" target="_blank" rel="noopener"><strong>Italo Cunha</strong></a>.</p>
+    </div>
+  </div>
+
+  <!-- Artigos relacionados -->
+  <div class="container">
+    <section class="relacionados">
+      <h2>Continue lendo</h2>
+      <div class="relacionados-lista">
+<ul class="relacionados-items">
+  <li><a href="/artigos/2026-06-24-compliance-e-pld-em-fintechs-o-que-exige-a-lei">Compliance e PLD em Fintechs: o que exige a lei</a></li>
+  <li><a href="/artigos/2026-07-13-imposto-seletivo-o-que-muda-para-sua-empresa">Imposto Seletivo: o que muda para sua empresa</a></li>
+  <li><a href="/artigos/2026-07-13-ai-act-e-cadeia-de-ia-riscos-regulatorios-globais">AI Act e cadeia de IA: riscos regulatórios globais</a></li>
+</ul>
+</div>
+    </section>
+  </div>
+</main>
+
+<!-- partial: footer — rodapé comum COM formulário (injetado via {{FOOTER}}) -->
+<!-- Formulário de contato — placeholder. Submit inerte; integração HubSpot na fase A5/A6. -->
+<section class="footer-form-wrap" aria-label="Fale com a SAFIE">
+  <div class="footer-form-inner">
+    <div class="footer-form-texto">
+      <p class="secao-kicker">Fale com a SAFIE</p>
+      <h2>Decisão jurídica ou contábil pendente?</h2>
+      <p>Atendemos founders e gestores com acesso direto aos sócios — jurídico e contabilidade sob o mesmo teto.</p>
+    </div>
+    <!-- TODO A5/A6: HubSpot — este form ainda NÃO envia. -->
+    <form class="footer-form" data-form="rodape" onsubmit="return false" novalidate>
+      <label>Nome*
+        <input type="text" name="nome" autocomplete="name" required>
+      </label>
+      <label>E-mail*
+        <input type="email" name="email" autocomplete="email" required>
+      </label>
+      <label>Empresa
+        <input type="text" name="empresa" autocomplete="organization">
+      </label>
+      <label>Mensagem
+        <textarea name="mensagem" rows="3"></textarea>
+      </label>
+      <button type="submit" class="cta-btn" disabled aria-disabled="true">Enviar (em breve)</button>
+      <p class="footer-form-nota">Formulário em configuração. Por ora, fale conosco em
+        <a href="mailto:contato@safie.com.br">contato@safie.com.br</a>.</p>
+    </form>
+  </div>
+</section>
+
+<footer class="site-footer" role="contentinfo">
+  <div class="footer-inner">
+    <div class="footer-topo">
+      <div class="footer-marca">
+        <span class="logo-marca footer-logo-texto">Blog <span style="color:var(--ciano)">SAFIE</span></span>
+        <p>Consultoria jurídico-contábil para negócios digitais, startups e a nova economia.</p>
+      </div>
+      <div class="footer-nav">
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="/">Início</a></li>
+            <li><a href="/artigos/">Artigos</a></li>
+            <li><a href="/categorias/">Categorias</a></li>
+            <li><a href="/sobre">Sobre</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Links</h4>
+          <ul>
+            <li><a href="https://safie.com.br" target="_blank" rel="noopener">safie.com.br</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+            <li><a href="mailto:contato@safie.com.br">contato@safie.com.br</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-arco-iris" aria-hidden="true"></div>
+    <div class="footer-cnpjs" aria-label="CNPJs SAFIE">
+      <span>SAFIE Consultoria e Contabilidade Ltda — 59.931.854/0001-34</span>
+      <span>SAFIE Tecnologia e Consultoria Ltda — 42.224.278/0001-92</span>
+      <span>Cunha &amp; Mantovani Advogados Associados — 34.924.976/0001-72</span>
+    </div>
+    <div class="footer-base">
+      <span>&copy; 2026 SAFIE. Todos os direitos reservados.</span>
+      <span>Conteúdo informativo; não constitui parecer jurídico ou contábil individualizado.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/js/busca.js"></script>
+<script>
+fetch('https://safie-analytics.lucas-mantovani.workers.dev/track', {
+  method: 'POST',
+  headers: {'Content-Type': 'application/json'},
+  body: JSON.stringify({ url: window.location.pathname, blog: 'fintechs' })
+}).catch(() => {});
+</script>
+<script src="/assets/js/widget-whatsapp.js" defer></script>
+</body>
+</html>
