@@ -1,0 +1,170 @@
+{
+  "_comentario": "RSS feeds por nicho, consolidados dos 5 blogs (A2.2). buscar_noticia lê fontes[nicho].rss_feeds.",
+  "nichos": {
+    "cripto": {
+      "rss_feeds": [
+        {
+          "nome": "Portal do Bitcoin",
+          "url": "https://portaldobitcoin.uol.com.br/feed/"
+        },
+        {
+          "nome": "CoinTelegraph Brasil",
+          "url": "https://cointelegraph.com.br/rss"
+        },
+        {
+          "nome": "Livecoins",
+          "url": "https://livecoins.com.br/feed/"
+        },
+        {
+          "nome": "Money Times Cripto",
+          "url": "https://www.moneytimes.com.br/crypto/feed/"
+        }
+      ],
+      "sites_prioritarios_apify": [
+        "portaldobitcoin.uol.com.br",
+        "cointelegraph.com.br",
+        "livecoins.com.br",
+        "valor.globo.com",
+        "moneytimes.com.br",
+        "infomoney.com.br"
+      ]
+    },
+    "ecommerce": {
+      "rss_feeds": [
+        {
+          "nome": "G1 Economia",
+          "url": "https://g1.globo.com/rss/g1/economia/"
+        },
+        {
+          "nome": "Folha Mercado",
+          "url": "https://feeds.folha.uol.com.br/mercado/rss091.xml"
+        },
+        {
+          "nome": "JOTA",
+          "url": "https://www.jota.info/feed"
+        },
+        {
+          "nome": "Conjur",
+          "url": "https://www.conjur.com.br/rss.xml"
+        },
+        {
+          "nome": "InfoMoney",
+          "url": "https://www.infomoney.com.br/feed/"
+        },
+        {
+          "nome": "Startupi",
+          "url": "https://startupi.com.br/feed/"
+        },
+        {
+          "nome": "Pequenas Empresas Grandes Negócios",
+          "url": "https://revistapegn.globo.com/rss/ultimas-noticias.xml"
+        }
+      ]
+    },
+    "fintechs": {
+      "rss_feeds": [
+        {
+          "nome": "Valor Econômico Finanças",
+          "url": "https://valor.globo.com/financas/rss/"
+        },
+        {
+          "nome": "InfoMoney",
+          "url": "https://www.infomoney.com.br/feed/"
+        },
+        {
+          "nome": "Finsiders",
+          "url": "https://finsiders.com.br/feed/"
+        },
+        {
+          "nome": "Neofeed",
+          "url": "https://neofeed.com.br/feed/"
+        },
+        {
+          "nome": "Exame Negócios",
+          "url": "https://exame.com/negocios/feed/"
+        },
+        {
+          "nome": "Startupi",
+          "url": "https://startupi.com.br/feed/"
+        },
+        {
+          "nome": "Valor Econômico Empresas",
+          "url": "https://valor.globo.com/empresas/rss/"
+        }
+      ]
+    },
+    "ia": {
+      "rss_feeds": [
+        {
+          "nome": "MIT Technology Review Brasil",
+          "url": "https://mittechreview.com.br/feed/"
+        },
+        {
+          "nome": "Olhar Digital IA",
+          "url": "https://olhardigital.com.br/categoria/inteligencia-artificial/feed/"
+        },
+        {
+          "nome": "Tecmundo",
+          "url": "https://www.tecmundo.com.br/rss"
+        },
+        {
+          "nome": "Startupi",
+          "url": "https://startupi.com.br/feed/"
+        },
+        {
+          "nome": "Valor Econômico Empresas",
+          "url": "https://valor.globo.com/empresas/rss/"
+        },
+        {
+          "nome": "Exame Tecnologia",
+          "url": "https://exame.com/tecnologia/feed/"
+        },
+        {
+          "nome": "InfoMoney",
+          "url": "https://www.infomoney.com.br/feed/"
+        }
+      ]
+    },
+    "reforma": {
+      "rss_feeds": [
+        {
+          "nome": "Valor Econômico Legislação",
+          "url": "https://valor.globo.com/legislacao/rss/"
+        },
+        {
+          "nome": "JOTA",
+          "url": "https://www.jota.info/feed"
+        },
+        {
+          "nome": "Migalhas",
+          "url": "https://www.migalhas.com.br/rss/ultimas-noticias"
+        },
+        {
+          "nome": "InfoMoney Economia",
+          "url": "https://www.infomoney.com.br/economia/feed/"
+        },
+        {
+          "nome": "Conjur",
+          "url": "https://www.conjur.com.br/rss.xml"
+        },
+        {
+          "nome": "Valor Econômico Empresas",
+          "url": "https://valor.globo.com/empresas/rss/"
+        },
+        {
+          "nome": "Exame Economia",
+          "url": "https://exame.com/economia/feed/"
+        }
+      ]
+    }
+  },
+  "fontes_autoridade": {
+    "valor.globo.com": 10,
+    "infomoney.com.br": 8,
+    "ecommercebrasil.com.br": 8,
+    "exame.com": 7,
+    "revistapegn.globo.com": 7,
+    "olhardigital.com.br": 5,
+    "startupi.com.br": 5
+  }
+}

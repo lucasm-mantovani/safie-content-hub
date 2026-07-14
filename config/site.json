@@ -28,40 +28,63 @@
       "cor_destaque_imagem": "#4a9eff",
       "cor_acento_site": "#2563eb",
       "fundo_imagem_inicio": "#0a1628",
-      "fundo_imagem_fim": "#1a2f4a"
+      "fundo_imagem_fim": "#1a2f4a",
+      "descricao": "Direito e contabilidade para criptoativos e blockchain"
     },
     "ecommerce": {
       "nome": "E-commerce",
       "cor_destaque_imagem": "#ff6b9d",
       "cor_acento_site": "#db2777",
       "fundo_imagem_inicio": "#1a0f1a",
-      "fundo_imagem_fim": "#2a1a28"
+      "fundo_imagem_fim": "#2a1a28",
+      "descricao": "Direito e contabilidade para e-commerce e comércio digital"
     },
     "fintechs": {
       "nome": "Fintechs",
       "cor_destaque_imagem": "#3dd68c",
       "cor_acento_site": "#059669",
       "fundo_imagem_inicio": "#0d1f1a",
-      "fundo_imagem_fim": "#1a2e26"
+      "fundo_imagem_fim": "#1a2e26",
+      "descricao": "Direito e contabilidade para fintechs e serviços financeiros digitais"
     },
     "ia": {
       "nome": "IA for Business",
       "cor_destaque_imagem": "#a78bfa",
       "cor_acento_site": "#7c3aed",
       "fundo_imagem_inicio": "#0f0a1a",
-      "fundo_imagem_fim": "#1a1428"
+      "fundo_imagem_fim": "#1a1428",
+      "descricao": "Direito e contabilidade para empresas de IA e tecnologia disruptiva"
     },
     "reforma": {
       "nome": "Reforma Tributária",
       "cor_destaque_imagem": "#d4a857",
       "cor_acento_site": "#b8860b",
       "fundo_imagem_inicio": "#1a1a1a",
-      "fundo_imagem_fim": "#2a2520"
+      "fundo_imagem_fim": "#2a2520",
+      "descricao": "Impactos da reforma tributária para empresas brasileiras"
     }
   },
   "agenda_publicacao": {
-    "seg": ["cripto", "ecommerce", "fintechs", "ia", "reforma"],
-    "qua": ["cripto", "ecommerce", "fintechs", "ia", "reforma"],
-    "sex": ["cripto", "ecommerce", "fintechs", "ia", "reforma"]
+    "seg": [
+      "cripto",
+      "ecommerce",
+      "fintechs",
+      "ia",
+      "reforma"
+    ],
+    "qua": [
+      "cripto",
+      "ecommerce",
+      "fintechs",
+      "ia",
+      "reforma"
+    ],
+    "sex": [
+      "cripto",
+      "ecommerce",
+      "fintechs",
+      "ia",
+      "reforma"
+    ]
   }
 }

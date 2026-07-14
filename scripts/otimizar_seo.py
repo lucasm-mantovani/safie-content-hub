@@ -1,0 +1,151 @@
+"""
+otimizar_seo.py — Agente de SEO/GEO do pipeline unificado SAFIE Blog
+Lê dados/artigo_gerado.json, valida e otimiza campos de SEO, e grava de volta.
+Roda entre gerar_artigo.py e publicar.py no pipeline diário.
+
+Camada 2 GEO preservada: keywords com entidades reais extraídas do corpo.
+Único ajuste vs. os 5 blogs (md5-idêntico): config/blog.json → config/site.json.
+"""
+
+import json
+import re
+import logging
+import sys
+from pathlib import Path
+
+BASE        = Path(__file__).resolve().parent.parent
+ARTIGO_PATH = BASE / "dados" / "artigo_gerado.json"
+CONFIG_SITE = BASE / "config" / "site.json"
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    handlers=[logging.StreamHandler(sys.stdout)],
+)
+log = logging.getLogger(__name__)
+
+STOPWORDS = {
+    "e", "o", "a", "os", "as", "de", "da", "do", "das", "dos", "no", "na", "nos", "nas",
+    "para", "que", "com", "em", "por", "um", "uma", "uns", "umas", "é", "são", "se",
+    "ao", "à", "ou", "mas", "mais", "seu", "sua", "seus", "suas", "este", "esta",
+    "esse", "essa", "como", "não", "foi", "ser", "ter", "tem", "há", "já", "pelo",
+    "pela", "pelos", "pelas", "entre", "sobre", "após", "desde", "até",
+    "isso", "muda", "bane", "quando", "quais", "isto", "vai", "está",
+    "sido", "faz", "fez", "novo", "nova",
+}
+
+MAX_TITULO_CHARS = 45
+MAX_DESC_CHARS   = 155
+MAX_KEYWORDS     = 10
+
+# ── Camada 2 GEO: extração de entidades reais do corpo ───────────────────────
+
+_ORGAOS = ["ANPD", "Bacen", "Banco Central", "CVM", "CADE", "Receita Federal",
+           "COAF", "MPF", "STF", "STJ", "TST", "TCU", "OAB"]
+
+_RE_ENTIDADES = [
+    re.compile(r"\bEmenda\s+Constitucional\s+n?\.?\s*\d{1,3}(?:/\d{4})?"),
+    re.compile(r"\bLei\s+Complementar\s+n?\.?\s*\d{1,3}(?:/\d{4})?"),
+    re.compile(r"\bLei\s+(?:n\.?\s*)?\d{1,3}(?:\.\d{3})+(?:/\d{4})?"),
+    re.compile(r"\b(?:LC|EC)\s*n?\s*\.?\s*\d{1,3}/\d{4}"),
+    re.compile(r"\bPL\s+\d[\d.]*(?:/\d{4})?"),
+    re.compile(r"\bart\.?\s*\d+", re.IGNORECASE),
+]
+
+
+def _extrair_entidades(corpo_html: str) -> list:
+    """Extrai entidades citáveis (leis, LC/EC, PL, art., órgãos) do corpo do artigo."""
+    texto = limpar_html(corpo_html or "")
+    encontradas, vistas = [], set()
+    for rx in _RE_ENTIDADES:
+        for m in rx.findall(texto):
+            chave = m.lower().strip()
+            if chave not in vistas:
+                vistas.add(chave)
+                encontradas.append(m.strip())
+    for orgao in _ORGAOS:
+        if re.search(rf"\b{re.escape(orgao)}\b", texto) and orgao.lower() not in vistas:
+            vistas.add(orgao.lower())
+            encontradas.append(orgao)
+    return encontradas
+
+
+def limpar_html(texto: str) -> str:
+    return re.sub(r"<[^>]+>", "", texto).strip()
+
+
+def gerar_palavras_chave(titulo: str, tema: str, corpo_html: str = None) -> str:
+    texto = f"{titulo} {tema}".lower()
+    texto = re.sub(r"[^\w\s]", " ", texto)
+    palavras = [w for w in texto.split() if len(w) > 3 and w not in STOPWORDS]
+    vistas, unicas = set(), []
+    for p in palavras:
+        if p not in vistas:
+            vistas.add(p)
+            unicas.append(p)
+    entidades = _extrair_entidades(corpo_html)[:5] if corpo_html else []
+    resultado, vistos_ci = [], set()
+    for item in unicas[:max(0, MAX_KEYWORDS - len(entidades))] + entidades:
+        chave = item.lower()
+        if chave not in vistos_ci:
+            vistos_ci.add(chave)
+            resultado.append(item)
+    return ", ".join(resultado[:MAX_KEYWORDS])
+
+
+def validar_titulo(titulo: str, blog_nome: str) -> str:
+    sufixo = f" | {blog_nome}"
+    titulo_completo = titulo + sufixo
+    if len(titulo_completo) <= 60:
+        return titulo
+    max_titulo = 60 - len(sufixo)
+    truncado = titulo[:max_titulo].rsplit(" ", 1)[0]
+    log.warning(f"Título truncado ({len(titulo)} → {len(truncado)} chars): '{truncado}'")
+    return truncado
+
+
+def validar_meta_description(desc: str) -> str:
+    desc = limpar_html(desc)
+    if len(desc) <= MAX_DESC_CHARS:
+        return desc
+    truncado = desc[:MAX_DESC_CHARS].rsplit(" ", 1)[0].rstrip(".,;:") + "."
+    log.warning(f"Meta description truncada: {len(desc)} → {len(truncado)} chars")
+    return truncado
+
+
+def main():
+    if not ARTIGO_PATH.exists():
+        log.error(f"Arquivo não encontrado: {ARTIGO_PATH}")
+        sys.exit(1)
+
+    artigo = json.loads(ARTIGO_PATH.read_text(encoding="utf-8"))
+    config = json.loads(CONFIG_SITE.read_text(encoding="utf-8")) if CONFIG_SITE.exists() else {}
+    blog_nome = config.get("nome", "SAFIE Blog")
+
+    log.info("=== SEO/GEO: iniciando otimização ===")
+
+    titulo_original = artigo.get("titulo", "")
+    titulo_ok = validar_titulo(titulo_original, blog_nome)
+    log.info(f"Title ({len(titulo_ok + ' | ' + blog_nome)} chars): {titulo_ok} | {blog_nome}")
+
+    # Camada 2: palavras-chave com entidades reais do corpo
+    palavras_chave = gerar_palavras_chave(titulo_ok, artigo.get("tema_nome", ""), artigo.get("conteudo", ""))
+    artigo["palavras_chave"] = palavras_chave
+    log.info(f"Keywords: {palavras_chave}")
+
+    desc_ok = validar_meta_description(artigo.get("meta_description", ""))
+    if desc_ok != artigo.get("meta_description", ""):
+        artigo["meta_description"] = desc_ok
+    log.info(f"Meta description ({len(desc_ok)} chars) ✓")
+
+    canonical = artigo.get("canonical_url", "")
+    blog_url  = config.get("url_completa", "")
+    if blog_url and canonical and not canonical.startswith(blog_url):
+        log.warning(f"Canonical URL diverge do domínio: {canonical}")
+
+    ARTIGO_PATH.write_text(json.dumps(artigo, ensure_ascii=False, indent=2), encoding="utf-8")
+    log.info("=== SEO/GEO: concluído ===")
+
+
+if __name__ == "__main__":
+    main()
