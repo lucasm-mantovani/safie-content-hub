@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{CATEGORIA_NOME}} — SAFIE Blog</title>
+  <meta name="description" content="{{CATEGORIA_DESCRICAO}}">
+  <link rel="canonical" href="https://safie.blog.br/categorias/{{CATEGORIA_SLUG}}">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://safie.blog.br/categorias/{{CATEGORIA_SLUG}}">
+  <meta property="og:title" content="{{CATEGORIA_NOME}} — SAFIE Blog">
+  <meta property="og:description" content="{{CATEGORIA_DESCRICAO}}">
+  <meta property="og:site_name" content="SAFIE Blog">
+  <meta property="og:locale" content="pt_BR">
+
+  <!-- Schema.org BreadcrumbList: Início > Categorias > {{CATEGORIA_NOME}} -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Início", "item": "https://safie.blog.br/"},
+      {"@type": "ListItem", "position": 2, "name": "Categorias", "item": "https://safie.blog.br/categorias/"},
+      {"@type": "ListItem", "position": 3, "name": "{{CATEGORIA_NOME}}", "item": "https://safie.blog.br/categorias/{{CATEGORIA_SLUG}}"}
+    ]
+  }
+  </script>
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+</head>
+<body data-nicho="{{NICHO}}" style="--cor-nicho: {{COR_NICHO}}">
+{{HEADER}}
+
+<main>
+  <nav class="breadcrumb" aria-label="Trilha de navegação">
+    <div class="container">
+      <a href="/">Início</a> <span aria-hidden="true">›</span>
+      <a href="/categorias/">Categorias</a> <span aria-hidden="true">›</span>
+      <span aria-current="page">{{CATEGORIA_NOME}}</span>
+    </div>
+  </nav>
+
+  <section class="categoria-header" aria-label="Cabeçalho da categoria">
+    <div class="container">
+      <p class="secao-kicker">{{NICHO_NOME}}</p>
+      <h1>{{CATEGORIA_NOME}}</h1>
+      <p>{{CATEGORIA_DESCRICAO}}</p>
+    </div>
+  </section>
+
+  <section class="container" aria-label="Artigos da categoria">
+    <!-- JS filtra /artigos/indice.json por tema_slug == {{CATEGORIA_SLUG}} -->
+    <div id="artigos-lista" class="artigos-lista" role="list"
+         data-fonte="/artigos/indice.json"
+         data-filtro-tema="{{CATEGORIA_SLUG}}"
+         data-por-pagina="9"></div>
+    <nav id="paginacao" class="artigos-paginacao" aria-label="Paginação"></nav>
+  </section>
+</main>
+
+{{FOOTER}}
+
+<script src="/assets/js/categoria.js"></script>
+<script src="/assets/js/widget-whatsapp.js" defer></script>
+</body>
+</html>

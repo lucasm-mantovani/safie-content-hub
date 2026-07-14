@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>{{TITULO}} — SAFIE Blog</title>
+  <meta name="description" content="{{META_DESCRIPTION}}">
+  <link rel="canonical" href="{{CANONICAL_URL}}">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="author" content="SAFIE">
+  <meta name="keywords" content="{{PALAVRAS_CHAVE}}">
+
+  <!-- Open Graph -->
+  <meta property="og:type"        content="article">
+  <meta property="og:title"       content="{{TITULO}} — SAFIE Blog">
+  <meta property="og:description" content="{{META_DESCRIPTION}}">
+  <meta property="og:url"         content="{{CANONICAL_URL}}">
+  <meta property="og:site_name"   content="SAFIE Blog">
+  <meta property="og:locale"      content="pt_BR">
+  <meta property="og:image"       content="{{IMAGEM_CAPA_URL}}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="article:published_time" content="{{DATA_ISO}}">
+  <meta property="article:section"       content="{{TEMA}}">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:title"       content="{{TITULO}} — SAFIE Blog">
+  <meta name="twitter:description" content="{{META_DESCRIPTION}}">
+  <meta name="twitter:image"       content="{{IMAGEM_CAPA_URL}}">
+
+  <!-- Schema.org JSON-LD (BlogPosting + Person + BreadcrumbList + FAQPage) — gerado pelo pipeline -->
+  <script type="application/ld+json">
+{{SCHEMA_JSON}}
+  </script>
+
+  <!-- NOTE A2: style.css (design system do Hub) ainda NAO contem as classes de corpo de
+       artigo (.artigo-wrapper, .resumo-executivo, .relacionados, .key-takeaways, .citacao...).
+       Consolidar o CSS de artigo do estilo.css dos blogs no design system antes da migracao (A3). -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/android-chrome-192x192.png">
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+</head>
+<body data-nicho="{{NICHO}}" style="--cor-nicho: {{COR_NICHO}}">
+
+{{HEADER}}
+
+<main>
+  <nav class="breadcrumb" aria-label="Trilha de navegação">
+    <div class="container">
+      <a href="/">Início</a> <span aria-hidden="true">›</span>
+      <a href="/categorias/{{TEMA_SLUG}}">{{TEMA}}</a> <span aria-hidden="true">›</span>
+      <span aria-current="page">{{TITULO}}</span>
+    </div>
+  </nav>
+
+  <article class="artigo-wrapper" itemscope itemtype="https://schema.org/BlogPosting">
+
+    <header class="artigo-header">
+      <a class="artigo-tema" href="/categorias/{{TEMA_SLUG}}">{{TEMA}}</a>
+
+      <h1 class="artigo-titulo" itemprop="headline">{{TITULO}}</h1>
+
+      <div class="artigo-meta">
+        <span>Por <strong itemprop="author">SAFIE</strong></span>
+        <span>·</span>
+        <time datetime="{{DATA_ISO}}" itemprop="datePublished">{{DATA_FORMATADA}}</time>
+        <span>·</span>
+        <span>{{TEMPO_LEITURA}} min de leitura</span>
+      </div>
+    </header>
+
+    {{IMAGEM_BLOCO}}
+
+    <!-- Resumo executivo (para IAs generativas / GEO — Camada 1) -->
+    <aside class="resumo-executivo" itemprop="abstract">
+      <strong>Resumo executivo</strong>
+      {{RESUMO_EXECUTIVO}}
+    </aside>
+
+    <!-- Corpo do artigo (inclui key_takeaways e citação do sócio — Camadas 1 e 2) -->
+    <div class="artigo-corpo" itemprop="articleBody">
+      {{CONTEUDO}}
+    </div>
+
+    <!-- FAQ -->
+    <section class="faq-section" id="faq" itemscope itemtype="https://schema.org/FAQPage">
+      <h2>Perguntas frequentes</h2>
+      {{FAQ_HTML}}
+    </section>
+
+    <!-- Referências -->
+    <aside class="referencias">
+      <h2>Fontes e referências</h2>
+      {{REFERENCIAS_HTML}}
+    </aside>
+
+  </article>
+
+  <!-- CTA consultivo -->
+  <div class="container">
+    <div class="artigo-cta">
+      <h3>Decisão jurídica ou contábil pendente?</h3>
+      <p>A SAFIE atende founders e gestores com acesso direto aos sócios — jurídico e contabilidade integrados sob o mesmo teto. Conversamos para entender o caso antes de qualquer recomendação.</p>
+      <a href="https://wa.me/5511934329769?text=Ol%C3%A1!%20Vim%20pelo%20blog%20da%20SAFIE%20e%20gostaria%20de%20conversar." class="cta-btn" target="_blank" rel="noopener">Falar com a SAFIE</a>
+    </div>
+  </div>
+
+  <!-- Sobre os autores -->
+  <div class="container">
+    <div class="sobre-autores">
+      <span class="sobre-autores-titulo">Sobre os autores</span>
+      <p>Conteúdo produzido pela SAFIE, consultoria jurídico-contábil para empresas digitais e de tecnologia. A SAFIE é liderada por <a href="https://instagram.com/lucasm.mantovani" target="_blank" rel="noopener"><strong>Lucas Mantovani</strong></a> e <a href="https://instagram.com/euitalocunha" target="_blank" rel="noopener"><strong>Italo Cunha</strong></a>.</p>
+    </div>
+  </div>
+
+  <!-- Artigos relacionados (Camada 3 — "Continue lendo", agora cross-categoria) -->
+  <div class="container">
+    <section class="relacionados">
+      <h2>Continue lendo</h2>
+      <div class="relacionados-lista">
+        {{RELACIONADOS_HTML}}
+      </div>
+    </section>
+  </div>
+</main>
+
+{{FOOTER}}
+
+<script>
+fetch('https://safie-analytics.lucas-mantovani.workers.dev/track', {
+  method: 'POST',
+  headers: {'Content-Type': 'application/json'},
+  body: JSON.stringify({ url: window.location.pathname, blog: '{{NICHO}}' })
+}).catch(() => {});
+</script>
+<script src="/assets/js/artigo.js" defer></script>
+<script src="/assets/js/widget-whatsapp.js" defer></script>
+</body>
+</html>

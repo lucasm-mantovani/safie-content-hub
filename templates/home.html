@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SAFIE Blog — Direito e contabilidade para negócios digitais</title>
+  <meta name="description" content="Análise técnica diária sobre direito e contabilidade para criptoativos, fintechs, e-commerce, IA e reforma tributária no Brasil.">
+  <link rel="canonical" href="https://safie.blog.br/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://safie.blog.br/">
+  <meta property="og:title" content="SAFIE Blog — Direito e contabilidade para a nova economia">
+  <meta property="og:description" content="Análise técnica diária ancorada em notícia real, para negócios digitais, startups e a nova economia.">
+  <meta property="og:site_name" content="SAFIE Blog">
+  <meta property="og:locale" content="pt_BR">
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+</head>
+<body>
+{{HEADER}}
+
+<main>
+
+  <!-- ── Hero curto ── -->
+  <section class="hero" aria-label="Apresentação">
+    <p class="hero-kicker">Blog da SAFIE</p>
+    <h1>Direito e contabilidade para quem toma <em>decisões</em> e assume riscos todo dia</h1>
+    <p class="hero-desc">
+      Análise técnica ancorada em notícia real, atualizada diariamente pela SAFIE —
+      consultoria jurídico-contábil para negócios digitais, startups e a nova economia.
+    </p>
+  </section>
+
+  <!-- ── Artigos recentes (9, JS-driven lê /artigos/indice.json) ── -->
+  <section class="secao-recentes" id="recentes" aria-label="Artigos recentes">
+    <div class="container">
+      <div class="secao-header">
+        <p class="secao-kicker">Publicados recentemente</p>
+        <h2>Últimos artigos</h2>
+      </div>
+      <div id="recentes-lista" class="artigos-grid" role="list"
+           data-fonte="/artigos/indice.json" data-limite="9">
+        <!-- preenchido por assets/js/main.js -->
+      </div>
+      <div class="secao-cta">
+        <a href="/artigos/" class="cta-btn">Ver todos os artigos</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Ferramentas e materiais gratuitos (PLACEHOLDER — Lucas define depois) ── -->
+  <section id="ferramentas" class="home-ferramentas" data-placeholder="true" aria-label="Ferramentas e materiais gratuitos">
+    <div class="container">
+      <div class="secao-header">
+        <p class="secao-kicker">Gratuito</p>
+        <h2>Ferramentas e materiais</h2>
+        <p>Recursos práticos para founders e gestores. <!-- TODO Lucas: conteúdo --></p>
+      </div>
+      <div class="ferramentas-grid" role="list">
+        <!-- TODO Lucas: cards de ferramentas/materiais (placeholder vazio) -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CTA categorias ── -->
+  <section class="secao-categorias-cta" aria-label="Explorar por categoria">
+    <div class="container">
+      <div class="secao-header">
+        <p class="secao-kicker">Explore por tema</p>
+        <h2>Categorias</h2>
+      </div>
+      <div id="nichos-lista" class="nichos-grid" role="list"
+           data-fonte="/config/categorias.json">
+        <!-- preenchido por assets/js/main.js: 5 nichos -> /categorias/{nicho} -->
+      </div>
+    </div>
+  </section>
+
+</main>
+
+{{FOOTER}}
+
+<script src="/assets/js/main.js"></script>
+<script src="/assets/js/widget-whatsapp.js" defer></script>
+</body>
+</html>

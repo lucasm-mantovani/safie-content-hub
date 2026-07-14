@@ -1,0 +1,471 @@
+[
+  {
+    "slug": "regulacao-cripto",
+    "nome": "Regulação de criptoativos no Brasil",
+    "descricao": "",
+    "nicho": "cripto",
+    "palavras_chave": [
+      "CVM cripto",
+      "Lei 14.478",
+      "regulação cripto Brasil",
+      "marco legal criptoativos",
+      "Banco Central cripto"
+    ]
+  },
+  {
+    "slug": "tributacao-cripto",
+    "nome": "Tributação de criptoativos",
+    "descricao": "",
+    "nicho": "cripto",
+    "palavras_chave": [
+      "imposto de renda bitcoin",
+      "declaração criptoativos",
+      "tributação cripto PJ",
+      "IN 1888",
+      "imposto cripto Brasil"
+    ]
+  },
+  {
+    "slug": "estruturacao-empresa-cripto",
+    "nome": "Estruturação societária de empresas cripto",
+    "descricao": "",
+    "nicho": "cripto",
+    "palavras_chave": [
+      "exchange Brasil",
+      "PSAV",
+      "VASP Brasil",
+      "abertura empresa cripto",
+      "corretora cripto"
+    ]
+  },
+  {
+    "slug": "compliance-cripto",
+    "nome": "Compliance e PLD cripto",
+    "descricao": "",
+    "nicho": "cripto",
+    "palavras_chave": [
+      "PLD criptoativos",
+      "compliance exchange",
+      "COAF cripto",
+      "lavagem de dinheiro cripto"
+    ]
+  },
+  {
+    "slug": "tokenizacao",
+    "nome": "Tokenização e ativos digitais",
+    "descricao": "",
+    "nicho": "cripto",
+    "palavras_chave": [
+      "tokenização imóveis",
+      "security token Brasil",
+      "tokenização recebíveis",
+      "RWA Brasil"
+    ]
+  },
+  {
+    "slug": "defi-stablecoin",
+    "nome": "DeFi e stablecoins",
+    "descricao": "",
+    "nicho": "cripto",
+    "palavras_chave": [
+      "DeFi Brasil regulação",
+      "stablecoin Banco Central",
+      "DREX",
+      "real digital"
+    ]
+  },
+  {
+    "slug": "tributacao-ecommerce",
+    "nome": "Tributação no e-commerce",
+    "descricao": "",
+    "nicho": "ecommerce",
+    "palavras_chave": [
+      "difal",
+      "icms e-commerce",
+      "tributação e-commerce",
+      "imposto e-commerce",
+      "simples nacional e-commerce",
+      "substituição tributária marketplace"
+    ]
+  },
+  {
+    "slug": "direito-consumidor-digital",
+    "nome": "Direito do consumidor no digital",
+    "descricao": "",
+    "nicho": "ecommerce",
+    "palavras_chave": [
+      "direito de arrependimento",
+      "procon",
+      "consumidor online",
+      "devolução compra online",
+      "reclamação e-commerce",
+      "compra pela internet"
+    ]
+  },
+  {
+    "slug": "marketplaces",
+    "nome": "Marketplaces e plataformas digitais",
+    "descricao": "",
+    "nicho": "ecommerce",
+    "palavras_chave": [
+      "mercado livre",
+      "shopee",
+      "marketplace",
+      "amazon seller",
+      "magalu",
+      "via varejo"
+    ]
+  },
+  {
+    "slug": "lgpd-ecommerce",
+    "nome": "LGPD e privacidade no e-commerce",
+    "descricao": "",
+    "nicho": "ecommerce",
+    "palavras_chave": [
+      "lgpd",
+      "anpd",
+      "proteção de dados",
+      "vazamento de dados",
+      "cookies loja"
+    ]
+  },
+  {
+    "slug": "logistica",
+    "nome": "Logística e operações",
+    "descricao": "",
+    "nicho": "ecommerce",
+    "palavras_chave": [
+      "fulfillment",
+      "frete e-commerce",
+      "correios e-commerce",
+      "entrega e-commerce",
+      "last mile",
+      "logística e-commerce"
+    ]
+  },
+  {
+    "slug": "pagamentos-digitais",
+    "nome": "Meios de pagamento no varejo digital",
+    "descricao": "",
+    "nicho": "ecommerce",
+    "palavras_chave": [
+      "pix e-commerce",
+      "chargeback",
+      "gateway de pagamento",
+      "split de pagamento",
+      "antifraude e-commerce"
+    ]
+  },
+  {
+    "slug": "cross-border",
+    "nome": "Importação e cross-border",
+    "descricao": "",
+    "nicho": "ecommerce",
+    "palavras_chave": [
+      "remessa conforme",
+      "importação e-commerce",
+      "shein",
+      "taxação importados",
+      "imposto importação"
+    ]
+  },
+  {
+    "slug": "regulacao-bacen",
+    "nome": "Regulação do Banco Central para fintechs",
+    "descricao": "",
+    "nicho": "fintechs",
+    "palavras_chave": [
+      "Banco Central fintech",
+      "IP instituição pagamento",
+      "SCD SEP",
+      "licença BCB fintech",
+      "resolução BCB"
+    ]
+  },
+  {
+    "slug": "open-finance",
+    "nome": "Open Finance e dados financeiros",
+    "descricao": "",
+    "nicho": "fintechs",
+    "palavras_chave": [
+      "Open Finance Brasil",
+      "compartilhamento dados financeiros",
+      "iniciador pagamento",
+      "PISP",
+      "regulação open banking"
+    ]
+  },
+  {
+    "slug": "pix-pagamentos",
+    "nome": "PIX e meios de pagamento",
+    "descricao": "",
+    "nicho": "fintechs",
+    "palavras_chave": [
+      "PIX regulação",
+      "PIX automático",
+      "meios pagamento Brasil",
+      "arranjo pagamento",
+      "gateway pagamento regulação"
+    ]
+  },
+  {
+    "slug": "credito-digital",
+    "nome": "Crédito digital e BNPL",
+    "descricao": "",
+    "nicho": "fintechs",
+    "palavras_chave": [
+      "fintech crédito",
+      "BNPL Brasil",
+      "crédito consignado digital",
+      "peer-to-peer lending",
+      "empréstimo app"
+    ]
+  },
+  {
+    "slug": "compliance-pld",
+    "nome": "Compliance e PLD em fintechs",
+    "descricao": "",
+    "nicho": "fintechs",
+    "palavras_chave": [
+      "PLD fintech",
+      "COAF fintech",
+      "compliance bancário",
+      "KYC fintech",
+      "prevenção lavagem dinheiro"
+    ]
+  },
+  {
+    "slug": "tributacao-fintech",
+    "nome": "Tributação de fintechs",
+    "descricao": "",
+    "nicho": "fintechs",
+    "palavras_chave": [
+      "tributação fintech",
+      "IOF fintech",
+      "imposto pagamento digital",
+      "ISS fintech",
+      "tributos serviços financeiros"
+    ]
+  },
+  {
+    "slug": "investimento-fintech",
+    "nome": "Investimento e captação em fintechs",
+    "descricao": "",
+    "nicho": "fintechs",
+    "palavras_chave": [
+      "venture capital fintech",
+      "rodada fintech Brasil",
+      "IPO fintech",
+      "aquisição fintech",
+      "M&A setor financeiro"
+    ]
+  },
+  {
+    "slug": "insurtech",
+    "nome": "Seguros digitais (insurtech)",
+    "descricao": "",
+    "nicho": "fintechs",
+    "palavras_chave": [
+      "insurtech Brasil",
+      "SUSEP fintech",
+      "seguro digital regulação",
+      "microsseguro",
+      "resseguro digital"
+    ]
+  },
+  {
+    "slug": "regulacao-ia-brasil",
+    "nome": "Regulação de IA no Brasil",
+    "descricao": "",
+    "nicho": "ia",
+    "palavras_chave": [
+      "PL 2338 IA",
+      "marco legal IA Brasil",
+      "regulação inteligência artificial",
+      "ANPD IA",
+      "CNPD IA"
+    ]
+  },
+  {
+    "slug": "ai-act",
+    "nome": "AI Act e regulação internacional",
+    "descricao": "",
+    "nicho": "ia",
+    "palavras_chave": [
+      "AI Act Europa",
+      "regulação IA EUA",
+      "IA China regulação",
+      "governança IA global"
+    ]
+  },
+  {
+    "slug": "direitos-autorais-ia",
+    "nome": "Direitos autorais e IA generativa",
+    "descricao": "",
+    "nicho": "ia",
+    "palavras_chave": [
+      "copyright IA",
+      "direitos autorais IA generativa",
+      "treinamento IA dados",
+      "propriedade intelectual IA"
+    ]
+  },
+  {
+    "slug": "lgpd-ia",
+    "nome": "LGPD e proteção de dados em IA",
+    "descricao": "",
+    "nicho": "ia",
+    "palavras_chave": [
+      "LGPD inteligência artificial",
+      "dados pessoais IA",
+      "ANPD machine learning",
+      "privacidade IA"
+    ]
+  },
+  {
+    "slug": "contratos-ia",
+    "nome": "Contratos e responsabilidade em IA",
+    "descricao": "",
+    "nicho": "ia",
+    "palavras_chave": [
+      "contrato software IA",
+      "responsabilidade civil IA",
+      "cláusula IA contrato",
+      "SLA IA"
+    ]
+  },
+  {
+    "slug": "tributacao-tech-ia",
+    "nome": "Tributação de empresas de tecnologia e IA",
+    "descricao": "",
+    "nicho": "ia",
+    "palavras_chave": [
+      "tributação software Brasil",
+      "ISS software SaaS",
+      "tributação empresa IA",
+      "Lei do Bem tecnologia"
+    ]
+  },
+  {
+    "slug": "investimento-ia",
+    "nome": "Investimento em IA e deep tech",
+    "descricao": "",
+    "nicho": "ia",
+    "palavras_chave": [
+      "venture capital IA",
+      "rodada startup IA Brasil",
+      "deep tech investimento",
+      "aquisição startup IA"
+    ]
+  },
+  {
+    "slug": "ia-trabalhista",
+    "nome": "IA no trabalho e questões trabalhistas",
+    "descricao": "",
+    "nicho": "ia",
+    "palavras_chave": [
+      "IA demissão automatizada",
+      "substituição IA trabalhista",
+      "direito trabalho IA",
+      "automação trabalho"
+    ]
+  },
+  {
+    "slug": "ibs-cbs",
+    "nome": "IBS e CBS — novos tributos",
+    "descricao": "",
+    "nicho": "reforma",
+    "palavras_chave": [
+      "IBS reforma tributária",
+      "CBS contribuição",
+      "IVA dual Brasil",
+      "alíquota IBS CBS",
+      "regulamentação IBS"
+    ]
+  },
+  {
+    "slug": "imposto-seletivo",
+    "nome": "Imposto Seletivo",
+    "descricao": "",
+    "nicho": "reforma",
+    "palavras_chave": [
+      "Imposto Seletivo Brasil",
+      "IS reforma tributária",
+      "imposto pecado Brasil",
+      "bebidas Imposto Seletivo"
+    ]
+  },
+  {
+    "slug": "transicao-tributaria",
+    "nome": "Transição tributária (2026-2033)",
+    "descricao": "",
+    "nicho": "reforma",
+    "palavras_chave": [
+      "transição reforma tributária",
+      "fim PIS COFINS",
+      "fim ICMS ISS",
+      "cronograma reforma tributária",
+      "período transição"
+    ]
+  },
+  {
+    "slug": "split-payment",
+    "nome": "Split payment e fiscalização",
+    "descricao": "",
+    "nicho": "reforma",
+    "palavras_chave": [
+      "split payment reforma",
+      "recolhimento separado tributo",
+      "cashback reforma tributária",
+      "devolução ICMS"
+    ]
+  },
+  {
+    "slug": "setores-reforma",
+    "nome": "Setores específicos e a reforma",
+    "descricao": "",
+    "nicho": "reforma",
+    "palavras_chave": [
+      "reforma tributária serviços",
+      "reforma tributária indústria",
+      "reforma tributária agro",
+      "reforma tributária saúde"
+    ]
+  },
+  {
+    "slug": "simples-reforma",
+    "nome": "Regimes especiais e o Simples Nacional",
+    "descricao": "",
+    "nicho": "reforma",
+    "palavras_chave": [
+      "Simples Nacional reforma tributária",
+      "MEI reforma",
+      "Lucro Presumido reforma",
+      "regime optativo reforma"
+    ]
+  },
+  {
+    "slug": "compliance-reforma",
+    "nome": "Compliance e adaptação das empresas",
+    "descricao": "",
+    "nicho": "reforma",
+    "palavras_chave": [
+      "adaptação reforma tributária empresa",
+      "ERP reforma tributária",
+      "NFe reforma",
+      "obrigações acessórias reforma"
+    ]
+  },
+  {
+    "slug": "regulamentacao",
+    "nome": "Regulamentação infralegal",
+    "descricao": "",
+    "nicho": "reforma",
+    "palavras_chave": [
+      "lei complementar reforma tributária",
+      "regulamento IBS CBS",
+      "CCIF",
+      "Comitê Gestor IBS"
+    ]
+  }
+]
