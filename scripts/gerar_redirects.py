@@ -66,7 +66,7 @@ def main():
     # ── Validações (hard-fail) ──
     esperado = len(indice) + len(cats) + 5 + 5 + 5
     assert len(rows) == esperado, f"total {len(rows)} != esperado {esperado}"
-    assert len(indice) == 476, f"indice tem {len(indice)} (esperado 476)"
+    assert len(indice) >= 476, f"indice tem {len(indice)} (< snapshot A3 de 476 — regressão)"
     assert len(cats) == 37, f"categorias tem {len(cats)} (esperado 37)"
 
     sources = [s for s, _, _ in rows]

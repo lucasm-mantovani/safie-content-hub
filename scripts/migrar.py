@@ -303,8 +303,8 @@ def main(amostra=False):
     # 1a asserts
     slugs = [a["slug"] for a in indice_full]
     dup = sorted({s for s in slugs if slugs.count(s) > 1})
-    if not amostra and len(indice_full) != 476:
-        raise MigracaoError(f"1a: esperado 476 artigos, veio {len(indice_full)}")
+    if not amostra and len(indice_full) < 476:
+        raise MigracaoError(f"1a: regressão — {len(indice_full)} artigos (< snapshot A3 de 476)")
     if dup:
         raise MigracaoError(f"1a: slugs duplicados entre blogs: {dup}")
 
@@ -387,8 +387,8 @@ def main(amostra=False):
 
         # validações finais de contagem
         n_html = len([p for p in ARTIGOS_DIR.glob("*.html") if p.stem != "index"])
-        if n_html != 476:
-            raise MigracaoError(f"FINAL: {n_html} HTMLs em artigos/ (esperado 476)")
+        if n_html != len(indice_full):
+            raise MigracaoError(f"FINAL: {n_html} HTMLs em artigos/ (esperado {len(indice_full)} = in)")
 
     return {"processados": len(resultados), "sem_capa": sem_capa, "amostra": amostra}
 

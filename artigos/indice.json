@@ -1,5 +1,86 @@
 [
   {
+    "slug": "2026-07-15-transicao-tributaria-2026-2033-o-que-muda-agora",
+    "titulo": "Transição tributária 2026-2033: o que muda agora",
+    "resumo": "A transição para o novo sistema tributário brasileiro (IBS e CBS) ocorre entre 2026 e 2033, mas as obrigações do sistema antigo continuam gerando litígios relevantes nesse período. O STJ retomou, em j",
+    "tema": "Transição tributária (2026-2033)",
+    "tema_slug": "transicao-tributaria",
+    "nicho": "reforma",
+    "data": "2026-07-15T11:16:43Z"
+  },
+  {
+    "slug": "2026-07-15-anthropic-x-openai-o-que-muda-para-investidores-em-ia",
+    "titulo": "Anthropic x OpenAI: o que muda para investidores em IA",
+    "resumo": "A Anthropic atingiu avaliação superior à da OpenAI em 2026, sinalizando que segurança, governança e confiabilidade passaram a pesar mais do que velocidade de lançamento no mercado global de IA. Para i",
+    "tema": "Investimento em IA e deep tech",
+    "tema_slug": "investimento-ia",
+    "nicho": "ia",
+    "data": "2026-07-15T11:02:04Z"
+  },
+  {
+    "slug": "2026-07-15-pix-em-2026-regras-limites-e-obrigacoes",
+    "titulo": "PIX em 2026: regras, limites e obrigações",
+    "resumo": "O PIX é disciplinado pela Resolução BCB 1/2020 e pelo Regulamento do Arranjo PIX, ambos editados pelo Banco Central, e sua participação é obrigatória para instituições com mais de 500 mil contas de cl",
+    "tema": "PIX e meios de pagamento",
+    "tema_slug": "pix-pagamentos",
+    "nicho": "fintechs",
+    "data": "2026-07-15T10:46:52Z"
+  },
+  {
+    "slug": "2026-07-15-tributacao-no-e-commerce-difal-e-piscofins",
+    "titulo": "Tributação no E-commerce: Difal e PIS/Cofins",
+    "resumo": "O STJ pautou, para julgamento em regime de recursos repetitivos, três temas tributários com impacto direto no e-commerce: o Difal de ICMS nas vendas interestaduais a consumidores finais, a incidência ",
+    "tema": "Tributação no e-commerce",
+    "tema_slug": "tributacao-ecommerce",
+    "nicho": "ecommerce",
+    "data": "2026-07-15T10:32:02Z"
+  },
+  {
+    "slug": "2026-07-15-estruturacao-societaria-de-empresas-cripto",
+    "titulo": "Estruturação societária de empresas cripto",
+    "resumo": "A estruturação societária de empresas cripto no Brasil exige escolha adequada do tipo jurídico, enquadramento como prestadora de serviços de ativos virtuais (PSAV) e autorização do Banco Central, conf",
+    "tema": "Estruturação societária de empresas cripto",
+    "tema_slug": "estruturacao-empresa-cripto",
+    "nicho": "cripto",
+    "data": "2026-07-15T10:01:39Z"
+  },
+  {
+    "slug": "2026-07-15-tributacao-de-empresas-de-ia-no-brasil",
+    "titulo": "Tributação de Empresas de IA no Brasil",
+    "resumo": "Empresas de inteligência artificial no Brasil não contam com um regime tributário próprio: elas se enquadram nas regras gerais de tecnologia, com variações importantes conforme a natureza da receita (",
+    "tema": "Tributação de empresas de tecnologia e IA",
+    "tema_slug": "tributacao-tech-ia",
+    "nicho": "ia",
+    "data": "2026-07-15T09:13:52Z"
+  },
+  {
+    "slug": "2026-07-15-regulacao-do-banco-central-para-fintechs",
+    "titulo": "Regulação do Banco Central para Fintechs",
+    "resumo": "O Banco Central do Brasil regula fintechs por meio de um conjunto de normas que abrange instituições de pagamento (IPs), sociedades de crédito direto (SCDs) e sociedades de empréstimo entre pessoas (S",
+    "tema": "Regulação do Banco Central para fintechs",
+    "tema_slug": "regulacao-bacen",
+    "nicho": "fintechs",
+    "data": "2026-07-15T09:08:25Z"
+  },
+  {
+    "slug": "2026-07-15-regulacao-de-criptoativos-no-brasil-em-2026",
+    "titulo": "Regulação de Criptoativos no Brasil em 2026",
+    "resumo": "O Brasil regula criptoativos por meio da Lei 14.478/2022, que atribui ao Banco Central a competência para autorizar e supervisionar prestadoras de serviços de ativos virtuais (PSAVs). O debate america",
+    "tema": "Regulação de criptoativos no Brasil",
+    "tema_slug": "regulacao-cripto",
+    "nicho": "cripto",
+    "data": "2026-07-15T09:06:35Z"
+  },
+  {
+    "slug": "2026-07-15-simples-nacional-e-regimes-especiais-na-reforma-tributaria",
+    "titulo": "Simples Nacional e regimes especiais na reforma tributária",
+    "resumo": "O Simples Nacional continuará existindo após a reforma tributária, mas as empresas optantes precisarão recolher o IBS e a CBS por fora do DAS a partir de 2027, conforme a Lei Complementar 214/2025. A ",
+    "tema": "Regimes especiais e o Simples Nacional",
+    "tema_slug": "simples-reforma",
+    "nicho": "reforma",
+    "data": "2026-07-15T09:06:30Z"
+  },
+  {
     "slug": "2026-07-13-imposto-seletivo-o-que-muda-para-sua-empresa",
     "titulo": "Imposto Seletivo: o que muda para sua empresa",
     "resumo": "O Imposto Seletivo incide sobre bens e serviços considerados prejudiciais à saúde ou ao meio ambiente, com previsão constitucional no art. 153, VIII, da CF, inserido pela EC 132/2023. A partir de 2026",
