@@ -13,7 +13,9 @@
 
 set -e
 
-PASTA="$HOME/CLAUDE/safie-blog-unificado"
+# PASTA = diretório do próprio script (self-locating). Pós-cutover A6 a automação
+# roda no checkout da MAIN (~/CLAUDE/Content-Hub-SAFIE) p/ publicar em produção.
+PASTA="$(cd "$(dirname "$0")" && pwd)"
 SITE="$PASTA/config/site.json"
 LOG="$PASTA/logs/pipeline_$(date +%Y-%m-%d).log"
 mkdir -p "$PASTA/logs"
