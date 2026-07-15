@@ -1,5 +1,5 @@
 {
-  "_comentario": "RSS feeds por nicho, consolidados dos 5 blogs (A2.2). buscar_noticia lê fontes[nicho].rss_feeds.",
+  "_comentario": "RSS feeds por nicho, consolidados dos 5 blogs (A2.2). buscar_noticia lê fontes[nicho].rss_feeds. Feeds saneados no A6 (15/07/2026): Valor/Exame migrados p/ formato atual, feeds mortos removidos, reforma/ia reforçados. Todos validados 200 + itens recentes.",
   "nichos": {
     "cripto": {
       "rss_feeds": [
@@ -16,8 +16,12 @@
           "url": "https://livecoins.com.br/feed/"
         },
         {
-          "nome": "Money Times Cripto",
-          "url": "https://www.moneytimes.com.br/crypto/feed/"
+          "nome": "Money Times",
+          "url": "https://www.moneytimes.com.br/feed/"
+        },
+        {
+          "nome": "BeInCrypto Brasil",
+          "url": "https://br.beincrypto.com/feed/"
         }
       ],
       "sites_prioritarios_apify": [
@@ -54,10 +58,6 @@
         {
           "nome": "Startupi",
           "url": "https://startupi.com.br/feed/"
-        },
-        {
-          "nome": "Pequenas Empresas Grandes Negócios",
-          "url": "https://revistapegn.globo.com/rss/ultimas-noticias.xml"
         }
       ]
     },
@@ -65,7 +65,7 @@
       "rss_feeds": [
         {
           "nome": "Valor Econômico Finanças",
-          "url": "https://valor.globo.com/financas/rss/"
+          "url": "https://valor.globo.com/rss/valor/financas/"
         },
         {
           "nome": "InfoMoney",
@@ -80,8 +80,8 @@
           "url": "https://neofeed.com.br/feed/"
         },
         {
-          "nome": "Exame Negócios",
-          "url": "https://exame.com/negocios/feed/"
+          "nome": "Exame",
+          "url": "https://exame.com/feed/"
         },
         {
           "nome": "Startupi",
@@ -89,7 +89,7 @@
         },
         {
           "nome": "Valor Econômico Empresas",
-          "url": "https://valor.globo.com/empresas/rss/"
+          "url": "https://valor.globo.com/rss/valor/empresas/"
         }
       ]
     },
@@ -100,28 +100,32 @@
           "url": "https://mittechreview.com.br/feed/"
         },
         {
-          "nome": "Olhar Digital IA",
-          "url": "https://olhardigital.com.br/categoria/inteligencia-artificial/feed/"
+          "nome": "Olhar Digital",
+          "url": "https://olhardigital.com.br/feed/"
+        },
+        {
+          "nome": "Canaltech",
+          "url": "https://canaltech.com.br/rss/"
         },
         {
           "nome": "Tecmundo",
-          "url": "https://www.tecmundo.com.br/rss"
+          "url": "https://rss.tecmundo.com.br/feed"
         },
         {
           "nome": "Startupi",
           "url": "https://startupi.com.br/feed/"
         },
         {
-          "nome": "Valor Econômico Empresas",
-          "url": "https://valor.globo.com/empresas/rss/"
-        },
-        {
-          "nome": "Exame Tecnologia",
-          "url": "https://exame.com/tecnologia/feed/"
-        },
-        {
           "nome": "InfoMoney",
           "url": "https://www.infomoney.com.br/feed/"
+        },
+        {
+          "nome": "Valor Econômico Empresas",
+          "url": "https://valor.globo.com/rss/valor/empresas/"
+        },
+        {
+          "nome": "Exame",
+          "url": "https://exame.com/feed/"
         }
       ]
     },
@@ -129,19 +133,15 @@
       "rss_feeds": [
         {
           "nome": "Valor Econômico Legislação",
-          "url": "https://valor.globo.com/legislacao/rss/"
+          "url": "https://valor.globo.com/rss/valor/legislacao/"
         },
         {
           "nome": "JOTA",
           "url": "https://www.jota.info/feed"
         },
         {
-          "nome": "Migalhas",
-          "url": "https://www.migalhas.com.br/rss/ultimas-noticias"
-        },
-        {
-          "nome": "InfoMoney Economia",
-          "url": "https://www.infomoney.com.br/economia/feed/"
+          "nome": "Contábeis",
+          "url": "https://www.contabeis.com.br/rss/noticias/"
         },
         {
           "nome": "Conjur",
@@ -149,11 +149,15 @@
         },
         {
           "nome": "Valor Econômico Empresas",
-          "url": "https://valor.globo.com/empresas/rss/"
+          "url": "https://valor.globo.com/rss/valor/empresas/"
         },
         {
-          "nome": "Exame Economia",
-          "url": "https://exame.com/economia/feed/"
+          "nome": "Exame",
+          "url": "https://exame.com/feed/"
+        },
+        {
+          "nome": "InfoMoney",
+          "url": "https://www.infomoney.com.br/feed/"
         }
       ]
     }
@@ -163,7 +167,8 @@
     "infomoney.com.br": 8,
     "ecommercebrasil.com.br": 8,
     "exame.com": 7,
-    "revistapegn.globo.com": 7,
+    "contabeis.com.br": 6,
+    "canaltech.com.br": 5,
     "olhardigital.com.br": 5,
     "startupi.com.br": 5
   }
