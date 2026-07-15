@@ -935,8 +935,77 @@ h1, h2, h3, h4,
 /* 1.4 — centraliza "Ver todos os artigos" ao fim da galeria */
 .secao-cta { text-align: center; margin-top: 36px; }
 
+/* ============================================
+   Parte 0 (A6) — respiro ferramentas→categorias + form do rodapé
+   ============================================ */
+
+/* 0.1 — respiro entre "Ferramentas e materiais" e "Explore por tema" */
+.secao-categorias-cta { padding: 64px 0 72px; }
+
+/* 0.2 — formulário do rodapé (placeholder, submit inerte) */
+.footer-form-wrap {
+  background: var(--claro);
+  padding: 64px 20px;
+  border-top: 1px solid var(--cinza-claro);
+}
+.footer-form-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1.1fr;
+  gap: 48px;
+  align-items: start;
+}
+.footer-form-texto .secao-kicker { text-align: left; }
+.footer-form-texto h2 {
+  font-family: var(--fonte-display);
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  color: var(--escuro);
+  letter-spacing: -0.02em;
+  margin: 8px 0 12px;
+}
+.footer-form-texto p { color: var(--cinza); font-size: 1rem; line-height: 1.7; max-width: 380px; margin: 0; }
+.footer-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  align-content: start;
+}
+.footer-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--escuro);
+}
+.footer-form label:nth-of-type(3),  /* Empresa */
+.footer-form label:nth-of-type(4) { /* Mensagem */
+  grid-column: 1 / -1;
+}
+.footer-form input,
+.footer-form textarea {
+  font: inherit;
+  font-weight: 400;
+  padding: 11px 14px;
+  border: 1px solid var(--cinza-claro);
+  border-radius: var(--radius);
+  background: var(--branco);
+  color: var(--escuro);
+  width: 100%;
+}
+.footer-form textarea { resize: vertical; min-height: 84px; }
+.footer-form input:focus,
+.footer-form textarea:focus { outline: 2px solid var(--azul); outline-offset: 1px; border-color: var(--azul); }
+.footer-form .cta-btn { grid-column: 1 / -1; justify-self: start; }
+.footer-form-nota { grid-column: 1 / -1; font-size: 0.82rem; color: var(--cinza); line-height: 1.6; margin: 0; }
+@media (max-width: 768px) {
+  .footer-form-inner { grid-template-columns: 1fr; gap: 28px; }
+  .footer-form { grid-template-columns: 1fr; }
+}
+
 /* 2.1 — cards de ferramenta (home) */
-.home-ferramentas { padding: 56px 0 8px; }
+.home-ferramentas { padding: 56px 0 16px; }
 .ferramentas-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
