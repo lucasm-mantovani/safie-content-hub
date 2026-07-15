@@ -1,6 +1,123 @@
 {
-  "gerado_em": "2026-07-14T13:52:47Z",
+  "gerado_em": "2026-07-15T13:50:30Z",
   "posts": [
+    {
+      "blog": "SAFIE Cripto",
+      "blog_slug": "cripto",
+      "blog_url": "https://cripto.safie.blog.br",
+      "cor": "#4a9eff",
+      "slug": "2026-07-15-estruturacao-societaria-de-empresas-cripto",
+      "titulo": "Estruturação societária de empresas cripto",
+      "resumo": "A estruturação societária de empresas cripto no Brasil exige escolha adequada do tipo jurídico, enquadramento como prestadora de serviços de ativos virtuais (PSAV) e autorização do Banco Central, conf",
+      "tema": "Estruturação societária de empresas cripto",
+      "data_iso": "2026-07-15",
+      "data": "15 jul 2026",
+      "url": "https://cripto.safie.blog.br/artigos/2026-07-15-estruturacao-societaria-de-empresas-cripto"
+    },
+    {
+      "blog": "SAFIE Cripto",
+      "blog_slug": "cripto",
+      "blog_url": "https://cripto.safie.blog.br",
+      "cor": "#4a9eff",
+      "slug": "2026-07-15-regulacao-de-criptoativos-no-brasil-em-2026",
+      "titulo": "Regulação de Criptoativos no Brasil em 2026",
+      "resumo": "O Brasil regula criptoativos por meio da Lei 14.478/2022, que atribui ao Banco Central a competência para autorizar e supervisionar prestadoras de serviços de ativos virtuais (PSAVs). O debate america",
+      "tema": "Regulação de criptoativos no Brasil",
+      "data_iso": "2026-07-15",
+      "data": "15 jul 2026",
+      "url": "https://cripto.safie.blog.br/artigos/2026-07-15-regulacao-de-criptoativos-no-brasil-em-2026"
+    },
+    {
+      "blog": "SAFIE E-commerce",
+      "blog_slug": "ecommerce",
+      "blog_url": "https://ecommerce.safie.blog.br",
+      "cor": "#ff6b9d",
+      "slug": "2026-07-15-tributacao-no-e-commerce-difal-e-piscofins",
+      "titulo": "Tributação no E-commerce: Difal e PIS/Cofins",
+      "resumo": "O STJ pautou, para julgamento em regime de recursos repetitivos, três temas tributários com impacto direto no e-commerce: o Difal de ICMS nas vendas interestaduais a consumidores finais, a incidência ",
+      "tema": "Tributação no e-commerce",
+      "data_iso": "2026-07-15",
+      "data": "15 jul 2026",
+      "url": "https://ecommerce.safie.blog.br/artigos/2026-07-15-tributacao-no-e-commerce-difal-e-piscofins"
+    },
+    {
+      "blog": "SAFIE Fintechs",
+      "blog_slug": "fintechs",
+      "blog_url": "https://fintechs.safie.blog.br",
+      "cor": "#3dd68c",
+      "slug": "2026-07-15-pix-em-2026-regras-limites-e-obrigacoes",
+      "titulo": "PIX em 2026: regras, limites e obrigações",
+      "resumo": "O PIX é disciplinado pela Resolução BCB 1/2020 e pelo Regulamento do Arranjo PIX, ambos editados pelo Banco Central, e sua participação é obrigatória para instituições com mais de 500 mil contas de cl",
+      "tema": "PIX e meios de pagamento",
+      "data_iso": "2026-07-15",
+      "data": "15 jul 2026",
+      "url": "https://fintechs.safie.blog.br/artigos/2026-07-15-pix-em-2026-regras-limites-e-obrigacoes"
+    },
+    {
+      "blog": "SAFIE Fintechs",
+      "blog_slug": "fintechs",
+      "blog_url": "https://fintechs.safie.blog.br",
+      "cor": "#3dd68c",
+      "slug": "2026-07-15-regulacao-do-banco-central-para-fintechs",
+      "titulo": "Regulação do Banco Central para Fintechs",
+      "resumo": "O Banco Central do Brasil regula fintechs por meio de um conjunto de normas que abrange instituições de pagamento (IPs), sociedades de crédito direto (SCDs) e sociedades de empréstimo entre pessoas (S",
+      "tema": "Regulação do Banco Central para fintechs",
+      "data_iso": "2026-07-15",
+      "data": "15 jul 2026",
+      "url": "https://fintechs.safie.blog.br/artigos/2026-07-15-regulacao-do-banco-central-para-fintechs"
+    },
+    {
+      "blog": "SAFIE IA for Business",
+      "blog_slug": "ia",
+      "blog_url": "https://ia.safie.blog.br",
+      "cor": "#a78bfa",
+      "slug": "2026-07-15-anthropic-x-openai-o-que-muda-para-investidores-em-ia",
+      "titulo": "Anthropic x OpenAI: o que muda para investidores em IA",
+      "resumo": "A Anthropic atingiu avaliação superior à da OpenAI em 2026, sinalizando que segurança, governança e confiabilidade passaram a pesar mais do que velocidade de lançamento no mercado global de IA. Para i",
+      "tema": "Investimento em IA e deep tech",
+      "data_iso": "2026-07-15",
+      "data": "15 jul 2026",
+      "url": "https://ia.safie.blog.br/artigos/2026-07-15-anthropic-x-openai-o-que-muda-para-investidores-em-ia"
+    },
+    {
+      "blog": "SAFIE IA for Business",
+      "blog_slug": "ia",
+      "blog_url": "https://ia.safie.blog.br",
+      "cor": "#a78bfa",
+      "slug": "2026-07-15-tributacao-de-empresas-de-ia-no-brasil",
+      "titulo": "Tributação de Empresas de IA no Brasil",
+      "resumo": "Empresas de inteligência artificial no Brasil não contam com um regime tributário próprio: elas se enquadram nas regras gerais de tecnologia, com variações importantes conforme a natureza da receita (",
+      "tema": "Tributação de empresas de tecnologia e IA",
+      "data_iso": "2026-07-15",
+      "data": "15 jul 2026",
+      "url": "https://ia.safie.blog.br/artigos/2026-07-15-tributacao-de-empresas-de-ia-no-brasil"
+    },
+    {
+      "blog": "SAFIE Reforma Tributária",
+      "blog_slug": "reforma-tributaria",
+      "blog_url": "https://reformatributaria.safie.blog.br",
+      "cor": "#d4a857",
+      "slug": "2026-07-15-transicao-tributaria-2026-2033-o-que-muda-agora",
+      "titulo": "Transição tributária 2026-2033: o que muda agora",
+      "resumo": "A transição para o novo sistema tributário brasileiro (IBS e CBS) ocorre entre 2026 e 2033, mas as obrigações do sistema antigo continuam gerando litígios relevantes nesse período. O STJ retomou, em j",
+      "tema": "Transição tributária (2026-2033)",
+      "data_iso": "2026-07-15",
+      "data": "15 jul 2026",
+      "url": "https://reformatributaria.safie.blog.br/artigos/2026-07-15-transicao-tributaria-2026-2033-o-que-muda-agora"
+    },
+    {
+      "blog": "SAFIE Reforma Tributária",
+      "blog_slug": "reforma-tributaria",
+      "blog_url": "https://reformatributaria.safie.blog.br",
+      "cor": "#d4a857",
+      "slug": "2026-07-15-simples-nacional-e-regimes-especiais-na-reforma-tributaria",
+      "titulo": "Simples Nacional e regimes especiais na reforma tributária",
+      "resumo": "O Simples Nacional continuará existindo após a reforma tributária, mas as empresas optantes precisarão recolher o IBS e a CBS por fora do DAS a partir de 2027, conforme a Lei Complementar 214/2025. A ",
+      "tema": "Regimes especiais e o Simples Nacional",
+      "data_iso": "2026-07-15",
+      "data": "15 jul 2026",
+      "url": "https://reformatributaria.safie.blog.br/artigos/2026-07-15-simples-nacional-e-regimes-especiais-na-reforma-tributaria"
+    },
     {
       "blog": "SAFIE Cripto",
       "blog_slug": "cripto",
@@ -13,19 +130,6 @@
       "data_iso": "2026-07-13",
       "data": "13 jul 2026",
       "url": "https://cripto.safie.blog.br/artigos/2026-07-13-tributacao-de-criptoativos-no-brasil-o-que-saber"
-    },
-    {
-      "blog": "SAFIE Cripto",
-      "blog_slug": "cripto",
-      "blog_url": "https://cripto.safie.blog.br",
-      "cor": "#4a9eff",
-      "slug": "2026-07-13-tokenizacao-de-ativos-regulacao-e-impacto-no-brasil",
-      "titulo": "Tokenização de Ativos: Regulação e Impacto no Brasil",
-      "resumo": "A tokenização de ativos reais é juridicamente possível no Brasil e está sujeita a regras da CVM, do Banco Central e da Lei 14.478/2022, a depender do tipo de token emitido. O movimento global que impu",
-      "tema": "Tokenização e ativos digitais",
-      "data_iso": "2026-07-13",
-      "data": "13 jul 2026",
-      "url": "https://cripto.safie.blog.br/artigos/2026-07-13-tokenizacao-de-ativos-regulacao-e-impacto-no-brasil"
     },
     {
       "blog": "SAFIE E-commerce",
@@ -67,19 +171,6 @@
       "url": "https://fintechs.safie.blog.br/artigos/2026-07-13-captacao-e-investimento-em-fintechs-o-que-saber"
     },
     {
-      "blog": "SAFIE Fintechs",
-      "blog_slug": "fintechs",
-      "blog_url": "https://fintechs.safie.blog.br",
-      "cor": "#3dd68c",
-      "slug": "2026-07-13-open-finance-e-dados-financeiros-no-brasil",
-      "titulo": "Open Finance e dados financeiros no Brasil",
-      "resumo": "O Open Finance brasileiro é regulado pelo Banco Central por meio da Resolução Conjunta BCB/CMN 1/2020 e suas normas complementares, que estabelecem obrigações graduais de compartilhamento de dados ent",
-      "tema": "Open Finance e dados financeiros",
-      "data_iso": "2026-07-13",
-      "data": "13 jul 2026",
-      "url": "https://fintechs.safie.blog.br/artigos/2026-07-13-open-finance-e-dados-financeiros-no-brasil"
-    },
-    {
       "blog": "SAFIE IA for Business",
       "blog_slug": "ia",
       "blog_url": "https://ia.safie.blog.br",
@@ -93,19 +184,6 @@
       "url": "https://ia.safie.blog.br/artigos/2026-07-13-ai-act-e-cadeia-de-ia-riscos-regulatorios-globais"
     },
     {
-      "blog": "SAFIE IA for Business",
-      "blog_slug": "ia",
-      "blog_url": "https://ia.safie.blog.br",
-      "cor": "#a78bfa",
-      "slug": "2026-07-13-regulacao-de-ia-no-brasil-o-que-muda-em-2026",
-      "titulo": "Regulação de IA no Brasil: o que muda em 2026",
-      "resumo": "O Brasil ainda não possui uma lei federal de IA promulgada, mas o PL 2.338/2023 tramita no Senado com faixas de risco que imporão obrigações concretas de governança a sistemas de IA de risco elevado e",
-      "tema": "Regulação de IA no Brasil",
-      "data_iso": "2026-07-13",
-      "data": "13 jul 2026",
-      "url": "https://ia.safie.blog.br/artigos/2026-07-13-regulacao-de-ia-no-brasil-o-que-muda-em-2026"
-    },
-    {
       "blog": "SAFIE Reforma Tributária",
       "blog_slug": "reforma-tributaria",
       "blog_url": "https://reformatributaria.safie.blog.br",
@@ -117,84 +195,6 @@
       "data_iso": "2026-07-13",
       "data": "13 jul 2026",
       "url": "https://reformatributaria.safie.blog.br/artigos/2026-07-13-imposto-seletivo-o-que-muda-para-sua-empresa"
-    },
-    {
-      "blog": "SAFIE Reforma Tributária",
-      "blog_slug": "reforma-tributaria",
-      "blog_url": "https://reformatributaria.safie.blog.br",
-      "cor": "#d4a857",
-      "slug": "2026-07-13-ibs-e-cbs-impactos-praticos-na-cadeia-produtiva",
-      "titulo": "IBS e CBS: impactos práticos na cadeia produtiva",
-      "resumo": "O IBS e a CBS passam a coexistir com os tributos atuais a partir de 2026, exigindo que empresas de todos os elos da cadeia produtiva revisem estruturas fiscais, contratos e sistemas de apuração. A nov",
-      "tema": "IBS e CBS — novos tributos",
-      "data_iso": "2026-07-13",
-      "data": "13 jul 2026",
-      "url": "https://reformatributaria.safie.blog.br/artigos/2026-07-13-ibs-e-cbs-impactos-praticos-na-cadeia-produtiva"
-    },
-    {
-      "blog": "SAFIE Cripto",
-      "blog_slug": "cripto",
-      "blog_url": "https://cripto.safie.blog.br",
-      "cor": "#4a9eff",
-      "slug": "2026-07-10-multas-de-criptomoedas-r-83-mi-arrecadados-pela-receita",
-      "titulo": "Multas de criptomoedas: R$ 8,3 mi arrecadados pela Receita",
-      "resumo": "A Receita Federal do Brasil arrecadou R$ 8,3 milhões em multas aplicadas a contribuintes que cometeram falhas nas declarações de operações com criptomoedas, conforme dados divulgados pelo Portal do Bi",
-      "tema": "Regulação de criptoativos no Brasil",
-      "data_iso": "2026-07-10",
-      "data": "10 jul 2026",
-      "url": "https://cripto.safie.blog.br/artigos/2026-07-10-multas-de-criptomoedas-r-83-mi-arrecadados-pela-receita"
-    },
-    {
-      "blog": "SAFIE E-commerce",
-      "blog_slug": "ecommerce",
-      "blog_url": "https://ecommerce.safie.blog.br",
-      "cor": "#ff6b9d",
-      "slug": "2026-07-10-shein-e-o-ipo-de-hong-kong-impacto-no-brasil",
-      "titulo": "Shein e o IPO de Hong Kong: impacto no Brasil",
-      "resumo": "O IPO da Shein em Hong Kong, após tentativas frustradas em Londres e Nova York, consolida a empresa como protagonista global do cross-border e reacende o debate sobre tributação de importações de baix",
-      "tema": "Importação e cross-border",
-      "data_iso": "2026-07-10",
-      "data": "10 jul 2026",
-      "url": "https://ecommerce.safie.blog.br/artigos/2026-07-10-shein-e-o-ipo-de-hong-kong-impacto-no-brasil"
-    },
-    {
-      "blog": "SAFIE Fintechs",
-      "blog_slug": "fintechs",
-      "blog_url": "https://fintechs.safie.blog.br",
-      "cor": "#3dd68c",
-      "slug": "2026-07-10-regulacao-do-banco-central-para-fintechs-em-2026",
-      "titulo": "Regulação do Banco Central para fintechs em 2026",
-      "resumo": "O arcabouço regulatório do Banco Central do Brasil impõe obrigações concretas de governança, compliance e integridade a fintechs, instituições de pagamento e bancos digitais, independentemente de disp",
-      "tema": "Regulação do Banco Central para fintechs",
-      "data_iso": "2026-07-10",
-      "data": "10 jul 2026",
-      "url": "https://fintechs.safie.blog.br/artigos/2026-07-10-regulacao-do-banco-central-para-fintechs-em-2026"
-    },
-    {
-      "blog": "SAFIE IA for Business",
-      "blog_slug": "ia",
-      "blog_url": "https://ia.safie.blog.br",
-      "cor": "#a78bfa",
-      "slug": "2026-07-10-aquisicao-em-ia-o-que-a-compra-da-data-rudder-revela",
-      "titulo": "Aquisição em IA: o que a compra da Data Rudder revela",
-      "resumo": "A Núclea anunciou acordo para aquisição da Data Rudder, startup de inteligência artificial especializada em prevenção a fraudes, sinalizando maturidade do M&A em deep tech no Brasil. Operações desse t",
-      "tema": "Investimento em IA e deep tech",
-      "data_iso": "2026-07-10",
-      "data": "10 jul 2026",
-      "url": "https://ia.safie.blog.br/artigos/2026-07-10-aquisicao-em-ia-o-que-a-compra-da-data-rudder-revela"
-    },
-    {
-      "blog": "SAFIE Reforma Tributária",
-      "blog_slug": "reforma-tributaria",
-      "blog_url": "https://reformatributaria.safie.blog.br",
-      "cor": "#d4a857",
-      "slug": "2026-07-08-imposto-seletivo-o-que-muda-para-sua-empresa",
-      "titulo": "Imposto Seletivo: o que muda para sua empresa",
-      "resumo": "O Imposto Seletivo, criado pela EC 132/2023, incide sobre bens e serviços considerados prejudiciais à saúde ou ao meio ambiente. A Declaração de Regimes Específicos (DeRe), destacada pelo JOTA, mostra",
-      "tema": "Imposto Seletivo",
-      "data_iso": "2026-07-08",
-      "data": "8 jul 2026",
-      "url": "https://reformatributaria.safie.blog.br/artigos/2026-07-08-imposto-seletivo-o-que-muda-para-sua-empresa"
     }
   ]
 }
