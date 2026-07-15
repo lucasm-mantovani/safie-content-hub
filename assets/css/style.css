@@ -909,10 +909,11 @@ h1, h2, h3, h4,
    Paleta SAFIE unificada — sem cor de nicho no chrome.
    ============================================ */
 
-/* 1.1 — reduz o vão hero → "Publicados recentemente" */
-.hero { padding-bottom: 44px; }
+/* 1.1 — hero enxuto (eyebrow + H1, sem parágrafo) e vão hero → recentes reduzido */
+.hero { padding: 72px 20px 60px; }
+.hero h1 { margin-bottom: 0; }
 .secao-recentes { padding: 28px 0 8px; }
-@media (max-width: 480px) { .hero { padding-bottom: 36px; } }
+@media (max-width: 480px) { .hero { padding: 52px 16px 44px; } }
 
 /* 1.2 — "Blog" em Fraunces itálico + contraste no header escuro */
 .blog-id {
