@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta name="google-site-verification" content="o2ME48MD1myosxdzANOv2RozPmZyghqIt_zVWQqmHOA" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Regulação de IA no Brasil: KYC, Fraudes e Compliance — SAFIE Blog</title>
+  <meta name="description" content="Golpes com IA burlam KYC de bancos e corretoras. Entenda os riscos jurídicos e as obrigações de compliance para empresas de tecnologia no Brasil.">
+  <link rel="canonical" href="https://safie.blog.br/artigos/2026-04-25-regulacao-de-ia-no-brasil-kyc-fraudes-e-compliance">
+
+  <!-- Open Graph -->
+  <meta property="og:type"        content="article">
+  <meta property="og:title"       content="Regulação de IA no Brasil: KYC, Fraudes e Compliance — SAFIE Blog">
+  <meta property="og:description" content="Golpes com IA burlam KYC de bancos e corretoras. Entenda os riscos jurídicos e as obrigações de compliance para empresas de tecnologia no Brasil.">
+  <meta property="og:url"         content="https://safie.blog.br/artigos/2026-04-25-regulacao-de-ia-no-brasil-kyc-fraudes-e-compliance">
+  <meta property="og:site_name"   content="SAFIE Blog">
+  <meta property="og:locale"      content="pt_BR">
+  <meta property="og:image"       content="https://safie.blog.br/assets/img/artigos/2026-04-25-regulacao-de-ia-no-brasil-kyc-fraudes-e-compliance.svg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="article:published_time" content="2026-04-25T11:01:52Z">
+  <meta property="article:section"       content="Regulação de IA no Brasil">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:title"       content="Regulação de IA no Brasil: KYC, Fraudes e Compliance — SAFIE Blog">
+  <meta name="twitter:description" content="Golpes com IA burlam KYC de bancos e corretoras. Entenda os riscos jurídicos e as obrigações de compliance para empresas de tecnologia no Brasil.">
+  <meta name="twitter:image"       content="https://safie.blog.br/assets/img/artigos/2026-04-25-regulacao-de-ia-no-brasil-kyc-fraudes-e-compliance.svg">
+
+  <!-- Schema.org JSON-LD (BlogPosting + FAQPage) -->
+  <script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Regulação de IA no Brasil: KYC, Fraudes e Compliance",
+    "description": "Golpes com IA burlam KYC de bancos e corretoras. Entenda os riscos jurídicos e as obrigações de compliance para empresas de tecnologia no Brasil.",
+    "datePublished": "2026-04-25T11:01:52Z",
+    "dateModified": "2026-07-10T10:01:59-03:00",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://safie.blog.br/artigos/2026-04-25-regulacao-de-ia-no-brasil-kyc-fraudes-e-compliance"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Lucas Mantovani",
+      "sameAs": [
+        "https://www.linkedin.com/in/lucasm-mantovani/",
+        "https://www.instagram.com/lucasm.mantovani/"
+      ]
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "SAFIE",
+      "url": "https://safie.com.br",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://consultoria.safie.com.br/wp-content/uploads/2025/11/cropped-2-1-1024x292.webp"
+      },
+      "sameAs": [
+        "https://www.instagram.com/safiegroup/",
+        "https://www.instagram.com/safiecontabilidade/"
+      ]
+    },
+    "url": "https://safie.blog.br/artigos/2026-04-25-regulacao-de-ia-no-brasil-kyc-fraudes-e-compliance",
+    "articleSection": "Regulação de IA no Brasil",
+    "inLanguage": "pt-BR"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Minha fintech é responsável se um golpista burlar nosso KYC com deepfake gerado por IA?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Depende. A responsabilidade civil existe se for comprovado que as medidas de segurança adotadas eram inadequadas para o nível de risco da operação. O BCB e a ANPD avaliam se os controles técnicos eram proporcionais. Simplesmente ter um sistema de reconhecimento facial não é suficiente: é preciso documentar testes de robustez, atualizações periódicas e camadas adicionais de verificação."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O Marco Legal da IA (PL 2.338/2023) impacta sistemas de KYC automatizado?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim. Sistemas de IA usados para decidir o acesso de pessoas a serviços financeiros são classificados como de alto risco pelo texto aprovado no Senado. Isso exigirá documentação técnica, avaliação de conformidade antes da implantação e mecanismos que permitam revisão humana das decisões automatizadas."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Exchanges de criptoativos têm obrigações de KYC iguais às dos bancos tradicionais?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não exatamente iguais, mas comparáveis. A Resolução BCB nº 455/2024 exige autorização prévia para operar e submissão às normas de PLD/FT do COAF e do BCB. As obrigações de identificação de clientes são equivalentes às das instituições de pagamento, incluindo coleta de documentos, verificação de identidade e monitoramento de transações suspeitas."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quais multas a empresa pode receber por falhas no KYC que permitirem lavagem de dinheiro?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "O COAF pode aplicar multas de até BRL 20 milhões por infração administrativa em caso de descumprimento das normas de PLD/FT (Lei 9.613/1998, art. 12). O BCB também pode aplicar penalidades próprias e, em casos graves, cassar autorizações de funcionamento. A ANPD pode aplicar multas de até 2% do faturamento no Brasil, limitadas a BRL 50 milhões por infração, em caso de violação da LGPD no tratamento dos dados de KYC."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Como proteger tecnicamente um sistema de KYC contra ataques com IA generativa?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "As medidas mais eficazes incluem: liveness detection ativa (com desafios em tempo real), cruzamento de dados com bases governamentais como Serpro e Denatran, análise de metadados do dispositivo, detecção de anomalias comportamentais durante o onboarding e atualização contínua dos modelos de detecção de deepfakes. Nenhuma solução isolada é suficiente: o padrão regulatório exige abordagem em camadas."
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Início",
+        "item": "https://safie.blog.br"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Regulação de IA no Brasil",
+        "item": "https://safie.blog.br/categorias/regulacao-ia-brasil"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Regulação de IA no Brasil: KYC, Fraudes e Compliance",
+        "item": "https://safie.blog.br/artigos/2026-04-25-regulacao-de-ia-no-brasil-kyc-fraudes-e-compliance"
+      }
+    ]
+  }
+]
+  </script>
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/artigo.css">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="/assets/img/android-chrome-512x512.png">
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+</head>
+<body data-nicho="ia">
+
+<!-- partial: header — cabeçalho comum do SAFIE Blog (injetado via {{HEADER}}) -->
+<header class="site-header" role="banner">
+  <div class="header-inner">
+    <a href="/" class="logo" aria-label="SAFIE Blog — Página inicial">
+      <img class="logo-img" src="/assets/logos/safie-logo-branco.svg" alt="SAFIE">
+      <span class="blog-id">Blog</span>
+    </a>
+    <nav id="nav-principal" class="nav-principal" aria-label="Navegação principal">
+      <a href="/">Início</a>
+      <a href="/artigos/">Artigos</a>
+      <a href="/categorias/">Categorias</a>
+    </nav>
+    <form class="header-busca" role="search" action="/busca" method="get">
+      <label for="busca-q-header" class="sr-only">Buscar artigos</label>
+      <input type="search" id="busca-q-header" name="q" placeholder="Buscar…" autocomplete="off">
+      <button type="submit" aria-label="Buscar">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      </button>
+    </form>
+    <a href="https://safie.com.br" class="nav-voltar" target="_blank" rel="noopener">Voltar ao site SAFIE →</a>
+    <button id="menu-toggle" class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+<nav class="breadcrumb" aria-label="Trilha de navegação">
+  <div class="container">
+    <a href="/">Início</a> <span aria-hidden="true">›</span>
+    <a href="/categorias/regulacao-ia-brasil">Regulação de IA no Brasil</a> <span aria-hidden="true">›</span>
+    <span aria-current="page">Regulação de IA no Brasil: KYC, Fraudes e Compliance</span>
+  </div>
+</nav>
+
+  <article class="artigo-wrapper" itemscope itemtype="https://schema.org/BlogPosting">
+
+    <header class="artigo-header">
+      <a class="artigo-tema" href="/categorias/regulacao-ia-brasil">Regulação de IA no Brasil</a>
+
+      <h1 class="artigo-titulo" itemprop="headline">Regulação de IA no Brasil: KYC, Fraudes e Compliance</h1>
+
+      <div class="artigo-meta">
+        <span>Por <strong itemprop="author">SAFIE</strong></span>
+        <span>·</span>
+        <time datetime="2026-04-25T11:01:52Z" itemprop="datePublished">25 de abril de 2026</time>
+        <span>·</span>
+        <span>4 min de leitura</span>
+      </div>
+    </header>
+
+    <img class="artigo-capa" src="/assets/img/artigos/2026-04-25-regulacao-de-ia-no-brasil-kyc-fraudes-e-compliance.svg" alt="Regulação de IA no Brasil: KYC, Fraudes e Compliance — capa ilustrativa do artigo sobre Regulação de IA no Brasil" width="1200" height="630" loading="lazy">
+
+    <!-- Resumo executivo (para IAs generativas / GEO) -->
+    <aside class="resumo-executivo" itemprop="abstract">
+      <strong>Resumo executivo</strong>
+      A MIT Technology Review Brasil identificou dezenas de canais no Telegram oferecendo serviços para burlar processos de KYC em bancos e corretoras de criptomoedas, usando ferramentas baseadas em IA generativa. O episódio expõe lacunas regulatórias críticas no Brasil e reforça a responsabilidade jurídica de fintechs e plataformas digitais que adotam verificação de identidade automatizada. Para empresas de tecnologia, o risco não é apenas reputacional: é penal, regulatório e contratual.
+    </aside>
+
+    <!-- Corpo do artigo -->
+    <div class="artigo-corpo" itemprop="articleBody">
+      <p>A MIT Technology Review Brasil revelou a existência de aproximadamente duas dúzias de canais e grupos no Telegram dedicados a burlar processos de verificação de identidade (KYC, sigla para <em>Know Your Customer</em>) em grandes corretoras de criptomoedas e bancos. As ferramentas oferecidas nesses grupos utilizam recursos de inteligência artificial para falsificar documentos, simular biometria facial e contornar os controles automatizados exigidos pela regulação financeira.</p><p>O caso não é isolado. Ele integra uma tendência global de uso de IA generativa para fraudes de identidade, que já causou prejuízos estimados em USD 48 bilhões ao setor financeiro mundial em 2023, segundo relatório da Javelin Strategy &amp; Research. No Brasil, o impacto direto recai sobre fintechs, bancos digitais e exchanges de criptoativos que operam sob obrigações rígidas de prevenção à lavagem de dinheiro.</p><p>Para founders, CTOs e compliance officers, o episódio levanta uma pergunta urgente: qual é a responsabilidade jurídica de uma plataforma quando sua camada de KYC automatizado é burlada por IA adversarial? A resposta, no marco regulatório brasileiro atual, é mais complexa do que parece.</p>
+
+<h2>Contexto jurídico e regulatório</h2>
+<h2>O que diz o arcabouço regulatório brasileiro</h2><p>No Brasil, a obrigação de KYC para instituições financeiras e prestadores de serviços de ativos virtuais decorre de três pilares normativos principais: a Lei nº 9.613/1998 (Lei de Lavagem de Dinheiro), atualizada pela Lei nº 12.683/2012; a Resolução BCB nº 37/2021, que trata de prevenção a fraudes no âmbito do PIX; e a Resolução BCB nº 96/2021, que regulamenta as instituições de pagamento. Para exchanges de criptoativos, soma-se a Resolução BCB nº 455/2024, que passou a exigir autorização prévia do Banco Central para operação no país.</p><p>A LGPD (Lei nº 13.709/2018) também incide diretamente sobre os sistemas de KYC. O tratamento de dados biométricos e documentos de identidade enquadra-se como dado pessoal sensível (art. 5º, inciso II), sujeito a consentimento explícito e medidas técnicas de segurança proporcionais ao risco. Se uma plataforma adota reconhecimento facial automatizado e esse sistema é enganado por deepfake gerado por IA, a ANPD pode questionar se as medidas de segurança adotadas eram adequadas, com base no art. 46 da LGPD.</p><p>Há ainda o PL 2.338/2023, o Marco Legal da IA, aprovado pelo Senado e em tramitação na Câmara até a data de publicação deste artigo. O texto classifica sistemas de IA usados em decisões de acesso a serviços financeiros como de alto risco (art. 14), o que exigirá avaliação de conformidade, documentação técnica e mecanismos de supervisão humana. Sistemas de verificação biométrica e análise de documentos para KYC se enquadram nessa categoria.</p><p>Do ponto de vista penal, a facilitação involuntária de fraudes por falha em sistemas de KYC não gera, por si só, responsabilidade criminal da empresa. Contudo, se houver omissão dolosa ou culpa grave na adoção de controles adequados, gestores podem responder por participação em crime de lavagem de dinheiro (art. 1º, §2º, da Lei 9.613/1998) ou por descumprimento de normas do COAF, que pode aplicar multas de até BRL 20 milhões por infração.</p>
+
+<h2>Impacto prático</h2>
+<p>Para startups de IA que desenvolvem ou integram soluções de KYC, o cenário exige revisão imediata de contratos com clientes financeiros. Cláusulas de responsabilidade por falhas no sistema de verificação precisam estar alinhadas ao que o Marco Legal da IA deve exigir: rastreabilidade das decisões automatizadas e possibilidade de contestação humana. Contratos que transferem integralmente o risco ao cliente sem documentar as limitações técnicas do sistema tendem a ser contestados judicialmente.</p><p>CTOs e times de engenharia devem avaliar a robustez dos modelos contra ataques adversariais, incluindo deepfakes e documentos sintéticos. Ferramentas de liveness detection passiva já demonstraram vulnerabilidade a ataques com vídeos de alta resolução e modelos de difusão. A atualização contínua dos modelos e a adoção de camadas adicionais de verificação (como cruzamento com bases governamentais como Serpro e Denatran) deixaram de ser diferenciais para se tornarem requisitos mínimos de compliance.</p><p>Para advogados e contadores que assessoram fintechs, o momento é de mapear exposição regulatória dupla: perante o Banco Central, pela inadequação dos controles de PLD/FT (Prevenção à Lavagem de Dinheiro e ao Financiamento do Terrorismo), e perante a ANPD, pela eventual inadequação das medidas de segurança no tratamento de dados biométricos. Esses dois processos correm em paralelo e podem gerar sanções cumulativas.</p>
+
+<h2>Considerações finais</h2>
+<p>O uso de IA para burlar KYC não é um problema futuro: já está acontecendo em canais abertos do Telegram, identificados por pesquisadores da MIT Technology Review Brasil. O que muda com o Marco Legal da IA e a regulação do BCB para exchanges é que a tolerância regulatória com sistemas mal documentados e sem supervisão humana tende a zero. Empresas que tratam KYC automatizado como caixa-preta correm risco jurídico concreto.</p><p>A janela para adequação ainda está aberta, mas fecha com a aprovação definitiva do PL 2.338/2023 e com a maturação da supervisão da ANPD. Founders e gestores que agirem agora, revisando arquitetura técnica, contratos e políticas de PLD, saem na frente tanto na segurança operacional quanto na posição regulatória.</p>
+    </div>
+
+    <!-- FAQ -->
+    <section class="faq-section" id="faq" itemscope itemtype="https://schema.org/FAQPage">
+      <h2>Perguntas frequentes</h2>
+      <div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Minha fintech é responsável se um golpista burlar nosso KYC com deepfake gerado por IA?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">Depende. A responsabilidade civil existe se for comprovado que as medidas de segurança adotadas eram inadequadas para o nível de risco da operação. O BCB e a ANPD avaliam se os controles técnicos eram proporcionais. Simplesmente ter um sistema de reconhecimento facial não é suficiente: é preciso documentar testes de robustez, atualizações periódicas e camadas adicionais de verificação.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">O Marco Legal da IA (PL 2.338/2023) impacta sistemas de KYC automatizado?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">Sim. Sistemas de IA usados para decidir o acesso de pessoas a serviços financeiros são classificados como de alto risco pelo texto aprovado no Senado. Isso exigirá documentação técnica, avaliação de conformidade antes da implantação e mecanismos que permitam revisão humana das decisões automatizadas.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Exchanges de criptoativos têm obrigações de KYC iguais às dos bancos tradicionais?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">Não exatamente iguais, mas comparáveis. A Resolução BCB nº 455/2024 exige autorização prévia para operar e submissão às normas de PLD/FT do COAF e do BCB. As obrigações de identificação de clientes são equivalentes às das instituições de pagamento, incluindo coleta de documentos, verificação de identidade e monitoramento de transações suspeitas.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Quais multas a empresa pode receber por falhas no KYC que permitirem lavagem de dinheiro?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">O COAF pode aplicar multas de até BRL 20 milhões por infração administrativa em caso de descumprimento das normas de PLD/FT (Lei 9.613/1998, art. 12). O BCB também pode aplicar penalidades próprias e, em casos graves, cassar autorizações de funcionamento. A ANPD pode aplicar multas de até 2% do faturamento no Brasil, limitadas a BRL 50 milhões por infração, em caso de violação da LGPD no tratamento dos dados de KYC.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Como proteger tecnicamente um sistema de KYC contra ataques com IA generativa?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">As medidas mais eficazes incluem: liveness detection ativa (com desafios em tempo real), cruzamento de dados com bases governamentais como Serpro e Denatran, análise de metadados do dispositivo, detecção de anomalias comportamentais durante o onboarding e atualização contínua dos modelos de detecção de deepfakes. Nenhuma solução isolada é suficiente: o padrão regulatório exige abordagem em camadas.</span></div>
+</div>
+
+    </section>
+
+    <!-- Referências -->
+    <aside class="referencias">
+      <h3>Fontes e referências</h3>
+      <span>- Fonte original: [MIT Technology Review Brasil](https://mittechreview.com.br/golpes-kyc-telegram-bancos-cripto/)</span>
+<span>- Lei nº 9.613/1998, atualizada pela Lei nº 12.683/2012: [Planalto](https://www.planalto.gov.br/ccivil_03/leis/l9613.htm)</span>
+<span>- Lei Geral de Proteção de Dados (LGPD), Lei nº 13.709/2018: [Planalto](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm)</span>
+<span>- Resolução BCB nº 455/2024, regulamentação de prestadores de serviços de ativos virtuais: [Banco Central do Brasil](https://www.bcb.gov.br)</span>
+<span>- PL 2.338/2023, Marco Legal da Inteligência Artificial: [Senado Federal](https://www25.senado.leg.br/web/atividade/materias/-/materia/157233)</span>
+<span>- Javelin Strategy & Research, Identity Fraud Study 2024: [Javelin](https://javelinstrategy.com)</span>
+
+    </aside>
+
+  </article>
+    <!-- CTA consultivo (leva ao WhatsApp da SAFIE) -->
+    <div class="container">
+      <div class="artigo-cta">
+        <h3>Decisão jurídica ou contábil pendente?</h3>
+        <p>A SAFIE atende founders e gestores com acesso direto aos sócios — jurídico e contabilidade integrados sob o mesmo teto. Conversamos para entender o caso antes de qualquer recomendação.</p>
+        <a href="https://wa.me/5511934329769?text=Ol%C3%A1!%20Vim%20pelo%20blog%20da%20SAFIE%20e%20gostaria%20de%20conversar." class="cta-btn" target="_blank" rel="noopener">Falar com a SAFIE</a>
+      </div>
+    </div>
+
+
+  <!-- Artigos relacionados -->
+  <div class="container">
+    <section class="relacionados">
+      <h2>Continue lendo</h2>
+      <div class="relacionados-lista">
+<ul class="relacionados-items">
+  <li><a href="/artigos/2026-07-13-regulacao-de-ia-no-brasil-o-que-muda-em-2026">Regulação de IA no Brasil: o que muda em 2026</a></li>
+  <li><a href="/artigos/2026-06-17-stf-marco-civil-e-ia-o-que-muda-para-startups">STF, Marco Civil e IA: o que muda para startups</a></li>
+  <li><a href="/artigos/2026-05-22-tv-30-e-ia-regulacao-e-impactos-no-brasil">TV 3.0 e IA: regulação e impactos no Brasil</a></li>
+</ul>
+</div>
+    </section>
+  </div>
+
+  <!-- Sobre os autores -->
+  <div class="container">
+    <div class="sobre-autores">
+      <span class="sobre-autores-titulo">Sobre os autores</span>
+      <p>Conteúdo produzido pela SAFIE, consultoria jurídico-contábil para empresas digitais e de tecnologia. A SAFIE é liderada por <a href="https://instagram.com/lucasm.mantovani" target="_blank" rel="noopener"><strong>Lucas Mantovani</strong></a> e <a href="https://instagram.com/euitalocunha" target="_blank" rel="noopener"><strong>Italo Cunha</strong></a>.</p>
+    </div>
+  </div>
+
+</main>
+
+<!-- partial: footer — rodapé comum COM formulário (injetado via {{FOOTER}}) -->
+<!-- Formulário de contato — placeholder. Submit inerte; integração HubSpot na fase A5/A6. -->
+<section class="footer-form-wrap" aria-label="Fale com a SAFIE">
+  <div class="footer-form-inner">
+    <div class="footer-form-texto">
+      <p class="secao-kicker">Fale com a SAFIE</p>
+      <h2>Decisão jurídica ou contábil pendente?</h2>
+      <p>Atendemos founders e gestores com acesso direto aos sócios — jurídico e contabilidade sob o mesmo teto.</p>
+    </div>
+    <!-- TODO A5/A6: HubSpot — este form ainda NÃO envia. -->
+    <form class="footer-form" data-form="rodape" onsubmit="return false" novalidate>
+      <label>Nome*
+        <input type="text" name="nome" autocomplete="name" required>
+      </label>
+      <label>E-mail*
+        <input type="email" name="email" autocomplete="email" required>
+      </label>
+      <label>Empresa
+        <input type="text" name="empresa" autocomplete="organization">
+      </label>
+      <label>Mensagem
+        <textarea name="mensagem" rows="3"></textarea>
+      </label>
+      <button type="submit" class="cta-btn" disabled aria-disabled="true">Enviar (em breve)</button>
+      <p class="footer-form-nota">Formulário em configuração. Por ora, fale conosco em
+        <a href="mailto:contato@safie.com.br">contato@safie.com.br</a>.</p>
+    </form>
+  </div>
+</section>
+
+<footer class="site-footer" role="contentinfo">
+  <div class="footer-inner">
+    <div class="footer-topo">
+      <div class="footer-marca">
+        <span class="logo-marca footer-logo-texto">Blog <span style="color:var(--ciano)">SAFIE</span></span>
+        <p>Consultoria jurídico-contábil para negócios digitais, startups e a nova economia.</p>
+      </div>
+      <div class="footer-nav">
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="/">Início</a></li>
+            <li><a href="/artigos/">Artigos</a></li>
+            <li><a href="/categorias/">Categorias</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Links</h4>
+          <ul>
+            <li><a href="https://safie.com.br" target="_blank" rel="noopener">safie.com.br</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+            <li><a href="mailto:contato@safie.com.br">contato@safie.com.br</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-arco-iris" aria-hidden="true"></div>
+    <div class="footer-cnpjs" aria-label="CNPJ SAFIE">
+      <span>SAFIE TECNOLOGIA E CONSULTORIA LTDA, inscrita no CNPJ sob o nº 42.224.278/0001-92, sediada à Av. Brigadeiro Faria Lima, Conj. 1102, Jardim Paulistano, CEP nº 01452922, São Paulo-SP</span>
+    </div>
+    <div class="footer-base">
+      <span>&copy; 2026 SAFIE. Todos os direitos reservados.</span>
+      <span>Conteúdo informativo; não constitui parecer jurídico ou contábil individualizado.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/js/busca.js"></script>
+<script>
+fetch('https://safie-analytics.lucas-mantovani.workers.dev/track', {
+  method: 'POST',
+  headers: {'Content-Type': 'application/json'},
+  body: JSON.stringify({ url: window.location.pathname, blog: 'ia' })
+}).catch(() => {});
+</script>
+<script src="/assets/js/widget-whatsapp.js" defer></script>
+</body>
+</html>

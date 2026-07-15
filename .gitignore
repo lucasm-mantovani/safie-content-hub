@@ -16,5 +16,8 @@ Thumbs.db
 # Logs
 *.log
 
+# Cache local do Wrangler / Cloudflare Pages
+.wrangler/
+
 # Artefatos de design (não versionar — fonte em _design-archive local)
 _design-archive/

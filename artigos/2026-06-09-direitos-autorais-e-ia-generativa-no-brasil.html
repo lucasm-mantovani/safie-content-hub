@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta name="google-site-verification" content="o2ME48MD1myosxdzANOv2RozPmZyghqIt_zVWQqmHOA" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Direitos autorais e IA generativa no Brasil — SAFIE Blog</title>
+  <meta name="description" content="IA generativa e direitos autorais: o que founders, CTOs e advogados precisam saber sobre o marco legal brasileiro em 2026.">
+  <link rel="canonical" href="https://safie.blog.br/artigos/2026-06-09-direitos-autorais-e-ia-generativa-no-brasil">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="author" content="SAFIE">
+  <meta name="keywords" content="direitos, autorais, generativa, brasil, Lei 9.610, Lei 13.709/2018, PL 2338/2023">
+
+  <!-- Open Graph -->
+  <meta property="og:type"        content="article">
+  <meta property="og:title"       content="Direitos autorais e IA generativa no Brasil — SAFIE Blog">
+  <meta property="og:description" content="IA generativa e direitos autorais: o que founders, CTOs e advogados precisam saber sobre o marco legal brasileiro em 2026.">
+  <meta property="og:url"         content="https://safie.blog.br/artigos/2026-06-09-direitos-autorais-e-ia-generativa-no-brasil">
+  <meta property="og:site_name"   content="SAFIE Blog">
+  <meta property="og:locale"      content="pt_BR">
+  <meta property="og:image"       content="https://safie.blog.br/assets/img/artigos/2026-06-09-direitos-autorais-e-ia-generativa-no-brasil.svg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="article:published_time" content="2026-06-09T03:19:45Z">
+  <meta property="article:section"       content="Direitos autorais e IA generativa">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:title"       content="Direitos autorais e IA generativa no Brasil — SAFIE Blog">
+  <meta name="twitter:description" content="IA generativa e direitos autorais: o que founders, CTOs e advogados precisam saber sobre o marco legal brasileiro em 2026.">
+  <meta name="twitter:image"       content="https://safie.blog.br/assets/img/artigos/2026-06-09-direitos-autorais-e-ia-generativa-no-brasil.svg">
+
+  <!-- Schema.org JSON-LD (BlogPosting + FAQPage) -->
+  <script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Direitos autorais e IA generativa no Brasil",
+    "description": "IA generativa e direitos autorais: o que founders, CTOs e advogados precisam saber sobre o marco legal brasileiro em 2026.",
+    "datePublished": "2026-06-09T03:19:45Z",
+    "dateModified": "2026-07-10T10:01:59-03:00",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://safie.blog.br/artigos/2026-06-09-direitos-autorais-e-ia-generativa-no-brasil"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Lucas Mantovani",
+      "sameAs": [
+        "https://www.linkedin.com/in/lucasm-mantovani/",
+        "https://www.instagram.com/lucasm.mantovani/"
+      ]
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "SAFIE",
+      "url": "https://safie.com.br",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://consultoria.safie.com.br/wp-content/uploads/2025/11/cropped-2-1-1024x292.webp"
+      },
+      "sameAs": [
+        "https://www.instagram.com/safiegroup/",
+        "https://www.instagram.com/safiecontabilidade/"
+      ]
+    },
+    "url": "https://safie.blog.br/artigos/2026-06-09-direitos-autorais-e-ia-generativa-no-brasil",
+    "articleSection": "Direitos autorais e IA generativa",
+    "inLanguage": "pt-BR"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Uma obra criada por IA generativa tem direitos autorais no Brasil?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não de forma automática. A Lei 9.610/1998 exige autoria humana para proteção autoral. Se não houver contribuição criativa de uma pessoa física no processo de geração, o output não é protegido por direitos autorais. A empresa pode, no entanto, proteger o sistema, o código-fonte e os prompts via segredo industrial ou registro de software no INPI."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Posso usar dados de pacientes para treinar meu modelo de IA em saúde?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Apenas com base legal adequada prevista na LGPD. Para dados sensíveis de saúde, o consentimento específico ou o legítimo interesse devidamente justificado são as bases mais utilizadas. O uso sem base legal pode gerar multas de até R$ 50 milhões por infração, além de sanções reputacionais e bloqueio de operações pela ANPD."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quem é dono do conteúdo gerado por IA no meu produto SaaS?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Depende do contrato. Se o contrato com o cliente não definir a titularidade, há ambiguidade jurídica. O recomendado é incluir cláusulas expressas que atribuam ao cliente os outputs gerados a partir de seus dados, enquanto a startup retém a propriedade sobre o modelo, os algoritmos e a plataforma."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O PL 2338/2023 já está em vigor e afeta minha startup?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "O projeto foi aprovado pelo Senado em dezembro de 2024 e segue em tramitação na Câmara em 2026. Ainda não é lei. Mas startups classificadas como desenvolvedoras de sistemas de IA de alto risco, como ferramentas de diagnóstico médico, devem se preparar desde já para as obrigações previstas no texto, especialmente documentação técnica e avaliação de impacto algorítmico."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Como proteger o código gerado por IA dentro do meu produto?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "O caminho mais seguro é o registro de programa de computador no INPI, desde que haja contribuição humana identificável no desenvolvimento. Complementarmente, políticas de segredo industrial e contratos de confidencialidade com colaboradores e parceiros reforçam a proteção. O uso de licenças abertas nos modelos base, como MIT ou Apache 2.0, também precisa ser verificado para garantir compatibilidade com o uso comercial."
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Início",
+        "item": "https://safie.blog.br"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Direitos autorais e IA generativa",
+        "item": "https://safie.blog.br/categorias/direitos-autorais-ia"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Direitos autorais e IA generativa no Brasil",
+        "item": "https://safie.blog.br/artigos/2026-06-09-direitos-autorais-e-ia-generativa-no-brasil"
+      }
+    ]
+  }
+]
+  </script>
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/artigo.css">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="/assets/img/android-chrome-512x512.png">
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+</head>
+<body data-nicho="ia">
+
+<!-- partial: header — cabeçalho comum do SAFIE Blog (injetado via {{HEADER}}) -->
+<header class="site-header" role="banner">
+  <div class="header-inner">
+    <a href="/" class="logo" aria-label="SAFIE Blog — Página inicial">
+      <img class="logo-img" src="/assets/logos/safie-logo-branco.svg" alt="SAFIE">
+      <span class="blog-id">Blog</span>
+    </a>
+    <nav id="nav-principal" class="nav-principal" aria-label="Navegação principal">
+      <a href="/">Início</a>
+      <a href="/artigos/">Artigos</a>
+      <a href="/categorias/">Categorias</a>
+    </nav>
+    <form class="header-busca" role="search" action="/busca" method="get">
+      <label for="busca-q-header" class="sr-only">Buscar artigos</label>
+      <input type="search" id="busca-q-header" name="q" placeholder="Buscar…" autocomplete="off">
+      <button type="submit" aria-label="Buscar">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      </button>
+    </form>
+    <a href="https://safie.com.br" class="nav-voltar" target="_blank" rel="noopener">Voltar ao site SAFIE →</a>
+    <button id="menu-toggle" class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+<nav class="breadcrumb" aria-label="Trilha de navegação">
+  <div class="container">
+    <a href="/">Início</a> <span aria-hidden="true">›</span>
+    <a href="/categorias/direitos-autorais-ia">Direitos autorais e IA generativa</a> <span aria-hidden="true">›</span>
+    <span aria-current="page">Direitos autorais e IA generativa no Brasil</span>
+  </div>
+</nav>
+
+  <article class="artigo-wrapper" itemscope itemtype="https://schema.org/BlogPosting">
+
+    <header class="artigo-header">
+      <a class="artigo-tema" href="/categorias/direitos-autorais-ia">Direitos autorais e IA generativa</a>
+
+      <h1 class="artigo-titulo" itemprop="headline">Direitos autorais e IA generativa no Brasil</h1>
+
+      <div class="artigo-meta">
+        <span>Por <strong itemprop="author">SAFIE</strong></span>
+        <span>·</span>
+        <time datetime="2026-06-09T03:19:45Z" itemprop="datePublished">9 de junho de 2026</time>
+        <span>·</span>
+        <span>4 min de leitura</span>
+      </div>
+    </header>
+
+    <img class="artigo-capa" src="/assets/img/artigos/2026-06-09-direitos-autorais-e-ia-generativa-no-brasil.svg" alt="Direitos autorais e IA generativa no Brasil — capa ilustrativa do artigo sobre Direitos autorais e IA generativa" width="1200" height="630" loading="lazy">
+
+    <!-- Resumo executivo (para IAs generativas / GEO) -->
+    <aside class="resumo-executivo" itemprop="abstract">
+      <strong>Resumo executivo</strong>
+      A expansão da IA generativa no setor de saúde, ilustrada pelo programa da AWS que levou healthtechs brasileiras a Londres, expõe uma lacuna jurídica crítica: o Brasil ainda não possui legislação específica sobre titularidade autoral em obras geradas por IA. A Lei 9.610/1998 exige autoria humana para proteção autoral, o que coloca em risco ativos intelectuais de startups que dependem de conteúdo gerado por modelos generativos. Sem adequação contratual e estrutura de propriedade intelectual robusta, empresas de IA podem perder direitos sobre seus próprios produtos.
+    </aside>
+
+    <!-- Corpo do artigo -->
+    <div class="artigo-corpo" itemprop="articleBody">
+      <p>Em maio de 2025, a Amazon Web Services (AWS) selecionou healthtechs brasileiras para uma missão de internacionalização em Londres, dentro do programa AWS Health Equity Initiative. A iniciativa conectou startups nacionais a investidores, parceiros e clientes europeus, acelerando o uso de inteligência artificial em diagnósticos, gestão hospitalar e telemedicina, conforme reportado pelo Startupi.</p>
+<p>O movimento evidencia uma tendência concreta: empresas brasileiras de saúde digital estão exportando soluções baseadas em IA generativa. Isso significa que seus modelos, outputs e interfaces precisam estar protegidos juridicamente, não apenas no Brasil, mas nas jurisdições para onde avançam.</p>
+<p>O problema é que o marco legal brasileiro sobre direitos autorais e IA generativa ainda é fragmentado. Esse vácuo jurídico cria riscos reais para founders, investidores e para qualquer empresa que monetize conteúdo, código ou diagnósticos produzidos por modelos de linguagem ou imagem.</p>
+
+<h2>Contexto jurídico e regulatório</h2>
+<h2>O que diz a legislação brasileira sobre autoria de obras geradas por IA</h2>
+<p>A Lei de Direitos Autorais brasileira, Lei 9.610 de 1998, define que apenas pessoas físicas podem ser autoras de obras intelectuais. O artigo 11 é explícito: "Autor é a pessoa física criadora de obra literária, artística ou científica." Pessoas jurídicas podem ser titulares de direitos, mas não autoras. Algoritmos e modelos de IA não se enquadram em nenhuma dessas categorias.</p>
+<p>Na prática, isso significa que um relatório médico gerado por um modelo de linguagem, uma imagem de diagnóstico produzida por IA ou um código escrito por um copilot não têm, automaticamente, proteção autoral no Brasil. O output pertence a ninguém, juridicamente falando, a menos que haja intervenção humana criativa suficiente para caracterizar coautoria.</p>
+<p>O Escritório de Direitos Autorais dos Estados Unidos (USCO) já estabeleceu, em 2023, que obras inteiramente geradas por IA não são registráveis. O mesmo entendimento tende a prevalecer no Brasil por analogia, ainda que sem regulamentação expressa. A diferença é que o Brasil sequer tem uma diretriz formal do órgão competente, a Biblioteca Nacional, sobre o tema.</p>
+<h2>O PL 2338/2023 e a regulamentação da IA no Brasil</h2>
+<p>O Projeto de Lei 2338/2023, aprovado pelo Senado Federal em dezembro de 2024 e em tramitação na Câmara dos Deputados em 2026, estabelece princípios para o desenvolvimento e uso de sistemas de IA no Brasil. O texto aborda transparência, responsabilidade e proteção de dados, mas não resolve de forma direta a questão da titularidade autoral de outputs gerados por IA.</p>
+<p>O projeto classifica sistemas de IA de alto risco, categoria que pode incluir soluções de diagnóstico médico como as desenvolvidas pelas healthtechs do programa AWS. Para essas empresas, haverá obrigações adicionais de documentação técnica, avaliação de impacto e responsabilização civil, que impactam diretamente o modelo de negócios e a due diligence de investidores.</p>
+<p>Paralelamente, a Lei Geral de Proteção de Dados (Lei 13.709/2018) já incide sobre qualquer uso de dados de saúde para treinar modelos de IA. O uso não autorizado de prontuários, imagens médicas ou históricos de pacientes para fine-tuning de modelos configura violação grave, sujeita a multas de até 2% do faturamento da empresa no Brasil, limitada a R$ 50 milhões por infração, conforme o artigo 52 da LGPD.</p>
+
+<h2>Impacto prático</h2>
+<p>Para founders e CTOs de healthtechs, o cenário exige ação imediata em três frentes. Primeiro, mapeamento dos outputs gerados por IA dentro do produto: relatórios, recomendações, interfaces, código proprietário. Cada um desses elementos precisa de uma estratégia de proteção, seja via segredo industrial, contrato de confidencialidade ou depósito de software no INPI.</p>
+<p>Segundo, os contratos com clientes e parceiros internacionais precisam definir explicitamente a titularidade dos outputs. Quando uma healthtech exporta sua solução para o mercado europeu via parceria com a AWS, o contrato de prestação de serviços deve esclarecer: quem é dono do diagnóstico gerado pelo modelo? O cliente, a startup ou a plataforma de nuvem? Sem essa cláusula, há risco de disputas em jurisdições com regras distintas.</p>
+<p>Terceiro, investidores e fundos de venture capital já estão exigindo, em processos de due diligence, a comprovação de que os dados usados para treinamento foram obtidos com base legal adequada. Startups que utilizaram datasets públicos sem verificar licenças de uso, ou que processaram dados de pacientes sem consentimento específico para treinamento de IA, podem ter seus valuations comprometidos ou negócios bloqueados em rodadas de captação.</p>
+
+<h2>Considerações finais</h2>
+<p>A internacionalização de healthtechs brasileiras via programas como o da AWS é uma conquista concreta do ecossistema nacional. Mas exportar produto sem exportar também a estrutura jurídica adequada é um erro que pode ser caro. Propriedade intelectual mal protegida é ativo que vira passivo no momento da captação, da aquisição ou do litígio.</p>
+<p>O Brasil está construindo seu marco regulatório de IA, mas as lacunas atuais já têm consequências práticas. Founders, advogados e contadores que assessoram empresas de tecnologia precisam agir agora, sem esperar a regulamentação definitiva, estruturando contratos, políticas de dados e estratégias de PI que resistam ao escrutínio de investidores e reguladores brasileiros e estrangeiros.</p>
+    </div>
+
+    <!-- FAQ -->
+    <section class="faq-section" id="faq" itemscope itemtype="https://schema.org/FAQPage">
+      <h2>Perguntas frequentes</h2>
+      <div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Uma obra criada por IA generativa tem direitos autorais no Brasil?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">Não de forma automática. A Lei 9.610/1998 exige autoria humana para proteção autoral. Se não houver contribuição criativa de uma pessoa física no processo de geração, o output não é protegido por direitos autorais. A empresa pode, no entanto, proteger o sistema, o código-fonte e os prompts via segredo industrial ou registro de software no INPI.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Posso usar dados de pacientes para treinar meu modelo de IA em saúde?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">Apenas com base legal adequada prevista na LGPD. Para dados sensíveis de saúde, o consentimento específico ou o legítimo interesse devidamente justificado são as bases mais utilizadas. O uso sem base legal pode gerar multas de até R$ 50 milhões por infração, além de sanções reputacionais e bloqueio de operações pela ANPD.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Quem é dono do conteúdo gerado por IA no meu produto SaaS?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">Depende do contrato. Se o contrato com o cliente não definir a titularidade, há ambiguidade jurídica. O recomendado é incluir cláusulas expressas que atribuam ao cliente os outputs gerados a partir de seus dados, enquanto a startup retém a propriedade sobre o modelo, os algoritmos e a plataforma.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">O PL 2338/2023 já está em vigor e afeta minha startup?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">O projeto foi aprovado pelo Senado em dezembro de 2024 e segue em tramitação na Câmara em 2026. Ainda não é lei. Mas startups classificadas como desenvolvedoras de sistemas de IA de alto risco, como ferramentas de diagnóstico médico, devem se preparar desde já para as obrigações previstas no texto, especialmente documentação técnica e avaliação de impacto algorítmico.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Como proteger o código gerado por IA dentro do meu produto?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">O caminho mais seguro é o registro de programa de computador no INPI, desde que haja contribuição humana identificável no desenvolvimento. Complementarmente, políticas de segredo industrial e contratos de confidencialidade com colaboradores e parceiros reforçam a proteção. O uso de licenças abertas nos modelos base, como MIT ou Apache 2.0, também precisa ser verificado para garantir compatibilidade com o uso comercial.</span></div>
+</div>
+
+    </section>
+
+    <!-- Referências -->
+    <aside class="referencias">
+      <h2>Fontes e referências</h2>
+      <ul>
+<li><a href="https://startupi.com.br/aws-leva-healthtechs-brasileiras-a-londres/" target="_blank" rel="noopener">Startupi</a></li>
+<li><span class="ref-label">Fonte original:</span> <a href="https://startupi.com.br/aws-leva-healthtechs-brasileiras-a-londres/" target="_blank" rel="noopener">Startupi - AWS leva healthtechs brasileiras a Londres</a></li>
+<li><span class="ref-label">Lei 9.610/1998 - Lei de Direitos Autorais:</span> <a href="https://www.planalto.gov.br/ccivil_03/leis/l9610.htm" target="_blank" rel="noopener">Planalto</a></li>
+<li><span class="ref-label">Lei 13.709/2018 - Lei Geral de Proteção de Dados (LGPD):</span> <a href="https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm" target="_blank" rel="noopener">Planalto</a></li>
+<li><span class="ref-label">PL 2338/2023 - Projeto de Lei de Inteligência Artificial:</span> <a href="https://www25.senado.leg.br/web/atividade/materias/-/materia/157233" target="_blank" rel="noopener">Senado Federal</a></li>
+<li><span class="ref-label">US Copyright Office - Copyright and Artificial Intelligence (2023):</span> <a href="https://www.copyright.gov/ai/" target="_blank" rel="noopener">copyright.gov</a></li>
+<li><span class="ref-label">INPI - Registro de Programas de Computador:</span> <a href="https://www.gov.br/inpi/pt-br/servicos/programas-de-computador" target="_blank" rel="noopener">gov.br</a></li>
+</ul>
+
+    </aside>
+
+  </article>
+    <!-- CTA consultivo (leva ao WhatsApp da SAFIE) -->
+    <div class="container">
+      <div class="artigo-cta">
+        <h3>Decisão jurídica ou contábil pendente?</h3>
+        <p>A SAFIE atende founders e gestores com acesso direto aos sócios — jurídico e contabilidade integrados sob o mesmo teto. Conversamos para entender o caso antes de qualquer recomendação.</p>
+        <a href="https://wa.me/5511934329769?text=Ol%C3%A1!%20Vim%20pelo%20blog%20da%20SAFIE%20e%20gostaria%20de%20conversar." class="cta-btn" target="_blank" rel="noopener">Falar com a SAFIE</a>
+      </div>
+    </div>
+
+
+
+  <!-- Sobre os autores -->
+  <div class="container">
+    <div class="sobre-autores">
+      <span class="sobre-autores-titulo">Sobre os autores</span>
+      <p>Conteúdo produzido pela SAFIE, consultoria jurídico-contábil para empresas digitais e de tecnologia. A SAFIE é liderada por <a href="https://instagram.com/lucasm.mantovani" target="_blank" rel="noopener"><strong>Lucas Mantovani</strong></a> e <a href="https://instagram.com/euitalocunha" target="_blank" rel="noopener"><strong>Italo Cunha</strong></a>.</p>
+    </div>
+  </div>
+
+  <!-- Artigos relacionados -->
+  <div class="container">
+    <section class="relacionados">
+      <h2>Continue lendo</h2>
+      <div class="relacionados-lista">
+<ul class="relacionados-items">
+  <li><a href="/artigos/2026-07-15-transicao-tributaria-2026-2033-o-que-muda-agora">Transição tributária 2026-2033: o que muda agora</a></li>
+  <li><a href="/artigos/2026-07-15-anthropic-x-openai-o-que-muda-para-investidores-em-ia">Anthropic x OpenAI: o que muda para investidores em IA</a></li>
+  <li><a href="/artigos/2026-07-15-pix-em-2026-regras-limites-e-obrigacoes">PIX em 2026: regras, limites e obrigações</a></li>
+</ul>
+</div>
+    </section>
+  </div>
+</main>
+
+<!-- partial: footer — rodapé comum COM formulário (injetado via {{FOOTER}}) -->
+<!-- Formulário de contato — placeholder. Submit inerte; integração HubSpot na fase A5/A6. -->
+<section class="footer-form-wrap" aria-label="Fale com a SAFIE">
+  <div class="footer-form-inner">
+    <div class="footer-form-texto">
+      <p class="secao-kicker">Fale com a SAFIE</p>
+      <h2>Decisão jurídica ou contábil pendente?</h2>
+      <p>Atendemos founders e gestores com acesso direto aos sócios — jurídico e contabilidade sob o mesmo teto.</p>
+    </div>
+    <!-- TODO A5/A6: HubSpot — este form ainda NÃO envia. -->
+    <form class="footer-form" data-form="rodape" onsubmit="return false" novalidate>
+      <label>Nome*
+        <input type="text" name="nome" autocomplete="name" required>
+      </label>
+      <label>E-mail*
+        <input type="email" name="email" autocomplete="email" required>
+      </label>
+      <label>Empresa
+        <input type="text" name="empresa" autocomplete="organization">
+      </label>
+      <label>Mensagem
+        <textarea name="mensagem" rows="3"></textarea>
+      </label>
+      <button type="submit" class="cta-btn" disabled aria-disabled="true">Enviar (em breve)</button>
+      <p class="footer-form-nota">Formulário em configuração. Por ora, fale conosco em
+        <a href="mailto:contato@safie.com.br">contato@safie.com.br</a>.</p>
+    </form>
+  </div>
+</section>
+
+<footer class="site-footer" role="contentinfo">
+  <div class="footer-inner">
+    <div class="footer-topo">
+      <div class="footer-marca">
+        <span class="logo-marca footer-logo-texto">Blog <span style="color:var(--ciano)">SAFIE</span></span>
+        <p>Consultoria jurídico-contábil para negócios digitais, startups e a nova economia.</p>
+      </div>
+      <div class="footer-nav">
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="/">Início</a></li>
+            <li><a href="/artigos/">Artigos</a></li>
+            <li><a href="/categorias/">Categorias</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Links</h4>
+          <ul>
+            <li><a href="https://safie.com.br" target="_blank" rel="noopener">safie.com.br</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+            <li><a href="mailto:contato@safie.com.br">contato@safie.com.br</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-arco-iris" aria-hidden="true"></div>
+    <div class="footer-cnpjs" aria-label="CNPJ SAFIE">
+      <span>SAFIE TECNOLOGIA E CONSULTORIA LTDA, inscrita no CNPJ sob o nº 42.224.278/0001-92, sediada à Av. Brigadeiro Faria Lima, Conj. 1102, Jardim Paulistano, CEP nº 01452922, São Paulo-SP</span>
+    </div>
+    <div class="footer-base">
+      <span>&copy; 2026 SAFIE. Todos os direitos reservados.</span>
+      <span>Conteúdo informativo; não constitui parecer jurídico ou contábil individualizado.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/js/busca.js"></script>
+<script>
+fetch('https://safie-analytics.lucas-mantovani.workers.dev/track', {
+  method: 'POST',
+  headers: {'Content-Type': 'application/json'},
+  body: JSON.stringify({ url: window.location.pathname, blog: 'ia' })
+}).catch(() => {});
+</script>
+<script src="/assets/js/widget-whatsapp.js" defer></script>
+</body>
+</html>

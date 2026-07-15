@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta name="google-site-verification" content="o2ME48MD1myosxdzANOv2RozPmZyghqIt_zVWQqmHOA" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Zcash, PLD e compliance: o que a falha revela — SAFIE Blog</title>
+  <meta name="description" content="A falha crítica do Zcash expõe riscos regulatórios e de PLD para empresas cripto no Brasil. Saiba o que a Lei 14.478/2022 exige nesse cenário.">
+  <link rel="canonical" href="https://safie.blog.br/artigos/2026-06-06-zcash-pld-e-compliance-o-que-a-falha-revela">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="author" content="SAFIE">
+  <meta name="keywords" content="zcash, compliance, falha, revela, cripto, Lei 14.478, Lei 9.613/1998, Lei 12.683/2012, Lei 14.478/2022, Banco Central">
+
+  <!-- Open Graph -->
+  <meta property="og:type"        content="article">
+  <meta property="og:title"       content="Zcash, PLD e compliance: o que a falha revela — SAFIE Blog">
+  <meta property="og:description" content="A falha crítica do Zcash expõe riscos regulatórios e de PLD para empresas cripto no Brasil. Saiba o que a Lei 14.478/2022 exige nesse cenário.">
+  <meta property="og:url"         content="https://safie.blog.br/artigos/2026-06-06-zcash-pld-e-compliance-o-que-a-falha-revela">
+  <meta property="og:site_name"   content="SAFIE Blog">
+  <meta property="og:locale"      content="pt_BR">
+  <meta property="og:image"       content="https://safie.blog.br/assets/img/artigos/2026-06-06-zcash-pld-e-compliance-o-que-a-falha-revela.svg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="article:published_time" content="2026-06-06T10:01:24Z">
+  <meta property="article:section"       content="Compliance e PLD cripto">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:title"       content="Zcash, PLD e compliance: o que a falha revela — SAFIE Blog">
+  <meta name="twitter:description" content="A falha crítica do Zcash expõe riscos regulatórios e de PLD para empresas cripto no Brasil. Saiba o que a Lei 14.478/2022 exige nesse cenário.">
+  <meta name="twitter:image"       content="https://safie.blog.br/assets/img/artigos/2026-06-06-zcash-pld-e-compliance-o-que-a-falha-revela.svg">
+
+  <!-- Schema.org JSON-LD (BlogPosting + FAQPage) -->
+  <script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Zcash, PLD e compliance: o que a falha revela",
+    "description": "A falha crítica do Zcash expõe riscos regulatórios e de PLD para empresas cripto no Brasil. Saiba o que a Lei 14.478/2022 exige nesse cenário.",
+    "datePublished": "2026-06-06T10:01:24Z",
+    "dateModified": "2026-07-10T10:02:53-03:00",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://safie.blog.br/artigos/2026-06-06-zcash-pld-e-compliance-o-que-a-falha-revela"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Lucas Mantovani",
+      "sameAs": [
+        "https://www.linkedin.com/in/lucasm-mantovani/",
+        "https://www.instagram.com/lucasm.mantovani/"
+      ]
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "SAFIE",
+      "url": "https://safie.com.br",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://consultoria.safie.com.br/wp-content/uploads/2025/11/cropped-2-1-1024x292.webp"
+      },
+      "sameAs": [
+        "https://www.instagram.com/safiegroup/",
+        "https://www.instagram.com/safiecontabilidade/"
+      ]
+    },
+    "url": "https://safie.blog.br/artigos/2026-06-06-zcash-pld-e-compliance-o-que-a-falha-revela",
+    "articleSection": "Compliance e PLD cripto",
+    "inLanguage": "pt-BR"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Exchanges brasileiras podem listar Zcash e outras privacy coins?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim, a legislação brasileira não proíbe expressamente a listagem de privacy coins. No entanto, a Resolução BCB 317/2023 exige que o PSAV realize uma avaliação prévia de risco do ativo antes de listá-lo. Moedas com privacidade aprimorada são classificadas como de risco elevado pelo FATF/GAFI, o que demanda controles reforçados de PLD-FT e pode, dependendo da avaliação interna, inviabilizar a listagem do ativo."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O que é a Regra de Viagem e como ela afeta transações com Zcash?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A Regra de Viagem, regulamentada no Brasil pela Resolução BCB 340/2023, obriga PSAVs a transmitir dados identificadores do originador e do beneficiário em transferências de ativos virtuais acima de determinados limites. O problema com o Zcash e outras privacy coins é que suas funcionalidades de privacidade dificultam ou impossibilitam o cumprimento dessa obrigação, o que pode configurar violação regulatória por parte do PSAV."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Uma falha técnica em um ativo cripto gera obrigação de comunicação ao COAF?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não existe obrigação automática de comunicação ao COAF apenas por conta da falha técnica no protocolo. No entanto, se o PSAV identificar operações suspeitas que possam ter explorado a vulnerabilidade para fins de lavagem de dinheiro ou ocultação de recursos, a comunicação ao COAF é obrigatória nos termos do artigo 11 da Lei 9.613/1998. O monitoramento pós-evento é, portanto, uma obrigação indireta relevante."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Como declarar perda com Zcash no Imposto de Renda?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Para pessoas físicas, criptoativos devem ser declarados pelo custo de aquisição na ficha de Bens e Direitos. A queda de valor de mercado, mesmo que expressiva, não altera o valor declarado enquanto o ativo não for vendido. Perdas fiscais em cripto só são reconhecidas quando a operação é efetivamente realizada, ou seja, quando há alienação do ativo. No momento da venda com prejuízo, a perda pode compensar ganhos futuros, desde que apurada corretamente no mês da operação."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quais são as penalidades para PSAVs que descumprirem obrigações de PLD-FT?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A Lei 14.478/2022, em seu artigo 22, prevê penalidades que vão de advertência e multa até a inabilitação para exercício de cargo em instituição autorizada. O valor das multas pode chegar a 2 bilhões de reais ou a percentual sobre o valor da operação ou do patrimônio. Além disso, a Lei 9.613/1998 prevê sanções autônomas pelo descumprimento de obrigações de PLD-FT, incluindo multas do COAF de até 20 milhões de reais por infração."
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Início",
+        "item": "https://safie.blog.br"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Compliance e PLD cripto",
+        "item": "https://safie.blog.br/categorias/compliance-cripto"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Zcash, PLD e compliance: o que a falha revela",
+        "item": "https://safie.blog.br/artigos/2026-06-06-zcash-pld-e-compliance-o-que-a-falha-revela"
+      }
+    ]
+  }
+]
+  </script>
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/artigo.css">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="/assets/img/android-chrome-512x512.png">
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+</head>
+<body data-nicho="cripto">
+
+<!-- partial: header — cabeçalho comum do SAFIE Blog (injetado via {{HEADER}}) -->
+<header class="site-header" role="banner">
+  <div class="header-inner">
+    <a href="/" class="logo" aria-label="SAFIE Blog — Página inicial">
+      <img class="logo-img" src="/assets/logos/safie-logo-branco.svg" alt="SAFIE">
+      <span class="blog-id">Blog</span>
+    </a>
+    <nav id="nav-principal" class="nav-principal" aria-label="Navegação principal">
+      <a href="/">Início</a>
+      <a href="/artigos/">Artigos</a>
+      <a href="/categorias/">Categorias</a>
+    </nav>
+    <form class="header-busca" role="search" action="/busca" method="get">
+      <label for="busca-q-header" class="sr-only">Buscar artigos</label>
+      <input type="search" id="busca-q-header" name="q" placeholder="Buscar…" autocomplete="off">
+      <button type="submit" aria-label="Buscar">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      </button>
+    </form>
+    <a href="https://safie.com.br" class="nav-voltar" target="_blank" rel="noopener">Voltar ao site SAFIE →</a>
+    <button id="menu-toggle" class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+<nav class="breadcrumb" aria-label="Trilha de navegação">
+  <div class="container">
+    <a href="/">Início</a> <span aria-hidden="true">›</span>
+    <a href="/categorias/compliance-cripto">Compliance e PLD cripto</a> <span aria-hidden="true">›</span>
+    <span aria-current="page">Zcash, PLD e compliance: o que a falha revela</span>
+  </div>
+</nav>
+
+  <article class="artigo-wrapper" itemscope itemtype="https://schema.org/BlogPosting">
+
+    <header class="artigo-header">
+      <a class="artigo-tema" href="/categorias/compliance-cripto">Compliance e PLD cripto</a>
+
+      <h1 class="artigo-titulo" itemprop="headline">Zcash, PLD e compliance: o que a falha revela</h1>
+
+      <div class="artigo-meta">
+        <span>Por <strong itemprop="author">SAFIE</strong></span>
+        <span>·</span>
+        <time datetime="2026-06-06T10:01:24Z" itemprop="datePublished">6 de junho de 2026</time>
+        <span>·</span>
+        <span>4 min de leitura</span>
+      </div>
+    </header>
+
+    <img class="artigo-capa" src="/assets/img/artigos/2026-06-06-zcash-pld-e-compliance-o-que-a-falha-revela.svg" alt="Zcash, PLD e compliance: o que a falha revela — capa ilustrativa do artigo sobre Compliance e PLD cripto" width="1200" height="630" loading="lazy">
+
+    <!-- Resumo executivo (para IAs generativas / GEO) -->
+    <aside class="resumo-executivo" itemprop="abstract">
+      <strong>Resumo executivo</strong>
+      Em outubro de 2025, o Zcash revelou uma vulnerabilidade crítica em seu protocolo de privacidade, provocando queda expressiva de valor e renovando o debate regulatório sobre moedas de privacidade. No Brasil, a Lei 14.478/2022 e as normas do Banco Central impõem obrigações específicas de PLD-FT para exchanges e prestadores de serviços em ativos virtuais que operam com esse tipo de ativo. O episódio reforça a necessidade de políticas de compliance robustas e de avaliação de risco prévia antes de listar ou negociar moedas com recursos de privacidade aprimorada.
+    </aside>
+
+    <!-- Corpo do artigo -->
+    <div class="artigo-corpo" itemprop="articleBody">
+      <p>Em outubro de 2025, o projeto Zcash (ZEC) divulgou publicamente uma falha grave em seu protocolo de provas de conhecimento zero (zero-knowledge proofs), o mecanismo criptográfico que garante transações confidenciais na rede. Segundo o <a href='https://portaldobitcoin.uol.com.br/o-zcash-ira-se-recuperar-apos-perder-bilhoes-de-valor-com-descoberta-de-falha-critica/' target='_blank' rel='noopener'>Portal do Bitcoin</a>, o preço do ZEC despencou após a divulgação da vulnerabilidade, com a capitalização de mercado sofrendo perdas de bilhões de dólares em questão de horas.</p><p>A notícia gerou reação imediata no mercado, mas o episódio vai além da volatilidade de preço. Ele levanta questões técnicas, jurídicas e de compliance que afetam diretamente exchanges brasileiras, gestores de fundos cripto e qualquer prestador de serviço em ativos virtuais (PSAV) que liste ou recomende moedas com funcionalidades de privacidade aprimorada.</p><p>Este artigo analisa o que a falha do Zcash representa do ponto de vista regulatório brasileiro, quais obrigações de Prevenção à Lavagem de Dinheiro e ao Financiamento do Terrorismo (PLD-FT) estão em jogo e o que empresas e profissionais precisam fazer para se manter em conformidade.</p>
+
+<h2>Contexto jurídico e regulatório</h2>
+<h2>O marco regulatório brasileiro e as moedas de privacidade</h2><p>A Lei 14.478, de 21 de dezembro de 2022, conhecida como o Marco Legal dos Criptoativos, estabeleceu a base jurídica para a atuação de prestadores de serviços em ativos virtuais no Brasil. A norma determina que o Banco Central do Brasil (BCB) é o principal regulador do setor e que os PSAVs devem cumprir obrigações de PLD-FT equivalentes às impostas às instituições financeiras tradicionais.</p><p>Em complemento, a Resolução BCB 317/2023 detalhou os requisitos para autorização e funcionamento dos PSAVs, incluindo a exigência de políticas internas de gestão de risco, controles de Know Your Customer (KYC) e reporte de operações suspeitas ao Conselho de Controle de Atividades Financeiras (COAF), nos termos da Lei 9.613/1998, com as alterações promovidas pela Lei 12.683/2012.</p><p>Nesse contexto, moedas com privacidade aprimorada, como o Zcash, o Monero (XMR) e o Dash em modo PrivateSend, representam um desafio estrutural para o compliance de PLD-FT. O Financial Action Task Force (FATF/GAFI), em sua orientação de 2021 sobre ativos virtuais, classifica as chamadas <em>privacy coins</em> como fator de risco elevado, recomendando que jurisdições considerem a proibição ou a restrição de sua oferta por PSAVs regulados.</p><h2>Falha técnica e agravamento do risco regulatório</h2><p>A vulnerabilidade identificada no Zcash em 2025 não é apenas um problema técnico de protocolo. Do ponto de vista regulatório, ela agrava o perfil de risco do ativo em pelo menos dois aspectos relevantes.</p><p>Primeiro, uma falha em provas de conhecimento zero pode, dependendo de sua natureza, permitir a geração de unidades não rastreáveis de forma fraudulenta, comprometendo a integridade do registro de transações. Isso é diretamente incompatível com a obrigação de rastreabilidade que os PSAVs devem garantir para cumprir a Regra de Viagem (Travel Rule), prevista na Resolução BCB 340/2023, que exige a transmissão de dados do originador e do beneficiário em transferências de ativos virtuais acima de determinados valores.</p><p>Segundo, a divulgação pública de uma vulnerabilidade crítica em um ativo listado por um PSAV brasileiro pode caracterizar falha na avaliação prévia de risco de produto, etapa obrigatória nos termos do artigo 16 da Resolução BCB 317/2023, que exige que o prestador demonstre ter avaliado os riscos operacionais, tecnológicos e de integridade financeira dos ativos que oferece a clientes.</p>
+
+<h2>Impacto prático</h2>
+<p>Para exchanges e PSAVs que listam ou listaram o Zcash, o episódio exige uma revisão imediata de três frentes: a avaliação de risco do produto, a política de suspensão ou delisting de ativos e a comunicação ao regulador caso haja indícios de que a falha foi explorada em operações cursadas pela plataforma.</p><p>Do ponto de vista contábil, a queda brusca de valor do ZEC pode impactar carteiras próprias mantidas por PSAVs, fundos de investimento em criptoativos e clientes pessoa jurídica que detêm o ativo em balanço. A NBC TG 38 (instrumentos financeiros) e a orientação do CPC 48 determinam que ativos classificados como valor justo por meio do resultado devem refletir imediatamente as variações de mercado, incluindo aquelas decorrentes de eventos de risco não financeiro, como falhas de protocolo. Gestores e contadores devem avaliar a necessidade de divulgação em notas explicativas e de ajuste de provisões.</p><p>Para investidores pessoas físicas, o impacto é tributário e declaratório. Quedas de valor superiores a 50% em um único ativo em carteira, especialmente quando associadas a um evento técnico documentado, precisam ser registradas corretamente na declaração de bens da Receita Federal, pelo custo de aquisição, sem possibilidade de redução ao valor de mercado para fins de apuração de perda fiscal, salvo em operações efetivamente realizadas. Isso significa que a perda patrimonial do Zcash só gera efeito fiscal quando o ativo é efetivamente vendido.</p>
+
+<h2>Considerações finais</h2>
+<p>O caso do Zcash é um exemplo concreto de como vulnerabilidades técnicas em protocolos cripto têm desdobramentos jurídicos, contábeis e regulatórios imediatos. PSAVs que não revisarem suas políticas de avaliação de risco de produto e suas obrigações de PLD-FT em relação a privacy coins estarão expostos a sanções administrativas do Banco Central, que podem incluir advertência, multa de até 2 bilhões de reais ou inabilitação, conforme o artigo 22 da Lei 14.478/2022.</p><p>A mensagem prática é direta: compliance em cripto não se limita a KYC na entrada do cliente. Envolve monitoramento contínuo dos ativos listados, revisão de políticas diante de eventos de risco e comunicação proativa com o regulador quando necessário. O episódio do Zcash reforça que a gestão de risco de produto é tão importante quanto a gestão de risco de cliente.</p>
+    </div>
+
+    <!-- FAQ -->
+    <section class="faq-section" id="faq" itemscope itemtype="https://schema.org/FAQPage">
+      <h2>Perguntas frequentes</h2>
+      <div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Exchanges brasileiras podem listar Zcash e outras privacy coins?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">Sim, a legislação brasileira não proíbe expressamente a listagem de privacy coins. No entanto, a Resolução BCB 317/2023 exige que o PSAV realize uma avaliação prévia de risco do ativo antes de listá-lo. Moedas com privacidade aprimorada são classificadas como de risco elevado pelo FATF/GAFI, o que demanda controles reforçados de PLD-FT e pode, dependendo da avaliação interna, inviabilizar a listagem do ativo.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">O que é a Regra de Viagem e como ela afeta transações com Zcash?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">A Regra de Viagem, regulamentada no Brasil pela Resolução BCB 340/2023, obriga PSAVs a transmitir dados identificadores do originador e do beneficiário em transferências de ativos virtuais acima de determinados limites. O problema com o Zcash e outras privacy coins é que suas funcionalidades de privacidade dificultam ou impossibilitam o cumprimento dessa obrigação, o que pode configurar violação regulatória por parte do PSAV.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Uma falha técnica em um ativo cripto gera obrigação de comunicação ao COAF?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">Não existe obrigação automática de comunicação ao COAF apenas por conta da falha técnica no protocolo. No entanto, se o PSAV identificar operações suspeitas que possam ter explorado a vulnerabilidade para fins de lavagem de dinheiro ou ocultação de recursos, a comunicação ao COAF é obrigatória nos termos do artigo 11 da Lei 9.613/1998. O monitoramento pós-evento é, portanto, uma obrigação indireta relevante.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Como declarar perda com Zcash no Imposto de Renda?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">Para pessoas físicas, criptoativos devem ser declarados pelo custo de aquisição na ficha de Bens e Direitos. A queda de valor de mercado, mesmo que expressiva, não altera o valor declarado enquanto o ativo não for vendido. Perdas fiscais em cripto só são reconhecidas quando a operação é efetivamente realizada, ou seja, quando há alienação do ativo. No momento da venda com prejuízo, a perda pode compensar ganhos futuros, desde que apurada corretamente no mês da operação.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Quais são as penalidades para PSAVs que descumprirem obrigações de PLD-FT?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">A Lei 14.478/2022, em seu artigo 22, prevê penalidades que vão de advertência e multa até a inabilitação para exercício de cargo em instituição autorizada. O valor das multas pode chegar a 2 bilhões de reais ou a percentual sobre o valor da operação ou do patrimônio. Além disso, a Lei 9.613/1998 prevê sanções autônomas pelo descumprimento de obrigações de PLD-FT, incluindo multas do COAF de até 20 milhões de reais por infração.</span></div>
+</div>
+
+    </section>
+
+    <!-- Referências -->
+    <aside class="referencias">
+      <h2>Fontes e referências</h2>
+      <ul>
+<li><a href="https://portaldobitcoin.uol.com.br/o-zcash-ira-se-recuperar-apos-perder-bilhoes-de-valor-com-descoberta-de-falha-critica/" target="_blank" rel="noopener">Portal do Bitcoin</a></li>
+<li>Fonte original: Portal do Bitcoin (https://portaldobitcoin.uol.com.br/o-zcash-ira-se-recuperar-apos-perder-bilhoes-de-valor-com-descoberta-de-falha-critica/)</li>
+<li>Lei 14.478, de 21 de dezembro de 2022 (Marco Legal dos Criptoativos): https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/l14478.htm</li>
+<li>Resolução BCB 317/2023 (autorização e funcionamento de PSAVs): https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20BCB&numero=317</li>
+<li>Resolução BCB 340/2023 (Regra de Viagem): https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20BCB&numero=340</li>
+<li>Lei 9.613/1998, com alterações da Lei 12.683/2012 (PLD-FT): https://www.planalto.gov.br/ccivil_03/leis/l9613.htm</li>
+<li>FATF/GAFI, Updated Guidance for a Risk-Based Approach to Virtual Assets and VASPs, 2021: https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Guidance-rba-virtual-assets-2021.html</li>
+<li>CPC 48 / NBC TG 48 (Instrumentos Financeiros): https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=108</li>
+</ul>
+
+    </aside>
+
+  </article>
+    <!-- CTA consultivo (leva ao WhatsApp da SAFIE) -->
+    <div class="container">
+      <div class="artigo-cta">
+        <h3>Decisão jurídica ou contábil pendente?</h3>
+        <p>A SAFIE atende founders e gestores com acesso direto aos sócios — jurídico e contabilidade integrados sob o mesmo teto. Conversamos para entender o caso antes de qualquer recomendação.</p>
+        <a href="https://wa.me/5511934329769?text=Ol%C3%A1!%20Vim%20pelo%20blog%20da%20SAFIE%20e%20gostaria%20de%20conversar." class="cta-btn" target="_blank" rel="noopener">Falar com a SAFIE</a>
+      </div>
+    </div>
+
+
+  <!-- Artigos relacionados -->
+  <div class="container">
+    <section class="relacionados">
+      <h2>Continue lendo</h2>
+      <div class="relacionados-lista">
+<ul class="relacionados-items">
+  <li><a href="/artigos/2026-07-01-compliance-e-pld-no-mercado-cripto-brasileiro">Compliance e PLD no Mercado Cripto Brasileiro</a></li>
+  <li><a href="/artigos/2026-06-24-cripto-e-eleicoes-por-que-a-doacao-e-proibida">Cripto e eleições: por que a doação é proibida</a></li>
+  <li><a href="/artigos/2026-06-16-pld-cripto-banimento-de-privacy-coins-nas-filipinas">PLD Cripto: banimento de privacy coins nas Filipinas</a></li>
+</ul>
+</div>
+    </section>
+  </div>
+
+  <!-- Sobre os autores -->
+  <div class="container">
+    <div class="sobre-autores">
+      <span class="sobre-autores-titulo">Sobre os autores</span>
+      <p>Conteúdo produzido pela SAFIE, consultoria jurídico-contábil para empresas digitais e de tecnologia. A SAFIE é liderada por <a href="https://instagram.com/lucasm.mantovani" target="_blank" rel="noopener"><strong>Lucas Mantovani</strong></a> e <a href="https://instagram.com/euitalocunha" target="_blank" rel="noopener"><strong>Italo Cunha</strong></a>.</p>
+    </div>
+  </div>
+
+</main>
+
+<!-- partial: footer — rodapé comum COM formulário (injetado via {{FOOTER}}) -->
+<!-- Formulário de contato — placeholder. Submit inerte; integração HubSpot na fase A5/A6. -->
+<section class="footer-form-wrap" aria-label="Fale com a SAFIE">
+  <div class="footer-form-inner">
+    <div class="footer-form-texto">
+      <p class="secao-kicker">Fale com a SAFIE</p>
+      <h2>Decisão jurídica ou contábil pendente?</h2>
+      <p>Atendemos founders e gestores com acesso direto aos sócios — jurídico e contabilidade sob o mesmo teto.</p>
+    </div>
+    <!-- TODO A5/A6: HubSpot — este form ainda NÃO envia. -->
+    <form class="footer-form" data-form="rodape" onsubmit="return false" novalidate>
+      <label>Nome*
+        <input type="text" name="nome" autocomplete="name" required>
+      </label>
+      <label>E-mail*
+        <input type="email" name="email" autocomplete="email" required>
+      </label>
+      <label>Empresa
+        <input type="text" name="empresa" autocomplete="organization">
+      </label>
+      <label>Mensagem
+        <textarea name="mensagem" rows="3"></textarea>
+      </label>
+      <button type="submit" class="cta-btn" disabled aria-disabled="true">Enviar (em breve)</button>
+      <p class="footer-form-nota">Formulário em configuração. Por ora, fale conosco em
+        <a href="mailto:contato@safie.com.br">contato@safie.com.br</a>.</p>
+    </form>
+  </div>
+</section>
+
+<footer class="site-footer" role="contentinfo">
+  <div class="footer-inner">
+    <div class="footer-topo">
+      <div class="footer-marca">
+        <span class="logo-marca footer-logo-texto">Blog <span style="color:var(--ciano)">SAFIE</span></span>
+        <p>Consultoria jurídico-contábil para negócios digitais, startups e a nova economia.</p>
+      </div>
+      <div class="footer-nav">
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="/">Início</a></li>
+            <li><a href="/artigos/">Artigos</a></li>
+            <li><a href="/categorias/">Categorias</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Links</h4>
+          <ul>
+            <li><a href="https://safie.com.br" target="_blank" rel="noopener">safie.com.br</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+            <li><a href="mailto:contato@safie.com.br">contato@safie.com.br</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-arco-iris" aria-hidden="true"></div>
+    <div class="footer-cnpjs" aria-label="CNPJ SAFIE">
+      <span>SAFIE TECNOLOGIA E CONSULTORIA LTDA, inscrita no CNPJ sob o nº 42.224.278/0001-92, sediada à Av. Brigadeiro Faria Lima, Conj. 1102, Jardim Paulistano, CEP nº 01452922, São Paulo-SP</span>
+    </div>
+    <div class="footer-base">
+      <span>&copy; 2026 SAFIE. Todos os direitos reservados.</span>
+      <span>Conteúdo informativo; não constitui parecer jurídico ou contábil individualizado.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/js/busca.js"></script>
+<script>
+fetch('https://safie-analytics.lucas-mantovani.workers.dev/track', {
+  method: 'POST',
+  headers: {'Content-Type': 'application/json'},
+  body: JSON.stringify({ url: window.location.pathname, blog: 'cripto' })
+}).catch(() => {});
+</script>
+<script src="/assets/js/widget-whatsapp.js" defer></script>
+</body>
+</html>

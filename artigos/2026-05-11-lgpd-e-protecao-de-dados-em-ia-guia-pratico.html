@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta name="google-site-verification" content="o2ME48MD1myosxdzANOv2RozPmZyghqIt_zVWQqmHOA" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>LGPD e proteção de dados em IA: guia prático — SAFIE Blog</title>
+  <meta name="description" content="Entenda como a LGPD se aplica a sistemas de IA no Brasil, quais são as obrigações das empresas e como estruturar a conformidade de forma prática.">
+  <link rel="canonical" href="https://safie.blog.br/artigos/2026-05-11-lgpd-e-protecao-de-dados-em-ia-guia-pratico">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="author" content="SAFIE">
+  <meta name="keywords" content="lgpd, proteção, dados, guia, prático, art. 5, art. 7, art. 11, art. 20, art. 37">
+
+  <!-- Open Graph -->
+  <meta property="og:type"        content="article">
+  <meta property="og:title"       content="LGPD e proteção de dados em IA: guia prático — SAFIE Blog">
+  <meta property="og:description" content="Entenda como a LGPD se aplica a sistemas de IA no Brasil, quais são as obrigações das empresas e como estruturar a conformidade de forma prática.">
+  <meta property="og:url"         content="https://safie.blog.br/artigos/2026-05-11-lgpd-e-protecao-de-dados-em-ia-guia-pratico">
+  <meta property="og:site_name"   content="SAFIE Blog">
+  <meta property="og:locale"      content="pt_BR">
+  <meta property="og:image"       content="https://safie.blog.br/assets/img/artigos/2026-05-11-lgpd-e-protecao-de-dados-em-ia-guia-pratico.svg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="article:published_time" content="2026-05-11T11:01:48Z">
+  <meta property="article:section"       content="LGPD e proteção de dados em IA">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:title"       content="LGPD e proteção de dados em IA: guia prático — SAFIE Blog">
+  <meta name="twitter:description" content="Entenda como a LGPD se aplica a sistemas de IA no Brasil, quais são as obrigações das empresas e como estruturar a conformidade de forma prática.">
+  <meta name="twitter:image"       content="https://safie.blog.br/assets/img/artigos/2026-05-11-lgpd-e-protecao-de-dados-em-ia-guia-pratico.svg">
+
+  <!-- Schema.org JSON-LD (BlogPosting + FAQPage) -->
+  <script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "LGPD e proteção de dados em IA: guia prático",
+    "description": "Entenda como a LGPD se aplica a sistemas de IA no Brasil, quais são as obrigações das empresas e como estruturar a conformidade de forma prática.",
+    "datePublished": "2026-05-11T11:01:48Z",
+    "dateModified": "2026-07-10T10:01:59-03:00",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://safie.blog.br/artigos/2026-05-11-lgpd-e-protecao-de-dados-em-ia-guia-pratico"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Lucas Mantovani",
+      "sameAs": [
+        "https://www.linkedin.com/in/lucasm-mantovani/",
+        "https://www.instagram.com/lucasm.mantovani/"
+      ]
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "SAFIE",
+      "url": "https://safie.com.br",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://consultoria.safie.com.br/wp-content/uploads/2025/11/cropped-2-1-1024x292.webp"
+      },
+      "sameAs": [
+        "https://www.instagram.com/safiegroup/",
+        "https://www.instagram.com/safiecontabilidade/"
+      ]
+    },
+    "url": "https://safie.blog.br/artigos/2026-05-11-lgpd-e-protecao-de-dados-em-ia-guia-pratico",
+    "articleSection": "LGPD e proteção de dados em IA",
+    "inLanguage": "pt-BR"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "A LGPD se aplica a dados usados para treinar modelos de IA?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim. O uso de dados pessoais para treinar modelos de IA é uma operação de tratamento nos termos do art. 5º, X da LGPD. Isso exige base legal válida, finalidade determinada e, em muitos casos, um Relatório de Impacto à Proteção de Dados Pessoais (RIPD). Dados anonimizados ficam fora do escopo da lei, mas a ANPD pode questionar se a anonimização é tecnicamente irreversível."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O que é o direito de revisão de decisão automatizada e como ele afeta sistemas de IA?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "O art. 20 da LGPD garante ao titular o direito de pedir revisão humana de decisões tomadas exclusivamente por sistemas automatizados que afetem seus interesses. Isso se aplica a sistemas de IA usados em crédito, contratação, precificação e outros contextos de impacto direto. Empresas precisam ter um processo operacional para atender essas solicitações dentro de prazos razoáveis."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Qual é a diferença entre controlador e operador em uma arquitetura de IA com múltiplos fornecedores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "O controlador é quem decide a finalidade e os meios do tratamento. O operador é quem processa os dados por conta do controlador. Em pipelines de IA com APIs de terceiros, provedores de nuvem e parceiros de dados, cada relação precisa ser formalizada em contrato com cláusulas de proteção de dados. A falta de contratos adequados é uma das principais vulnerabilidades jurídicas de startups de IA."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Dados públicos coletados da internet podem ser usados para treinar modelos de IA?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não automaticamente. O fato de um dado estar publicamente acessível não significa que seu uso para treinamento de IA seja permitido pela LGPD. A finalidade original da coleta precisa ser compatível com o novo uso, e o titular deve ter razoável expectativa de que seus dados seriam usados dessa forma. Scraping de dados pessoais para treinamento sem base legal é um risco regulatório relevante no Brasil."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quais são as penalidades que a ANPD pode aplicar a empresas de IA?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A ANPD pode aplicar advertência, multa simples de até 2% do faturamento do grupo no Brasil (limitada a R$ 50 milhões por infração), multa diária, publicização da infração, bloqueio e eliminação dos dados tratados irregularmente, além de suspensão parcial ou total das atividades de tratamento. As sanções estão previstas no art. 52 da LGPD e a ANPD já iniciou processos administrativos sancionatórios desde 2023."
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Início",
+        "item": "https://safie.blog.br"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "LGPD e proteção de dados em IA",
+        "item": "https://safie.blog.br/categorias/lgpd-ia"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "LGPD e proteção de dados em IA: guia prático",
+        "item": "https://safie.blog.br/artigos/2026-05-11-lgpd-e-protecao-de-dados-em-ia-guia-pratico"
+      }
+    ]
+  }
+]
+  </script>
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/artigo.css">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="/assets/img/android-chrome-512x512.png">
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+</head>
+<body data-nicho="ia">
+
+<!-- partial: header — cabeçalho comum do SAFIE Blog (injetado via {{HEADER}}) -->
+<header class="site-header" role="banner">
+  <div class="header-inner">
+    <a href="/" class="logo" aria-label="SAFIE Blog — Página inicial">
+      <img class="logo-img" src="/assets/logos/safie-logo-branco.svg" alt="SAFIE">
+      <span class="blog-id">Blog</span>
+    </a>
+    <nav id="nav-principal" class="nav-principal" aria-label="Navegação principal">
+      <a href="/">Início</a>
+      <a href="/artigos/">Artigos</a>
+      <a href="/categorias/">Categorias</a>
+    </nav>
+    <form class="header-busca" role="search" action="/busca" method="get">
+      <label for="busca-q-header" class="sr-only">Buscar artigos</label>
+      <input type="search" id="busca-q-header" name="q" placeholder="Buscar…" autocomplete="off">
+      <button type="submit" aria-label="Buscar">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      </button>
+    </form>
+    <a href="https://safie.com.br" class="nav-voltar" target="_blank" rel="noopener">Voltar ao site SAFIE →</a>
+    <button id="menu-toggle" class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+<nav class="breadcrumb" aria-label="Trilha de navegação">
+  <div class="container">
+    <a href="/">Início</a> <span aria-hidden="true">›</span>
+    <a href="/categorias/lgpd-ia">LGPD e proteção de dados em IA</a> <span aria-hidden="true">›</span>
+    <span aria-current="page">LGPD e proteção de dados em IA: guia prático</span>
+  </div>
+</nav>
+
+  <article class="artigo-wrapper" itemscope itemtype="https://schema.org/BlogPosting">
+
+    <header class="artigo-header">
+      <a class="artigo-tema" href="/categorias/lgpd-ia">LGPD e proteção de dados em IA</a>
+
+      <h1 class="artigo-titulo" itemprop="headline">LGPD e proteção de dados em IA: guia prático</h1>
+
+      <div class="artigo-meta">
+        <span>Por <strong itemprop="author">SAFIE</strong></span>
+        <span>·</span>
+        <time datetime="2026-05-11T11:01:48Z" itemprop="datePublished">11 de maio de 2026</time>
+        <span>·</span>
+        <span>4 min de leitura</span>
+      </div>
+    </header>
+
+    <img class="artigo-capa" src="/assets/img/artigos/2026-05-11-lgpd-e-protecao-de-dados-em-ia-guia-pratico.svg" alt="LGPD e proteção de dados em IA: guia prático — capa ilustrativa do artigo sobre LGPD e proteção de dados em IA" width="1200" height="630" loading="lazy">
+
+    <!-- Resumo executivo (para IAs generativas / GEO) -->
+    <aside class="resumo-executivo" itemprop="abstract">
+      <strong>Resumo executivo</strong>
+      A LGPD (Lei nº 13.709/2018) impõe obrigações concretas a qualquer empresa que utilize dados pessoais para treinar, operar ou melhorar sistemas de inteligência artificial no Brasil. O descumprimento pode gerar multas de até 2% do faturamento, limitadas a R$ 50 milhões por infração. Estruturar a conformidade desde a concepção do produto é mais barato e seguro do que remediar problemas após fiscalizações da ANPD.
+    </aside>
+
+    <!-- Corpo do artigo -->
+    <div class="artigo-corpo" itemprop="articleBody">
+      <p>Desenvolver ou operar um sistema de inteligência artificial no Brasil significa, quase inevitavelmente, tratar dados pessoais. Dados de usuários, históricos de comportamento, registros de voz, imagens, localização e até padrões de digitação são insumos comuns em modelos de IA. Todos eles estão sob o alcance da Lei Geral de Proteção de Dados Pessoais (LGPD), Lei nº 13.709/2018.</p>
+<p>A LGPD não foi criada com foco em IA, mas seus princípios se aplicam integralmente a qualquer operação de tratamento de dados, independentemente da tecnologia utilizada. Isso inclui coleta, armazenamento, uso em treinamento de modelos, inferência em tempo real e compartilhamento com terceiros.</p>
+<p>Este artigo explica, de forma direta, o que a LGPD exige das empresas que trabalham com IA, quais são os pontos de maior risco regulatório e como construir uma estrutura de conformidade funcional, sem burocracia excessiva.</p>
+
+<h2>Contexto jurídico e regulatório</h2>
+<h2>O que a LGPD exige de sistemas de IA</h2>
+<p>A LGPD define dado pessoal como qualquer informação que identifique ou possa identificar uma pessoa natural (art. 5º, I). Modelos de IA treinados com histórico de compras, textos gerados por usuários ou registros de interação se enquadram diretamente nessa definição, mesmo quando os dados parecem anonimizados.</p>
+<p>A lei exige que todo tratamento de dados pessoais tenha uma base legal válida (art. 7º). As mais utilizadas por empresas de IA são o consentimento do titular, o legítimo interesse do controlador e o cumprimento de obrigação legal. Cada base tem requisitos distintos e não são intercambiáveis: usar consentimento de forma genérica para cobrir múltiplas finalidades é uma das irregularidades mais comuns apontadas pela Autoridade Nacional de Proteção de Dados (ANPD).</p>
+<p>Para dados sensíveis (art. 5º, II), como dados de saúde, biométricos, origem racial ou étnica e convicções religiosas, as exigências são ainda mais rígidas. O tratamento exige consentimento específico e destacado ou, em casos excepcionais, enquadramento em hipóteses taxativas do art. 11. Sistemas de IA em saúde, RH com reconhecimento facial ou análise de crédito com dados comportamentais precisam de atenção redobrada neste ponto.</p>
+<h2>Decisões automatizadas e o direito de revisão</h2>
+<p>O art. 20 da LGPD garante ao titular o direito de solicitar revisão de decisões tomadas exclusivamente com base em tratamento automatizado, incluindo aquelas que afetem seus interesses. Isso cobre, diretamente, outputs de modelos de IA usados em concessão de crédito, triagem de candidatos, precificação dinâmica e moderação de conteúdo.</p>
+<p>A ANPD publicou, em 2023, o documento "IA e Proteção de Dados" como parte de sua agenda regulatória, sinalizando que o tema é prioritário para a autoridade. Embora o Brasil ainda não tenha uma lei específica para IA no nível de aplicação da LGPD, o Projeto de Lei nº 2.338/2023, aprovado pelo Senado Federal em dezembro de 2024, cria um marco regulatório complementar que reforça deveres de transparência e avaliação de impacto em sistemas de IA de alto risco.</p>
+<p>A responsabilidade recai sobre o controlador (quem decide como os dados são usados) e pode se estender ao operador (quem processa os dados por conta do controlador). Em arquiteturas de IA com múltiplos fornecedores de API, modelos de terceiros e infraestrutura em nuvem, mapear quem é controlador e quem é operador em cada etapa do pipeline é obrigação legal, não apenas boa prática.</p>
+
+<h2>Impacto prático</h2>
+<p>Para founders e CTOs, o ponto de partida é o mapeamento de dados: identificar quais dados pessoais entram no sistema, em qual etapa, com qual finalidade e por quanto tempo ficam armazenados. Esse inventário é a base para o Registro das Operações de Tratamento (art. 37 da LGPD) e para a elaboração do Relatório de Impacto à Proteção de Dados Pessoais (RIPD), exigido quando o tratamento pode gerar riscos elevados aos titulares.</p>
+<p>Empresas que utilizam dados de terceiros para treinar modelos, como dados públicos coletados via scraping ou bases licenciadas, precisam verificar se as condições de uso originais permitem esse tipo de tratamento. Consentimento dado para uma finalidade não cobre automaticamente o uso para treinamento de IA. Esse ponto tem gerado disputas regulatórias em diversas jurisdições e é um vetor de risco relevante no Brasil.</p>
+<p>A multa máxima por infração é de 2% do faturamento do grupo econômico no Brasil no último exercício, limitada a R$ 50 milhões por infração (art. 52). Além das sanções administrativas, há risco de ação coletiva por parte de titulares afetados e de responsabilização civil por danos morais e materiais. Para startups em estágio inicial, o impacto reputacional de um incidente de vazamento ou de uma autuação pública pela ANPD pode ser mais danoso do que a multa em si.</p>
+
+<h2>Considerações finais</h2>
+<p>A conformidade com a LGPD em sistemas de IA não é um projeto pontual. É uma estrutura contínua que envolve governança de dados, revisão de contratos com fornecedores, treinamento de equipes técnicas e monitoramento de mudanças regulatórias. Quanto mais cedo essa estrutura for construída, menor o custo de manutenção e maior a segurança jurídica para captar investimento, fechar contratos corporativos e operar em setores regulados.</p>
+<p>Empresas que tratam a proteção de dados como diferencial competitivo, e não como custo de conformidade, tendem a criar produtos mais confiáveis e relações mais sólidas com usuários e parceiros. No mercado de IA, onde confiança é um ativo escasso, isso tem valor econômico real.</p>
+    </div>
+
+    <!-- FAQ -->
+    <section class="faq-section" id="faq" itemscope itemtype="https://schema.org/FAQPage">
+      <h2>Perguntas frequentes</h2>
+      <div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">A LGPD se aplica a dados usados para treinar modelos de IA?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">Sim. O uso de dados pessoais para treinar modelos de IA é uma operação de tratamento nos termos do art. 5º, X da LGPD. Isso exige base legal válida, finalidade determinada e, em muitos casos, um Relatório de Impacto à Proteção de Dados Pessoais (RIPD). Dados anonimizados ficam fora do escopo da lei, mas a ANPD pode questionar se a anonimização é tecnicamente irreversível.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">O que é o direito de revisão de decisão automatizada e como ele afeta sistemas de IA?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">O art. 20 da LGPD garante ao titular o direito de pedir revisão humana de decisões tomadas exclusivamente por sistemas automatizados que afetem seus interesses. Isso se aplica a sistemas de IA usados em crédito, contratação, precificação e outros contextos de impacto direto. Empresas precisam ter um processo operacional para atender essas solicitações dentro de prazos razoáveis.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Qual é a diferença entre controlador e operador em uma arquitetura de IA com múltiplos fornecedores?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">O controlador é quem decide a finalidade e os meios do tratamento. O operador é quem processa os dados por conta do controlador. Em pipelines de IA com APIs de terceiros, provedores de nuvem e parceiros de dados, cada relação precisa ser formalizada em contrato com cláusulas de proteção de dados. A falta de contratos adequados é uma das principais vulnerabilidades jurídicas de startups de IA.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Dados públicos coletados da internet podem ser usados para treinar modelos de IA?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">Não automaticamente. O fato de um dado estar publicamente acessível não significa que seu uso para treinamento de IA seja permitido pela LGPD. A finalidade original da coleta precisa ser compatível com o novo uso, e o titular deve ter razoável expectativa de que seus dados seriam usados dessa forma. Scraping de dados pessoais para treinamento sem base legal é um risco regulatório relevante no Brasil.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Quais são as penalidades que a ANPD pode aplicar a empresas de IA?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">A ANPD pode aplicar advertência, multa simples de até 2% do faturamento do grupo no Brasil (limitada a R$ 50 milhões por infração), multa diária, publicização da infração, bloqueio e eliminação dos dados tratados irregularmente, além de suspensão parcial ou total das atividades de tratamento. As sanções estão previstas no art. 52 da LGPD e a ANPD já iniciou processos administrativos sancionatórios desde 2023.</span></div>
+</div>
+
+    </section>
+
+    <!-- Referências -->
+    <aside class="referencias">
+      <h2>Fontes e referências</h2>
+      <ul>
+<li>Lei nº 13.709/2018 (LGPD): https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm</li>
+<li>ANPD - Autoridade Nacional de Proteção de Dados (documentos e guias): https://www.gov.br/anpd/pt-br</li>
+<li>Projeto de Lei nº 2.338/2023 (Marco Regulatório de IA no Brasil), aprovado pelo Senado Federal em dezembro de 2024</li>
+<li>ANPD. Inteligência Artificial e Proteção de Dados Pessoais: Subsídios para o debate regulatório brasileiro. Brasília, 2023.</li>
+<li>Resolução CD/ANPD nº 2/2022 - Regulamento de aplicação da LGPD para agentes de tratamento de pequeno porte: https://www.in.gov.br/en/web/dou/-/resolucao-cd/anpd-n-2-de-27-de-janeiro-de-2022-376562019</li>
+</ul>
+
+    </aside>
+
+  </article>
+    <!-- CTA consultivo (leva ao WhatsApp da SAFIE) -->
+    <div class="container">
+      <div class="artigo-cta">
+        <h3>Decisão jurídica ou contábil pendente?</h3>
+        <p>A SAFIE atende founders e gestores com acesso direto aos sócios — jurídico e contabilidade integrados sob o mesmo teto. Conversamos para entender o caso antes de qualquer recomendação.</p>
+        <a href="https://wa.me/5511934329769?text=Ol%C3%A1!%20Vim%20pelo%20blog%20da%20SAFIE%20e%20gostaria%20de%20conversar." class="cta-btn" target="_blank" rel="noopener">Falar com a SAFIE</a>
+      </div>
+    </div>
+
+
+
+  <!-- Sobre os autores -->
+  <div class="container">
+    <div class="sobre-autores">
+      <span class="sobre-autores-titulo">Sobre os autores</span>
+      <p>Conteúdo produzido pela SAFIE, consultoria jurídico-contábil para empresas digitais e de tecnologia. A SAFIE é liderada por <a href="https://instagram.com/lucasm.mantovani" target="_blank" rel="noopener"><strong>Lucas Mantovani</strong></a> e <a href="https://instagram.com/euitalocunha" target="_blank" rel="noopener"><strong>Italo Cunha</strong></a>.</p>
+    </div>
+  </div>
+
+  <!-- Artigos relacionados -->
+  <div class="container">
+    <section class="relacionados">
+      <h2>Continue lendo</h2>
+      <div class="relacionados-lista">
+<ul class="relacionados-items">
+  <li><a href="/artigos/2026-06-19-lgpd-e-ia-no-esporte-dados-de-atletas-em-risco">LGPD e IA no esporte: dados de atletas em risco</a></li>
+  <li><a href="/artigos/2026-06-15-lgpd-e-ia-quando-o-codigo-vira-passivo-juridico">LGPD e IA: quando o código vira passivo jurídico</a></li>
+  <li><a href="/artigos/2026-06-10-lgpd-e-ia-no-marketing-riscos-e-obrigacoes">LGPD e IA no Marketing: Riscos e Obrigações</a></li>
+</ul>
+</div>
+    </section>
+  </div>
+</main>
+
+<!-- partial: footer — rodapé comum COM formulário (injetado via {{FOOTER}}) -->
+<!-- Formulário de contato — placeholder. Submit inerte; integração HubSpot na fase A5/A6. -->
+<section class="footer-form-wrap" aria-label="Fale com a SAFIE">
+  <div class="footer-form-inner">
+    <div class="footer-form-texto">
+      <p class="secao-kicker">Fale com a SAFIE</p>
+      <h2>Decisão jurídica ou contábil pendente?</h2>
+      <p>Atendemos founders e gestores com acesso direto aos sócios — jurídico e contabilidade sob o mesmo teto.</p>
+    </div>
+    <!-- TODO A5/A6: HubSpot — este form ainda NÃO envia. -->
+    <form class="footer-form" data-form="rodape" onsubmit="return false" novalidate>
+      <label>Nome*
+        <input type="text" name="nome" autocomplete="name" required>
+      </label>
+      <label>E-mail*
+        <input type="email" name="email" autocomplete="email" required>
+      </label>
+      <label>Empresa
+        <input type="text" name="empresa" autocomplete="organization">
+      </label>
+      <label>Mensagem
+        <textarea name="mensagem" rows="3"></textarea>
+      </label>
+      <button type="submit" class="cta-btn" disabled aria-disabled="true">Enviar (em breve)</button>
+      <p class="footer-form-nota">Formulário em configuração. Por ora, fale conosco em
+        <a href="mailto:contato@safie.com.br">contato@safie.com.br</a>.</p>
+    </form>
+  </div>
+</section>
+
+<footer class="site-footer" role="contentinfo">
+  <div class="footer-inner">
+    <div class="footer-topo">
+      <div class="footer-marca">
+        <span class="logo-marca footer-logo-texto">Blog <span style="color:var(--ciano)">SAFIE</span></span>
+        <p>Consultoria jurídico-contábil para negócios digitais, startups e a nova economia.</p>
+      </div>
+      <div class="footer-nav">
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="/">Início</a></li>
+            <li><a href="/artigos/">Artigos</a></li>
+            <li><a href="/categorias/">Categorias</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Links</h4>
+          <ul>
+            <li><a href="https://safie.com.br" target="_blank" rel="noopener">safie.com.br</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+            <li><a href="mailto:contato@safie.com.br">contato@safie.com.br</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-arco-iris" aria-hidden="true"></div>
+    <div class="footer-cnpjs" aria-label="CNPJ SAFIE">
+      <span>SAFIE TECNOLOGIA E CONSULTORIA LTDA, inscrita no CNPJ sob o nº 42.224.278/0001-92, sediada à Av. Brigadeiro Faria Lima, Conj. 1102, Jardim Paulistano, CEP nº 01452922, São Paulo-SP</span>
+    </div>
+    <div class="footer-base">
+      <span>&copy; 2026 SAFIE. Todos os direitos reservados.</span>
+      <span>Conteúdo informativo; não constitui parecer jurídico ou contábil individualizado.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/js/busca.js"></script>
+<script>
+fetch('https://safie-analytics.lucas-mantovani.workers.dev/track', {
+  method: 'POST',
+  headers: {'Content-Type': 'application/json'},
+  body: JSON.stringify({ url: window.location.pathname, blog: 'ia' })
+}).catch(() => {});
+</script>
+<script src="/assets/js/widget-whatsapp.js" defer></script>
+</body>
+</html>

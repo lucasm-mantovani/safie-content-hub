@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta name="google-site-verification" content="o2ME48MD1myosxdzANOv2RozPmZyghqIt_zVWQqmHOA" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Regulação de IA no Brasil: o que muda em 2026 — SAFIE Blog</title>
+  <meta name="description" content="Entenda o avanço da regulação de IA no Brasil em 2026, os riscos jurídicos para startups e o que founders e CTOs precisam fazer agora.">
+  <link rel="canonical" href="https://safie.blog.br/artigos/2026-06-22-regulacao-de-ia-no-brasil-o-que-muda-em-2026">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="author" content="SAFIE">
+  <meta name="keywords" content="regulação, brasil, 2026, Lei 2.338/2023, Lei 13.709/2018, Lei 8.078/1990, PL 2.338/2023, Banco Central">
+
+  <!-- Open Graph -->
+  <meta property="og:type"        content="article">
+  <meta property="og:title"       content="Regulação de IA no Brasil: o que muda em 2026 — SAFIE Blog">
+  <meta property="og:description" content="Entenda o avanço da regulação de IA no Brasil em 2026, os riscos jurídicos para startups e o que founders e CTOs precisam fazer agora.">
+  <meta property="og:url"         content="https://safie.blog.br/artigos/2026-06-22-regulacao-de-ia-no-brasil-o-que-muda-em-2026">
+  <meta property="og:site_name"   content="SAFIE Blog">
+  <meta property="og:locale"      content="pt_BR">
+  <meta property="og:image"       content="https://safie.blog.br/assets/img/artigos/2026-06-22-regulacao-de-ia-no-brasil-o-que-muda-em-2026.svg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="article:published_time" content="2026-06-22T09:24:30Z">
+  <meta property="article:section"       content="Regulação de IA no Brasil">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:title"       content="Regulação de IA no Brasil: o que muda em 2026 — SAFIE Blog">
+  <meta name="twitter:description" content="Entenda o avanço da regulação de IA no Brasil em 2026, os riscos jurídicos para startups e o que founders e CTOs precisam fazer agora.">
+  <meta name="twitter:image"       content="https://safie.blog.br/assets/img/artigos/2026-06-22-regulacao-de-ia-no-brasil-o-que-muda-em-2026.svg">
+
+  <!-- Schema.org JSON-LD (BlogPosting + FAQPage) -->
+  <script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Regulação de IA no Brasil: o que muda em 2026",
+    "description": "Entenda o avanço da regulação de IA no Brasil em 2026, os riscos jurídicos para startups e o que founders e CTOs precisam fazer agora.",
+    "datePublished": "2026-06-22T09:24:30Z",
+    "dateModified": "2026-07-10T10:01:59-03:00",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://safie.blog.br/artigos/2026-06-22-regulacao-de-ia-no-brasil-o-que-muda-em-2026"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Lucas Mantovani",
+      "sameAs": [
+        "https://www.linkedin.com/in/lucasm-mantovani/",
+        "https://www.instagram.com/lucasm.mantovani/"
+      ]
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "SAFIE",
+      "url": "https://safie.com.br",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://consultoria.safie.com.br/wp-content/uploads/2025/11/cropped-2-1-1024x292.webp"
+      },
+      "sameAs": [
+        "https://www.instagram.com/safiegroup/",
+        "https://www.instagram.com/safiecontabilidade/"
+      ]
+    },
+    "url": "https://safie.blog.br/artigos/2026-06-22-regulacao-de-ia-no-brasil-o-que-muda-em-2026",
+    "articleSection": "Regulação de IA no Brasil",
+    "inLanguage": "pt-BR"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "O PL 2.338/2023 já está em vigor no Brasil?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não. Em junho de 2026, o PL 2.338/2023 foi aprovado pelo Senado em dezembro de 2024 e tramita na Câmara dos Deputados. Ainda não foi sancionado como lei. Mas isso não significa ausência de obrigações: LGPD, CDC e normas setoriais já se aplicam a sistemas de IA que processam dados pessoais ou afetam consumidores."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Minha startup usa IA só internamente. Preciso me preocupar com regulação?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Depende. Se o sistema processa dados pessoais de colaboradores ou terceiros, a LGPD já incide. Se as decisões geradas pelo sistema afetam contratos, demissões ou concessão de benefícios a pessoas, o artigo 20 da LGPD exige que o titular possa solicitar revisão humana. O uso 'interno' não é isenção automática."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quais sistemas de IA são considerados de alto risco pelo PL 2.338/2023?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "O texto aprovado pelo Senado lista sistemas de alto risco em áreas como: concessão de crédito, seleção de pessoal, acesso a serviços públicos essenciais, diagnóstico médico auxiliado por IA, decisões judiciais ou administrativas automatizadas, e sistemas de vigilância biométrica em espaços públicos. Esses sistemas ficam sujeitos a avaliação de impacto, registro e obrigações de explicabilidade."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Como a regulação de IA afeta o valuation de uma startup em rodada de investimento?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Investidores institucionais já incluem due diligence de conformidade regulatória em IA nos processos de M&A e VC. Sistemas sem documentação técnica, sem política de uso aceitável e sem registro de avaliação de impacto são tratados como passivo contingente. Isso pode reduzir valuation, exigir escrow ou travar o fechamento da rodada."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O que é avaliação de impacto algorítmico e quando ela é obrigatória?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "É um documento técnico que descreve o funcionamento do sistema de IA, os dados utilizados, os riscos de viés e discriminação, e as medidas de mitigação adotadas. Pelo PL 2.338/2023, ela é obrigatória para sistemas de alto risco antes de serem colocados em operação. A LGPD já prevê instrumento similar (Relatório de Impacto à Proteção de Dados Pessoais, o RIPD) para tratamentos de dados de alto risco."
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Início",
+        "item": "https://safie.blog.br"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Regulação de IA no Brasil",
+        "item": "https://safie.blog.br/categorias/regulacao-ia-brasil"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Regulação de IA no Brasil: o que muda em 2026",
+        "item": "https://safie.blog.br/artigos/2026-06-22-regulacao-de-ia-no-brasil-o-que-muda-em-2026"
+      }
+    ]
+  }
+]
+  </script>
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/artigo.css">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="/assets/img/android-chrome-512x512.png">
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+</head>
+<body data-nicho="ia">
+
+<!-- partial: header — cabeçalho comum do SAFIE Blog (injetado via {{HEADER}}) -->
+<header class="site-header" role="banner">
+  <div class="header-inner">
+    <a href="/" class="logo" aria-label="SAFIE Blog — Página inicial">
+      <img class="logo-img" src="/assets/logos/safie-logo-branco.svg" alt="SAFIE">
+      <span class="blog-id">Blog</span>
+    </a>
+    <nav id="nav-principal" class="nav-principal" aria-label="Navegação principal">
+      <a href="/">Início</a>
+      <a href="/artigos/">Artigos</a>
+      <a href="/categorias/">Categorias</a>
+    </nav>
+    <form class="header-busca" role="search" action="/busca" method="get">
+      <label for="busca-q-header" class="sr-only">Buscar artigos</label>
+      <input type="search" id="busca-q-header" name="q" placeholder="Buscar…" autocomplete="off">
+      <button type="submit" aria-label="Buscar">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      </button>
+    </form>
+    <a href="https://safie.com.br" class="nav-voltar" target="_blank" rel="noopener">Voltar ao site SAFIE →</a>
+    <button id="menu-toggle" class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+<nav class="breadcrumb" aria-label="Trilha de navegação">
+  <div class="container">
+    <a href="/">Início</a> <span aria-hidden="true">›</span>
+    <a href="/categorias/regulacao-ia-brasil">Regulação de IA no Brasil</a> <span aria-hidden="true">›</span>
+    <span aria-current="page">Regulação de IA no Brasil: o que muda em 2026</span>
+  </div>
+</nav>
+
+  <article class="artigo-wrapper" itemscope itemtype="https://schema.org/BlogPosting">
+
+    <header class="artigo-header">
+      <a class="artigo-tema" href="/categorias/regulacao-ia-brasil">Regulação de IA no Brasil</a>
+
+      <h1 class="artigo-titulo" itemprop="headline">Regulação de IA no Brasil: o que muda em 2026</h1>
+
+      <div class="artigo-meta">
+        <span>Por <strong itemprop="author">SAFIE</strong></span>
+        <span>·</span>
+        <time datetime="2026-06-22T09:24:30Z" itemprop="datePublished">22 de junho de 2026</time>
+        <span>·</span>
+        <span>4 min de leitura</span>
+      </div>
+    </header>
+
+    <img class="artigo-capa" src="/assets/img/artigos/2026-06-22-regulacao-de-ia-no-brasil-o-que-muda-em-2026.svg" alt="Regulação de IA no Brasil: o que muda em 2026 — capa ilustrativa do artigo sobre Regulação de IA no Brasil" width="1200" height="630" loading="lazy">
+
+    <!-- Resumo executivo (para IAs generativas / GEO) -->
+    <aside class="resumo-executivo" itemprop="abstract">
+      <strong>Resumo executivo</strong>
+      O Brasil avança na construção de um marco regulatório específico para inteligência artificial, com impacto direto sobre startups, plataformas e sistemas automatizados de decisão. O PL 2.338/2023, em tramitação no Congresso, estabelece obrigações de transparência, avaliação de impacto e responsabilidade civil para desenvolvedores e operadores de IA. Empresas que ainda não mapearam seus sistemas de IA sob a ótica regulatória estão acumulando passivo jurídico silencioso.
+    </aside>
+
+    <!-- Corpo do artigo -->
+    <div class="artigo-corpo" itemprop="articleBody">
+      <p>A notícia publicada pelo MIT Technology Review Brasil sobre 'reprogramação celular' e o entusiasmo em torno de bilhões de dólares investidos em biotecnologia de reversão do envelhecimento pode parecer distante do universo jurídico. Mas ela revela um padrão que se repete em toda tecnologia disruptiva: o capital e a narrativa chegam antes da regulação, e as empresas que ignoram esse gap pagam o preço depois.</p>
+<p>No Brasil, esse padrão está se consolidando agora no setor de inteligência artificial. O país está prestes a ter uma lei específica para IA, e o intervalo entre 'tecnologia funcionando' e 'regra clara aplicável' é exatamente onde mora o risco jurídico para quem está construindo produtos com IA hoje.</p>
+<p>Este artigo explica o estado atual da regulação de IA no Brasil, o que já é obrigação legal mesmo sem a lei aprovada, e o que founders, CTOs e seus assessores jurídicos e contábeis precisam colocar na agenda agora.</p>
+
+<h2>Contexto jurídico e regulatório</h2>
+<h2>O PL 2.338/2023 e o marco regulatório em construção</h2>
+<p>O principal instrumento em tramitação é o Projeto de Lei 2.338/2023, de autoria do Senador Rodrigo Pacheco. O texto foi aprovado no Senado em dezembro de 2024 e segue para a Câmara dos Deputados. Ele adota uma abordagem baseada em risco, semelhante ao AI Act europeu (Regulamento UE 2024/1689), classificando sistemas de IA em categorias: risco mínimo, risco limitado, alto risco e risco inaceitável.</p>
+<p>Sistemas de alto risco, como os usados em concessão de crédito, triagem de currículos, diagnóstico médico auxiliado por IA e decisões com efeito jurídico sobre pessoas, ficam sujeitos a obrigações mais severas. Isso inclui: avaliação de impacto algorítmico, registro em cadastro nacional, obrigação de explicabilidade das decisões e designação de um responsável técnico identificável.</p>
+<p>O texto também prevê responsabilidade civil objetiva do fornecedor quando o sistema causar dano ao usuário, salvo comprovação de culpa exclusiva do operador. Para startups que ainda tratam a IA como 'ferramenta interna', esse ponto é crítico: se o sistema influencia decisões que afetam terceiros, o fornecedor responde.</p>
+<h2>O que já é exigível hoje, antes da lei de IA</h2>
+<p>Mesmo sem o PL aprovado, já existem obrigações legais aplicáveis a sistemas de IA no Brasil. A Lei Geral de Proteção de Dados (Lei 13.709/2018, a LGPD) exige, no artigo 20, que o titular de dados possa solicitar revisão humana de decisões tomadas exclusivamente por meios automatizados. Isso se aplica a qualquer sistema de IA que processe dados pessoais para tomar ou recomendar decisões.</p>
+<p>O Código de Defesa do Consumidor (Lei 8.078/1990) também incide sobre produtos e serviços baseados em IA comercializados ao consumidor final. Falhas, vieses sistêmicos e ausência de informação adequada sobre o funcionamento do sistema podem configurar defeito de produto ou serviço, com responsabilidade solidária na cadeia de fornecimento.</p>
+<p>Adicionalmente, o Banco Central do Brasil, a ANATEL e a ANS já editaram normas setoriais que regulam o uso de modelos automatizados em crédito, telecomunicações e saúde suplementar, respectivamente. Quem opera nesses setores já está sob escrutínio regulatório específico, independentemente do marco geral de IA.</p>
+
+<h2>Impacto prático</h2>
+<p>Para founders e CTOs de startups de IA, o impacto mais imediato é a necessidade de mapear todos os sistemas que tomam ou influenciam decisões com efeito sobre pessoas. Esse mapeamento não é apenas jurídico: ele tem reflexo contábil, porque sistemas classificados como alto risco exigirão investimento em conformidade (compliance), documentação técnica e, possivelmente, auditorias externas, o que representa custo operacional recorrente que precisa constar do planejamento financeiro.</p>
+<p>Investidores de venture capital e private equity já começam a incluir due diligence regulatória de IA nos processos de investimento em deep tech. Um sistema sem documentação de conformidade, sem política de uso aceitável publicada e sem registro de avaliação de impacto é um passivo que reduz valuation e pode travar rodadas de captação. Founders que tratar isso como 'problema futuro' estão transferindo o custo para o pior momento possível.</p>
+<p>Para advogados e contadores que atendem empresas de tecnologia, o momento é de estruturar produtos de serviço específicos para conformidade em IA: desde a revisão de contratos com cláusulas de responsabilidade por decisão automatizada até a criação de centros de custo para obrigações regulatórias de IA. O mercado para isso no Brasil ainda é incipiente, mas a demanda vai crescer rapidamente quando a lei for sancionada.</p>
+
+<h2>Considerações finais</h2>
+<p>A regulação de IA no Brasil não é uma ameaça ao setor de tecnologia. É, na prática, uma oportunidade para empresas sérias se diferenciarem de players que tratam conformidade como opcional. Quem construir agora os processos de governança de IA, a documentação técnica e as políticas de transparência vai ter vantagem competitiva real quando a lei entrar em vigor.</p>
+<p>O padrão que a biotecnologia de longevidade ilustra, capital e entusiasmo antes de regulação, vale também para IA. A diferença é que, no Brasil, a regulação de IA está chegando em prazo mais curto do que muitos founders estimam. Preparar-se agora custa menos do que remediar depois.</p>
+    </div>
+
+    <!-- FAQ -->
+    <section class="faq-section" id="faq" itemscope itemtype="https://schema.org/FAQPage">
+      <h2>Perguntas frequentes</h2>
+      <div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">O PL 2.338/2023 já está em vigor no Brasil?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">Não. Em junho de 2026, o PL 2.338/2023 foi aprovado pelo Senado em dezembro de 2024 e tramita na Câmara dos Deputados. Ainda não foi sancionado como lei. Mas isso não significa ausência de obrigações: LGPD, CDC e normas setoriais já se aplicam a sistemas de IA que processam dados pessoais ou afetam consumidores.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Minha startup usa IA só internamente. Preciso me preocupar com regulação?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">Depende. Se o sistema processa dados pessoais de colaboradores ou terceiros, a LGPD já incide. Se as decisões geradas pelo sistema afetam contratos, demissões ou concessão de benefícios a pessoas, o artigo 20 da LGPD exige que o titular possa solicitar revisão humana. O uso 'interno' não é isenção automática.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Quais sistemas de IA são considerados de alto risco pelo PL 2.338/2023?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">O texto aprovado pelo Senado lista sistemas de alto risco em áreas como: concessão de crédito, seleção de pessoal, acesso a serviços públicos essenciais, diagnóstico médico auxiliado por IA, decisões judiciais ou administrativas automatizadas, e sistemas de vigilância biométrica em espaços públicos. Esses sistemas ficam sujeitos a avaliação de impacto, registro e obrigações de explicabilidade.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Como a regulação de IA afeta o valuation de uma startup em rodada de investimento?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">Investidores institucionais já incluem due diligence de conformidade regulatória em IA nos processos de M&A e VC. Sistemas sem documentação técnica, sem política de uso aceitável e sem registro de avaliação de impacto são tratados como passivo contingente. Isso pode reduzir valuation, exigir escrow ou travar o fechamento da rodada.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">O que é avaliação de impacto algorítmico e quando ela é obrigatória?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">É um documento técnico que descreve o funcionamento do sistema de IA, os dados utilizados, os riscos de viés e discriminação, e as medidas de mitigação adotadas. Pelo PL 2.338/2023, ela é obrigatória para sistemas de alto risco antes de serem colocados em operação. A LGPD já prevê instrumento similar (Relatório de Impacto à Proteção de Dados Pessoais, o RIPD) para tratamentos de dados de alto risco.</span></div>
+</div>
+
+    </section>
+
+    <!-- Referências -->
+    <aside class="referencias">
+      <h2>Fontes e referências</h2>
+      <ul>
+<li><a href="https://mittechreview.com.br/por-que-reprogramacao-destaque-reverter-envelhecimento/" target="_blank" rel="noopener">MIT Technology Review Brasil</a></li>
+<li>Fonte de referência temática: MIT Technology Review Brasil (https://mittechreview.com.br/por-que-reprogramacao-destaque-reverter-envelhecimento/)</li>
+<li>PL 2.338/2023, de autoria do Senador Rodrigo Pacheco, disponível em: https://www25.senado.leg.br/web/atividade/materias/-/materia/157233</li>
+<li>Regulamento da União Europeia sobre Inteligência Artificial (AI Act): Regulamento (UE) 2024/1689 do Parlamento Europeu e do Conselho</li>
+<li>Lei Geral de Proteção de Dados Pessoais (LGPD): Lei nº 13.709, de 14 de agosto de 2018, artigo 20</li>
+<li>Código de Defesa do Consumidor: Lei nº 8.078, de 11 de setembro de 1990</li>
+<li>Autoridade Nacional de Proteção de Dados (ANPD): https://www.gov.br/anpd/pt-br</li>
+</ul>
+
+    </aside>
+
+  </article>
+
+  <!-- CTA consultivo (leva ao WhatsApp da SAFIE) -->
+  <div class="container">
+    <div class="artigo-cta">
+      <h3>Decisão jurídica ou contábil pendente?</h3>
+      <p>A SAFIE atende founders e gestores com acesso direto aos sócios — jurídico e contabilidade integrados sob o mesmo teto. Conversamos para entender o caso antes de qualquer recomendação.</p>
+      <a href="https://wa.me/5511934329769?text=Ol%C3%A1!%20Vim%20pelo%20blog%20da%20SAFIE%20e%20gostaria%20de%20conversar." class="cta-btn" target="_blank" rel="noopener">Falar com a SAFIE</a>
+    </div>
+  </div>
+
+
+  <!-- Sobre os autores -->
+  <div class="container">
+    <div class="sobre-autores">
+      <span class="sobre-autores-titulo">Sobre os autores</span>
+      <p>Conteúdo produzido pela SAFIE, consultoria jurídico-contábil para empresas digitais e de tecnologia. A SAFIE é liderada por <a href="https://instagram.com/lucasm.mantovani" target="_blank" rel="noopener"><strong>Lucas Mantovani</strong></a> e <a href="https://instagram.com/euitalocunha" target="_blank" rel="noopener"><strong>Italo Cunha</strong></a>.</p>
+    </div>
+  </div>
+
+  <!-- Artigos relacionados -->
+  <div class="container">
+    <section class="relacionados">
+      <h2>Continue lendo</h2>
+      <div class="relacionados-lista">
+<ul class="relacionados-items">
+  <li><a href="/artigos/2026-06-17-stf-marco-civil-e-ia-o-que-muda-para-startups">STF, Marco Civil e IA: o que muda para startups</a></li>
+  <li><a href="/artigos/2026-05-22-tv-30-e-ia-regulacao-e-impactos-no-brasil">TV 3.0 e IA: regulação e impactos no Brasil</a></li>
+  <li><a href="/artigos/2026-04-29-ia-na-saude-regulacao-e-riscos-no-brasil">IA na Saúde: Regulação e Riscos no Brasil</a></li>
+</ul>
+</div>
+    </section>
+  </div>
+</main>
+
+<!-- partial: footer — rodapé comum COM formulário (injetado via {{FOOTER}}) -->
+<!-- Formulário de contato — placeholder. Submit inerte; integração HubSpot na fase A5/A6. -->
+<section class="footer-form-wrap" aria-label="Fale com a SAFIE">
+  <div class="footer-form-inner">
+    <div class="footer-form-texto">
+      <p class="secao-kicker">Fale com a SAFIE</p>
+      <h2>Decisão jurídica ou contábil pendente?</h2>
+      <p>Atendemos founders e gestores com acesso direto aos sócios — jurídico e contabilidade sob o mesmo teto.</p>
+    </div>
+    <!-- TODO A5/A6: HubSpot — este form ainda NÃO envia. -->
+    <form class="footer-form" data-form="rodape" onsubmit="return false" novalidate>
+      <label>Nome*
+        <input type="text" name="nome" autocomplete="name" required>
+      </label>
+      <label>E-mail*
+        <input type="email" name="email" autocomplete="email" required>
+      </label>
+      <label>Empresa
+        <input type="text" name="empresa" autocomplete="organization">
+      </label>
+      <label>Mensagem
+        <textarea name="mensagem" rows="3"></textarea>
+      </label>
+      <button type="submit" class="cta-btn" disabled aria-disabled="true">Enviar (em breve)</button>
+      <p class="footer-form-nota">Formulário em configuração. Por ora, fale conosco em
+        <a href="mailto:contato@safie.com.br">contato@safie.com.br</a>.</p>
+    </form>
+  </div>
+</section>
+
+<footer class="site-footer" role="contentinfo">
+  <div class="footer-inner">
+    <div class="footer-topo">
+      <div class="footer-marca">
+        <span class="logo-marca footer-logo-texto">Blog <span style="color:var(--ciano)">SAFIE</span></span>
+        <p>Consultoria jurídico-contábil para negócios digitais, startups e a nova economia.</p>
+      </div>
+      <div class="footer-nav">
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="/">Início</a></li>
+            <li><a href="/artigos/">Artigos</a></li>
+            <li><a href="/categorias/">Categorias</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Links</h4>
+          <ul>
+            <li><a href="https://safie.com.br" target="_blank" rel="noopener">safie.com.br</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+            <li><a href="mailto:contato@safie.com.br">contato@safie.com.br</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-arco-iris" aria-hidden="true"></div>
+    <div class="footer-cnpjs" aria-label="CNPJ SAFIE">
+      <span>SAFIE TECNOLOGIA E CONSULTORIA LTDA, inscrita no CNPJ sob o nº 42.224.278/0001-92, sediada à Av. Brigadeiro Faria Lima, Conj. 1102, Jardim Paulistano, CEP nº 01452922, São Paulo-SP</span>
+    </div>
+    <div class="footer-base">
+      <span>&copy; 2026 SAFIE. Todos os direitos reservados.</span>
+      <span>Conteúdo informativo; não constitui parecer jurídico ou contábil individualizado.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/js/busca.js"></script>
+<script>
+fetch('https://safie-analytics.lucas-mantovani.workers.dev/track', {
+  method: 'POST',
+  headers: {'Content-Type': 'application/json'},
+  body: JSON.stringify({ url: window.location.pathname, blog: 'ia' })
+}).catch(() => {});
+</script>
+<script src="/assets/js/widget-whatsapp.js" defer></script>
+</body>
+</html>

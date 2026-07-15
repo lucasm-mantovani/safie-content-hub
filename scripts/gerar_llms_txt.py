@@ -1,9 +1,11 @@
 """
-gerar_llms_txt.py — Camada 4 GEO: gera /llms.txt do hub agregador safie.blog.br.
+gerar_llms_txt.py — Camada 4 GEO: gera /llms.txt do SAFIE Blog unificado.
 
-O hub não tem índice completo: lista as últimas publicações da rede
-(data/ultimos_posts.json, regenerado diariamente pelo workflow fetch_posts.yml)
-e aponta para os 5 blogs vinculados, cada um com seu próprio llms.txt completo.
+Lê o índice único local (artigos/indice.json) + config/site.json +
+config/categorias.json e gera o llms.txt na raiz. Sem agregação remota.
+
+Robusto a índice vazio (gera cabeçalho + categorias mesmo sem artigos).
+Importável: from gerar_llms_txt import gerar_llms_txt
 
 Uso:
   python3 scripts/gerar_llms_txt.py
@@ -12,25 +14,24 @@ Uso:
 import json
 from pathlib import Path
 
-BASE     = Path(__file__).resolve().parent.parent
-POSTS    = BASE / "data" / "ultimos_posts.json"
-LLMS_TXT = BASE / "llms.txt"
+BASE        = Path(__file__).resolve().parent.parent
+INDICE      = BASE / "artigos" / "indice.json"
+SITE        = BASE / "config" / "site.json"
+CATEGORIAS  = BASE / "config" / "categorias.json"
+LLMS_TXT    = BASE / "llms.txt"
 
-BLOGS = [
-    ("SAFIE Reforma Tributária", "https://reformatributaria.safie.blog.br",
-     "impactos da reforma tributária (EC 132/2023) para empresas"),
-    ("SAFIE Fintechs", "https://fintechs.safie.blog.br",
-     "regulação e tributação para fintechs"),
-    ("SAFIE E-commerce", "https://ecommerce.safie.blog.br",
-     "jurídico e tributário para comércio eletrônico"),
-    ("SAFIE Cripto", "https://cripto.safie.blog.br",
-     "regulação e tributação de criptoativos"),
-    ("SAFIE IA for Business", "https://ia.safie.blog.br",
-     "implicações jurídicas do uso de IA em empresas"),
-]
+
+def _ler_json(caminho: Path, padrao):
+    if caminho.exists():
+        try:
+            return json.loads(caminho.read_text(encoding="utf-8"))
+        except Exception:
+            pass
+    return padrao
 
 
 def _resumo_curto(resumo: str) -> str:
+    """Primeira frase do resumo (split '. '); fallback 200 chars."""
     resumo = (resumo or "").strip()
     primeira = resumo.split(". ")[0].rstrip(".")
     if len(primeira) < 30:
@@ -39,27 +40,55 @@ def _resumo_curto(resumo: str) -> str:
 
 
 def gerar_llms_txt() -> Path:
-    dados = json.loads(POSTS.read_text(encoding="utf-8"))
-    posts = dados.get("posts", []) if isinstance(dados, dict) else dados
+    site  = _ler_json(SITE, {})
+    cats  = _ler_json(CATEGORIAS, [])
+    idx   = _ler_json(INDICE, [])
+
+    base_url = site.get("url_completa", "https://safie.blog.br").rstrip("/")
+    nome     = site.get("nome", "SAFIE Blog")
+    descricao = site.get("descricao", "Direito e contabilidade para negócios digitais")
+    nichos   = site.get("nichos", {})
 
     linhas = [
-        "# SAFIE — Rede de Blogs",
+        f"# {nome}",
         "",
-        "> Rede de blogs da SAFIE (consultoria jurídico-contábil para negócios digitais)",
-        "> cobrindo Reforma Tributária, Fintechs, E-commerce, Criptoativos e IA aplicada",
-        "> a negócios. Este é o hub agregador; conteúdo detalhado nos blogs vinculados.",
+        f"> {descricao}. Consultoria jurídico-contábil para negócios digitais.",
+        "> Artigos assinados pelos sócios (Lucas Mantovani e Ítalo Cunha).",
         "",
-        "## Últimas publicações da rede",
+        "> Nota: conteúdo informativo, não constitui parecer jurídico. Artigos podem ter",
+        "> títulos semelhantes por cobrir diferentes ângulos do mesmo tema; considere a",
+        "> data e o resumo.",
+        "",
+        "## Categorias",
         "",
     ]
-    for post in posts:
-        titulo, url = post.get("titulo", ""), post.get("url", "")
-        if not titulo or not url:
-            continue
-        linhas.append(f"- [{titulo}]({url}): {_resumo_curto(post.get('resumo', ''))}")
-    linhas += ["", "## Blogs da rede", ""]
-    for nome, url, desc in BLOGS:
-        linhas.append(f"- [{nome}]({url}) — [llms.txt]({url}/llms.txt): {desc}")
+
+    # Categorias agrupadas por nicho (ordem do site.json.nichos)
+    ordem_nicho = list(nichos.keys()) or sorted({c.get("nicho", "") for c in cats})
+    cats_por_nicho = {n: [] for n in ordem_nicho}
+    for c in cats:
+        cats_por_nicho.setdefault(c.get("nicho", ""), []).append(c)
+    for nicho in ordem_nicho:
+        for c in cats_por_nicho.get(nicho, []):
+            slug = c.get("slug", "")
+            desc = (c.get("descricao") or "").strip()
+            linha = f"- [{c.get('nome', slug)}]({base_url}/categorias/{slug})"
+            linhas.append(f"{linha}: {desc}" if desc else linha)
+
+    # Artigos (mais recente primeiro)
+    artigos = sorted(idx, key=lambda a: a.get("data", ""), reverse=True)
+    linhas += ["", "## Artigos", ""]
+    if artigos:
+        for a in artigos:
+            titulo, slug = a.get("titulo", ""), a.get("slug", "")
+            if not titulo or not slug:
+                continue
+            resumo = _resumo_curto(a.get("resumo", ""))
+            linha = f"- [{titulo}]({base_url}/artigos/{slug})"
+            linhas.append(f"{linha}: {resumo}" if resumo else linha)
+    else:
+        linhas.append("- (nenhum artigo publicado ainda)")
+
     linhas += [
         "",
         "## Sobre",
@@ -68,10 +97,12 @@ def gerar_llms_txt() -> Path:
         "- [Contato](https://safie.com.br/contato)",
         "",
     ]
+
     LLMS_TXT.write_text("\n".join(linhas), encoding="utf-8")
     return LLMS_TXT
 
 
 if __name__ == "__main__":
     path = gerar_llms_txt()
-    print(f"Gerado: {path} ({path.stat().st_size} bytes, {path.read_text(encoding='utf-8').count(chr(10))} linhas)")
+    txt = path.read_text(encoding="utf-8")
+    print(f"Gerado: {path} ({path.stat().st_size} bytes, {txt.count(chr(10))} linhas)")

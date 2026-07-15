@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todos os artigos — SAFIE Blog</title>
+  <meta name="description" content="Todos os artigos do SAFIE Blog: direito e contabilidade para criptoativos, fintechs, e-commerce, IA e reforma tributária.">
+  <link rel="canonical" href="https://safie.blog.br/artigos/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://safie.blog.br/artigos/">
+  <meta property="og:title" content="Todos os artigos — SAFIE Blog">
+  <meta property="og:site_name" content="SAFIE Blog">
+  <meta property="og:locale" content="pt_BR">
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+</head>
+<body>
+{{HEADER}}
+
+<main>
+  <section class="artigos-page-header" aria-label="Cabeçalho da listagem">
+    <div class="container">
+      <p class="secao-kicker">Biblioteca completa</p>
+      <h1>Todos os artigos</h1>
+      <p>Análises técnicas ancoradas em notícia real, publicadas diariamente pela SAFIE.</p>
+    </div>
+  </section>
+
+  <section class="container" aria-label="Lista de artigos">
+    <!-- Lista + paginação 9/página, JS-driven (assets/js/listagem.js lê /artigos/indice.json) -->
+    <div id="artigos-lista" class="artigos-lista" role="list"
+         data-fonte="/artigos/indice.json" data-por-pagina="9"></div>
+    <nav id="paginacao" class="artigos-paginacao" aria-label="Paginação"></nav>
+  </section>
+</main>
+
+{{FOOTER}}
+
+<script src="/assets/js/card.js"></script>
+<script src="/assets/js/listagem.js"></script>
+<script src="/assets/js/widget-whatsapp.js" defer></script>
+</body>
+</html>

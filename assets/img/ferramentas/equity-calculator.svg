@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f0f29"/>
+      <stop offset="100%" stop-color="#04041f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="18%" cy="0%" r="62%">
+      <stop offset="0%" stop-color="#154EFA" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#154EFA" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Fundo navy SAFIE + glow de marca -->
+  <rect width="1200" height="630" fill="url(#bg-grad)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <!-- Motivo decorativo: donut de participação societária (azul SAFIE, sem IA) -->
+  <g transform="translate(1000 250)">
+    <!-- anel base -->
+    <circle r="120" fill="none" stroke="#154EFA" stroke-width="34" opacity="0.14"/>
+    <!-- fatia 1 (~55%) -->
+    <circle r="120" fill="none" stroke="#154EFA" stroke-width="34" opacity="0.55"
+            stroke-dasharray="415 754" transform="rotate(-90)"/>
+    <!-- fatia 2 (~30%) -->
+    <circle r="120" fill="none" stroke="#14DFFA" stroke-width="34" opacity="0.55"
+            stroke-dasharray="226 754" stroke-dashoffset="-415" transform="rotate(-90)"/>
+    <!-- núcleo -->
+    <circle r="66" fill="#04041f"/>
+  </g>
+
+  <!-- Marca — canto superior esquerdo -->
+  <rect x="52" y="42" width="10" height="10" fill="#154EFA"/>
+  <text x="70" y="53" fill="#ffffff"
+        font-family="'General Sans', Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="1">FERRAMENTA SAFIE</text>
+
+  <!-- Kicker -->
+  <text x="52" y="250" fill="#14DFFA"
+        font-family="'Inter', Arial, sans-serif" font-size="13" font-weight="600" letter-spacing="3">DIVISÃO SOCIETÁRIA</text>
+
+  <!-- Nome da ferramenta (2 linhas) -->
+  <text x="50" y="330" fill="#ffffff"
+        font-family="'General Sans', Arial, sans-serif" font-size="80" font-weight="700" letter-spacing="-2">Equity</text>
+  <text x="50" y="410" fill="#ffffff"
+        font-family="'General Sans', Arial, sans-serif" font-size="80" font-weight="700" letter-spacing="-2">Calculator</text>
+
+  <!-- Frase -->
+  <text x="52" y="480" fill="#c8cdd6"
+        font-family="'Inter', Arial, sans-serif" font-size="28" font-weight="400">Distribua a participação societária de forma justa.</text>
+
+  <!-- Barra de destaque -->
+  <rect x="52" y="560" width="72" height="5" fill="#154EFA"/>
+</svg>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{NICHO_NOME}} — SAFIE Blog</title>
+  <meta name="description" content="{{NICHO_DESCRICAO}}">
+  <link rel="canonical" href="https://safie.blog.br/categorias/{{NICHO}}">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://safie.blog.br/categorias/{{NICHO}}">
+  <meta property="og:title" content="{{NICHO_NOME}} — SAFIE Blog">
+  <meta property="og:description" content="{{NICHO_DESCRICAO}}">
+  <meta property="og:site_name" content="SAFIE Blog">
+  <meta property="og:locale" content="pt_BR">
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+</head>
+<body data-nicho="{{NICHO}}">
+{{HEADER}}
+
+<main>
+  <nav class="breadcrumb" aria-label="Trilha de navegação">
+    <div class="container">
+      <a href="/">Início</a> <span aria-hidden="true">›</span>
+      <a href="/categorias/">Categorias</a> <span aria-hidden="true">›</span>
+      <span aria-current="page">{{NICHO_NOME}}</span>
+    </div>
+  </nav>
+
+  <section class="nicho-header" aria-label="Cabeçalho do nicho">
+    <div class="container">
+      <p class="secao-kicker">Área temática</p>
+      <h1>{{NICHO_NOME}}</h1>
+      <p>{{NICHO_DESCRICAO}}</p>
+    </div>
+  </section>
+
+  <!-- Subcategorias do nicho (JS lê /config/categorias.json, filtra nicho == {{NICHO}}) -->
+  <section class="container" aria-label="Categorias do nicho">
+    <div id="categorias-lista" class="categorias-grid" role="list"
+         data-fonte="/config/categorias.json"
+         data-filtro-nicho="{{NICHO}}"></div>
+  </section>
+
+  <!-- Artigos recentes do nicho (JS filtra indice.json pelos tema_slug do nicho) -->
+  <section class="container" aria-label="Artigos recentes do nicho">
+    <div class="secao-header"><h2>Artigos recentes</h2></div>
+    <div id="artigos-lista" class="artigos-lista" role="list"
+         data-fonte="/artigos/indice.json"
+         data-filtro-nicho="{{NICHO}}"
+         data-por-pagina="9"></div>
+    <nav id="paginacao" class="artigos-paginacao" aria-label="Paginação"></nav>
+  </section>
+</main>
+
+{{FOOTER}}
+
+<script src="/assets/js/card.js"></script>
+<script src="/assets/js/nicho.js"></script>
+<script src="/assets/js/widget-whatsapp.js" defer></script>
+</body>
+</html>

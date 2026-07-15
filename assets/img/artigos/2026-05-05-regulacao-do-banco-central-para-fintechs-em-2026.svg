@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1f1a"/>
+      <stop offset="100%" stop-color="#1a2e26"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Fundo com gradiente -->
+  <rect width="1200" height="630" fill="url(#bg-grad)"/>
+
+  <!-- Padrão de grade horizontal (grade de gráfico financeiro) -->
+  <g stroke="#3dd68c" stroke-width="0.5" opacity="0.08">
+    <line x1="0" y1="90"  x2="1200" y2="90"/>
+    <line x1="0" y1="153" x2="1200" y2="153"/>
+    <line x1="0" y1="216" x2="1200" y2="216"/>
+    <line x1="0" y1="279" x2="1200" y2="279"/>
+    <line x1="0" y1="342" x2="1200" y2="342"/>
+    <line x1="0" y1="405" x2="1200" y2="405"/>
+    <line x1="0" y1="468" x2="1200" y2="468"/>
+    <line x1="0" y1="531" x2="1200" y2="531"/>
+    <line x1="0" y1="594" x2="1200" y2="594"/>
+  </g>
+
+  <!-- Área preenchida sob a linha do gráfico -->
+  <path d="M 810 480 L 870 420 L 940 370 L 1010 290 L 1080 200 L 1150 140 L 1200 110 L 1200 550 L 810 550 Z"
+        fill="#3dd68c" opacity="0.05"/>
+
+  <!-- Linha do gráfico ascendente (elemento gráfico principal) -->
+  <polyline
+    points="810,480 870,420 940,370 1010,290 1080,200 1150,140 1200,110"
+    fill="none" stroke="#3dd68c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.7"/>
+
+  <!-- Pontos de inflexão na linha do gráfico -->
+  <circle cx="870"  cy="420" r="5" fill="#3dd68c" opacity="0.8"/>
+  <circle cx="940"  cy="370" r="5" fill="#3dd68c" opacity="0.8"/>
+  <circle cx="1010" cy="290" r="7" fill="#3dd68c" opacity="0.9"/>
+  <circle cx="1080" cy="200" r="5" fill="#3dd68c" opacity="0.8"/>
+  <circle cx="1150" cy="140" r="5" fill="#3dd68c" opacity="0.8"/>
+
+  <!-- Halo no ponto de inflexão principal -->
+  <circle cx="1010" cy="290" r="18" fill="none" stroke="#3dd68c" stroke-width="1" opacity="0.3"/>
+  <circle cx="1010" cy="290" r="32" fill="none" stroke="#3dd68c" stroke-width="0.8" opacity="0.15"/>
+
+  <!-- Linhas verticais tracejadas nos pontos de inflexão -->
+  <g stroke="#3dd68c" stroke-width="0.8" stroke-dasharray="4,4" opacity="0.2">
+    <line x1="870"  y1="420" x2="870"  y2="550"/>
+    <line x1="940"  y1="370" x2="940"  y2="550"/>
+    <line x1="1010" y1="290" x2="1010" y2="550"/>
+    <line x1="1080" y1="200" x2="1080" y2="550"/>
+    <line x1="1150" y1="140" x2="1150" y2="550"/>
+  </g>
+
+  <!-- Rótulos de eixo Y (valores simulados) -->
+  <g fill="#3dd68c" font-family="'DM Sans', Arial, sans-serif" font-size="11" opacity="0.35">
+    <text x="815" y="148">▲ 28%</text>
+    <text x="815" y="205">22%</text>
+    <text x="815" y="295">15%</text>
+    <text x="815" y="375">8%</text>
+    <text x="815" y="425">3%</text>
+  </g>
+
+  <!-- Logo — canto superior esquerdo -->
+  <rect x="52" y="40" width="10" height="10" fill="#3dd68c"/>
+  <text x="68" y="51" fill="#ffffff"
+        font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="600">SAFIE Fintechs</text>
+
+  <!-- Categoria e data -->
+  <text x="52" y="210" fill="#3dd68c"
+        font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="3">REGULAÇÃO DO BANCO CENTRAL PARA FINTECHS · 05 MAI 2026</text>
+
+  <!-- Título — linha 1 -->
+  <text x="52" y="286" fill="#ffffff"
+        font-family="Georgia, 'Times New Roman', serif" font-size="50" font-weight="700">Regulação do Banco Central</text>
+  <!-- Título — linha 2 -->
+  <text x="52" y="352" fill="#3dd68c"
+        font-family="Georgia, 'Times New Roman', serif" font-size="50" font-weight="700">para fintechs em 2026</text>
+  <!-- Título — linha 3 (última linha fica na cor de destaque) -->
+  <text x="52" y="418" fill="#3dd68c"
+        font-family="Georgia, 'Times New Roman', serif" font-size="50" font-weight="700"></text>
+
+  <!-- Barra de destaque — canto inferior esquerdo -->
+  <rect x="52" y="572" width="64" height="4" fill="#3dd68c"/>
+</svg>

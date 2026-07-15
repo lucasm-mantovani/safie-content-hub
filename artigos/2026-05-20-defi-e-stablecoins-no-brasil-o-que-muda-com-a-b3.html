@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta name="google-site-verification" content="o2ME48MD1myosxdzANOv2RozPmZyghqIt_zVWQqmHOA" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>DeFi e Stablecoins no Brasil: o que muda com a B3 — SAFIE Blog</title>
+  <meta name="description" content="A B3 Tokenização Day coloca DeFi e stablecoins no centro do debate regulatório brasileiro. Entenda os impactos jurídicos e contábeis para empresas.">
+  <link rel="canonical" href="https://safie.blog.br/artigos/2026-05-20-defi-e-stablecoins-no-brasil-o-que-muda-com-a-b3">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="author" content="SAFIE">
+  <meta name="keywords" content="defi, stablecoins, brasil, Lei 14.478, Lei 12.865/2013, Banco Central, CVM, Receita Federal">
+
+  <!-- Open Graph -->
+  <meta property="og:type"        content="article">
+  <meta property="og:title"       content="DeFi e Stablecoins no Brasil: o que muda com a B3 — SAFIE Blog">
+  <meta property="og:description" content="A B3 Tokenização Day coloca DeFi e stablecoins no centro do debate regulatório brasileiro. Entenda os impactos jurídicos e contábeis para empresas.">
+  <meta property="og:url"         content="https://safie.blog.br/artigos/2026-05-20-defi-e-stablecoins-no-brasil-o-que-muda-com-a-b3">
+  <meta property="og:site_name"   content="SAFIE Blog">
+  <meta property="og:locale"      content="pt_BR">
+  <meta property="og:image"       content="https://safie.blog.br/assets/img/artigos/2026-05-20-defi-e-stablecoins-no-brasil-o-que-muda-com-a-b3.svg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="article:published_time" content="2026-05-20T10:01:17Z">
+  <meta property="article:section"       content="DeFi e stablecoins">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:title"       content="DeFi e Stablecoins no Brasil: o que muda com a B3 — SAFIE Blog">
+  <meta name="twitter:description" content="A B3 Tokenização Day coloca DeFi e stablecoins no centro do debate regulatório brasileiro. Entenda os impactos jurídicos e contábeis para empresas.">
+  <meta name="twitter:image"       content="https://safie.blog.br/assets/img/artigos/2026-05-20-defi-e-stablecoins-no-brasil-o-que-muda-com-a-b3.svg">
+
+  <!-- Schema.org JSON-LD (BlogPosting + FAQPage) -->
+  <script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "DeFi e Stablecoins no Brasil: o que muda com a B3",
+    "description": "A B3 Tokenização Day coloca DeFi e stablecoins no centro do debate regulatório brasileiro. Entenda os impactos jurídicos e contábeis para empresas.",
+    "datePublished": "2026-05-20T10:01:17Z",
+    "dateModified": "2026-07-10T10:02:53-03:00",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://safie.blog.br/artigos/2026-05-20-defi-e-stablecoins-no-brasil-o-que-muda-com-a-b3"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Lucas Mantovani",
+      "sameAs": [
+        "https://www.linkedin.com/in/lucasm-mantovani/",
+        "https://www.instagram.com/lucasm.mantovani/"
+      ]
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "SAFIE",
+      "url": "https://safie.com.br",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://consultoria.safie.com.br/wp-content/uploads/2025/11/cropped-2-1-1024x292.webp"
+      },
+      "sameAs": [
+        "https://www.instagram.com/safiegroup/",
+        "https://www.instagram.com/safiecontabilidade/"
+      ]
+    },
+    "url": "https://safie.blog.br/artigos/2026-05-20-defi-e-stablecoins-no-brasil-o-que-muda-com-a-b3",
+    "articleSection": "DeFi e stablecoins",
+    "inLanguage": "pt-BR"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Stablecoins são regulamentadas no Brasil?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Stablecoins são consideradas ativos virtuais pela Lei 14.478/2022 e estão sujeitas à supervisão do Banco Central quando utilizadas em pagamentos, e da CVM quando apresentam características de valor mobiliário. Uma regulamentação específica e detalhada ainda está em construção pelo BCB, mas as obrigações de declaração à Receita Federal já se aplicam desde 2019."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Como declarar rendimentos de DeFi no imposto de renda?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Rendimentos obtidos em protocolos DeFi, como juros de pools de liquidez ou recompensas de staking, devem ser declarados à Receita Federal. A tributação varia conforme a natureza: ganhos de capital são tributados entre 15% e 22,5%; rendimentos recorrentes podem ser enquadrados como outros rendimentos. A ausência de intermediário não elimina a obrigação fiscal."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O que é DeFi e por que ele é diferente das exchanges centralizadas?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "DeFi (finanças descentralizadas) são protocolos financeiros que operam por contratos inteligentes em blockchains públicas, sem uma empresa central responsável. Ao contrário das exchanges centralizadas, não há CNPJ, sede ou responsável legal identificável de forma imediata. Isso cria desafios regulatórios específicos, pois a legislação brasileira atual foi construída com base na figura de um prestador de serviço identificável."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Empresas brasileiras podem manter stablecoins em dólar na tesouraria?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A manutenção de stablecoins referenciadas em dólar por empresas residentes no Brasil pode ser enquadrada como operação de câmbio, sujeita à regulação do Banco Central. Dependendo do volume e da finalidade, pode ser necessária autorização específica ou o uso de contas de câmbio autorizadas. É recomendável consultar assessoria jurídica especializada antes de estruturar uma posição relevante em stablecoins dolarizadas."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Como a tokenização da B3 afeta o mercado de criptoativos?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A entrada da B3 no debate sobre tokenização e DeFi pressiona pela criação de um ambiente regulatório mais claro e acelera a adoção institucional. Para o mercado de criptoativos, isso significa mais liquidez potencial, maior escrutínio regulatório e a possibilidade de integração entre ativos tokenizados e o mercado de capitais tradicional, com regras de compliance mais rigorosas para todos os participantes."
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Início",
+        "item": "https://safie.blog.br"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "DeFi e stablecoins",
+        "item": "https://safie.blog.br/categorias/defi-stablecoin"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "DeFi e Stablecoins no Brasil: o que muda com a B3",
+        "item": "https://safie.blog.br/artigos/2026-05-20-defi-e-stablecoins-no-brasil-o-que-muda-com-a-b3"
+      }
+    ]
+  }
+]
+  </script>
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/artigo.css">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="/assets/img/android-chrome-512x512.png">
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+</head>
+<body data-nicho="cripto">
+
+<!-- partial: header — cabeçalho comum do SAFIE Blog (injetado via {{HEADER}}) -->
+<header class="site-header" role="banner">
+  <div class="header-inner">
+    <a href="/" class="logo" aria-label="SAFIE Blog — Página inicial">
+      <img class="logo-img" src="/assets/logos/safie-logo-branco.svg" alt="SAFIE">
+      <span class="blog-id">Blog</span>
+    </a>
+    <nav id="nav-principal" class="nav-principal" aria-label="Navegação principal">
+      <a href="/">Início</a>
+      <a href="/artigos/">Artigos</a>
+      <a href="/categorias/">Categorias</a>
+    </nav>
+    <form class="header-busca" role="search" action="/busca" method="get">
+      <label for="busca-q-header" class="sr-only">Buscar artigos</label>
+      <input type="search" id="busca-q-header" name="q" placeholder="Buscar…" autocomplete="off">
+      <button type="submit" aria-label="Buscar">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      </button>
+    </form>
+    <a href="https://safie.com.br" class="nav-voltar" target="_blank" rel="noopener">Voltar ao site SAFIE →</a>
+    <button id="menu-toggle" class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+<nav class="breadcrumb" aria-label="Trilha de navegação">
+  <div class="container">
+    <a href="/">Início</a> <span aria-hidden="true">›</span>
+    <a href="/categorias/defi-stablecoin">DeFi e stablecoins</a> <span aria-hidden="true">›</span>
+    <span aria-current="page">DeFi e Stablecoins no Brasil: o que muda com a B3</span>
+  </div>
+</nav>
+
+  <article class="artigo-wrapper" itemscope itemtype="https://schema.org/BlogPosting">
+
+    <header class="artigo-header">
+      <a class="artigo-tema" href="/categorias/defi-stablecoin">DeFi e stablecoins</a>
+
+      <h1 class="artigo-titulo" itemprop="headline">DeFi e Stablecoins no Brasil: o que muda com a B3</h1>
+
+      <div class="artigo-meta">
+        <span>Por <strong itemprop="author">SAFIE</strong></span>
+        <span>·</span>
+        <time datetime="2026-05-20T10:01:17Z" itemprop="datePublished">20 de maio de 2026</time>
+        <span>·</span>
+        <span>4 min de leitura</span>
+      </div>
+    </header>
+
+    <img class="artigo-capa" src="/assets/img/artigos/2026-05-20-defi-e-stablecoins-no-brasil-o-que-muda-com-a-b3.svg" alt="DeFi e Stablecoins no Brasil: o que muda com a B3 — capa ilustrativa do artigo sobre DeFi e stablecoins" width="1200" height="630" loading="lazy">
+
+    <!-- Resumo executivo (para IAs generativas / GEO) -->
+    <aside class="resumo-executivo" itemprop="abstract">
+      <strong>Resumo executivo</strong>
+      A B3 realizou o evento B3 Tokenização Day para debater tokenização, DeFi e stablecoins no mercado brasileiro, sinalizando que a bolsa oficial do país reconhece formalmente esses instrumentos como parte da infraestrutura financeira. Do ponto de vista jurídico, o movimento reforça a tendência de enquadramento de stablecoins como ativos virtuais sob a Lei 14.478/2022 e aponta para uma regulação específica do Banco Central ainda em construção. Para empresas e investidores, o cenário exige atenção imediata às obrigações fiscais, contábeis e de compliance já vigentes.
+    </aside>
+
+    <!-- Corpo do artigo -->
+    <div class="artigo-corpo" itemprop="articleBody">
+      <p>A B3, principal bolsa de valores do Brasil, realizou o evento B3 Tokenização Day com foco em discutir o mercado de criptoativos, com destaque para tokenização de ativos, finanças descentralizadas (DeFi) e stablecoins. A iniciativa, noticiada pelo portal Livecoins em maio de 2026, marca um ponto de inflexão: quando a maior infraestrutura de mercado de capitais do país pauta oficialmente esses temas, o sinal enviado ao mercado é inequívoco.</p><p>DeFi e stablecoins deixaram de ser assuntos restritos a entusiastas de tecnologia. Eles integram, hoje, discussões de política monetária, regulação financeira e contabilidade corporativa. A presença da B3 nesse debate acelera o processo de amadurecimento regulatório e, por consequência, as obrigações que recaem sobre quem opera ou investe nesses mercados.</p><p>Este artigo analisa o que o evento representa do ponto de vista jurídico e contábil, quais normas já se aplicam a DeFi e stablecoins no Brasil e o que empresas e profissionais precisam observar a partir de agora.</p>
+
+<h2>Contexto jurídico e regulatório</h2>
+<h2>O marco legal vigente e seus limites</h2><p>O principal instrumento regulatório brasileiro para criptoativos é a Lei 14.478, de 21 de dezembro de 2022, conhecida como Marco Legal dos Criptoativos. Ela define "ativo virtual" de forma ampla, abrangendo representações digitais de valor que podem ser negociadas ou transferidas eletronicamente. Stablecoins lastreadas em moeda fiduciária ou em outros ativos se enquadram nessa definição, desde que não sejam classificadas como valores mobiliários pela CVM.</p><p>A lei atribuiu ao Banco Central do Brasil (BCB) a competência para regular, autorizar e supervisionar prestadores de serviços de ativos virtuais (VASPs), quando a atividade envolver pagamentos ou emissão de moeda. Já à CVM cabe a supervisão quando o ativo virtual tiver características de valor mobiliário, conforme a Resolução CVM 175/2022 e o entendimento consolidado no Parecer de Orientação CVM nº 40/2022.</p><p>O problema é que DeFi, por definição, opera sem intermediários centralizados identificáveis. Protocolos como AMMs (automated market makers), pools de liquidez e contratos inteligentes autônomos não se encaixam facilmente no conceito de VASP da lei brasileira, que pressupõe uma pessoa jurídica responsável. O BCB ainda não publicou regulamentação específica para DeFi, o que cria uma zona cinzenta regulatória relevante.</p><h2>Stablecoins: o caso mais urgente</h2><p>Stablecoins merecem atenção separada porque combinam características de instrumento de pagamento e de ativo financeiro. O BCB, por meio de comunicados e consultas públicas ao longo de 2023 e 2024, sinalizou que stablecoins referenciadas em reais ou utilizadas como meio de pagamento habitual poderão ser tratadas como arranjos de pagamento, sujeitos à Lei 12.865/2013 e à regulação do próprio banco central.</p><p>Stablecoins referenciadas em dólar (como USDT e USDC), amplamente utilizadas no Brasil, estão no radar da regulação cambial. A Resolução BCB nº 277/2022 e as normas de câmbio do BCB impõem restrições à manutenção de recursos em moeda estrangeira por residentes no Brasil. O uso de stablecoins dolarizadas para preservar valor ou realizar pagamentos internacionais pode configurar operação de câmbio não autorizada, a depender do volume e da finalidade.</p><p>A iniciativa da B3 de colocar esse tema na agenda pública pressiona o regulador a definir regras mais claras com maior velocidade. Enquanto isso não ocorre, o risco regulatório permanece como variável relevante para qualquer empresa que opere com stablecoins no Brasil.</p>
+
+<h2>Impacto prático</h2>
+<p>Para empresas que operam exchanges, plataformas DeFi ou que utilizam stablecoins em sua tesouraria, o cenário atual exige uma abordagem de compliance em camadas. A Instrução Normativa RFB nº 1.888/2019 já obriga a declaração de operações com criptoativos à Receita Federal, incluindo stablecoins, com multas que variam de R$ 500 a R$ 1,5% do valor da operação não declarada. Essa obrigação se aplica independentemente de qualquer nova regulamentação.</p><p>Do ponto de vista contábil, o Comitê de Pronunciamentos Contábeis (CPC) ainda não emitiu um pronunciamento específico para criptoativos. A prática dominante adota o CPC 04 (ativos intangíveis) para criptoativos em geral, com reconhecimento pelo custo menos qualquer perda por impairment. Para stablecoins utilizadas como equivalente de caixa, há argumentos para enquadramento no CPC 03 (demonstração dos fluxos de caixa), desde que satisfeitos os critérios de liquidez e baixa volatilidade. Essa ambiguidade contábil precisa ser endereçada em políticas internas documentadas.</p><p>Investidores pessoa física também precisam estar atentos. Ganhos obtidos em protocolos DeFi, como rendimentos de pools de liquidez ou farming de tokens, são tributáveis como ganho de capital ou rendimento, conforme a natureza da operação, com alíquotas que variam de 15% a 22,5% sobre o ganho líquido. A ausência de nota fiscal ou de intermediário não afasta a obrigação tributária, e a Receita Federal tem ampliado sua capacidade de rastreamento de operações on-chain.</p>
+
+<h2>Considerações finais</h2>
+<p>O B3 Tokenização Day não é apenas um evento de networking. É um indicador de que a infraestrutura tradicional do mercado financeiro brasileiro está se posicionando para absorver ou influenciar a regulação de DeFi e stablecoins. Empresas e profissionais que aguardavam um sinal mais claro do mercado para estruturar seus processos de compliance têm agora um referencial concreto: o debate saiu da periferia e chegou ao centro do sistema financeiro nacional.</p><p>A SAFIE acompanha de perto a evolução regulatória de criptoativos no Brasil. Se sua empresa opera com stablecoins, participa de protocolos DeFi ou está avaliando a tokenização de ativos, o momento de estruturar políticas contábeis e de compliance é agora, antes que a regulação específica imponha prazos e penalidades. Prevenção regulatória é, também, uma forma de gestão de risco.</p>
+    </div>
+
+    <!-- FAQ -->
+    <section class="faq-section" id="faq" itemscope itemtype="https://schema.org/FAQPage">
+      <h2>Perguntas frequentes</h2>
+      <div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Stablecoins são regulamentadas no Brasil?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">Stablecoins são consideradas ativos virtuais pela Lei 14.478/2022 e estão sujeitas à supervisão do Banco Central quando utilizadas em pagamentos, e da CVM quando apresentam características de valor mobiliário. Uma regulamentação específica e detalhada ainda está em construção pelo BCB, mas as obrigações de declaração à Receita Federal já se aplicam desde 2019.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Como declarar rendimentos de DeFi no imposto de renda?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">Rendimentos obtidos em protocolos DeFi, como juros de pools de liquidez ou recompensas de staking, devem ser declarados à Receita Federal. A tributação varia conforme a natureza: ganhos de capital são tributados entre 15% e 22,5%; rendimentos recorrentes podem ser enquadrados como outros rendimentos. A ausência de intermediário não elimina a obrigação fiscal.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">O que é DeFi e por que ele é diferente das exchanges centralizadas?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">DeFi (finanças descentralizadas) são protocolos financeiros que operam por contratos inteligentes em blockchains públicas, sem uma empresa central responsável. Ao contrário das exchanges centralizadas, não há CNPJ, sede ou responsável legal identificável de forma imediata. Isso cria desafios regulatórios específicos, pois a legislação brasileira atual foi construída com base na figura de um prestador de serviço identificável.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Empresas brasileiras podem manter stablecoins em dólar na tesouraria?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">A manutenção de stablecoins referenciadas em dólar por empresas residentes no Brasil pode ser enquadrada como operação de câmbio, sujeita à regulação do Banco Central. Dependendo do volume e da finalidade, pode ser necessária autorização específica ou o uso de contas de câmbio autorizadas. É recomendável consultar assessoria jurídica especializada antes de estruturar uma posição relevante em stablecoins dolarizadas.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Como a tokenização da B3 afeta o mercado de criptoativos?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">A entrada da B3 no debate sobre tokenização e DeFi pressiona pela criação de um ambiente regulatório mais claro e acelera a adoção institucional. Para o mercado de criptoativos, isso significa mais liquidez potencial, maior escrutínio regulatório e a possibilidade de integração entre ativos tokenizados e o mercado de capitais tradicional, com regras de compliance mais rigorosas para todos os participantes.</span></div>
+</div>
+
+    </section>
+
+    <!-- Referências -->
+    <aside class="referencias">
+      <h2>Fontes e referências</h2>
+      <ul>
+<li><span class="ref-label">Fonte original:</span> <a href="https://livecoins.com.br/bolsa-brasileira-promove-b3-tokenizacao-day-para-discutir-sobre-mercado-cripto/" target="_blank" rel="noopener">Livecoins</a></li>
+<li><span class="ref-label">Lei 14.478/2022 (Marco Legal dos Criptoativos):</span> <a href="https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/l14478.htm" target="_blank" rel="noopener">Planalto</a></li>
+<li><span class="ref-label">Instrução Normativa RFB nº 1.888/2019:</span> <a href="https://www.gov.br/receitafederal/pt-br" target="_blank" rel="noopener">Receita Federal</a></li>
+<li><span class="ref-label">Resolução CVM 175/2022:</span> <a href="https://www.gov.br/cvm/pt-br" target="_blank" rel="noopener">CVM</a></li>
+<li><span class="ref-label">Resolução BCB nº 277/2022:</span> <a href="https://www.bcb.gov.br" target="_blank" rel="noopener">Banco Central do Brasil</a></li>
+<li><span class="ref-label">CPC 04 (Ativo Intangível):</span> <a href="https://www.cpc.org.br" target="_blank" rel="noopener">CPC</a></li>
+</ul>
+
+    </aside>
+
+  </article>
+    <!-- CTA consultivo (leva ao WhatsApp da SAFIE) -->
+    <div class="container">
+      <div class="artigo-cta">
+        <h3>Decisão jurídica ou contábil pendente?</h3>
+        <p>A SAFIE atende founders e gestores com acesso direto aos sócios — jurídico e contabilidade integrados sob o mesmo teto. Conversamos para entender o caso antes de qualquer recomendação.</p>
+        <a href="https://wa.me/5511934329769?text=Ol%C3%A1!%20Vim%20pelo%20blog%20da%20SAFIE%20e%20gostaria%20de%20conversar." class="cta-btn" target="_blank" rel="noopener">Falar com a SAFIE</a>
+      </div>
+    </div>
+
+
+  <!-- Artigos relacionados -->
+  <div class="container">
+    <section class="relacionados">
+      <h2>Continue lendo</h2>
+      <div class="relacionados-lista">
+<ul class="relacionados-items">
+  <li><a href="/artigos/2026-06-29-defi-e-stablecoins-tokenizacao-rumo-a-us-678-tri">DeFi e Stablecoins: tokenização rumo a US$ 6,78 tri</a></li>
+  <li><a href="/artigos/2026-06-15-defi-e-stablecoins-o-que-muda-para-o-brasil">DeFi e Stablecoins: o que muda para o Brasil</a></li>
+  <li><a href="/artigos/2026-06-11-defi-stablecoins-e-rwa-o-que-muda-no-brasil">DeFi, Stablecoins e RWA: o que muda no Brasil</a></li>
+</ul>
+</div>
+    </section>
+  </div>
+
+  <!-- Sobre os autores -->
+  <div class="container">
+    <div class="sobre-autores">
+      <span class="sobre-autores-titulo">Sobre os autores</span>
+      <p>Conteúdo produzido pela SAFIE, consultoria jurídico-contábil para empresas digitais e de tecnologia. A SAFIE é liderada por <a href="https://instagram.com/lucasm.mantovani" target="_blank" rel="noopener"><strong>Lucas Mantovani</strong></a> e <a href="https://instagram.com/euitalocunha" target="_blank" rel="noopener"><strong>Italo Cunha</strong></a>.</p>
+    </div>
+  </div>
+
+</main>
+
+<!-- partial: footer — rodapé comum COM formulário (injetado via {{FOOTER}}) -->
+<!-- Formulário de contato — placeholder. Submit inerte; integração HubSpot na fase A5/A6. -->
+<section class="footer-form-wrap" aria-label="Fale com a SAFIE">
+  <div class="footer-form-inner">
+    <div class="footer-form-texto">
+      <p class="secao-kicker">Fale com a SAFIE</p>
+      <h2>Decisão jurídica ou contábil pendente?</h2>
+      <p>Atendemos founders e gestores com acesso direto aos sócios — jurídico e contabilidade sob o mesmo teto.</p>
+    </div>
+    <!-- TODO A5/A6: HubSpot — este form ainda NÃO envia. -->
+    <form class="footer-form" data-form="rodape" onsubmit="return false" novalidate>
+      <label>Nome*
+        <input type="text" name="nome" autocomplete="name" required>
+      </label>
+      <label>E-mail*
+        <input type="email" name="email" autocomplete="email" required>
+      </label>
+      <label>Empresa
+        <input type="text" name="empresa" autocomplete="organization">
+      </label>
+      <label>Mensagem
+        <textarea name="mensagem" rows="3"></textarea>
+      </label>
+      <button type="submit" class="cta-btn" disabled aria-disabled="true">Enviar (em breve)</button>
+      <p class="footer-form-nota">Formulário em configuração. Por ora, fale conosco em
+        <a href="mailto:contato@safie.com.br">contato@safie.com.br</a>.</p>
+    </form>
+  </div>
+</section>
+
+<footer class="site-footer" role="contentinfo">
+  <div class="footer-inner">
+    <div class="footer-topo">
+      <div class="footer-marca">
+        <span class="logo-marca footer-logo-texto">Blog <span style="color:var(--ciano)">SAFIE</span></span>
+        <p>Consultoria jurídico-contábil para negócios digitais, startups e a nova economia.</p>
+      </div>
+      <div class="footer-nav">
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="/">Início</a></li>
+            <li><a href="/artigos/">Artigos</a></li>
+            <li><a href="/categorias/">Categorias</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Links</h4>
+          <ul>
+            <li><a href="https://safie.com.br" target="_blank" rel="noopener">safie.com.br</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+            <li><a href="mailto:contato@safie.com.br">contato@safie.com.br</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-arco-iris" aria-hidden="true"></div>
+    <div class="footer-cnpjs" aria-label="CNPJ SAFIE">
+      <span>SAFIE TECNOLOGIA E CONSULTORIA LTDA, inscrita no CNPJ sob o nº 42.224.278/0001-92, sediada à Av. Brigadeiro Faria Lima, Conj. 1102, Jardim Paulistano, CEP nº 01452922, São Paulo-SP</span>
+    </div>
+    <div class="footer-base">
+      <span>&copy; 2026 SAFIE. Todos os direitos reservados.</span>
+      <span>Conteúdo informativo; não constitui parecer jurídico ou contábil individualizado.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/js/busca.js"></script>
+<script>
+fetch('https://safie-analytics.lucas-mantovani.workers.dev/track', {
+  method: 'POST',
+  headers: {'Content-Type': 'application/json'},
+  body: JSON.stringify({ url: window.location.pathname, blog: 'cripto' })
+}).catch(() => {});
+</script>
+<script src="/assets/js/widget-whatsapp.js" defer></script>
+</body>
+</html>

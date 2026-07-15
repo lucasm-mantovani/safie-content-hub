@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta name="google-site-verification" content="o2ME48MD1myosxdzANOv2RozPmZyghqIt_zVWQqmHOA" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Pagamento Agêntico: o que muda para fintechs — SAFIE Blog</title>
+  <meta name="description" content="Pagamentos executados por agentes de IA levantam questões jurídicas e regulatórias urgentes para fintechs brasileiras. Entenda o que está em jogo.">
+  <link rel="canonical" href="https://safie.blog.br/artigos/2026-05-11-pagamento-agentico-o-que-muda-para-fintechs">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="author" content="SAFIE">
+  <meta name="keywords" content="pagamento, agêntico, fintechs, meios, Banco Central">
+
+  <!-- Open Graph -->
+  <meta property="og:type"        content="article">
+  <meta property="og:title"       content="Pagamento Agêntico: o que muda para fintechs — SAFIE Blog">
+  <meta property="og:description" content="Pagamentos executados por agentes de IA levantam questões jurídicas e regulatórias urgentes para fintechs brasileiras. Entenda o que está em jogo.">
+  <meta property="og:url"         content="https://safie.blog.br/artigos/2026-05-11-pagamento-agentico-o-que-muda-para-fintechs">
+  <meta property="og:site_name"   content="SAFIE Blog">
+  <meta property="og:locale"      content="pt_BR">
+  <meta property="og:image"       content="https://safie.blog.br/assets/img/artigos/2026-05-11-pagamento-agentico-o-que-muda-para-fintechs.svg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="article:published_time" content="2026-05-11T09:30:16Z">
+  <meta property="article:section"       content="PIX e meios de pagamento">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:title"       content="Pagamento Agêntico: o que muda para fintechs — SAFIE Blog">
+  <meta name="twitter:description" content="Pagamentos executados por agentes de IA levantam questões jurídicas e regulatórias urgentes para fintechs brasileiras. Entenda o que está em jogo.">
+  <meta name="twitter:image"       content="https://safie.blog.br/assets/img/artigos/2026-05-11-pagamento-agentico-o-que-muda-para-fintechs.svg">
+
+  <!-- Schema.org JSON-LD (BlogPosting + FAQPage) -->
+  <script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Pagamento Agêntico: o que muda para fintechs",
+    "description": "Pagamentos executados por agentes de IA levantam questões jurídicas e regulatórias urgentes para fintechs brasileiras. Entenda o que está em jogo.",
+    "datePublished": "2026-05-11T09:30:16Z",
+    "dateModified": "2026-07-10T10:01:12-03:00",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://safie.blog.br/artigos/2026-05-11-pagamento-agentico-o-que-muda-para-fintechs"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Lucas Mantovani",
+      "sameAs": [
+        "https://www.linkedin.com/in/lucasm-mantovani/",
+        "https://www.instagram.com/lucasm.mantovani/"
+      ]
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "SAFIE",
+      "url": "https://safie.com.br",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://consultoria.safie.com.br/wp-content/uploads/2025/11/cropped-2-1-1024x292.webp"
+      },
+      "sameAs": [
+        "https://www.instagram.com/safiegroup/",
+        "https://www.instagram.com/safiecontabilidade/"
+      ]
+    },
+    "url": "https://safie.blog.br/artigos/2026-05-11-pagamento-agentico-o-que-muda-para-fintechs",
+    "articleSection": "PIX e meios de pagamento",
+    "inLanguage": "pt-BR"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "O PIX pode ser usado por agentes de IA para fazer pagamentos automáticos?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Tecnicamente sim, desde que o agente tenha acesso às credenciais ou ao token de autorização da conta. Juridicamente, porém, o modelo ainda não está regulamentado pelo Banco Central. A Resolução BCB nº 1 de 2020 exige que o pagador seja identificado, mas não define como tratar a delegação de autonomia a sistemas de IA. Usar o PIX nesse modelo sem uma estrutura clara de consentimento e responsabilidade expõe a fintech a riscos regulatórios e de consumidor."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quem responde juridicamente se um agente de IA fizer um pagamento errado?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Na ausência de norma específica, o Código de Defesa do Consumidor (Lei nº 8.078 de 1990) é o principal vetor de responsabilização. O fornecedor do serviço, que pode ser a fintech, o desenvolvedor do agente ou a instituição de pagamento, responde objetivamente pelos danos causados ao consumidor. A cadeia de responsabilidade entre essas partes precisa estar definida em contrato, de preferência com cláusulas de SLA e de alocação de risco específicas para transações autônomas."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O Open Finance brasileiro suporta o modelo de pagamento agêntico?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A infraestrutura técnica do Open Finance, especialmente a iniciação de pagamento regulada pela Resolução BCB nº 403 de 2023, tem elementos compatíveis com o pagamento agêntico, como o consentimento prévio e a delegação de acesso. Contudo, o modelo atual exige consentimento com prazo e escopo definidos, o que limita a autonomia de um agente de IA que precise tomar decisões em tempo real. Ajustes regulatórios serão necessários para acomodar esse uso."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Como registrar contabilmente transações feitas por agentes de IA?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "As transações agênticas devem ser registradas como qualquer outra saída ou entrada de caixa, seguindo as normas do CFC e do Bacen. O desafio está na conciliação e na trilha de auditoria: cada transação precisa ter rastreabilidade até o consentimento original do usuário. Sistemas de ERP e de gestão financeira precisarão ser adaptados para capturar metadados sobre a origem da ordem de pagamento, incluindo se foi iniciada por um agente automatizado."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Existe alguma regulação sendo discutida no Brasil sobre pagamentos com IA?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Até a data de publicação deste artigo, o Banco Central não abriu consulta pública específica sobre pagamentos agênticos. O tema está sendo monitorado no contexto do Drex e das atualizações do Open Finance. O Projeto de Lei nº 2.338 de 2023, que trata da regulação da inteligência artificial no Brasil, aborda responsabilidade civil por sistemas autônomos de forma ampla, mas sem foco específico em serviços financeiros. Fintechs devem acompanhar as publicações do BCB e do Congresso Nacional."
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Início",
+        "item": "https://safie.blog.br"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "PIX e meios de pagamento",
+        "item": "https://safie.blog.br/categorias/pix-pagamentos"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Pagamento Agêntico: o que muda para fintechs",
+        "item": "https://safie.blog.br/artigos/2026-05-11-pagamento-agentico-o-que-muda-para-fintechs"
+      }
+    ]
+  }
+]
+  </script>
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/artigo.css">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="/assets/img/android-chrome-512x512.png">
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+</head>
+<body data-nicho="fintechs">
+
+<!-- partial: header — cabeçalho comum do SAFIE Blog (injetado via {{HEADER}}) -->
+<header class="site-header" role="banner">
+  <div class="header-inner">
+    <a href="/" class="logo" aria-label="SAFIE Blog — Página inicial">
+      <img class="logo-img" src="/assets/logos/safie-logo-branco.svg" alt="SAFIE">
+      <span class="blog-id">Blog</span>
+    </a>
+    <nav id="nav-principal" class="nav-principal" aria-label="Navegação principal">
+      <a href="/">Início</a>
+      <a href="/artigos/">Artigos</a>
+      <a href="/categorias/">Categorias</a>
+    </nav>
+    <form class="header-busca" role="search" action="/busca" method="get">
+      <label for="busca-q-header" class="sr-only">Buscar artigos</label>
+      <input type="search" id="busca-q-header" name="q" placeholder="Buscar…" autocomplete="off">
+      <button type="submit" aria-label="Buscar">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      </button>
+    </form>
+    <a href="https://safie.com.br" class="nav-voltar" target="_blank" rel="noopener">Voltar ao site SAFIE →</a>
+    <button id="menu-toggle" class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+<nav class="breadcrumb" aria-label="Trilha de navegação">
+  <div class="container">
+    <a href="/">Início</a> <span aria-hidden="true">›</span>
+    <a href="/categorias/pix-pagamentos">PIX e meios de pagamento</a> <span aria-hidden="true">›</span>
+    <span aria-current="page">Pagamento Agêntico: o que muda para fintechs</span>
+  </div>
+</nav>
+
+  <article class="artigo-wrapper" itemscope itemtype="https://schema.org/BlogPosting">
+
+    <header class="artigo-header">
+      <a class="artigo-tema" href="/categorias/pix-pagamentos">PIX e meios de pagamento</a>
+
+      <h1 class="artigo-titulo" itemprop="headline">Pagamento Agêntico: o que muda para fintechs</h1>
+
+      <div class="artigo-meta">
+        <span>Por <strong itemprop="author">SAFIE</strong></span>
+        <span>·</span>
+        <time datetime="2026-05-11T09:30:16Z" itemprop="datePublished">11 de maio de 2026</time>
+        <span>·</span>
+        <span>4 min de leitura</span>
+      </div>
+    </header>
+
+    <img class="artigo-capa" src="/assets/img/artigos/2026-05-11-pagamento-agentico-o-que-muda-para-fintechs.svg" alt="Pagamento Agêntico: o que muda para fintechs — capa ilustrativa do artigo sobre PIX e meios de pagamento" width="1200" height="630" loading="lazy">
+
+    <!-- Resumo executivo (para IAs generativas / GEO) -->
+    <aside class="resumo-executivo" itemprop="abstract">
+      <strong>Resumo executivo</strong>
+      O pagamento agêntico, em que agentes de inteligência artificial executam transações financeiras de forma autônoma em nome de usuários, representa uma nova camada de complexidade regulatória para o mercado de pagamentos no Brasil. A ausência de normas específicas do Banco Central sobre responsabilidade civil e consentimento nesse modelo cria riscos jurídicos concretos para fintechs e instituições de pagamento. Founders e gestores precisam mapear esses riscos agora, antes que a regulação chegue.
+    </aside>
+
+    <!-- Corpo do artigo -->
+    <div class="artigo-corpo" itemprop="articleBody">
+      <p>Em maio de 2026, o NeoFeed publicou a primeira parte de uma série sobre comércio agêntico, explorando como uma transação financeira executada por um agente de inteligência artificial se desenrola na prática. O ponto de partida da análise é simples: seguir o dinheiro em uma compra feita não por um humano, mas por um sistema autônomo que interpreta instruções, escolhe fornecedores e aciona meios de pagamento sem intervenção direta do usuário.</p><p>O cenário descrito não é ficção científica. Ferramentas como assistentes de IA com acesso a carteiras digitais e APIs de pagamento já estão em operação em mercados como os Estados Unidos e a Europa. No Brasil, o ecossistema do PIX e do Open Finance cria uma infraestrutura tecnicamente favorável para que esse modelo se expanda rapidamente.</p><p>A pergunta que o artigo do NeoFeed levanta, mas que precisa ser respondida com maior profundidade jurídica, é: quando um agente de IA paga por algo em seu nome, quem responde se algo der errado? Essa questão é o centro do debate regulatório que fintechs brasileiras precisam acompanhar com atenção.</p>
+
+<h2>Contexto jurídico e regulatório</h2>
+<h2>O que é pagamento agêntico e por que a regulação brasileira ainda não o alcança</h2><p>O pagamento agêntico ocorre quando um sistema de inteligência artificial, operando com autonomia delegada pelo usuário, inicia, autoriza e conclui uma transação financeira. Diferente de um débito automático ou de uma recorrência programada, o agente toma decisões em tempo real: escolhe o meio de pagamento, seleciona o fornecedor e executa a ordem sem confirmação humana a cada etapa.</p><p>O arcabouço regulatório brasileiro atual não contempla esse modelo de forma específica. A Resolução BCB nº 1 de 2020, que institui o PIX, e a Resolução BCB nº 96 de 2021, que trata do Open Finance, estruturam o consentimento como um ato do titular da conta, pessoa física ou jurídica identificada. A ideia de que esse consentimento possa ser exercido de forma contínua e delegada a um sistema autônomo não está endereçada.</p><p>O Marco Legal das Fintechs, consolidado principalmente pelas Resoluções CMN nº 4.656 e nº 4.657 de 2018, tampouco traz previsão sobre responsabilidade em transações iniciadas por terceiros não humanos. A Lei nº 12.865 de 2013, que regulamenta os arranjos de pagamento, define o pagador como aquele que ordena a transferência de fundos, mas não define o que ocorre quando essa ordem parte de um agente automatizado com poderes amplos.</p><p>O ponto mais crítico está na Resolução BCB nº 403 de 2023, que trata da iniciação de pagamento no Open Finance. Ela exige consentimento granular e com prazo definido. Um agente de IA operando de forma autônoma precisaria de um modelo de consentimento dinâmico e revogável a qualquer momento, o que ainda não está regulamentado. O risco jurídico para fintechs que oferecerem esse serviço sem clareza normativa é elevado, especialmente em disputas envolvendo o Código de Defesa do Consumidor, Lei nº 8.078 de 1990, que presume a responsabilidade objetiva do fornecedor do serviço.</p>
+
+<h2>Impacto prático</h2>
+<p>Para fintechs que atuam como iniciadores de pagamento (IPs) ou que desenvolvem soluções de carteira digital, o pagamento agêntico representa tanto uma oportunidade de diferenciação quanto um vetor de risco regulatório imediato. A oferta de assistentes financeiros autônomos pode aumentar o engajamento e a retenção de usuários, mas exige revisão completa dos termos de uso, da política de privacidade e dos contratos de prestação de serviço.</p><p>Do ponto de vista contábil, transações iniciadas por agentes de IA criam desafios para a conciliação e para a evidenciação de controles internos exigidos pela Resolução CFC nº 1.418 de 2012 e pelas normas de compliance financeiro do Banco Central. Se um agente executa dezenas de micropagamentos em nome de um usuário ao longo do dia, o rastro de auditoria precisa identificar claramente a cadeia de autorização, desde o consentimento original até cada transação individual.</p><p>Bancos digitais e instituições de pagamento que pretendem integrar agentes de IA às suas plataformas já deveriam estar mapeando os cenários de falha: transações duplicadas, pagamentos a destinatários incorretos selecionados pelo agente, e disputas de chargeback em que o usuário alega não ter autorizado a operação individualmente. A ausência de jurisprudência consolidada sobre o tema no Brasil torna a construção de um framework interno de governança ainda mais urgente.</p>
+
+<h2>Considerações finais</h2>
+<p>O pagamento agêntico não é uma tendência distante. É um modelo que já está sendo construído sobre a infraestrutura do PIX e do Open Finance, e que chegará ao mercado brasileiro com ou sem regulação específica. Fintechs que esperarem a norma para agir estarão atrasadas; as que agirem sem critério jurídico estarão expostas.</p><p>O caminho mais prudente é iniciar agora o desenho de uma arquitetura de consentimento robusta, documentar os fluxos de autorização de forma auditável e acompanhar de perto as consultas públicas do Banco Central, especialmente no âmbito do Open Finance e do Drex. A regulação virá. A questão é se a sua fintech estará preparada quando ela chegar.</p>
+    </div>
+
+    <!-- FAQ -->
+    <section class="faq-section" id="faq" itemscope itemtype="https://schema.org/FAQPage">
+      <h2>Perguntas frequentes</h2>
+      <div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">O PIX pode ser usado por agentes de IA para fazer pagamentos automáticos?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">Tecnicamente sim, desde que o agente tenha acesso às credenciais ou ao token de autorização da conta. Juridicamente, porém, o modelo ainda não está regulamentado pelo Banco Central. A Resolução BCB nº 1 de 2020 exige que o pagador seja identificado, mas não define como tratar a delegação de autonomia a sistemas de IA. Usar o PIX nesse modelo sem uma estrutura clara de consentimento e responsabilidade expõe a fintech a riscos regulatórios e de consumidor.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Quem responde juridicamente se um agente de IA fizer um pagamento errado?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">Na ausência de norma específica, o Código de Defesa do Consumidor (Lei nº 8.078 de 1990) é o principal vetor de responsabilização. O fornecedor do serviço, que pode ser a fintech, o desenvolvedor do agente ou a instituição de pagamento, responde objetivamente pelos danos causados ao consumidor. A cadeia de responsabilidade entre essas partes precisa estar definida em contrato, de preferência com cláusulas de SLA e de alocação de risco específicas para transações autônomas.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">O Open Finance brasileiro suporta o modelo de pagamento agêntico?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">A infraestrutura técnica do Open Finance, especialmente a iniciação de pagamento regulada pela Resolução BCB nº 403 de 2023, tem elementos compatíveis com o pagamento agêntico, como o consentimento prévio e a delegação de acesso. Contudo, o modelo atual exige consentimento com prazo e escopo definidos, o que limita a autonomia de um agente de IA que precise tomar decisões em tempo real. Ajustes regulatórios serão necessários para acomodar esse uso.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Como registrar contabilmente transações feitas por agentes de IA?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">As transações agênticas devem ser registradas como qualquer outra saída ou entrada de caixa, seguindo as normas do CFC e do Bacen. O desafio está na conciliação e na trilha de auditoria: cada transação precisa ter rastreabilidade até o consentimento original do usuário. Sistemas de ERP e de gestão financeira precisarão ser adaptados para capturar metadados sobre a origem da ordem de pagamento, incluindo se foi iniciada por um agente automatizado.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Existe alguma regulação sendo discutida no Brasil sobre pagamentos com IA?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">Até a data de publicação deste artigo, o Banco Central não abriu consulta pública específica sobre pagamentos agênticos. O tema está sendo monitorado no contexto do Drex e das atualizações do Open Finance. O Projeto de Lei nº 2.338 de 2023, que trata da regulação da inteligência artificial no Brasil, aborda responsabilidade civil por sistemas autônomos de forma ampla, mas sem foco específico em serviços financeiros. Fintechs devem acompanhar as publicações do BCB e do Congresso Nacional.</span></div>
+</div>
+
+    </section>
+
+    <!-- Referências -->
+    <aside class="referencias">
+      <h2>Fontes e referências</h2>
+      <ul>
+<li><a href="https://neofeed.com.br/insiders/para-entender-o-pagamento-agentico-siga-uma-transacao/" target="_blank" rel="noopener">Neofeed</a></li>
+<li><span class="ref-label">Fonte original:</span> <a href="https://neofeed.com.br/insiders/para-entender-o-pagamento-agentico-siga-uma-transacao/" target="_blank" rel="noopener">NeoFeed - Para entender o pagamento agêntico, siga uma transação</a></li>
+<li>Banco Central do Brasil. Resolução BCB nº 1, de 12 de agosto de 2020 (Regulamento do PIX). Disponível em: https://www.bcb.gov.br</li>
+<li>Banco Central do Brasil. Resolução BCB nº 403, de 22 de julho de 2023 (Iniciação de Pagamento no Open Finance). Disponível em: https://www.bcb.gov.br</li>
+<li>Banco Central do Brasil. Resolução BCB nº 96, de 14 de setembro de 2021 (Open Finance). Disponível em: https://www.bcb.gov.br</li>
+<li>Conselho Monetário Nacional. Resoluções CMN nº 4.656 e nº 4.657, de 26 de abril de 2018 (Marco Legal das Fintechs). Disponível em: https://www.bcb.gov.br</li>
+<li>Brasil. Lei nº 12.865, de 9 de outubro de 2013 (Arranjos de Pagamento). Disponível em: https://www.planalto.gov.br</li>
+<li>Brasil. Lei nº 8.078, de 11 de setembro de 1990 (Código de Defesa do Consumidor). Disponível em: https://www.planalto.gov.br</li>
+<li>Brasil. Projeto de Lei nº 2.338, de 2023 (Regulação da Inteligência Artificial). Disponível em: https://www.camara.leg.br</li>
+</ul>
+
+    </aside>
+
+  </article>
+    <!-- CTA consultivo (leva ao WhatsApp da SAFIE) -->
+    <div class="container">
+      <div class="artigo-cta">
+        <h3>Decisão jurídica ou contábil pendente?</h3>
+        <p>A SAFIE atende founders e gestores com acesso direto aos sócios — jurídico e contabilidade integrados sob o mesmo teto. Conversamos para entender o caso antes de qualquer recomendação.</p>
+        <a href="https://wa.me/5511934329769?text=Ol%C3%A1!%20Vim%20pelo%20blog%20da%20SAFIE%20e%20gostaria%20de%20conversar." class="cta-btn" target="_blank" rel="noopener">Falar com a SAFIE</a>
+      </div>
+    </div>
+
+
+
+  <!-- Sobre os autores -->
+  <div class="container">
+    <div class="sobre-autores">
+      <span class="sobre-autores-titulo">Sobre os autores</span>
+      <p>Conteúdo produzido pela SAFIE, consultoria jurídico-contábil para empresas digitais e de tecnologia. A SAFIE é liderada por <a href="https://instagram.com/lucasm.mantovani" target="_blank" rel="noopener"><strong>Lucas Mantovani</strong></a> e <a href="https://instagram.com/euitalocunha" target="_blank" rel="noopener"><strong>Italo Cunha</strong></a>.</p>
+    </div>
+  </div>
+
+  <!-- Artigos relacionados -->
+  <div class="container">
+    <section class="relacionados">
+      <h2>Continue lendo</h2>
+      <div class="relacionados-lista">
+<ul class="relacionados-items">
+  <li><a href="/artigos/2026-07-15-pix-em-2026-regras-limites-e-obrigacoes">PIX em 2026: regras, limites e obrigações</a></li>
+  <li><a href="/artigos/2026-07-08-pix-no-pagamento-de-proventos-o-que-muda">PIX no pagamento de proventos: o que muda</a></li>
+  <li><a href="/artigos/2026-07-03-pix-em-feriados-regras-e-obrigacoes-para-fintechs">PIX em feriados: regras e obrigações para fintechs</a></li>
+</ul>
+</div>
+    </section>
+  </div>
+</main>
+
+<!-- partial: footer — rodapé comum COM formulário (injetado via {{FOOTER}}) -->
+<!-- Formulário de contato — placeholder. Submit inerte; integração HubSpot na fase A5/A6. -->
+<section class="footer-form-wrap" aria-label="Fale com a SAFIE">
+  <div class="footer-form-inner">
+    <div class="footer-form-texto">
+      <p class="secao-kicker">Fale com a SAFIE</p>
+      <h2>Decisão jurídica ou contábil pendente?</h2>
+      <p>Atendemos founders e gestores com acesso direto aos sócios — jurídico e contabilidade sob o mesmo teto.</p>
+    </div>
+    <!-- TODO A5/A6: HubSpot — este form ainda NÃO envia. -->
+    <form class="footer-form" data-form="rodape" onsubmit="return false" novalidate>
+      <label>Nome*
+        <input type="text" name="nome" autocomplete="name" required>
+      </label>
+      <label>E-mail*
+        <input type="email" name="email" autocomplete="email" required>
+      </label>
+      <label>Empresa
+        <input type="text" name="empresa" autocomplete="organization">
+      </label>
+      <label>Mensagem
+        <textarea name="mensagem" rows="3"></textarea>
+      </label>
+      <button type="submit" class="cta-btn" disabled aria-disabled="true">Enviar (em breve)</button>
+      <p class="footer-form-nota">Formulário em configuração. Por ora, fale conosco em
+        <a href="mailto:contato@safie.com.br">contato@safie.com.br</a>.</p>
+    </form>
+  </div>
+</section>
+
+<footer class="site-footer" role="contentinfo">
+  <div class="footer-inner">
+    <div class="footer-topo">
+      <div class="footer-marca">
+        <span class="logo-marca footer-logo-texto">Blog <span style="color:var(--ciano)">SAFIE</span></span>
+        <p>Consultoria jurídico-contábil para negócios digitais, startups e a nova economia.</p>
+      </div>
+      <div class="footer-nav">
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="/">Início</a></li>
+            <li><a href="/artigos/">Artigos</a></li>
+            <li><a href="/categorias/">Categorias</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Links</h4>
+          <ul>
+            <li><a href="https://safie.com.br" target="_blank" rel="noopener">safie.com.br</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+            <li><a href="mailto:contato@safie.com.br">contato@safie.com.br</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-arco-iris" aria-hidden="true"></div>
+    <div class="footer-cnpjs" aria-label="CNPJ SAFIE">
+      <span>SAFIE TECNOLOGIA E CONSULTORIA LTDA, inscrita no CNPJ sob o nº 42.224.278/0001-92, sediada à Av. Brigadeiro Faria Lima, Conj. 1102, Jardim Paulistano, CEP nº 01452922, São Paulo-SP</span>
+    </div>
+    <div class="footer-base">
+      <span>&copy; 2026 SAFIE. Todos os direitos reservados.</span>
+      <span>Conteúdo informativo; não constitui parecer jurídico ou contábil individualizado.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/js/busca.js"></script>
+<script>
+fetch('https://safie-analytics.lucas-mantovani.workers.dev/track', {
+  method: 'POST',
+  headers: {'Content-Type': 'application/json'},
+  body: JSON.stringify({ url: window.location.pathname, blog: 'fintechs' })
+}).catch(() => {});
+</script>
+<script src="/assets/js/widget-whatsapp.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta name="google-site-verification" content="o2ME48MD1myosxdzANOv2RozPmZyghqIt_zVWQqmHOA" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Contratos de IA e infraestrutura crítica: riscos reais — SAFIE Blog</title>
+  <meta name="description" content="Cabos submarinos cortados expõem lacunas em contratos de IA. Veja o que founders, CTOs e advogados precisam prever em SLA e cláusulas de continuidade.">
+  <link rel="canonical" href="https://safie.blog.br/artigos/2026-05-19-contratos-de-ia-e-infraestrutura-critica-riscos-reais">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="author" content="SAFIE">
+  <meta name="keywords" content="contratos, infraestrutura, crítica, riscos, reais, responsabilidade, Lei 13.709/2018, PL 2.338/2023">
+
+  <!-- Open Graph -->
+  <meta property="og:type"        content="article">
+  <meta property="og:title"       content="Contratos de IA e infraestrutura crítica: riscos reais — SAFIE Blog">
+  <meta property="og:description" content="Cabos submarinos cortados expõem lacunas em contratos de IA. Veja o que founders, CTOs e advogados precisam prever em SLA e cláusulas de continuidade.">
+  <meta property="og:url"         content="https://safie.blog.br/artigos/2026-05-19-contratos-de-ia-e-infraestrutura-critica-riscos-reais">
+  <meta property="og:site_name"   content="SAFIE Blog">
+  <meta property="og:locale"      content="pt_BR">
+  <meta property="og:image"       content="https://safie.blog.br/assets/img/artigos/2026-05-19-contratos-de-ia-e-infraestrutura-critica-riscos-reais.svg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="article:published_time" content="2026-05-19T11:01:44Z">
+  <meta property="article:section"       content="Contratos e responsabilidade em IA">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:title"       content="Contratos de IA e infraestrutura crítica: riscos reais — SAFIE Blog">
+  <meta name="twitter:description" content="Cabos submarinos cortados expõem lacunas em contratos de IA. Veja o que founders, CTOs e advogados precisam prever em SLA e cláusulas de continuidade.">
+  <meta name="twitter:image"       content="https://safie.blog.br/assets/img/artigos/2026-05-19-contratos-de-ia-e-infraestrutura-critica-riscos-reais.svg">
+
+  <!-- Schema.org JSON-LD (BlogPosting + FAQPage) -->
+  <script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Contratos de IA e infraestrutura crítica: riscos reais",
+    "description": "Cabos submarinos cortados expõem lacunas em contratos de IA. Veja o que founders, CTOs e advogados precisam prever em SLA e cláusulas de continuidade.",
+    "datePublished": "2026-05-19T11:01:44Z",
+    "dateModified": "2026-07-10T10:01:59-03:00",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://safie.blog.br/artigos/2026-05-19-contratos-de-ia-e-infraestrutura-critica-riscos-reais"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Lucas Mantovani",
+      "sameAs": [
+        "https://www.linkedin.com/in/lucasm-mantovani/",
+        "https://www.instagram.com/lucasm.mantovani/"
+      ]
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "SAFIE",
+      "url": "https://safie.com.br",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://consultoria.safie.com.br/wp-content/uploads/2025/11/cropped-2-1-1024x292.webp"
+      },
+      "sameAs": [
+        "https://www.instagram.com/safiegroup/",
+        "https://www.instagram.com/safiecontabilidade/"
+      ]
+    },
+    "url": "https://safie.blog.br/artigos/2026-05-19-contratos-de-ia-e-infraestrutura-critica-riscos-reais",
+    "articleSection": "Contratos e responsabilidade em IA",
+    "inLanguage": "pt-BR"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Um corte de cabo submarino configura força maior em contratos de IA no Brasil?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Depende da redação do contrato e da previsibilidade do evento. O Código Civil (art. 393) reconhece força maior para eventos imprevisíveis e irresistíveis. Como ataques a cabos submarinos já estão documentados e noticiados, tribunais podem entender que o evento era previsível para fornecedores sofisticados, afastando a excludente de responsabilidade se o contrato não a previu expressamente."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O que deve constar em um SLA de IA para cobrir falhas de infraestrutura externa?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "O SLA deve distinguir disponibilidade do serviço e disponibilidade da infraestrutura subjacente, listar explicitamente as dependências externas (APIs de terceiros, rotas de conectividade internacional), definir o que conta como downtime e o que é excluído por causa de terceiros, e prever planos de contingência com modelos alternativos ou rotas de fallback documentadas."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "A LGPD se aplica quando dados pessoais ficam inacessíveis por falha de cabo submarino?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim. Se a falha de infraestrutura atrasar, expuser ou comprometer o tratamento de dados pessoais, controlador e operador podem ser responsabilizados com base no artigo 42 da LGPD. A lei não exige dolo, apenas nexo causal entre o dano ao titular e o tratamento inadequado, incluindo a indisponibilidade não justificada."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Empresas de IA precisam registrar provisão contábil para riscos de infraestrutura global?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Precisam avaliar o risco com base no CPC 37. Se há contratos de alta disponibilidade com dependência de infraestrutura vulnerável e o risco de falha é provável e mensurável, a provisão deve ser reconhecida. Ignorar esse passivo pode gerar distorção nas demonstrações financeiras e questionamentos em auditorias ou due diligence para investimentos."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O PL 2.338/2023 afeta a responsabilidade de fornecedores de IA em casos de falha de infraestrutura?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "O PL 2.338/2023 prevê responsabilização objetiva para sistemas de IA de alto risco. Se um sistema de IA nessa categoria falhar por indisponibilidade de infraestrutura, o fornecedor pode responder independentemente de culpa, salvo se o contrato e os documentos técnicos comprovarem que a causa foi exclusivamente externa e imprevisível. A documentação contratual e técnica torna-se, portanto, uma linha de defesa essencial."
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Início",
+        "item": "https://safie.blog.br"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Contratos e responsabilidade em IA",
+        "item": "https://safie.blog.br/categorias/contratos-ia"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Contratos de IA e infraestrutura crítica: riscos reais",
+        "item": "https://safie.blog.br/artigos/2026-05-19-contratos-de-ia-e-infraestrutura-critica-riscos-reais"
+      }
+    ]
+  }
+]
+  </script>
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/artigo.css">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="/assets/img/android-chrome-512x512.png">
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+</head>
+<body data-nicho="ia">
+
+<!-- partial: header — cabeçalho comum do SAFIE Blog (injetado via {{HEADER}}) -->
+<header class="site-header" role="banner">
+  <div class="header-inner">
+    <a href="/" class="logo" aria-label="SAFIE Blog — Página inicial">
+      <img class="logo-img" src="/assets/logos/safie-logo-branco.svg" alt="SAFIE">
+      <span class="blog-id">Blog</span>
+    </a>
+    <nav id="nav-principal" class="nav-principal" aria-label="Navegação principal">
+      <a href="/">Início</a>
+      <a href="/artigos/">Artigos</a>
+      <a href="/categorias/">Categorias</a>
+    </nav>
+    <form class="header-busca" role="search" action="/busca" method="get">
+      <label for="busca-q-header" class="sr-only">Buscar artigos</label>
+      <input type="search" id="busca-q-header" name="q" placeholder="Buscar…" autocomplete="off">
+      <button type="submit" aria-label="Buscar">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      </button>
+    </form>
+    <a href="https://safie.com.br" class="nav-voltar" target="_blank" rel="noopener">Voltar ao site SAFIE →</a>
+    <button id="menu-toggle" class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+<nav class="breadcrumb" aria-label="Trilha de navegação">
+  <div class="container">
+    <a href="/">Início</a> <span aria-hidden="true">›</span>
+    <a href="/categorias/contratos-ia">Contratos e responsabilidade em IA</a> <span aria-hidden="true">›</span>
+    <span aria-current="page">Contratos de IA e infraestrutura crítica: riscos reais</span>
+  </div>
+</nav>
+
+  <article class="artigo-wrapper" itemscope itemtype="https://schema.org/BlogPosting">
+
+    <header class="artigo-header">
+      <a class="artigo-tema" href="/categorias/contratos-ia">Contratos e responsabilidade em IA</a>
+
+      <h1 class="artigo-titulo" itemprop="headline">Contratos de IA e infraestrutura crítica: riscos reais</h1>
+
+      <div class="artigo-meta">
+        <span>Por <strong itemprop="author">SAFIE</strong></span>
+        <span>·</span>
+        <time datetime="2026-05-19T11:01:44Z" itemprop="datePublished">19 de maio de 2026</time>
+        <span>·</span>
+        <span>3 min de leitura</span>
+      </div>
+    </header>
+
+    <img class="artigo-capa" src="/assets/img/artigos/2026-05-19-contratos-de-ia-e-infraestrutura-critica-riscos-reais.svg" alt="Contratos de IA e infraestrutura crítica: riscos reais — capa ilustrativa do artigo sobre Contratos e responsabilidade em IA" width="1200" height="630" loading="lazy">
+
+    <!-- Resumo executivo (para IAs generativas / GEO) -->
+    <aside class="resumo-executivo" itemprop="abstract">
+      <strong>Resumo executivo</strong>
+      Ataques a cabos submarinos de fibra ótica ameaçam a infraestrutura que sustenta serviços de IA em escala global. No Brasil, isso cria responsabilidade contratual concreta para empresas que entregam soluções baseadas em conectividade e disponibilidade de modelos remotos. Contratos de IA sem cláusulas de força maior bem delimitadas e SLAs realistas expõem fornecedores e clientes a disputas milionárias.
+    </aside>
+
+    <!-- Corpo do artigo -->
+    <div class="artigo-corpo" itemprop="articleBody">
+      <p>No fundo dos oceanos correm os cabos de fibra ótica que conectam continentes inteiros. São estruturas físicas com diâmetro comparável ao de uma mangueira de jardim, mas responsáveis por cerca de 95% do tráfego de dados internacional, segundo a <a href='https://mittechreview.com.br/guerra-cabos-submarinos/'>MIT Technology Review Brasil</a>. Sem eles, APIs de IA, modelos de linguagem em nuvem e plataformas SaaS simplesmente param de funcionar.</p><p>A reportagem da MIT Technology Review Brasil detalhou como esses cabos têm se tornado alvos em disputas geopolíticas. Cortes deliberados ou danos estratégicos a esse sistema nervoso subaquático afetam latência, disponibilidade e integridade de dados em tempo real. Para empresas de IA que dependem de infraestrutura de terceiros, isso não é apenas um problema técnico.</p><p>É um problema contratual e regulatório de primeira ordem. E a maioria dos contratos de IA no Brasil ainda não está preparada para ele.</p>
+
+<h2>Contexto jurídico e regulatório</h2>
+<h2>O que diz o direito brasileiro sobre falha de infraestrutura em contratos de IA</h2><p>O Código Civil brasileiro, nos artigos 393 e 396, disciplina o caso fortuito e a força maior como excludentes de responsabilidade. A interpretação tradicional cobre eventos imprevisíveis e irresistíveis. O problema é que ataques a cabos submarinos já estão documentados, tornando-os previsíveis para empresas que estruturam contratos de longo prazo.</p><p>Quando o evento é previsível e o contrato silencia sobre ele, tribunais brasileiros tendem a responsabilizar o fornecedor pela falha de serviço. Isso se aplica diretamente a contratos de software como serviço (SaaS), APIs de IA e acordos de nível de serviço (SLA) que prometem disponibilidade acima de 99% sem ressalvar dependências externas de conectividade.</p><p>A Lei Geral de Proteção de Dados (Lei 13.709/2018, a LGPD) adiciona uma camada a mais. Se a indisponibilidade de infraestrutura causar perda, exposição ou atraso no tratamento de dados pessoais, o controlador e o operador podem responder solidariamente. O artigo 42 da LGPD não exige dolo, apenas nexo causal entre o dano e o tratamento inadequado.</p><p>A futura regulação brasileira de IA, em discussão no Congresso Nacional com base no PL 2.338/2023, reforça a tendência de responsabilização objetiva para sistemas de IA classificados como alto risco. Provedores que entregam soluções em saúde, crédito ou segurança pública precisam prever expressamente o que acontece quando a infraestrutura subjacente falha por causas externas.</p>
+
+<h2>Impacto prático</h2>
+<p>Para founders e CTOs, o ponto central é o seguinte: um contrato de IA que promete disponibilidade sem mapear dependências de terceiros é um contrato com passivo oculto. Cabos submarinos, data centers de hiperescaladores e rotas de CDN são elos da cadeia que precisam aparecer explicitamente nas cláusulas de SLA e nas políticas de continuidade de negócios.</p><p>Na prática, isso significa rever três pontos críticos. Primeiro, a definição de força maior no contrato precisa incluir ou excluir explicitamente interrupções de infraestrutura de telecomunicações internacionais. Segundo, os SLAs devem distinguir disponibilidade do serviço de disponibilidade do modelo de IA subjacente, especialmente quando ele roda em APIs de terceiros como OpenAI, Google ou Anthropic. Terceiro, planos de contingência com rotas alternativas de conectividade e modelos locais (on-premise ou edge) devem ser documentados e contratualmente exigíveis.</p><p>Para advogados e contadores que atendem empresas de tecnologia, o alerta é contábil também. Provisões para litígios decorrentes de falhas de serviço precisam considerar o risco de infraestrutura global. O CPC 37 (Provisões, Passivos Contingentes e Ativos Contingentes), emitido pelo CFC e alinhado ao IFRS, exige que passivos prováveis e mensuráveis sejam reconhecidos. Empresas de IA com contratos de alta disponibilidade e infraestrutura dependente de cabos submarinos podem ter contingências contábeis não registradas.</p>
+
+<h2>Considerações finais</h2>
+<p>A guerra invisível no fundo do mar não é metáfora. É um risco operacional com consequências jurídicas e financeiras diretas para qualquer empresa que entrega IA como serviço. O Brasil ainda carece de jurisprudência consolidada sobre falhas de IA causadas por eventos geopolíticos, mas o arcabouço legal já existente, do Código Civil à LGPD e ao PL 2.338/2023, cria terreno suficiente para responsabilização.</p><p>Founders, CTOs e conselheiros jurídicos que revisarem seus contratos agora, antes da próxima interrupção de cabo submarino, estarão em posição muito mais defensável do que os que esperarem o incidente acontecer. A pergunta não é se haverá outra falha de infraestrutura global. A pergunta é se o seu contrato já prevê o que acontece quando ela ocorrer.</p>
+    </div>
+
+    <!-- FAQ -->
+    <section class="faq-section" id="faq" itemscope itemtype="https://schema.org/FAQPage">
+      <h2>Perguntas frequentes</h2>
+      <div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Um corte de cabo submarino configura força maior em contratos de IA no Brasil?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">Depende da redação do contrato e da previsibilidade do evento. O Código Civil (art. 393) reconhece força maior para eventos imprevisíveis e irresistíveis. Como ataques a cabos submarinos já estão documentados e noticiados, tribunais podem entender que o evento era previsível para fornecedores sofisticados, afastando a excludente de responsabilidade se o contrato não a previu expressamente.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">O que deve constar em um SLA de IA para cobrir falhas de infraestrutura externa?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">O SLA deve distinguir disponibilidade do serviço e disponibilidade da infraestrutura subjacente, listar explicitamente as dependências externas (APIs de terceiros, rotas de conectividade internacional), definir o que conta como downtime e o que é excluído por causa de terceiros, e prever planos de contingência com modelos alternativos ou rotas de fallback documentadas.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">A LGPD se aplica quando dados pessoais ficam inacessíveis por falha de cabo submarino?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">Sim. Se a falha de infraestrutura atrasar, expuser ou comprometer o tratamento de dados pessoais, controlador e operador podem ser responsabilizados com base no artigo 42 da LGPD. A lei não exige dolo, apenas nexo causal entre o dano ao titular e o tratamento inadequado, incluindo a indisponibilidade não justificada.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Empresas de IA precisam registrar provisão contábil para riscos de infraestrutura global?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">Precisam avaliar o risco com base no CPC 37. Se há contratos de alta disponibilidade com dependência de infraestrutura vulnerável e o risco de falha é provável e mensurável, a provisão deve ser reconhecida. Ignorar esse passivo pode gerar distorção nas demonstrações financeiras e questionamentos em auditorias ou due diligence para investimentos.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">O PL 2.338/2023 afeta a responsabilidade de fornecedores de IA em casos de falha de infraestrutura?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">O PL 2.338/2023 prevê responsabilização objetiva para sistemas de IA de alto risco. Se um sistema de IA nessa categoria falhar por indisponibilidade de infraestrutura, o fornecedor pode responder independentemente de culpa, salvo se o contrato e os documentos técnicos comprovarem que a causa foi exclusivamente externa e imprevisível. A documentação contratual e técnica torna-se, portanto, uma linha de defesa essencial.</span></div>
+</div>
+
+    </section>
+
+    <!-- Referências -->
+    <aside class="referencias">
+      <h2>Fontes e referências</h2>
+      <ul>
+<li><a href="https://mittechreview.com.br/guerra-cabos-submarinos/" target="_blank" rel="noopener">MIT Technology Review Brasil</a></li>
+<li><span class="ref-label">Fonte original:</span> <a href="https://mittechreview.com.br/guerra-cabos-submarinos/" target="_blank" rel="noopener">MIT Technology Review Brasil - A guerra invisível no fundo do mar</a></li>
+<li>Código Civil Brasileiro, arts. 393 e 396 (força maior e caso fortuito)</li>
+<li>Lei Geral de Proteção de Dados (Lei 13.709/2018), art. 42 (responsabilidade do controlador e operador)</li>
+<li>PL 2.338/2023 - Projeto de Lei de regulação de IA no Brasil, em tramitação no Congresso Nacional</li>
+<li>CPC 37 - Provisões, Passivos Contingentes e Ativos Contingentes, emitido pelo CFC (alinhado ao IAS 37/IFRS)</li>
+<li><span class="ref-label">Telegeography - Submarine Cable Map (dados sobre infraestrutura de cabos submarinos):</span> <a href="https://www.submarinecablemap.com" target="_blank" rel="noopener">submarinecablemap.com</a></li>
+</ul>
+
+    </aside>
+
+  </article>
+    <!-- CTA consultivo (leva ao WhatsApp da SAFIE) -->
+    <div class="container">
+      <div class="artigo-cta">
+        <h3>Decisão jurídica ou contábil pendente?</h3>
+        <p>A SAFIE atende founders e gestores com acesso direto aos sócios — jurídico e contabilidade integrados sob o mesmo teto. Conversamos para entender o caso antes de qualquer recomendação.</p>
+        <a href="https://wa.me/5511934329769?text=Ol%C3%A1!%20Vim%20pelo%20blog%20da%20SAFIE%20e%20gostaria%20de%20conversar." class="cta-btn" target="_blank" rel="noopener">Falar com a SAFIE</a>
+      </div>
+    </div>
+
+
+
+  <!-- Sobre os autores -->
+  <div class="container">
+    <div class="sobre-autores">
+      <span class="sobre-autores-titulo">Sobre os autores</span>
+      <p>Conteúdo produzido pela SAFIE, consultoria jurídico-contábil para empresas digitais e de tecnologia. A SAFIE é liderada por <a href="https://instagram.com/lucasm.mantovani" target="_blank" rel="noopener"><strong>Lucas Mantovani</strong></a> e <a href="https://instagram.com/euitalocunha" target="_blank" rel="noopener"><strong>Italo Cunha</strong></a>.</p>
+    </div>
+  </div>
+
+  <!-- Artigos relacionados -->
+  <div class="container">
+    <section class="relacionados">
+      <h2>Continue lendo</h2>
+      <div class="relacionados-lista">
+<ul class="relacionados-items">
+  <li><a href="/artigos/2026-06-12-contratos-e-responsabilidade-em-ia-o-que-sua-empresa-deve-saber">Contratos e responsabilidade em IA: o que sua empresa deve saber</a></li>
+  <li><a href="/artigos/2026-06-05-contratos-e-responsabilidade-em-ia-o-que-saber">Contratos e responsabilidade em IA: o que saber</a></li>
+  <li><a href="/artigos/2026-05-15-contratos-e-responsabilidade-em-ia-no-brasil">Contratos e responsabilidade em IA no Brasil</a></li>
+</ul>
+</div>
+    </section>
+  </div>
+</main>
+
+<!-- partial: footer — rodapé comum COM formulário (injetado via {{FOOTER}}) -->
+<!-- Formulário de contato — placeholder. Submit inerte; integração HubSpot na fase A5/A6. -->
+<section class="footer-form-wrap" aria-label="Fale com a SAFIE">
+  <div class="footer-form-inner">
+    <div class="footer-form-texto">
+      <p class="secao-kicker">Fale com a SAFIE</p>
+      <h2>Decisão jurídica ou contábil pendente?</h2>
+      <p>Atendemos founders e gestores com acesso direto aos sócios — jurídico e contabilidade sob o mesmo teto.</p>
+    </div>
+    <!-- TODO A5/A6: HubSpot — este form ainda NÃO envia. -->
+    <form class="footer-form" data-form="rodape" onsubmit="return false" novalidate>
+      <label>Nome*
+        <input type="text" name="nome" autocomplete="name" required>
+      </label>
+      <label>E-mail*
+        <input type="email" name="email" autocomplete="email" required>
+      </label>
+      <label>Empresa
+        <input type="text" name="empresa" autocomplete="organization">
+      </label>
+      <label>Mensagem
+        <textarea name="mensagem" rows="3"></textarea>
+      </label>
+      <button type="submit" class="cta-btn" disabled aria-disabled="true">Enviar (em breve)</button>
+      <p class="footer-form-nota">Formulário em configuração. Por ora, fale conosco em
+        <a href="mailto:contato@safie.com.br">contato@safie.com.br</a>.</p>
+    </form>
+  </div>
+</section>
+
+<footer class="site-footer" role="contentinfo">
+  <div class="footer-inner">
+    <div class="footer-topo">
+      <div class="footer-marca">
+        <span class="logo-marca footer-logo-texto">Blog <span style="color:var(--ciano)">SAFIE</span></span>
+        <p>Consultoria jurídico-contábil para negócios digitais, startups e a nova economia.</p>
+      </div>
+      <div class="footer-nav">
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="/">Início</a></li>
+            <li><a href="/artigos/">Artigos</a></li>
+            <li><a href="/categorias/">Categorias</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Links</h4>
+          <ul>
+            <li><a href="https://safie.com.br" target="_blank" rel="noopener">safie.com.br</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+            <li><a href="mailto:contato@safie.com.br">contato@safie.com.br</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-arco-iris" aria-hidden="true"></div>
+    <div class="footer-cnpjs" aria-label="CNPJ SAFIE">
+      <span>SAFIE TECNOLOGIA E CONSULTORIA LTDA, inscrita no CNPJ sob o nº 42.224.278/0001-92, sediada à Av. Brigadeiro Faria Lima, Conj. 1102, Jardim Paulistano, CEP nº 01452922, São Paulo-SP</span>
+    </div>
+    <div class="footer-base">
+      <span>&copy; 2026 SAFIE. Todos os direitos reservados.</span>
+      <span>Conteúdo informativo; não constitui parecer jurídico ou contábil individualizado.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/js/busca.js"></script>
+<script>
+fetch('https://safie-analytics.lucas-mantovani.workers.dev/track', {
+  method: 'POST',
+  headers: {'Content-Type': 'application/json'},
+  body: JSON.stringify({ url: window.location.pathname, blog: 'ia' })
+}).catch(() => {});
+</script>
+<script src="/assets/js/widget-whatsapp.js" defer></script>
+</body>
+</html>

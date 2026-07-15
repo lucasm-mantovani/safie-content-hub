@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta name="google-site-verification" content="o2ME48MD1myosxdzANOv2RozPmZyghqIt_zVWQqmHOA" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Contratos e responsabilidade em IA: o que sua empresa deve saber — SAFIE Blog</title>
+  <meta name="description" content="Entenda como estruturar contratos de IA com cláusulas de responsabilidade sólidas e conformidade com a lei brasileira. Guia para founders e CTOs.">
+  <link rel="canonical" href="https://safie.blog.br/artigos/2026-06-12-contratos-e-responsabilidade-em-ia-o-que-sua-empresa-deve-saber">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="author" content="SAFIE">
+  <meta name="keywords" content="contratos, responsabilidade, empresa, deve, saber, Lei 10.406/2002, Lei 13.709/2018, PL 2.338/2023, art. 927, art. 20">
+
+  <!-- Open Graph -->
+  <meta property="og:type"        content="article">
+  <meta property="og:title"       content="Contratos e responsabilidade em IA: o que sua empresa deve saber — SAFIE Blog">
+  <meta property="og:description" content="Entenda como estruturar contratos de IA com cláusulas de responsabilidade sólidas e conformidade com a lei brasileira. Guia para founders e CTOs.">
+  <meta property="og:url"         content="https://safie.blog.br/artigos/2026-06-12-contratos-e-responsabilidade-em-ia-o-que-sua-empresa-deve-saber">
+  <meta property="og:site_name"   content="SAFIE Blog">
+  <meta property="og:locale"      content="pt_BR">
+  <meta property="og:image"       content="https://safie.blog.br/assets/img/artigos/2026-06-12-contratos-e-responsabilidade-em-ia-o-que-sua-empresa-deve-saber.svg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="article:published_time" content="2026-06-12T11:01:43Z">
+  <meta property="article:section"       content="Contratos e responsabilidade em IA">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:title"       content="Contratos e responsabilidade em IA: o que sua empresa deve saber — SAFIE Blog">
+  <meta name="twitter:description" content="Entenda como estruturar contratos de IA com cláusulas de responsabilidade sólidas e conformidade com a lei brasileira. Guia para founders e CTOs.">
+  <meta name="twitter:image"       content="https://safie.blog.br/assets/img/artigos/2026-06-12-contratos-e-responsabilidade-em-ia-o-que-sua-empresa-deve-saber.svg">
+
+  <!-- Schema.org JSON-LD (BlogPosting + FAQPage) -->
+  <script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Contratos e responsabilidade em IA: o que sua empresa deve saber",
+    "description": "Entenda como estruturar contratos de IA com cláusulas de responsabilidade sólidas e conformidade com a lei brasileira. Guia para founders e CTOs.",
+    "datePublished": "2026-06-12T11:01:43Z",
+    "dateModified": "2026-07-10T10:01:59-03:00",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://safie.blog.br/artigos/2026-06-12-contratos-e-responsabilidade-em-ia-o-que-sua-empresa-deve-saber"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Lucas Mantovani",
+      "sameAs": [
+        "https://www.linkedin.com/in/lucasm-mantovani/",
+        "https://www.instagram.com/lucasm.mantovani/"
+      ]
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "SAFIE",
+      "url": "https://safie.com.br",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://consultoria.safie.com.br/wp-content/uploads/2025/11/cropped-2-1-1024x292.webp"
+      },
+      "sameAs": [
+        "https://www.instagram.com/safiegroup/",
+        "https://www.instagram.com/safiecontabilidade/"
+      ]
+    },
+    "url": "https://safie.blog.br/artigos/2026-06-12-contratos-e-responsabilidade-em-ia-o-que-sua-empresa-deve-saber",
+    "articleSection": "Contratos e responsabilidade em IA",
+    "inLanguage": "pt-BR"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Quem é responsável quando uma IA toma uma decisão errada que prejudica um usuário?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Depende do que o contrato estabelece e de como o sistema foi implantado. Se o contrato for omisso, o Código Civil brasileiro (art. 927, parágrafo único) pode responsabilizar objetivamente quem explora a atividade de risco. Na prática, isso tende a recair sobre a empresa que disponibilizou o sistema ao usuário final, não necessariamente sobre o desenvolvedor do modelo base."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Posso incluir uma cláusula de limitação de responsabilidade para danos causados pela IA?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim, mas com limites. Cláusulas de limitação de responsabilidade são válidas entre empresas (B2B) quando negociadas livremente. Em contratos com consumidores (B2C), o Código de Defesa do Consumidor (Lei 8.078/1990) restringe ou invalida cláusulas que afastem responsabilidade por defeitos do serviço. Para serviços financeiros, o Banco Central e a CVM adicionam camadas regulatórias próprias."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O que é necessário incluir em um contrato de API com um provedor de modelo de IA?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No mínimo: definição de qual parte controla o fine-tuning e os prompts de sistema; alocação de responsabilidade por saídas do modelo; cláusulas sobre propriedade dos dados enviados ao modelo; obrigações de confidencialidade e conformidade com a LGPD; e procedimento de notificação em caso de incidente ou alteração relevante no modelo pelo provedor."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O Marco Legal da IA já está em vigor no Brasil?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não. O PL 2.338/2023 foi aprovado pelo Senado em dezembro de 2024 e aguarda votação na Câmara dos Deputados. Enquanto isso, aplicam-se o Código Civil, a LGPD, o CDC, as normas setoriais do Banco Central, da CVM e da ANS, conforme o setor de atuação da empresa."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Preciso provisionar passivos por riscos de IA nas demonstrações financeiras da minha startup?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Se houver litígios em curso ou risco provável e estimável de perdas relacionadas a sistemas de IA, sim. O CPC 25 exige provisionamento de passivos contingentes prováveis com valor estimável. Em startups em fase de captação, a ausência dessas provisões pode ser interpretada como falta de maturidade na gestão de riscos durante o due diligence."
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Início",
+        "item": "https://safie.blog.br"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Contratos e responsabilidade em IA",
+        "item": "https://safie.blog.br/categorias/contratos-ia"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Contratos e responsabilidade em IA: o que sua empresa deve saber",
+        "item": "https://safie.blog.br/artigos/2026-06-12-contratos-e-responsabilidade-em-ia-o-que-sua-empresa-deve-saber"
+      }
+    ]
+  }
+]
+  </script>
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/artigo.css">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="/assets/img/android-chrome-512x512.png">
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+</head>
+<body data-nicho="ia">
+
+<!-- partial: header — cabeçalho comum do SAFIE Blog (injetado via {{HEADER}}) -->
+<header class="site-header" role="banner">
+  <div class="header-inner">
+    <a href="/" class="logo" aria-label="SAFIE Blog — Página inicial">
+      <img class="logo-img" src="/assets/logos/safie-logo-branco.svg" alt="SAFIE">
+      <span class="blog-id">Blog</span>
+    </a>
+    <nav id="nav-principal" class="nav-principal" aria-label="Navegação principal">
+      <a href="/">Início</a>
+      <a href="/artigos/">Artigos</a>
+      <a href="/categorias/">Categorias</a>
+    </nav>
+    <form class="header-busca" role="search" action="/busca" method="get">
+      <label for="busca-q-header" class="sr-only">Buscar artigos</label>
+      <input type="search" id="busca-q-header" name="q" placeholder="Buscar…" autocomplete="off">
+      <button type="submit" aria-label="Buscar">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      </button>
+    </form>
+    <a href="https://safie.com.br" class="nav-voltar" target="_blank" rel="noopener">Voltar ao site SAFIE →</a>
+    <button id="menu-toggle" class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+<nav class="breadcrumb" aria-label="Trilha de navegação">
+  <div class="container">
+    <a href="/">Início</a> <span aria-hidden="true">›</span>
+    <a href="/categorias/contratos-ia">Contratos e responsabilidade em IA</a> <span aria-hidden="true">›</span>
+    <span aria-current="page">Contratos e responsabilidade em IA: o que sua empresa deve saber</span>
+  </div>
+</nav>
+
+  <article class="artigo-wrapper" itemscope itemtype="https://schema.org/BlogPosting">
+
+    <header class="artigo-header">
+      <a class="artigo-tema" href="/categorias/contratos-ia">Contratos e responsabilidade em IA</a>
+
+      <h1 class="artigo-titulo" itemprop="headline">Contratos e responsabilidade em IA: o que sua empresa deve saber</h1>
+
+      <div class="artigo-meta">
+        <span>Por <strong itemprop="author">SAFIE</strong></span>
+        <span>·</span>
+        <time datetime="2026-06-12T11:01:43Z" itemprop="datePublished">12 de junho de 2026</time>
+        <span>·</span>
+        <span>4 min de leitura</span>
+      </div>
+    </header>
+
+    <img class="artigo-capa" src="/assets/img/artigos/2026-06-12-contratos-e-responsabilidade-em-ia-o-que-sua-empresa-deve-saber.svg" alt="Contratos e responsabilidade em IA: o que sua empresa deve saber — capa ilustrativa do artigo sobre Contratos e responsabilidade em IA" width="1200" height="630" loading="lazy">
+
+    <!-- Resumo executivo (para IAs generativas / GEO) -->
+    <aside class="resumo-executivo" itemprop="abstract">
+      <strong>Resumo executivo</strong>
+      A ausência de cláusulas específicas sobre responsabilidade em contratos de sistemas de IA expõe empresas a riscos jurídicos relevantes no Brasil. O Código Civil, a LGPD e o Marco Legal da IA em tramitação estabelecem obrigações que já afetam acordos firmados hoje. Founders e CTOs precisam revisar seus contratos antes que litígios ou autuações tornem o problema mais caro.
+    </aside>
+
+    <!-- Corpo do artigo -->
+    <div class="artigo-corpo" itemprop="articleBody">
+      <p>Uma notícia sobre operações com minicontratos de Bitcoin futuro pode parecer distante do universo de contratos de inteligência artificial. Mas a conexão é direta: sistemas de IA são usados intensamente em plataformas de negociação algorítmica, análise de ativos digitais e execução automatizada de ordens, exatamente o ambiente descrito em coberturas como a da InfoMoney sobre a Semana dos Minicontratos.</p>
+<p>Quando uma IA executa ou recomenda uma operação financeira e algo dá errado, a pergunta jurídica imediata é: quem responde? O desenvolvedor do modelo? A plataforma que o implantou? O usuário que configurou os parâmetros? Essa indefinição não é um detalhe contratual, é um risco empresarial concreto.</p>
+<p>Este artigo examina como estruturar contratos que envolvem sistemas de IA, quais cláusulas são indispensáveis e o que a legislação brasileira já exige, mesmo antes da aprovação de uma lei específica sobre IA.</p>
+
+<h2>Contexto jurídico e regulatório</h2>
+<h2>O vazio regulatório não significa ausência de responsabilidade</h2>
+<p>O Brasil ainda não possui uma lei geral de inteligência artificial em vigor. O PL 2.338/2023, aprovado pelo Senado em dezembro de 2024, aguarda votação na Câmara dos Deputados. Mas isso não significa que contratos de IA operem em zona neutra.</p>
+<p>O Código Civil brasileiro (Lei 10.406/2002) já prevê responsabilidade objetiva para atividades de risco (art. 927, parágrafo único). Sistemas de IA utilizados em decisões financeiras, médicas ou de crédito podem ser enquadrados como atividade de risco por natureza, o que elimina a necessidade de provar culpa para responsabilizar o fornecedor.</p>
+<p>A LGPD (Lei 13.709/2018) acrescenta outra camada. O art. 20 garante ao titular o direito de solicitar revisão de decisões tomadas exclusivamente por meios automatizados, incluindo decisões que afetem interesses do usuário. Contratos que não mencionam esse direito ou que tentam afastá-lo são nulos nesse ponto.</p>
+<h2>O que o PL 2.338/2023 já antecipa para contratos</h2>
+<p>Mesmo sem força de lei, o PL aprovado pelo Senado orienta o mercado. Ele classifica sistemas de IA por nível de risco (mínimo, limitado, alto e inaceitável) e impõe obrigações distintas para cada categoria. Sistemas de IA usados em concessão de crédito, seleção de empregados ou prestação de serviços financeiros são classificados como alto risco.</p>
+<p>Para sistemas de alto risco, o PL exige documentação técnica detalhada, registro de logs de decisão, avaliação de impacto e indicação de um responsável pelo sistema dentro da organização. Contratos que não distribuem essas responsabilidades entre as partes deixam a empresa em posição vulnerável quando a norma entrar em vigor.</p>
+<p>O prazo de adaptação previsto no texto aprovado pelo Senado é de 24 meses após a publicação da lei. Empresas que começarem a estruturar seus contratos agora chegam à janela de vigência com vantagem competitiva e menor exposição a multas, que no PL podem alcançar 2% do faturamento bruto anual, limitadas a R$ 50 milhões por infração.</p>
+
+<h2>Impacto prático</h2>
+<p>Para founders e CTOs, o primeiro passo é mapear todos os contratos que envolvem sistemas de IA, seja como fornecedor, como cliente ou como intermediário. Isso inclui contratos de API com provedores de modelos (OpenAI, Google, Anthropic), contratos com clientes que usam seus produtos de IA e acordos com parceiros que integram seus sistemas.</p>
+<p>Três cláusulas são indispensáveis em qualquer contrato de IA: (1) definição clara de qual parte é responsável pelo treinamento, ajuste e monitoramento do modelo; (2) cláusula de alocação de riscos para saídas incorretas ou prejudiciais do sistema, com limites de indenização definidos; e (3) obrigação de notificação em caso de falha ou comportamento inesperado do sistema, com prazo máximo estipulado. Sem essas três cláusulas, o contrato deixa lacunas que tribunais preencherão de forma imprevisível.</p>
+<p>Do ponto de vista contábil, a responsabilidade por danos causados por IA pode gerar passivos contingentes que precisam ser provisionados conforme o CPC 25 (Provisões, Passivos Contingentes e Ativos Contingentes). Empresas que não mapeiam esses riscos em suas demonstrações financeiras podem surpreender investidores e auditores, especialmente em rodadas de captação onde o due diligence jurídico-contábil é cada vez mais rigoroso.</p>
+
+<h2>Considerações finais</h2>
+<p>Contratos de IA mal estruturados não são apenas um problema jurídico, são um problema de governança. Investidores institucionais e fundos de venture capital já incluem perguntas específicas sobre alocação de responsabilidade em IA nos questionários de due diligence. Uma startup que não sabe responder quem responde quando seu modelo erra perde credibilidade e pode perder o deal.</p>
+<p>A recomendação prática é simples: revise seus contratos com um advogado que compreenda tanto o direito contratual quanto as especificidades técnicas de sistemas de IA. O custo de uma revisão contratual preventiva é uma fração do custo de um litígio ou de uma autuação regulatória. O momento de agir é antes do problema, não depois.</p>
+    </div>
+
+    <!-- FAQ -->
+    <section class="faq-section" id="faq" itemscope itemtype="https://schema.org/FAQPage">
+      <h2>Perguntas frequentes</h2>
+      <div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Quem é responsável quando uma IA toma uma decisão errada que prejudica um usuário?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">Depende do que o contrato estabelece e de como o sistema foi implantado. Se o contrato for omisso, o Código Civil brasileiro (art. 927, parágrafo único) pode responsabilizar objetivamente quem explora a atividade de risco. Na prática, isso tende a recair sobre a empresa que disponibilizou o sistema ao usuário final, não necessariamente sobre o desenvolvedor do modelo base.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Posso incluir uma cláusula de limitação de responsabilidade para danos causados pela IA?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">Sim, mas com limites. Cláusulas de limitação de responsabilidade são válidas entre empresas (B2B) quando negociadas livremente. Em contratos com consumidores (B2C), o Código de Defesa do Consumidor (Lei 8.078/1990) restringe ou invalida cláusulas que afastem responsabilidade por defeitos do serviço. Para serviços financeiros, o Banco Central e a CVM adicionam camadas regulatórias próprias.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">O que é necessário incluir em um contrato de API com um provedor de modelo de IA?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">No mínimo: definição de qual parte controla o fine-tuning e os prompts de sistema; alocação de responsabilidade por saídas do modelo; cláusulas sobre propriedade dos dados enviados ao modelo; obrigações de confidencialidade e conformidade com a LGPD; e procedimento de notificação em caso de incidente ou alteração relevante no modelo pelo provedor.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">O Marco Legal da IA já está em vigor no Brasil?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">Não. O PL 2.338/2023 foi aprovado pelo Senado em dezembro de 2024 e aguarda votação na Câmara dos Deputados. Enquanto isso, aplicam-se o Código Civil, a LGPD, o CDC, as normas setoriais do Banco Central, da CVM e da ANS, conforme o setor de atuação da empresa.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Preciso provisionar passivos por riscos de IA nas demonstrações financeiras da minha startup?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">Se houver litígios em curso ou risco provável e estimável de perdas relacionadas a sistemas de IA, sim. O CPC 25 exige provisionamento de passivos contingentes prováveis com valor estimável. Em startups em fase de captação, a ausência dessas provisões pode ser interpretada como falta de maturidade na gestão de riscos durante o due diligence.</span></div>
+</div>
+
+    </section>
+
+    <!-- Referências -->
+    <aside class="referencias">
+      <h2>Fontes e referências</h2>
+      <ul>
+<li><a href="https://www.infomoney.com.br/mercados/mari-damaceno-fecha-semana-dos-minicontratos-com-foco-em-bitcoin-futuro/" target="_blank" rel="noopener">InfoMoney</a></li>
+<li>Fonte relacionada: InfoMoney (https://www.infomoney.com.br/mercados/mari-damaceno-fecha-semana-dos-minicontratos-com-foco-em-bitcoin-futuro/)</li>
+<li>PL 2.338/2023 (Marco Legal da IA no Brasil), aprovado pelo Senado Federal em dezembro de 2024</li>
+<li>Lei 13.709/2018 (LGPD), art. 20, sobre decisões automatizadas</li>
+<li>Lei 10.406/2002 (Código Civil), art. 927, parágrafo único, sobre responsabilidade por atividade de risco</li>
+<li>Lei 8.078/1990 (Código de Defesa do Consumidor)</li>
+<li>CPC 25 (Provisões, Passivos Contingentes e Ativos Contingentes), Comitê de Pronunciamentos Contábeis</li>
+</ul>
+
+    </aside>
+
+  </article>
+    <!-- CTA consultivo (leva ao WhatsApp da SAFIE) -->
+    <div class="container">
+      <div class="artigo-cta">
+        <h3>Decisão jurídica ou contábil pendente?</h3>
+        <p>A SAFIE atende founders e gestores com acesso direto aos sócios — jurídico e contabilidade integrados sob o mesmo teto. Conversamos para entender o caso antes de qualquer recomendação.</p>
+        <a href="https://wa.me/5511934329769?text=Ol%C3%A1!%20Vim%20pelo%20blog%20da%20SAFIE%20e%20gostaria%20de%20conversar." class="cta-btn" target="_blank" rel="noopener">Falar com a SAFIE</a>
+      </div>
+    </div>
+
+
+
+  <!-- Sobre os autores -->
+  <div class="container">
+    <div class="sobre-autores">
+      <span class="sobre-autores-titulo">Sobre os autores</span>
+      <p>Conteúdo produzido pela SAFIE, consultoria jurídico-contábil para empresas digitais e de tecnologia. A SAFIE é liderada por <a href="https://instagram.com/lucasm.mantovani" target="_blank" rel="noopener"><strong>Lucas Mantovani</strong></a> e <a href="https://instagram.com/euitalocunha" target="_blank" rel="noopener"><strong>Italo Cunha</strong></a>.</p>
+    </div>
+  </div>
+
+  <!-- Artigos relacionados -->
+  <div class="container">
+    <section class="relacionados">
+      <h2>Continue lendo</h2>
+      <div class="relacionados-lista">
+<ul class="relacionados-items">
+  <li><a href="/artigos/2026-06-05-contratos-e-responsabilidade-em-ia-o-que-saber">Contratos e responsabilidade em IA: o que saber</a></li>
+  <li><a href="/artigos/2026-05-19-contratos-de-ia-e-infraestrutura-critica-riscos-reais">Contratos de IA e infraestrutura crítica: riscos reais</a></li>
+  <li><a href="/artigos/2026-05-15-contratos-e-responsabilidade-em-ia-no-brasil">Contratos e responsabilidade em IA no Brasil</a></li>
+</ul>
+</div>
+    </section>
+  </div>
+</main>
+
+<!-- partial: footer — rodapé comum COM formulário (injetado via {{FOOTER}}) -->
+<!-- Formulário de contato — placeholder. Submit inerte; integração HubSpot na fase A5/A6. -->
+<section class="footer-form-wrap" aria-label="Fale com a SAFIE">
+  <div class="footer-form-inner">
+    <div class="footer-form-texto">
+      <p class="secao-kicker">Fale com a SAFIE</p>
+      <h2>Decisão jurídica ou contábil pendente?</h2>
+      <p>Atendemos founders e gestores com acesso direto aos sócios — jurídico e contabilidade sob o mesmo teto.</p>
+    </div>
+    <!-- TODO A5/A6: HubSpot — este form ainda NÃO envia. -->
+    <form class="footer-form" data-form="rodape" onsubmit="return false" novalidate>
+      <label>Nome*
+        <input type="text" name="nome" autocomplete="name" required>
+      </label>
+      <label>E-mail*
+        <input type="email" name="email" autocomplete="email" required>
+      </label>
+      <label>Empresa
+        <input type="text" name="empresa" autocomplete="organization">
+      </label>
+      <label>Mensagem
+        <textarea name="mensagem" rows="3"></textarea>
+      </label>
+      <button type="submit" class="cta-btn" disabled aria-disabled="true">Enviar (em breve)</button>
+      <p class="footer-form-nota">Formulário em configuração. Por ora, fale conosco em
+        <a href="mailto:contato@safie.com.br">contato@safie.com.br</a>.</p>
+    </form>
+  </div>
+</section>
+
+<footer class="site-footer" role="contentinfo">
+  <div class="footer-inner">
+    <div class="footer-topo">
+      <div class="footer-marca">
+        <span class="logo-marca footer-logo-texto">Blog <span style="color:var(--ciano)">SAFIE</span></span>
+        <p>Consultoria jurídico-contábil para negócios digitais, startups e a nova economia.</p>
+      </div>
+      <div class="footer-nav">
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="/">Início</a></li>
+            <li><a href="/artigos/">Artigos</a></li>
+            <li><a href="/categorias/">Categorias</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Links</h4>
+          <ul>
+            <li><a href="https://safie.com.br" target="_blank" rel="noopener">safie.com.br</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+            <li><a href="mailto:contato@safie.com.br">contato@safie.com.br</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-arco-iris" aria-hidden="true"></div>
+    <div class="footer-cnpjs" aria-label="CNPJ SAFIE">
+      <span>SAFIE TECNOLOGIA E CONSULTORIA LTDA, inscrita no CNPJ sob o nº 42.224.278/0001-92, sediada à Av. Brigadeiro Faria Lima, Conj. 1102, Jardim Paulistano, CEP nº 01452922, São Paulo-SP</span>
+    </div>
+    <div class="footer-base">
+      <span>&copy; 2026 SAFIE. Todos os direitos reservados.</span>
+      <span>Conteúdo informativo; não constitui parecer jurídico ou contábil individualizado.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/js/busca.js"></script>
+<script>
+fetch('https://safie-analytics.lucas-mantovani.workers.dev/track', {
+  method: 'POST',
+  headers: {'Content-Type': 'application/json'},
+  body: JSON.stringify({ url: window.location.pathname, blog: 'ia' })
+}).catch(() => {});
+</script>
+<script src="/assets/js/widget-whatsapp.js" defer></script>
+</body>
+</html>

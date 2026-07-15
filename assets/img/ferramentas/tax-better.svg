@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f0f29"/>
+      <stop offset="100%" stop-color="#04041f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="18%" cy="0%" r="62%">
+      <stop offset="0%" stop-color="#154EFA" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#154EFA" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Fundo navy SAFIE + glow de marca -->
+  <rect width="1200" height="630" fill="url(#bg-grad)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <!-- Motivo decorativo: gráfico de barras + eixo (azul SAFIE, sem IA) -->
+  <g stroke="#154EFA" fill="none" opacity="0.10">
+    <rect x="840" y="120" width="70" height="90" rx="2" stroke-width="0.8"/>
+    <rect x="860" y="140" width="70" height="90" rx="2" stroke-width="0.8"/>
+  </g>
+  <g fill="#154EFA">
+    <rect x="905"  y="360" width="46" height="120" rx="3" opacity="0.20"/>
+    <rect x="967"  y="300" width="46" height="180" rx="3" opacity="0.30"/>
+    <rect x="1029" y="240" width="46" height="240" rx="3" opacity="0.45"/>
+  </g>
+  <g stroke="#154EFA" opacity="0.35">
+    <line x1="890" y1="480" x2="1105" y2="480" stroke-width="1.4"/>
+  </g>
+  <!-- Selo percentual -->
+  <g opacity="0.55">
+    <circle cx="1058" cy="180" r="34" fill="none" stroke="#14DFFA" stroke-width="2"/>
+    <text x="1058" y="191" fill="#14DFFA" text-anchor="middle"
+          font-family="'General Sans', Arial, sans-serif" font-size="26" font-weight="700">%</text>
+  </g>
+
+  <!-- Marca — canto superior esquerdo -->
+  <rect x="52" y="42" width="10" height="10" fill="#154EFA"/>
+  <text x="70" y="53" fill="#ffffff"
+        font-family="'General Sans', Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="1">FERRAMENTA SAFIE</text>
+
+  <!-- Kicker -->
+  <text x="52" y="250" fill="#14DFFA"
+        font-family="'Inter', Arial, sans-serif" font-size="13" font-weight="600" letter-spacing="3">DIAGNÓSTICO TRIBUTÁRIO</text>
+
+  <!-- Nome da ferramenta -->
+  <text x="50" y="345" fill="#ffffff"
+        font-family="'General Sans', Arial, sans-serif" font-size="88" font-weight="700" letter-spacing="-2">Tax Better</text>
+
+  <!-- Frase -->
+  <text x="52" y="425" fill="#c8cdd6"
+        font-family="'Inter', Arial, sans-serif" font-size="30" font-weight="400">Descubra o regime tributário</text>
+  <text x="52" y="465" fill="#c8cdd6"
+        font-family="'Inter', Arial, sans-serif" font-size="30" font-weight="400">ideal para sua empresa.</text>
+
+  <!-- Barra de destaque -->
+  <rect x="52" y="560" width="72" height="5" fill="#154EFA"/>
+</svg>

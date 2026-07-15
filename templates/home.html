@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SAFIE Blog — Direito e contabilidade para negócios digitais</title>
+  <meta name="description" content="Análise técnica diária sobre direito e contabilidade para criptoativos, fintechs, e-commerce, IA e reforma tributária no Brasil.">
+  <link rel="canonical" href="https://safie.blog.br/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://safie.blog.br/">
+  <meta property="og:title" content="SAFIE Blog — Direito e contabilidade para a nova economia">
+  <meta property="og:description" content="Análise técnica diária ancorada em notícia real, para negócios digitais, startups e a nova economia.">
+  <meta property="og:site_name" content="SAFIE Blog">
+  <meta property="og:locale" content="pt_BR">
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+</head>
+<body>
+{{HEADER}}
+
+<main>
+
+  <!-- ── Hero curto ── -->
+  <section class="hero" aria-label="Apresentação">
+    <p class="hero-kicker">Blog da SAFIE</p>
+    <h1>Para quem toma <em>decisões</em> e assume riscos todo dia</h1>
+  </section>
+
+  <!-- ── Artigos recentes (9, JS-driven lê /artigos/indice.json) ── -->
+  <section class="secao-recentes" id="recentes" aria-label="Artigos recentes">
+    <div class="container">
+      <div class="secao-header">
+        <p class="secao-kicker">Publicados recentemente</p>
+        <h2>Últimos artigos</h2>
+      </div>
+      <div id="recentes-lista" class="artigos-grid" role="list"
+           data-fonte="/artigos/indice.json" data-limite="9">
+        <!-- preenchido por assets/js/main.js -->
+      </div>
+      <div class="secao-cta">
+        <a href="/artigos/" class="cta-btn">Ver todos os artigos</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Ferramentas e materiais gratuitos ── -->
+  <section id="ferramentas" class="home-ferramentas" aria-label="Ferramentas e materiais gratuitos">
+    <div class="container">
+      <div class="secao-header">
+        <p class="secao-kicker">Gratuito</p>
+        <h2>Ferramentas e materiais</h2>
+        <p>Recursos práticos para founders e gestores decidirem com mais segurança.</p>
+      </div>
+      <div class="ferramentas-grid" role="list">
+
+        <a class="card-ferramenta" role="listitem"
+           href="https://safie-tax-better.vercel.app/" target="_blank" rel="noopener">
+          <span class="card-ferramenta-selo">Ferramenta externa
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg>
+          </span>
+          <div class="card-capa">
+            <img src="/assets/img/ferramentas/tax-better.svg"
+                 alt="Tax Better — ferramenta gratuita da SAFIE para diagnóstico de regime tributário"
+                 width="1200" height="630" loading="lazy">
+          </div>
+          <div class="card-corpo">
+            <span class="card-tema">Ferramenta gratuita</span>
+            <h3>Tax Better</h3>
+            <p class="card-resumo">Descubra o regime tributário ideal para sua empresa.</p>
+          </div>
+        </a>
+
+        <a class="card-ferramenta" role="listitem"
+           href="https://safie-equity-calculator.vercel.app/" target="_blank" rel="noopener">
+          <span class="card-ferramenta-selo">Ferramenta externa
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg>
+          </span>
+          <div class="card-capa">
+            <img src="/assets/img/ferramentas/equity-calculator.svg"
+                 alt="Equity Calculator — ferramenta gratuita da SAFIE para divisão de participação societária"
+                 width="1200" height="630" loading="lazy">
+          </div>
+          <div class="card-corpo">
+            <span class="card-tema">Ferramenta gratuita</span>
+            <h3>Equity Calculator</h3>
+            <p class="card-resumo">Saiba como distribuir a participação societária de forma justa.</p>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CTA categorias ── -->
+  <section class="secao-categorias-cta" aria-label="Explorar por categoria">
+    <div class="container">
+      <div class="secao-header">
+        <p class="secao-kicker">Explore por tema</p>
+        <h2>Categorias</h2>
+      </div>
+      <div id="nichos-lista" class="nichos-grid" role="list"
+           data-fonte="/config/categorias.json">
+        <!-- preenchido por assets/js/main.js: 5 nichos -> /categorias/{nicho} -->
+      </div>
+    </div>
+  </section>
+
+</main>
+
+{{FOOTER}}
+
+<script src="/assets/js/card.js"></script>
+<script src="/assets/js/main.js"></script>
+<script src="/assets/js/widget-whatsapp.js" defer></script>
+</body>
+</html>

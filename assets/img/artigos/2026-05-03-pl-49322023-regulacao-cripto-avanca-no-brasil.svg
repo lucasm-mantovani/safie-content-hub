@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1628"/>
+      <stop offset="100%" stop-color="#1a2f4a"/>
+    </linearGradient>
+    <pattern id="dots" x="0" y="0" width="25" height="25" patternUnits="userSpaceOnUse">
+      <circle cx="12.5" cy="12.5" r="1" fill="#4a9eff" fill-opacity="0.12"/>
+    </pattern>
+  </defs>
+
+  <!-- Fundo com gradiente -->
+  <rect width="1200" height="630" fill="url(#bg-grad)"/>
+
+  <!-- Padrão de pontos -->
+  <rect width="1200" height="630" fill="url(#dots)"/>
+
+  <!-- Linhas diagonais cruzadas -->
+  <line x1="-100" y1="0" x2="530" y2="630" stroke="#4a9eff" stroke-width="0.8" opacity="0.05"/>
+  <line x1="50" y1="0" x2="680" y2="630" stroke="#4a9eff" stroke-width="0.8" opacity="0.05"/>
+  <line x1="200" y1="0" x2="830" y2="630" stroke="#4a9eff" stroke-width="0.8" opacity="0.05"/>
+  <line x1="1300" y1="0" x2="670" y2="630" stroke="#4a9eff" stroke-width="0.8" opacity="0.04"/>
+  <line x1="1150" y1="0" x2="520" y2="630" stroke="#4a9eff" stroke-width="0.8" opacity="0.04"/>
+
+  <!-- Linhas de conexão entre hexágonos -->
+  <g stroke="#4a9eff" stroke-width="1" opacity="0.3" fill="none">
+    <line x1="960" y1="215" x2="1052" y2="155"/>
+    <line x1="960" y1="215" x2="1052" y2="275"/>
+    <line x1="1052" y1="155" x2="1144" y2="215"/>
+    <line x1="1052" y1="275" x2="1144" y2="215"/>
+    <line x1="960" y1="215" x2="960" y2="355"/>
+    <line x1="1052" y1="275" x2="1052" y2="395"/>
+    <line x1="1144" y1="215" x2="1144" y2="330"/>
+    <line x1="960" y1="215" x2="880" y2="310"/>
+  </g>
+
+  <!-- Hexágonos — elemento gráfico blockchain -->
+  <!-- H1 principal -->
+  <polygon points="1018,215 989,265 931,265 902,215 931,165 989,165"
+           fill="#4a9eff" fill-opacity="0.08" stroke="#4a9eff" stroke-width="1.5" stroke-opacity="0.7"/>
+  <!-- H2 topo direita -->
+  <polygon points="1100,155 1076,197 1028,197 1004,155 1028,113 1076,113"
+           fill="#4a9eff" fill-opacity="0.05" stroke="#4a9eff" stroke-width="1" stroke-opacity="0.5"/>
+  <!-- H3 baixo direita -->
+  <polygon points="1100,275 1076,317 1028,317 1004,275 1028,233 1076,233"
+           fill="#4a9eff" fill-opacity="0.05" stroke="#4a9eff" stroke-width="1" stroke-opacity="0.5"/>
+  <!-- H4 extremo direita -->
+  <polygon points="1192,215 1168,257 1120,257 1096,215 1120,173 1168,173"
+           fill="#4a9eff" fill-opacity="0.05" stroke="#4a9eff" stroke-width="1" stroke-opacity="0.5"/>
+  <!-- H5 segundo nível baixo -->
+  <polygon points="1005,355 983,394 938,394 915,355 938,316 983,316"
+           fill="#4a9eff" fill-opacity="0.04" stroke="#4a9eff" stroke-width="1" stroke-opacity="0.4"/>
+  <!-- H6 canto inferior direito -->
+  <polygon points="1092,395 1072,430 1032,430 1012,395 1032,360 1072,360"
+           fill="#4a9eff" fill-opacity="0.03" stroke="#4a9eff" stroke-width="0.8" stroke-opacity="0.35"/>
+  <!-- H7 lateral direita -->
+  <polygon points="1179,330 1162,360 1127,360 1109,330 1127,300 1162,300"
+           fill="#4a9eff" fill-opacity="0.03" stroke="#4a9eff" stroke-width="0.8" stroke-opacity="0.3"/>
+  <!-- H8 borda esquerda da área de hexágonos -->
+  <polygon points="918,310 899,343 861,343 842,310 861,277 899,277"
+           fill="#4a9eff" fill-opacity="0.03" stroke="#4a9eff" stroke-width="0.8" stroke-opacity="0.25"/>
+
+  <!-- Nodos de conexão -->
+  <circle cx="960" cy="215" r="4"   fill="#4a9eff" opacity="0.6"/>
+  <circle cx="1052" cy="155" r="3"  fill="#4a9eff" opacity="0.4"/>
+  <circle cx="1052" cy="275" r="3"  fill="#4a9eff" opacity="0.4"/>
+  <circle cx="1144" cy="215" r="3"  fill="#4a9eff" opacity="0.4"/>
+  <circle cx="960" cy="355" r="2.5" fill="#4a9eff" opacity="0.35"/>
+  <circle cx="1052" cy="395" r="2"  fill="#4a9eff" opacity="0.3"/>
+  <circle cx="1144" cy="330" r="2"  fill="#4a9eff" opacity="0.3"/>
+  <circle cx="880" cy="310" r="2"   fill="#4a9eff" opacity="0.25"/>
+
+  <!-- Logo — canto superior esquerdo -->
+  <rect x="52" y="40" width="10" height="10" fill="#4a9eff"/>
+  <text x="68" y="51" fill="#ffffff"
+        font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="600">SAFIE Cripto</text>
+
+  <!-- Categoria e data -->
+  <text x="52" y="210" fill="#4a9eff"
+        font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="3">REGULAÇÃO DE CRIPTOATIVOS NO BRASIL · 03 MAI 2026</text>
+
+  <!-- Título — linha 1 -->
+  <text x="52" y="286" fill="#ffffff"
+        font-family="Georgia, 'Times New Roman', serif" font-size="50" font-weight="700">PL 4.932/2023: regulação</text>
+  <!-- Título — linha 2 -->
+  <text x="52" y="352" fill="#4a9eff"
+        font-family="Georgia, 'Times New Roman', serif" font-size="50" font-weight="700">cripto avança no</text>
+  <!-- Título — linha 3 (última linha fica na cor de destaque) -->
+  <text x="52" y="418" fill="#4a9eff"
+        font-family="Georgia, 'Times New Roman', serif" font-size="50" font-weight="700"></text>
+
+  <!-- Barra de destaque — canto inferior esquerdo -->
+  <rect x="52" y="572" width="64" height="4" fill="#4a9eff"/>
+</svg>
