@@ -207,27 +207,54 @@ def transformar_html(slug, nicho, indice_completo, header_html, footer_html, cat
 
 # ── 1g. Páginas geradas ────────────────────────────────────────────────────────
 
-def gerar_categorias_index(categorias, site):
+def gerar_categorias_index(categorias, site, indice=None):
+    """Página /categorias/ (nível superior): cards de categoria agrupados por
+    nicho, com contador de artigos por categoria (do índice). Paleta SAFIE
+    unificada — sem cor de nicho no chrome (diferenciação por header de grupo)."""
+    indice = indice or []
+    contagem = {}
+    for a in indice:
+        ts = a.get("tema_slug", "")
+        if ts:
+            contagem[ts] = contagem.get(ts, 0) + 1
+
+    def _plural(n):
+        return "1 artigo" if n == 1 else f"{n} artigos"
+
     nichos = site.get("nichos", {})
     linhas = []
     for nicho, bloco in nichos.items():
         cats = [c for c in categorias if c.get("nicho") == nicho]
         if not cats:
             continue
-        linhas.append(f'<section class="cat-grupo"><h2>{bloco.get("nome", nicho)}</h2><ul>')
+        linhas.append(f'<section class="cat-grupo"><h2>{bloco.get("nome", nicho)}</h2>')
+        linhas.append('<div class="categorias-cards-grid" role="list">')
         for c in cats:
-            linhas.append(f'<li><a href="/categorias/{c["slug"]}">{c["nome"]}</a></li>')
-        linhas.append("</ul></section>")
+            n = contagem.get(c["slug"], 0)
+            desc = c.get("descricao", "")
+            linhas.append(
+                f'  <a class="card-categoria" role="listitem" href="/categorias/{c["slug"]}">'
+                f'<h3>{c["nome"]}</h3>'
+                f'<p>{desc}</p>'
+                f'<span class="card-categoria-count">{_plural(n)}</span></a>'
+            )
+        linhas.append('</div></section>')
     corpo = "\n".join(linhas)
     html = f"""<!DOCTYPE html>
 <html lang="pt-BR"><head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Categorias — SAFIE Blog</title>
+<meta name="description" content="Todas as categorias do SAFIE Blog, organizadas por área: cripto, e-commerce, fintechs, IA e reforma tributária.">
 <link rel="canonical" href="{BASE_URL}/categorias/">
 <link rel="stylesheet" href="/assets/css/style.css">
+<link rel="icon" href="/favicon.ico" sizes="any">
 </head><body>
 {_partial(PART_HEADER)}
-<main><section class="container"><p class="secao-kicker">Explorar</p><h1>Categorias</h1>
+<main><section class="container">
+<div class="secao-header" style="text-align:center;margin-bottom:8px;">
+<p class="secao-kicker">Explorar</p><h1>Categorias</h1>
+<p class="categorias-intro">Análises jurídicas e contábeis organizadas por área. Escolha um tema para ver os artigos.</p>
+</div>
 {corpo}
 </section></main>
 {_partial(PART_FOOTER, ANO)}
@@ -243,7 +270,7 @@ def gerar_pagina_de_template(template_path, destino):
 
 
 def gerar_sitemap(indice, categorias, site):
-    urls = [f"{BASE_URL}/", f"{BASE_URL}/artigos/", f"{BASE_URL}/categorias/", f"{BASE_URL}/sobre", f"{BASE_URL}/busca"]
+    urls = [f"{BASE_URL}/", f"{BASE_URL}/artigos/", f"{BASE_URL}/categorias/", f"{BASE_URL}/busca"]
     urls += [f"{BASE_URL}/categorias/{n}" for n in site.get("nichos", {})]
     urls += [f"{BASE_URL}/categorias/{c['slug']}" for c in categorias]
     urls += [f"{BASE_URL}/artigos/{a['slug']}" for a in indice]
@@ -352,7 +379,7 @@ def main(amostra=False):
             P.atualizar_pagina_categoria(c["slug"], categorias, site)
         for nicho in site.get("nichos", {}):
             P.atualizar_pagina_nicho(nicho, categorias, site)
-        gerar_categorias_index(categorias, site)
+        gerar_categorias_index(categorias, site, idx_norm)
         gerar_pagina_de_template(T_LISTAGEM, ARTIGOS_DIR / "index.html")
         gerar_pagina_de_template(T_HOME, INDEX_HTML)
         gerar_sitemap(idx_norm, categorias, site)

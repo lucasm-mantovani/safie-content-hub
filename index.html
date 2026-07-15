@@ -32,7 +32,6 @@
       <a href="/">Início</a>
       <a href="/artigos/">Artigos</a>
       <a href="/categorias/">Categorias</a>
-      <a href="/sobre">Sobre</a>
     </nav>
     <form class="header-busca" role="search" action="/busca" method="get">
       <label for="busca-q-header" class="sr-only">Buscar artigos</label>
@@ -53,7 +52,7 @@
   <!-- ── Hero curto ── -->
   <section class="hero" aria-label="Apresentação">
     <p class="hero-kicker">Blog da SAFIE</p>
-    <h1>Direito e contabilidade para quem toma <em>decisões</em> e assume riscos todo dia</h1>
+    <h1>Para quem toma <em>decisões</em> e assume riscos todo dia</h1>
     <p class="hero-desc">
       Análise técnica ancorada em notícia real, atualizada diariamente pela SAFIE —
       consultoria jurídico-contábil para negócios digitais, startups e a nova economia.
@@ -77,16 +76,50 @@
     </div>
   </section>
 
-  <!-- ── Ferramentas e materiais gratuitos (PLACEHOLDER — Lucas define depois) ── -->
-  <section id="ferramentas" class="home-ferramentas" data-placeholder="true" aria-label="Ferramentas e materiais gratuitos">
+  <!-- ── Ferramentas e materiais gratuitos ── -->
+  <section id="ferramentas" class="home-ferramentas" aria-label="Ferramentas e materiais gratuitos">
     <div class="container">
       <div class="secao-header">
         <p class="secao-kicker">Gratuito</p>
         <h2>Ferramentas e materiais</h2>
-        <p>Recursos práticos para founders e gestores. <!-- TODO Lucas: conteúdo --></p>
+        <p>Recursos práticos para founders e gestores decidirem com mais segurança.</p>
       </div>
       <div class="ferramentas-grid" role="list">
-        <!-- TODO Lucas: cards de ferramentas/materiais (placeholder vazio) -->
+
+        <a class="card-ferramenta" role="listitem"
+           href="https://safie-tax-better.vercel.app/" target="_blank" rel="noopener">
+          <span class="card-ferramenta-selo">Ferramenta externa
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg>
+          </span>
+          <div class="card-capa">
+            <img src="/assets/img/ferramentas/tax-better.svg"
+                 alt="Tax Better — ferramenta gratuita da SAFIE para diagnóstico de regime tributário"
+                 width="1200" height="630" loading="lazy">
+          </div>
+          <div class="card-corpo">
+            <span class="card-tema">Ferramenta gratuita</span>
+            <h3>Tax Better</h3>
+            <p class="card-resumo">Descubra o regime tributário ideal para sua empresa.</p>
+          </div>
+        </a>
+
+        <a class="card-ferramenta" role="listitem"
+           href="https://safie-equity-calculator.vercel.app/" target="_blank" rel="noopener">
+          <span class="card-ferramenta-selo">Ferramenta externa
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg>
+          </span>
+          <div class="card-capa">
+            <img src="/assets/img/ferramentas/equity-calculator.svg"
+                 alt="Equity Calculator — ferramenta gratuita da SAFIE para divisão de participação societária"
+                 width="1200" height="630" loading="lazy">
+          </div>
+          <div class="card-corpo">
+            <span class="card-tema">Ferramenta gratuita</span>
+            <h3>Equity Calculator</h3>
+            <p class="card-resumo">Saiba como distribuir a participação societária de forma justa.</p>
+          </div>
+        </a>
+
       </div>
     </div>
   </section>
@@ -151,7 +184,6 @@
             <li><a href="/">Início</a></li>
             <li><a href="/artigos/">Artigos</a></li>
             <li><a href="/categorias/">Categorias</a></li>
-            <li><a href="/sobre">Sobre</a></li>
           </ul>
         </div>
         <div class="footer-col">
@@ -165,10 +197,8 @@
       </div>
     </div>
     <div class="footer-arco-iris" aria-hidden="true"></div>
-    <div class="footer-cnpjs" aria-label="CNPJs SAFIE">
-      <span>SAFIE Consultoria e Contabilidade Ltda — 59.931.854/0001-34</span>
-      <span>SAFIE Tecnologia e Consultoria Ltda — 42.224.278/0001-92</span>
-      <span>Cunha &amp; Mantovani Advogados Associados — 34.924.976/0001-72</span>
+    <div class="footer-cnpjs" aria-label="CNPJ SAFIE">
+      <span>SAFIE TECNOLOGIA E CONSULTORIA LTDA, inscrita no CNPJ sob o nº 42.224.278/0001-92, sediada à Av. Brigadeiro Faria Lima, Conj. 1102, Jardim Paulistano, CEP nº 01452922, São Paulo-SP</span>
     </div>
     <div class="footer-base">
       <span>&copy; 2026 SAFIE. Todos os direitos reservados.</span>
