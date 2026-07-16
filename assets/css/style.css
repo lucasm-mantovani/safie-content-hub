@@ -1001,6 +1001,40 @@ h1, h2, h3, h4,
 .footer-form-status { grid-column: 1 / -1; font-size: 0.85rem; line-height: 1.5; margin: 4px 0 0; font-weight: 500; }
 .footer-form-status[data-tipo="ok"] { color: #0a7d4b; }
 .footer-form-status[data-tipo="erro"] { color: #c0392b; }
+
+/* Embed oficial HubSpot v2 no rodapé — aproxima do visual SAFIE (não pixel-perfect) */
+#hs-form-rodape { font-family: var(--fonte); }
+#hs-form-rodape fieldset { max-width: none !important; }
+#hs-form-rodape .hs-form-field { margin-bottom: 14px; }
+#hs-form-rodape .hs-form-field > label { display: block; font-size: 0.82rem; font-weight: 600; color: var(--escuro); margin-bottom: 6px; }
+#hs-form-rodape .hs-form-field > label .hs-form-required { color: #c0392b; margin-left: 2px; }
+#hs-form-rodape .hs-input:not([type="checkbox"]):not([type="radio"]) {
+  width: 100%; box-sizing: border-box; font: inherit; font-weight: 400;
+  padding: 11px 14px; border: 1px solid var(--cinza-claro); border-radius: var(--radius);
+  background: var(--branco); color: var(--escuro);
+}
+#hs-form-rodape textarea.hs-input { min-height: 84px; resize: vertical; }
+#hs-form-rodape .hs-input:focus { outline: 2px solid var(--azul); outline-offset: 1px; border-color: var(--azul); }
+#hs-form-rodape .hs-button,
+#hs-form-rodape input[type="submit"].hs-button {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: var(--azul); color: var(--branco);
+  font-family: var(--fonte); font-weight: 500; font-size: 1rem;
+  padding: 14px 28px; border: none; border-radius: 9999px;
+  box-shadow: 0 8px 24px -4px rgba(21, 78, 250, 0.38); cursor: pointer;
+  transition: background .2s ease, transform .15s ease; margin-top: 6px;
+}
+#hs-form-rodape .hs-button:hover { background: #002bab; transform: translateY(-1px); }
+#hs-form-rodape .hs-error-msgs { list-style: none; padding: 0; margin: 6px 0 0; }
+#hs-form-rodape .hs-error-msg,
+#hs-form-rodape label.hs-error-msg { color: #c0392b; font-size: 0.8rem; }
+#hs-form-rodape .hs_error_rollup { display: none; }
+/* respeitar 1 ou 2 colunas conforme o HubSpot montar o form */
+#hs-form-rodape .form-columns-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+#hs-form-rodape .form-columns-2 .hs-form-field { width: auto !important; float: none !important; }
+#hs-form-rodape .form-columns-1 .hs-form-field { width: auto !important; float: none !important; }
+#hs-form-rodape .input { margin-right: 0 !important; }
+@media (max-width: 640px) { #hs-form-rodape .form-columns-2 { grid-template-columns: 1fr; } }
 @media (max-width: 768px) {
   .footer-form-inner { grid-template-columns: 1fr; gap: 28px; }
   .footer-form { grid-template-columns: 1fr; }
