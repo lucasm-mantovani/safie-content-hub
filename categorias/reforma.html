@@ -91,24 +91,11 @@
       <h2>Decisão jurídica ou contábil pendente?</h2>
       <p>Atendemos founders e gestores com acesso direto aos sócios — jurídico e contabilidade sob o mesmo teto.</p>
     </div>
-    <!-- TODO A5/A6: HubSpot — este form ainda NÃO envia. -->
-    <form class="footer-form" data-form="rodape" onsubmit="return false" novalidate>
-      <label>Nome*
-        <input type="text" name="nome" autocomplete="name" required>
-      </label>
-      <label>E-mail*
-        <input type="email" name="email" autocomplete="email" required>
-      </label>
-      <label>Empresa
-        <input type="text" name="empresa" autocomplete="organization">
-      </label>
-      <label>Mensagem
-        <textarea name="mensagem" rows="3"></textarea>
-      </label>
-      <button type="submit" class="cta-btn" disabled aria-disabled="true">Enviar (em breve)</button>
-      <p class="footer-form-nota">Formulário em configuração. Por ora, fale conosco em
-        <a href="mailto:contato@safie.com.br">contato@safie.com.br</a>.</p>
-    </form>
+    <!-- Form via embed oficial HubSpot v2 — carrega o hutk (submissão legítima: CRM + tarefa do workflow + redirect WhatsApp já configurado no form). -->
+    <div class="footer-form-hs-wrap">
+      <div id="hs-form-rodape" class="footer-form-hs"></div>
+      <p class="footer-form-consent">Prefere falar por e-mail? <a href="mailto:contato@safie.com.br">contato@safie.com.br</a>.</p>
+    </div>
   </div>
 </section>
 
@@ -148,6 +135,10 @@
     </div>
   </div>
 </footer>
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
+<script type="text/javascript">
+  if (window.hbspt) hbspt.forms.create({ portalId: "50182013", formId: "1802e1da-b81b-44ed-9bab-7db51bd9e6b5", region: "na1", target: "#hs-form-rodape" });
+</script>
 
 
 <script src="/assets/js/card.js"></script>
