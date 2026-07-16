@@ -979,10 +979,8 @@ h1, h2, h3, h4,
   font-weight: 600;
   color: var(--escuro);
 }
-.footer-form label:nth-of-type(3),  /* Empresa */
-.footer-form label:nth-of-type(4) { /* Mensagem */
-  grid-column: 1 / -1;
-}
+/* campo com textarea (placeholder legado) ocupa a linha inteira; form novo (4 inputs) flui 2x2 */
+.footer-form label:has(textarea) { grid-column: 1 / -1; }
 .footer-form input,
 .footer-form textarea {
   font: inherit;
@@ -999,6 +997,10 @@ h1, h2, h3, h4,
 .footer-form textarea:focus { outline: 2px solid var(--azul); outline-offset: 1px; border-color: var(--azul); }
 .footer-form .cta-btn { grid-column: 1 / -1; justify-self: start; }
 .footer-form-nota { grid-column: 1 / -1; font-size: 0.82rem; color: var(--cinza); line-height: 1.6; margin: 0; }
+.footer-form-consent { grid-column: 1 / -1; font-size: 0.78rem; color: var(--cinza); line-height: 1.5; margin: 0; }
+.footer-form-status { grid-column: 1 / -1; font-size: 0.85rem; line-height: 1.5; margin: 4px 0 0; font-weight: 500; }
+.footer-form-status[data-tipo="ok"] { color: #0a7d4b; }
+.footer-form-status[data-tipo="erro"] { color: #c0392b; }
 @media (max-width: 768px) {
   .footer-form-inner { grid-template-columns: 1fr; gap: 28px; }
   .footer-form { grid-template-columns: 1fr; }

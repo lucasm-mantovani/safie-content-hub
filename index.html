@@ -145,23 +145,23 @@
       <h2>Decisão jurídica ou contábil pendente?</h2>
       <p>Atendemos founders e gestores com acesso direto aos sócios — jurídico e contabilidade sob o mesmo teto.</p>
     </div>
-    <!-- TODO A5/A6: HubSpot — este form ainda NÃO envia. -->
-    <form class="footer-form" data-form="rodape" onsubmit="return false" novalidate>
+    <!-- Form real — HubSpot Forms Submissions API (portalId+formGuid públicos; SEM chave). Handler: /assets/js/footer-form.js -->
+    <form class="footer-form" data-form="rodape" novalidate>
       <label>Nome*
         <input type="text" name="nome" autocomplete="name" required>
       </label>
       <label>E-mail*
         <input type="email" name="email" autocomplete="email" required>
       </label>
-      <label>Empresa
-        <input type="text" name="empresa" autocomplete="organization">
+      <label>Telefone*
+        <input type="tel" name="telefone" autocomplete="tel" required>
       </label>
-      <label>Mensagem
-        <textarea name="mensagem" rows="3"></textarea>
+      <label>Empresa*
+        <input type="text" name="empresa" autocomplete="organization" required>
       </label>
-      <button type="submit" class="cta-btn" disabled aria-disabled="true">Enviar (em breve)</button>
-      <p class="footer-form-nota">Formulário em configuração. Por ora, fale conosco em
-        <a href="mailto:contato@safie.com.br">contato@safie.com.br</a>.</p>
+      <button type="submit" class="cta-btn">Falar com a SAFIE</button>
+      <p class="footer-form-consent">Ao enviar, você concorda em ser contatado pela SAFIE.</p>
+      <p class="footer-form-status" role="status" aria-live="polite" hidden></p>
     </form>
   </div>
 </section>
@@ -202,6 +202,7 @@
     </div>
   </div>
 </footer>
+<script src="/assets/js/footer-form.js" defer></script>
 
 <script src="/assets/js/card.js"></script>
 <script src="/assets/js/main.js"></script>
