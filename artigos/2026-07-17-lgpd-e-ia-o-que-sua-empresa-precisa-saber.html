@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>LGPD e IA: o que sua empresa precisa saber — SAFIE Blog</title>
+  <meta name="description" content="LGPD e inteligência artificial: obrigações, riscos e o que empresas brasileiras precisam fazer para operar IA dentro da lei. Análise prática e atualizada.">
+  <link rel="canonical" href="https://safie.blog.br/artigos/2026-07-17-lgpd-e-ia-o-que-sua-empresa-precisa-saber">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="author" content="SAFIE">
+  <meta name="keywords" content="lgpd, empresa, precisa, saber, proteção, Lei 13.709/2018, PL 2.338/2023, art. 5, art. 52, art. 20">
+
+  <!-- Open Graph -->
+  <meta property="og:type"        content="article">
+  <meta property="og:title"       content="LGPD e IA: o que sua empresa precisa saber — SAFIE Blog">
+  <meta property="og:description" content="LGPD e inteligência artificial: obrigações, riscos e o que empresas brasileiras precisam fazer para operar IA dentro da lei. Análise prática e atualizada.">
+  <meta property="og:url"         content="https://safie.blog.br/artigos/2026-07-17-lgpd-e-ia-o-que-sua-empresa-precisa-saber">
+  <meta property="og:site_name"   content="SAFIE Blog">
+  <meta property="og:locale"      content="pt_BR">
+  <meta property="og:image"       content="https://safie.blog.br/assets/img/artigos/2026-07-17-lgpd-e-ia-o-que-sua-empresa-precisa-saber.svg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="article:published_time" content="2026-07-17T10:09:49Z">
+  <meta property="article:section"       content="LGPD e proteção de dados em IA">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:title"       content="LGPD e IA: o que sua empresa precisa saber — SAFIE Blog">
+  <meta name="twitter:description" content="LGPD e inteligência artificial: obrigações, riscos e o que empresas brasileiras precisam fazer para operar IA dentro da lei. Análise prática e atualizada.">
+  <meta name="twitter:image"       content="https://safie.blog.br/assets/img/artigos/2026-07-17-lgpd-e-ia-o-que-sua-empresa-precisa-saber.svg">
+
+  <!-- Schema.org JSON-LD (BlogPosting + Person + BreadcrumbList + FAQPage) — gerado pelo pipeline -->
+  <script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "LGPD e IA: o que sua empresa precisa saber",
+    "description": "LGPD e inteligência artificial: obrigações, riscos e o que empresas brasileiras precisam fazer para operar IA dentro da lei. Análise prática e atualizada.",
+    "datePublished": "2026-07-17T10:09:49Z",
+    "dateModified": "2026-07-17T10:09:49Z",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://safie.blog.br/artigos/2026-07-17-lgpd-e-ia-o-que-sua-empresa-precisa-saber"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Lucas Mantovani",
+      "sameAs": [
+        "https://www.linkedin.com/in/lucasm-mantovani/",
+        "https://www.instagram.com/lucasm.mantovani/"
+      ]
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "SAFIE",
+      "url": "https://safie.com.br",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://consultoria.safie.com.br/wp-content/uploads/2025/11/cropped-2-1-1024x292.webp"
+      },
+      "sameAs": [
+        "https://www.instagram.com/safiegroup/",
+        "https://www.instagram.com/safiecontabilidade/"
+      ]
+    },
+    "url": "https://safie.blog.br/artigos/2026-07-17-lgpd-e-ia-o-que-sua-empresa-precisa-saber",
+    "articleSection": "LGPD e proteção de dados em IA",
+    "inLanguage": "pt-BR"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Minha empresa usa um sistema de pagamento com antifraude por IA. Isso exige alguma adequação à LGPD?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim. O uso de IA para análise de transações envolve tratamento de dados pessoais dos seus clientes. Você precisa identificar a base legal aplicável (geralmente legítimo interesse ou execução de contrato), incluir cláusulas de proteção de dados no contrato com o fornecedor e registrar essa operação no seu inventário de tratamento de dados."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quem responde perante a ANPD: minha empresa ou o fornecedor do sistema de IA?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Em regra, sua empresa responde como controladora, pois é quem define a finalidade e os meios do tratamento dos dados dos seus clientes. O fornecedor atua como operador e deve seguir as instruções contratuais que você estabelecer. A responsabilidade pode ser solidária em casos de descumprimento do operador, mas a obrigação principal de adequação é do controlador."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O que é o direito de revisão por humano previsto no art. 20 da LGPD e como atendê-lo na prática?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "É o direito do titular de pedir que uma decisão tomada exclusivamente por sistema automatizado (como recusa de crédito ou bloqueio de transação) seja revisada por uma pessoa. Na prática, sua empresa precisa ter um canal de atendimento formal para essas solicitações e um processo interno para analisá-las em prazo razoável, com registro documentado das respostas."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Qual o prazo para notificar a ANPD em caso de vazamento de dados?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A Resolução CD/ANPD nº 15/2024 estabelece o prazo de 3 dias úteis a partir do momento em que a empresa toma conhecimento do incidente, nos casos em que o vazamento possa causar risco ou dano relevante aos titulares. O prazo é contado do conhecimento, não da ocorrência do incidente, o que torna obrigatório ter um processo de detecção e triagem ativo."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O PL 2.338/2023 já vale? Minha empresa precisa se preparar agora?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "O PL 2.338/2023 não está em vigor como lei. Foi aprovado pelo Senado em dezembro de 2024 e seguia em tramitação na Câmara dos Deputados. A análise jurídica e as obrigações discutidas neste artigo se baseiam na LGPD vigente, que já exige adequação. A regulamentação específica de IA, quando aprovada, tende a trazer obrigações adicionais para sistemas classificados como de risco elevado."
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Início",
+        "item": "https://safie.blog.br"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "LGPD e proteção de dados em IA",
+        "item": "https://safie.blog.br/categorias/lgpd-ia"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "LGPD e IA: o que sua empresa precisa saber",
+        "item": "https://safie.blog.br/artigos/2026-07-17-lgpd-e-ia-o-que-sua-empresa-precisa-saber"
+      }
+    ]
+  }
+]
+  </script>
+
+  <!-- Chrome (header/footer/tokens do Hub) + corpo de artigo (artigo.css, consolidado em A2.1).
+       Ordem importa: style.css primeiro, artigo.css por cima. -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/artigo.css">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/android-chrome-192x192.png">
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+</head>
+<body data-nicho="ia">
+
+<!-- partial: header — cabeçalho comum do SAFIE Blog (injetado via {{HEADER}}) -->
+<header class="site-header" role="banner">
+  <div class="header-inner">
+    <a href="/" class="logo" aria-label="SAFIE Blog — Página inicial">
+      <img class="logo-img" src="/assets/logos/safie-logo-branco.svg" alt="SAFIE">
+      <span class="blog-id">Blog</span>
+    </a>
+    <nav id="nav-principal" class="nav-principal" aria-label="Navegação principal">
+      <a href="/">Início</a>
+      <a href="/artigos/">Artigos</a>
+      <a href="/categorias/">Categorias</a>
+    </nav>
+    <form class="header-busca" role="search" action="/busca" method="get">
+      <label for="busca-q-header" class="sr-only">Buscar artigos</label>
+      <input type="search" id="busca-q-header" name="q" placeholder="Buscar…" autocomplete="off">
+      <button type="submit" aria-label="Buscar">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      </button>
+    </form>
+    <a href="https://safie.com.br" class="nav-voltar" target="_blank" rel="noopener">Voltar ao site SAFIE →</a>
+    <button id="menu-toggle" class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+
+<main>
+  <nav class="breadcrumb" aria-label="Trilha de navegação">
+    <div class="container">
+      <a href="/">Início</a> <span aria-hidden="true">›</span>
+      <a href="/categorias/lgpd-ia">LGPD e proteção de dados em IA</a> <span aria-hidden="true">›</span>
+      <span aria-current="page">LGPD e IA: o que sua empresa precisa saber</span>
+    </div>
+  </nav>
+
+  <article class="artigo-wrapper" itemscope itemtype="https://schema.org/BlogPosting">
+
+    <header class="artigo-header">
+      <a class="artigo-tema" href="/categorias/lgpd-ia">LGPD e proteção de dados em IA</a>
+
+      <h1 class="artigo-titulo" itemprop="headline">LGPD e IA: o que sua empresa precisa saber</h1>
+
+      <div class="artigo-meta">
+        <span>Por <strong itemprop="author">SAFIE</strong></span>
+        <span>·</span>
+        <time datetime="2026-07-17T10:09:49Z" itemprop="datePublished">17 de julho de 2026</time>
+        <span>·</span>
+        <span>6 min de leitura</span>
+      </div>
+    </header>
+
+    <img class="artigo-capa" src="/assets/img/artigos/2026-07-17-lgpd-e-ia-o-que-sua-empresa-precisa-saber.svg" alt="LGPD e IA: o que sua empresa precisa saber — capa ilustrativa do artigo sobre LGPD e proteção de dados em IA" width="1200" height="630" loading="lazy">
+
+    <!-- Resumo executivo (para IAs generativas / GEO — Camada 1) -->
+    <aside class="resumo-executivo" itemprop="abstract">
+      <strong>Resumo executivo</strong>
+      Empresas que utilizam inteligência artificial no Brasil estão sujeitas à Lei Geral de Proteção de Dados (Lei 13.709/2018) desde já, independentemente de regulamentação específica para IA. A escolha de soluções tecnológicas que processam dados pessoais, incluindo sistemas de pagamento com antifraude baseado em IA, exige análise jurídica prévia e não apenas comparação de preços ou funcionalidades. A ANPD possui competência fiscalizatória e pode aplicar sanções de até 2% do faturamento, limitadas a R$ 50 milhões por infração. O alinhamento entre contrato com o fornecedor, base legal de tratamento e registro de operações é o ponto de partida obrigatório.
+    </aside>
+
+    <!-- Corpo do artigo (inclui key_takeaways e citação do sócio — Camadas 1 e 2) -->
+    <div class="artigo-corpo" itemprop="articleBody">
+      <div class="key-takeaways">
+  <p class="key-takeaways-titulo">Principais pontos</p>
+  <ul>
+    <li>A Lei 13.709/2018 (LGPD), art. 5º, II, define 'tratamento' de forma ampla: qualquer operação realizada com dados pessoais, incluindo coleta, uso, processamento e armazenamento por sistemas de IA.</li>
+    <li>A ANPD pode aplicar sanções de até 2% do faturamento bruto da empresa no último exercício, limitadas a R$ 50 milhões por infração, conforme art. 52 da LGPD.</li>
+    <li>O art. 20 da LGPD garante ao titular o direito de solicitar revisão humana de decisões tomadas exclusivamente por meios automatizados, incluindo as baseadas em IA.</li>
+    <li>O PL 2.338/2023, em tramitação no Congresso Nacional, propõe uma regulamentação específica para IA no Brasil, com categorias de risco que afetam diretamente obrigações de compliance.</li>
+    <li>O Regulamento de Comunicação de Incidente de Segurança da ANPD (Resolução CD/ANPD nº 15/2024) exige notificação em até 3 dias úteis após o conhecimento de incidente que possa acarretar risco ou dano relevante aos titulares.</li>
+  </ul>
+</div>
+
+<p><a href='https://valor.globo.com/empresas/media-e-mais/noticia/2026/07/16/o-que-levar-em-conta-na-escolha-de-solucoes-de-pagamento.ghtml'>Reportagem do Valor Econômico</a> publicada em 16 de julho de 2026 destaca um alerta que parece simples, mas tem consequências jurídicas relevantes: ao escolher soluções de pagamento, as empresas não devem olhar só para o preço. A advogada Karine Oliveira, entrevistada na matéria, resume um problema que vai além das fintechs e atinge qualquer empresa que adote tecnologia com processamento de dados.</p><p>O que a reportagem não detalha, mas é central para a tomada de decisão, é que boa parte das soluções de pagamento atuais usa inteligência artificial para análise de risco, prevenção a fraudes e personalização de limites. Isso significa que, ao contratar uma dessas ferramentas, a empresa está, na prática, autorizando o tratamento de dados pessoais de seus clientes por sistemas automatizados.</p><p>Esse cenário coloca a <strong>Lei Geral de Proteção de Dados (LGPD)</strong> no centro da decisão. Não como um detalhe contratual, mas como um requisito operacional que precisa ser avaliado antes da assinatura de qualquer contrato com fornecedor de tecnologia.</p>
+
+<h2>LGPD, art. 20 e ANPD: o marco regulatório vigente para IA</h2>
+<p>A LGPD não menciona explicitamente o termo "inteligência artificial", mas seu escopo é amplo o suficiente para abranger qualquer sistema que processe dados pessoais de forma automatizada. O art. 5º, X, define "tratamento" como toda operação realizada com dados pessoais, incluindo coleta, produção, recepção, classificação, utilização, acesso, reprodução, transmissão, distribuição, processamento e armazenamento. Um modelo de IA que analisa o comportamento de compra de um cliente para aprovar ou recusar uma transação se encaixa integralmente nessa definição.</p><h3>Art. 20 da LGPD: direito à revisão de decisões automatizadas</h3><p>O dispositivo mais direto sobre IA na LGPD é o <strong>art. 20</strong>, que garante ao titular o direito de solicitar revisão humana de decisões tomadas exclusivamente por meios automatizados que afetem seus interesses, como a recusa de crédito ou o bloqueio de uma transação. A empresa que utiliza IA para essas finalidades precisa ter um processo interno para atender essas solicitações, documentado e operacional.</p><h3>Bases legais de tratamento aplicáveis a sistemas de IA</h3><p>Nem todo tratamento de dados por IA precisa de consentimento. A LGPD prevê dez bases legais no art. 7º. Em contextos empresariais, as mais utilizadas são:</p><ul><li><strong>Legítimo interesse</strong> (art. 7º, IX): aplicável quando o tratamento é necessário para finalidades legítimas do controlador, desde que não prevaleçam os direitos do titular. Exige realização de teste de proporcionalidade.</li><li><strong>Execução de contrato</strong> (art. 7º, V): válida quando o tratamento é necessário para cumprir obrigação contratual com o próprio titular.</li><li><strong>Cumprimento de obrigação legal ou regulatória</strong> (art. 7º, II): aplicável a empresas sujeitas a normas do Banco Central ou do COAF que exigem monitoramento de transações.</li><li><strong>Consentimento</strong> (art. 7º, I): válido, mas revogável a qualquer momento, o que o torna a base mais frágil para sistemas de IA integrados ao core do negócio.</li></ul><h3>Papel da ANPD e sanções previstas no art. 52 da LGPD</h3><p>A <strong>Autoridade Nacional de Proteção de Dados (ANPD)</strong> é o órgão competente para fiscalizar o cumprimento da LGPD e aplicar sanções. O art. 52 prevê multas de até 2% do faturamento bruto do grupo econômico no último exercício, limitadas a R$ 50 milhões por infração. Além da multa, a autoridade pode determinar bloqueio ou eliminação dos dados tratados irregularmente, o que pode inviabilizar operações inteiras de uma empresa.</p><h3>PL 2.338/2023: regulamentação específica para IA em tramitação</h3><p>O <strong>PL 2.338/2023</strong>, aprovado pelo Senado Federal em dezembro de 2024 e em tramitação na Câmara dos Deputados até a data desta publicação (alegação sujeita à confirmação do andamento legislativo atualizado), propõe uma regulamentação específica para IA no Brasil. A proposta classifica sistemas de IA em faixas de risco, com obrigações progressivas:</p><div class="tabela-wrap"><table><thead><tr><th>Categoria de risco</th><th>Exemplos de aplicação</th><th>Obrigações principais</th></tr></thead><tbody><tr><td>Risco mínimo</td><td>Filtros de spam, recomendação de produtos</td><td>Sem obrigações específicas além da LGPD</td></tr><tr><td>Risco elevado</td><td>Análise de crédito, seleção de pessoal, sistemas de pagamento com antifraude</td><td>Avaliação de impacto, registro, supervisão humana</td></tr><tr><td>Risco excessivo (uso proibido)</td><td>Scoring social generalizado, manipulação subliminar</td><td>Proibição de uso</td></tr></tbody></table></div>
+
+<h2>O que empresas precisam fazer agora: obrigações práticas</h2>
+<p>A contratação de qualquer solução tecnológica que processe dados pessoais de clientes exige, antes da assinatura, a verificação de três pontos fundamentais: a base legal que sustenta o tratamento, a presença de cláusulas de proteção de dados no contrato com o fornecedor e o registro da operação no inventário de tratamento da empresa. Esses três elementos formam a base de um programa de conformidade funcional, e a ausência de qualquer um deles expõe a empresa a risco regulatório direto.</p><p>No caso específico de soluções de pagamento com componentes de IA, a empresa contratante assume a posição de <strong>controladora</strong> dos dados de seus clientes, nos termos do art. 5º, VI, da LGPD, mesmo que o processamento técnico seja feito pelo fornecedor (operador). Isso significa que a responsabilidade perante os titulares e a ANPD recai sobre a empresa, não sobre a fintech ou o gateway de pagamento.</p><p>Além da análise contratual, a empresa precisa estruturar dois procedimentos operacionais: um canal para atender pedidos de revisão humana de decisões automatizadas (exigido pelo art. 20 da LGPD) e um plano de resposta a incidentes de segurança, já que a <strong>Resolução CD/ANPD nº 15/2024</strong> exige notificação à autoridade em até 3 dias úteis após o conhecimento de incidente com potencial de dano relevante aos titulares. Esses prazos são curtos e exigem que os processos internos estejam prontos antes de qualquer incidente ocorrer, não depois.</p>
+<blockquote class="citacao-socio">
+  <p>Antes de assinar com qualquer fornecedor de IA ou pagamentos, o gestor precisa saber quem é o controlador dos dados, qual é a base legal do tratamento e o que acontece com os dados se o contrato for rescindido.</p>
+  <cite>Lucas Mantovani, sócio da SAFIE (OAB-SP 506.733)</cite>
+</blockquote>
+
+
+<h2>Escolha de tecnologia é decisão jurídica e não só comercial</h2>
+<p>O ponto central da <a href='https://valor.globo.com/empresas/media-e-mais/noticia/2026/07/16/o-que-levar-em-conta-na-escolha-de-solucoes-de-pagamento.ghtml'>reportagem do Valor Econômico</a> é válido e subestimado: a decisão sobre qual solução tecnológica adotar não pode ser reduzida a uma comparação de tarifas. Quando a solução envolve processamento de dados pessoais por sistemas automatizados, o custo de uma escolha mal fundamentada inclui multas, bloqueio de dados e dano reputacional, elementos que raramente aparecem na proposta comercial do fornecedor.</p><p>A LGPD está em vigor desde setembro de 2020 e as sanções administrativas são aplicáveis desde agosto de 2021. Empresas que ainda tratam compliance de dados como etapa posterior à implantação tecnológica operam com risco jurídico concreto. A orientação técnica adequada, tanto jurídica quanto contábil para dimensionar o impacto financeiro de eventuais sanções, deve anteceder a contratação, não acompanhar o processo após o contrato assinado.</p>
+    </div>
+
+    <!-- FAQ -->
+    <section class="faq-section" id="faq" itemscope itemtype="https://schema.org/FAQPage">
+      <h2>Perguntas frequentes</h2>
+      <div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Minha empresa usa um sistema de pagamento com antifraude por IA. Isso exige alguma adequação à LGPD?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">Sim. O uso de IA para análise de transações envolve tratamento de dados pessoais dos seus clientes. Você precisa identificar a base legal aplicável (geralmente legítimo interesse ou execução de contrato), incluir cláusulas de proteção de dados no contrato com o fornecedor e registrar essa operação no seu inventário de tratamento de dados.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Quem responde perante a ANPD: minha empresa ou o fornecedor do sistema de IA?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">Em regra, sua empresa responde como controladora, pois é quem define a finalidade e os meios do tratamento dos dados dos seus clientes. O fornecedor atua como operador e deve seguir as instruções contratuais que você estabelecer. A responsabilidade pode ser solidária em casos de descumprimento do operador, mas a obrigação principal de adequação é do controlador.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">O que é o direito de revisão por humano previsto no art. 20 da LGPD e como atendê-lo na prática?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">É o direito do titular de pedir que uma decisão tomada exclusivamente por sistema automatizado (como recusa de crédito ou bloqueio de transação) seja revisada por uma pessoa. Na prática, sua empresa precisa ter um canal de atendimento formal para essas solicitações e um processo interno para analisá-las em prazo razoável, com registro documentado das respostas.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Qual o prazo para notificar a ANPD em caso de vazamento de dados?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">A Resolução CD/ANPD nº 15/2024 estabelece o prazo de 3 dias úteis a partir do momento em que a empresa toma conhecimento do incidente, nos casos em que o vazamento possa causar risco ou dano relevante aos titulares. O prazo é contado do conhecimento, não da ocorrência do incidente, o que torna obrigatório ter um processo de detecção e triagem ativo.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">O PL 2.338/2023 já vale? Minha empresa precisa se preparar agora?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">O PL 2.338/2023 não está em vigor como lei. Foi aprovado pelo Senado em dezembro de 2024 e seguia em tramitação na Câmara dos Deputados. A análise jurídica e as obrigações discutidas neste artigo se baseiam na LGPD vigente, que já exige adequação. A regulamentação específica de IA, quando aprovada, tende a trazer obrigações adicionais para sistemas classificados como de risco elevado.</span></div>
+</div>
+
+    </section>
+
+    <!-- Referências -->
+    <aside class="referencias">
+      <h2>Fontes e referências</h2>
+      <ul>
+<li><span class="ref-label">Fonte original:</span> <a href="https://valor.globo.com/empresas/media-e-mais/noticia/2026/07/16/o-que-levar-em-conta-na-escolha-de-solucoes-de-pagamento.ghtml" target="_blank" rel="noopener">Valor Econômico Empresas</a></li>
+<li>Lei nº 13.709/2018 (Lei Geral de Proteção de Dados - LGPD), arts. 5º, 7º, 20 e 52</li>
+<li>Resolução CD/ANPD nº 15/2024 - Regulamento de Comunicação de Incidente de Segurança</li>
+<li>PL 2.338/2023 - Projeto de Lei de regulamentação de inteligência artificial no Brasil (em tramitação na Câmara dos Deputados)</li>
+<li><span class="ref-label">Autoridade Nacional de Proteção de Dados (ANPD):</span> <a href="https://www.gov.br/anpd" target="_blank" rel="noopener">www.gov.br/anpd</a></li>
+</ul>
+
+    </aside>
+
+  </article>
+
+  <!-- CTA consultivo -->
+  <div class="container">
+    <div class="artigo-cta">
+      <h3>Decisão jurídica ou contábil pendente?</h3>
+      <p>A SAFIE atende founders e gestores com acesso direto aos sócios — jurídico e contabilidade integrados sob o mesmo teto. Conversamos para entender o caso antes de qualquer recomendação.</p>
+      <a href="https://wa.me/5511934329769?text=Ol%C3%A1!%20Vim%20pelo%20blog%20da%20SAFIE%20e%20gostaria%20de%20conversar." class="cta-btn" target="_blank" rel="noopener">Falar com a SAFIE</a>
+    </div>
+  </div>
+
+  <!-- Sobre os autores -->
+  <div class="container">
+    <div class="sobre-autores">
+      <span class="sobre-autores-titulo">Sobre os autores</span>
+      <p>Conteúdo produzido pela SAFIE, consultoria jurídico-contábil para empresas digitais e de tecnologia. A SAFIE é liderada por <a href="https://instagram.com/lucasm.mantovani" target="_blank" rel="noopener"><strong>Lucas Mantovani</strong></a> e <a href="https://instagram.com/euitalocunha" target="_blank" rel="noopener"><strong>Italo Cunha</strong></a>.</p>
+    </div>
+  </div>
+
+  <!-- Artigos relacionados (Camada 3 — "Continue lendo", agora cross-categoria) -->
+  <div class="container">
+    <section class="relacionados">
+      <h2>Continue lendo</h2>
+      <div class="relacionados-lista">
+        <ul class="relacionados-items">
+  <li><a href="/artigos/2026-06-19-lgpd-e-ia-no-esporte-dados-de-atletas-em-risco">LGPD e IA no esporte: dados de atletas em risco</a></li>
+  <li><a href="/artigos/2026-06-15-lgpd-e-ia-quando-o-codigo-vira-passivo-juridico">LGPD e IA: quando o código vira passivo jurídico</a></li>
+  <li><a href="/artigos/2026-06-10-lgpd-e-ia-no-marketing-riscos-e-obrigacoes">LGPD e IA no Marketing: Riscos e Obrigações</a></li>
+</ul>
+      </div>
+    </section>
+  </div>
+</main>
+
+<!-- partial: footer — rodapé comum COM formulário (injetado via {{FOOTER}}) -->
+<!-- Formulário de contato — placeholder. Submit inerte; integração HubSpot na fase A5/A6. -->
+<section class="footer-form-wrap" aria-label="Fale com a SAFIE">
+  <div class="footer-form-inner">
+    <div class="footer-form-texto">
+      <p class="secao-kicker">Fale com a SAFIE</p>
+      <h2>Decisão jurídica ou contábil pendente?</h2>
+      <p>Atendemos founders e gestores com acesso direto aos sócios — jurídico e contabilidade sob o mesmo teto.</p>
+    </div>
+    <!-- Form via embed oficial HubSpot v2 — carrega o hutk (submissão legítima: CRM + tarefa do workflow + redirect WhatsApp já configurado no form). -->
+    <div class="footer-form-hs-wrap">
+      <div id="hs-form-rodape" class="footer-form-hs"></div>
+      <p class="footer-form-consent">Prefere falar por e-mail? <a href="mailto:contato@safie.com.br">contato@safie.com.br</a>.</p>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer" role="contentinfo">
+  <div class="footer-inner">
+    <div class="footer-topo">
+      <div class="footer-marca">
+        <span class="logo-marca footer-logo-texto">Blog <span style="color:var(--ciano)">SAFIE</span></span>
+        <p>Consultoria jurídico-contábil para negócios digitais, startups e a nova economia.</p>
+      </div>
+      <div class="footer-nav">
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="/">Início</a></li>
+            <li><a href="/artigos/">Artigos</a></li>
+            <li><a href="/categorias/">Categorias</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Links</h4>
+          <ul>
+            <li><a href="https://safie.com.br" target="_blank" rel="noopener">safie.com.br</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+            <li><a href="mailto:contato@safie.com.br">contato@safie.com.br</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-arco-iris" aria-hidden="true"></div>
+    <div class="footer-cnpjs" aria-label="CNPJ SAFIE">
+      <span>SAFIE TECNOLOGIA E CONSULTORIA LTDA, inscrita no CNPJ sob o nº 42.224.278/0001-92, sediada à Av. Brigadeiro Faria Lima, Conj. 1102, Jardim Paulistano, CEP nº 01452922, São Paulo-SP</span>
+    </div>
+    <div class="footer-base">
+      <span>&copy; 2026 SAFIE. Todos os direitos reservados.</span>
+      <span>Conteúdo informativo; não constitui parecer jurídico ou contábil individualizado.</span>
+    </div>
+  </div>
+</footer>
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
+<script type="text/javascript">
+  if (window.hbspt) hbspt.forms.create({ portalId: "50182013", formId: "1802e1da-b81b-44ed-9bab-7db51bd9e6b5", region: "na1", target: "#hs-form-rodape" });
+</script>
+
+
+<script>
+fetch('https://safie-analytics.lucas-mantovani.workers.dev/track', {
+  method: 'POST',
+  headers: {'Content-Type': 'application/json'},
+  body: JSON.stringify({ url: window.location.pathname, blog: 'ia' })
+}).catch(() => {});
+</script>
+<script src="/assets/js/artigo.js" defer></script>
+<script src="/assets/js/widget-whatsapp.js" defer></script>
+</body>
+</html>
