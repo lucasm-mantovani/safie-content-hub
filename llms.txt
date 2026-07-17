@@ -49,6 +49,7 @@
 
 ## Artigos
 
+- [Direitos autorais e IA generativa no Brasil](https://safie.blog.br/artigos/2026-07-17-direitos-autorais-e-ia-generativa-no-brasil): A Lei 9.610/1998 não reconhece a IA como autora, e conteúdos gerados por sistemas generativos podem violar direitos de terceiros cujas obras integraram o treinamento dos modelos
 - [Crédito digital e BNPL: governança em pauta](https://safie.blog.br/artigos/2026-07-17-credito-digital-e-bnpl-governanca-em-pauta): Fintechs de crédito digital e BNPL (Buy Now, Pay Later) operam sob arcabouço regulatório fragmentado no Brasil, e a ausência de governança centralizada sobre a infraestrutura financeira começa a ser t
 - [Marketplaces e plataformas digitais no Brasil](https://safie.blog.br/artigos/2026-07-17-marketplaces-e-plataformas-digitais-no-brasil): Marketplaces e plataformas digitais que intermediam vendas no Brasil respondem por obrigações tributárias, consumeristas e regulatórias próprias, independentemente de serem os vendedores diretos dos p
 - [Tokenização de Ativos: Riscos e Oportunidades no Brasil](https://safie.blog.br/artigos/2026-07-17-tokenizacao-de-ativos-riscos-e-oportunidades-no-brasil): A tokenização de ativos reais é regulada no Brasil pela Lei 14.478/2022 e pelas normas do Banco Central e da CVM, e empresas que operam nesse segmento precisam observar requisitos específicos de autor
