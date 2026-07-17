@@ -49,6 +49,7 @@
 
 ## Artigos
 
+- [Marketplaces e plataformas digitais no Brasil](https://safie.blog.br/artigos/2026-07-17-marketplaces-e-plataformas-digitais-no-brasil): Marketplaces e plataformas digitais que intermediam vendas no Brasil respondem por obrigações tributárias, consumeristas e regulatórias próprias, independentemente de serem os vendedores diretos dos p
 - [Tokenização de Ativos: Riscos e Oportunidades no Brasil](https://safie.blog.br/artigos/2026-07-17-tokenizacao-de-ativos-riscos-e-oportunidades-no-brasil): A tokenização de ativos reais é regulada no Brasil pela Lei 14.478/2022 e pelas normas do Banco Central e da CVM, e empresas que operam nesse segmento precisam observar requisitos específicos de autor
 - [Regulação de criptoativos no Brasil em 2026](https://safie.blog.br/artigos/2026-07-15-regulacao-de-criptoativos-no-brasil-em-2026): O Brasil possui marco regulatório de criptoativos em vigor desde 2023, e eventos institucionais de capacitação de autoridades para recuperação de ativos digitais sinalizam que a fiscalização será cada
 - [Transição tributária 2026-2033: o que muda agora](https://safie.blog.br/artigos/2026-07-15-transicao-tributaria-2026-2033-o-que-muda-agora): A transição para o novo sistema tributário brasileiro (IBS e CBS) ocorre entre 2026 e 2033, mas as obrigações do sistema antigo continuam gerando litígios relevantes nesse período
