@@ -49,6 +49,7 @@
 
 ## Artigos
 
+- [Regulação do Banco Central para Fintechs](https://safie.blog.br/artigos/2026-07-17-regulacao-do-banco-central-para-fintechs): As fintechs no Brasil operam sob um arcabouço regulatório estruturado pelo Banco Central, cujo ponto central são as Resoluções CMN 4.656 e 4.657/2018, que criaram as categorias de Sociedade de Crédito
 - [Estruturação societária de empresas cripto](https://safie.blog.br/artigos/2026-07-17-estruturacao-societaria-de-empresas-cripto): A estrutura societária adequada para empresas cripto no Brasil deve contemplar o enquadramento como Prestadora de Serviços de Ativos Virtuais (PSAV) nos termos da Lei 14.478/2022, além de definir o re
 - [IBS e CBS: o risco de fornecedores no Simples](https://safie.blog.br/artigos/2026-07-17-ibs-e-cbs-o-risco-de-fornecedores-no-simples): Empresas que adquirem bens ou serviços de fornecedores optantes pelo Simples Nacional correm o risco de não aproveitar créditos plenos de IBS e CBS a partir da implementação da reforma tributária
 - [Direitos autorais e IA generativa no Brasil](https://safie.blog.br/artigos/2026-07-17-direitos-autorais-e-ia-generativa-no-brasil): A Lei 9.610/1998 não reconhece a IA como autora, e conteúdos gerados por sistemas generativos podem violar direitos de terceiros cujas obras integraram o treinamento dos modelos
