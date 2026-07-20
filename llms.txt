@@ -49,6 +49,7 @@
 
 ## Artigos
 
+- [Tokenização de Ativos: Regulação e Impactos no Brasil](https://safie.blog.br/artigos/2026-07-20-tokenizacao-de-ativos-regulacao-e-impactos-no-brasil): A tokenização de ativos reais é operação juridicamente viável no Brasil desde a publicação da Lei 14.478/2022 e das normas da CVM e do Banco Central, mas exige estruturação societária, tributária e re
 - [Simples Nacional e regimes especiais na reforma tributária](https://safie.blog.br/artigos/2026-07-17-simples-nacional-e-regimes-especiais-na-reforma-tributaria): O Simples Nacional permanece como regime diferenciado na reforma tributária, mas empresas optantes precisarão conviver com novas regras de apuração e repasse do IBS e da CBS a partir de 2026
 - [LGPD e IA: o que sua empresa precisa saber](https://safie.blog.br/artigos/2026-07-17-lgpd-e-ia-o-que-sua-empresa-precisa-saber): Empresas que utilizam inteligência artificial no Brasil estão sujeitas à Lei Geral de Proteção de Dados (Lei 13.709/2018) desde já, independentemente de regulamentação específica para IA
 - [Regulação do Banco Central para Fintechs](https://safie.blog.br/artigos/2026-07-17-regulacao-do-banco-central-para-fintechs): As fintechs no Brasil operam sob um arcabouço regulatório estruturado pelo Banco Central, cujo ponto central são as Resoluções CMN 4.656 e 4.657/2018, que criaram as categorias de Sociedade de Crédito
