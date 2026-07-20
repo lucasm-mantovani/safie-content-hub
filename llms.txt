@@ -49,6 +49,7 @@
 
 ## Artigos
 
+- [Tributação de Empresas de IA e Tecnologia no Brasil](https://safie.blog.br/artigos/2026-07-20-tributacao-de-empresas-de-ia-e-tecnologia-no-brasil): Empresas de tecnologia e inteligência artificial no Brasil estão sujeitas a um regime tributário fragmentado, que envolve ISS municipal, PIS/Cofins, IRPJ/CSLL e, dependendo do modelo de negócio, class
 - [Compliance e PLD em Fintechs: Obrigações Legais](https://safie.blog.br/artigos/2026-07-20-compliance-e-pld-em-fintechs-obrigacoes-legais): Fintechs no Brasil são obrigadas a manter programas de Prevenção à Lavagem de Dinheiro (PLD) sob pena de sanções administrativas e criminais, conforme a Lei 9.613/1998 e as normas do Banco Central
 - [CVM e Blockchain: o que muda para empresas](https://safie.blog.br/artigos/2026-07-20-cvm-e-blockchain-o-que-muda-para-empresas): A Comissão de Valores Mobiliários (CVM) formalizou um grupo de trabalho para avaliar o uso de blockchain e tokenização no mercado financeiro brasileiro, sinalizando que novas diretrizes regulatórias e
 - [Tokenização de Ativos: Regulação e Impactos no Brasil](https://safie.blog.br/artigos/2026-07-20-tokenizacao-de-ativos-regulacao-e-impactos-no-brasil): A tokenização de ativos reais é operação juridicamente viável no Brasil desde a publicação da Lei 14.478/2022 e das normas da CVM e do Banco Central, mas exige estruturação societária, tributária e re
