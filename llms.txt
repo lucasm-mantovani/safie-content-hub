@@ -49,6 +49,7 @@
 
 ## Artigos
 
+- [Comitê Gestor do IBS: regulamentação infralegal](https://safie.blog.br/artigos/2026-07-22-comite-gestor-do-ibs-regulamentacao-infralegal): O Comitê Gestor do IBS (CG-IBS) anunciou a criação de um comitê de ética após episódio de conduta inadequada em sessão plenária, reconhecido pela própria presidência como falha institucional
 - [IA e deep tech: o capital vai para fundadores sênior](https://safie.blog.br/artigos/2026-07-22-ia-e-deep-tech-o-capital-vai-para-fundadores-senior): O capital de risco em IA e deep tech está se concentrando em fundadores experientes, geralmente com mais de 40 anos e histórico corporativo comprovado, deixando jovens empreendedores com acesso restri
 - [Regulação do Banco Central para fintechs](https://safie.blog.br/artigos/2026-07-22-regulacao-do-banco-central-para-fintechs): A regulação do Banco Central para fintechs que operam como credenciadoras exige autorização específica e cumprimento das normas do arranjo de pagamentos, conforme a Lei 12.865/2013 e a Resolução BCB 8
 - [Trabalho em Feriados no Comércio: o que Muda](https://safie.blog.br/artigos/2026-07-22-trabalho-em-feriados-no-comercio-o-que-muda): O Ministério do Trabalho publicou nova regulamentação sobre o trabalho em feriados no comércio, alterando as condições para escala, compensação e pagamento adicional dos empregados
