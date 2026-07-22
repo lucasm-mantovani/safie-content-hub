@@ -49,6 +49,7 @@
 
 ## Artigos
 
+- [Trabalho em Feriados no Comércio: o que Muda](https://safie.blog.br/artigos/2026-07-22-trabalho-em-feriados-no-comercio-o-que-muda): O Ministério do Trabalho publicou nova regulamentação sobre o trabalho em feriados no comércio, alterando as condições para escala, compensação e pagamento adicional dos empregados
 - [Estruturação societária de empresas cripto](https://safie.blog.br/artigos/2026-07-22-estruturacao-societaria-de-empresas-cripto): A ausência de controles societários claros em empresas que operam com criptoativos cria vulnerabilidades jurídicas graves, como demonstra o caso da Operação Decrypted, em que a alegação de compartilha
 - [IBS e CBS: o que muda para sua empresa](https://safie.blog.br/artigos/2026-07-20-ibs-e-cbs-o-que-muda-para-sua-empresa): O IBS e a CBS passam a substituir gradualmente ICMS, ISS, PIS e Cofins a partir de 2027, com transição prevista até 2033, conforme a Emenda Constitucional 132/2023
 - [Simples Nacional e IBS/CBS: regimes especiais](https://safie.blog.br/artigos/2026-07-20-simples-nacional-e-ibscbs-regimes-especiais): O governo federal e o Comitê Gestor do IBS estudam adiar a obrigação de destaque separado de IBS e CBS nas notas fiscais de empresas optantes pelo Simples Nacional, segundo informações do JOTA publica
