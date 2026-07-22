@@ -49,6 +49,7 @@
 
 ## Artigos
 
+- [Imposto Seletivo: o que muda para empresas](https://safie.blog.br/artigos/2026-07-22-imposto-seletivo-o-que-muda-para-empresas): O Imposto Seletivo, instituído pela Emenda Constitucional 132/2023, incidirá sobre produção, extração, comercialização ou importação de bens e serviços considerados prejudiciais à saúde ou ao meio amb
 - [AI Act e regulação de menores: o que muda](https://safie.blog.br/artigos/2026-07-22-ai-act-e-regulacao-de-menores-o-que-muda): A aprovação francesa da proibição de redes sociais para menores de 15 anos é parte de uma tendência regulatória internacional que pressiona empresas de tecnologia a adotar controles de acesso verificá
 - [Open Finance e a mobilidade bancária no Brasil](https://safie.blog.br/artigos/2026-07-22-open-finance-e-a-mobilidade-bancaria-no-brasil): O Open Finance regulado pelo Banco Central (Resolução Conjunta BCB/CMN nº 1/2020) é o principal mecanismo que torna a mobilidade bancária concreta para consumidores e empresas no Brasil
 - [Stablecoins como infraestrutura financeira global](https://safie.blog.br/artigos/2026-07-22-stablecoins-como-infraestrutura-financeira-global): Stablecoins deixaram de ser apenas instrumentos especulativos e passam a funcionar como infraestrutura de pagamentos e liquidação global, com bancos e reguladores europeus reconhecendo esse papel publ
