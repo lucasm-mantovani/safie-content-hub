@@ -26,6 +26,9 @@ from pathlib import Path
 from dotenv import load_dotenv
 import os
 
+# Rasterizador da capa (SVG -> JPG 1200x630 p/ og:image). Módulo sibling em scripts/.
+from rasterizar_capa import rasterizar as rasterizar_capa
+
 # ── Caminhos ──────────────────────────────────────────────────────────────────
 BASE            = Path(__file__).resolve().parent.parent
 CONFIG_SITE     = BASE / "config" / "site.json"
@@ -200,8 +203,16 @@ def gerar_imagem_capa(artigo: dict, config_site: dict) -> tuple:
     destino.write_text(svg, encoding="utf-8")
     log.info(f"Imagem de capa gerada (paleta SAFIE): {destino}")
 
-    rel = f"/assets/img/artigos/{slug}.svg"
-    return f"{url_blog}{rel}", rel
+    # Rasteriza a capa para JPG 1200x630 — preview social não renderiza SVG.
+    # Falha alto: sem o JPG não faz sentido publicar (og:image ficaria quebrado).
+    destino_jpg = IMGS_DIR / f"{slug}.jpg"
+    rasterizar_capa(destino, destino_jpg)
+    log.info(f"Capa rasterizada para JPG (og:image): {destino_jpg}")
+
+    rel_svg = f"/assets/img/artigos/{slug}.svg"   # <img> visível na página (vetorial, nítido)
+    rel_jpg = f"/assets/img/artigos/{slug}.jpg"   # og:image / twitter:image (raster social)
+    # Retorno: (URL do JPG p/ og:image via {{IMAGEM_CAPA_URL}}, rel do SVG p/ o <img> visível)
+    return f"{url_blog}{rel_jpg}", rel_svg
 
 
 # ── 1. Gerar HTML do artigo (template A1 unificado) ────────────────────────────

@@ -530,7 +530,8 @@ def montar_artigo_completo(dados_claude: dict, noticia: dict, config_site: dict,
             "mainEntityOfPage": {"@type": "WebPage", "@id": f"{url_blog}/artigos/{slug}"},
             "image": {
                 "@type": "ImageObject",
-                "url": f"{url_blog}/assets/img/artigos/{slug}.svg",
+                # JPG raster (não SVG): Google e crawlers sociais exigem raster.
+                "url": f"{url_blog}/assets/img/artigos/{slug}.jpg",
                 "width": 1200,
                 "height": 630,
             },
