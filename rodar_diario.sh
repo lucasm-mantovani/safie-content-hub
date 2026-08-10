@@ -71,18 +71,26 @@ for NICHO in ${(z)NICHOS_HOJE}; do
 
   # Etapa 2: gerar artigo
   echo "[$(date '+%H:%M:%S')] [$NICHO] Gerando artigo (categoria $CAT)..." >> "$LOG"
-  python3 scripts/gerar_artigo.py >> "$LOG" 2>&1 || { echo "[$NICHO] falha gerar" >> "$LOG"; continue; }
+  python3 scripts/gerar_artigo.py >> "$LOG" 2>&1 || {
+    echo "[$NICHO] falha gerar" >> "$LOG"
+    python3 scripts/alertar_falha_publicacao.py "$NICHO" --etapa gerar >> "$LOG" 2>&1 || true
+    continue
+  }
 
   # Etapa 3: otimizar SEO/GEO
   echo "[$(date '+%H:%M:%S')] [$NICHO] Otimizando SEO/GEO..." >> "$LOG"
-  python3 scripts/otimizar_seo.py >> "$LOG" 2>&1 || { echo "[$NICHO] falha seo" >> "$LOG"; continue; }
+  python3 scripts/otimizar_seo.py >> "$LOG" 2>&1 || {
+    echo "[$NICHO] falha seo" >> "$LOG"
+    python3 scripts/alertar_falha_publicacao.py "$NICHO" --etapa seo >> "$LOG" 2>&1 || true
+    continue
+  }
 
   # Etapa 4: publicar
   echo "[$(date '+%H:%M:%S')] [$NICHO] Publicando..." >> "$LOG"
   python3 scripts/publicar.py >> "$LOG" 2>&1 || {
     echo "[$NICHO] falha publicar" >> "$LOG"
     # Decisão #006: falha de publicação nunca fica silenciosa — alerta por e-mail.
-    python3 scripts/alertar_falha_publicacao.py "$NICHO" >> "$LOG" 2>&1 || true
+    python3 scripts/alertar_falha_publicacao.py "$NICHO" --etapa publicar >> "$LOG" 2>&1 || true
     continue
   }
 

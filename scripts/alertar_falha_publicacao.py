@@ -1,12 +1,14 @@
 """
-alertar_falha_publicacao.py — Alerta por e-mail quando um nicho falha na publicação.
+alertar_falha_publicacao.py — Alerta por e-mail quando um nicho falha no pipeline.
 
-Chamado pelo rodar_diario.sh no branch de falha do publicar.py (decisão #006:
-nenhuma falha de publicação automática pode ficar silenciosa). Nunca deve
-derrubar o pipeline: qualquer erro aqui é impresso e o exit é 0.
+Chamado pelo rodar_diario.sh nos branches de falha das etapas gerar, seo e
+publicar (decisão #006: nenhuma falha do pipeline automático pode ficar
+silenciosa). Nunca deve derrubar o pipeline: qualquer erro aqui é impresso e
+o exit é 0.
 
-Uso: python3 scripts/alertar_falha_publicacao.py <nicho> [--dry]
-  --dry  monta o e-mail e imprime no stdout em vez de enviar (validação).
+Uso: python3 scripts/alertar_falha_publicacao.py <nicho> [--etapa gerar|seo|publicar] [--dry]
+  --etapa  etapa que falhou; ajusta o assunto (padrão: publicar).
+  --dry    monta o e-mail e imprime no stdout em vez de enviar (validação).
 """
 import sys
 from datetime import date
@@ -17,10 +19,17 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 PASTA = Path(__file__).resolve().parent.parent
 LINHAS_DE_LOG = 40
 
+ROTULO_ETAPA = {
+    "gerar": "Falha na GERAÇÃO automática",
+    "seo": "Falha na otimização SEO automática",
+    "publicar": "Falha na publicação automática",
+}
 
-def montar_email(nicho):
+
+def montar_email(nicho, etapa="publicar"):
     hoje = date.today().isoformat()
-    assunto = f"[SAFIE Blog] Falha na publicação automática — {nicho} {hoje}"
+    rotulo = ROTULO_ETAPA.get(etapa, ROTULO_ETAPA["publicar"])
+    assunto = f"[SAFIE Blog] {rotulo} — {nicho} {hoje}"
 
     log = PASTA / "logs" / f"pipeline_{hoje}.log"
     if log.is_file():
@@ -29,8 +38,8 @@ def montar_email(nicho):
         cauda = f"(log {log} não encontrado)"
 
     corpo = (
-        f"O pipeline diário do blog unificado (safie.blog.br) falhou ao publicar "
-        f"o nicho '{nicho}' em {hoje}.\n\n"
+        f"O pipeline diário do blog unificado (safie.blog.br) falhou na etapa "
+        f"'{etapa}' do nicho '{nicho}' em {hoje}.\n\n"
         f"O artigo NÃO foi publicado. Sem intervenção, o gap continua nos próximos dias.\n\n"
         f"Últimas {LINHAS_DE_LOG} linhas de logs/pipeline_{hoje}.log:\n"
         f"{'-' * 60}\n{cauda}{'-' * 60}\n\n"
@@ -40,11 +49,16 @@ def montar_email(nicho):
 
 
 def main():
-    args = [a for a in sys.argv[1:] if a != "--dry"]
-    dry = "--dry" in sys.argv[1:]
-    nicho = args[0] if args else "desconhecido"
+    argv = sys.argv[1:]
+    dry = "--dry" in argv
+    etapa = "publicar"
+    if "--etapa" in argv:
+        i = argv.index("--etapa")
+        if i + 1 < len(argv):
+            etapa = argv[i + 1]
+    nicho = argv[0] if argv and not argv[0].startswith("--") else "desconhecido"
 
-    assunto, corpo = montar_email(nicho)
+    assunto, corpo = montar_email(nicho, etapa)
     if dry:
         print(f"[DRY] Assunto: {assunto}")
         print(f"[DRY] Corpo:\n{corpo}")

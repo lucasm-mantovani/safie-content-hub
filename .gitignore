@@ -21,3 +21,6 @@ Thumbs.db
 
 # Artefatos de design (não versionar — fonte em _design-archive local)
 _design-archive/
+
+# Arquivamento local (nunca versionado)
+_archive/
