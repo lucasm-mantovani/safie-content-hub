@@ -49,6 +49,7 @@
 
 ## Artigos
 
+- [IBS e CBS: impactos nas informações contábeis](https://safie.blog.br/artigos/2026-08-10-ibs-e-cbs-impactos-nas-informacoes-contabeis): O IBS e a CBS, criados pela Emenda Constitucional 132/2023 e regulamentados pela Lei Complementar 214/2025, exigem adaptações profundas nas demonstrações contábeis das empresas brasileiras
 - [Tributação de empresas de tecnologia e IA](https://safie.blog.br/artigos/2026-08-10-tributacao-de-empresas-de-tecnologia-e-ia): Empresas de tecnologia e inteligência artificial no Brasil enfrentam uma carga tributária que pode chegar a 34% sobre o lucro, com regimes distintos conforme o porte e a atividade
 - [Crédito Digital e BNPL: riscos e regras no Brasil](https://safie.blog.br/artigos/2026-08-10-credito-digital-e-bnpl-riscos-e-regras-no-brasil): O modelo BNPL (Buy Now, Pay Later) e o crédito digital estão sujeitos à regulação do Banco Central, exigindo autorização prévia ou parceria com instituição licenciada para operar
 - [Taxa das blusinhas: o que muda em setembro](https://safie.blog.br/artigos/2026-08-10-taxa-das-blusinhas-o-que-muda-em-setembro): Se a Medida Provisória que suspendeu a tributação de compras internacionais de até US$ 50 não for aprovada pelo Congresso, a taxação de 20% volta a valer no início de setembro de 2026
