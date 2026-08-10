@@ -49,6 +49,7 @@
 
 ## Artigos
 
+- [Taxa das blusinhas: o que muda em setembro](https://safie.blog.br/artigos/2026-08-10-taxa-das-blusinhas-o-que-muda-em-setembro): Se a Medida Provisória que suspendeu a tributação de compras internacionais de até US$ 50 não for aprovada pelo Congresso, a taxação de 20% volta a valer no início de setembro de 2026
 - [Estruturação societária de empresas cripto](https://safie.blog.br/artigos/2026-08-10-estruturacao-societaria-de-empresas-cripto): A estruturação societária de uma empresa de criptoativos no Brasil exige atenção a requisitos específicos da Lei 14.478/2022 e da regulamentação do Banco Central, sob risco de sanções administrativas
 - [Imposto Seletivo: o que muda para empresas](https://safie.blog.br/artigos/2026-07-22-imposto-seletivo-o-que-muda-para-empresas): O Imposto Seletivo, instituído pela Emenda Constitucional 132/2023, incidirá sobre produção, extração, comercialização ou importação de bens e serviços considerados prejudiciais à saúde ou ao meio amb
 - [AI Act e regulação de menores: o que muda](https://safie.blog.br/artigos/2026-07-22-ai-act-e-regulacao-de-menores-o-que-muda): A aprovação francesa da proibição de redes sociais para menores de 15 anos é parte de uma tendência regulatória internacional que pressiona empresas de tecnologia a adotar controles de acesso verificá
