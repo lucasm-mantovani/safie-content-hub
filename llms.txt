@@ -49,6 +49,7 @@
 
 ## Artigos
 
+- [Crédito Digital e BNPL: riscos e regras no Brasil](https://safie.blog.br/artigos/2026-08-10-credito-digital-e-bnpl-riscos-e-regras-no-brasil): O modelo BNPL (Buy Now, Pay Later) e o crédito digital estão sujeitos à regulação do Banco Central, exigindo autorização prévia ou parceria com instituição licenciada para operar
 - [Taxa das blusinhas: o que muda em setembro](https://safie.blog.br/artigos/2026-08-10-taxa-das-blusinhas-o-que-muda-em-setembro): Se a Medida Provisória que suspendeu a tributação de compras internacionais de até US$ 50 não for aprovada pelo Congresso, a taxação de 20% volta a valer no início de setembro de 2026
 - [Estruturação societária de empresas cripto](https://safie.blog.br/artigos/2026-08-10-estruturacao-societaria-de-empresas-cripto): A estruturação societária de uma empresa de criptoativos no Brasil exige atenção a requisitos específicos da Lei 14.478/2022 e da regulamentação do Banco Central, sob risco de sanções administrativas
 - [Imposto Seletivo: o que muda para empresas](https://safie.blog.br/artigos/2026-07-22-imposto-seletivo-o-que-muda-para-empresas): O Imposto Seletivo, instituído pela Emenda Constitucional 132/2023, incidirá sobre produção, extração, comercialização ou importação de bens e serviços considerados prejudiciais à saúde ou ao meio amb

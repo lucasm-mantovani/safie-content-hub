@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Crédito Digital e BNPL: riscos e regras no Brasil — SAFIE Blog</title>
+  <meta name="description" content="RecargaPay amplia crédito para 14 mi de clientes. Entenda o que a expansão do BNPL exige em compliance, regulação e contabilidade para fintechs.">
+  <link rel="canonical" href="https://safie.blog.br/artigos/2026-08-10-credito-digital-e-bnpl-riscos-e-regras-no-brasil">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="author" content="Ítalo Cunha">
+  <meta name="keywords" content="crédito, digital, bnpl, riscos, regras, Lei 4.595/1964, Lei 8.078/1990, art. 52, Banco Central, CVM">
+
+  <!-- Open Graph -->
+  <meta property="og:type"        content="article">
+  <meta property="og:title"       content="Crédito Digital e BNPL: riscos e regras no Brasil — SAFIE Blog">
+  <meta property="og:description" content="RecargaPay amplia crédito para 14 mi de clientes. Entenda o que a expansão do BNPL exige em compliance, regulação e contabilidade para fintechs.">
+  <meta property="og:url"         content="https://safie.blog.br/artigos/2026-08-10-credito-digital-e-bnpl-riscos-e-regras-no-brasil">
+  <meta property="og:site_name"   content="SAFIE Blog">
+  <meta property="og:locale"      content="pt_BR">
+  <meta property="og:image"       content="https://safie.blog.br/assets/img/artigos/2026-08-10-credito-digital-e-bnpl-riscos-e-regras-no-brasil.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="article:published_time" content="2026-08-10T11:23:39Z">
+  <meta property="article:section"       content="Crédito digital e BNPL">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:title"       content="Crédito Digital e BNPL: riscos e regras no Brasil — SAFIE Blog">
+  <meta name="twitter:description" content="RecargaPay amplia crédito para 14 mi de clientes. Entenda o que a expansão do BNPL exige em compliance, regulação e contabilidade para fintechs.">
+  <meta name="twitter:image"       content="https://safie.blog.br/assets/img/artigos/2026-08-10-credito-digital-e-bnpl-riscos-e-regras-no-brasil.jpg">
+
+  <!-- Schema.org JSON-LD (BlogPosting + Person + BreadcrumbList + FAQPage) — gerado pelo pipeline -->
+  <script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Crédito Digital e BNPL: riscos e regras no Brasil",
+    "description": "RecargaPay amplia crédito para 14 mi de clientes. Entenda o que a expansão do BNPL exige em compliance, regulação e contabilidade para fintechs.",
+    "datePublished": "2026-08-10T11:23:39Z",
+    "dateModified": "2026-08-10T11:23:39Z",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://safie.blog.br/artigos/2026-08-10-credito-digital-e-bnpl-riscos-e-regras-no-brasil"
+    },
+    "image": {
+      "@type": "ImageObject",
+      "url": "https://safie.blog.br/assets/img/artigos/2026-08-10-credito-digital-e-bnpl-riscos-e-regras-no-brasil.jpg",
+      "width": 1200,
+      "height": 630
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Ítalo Cunha",
+      "sameAs": [
+        "https://www.linkedin.com/in/italo-cunha-cwb/",
+        "https://www.instagram.com/euitalocunha/"
+      ]
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "SAFIE",
+      "url": "https://safie.com.br",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://consultoria.safie.com.br/wp-content/uploads/2025/11/cropped-2-1-1024x292.webp"
+      },
+      "sameAs": [
+        "https://www.instagram.com/safiegroup/",
+        "https://www.instagram.com/safiecontabilidade/"
+      ]
+    },
+    "url": "https://safie.blog.br/artigos/2026-08-10-credito-digital-e-bnpl-riscos-e-regras-no-brasil",
+    "articleSection": "Crédito digital e BNPL",
+    "inLanguage": "pt-BR"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Uma empresa de tecnologia pode oferecer BNPL sem ser uma instituição financeira?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não diretamente. Para oferecer crédito ao consumidor, a empresa precisa ser uma instituição financeira autorizada pelo Banco Central (como uma SCD) ou atuar como correspondente bancário de uma instituição licenciada. Oferecer crédito sem esse enquadramento configura infração à Lei 4.595/1964."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Qual é o capital mínimo exigido para abrir uma Sociedade de Crédito Direto (SCD)?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A Resolução BCB 96/2021 exige capital mínimo de R$ 1 milhão integralizado para a constituição de uma SCD. O processo de autorização junto ao Banco Central costuma levar entre 12 e 24 meses."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O BNPL precisa informar o CET (Custo Efetivo Total) ao consumidor?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim. Qualquer operação de crédito ao consumidor, incluindo o parcelamento no modelo BNPL, deve informar o CET em percentual anual, conforme a Resolução CMN 4.949/2021 e o art. 52 do Código de Defesa do Consumidor (Lei 8.078/1990). A ausência dessa informação pode ensejar nulidade contratual e autuação pelo Procon ou pelo Banco Central."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Como a carteira de crédito de uma fintech deve ser contabilizada?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Instituições financeiras seguem a Resolução CMN 2.682/1999 para classificação e provisionamento da carteira de crédito. Empresas não financeiras que operam crédito aplicam o CPC 48 (equivalente ao IFRS 9), que exige o reconhecimento de perdas esperadas desde a concessão do crédito. O modelo contábil escolhido afeta o resultado e os indicadores patrimoniais."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Operações de BNPL estão sujeitas a IOF?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim. Toda operação de crédito no Brasil está sujeita ao Imposto sobre Operações Financeiras (IOF), conforme o Decreto 6.306/2007. A alíquota varia conforme o prazo e a modalidade da operação. A retenção e o repasse do IOF são obrigações da instituição financeira responsável pela operação."
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Início",
+        "item": "https://safie.blog.br"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Crédito digital e BNPL",
+        "item": "https://safie.blog.br/categorias/credito-digital"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Crédito Digital e BNPL: riscos e regras no Brasil",
+        "item": "https://safie.blog.br/artigos/2026-08-10-credito-digital-e-bnpl-riscos-e-regras-no-brasil"
+      }
+    ]
+  }
+]
+  </script>
+
+  <!-- Chrome (header/footer/tokens do Hub) + corpo de artigo (artigo.css, consolidado em A2.1).
+       Ordem importa: style.css primeiro, artigo.css por cima. -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/artigo.css">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/android-chrome-192x192.png">
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+</head>
+<body data-nicho="fintechs">
+
+<!-- partial: header — cabeçalho comum do SAFIE Blog (injetado via {{HEADER}}) -->
+<header class="site-header" role="banner">
+  <div class="header-inner">
+    <a href="/" class="logo" aria-label="SAFIE Blog — Página inicial">
+      <img class="logo-img" src="/assets/logos/safie-logo-branco.svg" alt="SAFIE">
+      <span class="blog-id">Blog</span>
+    </a>
+    <nav id="nav-principal" class="nav-principal" aria-label="Navegação principal">
+      <a href="/">Início</a>
+      <a href="/artigos/">Artigos</a>
+      <a href="/categorias/">Categorias</a>
+    </nav>
+    <form class="header-busca" role="search" action="/busca" method="get">
+      <label for="busca-q-header" class="sr-only">Buscar artigos</label>
+      <input type="search" id="busca-q-header" name="q" placeholder="Buscar…" autocomplete="off">
+      <button type="submit" aria-label="Buscar">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      </button>
+    </form>
+    <a href="https://safie.com.br" class="nav-voltar" target="_blank" rel="noopener">Voltar ao site SAFIE →</a>
+    <button id="menu-toggle" class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+
+<main>
+  <nav class="breadcrumb" aria-label="Trilha de navegação">
+    <div class="container">
+      <a href="/">Início</a> <span aria-hidden="true">›</span>
+      <a href="/categorias/credito-digital">Crédito digital e BNPL</a> <span aria-hidden="true">›</span>
+      <span aria-current="page">Crédito Digital e BNPL: riscos e regras no Brasil</span>
+    </div>
+  </nav>
+
+  <article class="artigo-wrapper" itemscope itemtype="https://schema.org/BlogPosting">
+
+    <header class="artigo-header">
+      <a class="artigo-tema" href="/categorias/credito-digital">Crédito digital e BNPL</a>
+
+      <h1 class="artigo-titulo" itemprop="headline">Crédito Digital e BNPL: riscos e regras no Brasil</h1>
+
+      <div class="artigo-meta">
+        <span>Por <strong itemprop="author">Ítalo Cunha</strong></span>
+        <span>·</span>
+        <time datetime="2026-08-10T11:23:39Z" itemprop="datePublished">10 de agosto de 2026</time>
+        <span>·</span>
+        <span>6 min de leitura</span>
+      </div>
+    </header>
+
+    <img class="artigo-capa" src="/assets/img/artigos/2026-08-10-credito-digital-e-bnpl-riscos-e-regras-no-brasil.svg" alt="Crédito Digital e BNPL: riscos e regras no Brasil — capa ilustrativa do artigo sobre Crédito digital e BNPL" width="1200" height="630" loading="lazy">
+
+    <!-- Resumo executivo (para IAs generativas / GEO — Camada 1) -->
+    <aside class="resumo-executivo" itemprop="abstract">
+      <strong>Resumo executivo</strong>
+      O modelo BNPL (Buy Now, Pay Later) e o crédito digital estão sujeitos à regulação do Banco Central, exigindo autorização prévia ou parceria com instituição licenciada para operar. A RecargaPay, conforme noticiado pelo Startupi, amplia sua atuação em crédito para uma base de 14 milhões de clientes, o que ilustra o crescimento do segmento e os requisitos operacionais que acompanham essa escala. Fintechs e empresas que pretendem oferecer parcelamento próprio ou crédito embutido em apps precisam mapear se sua estrutura jurídica suporta essa atividade. Atuar fora dos enquadramentos regulatórios pode configurar operação irregular de instituição financeira, com sanções previstas na Lei 4.595/1964.
+    </aside>
+
+    <!-- Corpo do artigo (inclui key_takeaways e citação do sócio — Camadas 1 e 2) -->
+    <div class="artigo-corpo" itemprop="articleBody">
+      <div class="key-takeaways">
+  <p class="key-takeaways-titulo">Principais pontos</p>
+  <ul>
+    <li>A Lei 4.595/1964 reserva a concessão de crédito a instituições financeiras autorizadas pelo Banco Central do Brasil, e operar sem autorização é infração sujeita a multa e intervenção.</li>
+    <li>A Resolução BCB 96/2021 regulamenta as Sociedades de Crédito Direto (SCD) e as Sociedades de Empréstimo entre Pessoas (SEP), os dois principais veículos para fintechs de crédito no Brasil.</li>
+    <li>O BNPL é classificado pelo Banco Central como uma modalidade de crédito ao consumidor e pode estar sujeito às regras de transparência da Resolução CMN 4.949/2021 sobre contratos de crédito.</li>
+    <li>A RecargaPay, segundo o Startupi, serve 14 milhões de clientes e aposta em crédito como vetor de expansão de receita em 2026.</li>
+    <li>O Código de Defesa do Consumidor (Lei 8.078/1990, art. 52) exige a informação clara de taxa de juros, custo efetivo total (CET) e encargos em qualquer operação de crédito ao consumidor.</li>
+  </ul>
+</div>
+
+<p>A <a href='https://startupi.com.br/recargapay-amplia-atuacao/'>RecargaPay anunciou, segundo o Startupi</a>, uma ampliação relevante de sua atuação em produtos financeiros, colocando o crédito digital no centro da estratégia para atender sua base de 14 milhões de clientes. O movimento ilustra uma tendência consolidada entre superaplicativos e plataformas de pagamento: a migração de produtos transacionais para produtos de crédito, onde a margem e o engajamento são significativamente maiores.</p><p>Entre os modelos em expansão está o BNPL (Buy Now, Pay Later), o parcelamento digital sem cartão que permite ao consumidor dividir compras em parcelas gerenciadas pelo próprio app. No Brasil, esse modelo não opera em vácuo regulatório; ao contrário, está enquadrado no perímetro de supervisão do Banco Central e do Conselho Monetário Nacional (CMN), o que cria obrigações concretas para qualquer empresa que queira oferecer a funcionalidade.</p><p>Este artigo analisa o que a expansão de crédito por plataformas digitais como a RecargaPay significa do ponto de vista jurídico e regulatório, e o que empresas do setor precisam considerar antes de estruturar uma oferta semelhante.</p>
+
+<h2>BCB, SCD e CMN: o marco regulatório do crédito digital</h2>
+<p>O crédito digital no Brasil é, antes de qualquer outra coisa, uma atividade regulada. A <strong>Lei 4.595/1964</strong> (Lei do Sistema Financeiro Nacional) estabelece que a concessão de crédito é privativa de instituições financeiras autorizadas pelo Banco Central do Brasil. Isso significa que um aplicativo, por mais sofisticado que seja, não pode simplesmente oferecer parcelamento ou empréstimo sem o enquadramento jurídico correto.</p><h3>Veículos regulatórios: SCD, SEP e correspondentes bancários</h3><p>O Banco Central criou, por meio da <strong>Resolução BCB 96/2021</strong>, dois tipos de instituição financeira voltados especificamente para fintechs de crédito:</p><ul><li><strong>Sociedade de Crédito Direto (SCD):</strong> opera com capital próprio, sem captação de depósitos do público. É o veículo mais utilizado por fintechs que concedem crédito com recursos próprios ou de fundos de recebíveis (FIDCs).</li><li><strong>Sociedade de Empréstimo entre Pessoas (SEP):</strong> conecta tomadores e investidores pessoas físicas ou jurídicas, operando como marketplace de crédito.</li></ul><p>Uma terceira via, menos autônoma, é a atuação como <strong>correspondente bancário</strong>, regulada pela Resolução CMN 3.954/2011, que permite a uma empresa não financeira distribuir produtos de crédito de uma instituição parceira. Nesse modelo, a responsabilidade pela concessão permanece com a instituição financeira licenciada, mas a empresa distribuidora responde pelo processo de originação e pela conformidade com as regras de conduta.</p><h3>BNPL e a Resolução CMN 4.949/2021</h3><p>O BNPL, embora seja uma nomenclatura importada do mercado americano e europeu, não possui um dispositivo normativo exclusivo no Brasil. O Banco Central o trata como modalidade de crédito ao consumidor, o que o submete às exigências de transparência da <strong>Resolução CMN 4.949/2021</strong>. Essa norma exige que contratos de crédito ao consumidor informem, de forma clara e prévia:</p><ul><li>O Custo Efetivo Total (CET), em percentual anual;</li><li>A taxa de juros nominal e efetiva;</li><li>Todos os encargos, tributos e tarifas incidentes;</li><li>A forma e o prazo de pagamento de cada parcela.</li></ul><p>Além disso, o <strong>art. 52 do Código de Defesa do Consumidor (Lei 8.078/1990)</strong> impõe essas mesmas obrigações de forma cogente, com sanções que incluem nulidade das cláusulas abusivas e responsabilização administrativa pelo Procon. Fintechs que descumprem esses requisitos ficam expostas a autuações tanto pelo Banco Central quanto pelos órgãos de defesa do consumidor.</p><h3>Limites de juros, IOF e tributação das operações</h3><p>Ao contrário do que se poderia supor, o Brasil não possui teto legal de juros para crédito ao consumidor em geral (a Lei da Usura, Decreto 22.626/1933, foi afastada para instituições financeiras pelo STF na Súmula 596). Os juros são livremente pactuados, mas sujeitos ao controle de abusividade. Toda operação de crédito está ainda sujeita ao <strong>Imposto sobre Operações Financeiras (IOF)</strong>, nos termos do Decreto 6.306/2007, o que exige que a fintech ou a instituição parceira faça a retenção e o repasse correto ao fisco federal.</p>
+
+<h2>O que fintechs e plataformas precisam ajustar ao ampliar crédito</h2>
+<p>A movimentação da RecargaPay é um indicativo claro de que o crédito digital vai migrar de nicho para padrão entre plataformas com grande base de usuários. Para empresas que consideram um movimento similar, o ponto de partida não é tecnológico, é estrutural: a empresa precisa definir sob qual figura jurídica vai operar antes de construir qualquer produto.</p><p>As principais decisões práticas envolvem:</p><ul><li><strong>Modelo próprio via SCD:</strong> requer autorização do Banco Central, capital mínimo integralizado (atualmente R$ 1 milhão para SCD, conforme Resolução BCB 96/2021), estrutura de controles internos e política de crédito documentada. O processo de licenciamento leva, em média, de 12 a 24 meses.</li><li><strong>Parceria com instituição financeira:</strong> mais rápido de implementar, mas exige contrato de correspondência ou de integração via API regulada. A empresa distribuidora deve cumprir as regras de conduta da Resolução CMN 3.954/2011 e responde solidariamente por falhas no processo de originação.</li><li><strong>Estrutura de FIDC para funding:</strong> plataformas que operam com capital próprio via SCD frequentemente constituem um Fundo de Investimento em Direitos Creditórios para captar recursos de investidores institucionais, o que adiciona camadas de governança, regulação da CVM e obrigações contábeis específicas.</li></ul><p>Do ponto de vista contábil, a carteira de crédito precisa ser classificada e provisionada conforme a <strong>Resolução CMN 2.682/1999</strong> (para instituições financeiras) ou seguir os critérios do CPC 48 (IFRS 9) para as demais entidades, o que afeta diretamente o resultado e os indicadores patrimoniais da empresa. Ignorar esse ponto pode distorcer significativamente o EBITDA e a posição de caixa reportados.</p>
+<blockquote class="citacao-socio">
+  <p>Antes de lançar qualquer produto de crédito, a empresa precisa ter clareza sobre o veículo jurídico que vai sustentar a operação. A escolha entre SCD, correspondente ou parceria bancária tem impacto direto no capital exigido, no prazo e no risco fiscal.</p>
+  <cite>Ítalo Cunha, sócio da SAFIE (OAB-SP 418.966)</cite>
+</blockquote>
+
+
+<h2>Crédito digital exige estrutura, não apenas tecnologia</h2>
+<p>A expansão de plataformas como a RecargaPay para o crédito digital confirma que o segmento está maduro o suficiente para suportar ofertas em escala. O que esse movimento também deixa claro é que operar crédito no Brasil exige uma estrutura jurídica, regulatória e contábil proporcional ao risco assumido. Atalhos, como oferecer parcelamento sem a devida autorização ou sem informar o CET ao consumidor, criam passivos que podem se materializar anos depois da operação.</p><p>Empresas que planejam entrar nesse mercado devem começar pelo mapeamento do modelo de negócio e do enquadramento regulatório adequado, antes de qualquer investimento em tecnologia ou marketing. A compliance não é um custo acessório do crédito digital; ela é parte do produto.</p>
+    </div>
+
+    <!-- FAQ -->
+    <section class="faq-section" id="faq" itemscope itemtype="https://schema.org/FAQPage">
+      <h2>Perguntas frequentes</h2>
+      <div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Uma empresa de tecnologia pode oferecer BNPL sem ser uma instituição financeira?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">Não diretamente. Para oferecer crédito ao consumidor, a empresa precisa ser uma instituição financeira autorizada pelo Banco Central (como uma SCD) ou atuar como correspondente bancário de uma instituição licenciada. Oferecer crédito sem esse enquadramento configura infração à Lei 4.595/1964.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Qual é o capital mínimo exigido para abrir uma Sociedade de Crédito Direto (SCD)?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">A Resolução BCB 96/2021 exige capital mínimo de R$ 1 milhão integralizado para a constituição de uma SCD. O processo de autorização junto ao Banco Central costuma levar entre 12 e 24 meses.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">O BNPL precisa informar o CET (Custo Efetivo Total) ao consumidor?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">Sim. Qualquer operação de crédito ao consumidor, incluindo o parcelamento no modelo BNPL, deve informar o CET em percentual anual, conforme a Resolução CMN 4.949/2021 e o art. 52 do Código de Defesa do Consumidor (Lei 8.078/1990). A ausência dessa informação pode ensejar nulidade contratual e autuação pelo Procon ou pelo Banco Central.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Como a carteira de crédito de uma fintech deve ser contabilizada?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">Instituições financeiras seguem a Resolução CMN 2.682/1999 para classificação e provisionamento da carteira de crédito. Empresas não financeiras que operam crédito aplicam o CPC 48 (equivalente ao IFRS 9), que exige o reconhecimento de perdas esperadas desde a concessão do crédito. O modelo contábil escolhido afeta o resultado e os indicadores patrimoniais.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Operações de BNPL estão sujeitas a IOF?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">Sim. Toda operação de crédito no Brasil está sujeita ao Imposto sobre Operações Financeiras (IOF), conforme o Decreto 6.306/2007. A alíquota varia conforme o prazo e a modalidade da operação. A retenção e o repasse do IOF são obrigações da instituição financeira responsável pela operação.</span></div>
+</div>
+
+    </section>
+
+    <!-- Referências -->
+    <aside class="referencias">
+      <h2>Fontes e referências</h2>
+      <ul>
+<li><span class="ref-label">Fonte original:</span> <a href="https://startupi.com.br/recargapay-amplia-atuacao/" target="_blank" rel="noopener">Startupi</a></li>
+<li>Lei 4.595/1964 (Lei do Sistema Financeiro Nacional)</li>
+<li>Resolução BCB 96/2021 (regulamentação de SCD e SEP)</li>
+<li>Resolução CMN 4.949/2021 (contratos de crédito ao consumidor)</li>
+<li>Resolução CMN 3.954/2011 (correspondentes bancários)</li>
+<li>Resolução CMN 2.682/1999 (classificação e provisão de crédito)</li>
+<li>Lei 8.078/1990 (Código de Defesa do Consumidor), art. 52</li>
+<li>Decreto 6.306/2007 (regulamento do IOF)</li>
+<li>CPC 48 / IFRS 9 (instrumentos financeiros)</li>
+</ul>
+
+    </aside>
+
+  </article>
+
+  <!-- CTA consultivo -->
+  <div class="container">
+    <div class="artigo-cta">
+      <h3>Decisão jurídica ou contábil pendente?</h3>
+      <p>A SAFIE atende founders e gestores com acesso direto aos sócios — jurídico e contabilidade integrados sob o mesmo teto. Conversamos para entender o caso antes de qualquer recomendação.</p>
+      <a href="https://wa.me/5511934329769?text=Ol%C3%A1!%20Vim%20pelo%20blog%20da%20SAFIE%20e%20gostaria%20de%20conversar." class="cta-btn" target="_blank" rel="noopener">Falar com a SAFIE</a>
+    </div>
+  </div>
+
+  <!-- Sobre os autores -->
+  <div class="container">
+    <div class="sobre-autores">
+      <span class="sobre-autores-titulo">Sobre os autores</span>
+      <p>Conteúdo produzido pela SAFIE, consultoria jurídico-contábil para empresas digitais e de tecnologia. A SAFIE é liderada por <a href="https://instagram.com/lucasm.mantovani" target="_blank" rel="noopener"><strong>Lucas Mantovani</strong></a> e <a href="https://instagram.com/euitalocunha" target="_blank" rel="noopener"><strong>Italo Cunha</strong></a>.</p>
+    </div>
+  </div>
+
+  <!-- Artigos relacionados (Camada 3 — "Continue lendo", agora cross-categoria) -->
+  <div class="container">
+    <section class="relacionados">
+      <h2>Continue lendo</h2>
+      <div class="relacionados-lista">
+        <ul class="relacionados-items">
+  <li><a href="/artigos/2026-07-17-credito-digital-e-bnpl-governanca-em-pauta">Crédito digital e BNPL: governança em pauta</a></li>
+  <li><a href="/artigos/2026-06-17-bnpl-no-agronegocio-credito-digital-no-campo">BNPL no agronegócio: crédito digital no campo</a></li>
+  <li><a href="/artigos/2026-06-14-credito-digital-e-bnpl-regulacao-e-riscos-no-brasil">Crédito digital e BNPL: regulação e riscos no Brasil</a></li>
+</ul>
+      </div>
+    </section>
+  </div>
+</main>
+
+<!-- partial: footer — rodapé comum COM formulário (injetado via {{FOOTER}}) -->
+<!-- Formulário de contato — placeholder. Submit inerte; integração HubSpot na fase A5/A6. -->
+<section class="footer-form-wrap" aria-label="Fale com a SAFIE">
+  <div class="footer-form-inner">
+    <div class="footer-form-texto">
+      <p class="secao-kicker">Fale com a SAFIE</p>
+      <h2>Decisão jurídica ou contábil pendente?</h2>
+      <p>Atendemos founders e gestores com acesso direto aos sócios — jurídico e contabilidade sob o mesmo teto.</p>
+    </div>
+    <!-- Form via embed oficial HubSpot v2 — carrega o hutk (submissão legítima: CRM + tarefa do workflow + redirect WhatsApp já configurado no form). -->
+    <div class="footer-form-hs-wrap">
+      <div id="hs-form-rodape" class="footer-form-hs"></div>
+      <p class="footer-form-consent">Prefere falar por e-mail? <a href="mailto:contato@safie.com.br">contato@safie.com.br</a>.</p>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer" role="contentinfo">
+  <div class="footer-inner">
+    <div class="footer-topo">
+      <div class="footer-marca">
+        <span class="logo-marca footer-logo-texto">Blog <span style="color:var(--ciano)">SAFIE</span></span>
+        <p>Consultoria jurídico-contábil para negócios digitais, startups e a nova economia.</p>
+      </div>
+      <div class="footer-nav">
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="/">Início</a></li>
+            <li><a href="/artigos/">Artigos</a></li>
+            <li><a href="/categorias/">Categorias</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Links</h4>
+          <ul>
+            <li><a href="https://safie.com.br" target="_blank" rel="noopener">safie.com.br</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+            <li><a href="mailto:contato@safie.com.br">contato@safie.com.br</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-arco-iris" aria-hidden="true"></div>
+    <div class="footer-cnpjs" aria-label="CNPJ SAFIE">
+      <span>SAFIE TECNOLOGIA E CONSULTORIA LTDA, inscrita no CNPJ sob o nº 42.224.278/0001-92, sediada à Av. Brigadeiro Faria Lima, Conj. 1102, Jardim Paulistano, CEP nº 01452922, São Paulo-SP</span>
+    </div>
+    <div class="footer-base">
+      <span>&copy; 2026 SAFIE. Todos os direitos reservados.</span>
+      <span>Conteúdo informativo; não constitui parecer jurídico ou contábil individualizado.</span>
+    </div>
+  </div>
+</footer>
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
+<script type="text/javascript">
+  if (window.hbspt) hbspt.forms.create({ portalId: "50182013", formId: "1802e1da-b81b-44ed-9bab-7db51bd9e6b5", region: "na1", target: "#hs-form-rodape" });
+</script>
+
+
+<script>
+fetch('https://safie-analytics.lucas-mantovani.workers.dev/track', {
+  method: 'POST',
+  headers: {'Content-Type': 'application/json'},
+  body: JSON.stringify({ url: window.location.pathname, blog: 'fintechs' })
+}).catch(() => {});
+</script>
+<script src="/assets/js/artigo.js" defer></script>
+<script src="/assets/js/widget-whatsapp.js" defer></script>
+</body>
+</html>
