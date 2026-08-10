@@ -433,6 +433,7 @@ def git_commit_push(artigo: dict):
     arquivos = [
         f"artigos/{slug}.html",
         f"assets/img/artigos/{slug}.svg",
+        f"assets/img/artigos/{slug}.jpg",
         "artigos/indice.json",
         "sitemap.xml",
         "llms.txt",

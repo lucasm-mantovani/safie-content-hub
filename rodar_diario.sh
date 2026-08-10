@@ -79,7 +79,12 @@ for NICHO in ${(z)NICHOS_HOJE}; do
 
   # Etapa 4: publicar
   echo "[$(date '+%H:%M:%S')] [$NICHO] Publicando..." >> "$LOG"
-  python3 scripts/publicar.py >> "$LOG" 2>&1 || { echo "[$NICHO] falha publicar" >> "$LOG"; continue; }
+  python3 scripts/publicar.py >> "$LOG" 2>&1 || {
+    echo "[$NICHO] falha publicar" >> "$LOG"
+    # Decisão #006: falha de publicação nunca fica silenciosa — alerta por e-mail.
+    python3 scripts/alertar_falha_publicacao.py "$NICHO" >> "$LOG" 2>&1 || true
+    continue
+  }
 
   echo "[$(date '+%H:%M:%S')] [$NICHO] OK." >> "$LOG"
 done

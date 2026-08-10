@@ -58,16 +58,36 @@ def _achar_chromium() -> str:
 
 
 def _achar_magick() -> list:
-    """Retorna o comando base do ImageMagick ('magick' ou 'convert')."""
-    magick = shutil.which("magick")
-    if magick:
-        return [magick]
-    convert = shutil.which("convert")
-    if convert:
-        return [convert]
+    """Retorna o comando base do ImageMagick ('magick' ou 'convert').
+
+    Resolve por caminho absoluto (mesma filosofia de _achar_chromium), porque sob
+    launchd o PATH é mínimo (/usr/bin:/bin:/usr/sbin:/sbin) e shutil.which() não
+    enxerga /opt/homebrew/bin. Override por IMAGEMAGICK_BIN."""
+    env = os.environ.get("IMAGEMAGICK_BIN")
+    if env and Path(env).is_file() and os.access(env, os.X_OK):
+        return [env]
+
+    candidatos = [
+        "/opt/homebrew/bin/magick",   # Homebrew Apple Silicon
+        "/usr/local/bin/magick",      # Homebrew Intel
+        "/opt/homebrew/bin/convert",
+        "/usr/local/bin/convert",
+    ]
+    for c in candidatos:
+        if Path(c).is_file() and os.access(c, os.X_OK):
+            return [c]
+
+    # Fallback: PATH (ambiente interativo)
+    for nome in ("magick", "convert"):
+        achado = shutil.which(nome)
+        if achado:
+            return [achado]
+
     raise RuntimeError(
         "FALHA CRÍTICA (rasterizar_capa): ImageMagick (magick/convert) NÃO encontrado "
-        "para converter PNG->JPG. Instale com 'brew install imagemagick'."
+        "para converter PNG->JPG. Procurei em $IMAGEMAGICK_BIN, /opt/homebrew/bin, "
+        "/usr/local/bin e no PATH. Instale com 'brew install imagemagick' ou defina "
+        "IMAGEMAGICK_BIN apontando para o executável."
     )
 
 
