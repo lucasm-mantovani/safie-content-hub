@@ -1,7 +1,7 @@
 // widget-whatsapp.js
 // Widget flutuante do WhatsApp SAFIE
 // Injeta um botão fixo no canto inferior direito de todas as páginas onde o script for incluído
-// Destino: wa.me/5511934329769 com mensagem pré-preenchida
+// Destino: wa.me/5511910932154 com mensagem pré-preenchida
 
 (function() {
   'use strict';
@@ -9,7 +9,7 @@
   // Não inserir se já existe (idempotência)
   if (document.getElementById('safie-whatsapp-widget')) return;
 
-  const WHATSAPP_URL = 'https://wa.me/5511934329769?text=' + encodeURIComponent('Olá! Vim pelo blog da SAFIE e gostaria de conversar.');
+  const WHATSAPP_URL = 'https://wa.me/5511910932154?text=' + encodeURIComponent('Olá! Vim pelo blog da SAFIE e gostaria de conversar.');
 
   const widget = document.createElement('a');
   widget.id = 'safie-whatsapp-widget';
