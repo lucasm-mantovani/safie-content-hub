@@ -49,6 +49,7 @@
 
 ## Artigos
 
+- [Guerra dos galpões: o que muda na logística do e-commerce](https://safie.blog.br/artigos/2026-08-12-guerra-dos-galpoes-o-que-muda-na-logistica-do-e-commerce): A escassez e valorização de galpões logísticos urbanos estão redefinindo a estrutura de operações do comércio eletrônico brasileiro, com reflexos diretos em contratos de locação, tributação de estoque
 - [Compliance e PLD Cripto: o que o BC exige](https://safie.blog.br/artigos/2026-08-12-compliance-e-pld-cripto-o-que-o-bc-exige): O Banco Central do Brasil reconheceu publicamente que, em determinadas situações, é necessário frear a inovação no setor de criptoativos para garantir conformidade com regras de prevenção à lavagem de
 - [IBS e CBS: impactos nas informações contábeis](https://safie.blog.br/artigos/2026-08-10-ibs-e-cbs-impactos-nas-informacoes-contabeis): O IBS e a CBS, criados pela Emenda Constitucional 132/2023 e regulamentados pela Lei Complementar 214/2025, exigem adaptações profundas nas demonstrações contábeis das empresas brasileiras
 - [Tributação de empresas de tecnologia e IA](https://safie.blog.br/artigos/2026-08-10-tributacao-de-empresas-de-tecnologia-e-ia): Empresas de tecnologia e inteligência artificial no Brasil enfrentam uma carga tributária que pode chegar a 34% sobre o lucro, com regimes distintos conforme o porte e a atividade
