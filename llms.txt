@@ -49,6 +49,7 @@
 
 ## Artigos
 
+- [Imposto Seletivo: o que muda para empresas](https://safie.blog.br/artigos/2026-08-12-imposto-seletivo-o-que-muda-para-empresas): O Imposto Seletivo, criado pela Emenda Constitucional 132/2023, incide sobre bens e serviços considerados prejudiciais à saúde ou ao meio ambiente, com alíquotas ainda em definição pelo Congresso Naci
 - [Regulação de IA no Brasil: o caso Discord e a ANPD](https://safie.blog.br/artigos/2026-08-12-regulacao-de-ia-no-brasil-o-caso-discord-e-a-anpd): A Agência Nacional de Proteção de Dados (ANPD) determinou, em 12 de agosto de 2026, a suspensão das transmissões ao vivo do Discord no Brasil por meio de medida preventiva, sinalizando o fortaleciment
 - [Regulação do Banco Central para fintechs](https://safie.blog.br/artigos/2026-08-12-regulacao-do-banco-central-para-fintechs): Fintechs que operam no Brasil estão sujeitas a um conjunto de normas do Banco Central que define categorias de autorização, requisitos de capital e obrigações de compliance proporcionais ao porte e à
 - [Guerra dos galpões: o que muda na logística do e-commerce](https://safie.blog.br/artigos/2026-08-12-guerra-dos-galpoes-o-que-muda-na-logistica-do-e-commerce): A escassez e valorização de galpões logísticos urbanos estão redefinindo a estrutura de operações do comércio eletrônico brasileiro, com reflexos diretos em contratos de locação, tributação de estoque
