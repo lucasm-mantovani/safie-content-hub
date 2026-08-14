@@ -49,6 +49,7 @@
 
 ## Artigos
 
+- [IBS e CBS: impactos nas relações de trabalho](https://safie.blog.br/artigos/2026-08-14-ibs-e-cbs-impactos-nas-relacoes-de-trabalho): As regras de creditamento do IBS e da CBS, instituídos pela Emenda Constitucional 132/2023, passam a influenciar diretamente a forma como empresas concedem benefícios a empregados e estruturam seus mo
 - [Direitos Autorais e IA Generativa no Brasil](https://safie.blog.br/artigos/2026-08-14-direitos-autorais-e-ia-generativa-no-brasil): No Brasil, a Lei 9.610/1998 não reconhece a IA como autora, o que significa que conteúdos gerados exclusivamente por sistemas generativos carecem de proteção autoral automática
 - [Crédito digital e BNPL: riscos e regras no Brasil](https://safie.blog.br/artigos/2026-08-14-credito-digital-e-bnpl-riscos-e-regras-no-brasil): O crédito digital e o modelo BNPL (compre agora, pague depois) operam no Brasil sob regras do Banco Central e do Código de Defesa do Consumidor, e empresas que oferecem essas modalidades precisam obse
 - [Marketplaces e acesso a pré-IPO: o que muda](https://safie.blog.br/artigos/2026-08-14-marketplaces-e-acesso-a-pre-ipo-o-que-muda): A criação do Pershing Square Ventures, fundo de Bill Ackman voltado a democratizar o acesso a investimentos pré-IPO, coloca em evidência o papel crescente das plataformas digitais como intermediárias
