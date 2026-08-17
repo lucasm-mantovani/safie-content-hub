@@ -49,6 +49,7 @@
 
 ## Artigos
 
+- [Tributação de Empresas de IA no Brasil](https://safie.blog.br/artigos/2026-08-17-tributacao-de-empresas-de-ia-no-brasil): Não existe, até agosto de 2026, um regime tributário específico para empresas de inteligência artificial no Brasil: a tributação segue frameworks criados para software, serviços e propriedade intelect
 - [Tokenização: regulação abre mercado institucional](https://safie.blog.br/artigos/2026-08-17-tokenizacao-regulacao-abre-mercado-institucional): A regulação brasileira de ativos digitais já oferece segurança jurídica suficiente para atrair capital institucional, segundo executivos e o Banco Central, mas o amadurecimento das regras e a transpar
 - [Imposto Seletivo: o que muda para empresas](https://safie.blog.br/artigos/2026-08-17-imposto-seletivo-o-que-muda-para-empresas): O Imposto Seletivo, instituído pela Emenda Constitucional 132/2023, incidirá sobre bens e serviços considerados prejudiciais à saúde ou ao meio ambiente, com vigência prevista a partir de 2027
 - [Regulação de IA no Brasil: o caso Discord e a ANPD](https://safie.blog.br/artigos/2026-08-17-regulacao-de-ia-no-brasil-o-caso-discord-e-a-anpd): A ANPD possui competência legal para suspender funcionalidades de plataformas digitais que descumpram a LGPD, como demonstra o caso Discord, noticiado pelo Valor Econômico em 15 de agosto de 2026
