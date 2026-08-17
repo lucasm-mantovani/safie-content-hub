@@ -49,6 +49,7 @@
 
 ## Artigos
 
+- [Regulação de IA no Brasil: o caso Discord e a ANPD](https://safie.blog.br/artigos/2026-08-17-regulacao-de-ia-no-brasil-o-caso-discord-e-a-anpd): A ANPD possui competência legal para suspender funcionalidades de plataformas digitais que descumpram a LGPD, como demonstra o caso Discord, noticiado pelo Valor Econômico em 15 de agosto de 2026
 - [Reforma Tributária: como exibir preços no e-commerce](https://safie.blog.br/artigos/2026-08-17-reforma-tributaria-como-exibir-precos-no-e-commerce): Com a transição para o IBS e a CBS prevista na reforma tributária (EC 132/2023), lojas virtuais enfrentam incerteza sobre como exibir preços ao consumidor: com ou sem o imposto destacado
 - [Regulação de Criptoativos no Brasil em 2026](https://safie.blog.br/artigos/2026-08-17-regulacao-de-criptoativos-no-brasil-em-2026): A regulação de criptoativos no Brasil avança sob o marco da Lei 14.478/2022 e das normas do Banco Central, impondo obrigações concretas a exchanges, custodiantes e demais prestadores de serviços de at
 - [IBS e CBS: impactos nas relações de trabalho](https://safie.blog.br/artigos/2026-08-14-ibs-e-cbs-impactos-nas-relacoes-de-trabalho): As regras de creditamento do IBS e da CBS, instituídos pela Emenda Constitucional 132/2023, passam a influenciar diretamente a forma como empresas concedem benefícios a empregados e estruturam seus mo
