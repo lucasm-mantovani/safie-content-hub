@@ -49,6 +49,7 @@
 
 ## Artigos
 
+- [Tokenização: regulação abre mercado institucional](https://safie.blog.br/artigos/2026-08-17-tokenizacao-regulacao-abre-mercado-institucional): A regulação brasileira de ativos digitais já oferece segurança jurídica suficiente para atrair capital institucional, segundo executivos e o Banco Central, mas o amadurecimento das regras e a transpar
 - [Imposto Seletivo: o que muda para empresas](https://safie.blog.br/artigos/2026-08-17-imposto-seletivo-o-que-muda-para-empresas): O Imposto Seletivo, instituído pela Emenda Constitucional 132/2023, incidirá sobre bens e serviços considerados prejudiciais à saúde ou ao meio ambiente, com vigência prevista a partir de 2027
 - [Regulação de IA no Brasil: o caso Discord e a ANPD](https://safie.blog.br/artigos/2026-08-17-regulacao-de-ia-no-brasil-o-caso-discord-e-a-anpd): A ANPD possui competência legal para suspender funcionalidades de plataformas digitais que descumpram a LGPD, como demonstra o caso Discord, noticiado pelo Valor Econômico em 15 de agosto de 2026
 - [Reforma Tributária: como exibir preços no e-commerce](https://safie.blog.br/artigos/2026-08-17-reforma-tributaria-como-exibir-precos-no-e-commerce): Com a transição para o IBS e a CBS prevista na reforma tributária (EC 132/2023), lojas virtuais enfrentam incerteza sobre como exibir preços ao consumidor: com ou sem o imposto destacado
