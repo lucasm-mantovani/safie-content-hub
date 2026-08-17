@@ -49,6 +49,7 @@
 
 ## Artigos
 
+- [Regulação de Criptoativos no Brasil em 2026](https://safie.blog.br/artigos/2026-08-17-regulacao-de-criptoativos-no-brasil-em-2026): A regulação de criptoativos no Brasil avança sob o marco da Lei 14.478/2022 e das normas do Banco Central, impondo obrigações concretas a exchanges, custodiantes e demais prestadores de serviços de at
 - [IBS e CBS: impactos nas relações de trabalho](https://safie.blog.br/artigos/2026-08-14-ibs-e-cbs-impactos-nas-relacoes-de-trabalho): As regras de creditamento do IBS e da CBS, instituídos pela Emenda Constitucional 132/2023, passam a influenciar diretamente a forma como empresas concedem benefícios a empregados e estruturam seus mo
 - [Direitos Autorais e IA Generativa no Brasil](https://safie.blog.br/artigos/2026-08-14-direitos-autorais-e-ia-generativa-no-brasil): No Brasil, a Lei 9.610/1998 não reconhece a IA como autora, o que significa que conteúdos gerados exclusivamente por sistemas generativos carecem de proteção autoral automática
 - [Crédito digital e BNPL: riscos e regras no Brasil](https://safie.blog.br/artigos/2026-08-14-credito-digital-e-bnpl-riscos-e-regras-no-brasil): O crédito digital e o modelo BNPL (compre agora, pague depois) operam no Brasil sob regras do Banco Central e do Código de Defesa do Consumidor, e empresas que oferecem essas modalidades precisam obse
