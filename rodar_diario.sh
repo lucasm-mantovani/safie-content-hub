@@ -87,12 +87,21 @@ for NICHO in ${(z)NICHOS_HOJE}; do
 
   # Etapa 4: publicar
   echo "[$(date '+%H:%M:%S')] [$NICHO] Publicando..." >> "$LOG"
-  python3 scripts/publicar.py >> "$LOG" 2>&1 || {
+  set +e
+  python3 scripts/publicar.py >> "$LOG" 2>&1
+  EXIT_PUB=$?
+  set -e
+  if [ "$EXIT_PUB" -eq 75 ]; then
+    # Guarda antiduplicata: bloqueio legítimo (sem novidade = sem post, #013).
+    # Não é falha técnica — não dispara o alerta da #006.
+    echo "[$(date '+%H:%M:%S')] [$NICHO] Duplicata bloqueada pela guarda (exit 75). Sem post." >> "$LOG"
+    continue
+  elif [ "$EXIT_PUB" -ne 0 ]; then
     echo "[$NICHO] falha publicar" >> "$LOG"
     # Decisão #006: falha de publicação nunca fica silenciosa — alerta por e-mail.
     python3 scripts/alertar_falha_publicacao.py "$NICHO" --etapa publicar >> "$LOG" 2>&1 || true
     continue
-  }
+  fi
 
   echo "[$(date '+%H:%M:%S')] [$NICHO] OK." >> "$LOG"
 done

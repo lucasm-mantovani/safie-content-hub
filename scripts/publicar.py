@@ -14,6 +14,7 @@ Uso:
   python3 scripts/publicar.py --sem-git
 """
 
+import difflib
 import json
 import re
 import subprocess
@@ -155,6 +156,49 @@ def quebrar_titulo(titulo: str) -> tuple:
 def _partial(path: Path, ano: str = "") -> str:
     txt = path.read_text(encoding="utf-8") if path.exists() else ""
     return txt.replace("{{ANO}}", ano)
+
+
+# ── Guarda antiduplicata (A1) ──────────────────────────────────────────────────
+# Compara o artigo gerado com TODO o histórico publicado (artigos/indice.json),
+# sem janela de tempo. Complementa a dedup de notícia-fonte do buscar_noticia.py,
+# que nunca olha o artigo gerado (causa raiz dos 47 clusters de slug duplicado).
+
+_RE_DATA_SLUG = re.compile(r"^\d{4}-\d{2}-\d{2}-")
+LIMIAR_SIMILARIDADE = 0.85
+
+
+def _slug_base(slug: str) -> str:
+    """Slug sem o prefixo de data (a data nunca distingue conteúdo)."""
+    return _RE_DATA_SLUG.sub("", slug or "")
+
+
+def _normalizar_titulo(titulo: str) -> str:
+    t = (titulo or "").lower()
+    for orig, rep in [("ã","a"),("â","a"),("á","a"),("à","a"),("ê","e"),("é","e"),
+                      ("è","e"),("í","i"),("ì","i"),("ô","o"),("ó","o"),("õ","o"),
+                      ("ò","o"),("ú","u"),("ù","u"),("ç","c"),("ñ","n")]:
+        t = t.replace(orig, rep)
+    t = re.sub(r"[^a-z0-9\s]", " ", t)
+    return re.sub(r"\s+", " ", t).strip()
+
+
+def encontrar_duplicata(artigo: dict, indice: list,
+                        limiar: float = LIMIAR_SIMILARIDADE) -> dict:
+    """Retorna a entrada do índice que colide com o artigo, ou None.
+    Colisão = slug idêntico ignorando a data, OU similaridade de título
+    normalizado >= limiar. O próprio slug exato (re-run do mesmo dia) não conta."""
+    base = _slug_base(artigo.get("slug", ""))
+    titulo_norm = _normalizar_titulo(artigo.get("titulo", ""))
+    for item in indice:
+        if item.get("slug") == artigo.get("slug"):
+            continue
+        if base and _slug_base(item.get("slug", "")) == base:
+            return item
+        sim = difflib.SequenceMatcher(
+            None, titulo_norm, _normalizar_titulo(item.get("titulo", ""))).ratio()
+        if sim >= limiar:
+            return item
+    return None
 
 
 # ── 0. Gerar imagem de capa (paleta SAFIE — sem cor de nicho) ──────────────────
@@ -479,6 +523,17 @@ def main(sem_git: bool = False):
 
     categoria = next((c for c in categorias if c.get("slug") == artigo.get("tema_slug")), {})
     log.info(f"Publicando: '{artigo['titulo']}' (categoria {artigo.get('tema_slug')}, nicho {artigo.get('nicho')})")
+
+    # Guarda antiduplicata (A1) — ANTES de qualquer efeito colateral.
+    # Exit 75 (EX_TEMPFAIL, mesmo contrato da #013): sem novidade = sem post.
+    dup = encontrar_duplicata(artigo, ler_json(INDICE_JSON, []))
+    if dup:
+        log.warning(
+            f"[antidup] BLOQUEADO: '{artigo['titulo']}' ({artigo['slug']}) colide com "
+            f"'{dup.get('titulo')}' ({dup.get('slug')}, {dup.get('data', '')[:10]}). "
+            f"Nada publicado (exit 75)."
+        )
+        sys.exit(75)
 
     # 0. Capa em paleta SAFIE
     imagem_url, imagem_rel = gerar_imagem_capa(artigo, config_site)

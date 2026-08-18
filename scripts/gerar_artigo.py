@@ -35,6 +35,7 @@ CONFIG_SITE      = BASE / "config" / "site.json"
 CONFIG_CATEGORIAS = BASE / "config" / "categorias.json"
 NOTICIA_PATH     = BASE / "dados" / "noticia_selecionada.json"
 ARTIGO_PATH      = BASE / "dados" / "artigo_gerado.json"
+INDICE_PATH      = BASE / "artigos" / "indice.json"
 LOG_DIR          = BASE / "logs"
 
 # ── Logging ───────────────────────────────────────────────────────────────────
@@ -101,6 +102,24 @@ def carregar_categoria(cat_slug: str) -> dict:
     """Retorna a entrada de config/categorias.json pelo slug (ou {} se não achar)."""
     cats = ler_json(CONFIG_CATEGORIAS, [])
     return next((c for c in cats if c.get("slug") == cat_slug), {})
+
+
+def titulos_publicados_do_tema(tema_slug: str, max_itens: int = 40) -> list:
+    """Memória editorial (padrão da decisão #008/Trincheira): títulos já publicados
+    na categoria, lidos do histórico COMPLETO (artigos/indice.json), únicos,
+    mais recentes primeiro. Injetados no prompt para vetar ângulo repetido."""
+    indice = ler_json(INDICE_PATH, [])
+    vistos, titulos = set(), []
+    for a in indice:  # indice.json já é ordenado do mais recente ao mais antigo
+        if a.get("tema_slug") != tema_slug:
+            continue
+        t = (a.get("titulo") or "").strip()
+        if t and t.lower() not in vistos:
+            vistos.add(t.lower())
+            titulos.append(t)
+        if len(titulos) >= max_itens:
+            break
+    return titulos
 
 
 # ── System prompt (factoring do ecommerce, parametrizado por categoria) ────────
@@ -186,7 +205,8 @@ REGRAS_GEO = """REGRAS GEO (otimização para buscadores e IAs generativas) — 
 
 # ── Prompt de geração ─────────────────────────────────────────────────────────
 
-def montar_prompt(noticia: dict, config_site: dict, categoria: dict) -> str:
+def montar_prompt(noticia: dict, config_site: dict, categoria: dict,
+                  titulos_previos: list = None) -> str:
     tema_nome    = noticia.get("tema_nome", "") or categoria.get("nome", "")
     titulo_fonte = noticia.get("titulo", "")
     url_fonte    = noticia.get("url", "")
@@ -210,11 +230,25 @@ Trecho/resumo: {resumo_fonte[:500] if resumo_fonte else '(sem resumo disponível
 Apresente a notícia como ponto de partida e aprofunde a análise dos impactos práticos para empresas."""
         referencia = f"\n- Fonte original: [{fonte_nome}]({url_fonte})" if url_fonte else ""
 
+    # Memória editorial (decisão #008 adaptada): veta títulos/ângulos já publicados no tema.
+    bloco_anti_repeticao = ""
+    if titulos_previos:
+        lista = "\n".join(f"- {t}" for t in titulos_previos)
+        bloco_anti_repeticao = f"""
+
+TÍTULOS JÁ PUBLICADOS NESTE TEMA — PROIBIDO REPETIR:
+{lista}
+
+REGRAS ANTIDUPLICAÇÃO (obrigatórias):
+- O título e o ângulo do artigo devem ser GENUINAMENTE INÉDITOS em relação à lista acima. Um artigo com título igual ou quase igual a qualquer item da lista será rejeitado automaticamente e descartado.
+- PROIBIDO escrever o artigo genérico/introdutório do tema (ex.: "entenda", "guia completo", "o que muda") se a lista já contém um artigo assim. Esse ângulo já está coberto.
+- Ancore o artigo no fato específico da pauta: o recorte (setor, dispositivo normativo, prazo, decisão, público afetado) deve aparecer no título.
+- Se a pauta não sustentar ângulo inédito, escolha o recorte específico dela MENOS coberto pela lista e aprofunde esse recorte."""
     return f"""Escreva um artigo completo para o blog {site_nome} sobre o tema "{tema_nome}".
 
 Data de publicação: {data_hoje}
 
-{contexto}
+{contexto}{bloco_anti_repeticao}
 
 O artigo deve ter EXATAMENTE esta estrutura em JSON (não inclua markdown externo, apenas o JSON):
 
@@ -650,8 +684,12 @@ def main(noticia_path: Path = NOTICIA_PATH, dry_run: bool = False,
     log.info(f"Notícia: {noticia.get('titulo', '(sem título)')}")
     log.info(f"Categoria: {categoria.get('nome')} (nicho {categoria.get('nicho')})")
 
+    titulos_previos = titulos_publicados_do_tema(categoria.get("slug", ""))
+    if titulos_previos:
+        log.info(f"[antidup] Memória editorial: {len(titulos_previos)} títulos do tema injetados no prompt")
+
     system_prompt = construir_system_prompt(config_site, categoria)
-    prompt        = montar_prompt(noticia, config_site, categoria)
+    prompt        = montar_prompt(noticia, config_site, categoria, titulos_previos)
     dados_claude  = gerar_artigo_com_retry(prompt, system_prompt)
 
     artigo = montar_artigo_completo(dados_claude, noticia, config_site, categoria)
