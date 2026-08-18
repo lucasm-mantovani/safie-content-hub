@@ -135,8 +135,12 @@ def transformar_html(slug, nicho, indice_completo, header_html, footer_html, cat
     titulo    = entrada.get("titulo", "")
 
     # (1) domínio: TODOS os 5 subdomínios → safie.blog.br
+    # Match com fronteira à esquerda: o host antigo só casa quando NÃO é sufixo de
+    # outro label DNS. Sem isso, "ia.safie.blog.br" casa dentro de
+    # "reformatributaria.safie.blog.br" e corrompe o host (bug dos 87 canonicals).
     for sub in SUBDOMINIO.values():
-        html = html.replace(f"{sub}.safie.blog.br", "safie.blog.br")
+        html = re.sub(rf"(?<![A-Za-z0-9-]){re.escape(sub)}\.safie\.blog\.br",
+                      "safie.blog.br", html)
     # (2) path /temas/ → /categorias/
     html = html.replace("/temas/", "/categorias/")
     # (3) nome do blog → SAFIE Blog (title, og:site_name, twitter)
@@ -186,6 +190,8 @@ def transformar_html(slug, nicho, indice_completo, header_html, footer_html, cat
     for sub in SUBDOMINIO.values():
         if f"{sub}.safie.blog.br" in html:
             erros.append(f"{slug}: domínio antigo remanescente ({sub}.safie.blog.br)")
+    if "reformatributarsafie.blog.br" in html:
+        erros.append(f"{slug}: host corrompido (replace parcial de subdomínio)")
     if "/temas/" in html:
         erros.append(f"{slug}: /temas/ remanescente")
     if 'data-form="rodape"' not in html:
