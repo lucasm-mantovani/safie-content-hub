@@ -49,6 +49,7 @@
 
 ## Artigos
 
+- [IBS e CBS no saneamento básico: risco tarifário](https://safie.blog.br/artigos/2026-08-18-ibs-e-cbs-no-saneamento-basico-risco-tarifario): Empresas concessionárias de saneamento básico enfrentam duplo risco: leis municipais que reduzem tarifas sem compensação e a transição para IBS e CBS, que altera a base de cálculo dos tributos inciden
 - [Simples Nacional e regimes especiais na reforma](https://safie.blog.br/artigos/2026-08-17-simples-nacional-e-regimes-especiais-na-reforma): O Simples Nacional permanece vigente como regime diferenciado, mas a Reforma Tributária introduz mudanças estruturais que exigem atenção das micro e pequenas empresas optantes
 - [Tributação de Empresas de IA no Brasil](https://safie.blog.br/artigos/2026-08-17-tributacao-de-empresas-de-ia-no-brasil): Não existe, até agosto de 2026, um regime tributário específico para empresas de inteligência artificial no Brasil: a tributação segue frameworks criados para software, serviços e propriedade intelect
 - [Tokenização: regulação abre mercado institucional](https://safie.blog.br/artigos/2026-08-17-tokenizacao-regulacao-abre-mercado-institucional): A regulação brasileira de ativos digitais já oferece segurança jurídica suficiente para atrair capital institucional, segundo executivos e o Banco Central, mas o amadurecimento das regras e a transpar
