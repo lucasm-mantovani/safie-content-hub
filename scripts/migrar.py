@@ -264,6 +264,7 @@ def gerar_categorias_index(categorias, site, indice=None):
 {corpo}
 </section></main>
 {_partial(PART_FOOTER, ANO)}
+<script src="/assets/js/widget-whatsapp.js" defer></script>
 </body></html>
 """
     (CATEGORIAS_DIR / "index.html").write_text(html, encoding="utf-8")
