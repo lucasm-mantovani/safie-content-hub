@@ -49,6 +49,7 @@
 
 ## Artigos
 
+- [Sua empresa treina a IA de outra: o risco jurídico](https://safie.blog.br/artigos/2026-08-19-sua-empresa-treina-a-ia-de-outra-o-risco-juridico): Ao contratar ferramentas de IA generativa sem cláusulas contratuais adequadas, sua empresa pode estar cedendo, sem saber, conhecimento proprietário para treinar modelos de terceiros
 - [Swap no crédito: o que muda para fintechs B2B](https://safie.blog.br/artigos/2026-08-19-swap-no-credito-o-que-muda-para-fintechs-b2b): A entrada da Swap no mercado de crédito exige enquadramento regulatório específico perante o Banco Central, independentemente de o modelo ser BNPL, crédito parcelado ou limite rotativo
 - [Recuperação judicial e cadeia de fornecedores](https://safie.blog.br/artigos/2026-08-19-recuperacao-judicial-e-cadeia-de-fornecedores): Quando uma grande varejista entra em recuperação judicial, seus fornecedores e parceiros logísticos passam a ser credores quirografários, com baixa prioridade no recebimento
 - [Smart Money Vendido em HYPE e PLD Cripto](https://safie.blog.br/artigos/2026-08-19-smart-money-vendido-em-hype-e-pld-cripto): Sinais de smart money vendido em HYPE enquanto o preço sobe são exatamente o tipo de dado que sistemas de PLD para criptoativos devem capturar e reportar ao COAF
