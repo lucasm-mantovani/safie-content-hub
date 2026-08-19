@@ -265,6 +265,7 @@ def gerar_categorias_index(categorias, site, indice=None):
 </section></main>
 {_partial(PART_FOOTER, ANO)}
 <script src="/assets/js/widget-whatsapp.js" defer></script>
+<script src="/assets/js/consent.js" defer></script>
 </body></html>
 """
     (CATEGORIAS_DIR / "index.html").write_text(html, encoding="utf-8")
@@ -277,7 +278,7 @@ def gerar_pagina_de_template(template_path, destino):
 
 
 def gerar_sitemap(indice, categorias, site):
-    urls = [f"{BASE_URL}/", f"{BASE_URL}/artigos/", f"{BASE_URL}/categorias/", f"{BASE_URL}/busca"]
+    urls = [f"{BASE_URL}/", f"{BASE_URL}/artigos/", f"{BASE_URL}/categorias/", f"{BASE_URL}/busca", f"{BASE_URL}/politica-de-cookies/"]
     urls += [f"{BASE_URL}/categorias/{n}" for n in site.get("nichos", {})]
     urls += [f"{BASE_URL}/categorias/{c['slug']}" for c in categorias]
     urls += [f"{BASE_URL}/artigos/{a['slug']}" for a in indice]
