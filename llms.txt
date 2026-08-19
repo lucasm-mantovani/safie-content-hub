@@ -49,6 +49,7 @@
 
 ## Artigos
 
+- [Recuperação judicial e cadeia de fornecedores](https://safie.blog.br/artigos/2026-08-19-recuperacao-judicial-e-cadeia-de-fornecedores): Quando uma grande varejista entra em recuperação judicial, seus fornecedores e parceiros logísticos passam a ser credores quirografários, com baixa prioridade no recebimento
 - [Smart Money Vendido em HYPE e PLD Cripto](https://safie.blog.br/artigos/2026-08-19-smart-money-vendido-em-hype-e-pld-cripto): Sinais de smart money vendido em HYPE enquanto o preço sobe são exatamente o tipo de dado que sistemas de PLD para criptoativos devem capturar e reportar ao COAF
 - [IPTU por metragem: STF barra cobrança e impacto imobiliário](https://safie.blog.br/artigos/2026-08-19-iptu-por-metragem-stf-barra-cobranca-e-impacto-imobiliario): O STF vedou a cobrança de IPTU calculada com base exclusivamente na metragem do imóvel, por entender que a métrica viola o princípio constitucional da capacidade contributiva
 - [AI Act e scraping de dados: o que muda para IA](https://safie.blog.br/artigos/2026-08-19-ai-act-e-scraping-de-dados-o-que-muda-para-ia): Ferramentas que enganam robôs de coleta de dados para treinamento de IA expõem uma lacuna concreta entre a regulação europeia (AI Act) e o marco brasileiro de proteção de dados
