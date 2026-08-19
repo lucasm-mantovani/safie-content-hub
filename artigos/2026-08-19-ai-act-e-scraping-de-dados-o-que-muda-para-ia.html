@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>AI Act e scraping de dados: o que muda para IA — SAFIE Blog</title>
+  <meta name="description" content="Softwares que confundem robôs de scraping revelam lacuna regulatória no AI Act e na LGPD. Entenda os riscos para empresas que treinam modelos de IA.">
+  <link rel="canonical" href="https://safie.blog.br/artigos/2026-08-19-ai-act-e-scraping-de-dados-o-que-muda-para-ia">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="author" content="Lucas Mantovani">
+  <meta name="keywords" content="scraping, dados, regulação, internacional, Lei 13.709/2018, PL 2.338/2023, art. 53, art. 7, art. 101">
+
+  <!-- Open Graph -->
+  <meta property="og:type"        content="article">
+  <meta property="og:title"       content="AI Act e scraping de dados: o que muda para IA — SAFIE Blog">
+  <meta property="og:description" content="Softwares que confundem robôs de scraping revelam lacuna regulatória no AI Act e na LGPD. Entenda os riscos para empresas que treinam modelos de IA.">
+  <meta property="og:url"         content="https://safie.blog.br/artigos/2026-08-19-ai-act-e-scraping-de-dados-o-que-muda-para-ia">
+  <meta property="og:site_name"   content="SAFIE Blog">
+  <meta property="og:locale"      content="pt_BR">
+  <meta property="og:image"       content="https://safie.blog.br/assets/img/artigos/2026-08-19-ai-act-e-scraping-de-dados-o-que-muda-para-ia.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="article:published_time" content="2026-08-19T09:19:32Z">
+  <meta property="article:section"       content="AI Act e regulação internacional">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:title"       content="AI Act e scraping de dados: o que muda para IA — SAFIE Blog">
+  <meta name="twitter:description" content="Softwares que confundem robôs de scraping revelam lacuna regulatória no AI Act e na LGPD. Entenda os riscos para empresas que treinam modelos de IA.">
+  <meta name="twitter:image"       content="https://safie.blog.br/assets/img/artigos/2026-08-19-ai-act-e-scraping-de-dados-o-que-muda-para-ia.jpg">
+
+  <!-- Schema.org JSON-LD (BlogPosting + Person + BreadcrumbList + FAQPage) — gerado pelo pipeline -->
+  <script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "AI Act e scraping de dados: o que muda para IA",
+    "description": "Softwares que confundem robôs de scraping revelam lacuna regulatória no AI Act e na LGPD. Entenda os riscos para empresas que treinam modelos de IA.",
+    "datePublished": "2026-08-19T09:19:32Z",
+    "dateModified": "2026-08-19T09:19:32Z",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://safie.blog.br/artigos/2026-08-19-ai-act-e-scraping-de-dados-o-que-muda-para-ia"
+    },
+    "image": {
+      "@type": "ImageObject",
+      "url": "https://safie.blog.br/assets/img/artigos/2026-08-19-ai-act-e-scraping-de-dados-o-que-muda-para-ia.jpg",
+      "width": 1200,
+      "height": 630
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Lucas Mantovani",
+      "sameAs": [
+        "https://www.linkedin.com/in/lucasm-mantovani/",
+        "https://www.instagram.com/lucasm.mantovani/"
+      ]
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "SAFIE",
+      "url": "https://safie.com.br",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://consultoria.safie.com.br/wp-content/uploads/2025/11/cropped-2-1-1024x292.webp"
+      },
+      "sameAs": [
+        "https://www.instagram.com/safiegroup/",
+        "https://www.instagram.com/safiecontabilidade/"
+      ]
+    },
+    "url": "https://safie.blog.br/artigos/2026-08-19-ai-act-e-scraping-de-dados-o-que-muda-para-ia",
+    "articleSection": "AI Act e regulação internacional",
+    "inLanguage": "pt-BR"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Scraping de dados públicos para treinar IA é ilegal no Brasil?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não necessariamente, mas depende do tipo de dado coletado. Se o scraping capturar dados pessoais identificáveis, a LGPD exige base legal (art. 7º). Dados anonimizados ou não pessoais não estão sujeitos à LGPD, mas podem infringir direitos autorais ou termos de uso das plataformas de origem."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Uma startup brasileira que não exporta para a Europa precisa se preocupar com o AI Act?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Se o modelo ou a solução baseada nele for acessível a usuários na União Europeia, mesmo via API ou SaaS, o AI Act pode incidir. O critério é o local de efeito, não o local de sede. Startups com planos de expansão devem mapear essa exposição com antecedência."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O que é o RIPD e quando ele é obrigatório em projetos de IA?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "O Relatório de Impacto à Proteção de Dados (RIPD) é exigido pela LGPD (art. 38) e regulamentado pela Resolução CD/ANPD nº 15/2024 quando o tratamento de dados envolve processos automatizados de decisão com potencial risco aos titulares. Projetos de IA que usam dados pessoais para treinamento ou inferência geralmente se enquadram nessa obrigação."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O PL 2.338/2023 vai mudar as regras sobre dados de treinamento no Brasil?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "O PL 2.338/2023 está em tramitação no Senado e, em versões recentes, prevê requisitos de transparência sobre dados utilizados em sistemas de IA de alto risco, incluindo documentação de fontes. A norma ainda não foi votada em definitivo, portanto é uma tese ainda não pacificada. As obrigações da LGPD e do AI Act (para empresas com atuação na UE) já são vigentes."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Como contratos com fornecedores de dados devem ser adaptados para uso em IA?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Os contratos precisam prever explicitamente a finalidade de uso dos dados, incluindo treinamento de modelos de IA, e definir se o dado pode ser usado para fine-tuning ou apenas para inferência. Cláusulas genéricas de uso comercial raramente cobrem treinamento de IA, o que pode gerar litígios contratuais e violações de licença."
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Início",
+        "item": "https://safie.blog.br"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "AI Act e regulação internacional",
+        "item": "https://safie.blog.br/categorias/ai-act"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "AI Act e scraping de dados: o que muda para IA",
+        "item": "https://safie.blog.br/artigos/2026-08-19-ai-act-e-scraping-de-dados-o-que-muda-para-ia"
+      }
+    ]
+  }
+]
+  </script>
+
+  <!-- Chrome (header/footer/tokens do Hub) + corpo de artigo (artigo.css, consolidado em A2.1).
+       Ordem importa: style.css primeiro, artigo.css por cima. -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/artigo.css">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/android-chrome-192x192.png">
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+</head>
+<body data-nicho="ia">
+
+<!-- partial: header — cabeçalho comum do SAFIE Blog (injetado via {{HEADER}}) -->
+<header class="site-header" role="banner">
+  <div class="header-inner">
+    <a href="/" class="logo" aria-label="SAFIE Blog — Página inicial">
+      <img class="logo-img" src="/assets/logos/safie-logo-branco.svg" alt="SAFIE">
+      <span class="blog-id">Blog</span>
+    </a>
+    <nav id="nav-principal" class="nav-principal" aria-label="Navegação principal">
+      <a href="/">Início</a>
+      <a href="/artigos/">Artigos</a>
+      <a href="/categorias/">Categorias</a>
+    </nav>
+    <form class="header-busca" role="search" action="/busca" method="get">
+      <label for="busca-q-header" class="sr-only">Buscar artigos</label>
+      <input type="search" id="busca-q-header" name="q" placeholder="Buscar…" autocomplete="off">
+      <button type="submit" aria-label="Buscar">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      </button>
+    </form>
+    <a href="https://safie.com.br" class="nav-voltar" target="_blank" rel="noopener">Voltar ao site SAFIE →</a>
+    <button id="menu-toggle" class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+
+<main>
+  <nav class="breadcrumb" aria-label="Trilha de navegação">
+    <div class="container">
+      <a href="/">Início</a> <span aria-hidden="true">›</span>
+      <a href="/categorias/ai-act">AI Act e regulação internacional</a> <span aria-hidden="true">›</span>
+      <span aria-current="page">AI Act e scraping de dados: o que muda para IA</span>
+    </div>
+  </nav>
+
+  <article class="artigo-wrapper" itemscope itemtype="https://schema.org/BlogPosting">
+
+    <header class="artigo-header">
+      <a class="artigo-tema" href="/categorias/ai-act">AI Act e regulação internacional</a>
+
+      <h1 class="artigo-titulo" itemprop="headline">AI Act e scraping de dados: o que muda para IA</h1>
+
+      <div class="artigo-meta">
+        <span>Por <strong itemprop="author">Lucas Mantovani</strong></span>
+        <span>·</span>
+        <time datetime="2026-08-19T09:19:32Z" itemprop="datePublished">19 de agosto de 2026</time>
+        <span>·</span>
+        <span>6 min de leitura</span>
+      </div>
+    </header>
+
+    <img class="artigo-capa" src="/assets/img/artigos/2026-08-19-ai-act-e-scraping-de-dados-o-que-muda-para-ia.svg" alt="AI Act e scraping de dados: o que muda para IA — capa ilustrativa do artigo sobre AI Act e regulação internacional" width="1200" height="630" loading="lazy">
+
+    <!-- Resumo executivo (para IAs generativas / GEO — Camada 1) -->
+    <aside class="resumo-executivo" itemprop="abstract">
+      <strong>Resumo executivo</strong>
+      Ferramentas que enganam robôs de coleta de dados para treinamento de IA expõem uma lacuna concreta entre a regulação europeia (AI Act) e o marco brasileiro de proteção de dados. O software desenvolvido por Gabriel Abrucio e Isaque Seneda, destacado em agosto de 2026 pelo Valor Econômico, illustra que a corrida por dados de treinamento já gerou contramedidas técnicas antes de qualquer consenso normativo. Para empresas brasileiras que desenvolvem ou consomem modelos de IA, isso significa risco regulatório duplo: infração à LGPD no lado da coleta e exposição a sanções do AI Act no lado do produto exportado para a Europa.
+    </aside>
+
+    <!-- Corpo do artigo (inclui key_takeaways e citação do sócio — Camadas 1 e 2) -->
+    <div class="artigo-corpo" itemprop="articleBody">
+      <div class="key-takeaways">
+  <p class="key-takeaways-titulo">Principais pontos</p>
+  <ul>
+    <li>O AI Act (Regulamento UE 2024/1689) exige, no art. 53, que desenvolvedores de modelos de IA de uso geral documentem e disponibilizem sumários dos dados de treinamento utilizados.</li>
+    <li>A LGPD (Lei 13.709/2018), art. 7º, exige base legal para o tratamento de dados, incluindo coleta automatizada via scraping quando o dado for pessoal.</li>
+    <li>O software anti-scraping citado pelo Valor Econômico foi criado em julho de 2026 e já consta como destaque no repositório público dos desenvolvedores brasileiros Gabriel Abrucio e Isaque Seneda.</li>
+    <li>Multas do AI Act para infrações relativas a modelos de IA de uso geral chegam a 15 milhões de euros ou 3% do faturamento global anual, o que for maior (art. 101, AI Act).</li>
+    <li>A ANPD pode aplicar sanções de até 2% do faturamento no Brasil, limitadas a R$ 50 milhões por infração, conforme art. 52 da LGPD.</li>
+  </ul>
+</div>
+
+<p>Um software criado em julho de 2026 por dois desenvolvedores brasileiros, <strong>Gabriel Abrucio e Isaque Seneda</strong>, ganhou destaque em repositórios públicos por fazer exatamente o que parece improvável: enganar os robôs que varrem a internet para coletar textos e alimentar modelos de inteligência artificial. <a href='https://valor.globo.com/empresas/noticia/2026/08/19/programa-confunde-robo-que-copia-text-para-treinar-ia.ghtml'>Segundo o Valor Econômico</a>, a ferramenta já atrai atenção da comunidade técnica, sinalizando que o mercado criou sua própria resposta à ausência de regras claras sobre scraping para IA.</p><p>O episódio não é trivial. Ele revela uma tensão real entre o interesse das big techs em escalar bases de dados de treinamento e os direitos de quem produziu esse conteúdo, sejam editoras, jornalistas, plataformas ou pessoas físicas. Essa tensão é precisamente o campo de batalha em que o <strong>AI Act europeu</strong> e a <strong>LGPD brasileira</strong> deveriam atuar, mas ainda deixam lacunas operacionais significativas.</p><p>Para empresas brasileiras que desenvolvem modelos de IA, importam produtos baseados em IA ou exportam soluções para o mercado europeu, entender onde a regulação já incide e onde ela ainda é omissa é condição para evitar passivos regulatórios que se acumulam silenciosamente.</p>
+
+<h2>AI Act, LGPD e scraping: o que diz a norma vigente</h2>
+<p>O marco regulatório que circunda a coleta de dados para treinamento de IA envolve ao menos dois regimes normativos com incidência sobre empresas brasileiras: o <strong>AI Act</strong> (Regulamento UE 2024/1689, vigente desde agosto de 2024, com obrigações escalonadas até 2027) e a <strong>Lei Geral de Proteção de Dados</strong> (Lei 13.709/2018). Nenhum dos dois proíbe o scraping de forma absoluta, mas ambos condicionam sua legalidade a requisitos que poucas operações de coleta em larga escala conseguem cumprir hoje.</p><h3>AI Act, art. 53: obrigações de transparência sobre dados de treinamento</h3><p>O AI Act impõe aos desenvolvedores de modelos de IA de uso geral (GPAI, na sigla em inglês) a obrigação de documentar as fontes de dados utilizadas no treinamento. O art. 53, alínea d, exige a disponibilização de um sumário público sobre o conteúdo de treinamento, enquanto o Considerando 107 reconhece que o scraping de dados publicamente disponíveis pode colidir com regras de direitos autorais nacionais. Isso significa que uma empresa brasileira que treina um modelo e o oferece no mercado europeu, direta ou via API, já está sujeita a esse regime, independentemente de ter sede na UE.</p><h3>LGPD, art. 7º: base legal para coleta automatizada de dados pessoais</h3><p>No Brasil, o scraping que captura dados pessoais (nome, e-mail, postagens identificáveis) sem base legal explícita viola o art. 7º da LGPD. As hipóteses que poderiam justificar a coleta, como legítimo interesse (inciso IX) ou cumprimento de obrigação legal, exigem que o controlador demonstre necessidade, adequação e proporcionalidade. A <strong>ANPD</strong> ainda não editou regulamento específico sobre scraping e IA, mas sua Resolução CD/ANPD nº 15/2024, sobre avaliação de impacto, já obriga empresas que usam dados em processos automatizados de decisão a realizar o RIPD.</p><h3>Comparativo: obrigações AI Act x LGPD para coleta de dados de treinamento</h3><div class="tabela-wrap"><table><thead><tr><th>Aspecto</th><th>AI Act (UE 2024/1689)</th><th>LGPD (Lei 13.709/2018)</th></tr></thead><tbody><tr><td>Quem é obrigado</td><td>Desenvolvedores de GPAI com mais de 10 bilhões de parâmetros ou impacto sistêmico</td><td>Qualquer controlador que trate dados pessoais, independentemente de porte</td></tr><tr><td>Obrigação central</td><td>Documentar e publicar sumário das fontes de treinamento (art. 53)</td><td>Ter base legal para cada operação de tratamento (art. 7º)</td></tr><tr><td>Sanção máxima</td><td>15 milhões de euros ou 3% do faturamento global (art. 101)</td><td>R$ 50 milhões por infração ou 2% do faturamento nacional (art. 52)</td></tr><tr><td>Órgão fiscalizador</td><td>AI Office (Comissão Europeia) e autoridades nacionais de IA</td><td>ANPD</td></tr></tbody></table></div>
+
+<h2>O que empresas brasileiras precisam adaptar agora</h2>
+<p>A existência de softwares anti-scraping como o desenvolvido por Abrucio e Seneda indica que o mercado já reagiu à insegurança jurídica antes que os reguladores o fizessem. Para empresas que dependem de dados coletados da web para treinar ou afinar modelos, isso cria dois riscos simultâneos: o técnico, de bases de treinamento contaminadas ou incompletas, e o jurídico, de responder por coleta ilegal tanto no Brasil quanto na Europa.</p><p>Do ponto de vista prático, as obrigações que já incidem, ou incidirão em breve, incluem:</p><ul><li>Mapear todas as fontes de dados utilizadas no treinamento de modelos, com registro de origem, data de coleta e base legal aplicada, exigência já ativa pelo AI Act para modelos exportados à UE;</li><li>Realizar o Relatório de Impacto à Proteção de Dados (RIPD) quando o treinamento envolver dados pessoais coletados de forma automatizada, conforme a Resolução CD/ANPD nº 15/2024;</li><li>Revisar contratos com fornecedores de dados e APIs de terceiros para garantir que as licenças de uso autorizem explicitamente o treinamento de IA, ponto ainda não padronizado no Brasil;</li><li>Monitorar o avanço do PL 2.338/2023, o projeto de lei brasileiro de regulação de IA, que em sua versão mais recente discute requisitos de transparência sobre dados de treinamento alinhados ao AI Act.</li></ul><p>Empresas que apenas consomem modelos de IA de terceiros não estão isentas. O AI Act responsabiliza também os implantadores (deployers) quando adaptam ou ajustam modelos para usos específicos, o que inclui fine-tuning com dados proprietários ou de clientes.</p>
+<blockquote class="citacao-socio">
+  <p>Empresas que treinam IA com dados coletados da web precisam entender que a ausência de regra específica no Brasil não afasta a LGPD nem o AI Act europeu, se o produto circular na UE.</p>
+  <cite>Lucas Mantovani, sócio da SAFIE (OAB-SP 506.733)</cite>
+</blockquote>
+
+
+<h2>Regulação ainda corre atrás da inovação técnica</h2>
+<p>O software anti-scraping brasileiro é um sintoma útil: mostra que criadores de conteúdo já desenvolvem defesas próprias diante da ausência de proteção normativa efetiva. Isso não resolve o problema regulatório, mas aumenta a pressão sobre legisladores e órgãos como a ANPD para entregar respostas concretas sobre os limites do uso de dados para treinamento de IA.</p><p>Para empresas, a lição é que aguardar o consenso normativo é uma estratégia de risco. O AI Act já está em vigor, a LGPD já se aplica, e as lacunas existentes não afastam a responsabilidade dos controladores. Estruturar a governança de dados de treinamento agora, com documentação de fontes, contratos revisados e RIPD atualizado, reduz a exposição a sanções que podem ser aplicadas retroativamente quando a fiscalização se intensificar.</p>
+    </div>
+
+    <!-- FAQ -->
+    <section class="faq-section" id="faq" itemscope itemtype="https://schema.org/FAQPage">
+      <h2>Perguntas frequentes</h2>
+      <div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Scraping de dados públicos para treinar IA é ilegal no Brasil?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">Não necessariamente, mas depende do tipo de dado coletado. Se o scraping capturar dados pessoais identificáveis, a LGPD exige base legal (art. 7º). Dados anonimizados ou não pessoais não estão sujeitos à LGPD, mas podem infringir direitos autorais ou termos de uso das plataformas de origem.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Uma startup brasileira que não exporta para a Europa precisa se preocupar com o AI Act?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">Se o modelo ou a solução baseada nele for acessível a usuários na União Europeia, mesmo via API ou SaaS, o AI Act pode incidir. O critério é o local de efeito, não o local de sede. Startups com planos de expansão devem mapear essa exposição com antecedência.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">O que é o RIPD e quando ele é obrigatório em projetos de IA?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">O Relatório de Impacto à Proteção de Dados (RIPD) é exigido pela LGPD (art. 38) e regulamentado pela Resolução CD/ANPD nº 15/2024 quando o tratamento de dados envolve processos automatizados de decisão com potencial risco aos titulares. Projetos de IA que usam dados pessoais para treinamento ou inferência geralmente se enquadram nessa obrigação.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">O PL 2.338/2023 vai mudar as regras sobre dados de treinamento no Brasil?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">O PL 2.338/2023 está em tramitação no Senado e, em versões recentes, prevê requisitos de transparência sobre dados utilizados em sistemas de IA de alto risco, incluindo documentação de fontes. A norma ainda não foi votada em definitivo, portanto é uma tese ainda não pacificada. As obrigações da LGPD e do AI Act (para empresas com atuação na UE) já são vigentes.</span></div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <p class="faq-pergunta" itemprop="name">Como contratos com fornecedores de dados devem ser adaptados para uso em IA?</p>
+  <div class="faq-resposta" itemscope itemtype="https://schema.org/Answer"><span itemprop="text">Os contratos precisam prever explicitamente a finalidade de uso dos dados, incluindo treinamento de modelos de IA, e definir se o dado pode ser usado para fine-tuning ou apenas para inferência. Cláusulas genéricas de uso comercial raramente cobrem treinamento de IA, o que pode gerar litígios contratuais e violações de licença.</span></div>
+</div>
+
+    </section>
+
+    <!-- Referências -->
+    <aside class="referencias">
+      <h2>Fontes e referências</h2>
+      <ul>
+<li><a href="https://valor.globo.com/empresas/noticia/2026/08/19/programa-confunde-robo-que-copia-texto-para-treinar-ia.ghtml" target="_blank" rel="noopener">Valor Econômico Empresas</a></li>
+<li><span class="ref-label">Fonte original:</span> <a href="https://valor.globo.com/empresas/noticia/2026/08/19/programa-confunde-robo-que-copia-text-para-treinar-ia.ghtml" target="_blank" rel="noopener">Valor Econômico Empresas</a></li>
+<li>Regulamento UE 2024/1689 (AI Act), arts. 53 e 101, Considerando 107</li>
+<li>Lei 13.709/2018 (LGPD), arts. 7º, 38 e 52</li>
+<li>Resolução CD/ANPD nº 15/2024 (Avaliação de Impacto à Proteção de Dados)</li>
+<li>PL 2.338/2023 (Projeto de Lei de regulação de IA no Brasil, em tramitação no Senado)</li>
+</ul>
+
+    </aside>
+
+  </article>
+
+  <!-- CTA consultivo -->
+  <div class="container">
+    <div class="artigo-cta">
+      <h3>Decisão jurídica ou contábil pendente?</h3>
+      <p>A SAFIE atende founders e gestores com acesso direto aos sócios — jurídico e contabilidade integrados sob o mesmo teto. Conversamos para entender o caso antes de qualquer recomendação.</p>
+      <a href="https://wa.me/5511910932154?text=Ol%C3%A1!%20Vim%20pelo%20blog%20da%20SAFIE%20e%20gostaria%20de%20conversar." class="cta-btn" target="_blank" rel="noopener">Falar com a SAFIE</a>
+    </div>
+  </div>
+
+  <!-- Sobre os autores -->
+  <div class="container">
+    <div class="sobre-autores">
+      <span class="sobre-autores-titulo">Sobre os autores</span>
+      <p>Conteúdo produzido pela SAFIE, consultoria jurídico-contábil para empresas digitais e de tecnologia. A SAFIE é liderada por <a href="https://instagram.com/lucasm.mantovani" target="_blank" rel="noopener"><strong>Lucas Mantovani</strong></a> e <a href="https://instagram.com/euitalocunha" target="_blank" rel="noopener"><strong>Italo Cunha</strong></a>.</p>
+    </div>
+  </div>
+
+  <!-- Artigos relacionados (Camada 3 — "Continue lendo", agora cross-categoria) -->
+  <div class="container">
+    <section class="relacionados">
+      <h2>Continue lendo</h2>
+      <div class="relacionados-lista">
+        <ul class="relacionados-items">
+  <li><a href="/artigos/2026-07-22-ai-act-e-regulacao-de-menores-o-que-muda">AI Act e regulação de menores: o que muda</a></li>
+  <li><a href="/artigos/2026-07-13-ai-act-e-cadeia-de-ia-riscos-regulatorios-globais">AI Act e cadeia de IA: riscos regulatórios globais</a></li>
+  <li><a href="/artigos/2026-07-06-ai-act-e-o-radar-da-blackrock-na-america-latina">AI Act e o radar da BlackRock na América Latina</a></li>
+</ul>
+      </div>
+    </section>
+  </div>
+</main>
+
+<!-- partial: footer — rodapé comum COM formulário (injetado via {{FOOTER}}) -->
+<!-- Formulário de contato — placeholder. Submit inerte; integração HubSpot na fase A5/A6. -->
+<section class="footer-form-wrap" aria-label="Fale com a SAFIE">
+  <div class="footer-form-inner">
+    <div class="footer-form-texto">
+      <p class="secao-kicker">Fale com a SAFIE</p>
+      <h2>Decisão jurídica ou contábil pendente?</h2>
+      <p>Atendemos founders e gestores com acesso direto aos sócios — jurídico e contabilidade sob o mesmo teto.</p>
+    </div>
+    <!-- Form via embed oficial HubSpot v2 — carrega o hutk (submissão legítima: CRM + tarefa do workflow + redirect WhatsApp já configurado no form). -->
+    <div class="footer-form-hs-wrap">
+      <div id="hs-form-rodape" class="footer-form-hs"></div>
+      <p class="footer-form-consent">Prefere falar por e-mail? <a href="mailto:contato@safie.com.br">contato@safie.com.br</a>.</p>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer" role="contentinfo">
+  <div class="footer-inner">
+    <div class="footer-topo">
+      <div class="footer-marca">
+        <span class="logo-marca footer-logo-texto">Blog <span style="color:var(--ciano)">SAFIE</span></span>
+        <p>Consultoria jurídico-contábil para negócios digitais, startups e a nova economia.</p>
+      </div>
+      <div class="footer-nav">
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="/">Início</a></li>
+            <li><a href="/artigos/">Artigos</a></li>
+            <li><a href="/categorias/">Categorias</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Links</h4>
+          <ul>
+            <li><a href="https://safie.com.br" target="_blank" rel="noopener">safie.com.br</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+            <li><a href="mailto:contato@safie.com.br">contato@safie.com.br</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-arco-iris" aria-hidden="true"></div>
+    <div class="footer-cnpjs" aria-label="CNPJ SAFIE">
+      <span>SAFIE TECNOLOGIA E CONSULTORIA LTDA, inscrita no CNPJ sob o nº 42.224.278/0001-92, sediada à Av. Brigadeiro Faria Lima, Conj. 1102, Jardim Paulistano, CEP nº 01452922, São Paulo-SP</span>
+    </div>
+    <div class="footer-base">
+      <span>&copy; 2026 SAFIE. Todos os direitos reservados.</span>
+      <span>Conteúdo informativo; não constitui parecer jurídico ou contábil individualizado.</span>
+    </div>
+  </div>
+</footer>
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
+<script type="text/javascript">
+  if (window.hbspt) hbspt.forms.create({ portalId: "50182013", formId: "1802e1da-b81b-44ed-9bab-7db51bd9e6b5", region: "na1", target: "#hs-form-rodape" });
+</script>
+
+
+<script>
+fetch('https://safie-analytics.lucas-mantovani.workers.dev/track', {
+  method: 'POST',
+  headers: {'Content-Type': 'application/json'},
+  body: JSON.stringify({ url: window.location.pathname, blog: 'ia' })
+}).catch(() => {});
+</script>
+<script src="/assets/js/artigo.js" defer></script>
+<script src="/assets/js/widget-whatsapp.js" defer></script>
+</body>
+</html>

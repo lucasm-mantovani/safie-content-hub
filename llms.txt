@@ -49,6 +49,7 @@
 
 ## Artigos
 
+- [AI Act e scraping de dados: o que muda para IA](https://safie.blog.br/artigos/2026-08-19-ai-act-e-scraping-de-dados-o-que-muda-para-ia): Ferramentas que enganam robôs de coleta de dados para treinamento de IA expõem uma lacuna concreta entre a regulação europeia (AI Act) e o marco brasileiro de proteção de dados
 - [PLD em Fintechs e o Risco do Capital de VC](https://safie.blog.br/artigos/2026-08-19-pld-em-fintechs-e-o-risco-do-capital-de-vc): Fintechs que recebem aportes expressivos de venture capital entram automaticamente em uma faixa de escrutínio mais elevado por parte do COAF e do Banco Central, porque o crescimento acelerado de base
 - [Varejo digital e juros do Fed: o que monitorar](https://safie.blog.br/artigos/2026-08-19-varejo-digital-e-juros-do-fed-o-que-monitorar): A divulgação da ata do Federal Reserve e os balanços do varejo americano criam oscilações cambiais que impactam diretamente o custo operacional de marketplaces brasileiros com fornecedores internacion
 - [Cripto institucional: como estruturar sua empresa em 2026](https://safie.blog.br/artigos/2026-08-19-cripto-institucional-como-estruturar-sua-empresa-em-2026): Empresas cripto que operam no Brasil precisam adaptar sua estrutura societária às exigências regulatórias do Banco Central e às tendências institucionais que a OKX identificou para 2026
