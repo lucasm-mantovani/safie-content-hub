@@ -49,6 +49,7 @@
 
 ## Artigos
 
+- [STJ fixa tese: ICMS-Difal fora do PIS/Cofins](https://safie.blog.br/artigos/2026-08-21-stj-fixa-tese-icms-difal-fora-do-piscofins): O STJ decidiu, em 20/08/2026, que o ICMS-Difal não integra a base de cálculo do PIS e da Cofins, fixando tese vinculante no Tema 1.272 dos recursos repetitivos
 - [Digitra fecha varejo cripto: o custo da compliance](https://safie.blog.br/artigos/2026-08-21-digitra-fecha-varejo-cripto-o-custo-da-compliance): A Digitra encerrou suas operações de varejo em criptoativos apontando a regulação do Banco Central como fator determinante, tornando-se um caso concreto dos custos de compliance que o novo marco regul
 - [Descontos e PIS/Cofins: Tema 1.412 no STJ](https://safie.blog.br/artigos/2026-08-19-descontos-e-piscofins-tema-1412-no-stj): O STJ decidirá em 20 de agosto de 2026, no Tema Repetitivo 1.412, se o comprador de mercadorias adquiridas com desconto ou bonificação deve incluir o valor do abatimento na base de cálculo do PIS/Cofi
 - [Sua empresa treina a IA de outra: o risco jurídico](https://safie.blog.br/artigos/2026-08-19-sua-empresa-treina-a-ia-de-outra-o-risco-juridico): Ao contratar ferramentas de IA generativa sem cláusulas contratuais adequadas, sua empresa pode estar cedendo, sem saber, conhecimento proprietário para treinar modelos de terceiros
