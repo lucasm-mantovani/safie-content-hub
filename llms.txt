@@ -49,6 +49,7 @@
 
 ## Artigos
 
+- [Imposto Seletivo e holdings: o risco dos créditos](https://safie.blog.br/artigos/2026-08-21-imposto-seletivo-e-holdings-o-risco-dos-creditos): Holdings familiares e patrimoniais correm o risco de não conseguir apropriar créditos de IBS e CBS sobre aquisições de bens, o que pode elevar significativamente a carga fiscal dessas estruturas
 - [IA Automotiva e o IRPJ: alianças Nissan-Honda](https://safie.blog.br/artigos/2026-08-21-ia-automotiva-e-o-irpj-aliancas-nissan-honda): Empresas brasileiras que desenvolvem ou licenciam tecnologia de direção autônoma enfrentam enquadramento tributário incerto, sobretudo quanto à natureza da receita (serviço, royalty ou venda de softwa
 - [Nubank como banco: o que muda na regulação BCB](https://safie.blog.br/artigos/2026-08-21-nubank-como-banco-o-que-muda-na-regulacao-bcb): Fintechs que migram para o modelo de banco múltiplo ou comercial passam a responder a exigências prudenciais do Banco Central significativamente mais rígidas do que as aplicadas às instituições de pag
 - [STJ fixa tese: ICMS-Difal fora do PIS/Cofins](https://safie.blog.br/artigos/2026-08-21-stj-fixa-tese-icms-difal-fora-do-piscofins): O STJ decidiu, em 20/08/2026, que o ICMS-Difal não integra a base de cálculo do PIS e da Cofins, fixando tese vinculante no Tema 1.272 dos recursos repetitivos
