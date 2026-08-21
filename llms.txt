@@ -49,6 +49,7 @@
 
 ## Artigos
 
+- [Greve bancária e prazos de boletos: seus direitos](https://safie.blog.br/artigos/2026-08-21-greve-bancaria-e-prazos-de-boletos-seus-direitos): A paralisação dos bancários em 20 de agosto de 2026 não suspende prazos de vencimento de boletos e contas, e o consumidor ou empresa que deixar de pagar no prazo estará sujeito a multa e juros
 - [Bybit e KYC obrigatório: o que muda para empresas](https://safie.blog.br/artigos/2026-08-21-bybit-e-kyc-obrigatorio-o-que-muda-para-empresas): A Bybit passou a restringir contas de usuários brasileiros que não atualizaram seu cadastro dentro do prazo estabelecido, operacionalizando exigências de KYC (Know Your Customer) alinhadas à regulação
 - [Imposto Seletivo e holdings: o risco dos créditos](https://safie.blog.br/artigos/2026-08-21-imposto-seletivo-e-holdings-o-risco-dos-creditos): Holdings familiares e patrimoniais correm o risco de não conseguir apropriar créditos de IBS e CBS sobre aquisições de bens, o que pode elevar significativamente a carga fiscal dessas estruturas
 - [IA Automotiva e o IRPJ: alianças Nissan-Honda](https://safie.blog.br/artigos/2026-08-21-ia-automotiva-e-o-irpj-aliancas-nissan-honda): Empresas brasileiras que desenvolvem ou licenciam tecnologia de direção autônoma enfrentam enquadramento tributário incerto, sobretudo quanto à natureza da receita (serviço, royalty ou venda de softwa
