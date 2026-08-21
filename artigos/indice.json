@@ -1,5 +1,14 @@
 [
   {
+    "slug": "2026-08-21-split-payment-e-o-fluxo-de-caixa-das-empresas",
+    "titulo": "Split payment e o fluxo de caixa das empresas",
+    "resumo": "O split payment retém automaticamente os valores de IBS e CBS no momento da liquidação financeira da transação, reduzindo o saldo disponível para o fornecedor antes mesmo do vencimento de qualquer obr",
+    "tema": "Split payment e fiscalização",
+    "tema_slug": "split-payment",
+    "nicho": "reforma",
+    "data": "2026-08-21T10:09:57Z"
+  },
+  {
     "slug": "2026-08-21-vazamento-latam-e-lgpd-o-que-sua-empresa-deve-fazer",
     "titulo": "Vazamento Latam e LGPD: o que sua empresa deve fazer",
     "resumo": "Empresas que tratam dados de clientes em programas de fidelidade estão sujeitas às obrigações da LGPD, incluindo notificação obrigatória à ANPD em caso de incidente de segurança. O vazamento confirmad",
