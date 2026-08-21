@@ -49,6 +49,7 @@
 
 ## Artigos
 
+- [Vazamento Latam e LGPD: o que sua empresa deve fazer](https://safie.blog.br/artigos/2026-08-21-vazamento-latam-e-lgpd-o-que-sua-empresa-deve-fazer): Empresas que tratam dados de clientes em programas de fidelidade estão sujeitas às obrigações da LGPD, incluindo notificação obrigatória à ANPD em caso de incidente de segurança
 - [Open Finance como infraestrutura para IA financeira](https://safie.blog.br/artigos/2026-08-21-open-finance-como-infraestrutura-para-ia-financeira): O Open Finance brasileiro funciona como infraestrutura de dados estruturados que viabiliza aplicações de inteligência artificial financeira em escala, algo que poucos países conseguiram combinar
 - [Greve bancária e prazos de boletos: seus direitos](https://safie.blog.br/artigos/2026-08-21-greve-bancaria-e-prazos-de-boletos-seus-direitos): A paralisação dos bancários em 20 de agosto de 2026 não suspende prazos de vencimento de boletos e contas, e o consumidor ou empresa que deixar de pagar no prazo estará sujeito a multa e juros
 - [Bybit e KYC obrigatório: o que muda para empresas](https://safie.blog.br/artigos/2026-08-21-bybit-e-kyc-obrigatorio-o-que-muda-para-empresas): A Bybit passou a restringir contas de usuários brasileiros que não atualizaram seu cadastro dentro do prazo estabelecido, operacionalizando exigências de KYC (Know Your Customer) alinhadas à regulação
