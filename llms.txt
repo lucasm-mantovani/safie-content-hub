@@ -49,6 +49,7 @@
 
 ## Artigos
 
+- [Bybit e KYC obrigatório: o que muda para empresas](https://safie.blog.br/artigos/2026-08-21-bybit-e-kyc-obrigatorio-o-que-muda-para-empresas): A Bybit passou a restringir contas de usuários brasileiros que não atualizaram seu cadastro dentro do prazo estabelecido, operacionalizando exigências de KYC (Know Your Customer) alinhadas à regulação
 - [Imposto Seletivo e holdings: o risco dos créditos](https://safie.blog.br/artigos/2026-08-21-imposto-seletivo-e-holdings-o-risco-dos-creditos): Holdings familiares e patrimoniais correm o risco de não conseguir apropriar créditos de IBS e CBS sobre aquisições de bens, o que pode elevar significativamente a carga fiscal dessas estruturas
 - [IA Automotiva e o IRPJ: alianças Nissan-Honda](https://safie.blog.br/artigos/2026-08-21-ia-automotiva-e-o-irpj-aliancas-nissan-honda): Empresas brasileiras que desenvolvem ou licenciam tecnologia de direção autônoma enfrentam enquadramento tributário incerto, sobretudo quanto à natureza da receita (serviço, royalty ou venda de softwa
 - [Nubank como banco: o que muda na regulação BCB](https://safie.blog.br/artigos/2026-08-21-nubank-como-banco-o-que-muda-na-regulacao-bcb): Fintechs que migram para o modelo de banco múltiplo ou comercial passam a responder a exigências prudenciais do Banco Central significativamente mais rígidas do que as aplicadas às instituições de pag
