@@ -49,6 +49,7 @@
 
 ## Artigos
 
+- [Digitra fecha varejo cripto: o custo da compliance](https://safie.blog.br/artigos/2026-08-21-digitra-fecha-varejo-cripto-o-custo-da-compliance): A Digitra encerrou suas operações de varejo em criptoativos apontando a regulação do Banco Central como fator determinante, tornando-se um caso concreto dos custos de compliance que o novo marco regul
 - [Descontos e PIS/Cofins: Tema 1.412 no STJ](https://safie.blog.br/artigos/2026-08-19-descontos-e-piscofins-tema-1412-no-stj): O STJ decidirá em 20 de agosto de 2026, no Tema Repetitivo 1.412, se o comprador de mercadorias adquiridas com desconto ou bonificação deve incluir o valor do abatimento na base de cálculo do PIS/Cofi
 - [Sua empresa treina a IA de outra: o risco jurídico](https://safie.blog.br/artigos/2026-08-19-sua-empresa-treina-a-ia-de-outra-o-risco-juridico): Ao contratar ferramentas de IA generativa sem cláusulas contratuais adequadas, sua empresa pode estar cedendo, sem saber, conhecimento proprietário para treinar modelos de terceiros
 - [Swap no crédito: o que muda para fintechs B2B](https://safie.blog.br/artigos/2026-08-19-swap-no-credito-o-que-muda-para-fintechs-b2b): A entrada da Swap no mercado de crédito exige enquadramento regulatório específico perante o Banco Central, independentemente de o modelo ser BNPL, crédito parcelado ou limite rotativo
