@@ -49,6 +49,7 @@
 
 ## Artigos
 
+- [Captação Alibaba e o IRRF sobre remessas de IA](https://safie.blog.br/artigos/2026-08-24-captacao-alibaba-e-o-irrf-sobre-remessas-de-ia): Remessas ao exterior para financiar ou contratar serviços de IA estão sujeitas ao IRRF de 15% a 25% e à CIDE de 10%, conforme a Lei 10.168/2000 e o RIR/2018
 - [Contrabando em marketplaces: riscos para vendedores](https://safie.blog.br/artigos/2026-08-24-contrabando-em-marketplaces-riscos-para-vendedores): Vender ou intermediar produto contrabandeado em marketplace expõe o lojista e a plataforma a responsabilidade penal, tributária e administrativa, ainda que desconheçam a origem ilícita da mercadoria
 - [Compliance cripto: o que fiscalizar em 2026](https://safie.blog.br/artigos/2026-08-24-compliance-cripto-o-que-fiscalizar-em-2026): Empresas que operam com criptoativos no Brasil acumulam obrigações simultâneas perante o Banco Central, a Receita Federal e a CVM, e o descumprimento de qualquer frente gera risco de autuação, multa o
 - [Split payment e o fluxo de caixa das empresas](https://safie.blog.br/artigos/2026-08-21-split-payment-e-o-fluxo-de-caixa-das-empresas): O split payment retém automaticamente os valores de IBS e CBS no momento da liquidação financeira da transação, reduzindo o saldo disponível para o fornecedor antes mesmo do vencimento de qualquer obr
