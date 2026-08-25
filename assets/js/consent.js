@@ -1,13 +1,14 @@
 /* SAFIE — Consentimento de cookies. Sem dependência externa.
-   Duas categorias: necessarios (sempre ativo) e marketing (opt-in).
-   O formulário HubSpot só carrega após aceite de marketing. */
+   Três categorias: necessarios (sempre ativo), estatisticas (opt-in) e
+   marketing (opt-in). GA4 e o formulário HubSpot só carregam após aceite. */
 (function () {
   'use strict';
 
   var CFG = {
-    versao: '1.0',
+    versao: '1.1',
     chave: 'safie_consent',
     validadeDias: 365,
+    ga4: { id: 'G-HVJV03RFR8' },
     hubspot: {
       portalId: '50182013',
       formId: '1802e1da-b81b-44ed-9bab-7db51bd9e6b5',
@@ -69,8 +70,13 @@
     } catch (e) { return null; }
   }
 
-  function salvar(marketing) {
-    estado = { versao: CFG.versao, ts: Date.now(), marketing: !!marketing };
+  function salvar(prefs) {
+    estado = {
+      versao: CFG.versao,
+      ts: Date.now(),
+      marketing: !!(prefs && prefs.marketing),
+      estatisticas: !!(prefs && prefs.estatisticas)
+    };
     try { localStorage.setItem(CFG.chave, JSON.stringify(estado)); } catch (e) {}
     aplicar();
   }
@@ -84,6 +90,26 @@
   }
 
   function slot() { return document.querySelector(CFG.hubspot.target); }
+
+  function carregarGA4() {
+    if (window.__sfGa4) return;
+    if (!CFG.ga4.id || CFG.ga4.id.indexOf('XXXX') !== -1) return;
+    window.__sfGa4 = true;
+    window['ga-disable-' + CFG.ga4.id] = false;
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function () { window.dataLayer.push(arguments); };
+    window.gtag('js', new Date());
+    window.gtag('config', CFG.ga4.id);
+    var s = document.createElement('script');
+    s.async = true;
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(CFG.ga4.id);
+    document.head.appendChild(s);
+  }
+
+  function desligarGA4() {
+    if (!CFG.ga4.id) return;
+    window['ga-disable-' + CFG.ga4.id] = true;
+  }
 
   function carregarHubSpot() {
     var el = slot();
@@ -119,6 +145,8 @@
   }
 
   function aplicar() {
+    if (estado && estado.estatisticas) carregarGA4();
+    else desligarGA4();
     if (estado && estado.marketing) carregarHubSpot();
     else fallback();
   }
@@ -139,7 +167,8 @@
     d.innerHTML =
       '<h2>Cookies neste site</h2>' +
       '<p>Usamos cookies necessários ao funcionamento do site e, com o seu consentimento, ' +
-      'cookies de marketing que identificam a origem do seu contato quando você envia o formulário. ' +
+      'cookies de estatísticas, que medem como o blog é utilizado, e de marketing, que ' +
+      'identificam a origem do seu contato quando você envia o formulário. ' +
       'Detalhes na <a href="' + CFG.politica + '">Política de Cookies</a>.</p>' +
       '<div class="sf-cc-acoes">' +
       '<button type="button" class="sf-b sf-b-1" data-sf="aceitar">Aceitar cookies</button>' +
@@ -152,7 +181,8 @@
   function modal() {
     if (document.getElementById('sf-ov')) return;
     estilos();
-    var marcado = estado && estado.marketing ? ' checked' : '';
+    var mkOn = estado && estado.marketing ? ' checked' : '';
+    var estOn = estado && estado.estatisticas ? ' checked' : '';
     var o = document.createElement('div');
     o.id = 'sf-ov';
     o.className = 'sf-ov';
@@ -161,15 +191,23 @@
     o.innerHTML =
       '<div class="sf-md">' +
       '<h2>Preferências de cookies</h2>' +
+
       '<div class="sf-cat"><div class="sf-cat-t"><span>Necessários</span>' +
       '<span class="sf-fix">Sempre ativos</span></div>' +
       '<p class="sf-cat-d">Registram a sua decisão sobre cookies e mantêm o site funcionando. ' +
       'Não podem ser desativados.</p></div>' +
+
+      '<div class="sf-cat"><div class="sf-cat-t"><span>Estatísticas</span>' +
+      '<label class="sf-sw"><input type="checkbox" id="sf-est" aria-label="Cookies de estatísticas"' + estOn + '><span></span></label>' +
+      '</div><p class="sf-cat-d">Google Analytics, que mede páginas lidas, tempo de leitura e ' +
+      'origem do acesso. Nos ajuda a entender quais conteúdos são úteis.</p></div>' +
+
       '<div class="sf-cat"><div class="sf-cat-t"><span>Marketing</span>' +
-      '<label class="sf-sw"><input type="checkbox" id="sf-mk" aria-label="Cookies de marketing"' + marcado + '><span></span></label>' +
+      '<label class="sf-sw"><input type="checkbox" id="sf-mk" aria-label="Cookies de marketing"' + mkOn + '><span></span></label>' +
       '</div><p class="sf-cat-d">Cookie do HubSpot, que identifica a origem do seu contato quando você ' +
       'envia o formulário. Sem o aceite, o formulário não é carregado e o contato segue por ' +
       'WhatsApp ou e-mail.</p></div>' +
+
       '<div class="sf-cc-acoes" style="margin-top:18px">' +
       '<button type="button" class="sf-b sf-b-1" data-sf="salvar">Salvar preferências</button>' +
       '<button type="button" class="sf-b sf-b-2" data-sf="cancelar">Cancelar</button>' +
@@ -194,12 +232,13 @@
     if (!t) return;
     if (t.hasAttribute('data-sf-abrir')) { modal(); return; }
     var a = t.getAttribute('data-sf');
-    if (a === 'aceitar') { salvar(true); fechar('sf-cc'); }
-    else if (a === 'recusar') { salvar(false); fechar('sf-cc'); }
+    if (a === 'aceitar') { salvar({ marketing: true, estatisticas: true }); fechar('sf-cc'); }
+    else if (a === 'recusar') { salvar({ marketing: false, estatisticas: false }); fechar('sf-cc'); }
     else if (a === 'config') { modal(); }
     else if (a === 'salvar') {
       var mk = document.getElementById('sf-mk');
-      salvar(mk && mk.checked);
+      var est = document.getElementById('sf-est');
+      salvar({ marketing: mk && mk.checked, estatisticas: est && est.checked });
       fechar('sf-ov'); fechar('sf-cc');
     }
     else if (a === 'cancelar') { fechar('sf-ov'); }
@@ -209,7 +248,7 @@
     estilos();
     linkRodape();
     estado = ler();
-    if (!estado) { banner(); fallback(); }
+    if (!estado) { desligarGA4(); banner(); fallback(); }
     else aplicar();
   }
 
