@@ -1,6 +1,6 @@
 # Troca do número de WhatsApp da SAFIE — procedimento
 
-Última troca: 19/08/2026 (para o número atual; ver git log de `templates/artigo.html`).
+Última troca: 25/08/2026 (para o número atual; ver git log de `templates/artigo.html`).
 O número é **hardcoded de propósito** — `config/site.json` NÃO é injetado nos
 templates em build, então um campo lá seria falsa fonte de verdade. Não criar.
 
@@ -11,6 +11,7 @@ templates em build, então um campo lá seria falsa fonte de verdade. Não criar
 | `templates/artigo.html` | 110 | link `wa.me` do CTA "Falar com a SAFIE" |
 | `assets/js/widget-whatsapp.js` | 12 | `const WHATSAPP_URL` do widget flutuante |
 | `assets/js/widget-whatsapp.js` | 4 | comentário com o número (manter em sincronia) |
+| `assets/js/consent.js` | 18 | `CFG.whatsapp` — o fallback do formulário no banner de consentimento (no ar desde 19/08/2026) usa esse valor |
 
 ## 2. Backfill dos artigos já publicados (artigos/*.html)
 
