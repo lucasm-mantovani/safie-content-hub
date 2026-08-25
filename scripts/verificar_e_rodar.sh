@@ -4,7 +4,9 @@
 #   1. Hoje é dia de publicação (config/site.json -> agenda_publicacao)
 #   2. Ainda não publicou hoje (artigos/indice.json não contém a data de hoje)
 #   3. Tentativas do dia < 3 (marcador dados/watchdog_tentativas_<DATA>.json)
-#   4. Estamos numa janela (manha 06-08 / tarde 12-14 / noite 17-19)
+#   4. Estamos numa janela (manha 08-10 / tarde 12-14 / noite 17-19)
+#      A janela da manhã começa DEPOIS do primário das 07:00 — watchdog é
+#      catch-up; janela anterior ao primário o transforma em segundo primário.
 #   5. Há internet
 # É catch-up: o diário das 07:00 é o disparo primário; o watchdog cobre o caso
 # de a máquina estar dormindo/offline às 07:00. Self-locating (roda no checkout
@@ -40,7 +42,7 @@ except Exception: print(0)
 # 4. Janela
 HORA=$(date +%H)
 case "$HORA" in
-  06|07|08) JANELA="manha" ;;
+  08|09|10) JANELA="manha" ;;
   12|13|14) JANELA="tarde" ;;
   17|18|19) JANELA="noite" ;;
   *) exit 0 ;;

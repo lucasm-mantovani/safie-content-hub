@@ -40,6 +40,26 @@ if [ -z "$NICHOS_HOJE" ]; then
   exit 0
 fi
 
+# ── Gate de idempotência (global) ──
+# Mesma fonte e mesmo teste do watchdog (verificar_e_rodar.sh, gate 2): a data
+# de hoje no artigos/indice.json. Fonte única de verdade sobre "já publicou
+# hoje" — um marcador próprio reintroduziria a rodada dupla por outro caminho.
+# Global de propósito: publicação parcial (nicho sem notícia fresca) conta como
+# dia publicado e não é re-tentada, igual ao comportamento do watchdog.
+# --force ignora o gate (re-run manual legítimo no mesmo dia). Varre todos os
+# argumentos (não só o $1) e usa if/then no laço por causa do set -e.
+FORCE=0
+for arg in "$@"; do
+  if [ "$arg" = "--force" ]; then FORCE=1; fi
+done
+HOJE=$(date +%Y-%m-%d)
+if [ "$FORCE" -eq 0 ] && [ -f "$PASTA/artigos/indice.json" ] \
+   && grep -q "\"$HOJE" "$PASTA/artigos/indice.json"; then
+  echo "[$(date '+%Y-%m-%d %H:%M:%S')] Já há publicação de hoje no indice.json. Encerrando (use --force para re-run)." \
+    >> "$PASTA/logs/skip_$(date +%Y-%m-%d).log"
+  exit 0
+fi
+
 echo "=======================================" >> "$LOG"
 echo "PIPELINE INICIADO: $(date) — nichos: $NICHOS_HOJE" >> "$LOG"
 echo "=======================================" >> "$LOG"
