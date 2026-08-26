@@ -49,6 +49,7 @@
 
 ## Artigos
 
+- [ETF de Zcash e privacy coins: risco PLD para VASPs](https://safie.blog.br/artigos/2026-08-26-etf-de-zcash-e-privacy-coins-risco-pld-para-vasps): A estreia de um ETF lastreado em Zcash, uma privacy coin, expõe VASPs brasileiros a riscos concretos de PLD, pois a Resolução BCB 455/2023 exige monitoramento reforçado de ativos com recursos de anoni
 - [Imposto Seletivo: alíquotas vão ao Congresso em setembro](https://safie.blog.br/artigos/2026-08-24-imposto-seletivo-aliquotas-vao-ao-congresso-em-setembro): O governo federal deve encaminhar ao Congresso Nacional, na primeira quinzena de setembro de 2026, o projeto com as alíquotas definitivas do Imposto Seletivo, conforme apuração do JOTA
 - [Reajuste Nvidia acima de 15%: cláusulas que protegem sua empresa](https://safie.blog.br/artigos/2026-08-24-reajuste-nvidia-acima-de-15-clausulas-que-protegem-sua-empresa): Empresas que operam infraestrutura de IA no Brasil e dependem de hardware da Nvidia estão expostas a reajustes superiores a 15%, sem garantia contratual de teto de preço
 - [Shein em crise: o que muda para o varejo brasileiro](https://safie.blog.br/artigos/2026-08-24-shein-em-crise-o-que-muda-para-o-varejo-brasileiro): As dificuldades operacionais e regulatórias que a Shein enfrenta em 2026 revelam os limites do modelo cross-border de baixo custo diante de regimes tributários mais rigorosos
