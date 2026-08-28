@@ -49,6 +49,7 @@
 
 ## Artigos
 
+- [Bancos e tokenização: só 23% estão prontos em 2026](https://safie.blog.br/artigos/2026-08-28-bancos-e-tokenizacao-so-23-estao-prontos-em-2026): Apenas 23% dos bancos brasileiros consideram a tokenização de ativos uma prioridade estratégica e possuem estrutura mínima para implementá-la em 2026, segundo estudo da IBM divulgado em agosto de 2026
 - [Simples Nacional e o Imposto Seletivo Ambiental](https://safie.blog.br/artigos/2026-08-26-simples-nacional-e-o-imposto-seletivo-ambiental): A Emenda Constitucional 132/2023 criou o Imposto Seletivo com função ambiental expressa, mas sacolas plásticas de uso único ficaram fora do rol de produtos tributados, gerando uma lacuna que afeta dir
 - [ByteDance multada: o que a ANPD sinaliza ao mercado](https://safie.blog.br/artigos/2026-08-26-bytedance-multada-o-que-a-anpd-sinaliza-ao-mercado): A Autoridade Nacional de Proteção de Dados (ANPD) aplicou multa de R$ 153,7 milhões à ByteDance, controladora do TikTok, sinalizando que o enforcement da LGPD chegou a valores expressivos e afeta dire
 - [PIX e crédito: proporcionalidade regulatória em debate](https://safie.blog.br/artigos/2026-08-26-pix-e-credito-proporcionalidade-regulatoria-em-debate): A regulação de fintechs no Brasil avança, mas a proporcionalidade ao risco de cada modelo de negócio ainda não está garantida, segundo a ABFintechs
