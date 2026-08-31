@@ -49,6 +49,7 @@
 
 ## Artigos
 
+- [Open Finance e Pix no e-commerce: obrigações para fintechs](https://safie.blog.br/artigos/2026-08-31-open-finance-e-pix-no-e-commerce-obrigacoes-para-fintechs): A integração entre Open Finance e Pix no e-commerce cria novas obrigações operacionais e de conformidade para fintechs iniciadores de pagamento, reguladas pela Resolução BCB nº 1 de 2020 e pelo ecossi
 - [Dívidas digitais: 1,2 mi de ações e o risco para lojas](https://safie.blog.br/artigos/2026-08-31-dividas-digitais-12-mi-de-acoes-e-o-risco-para-lojas): A judicialização de dívidas privadas superou 1,2 milhão de ações no Brasil em 2026, segundo o G1 Economia, e o crédito digital figura entre as causas apontadas por especialistas
 - [Stablecoins em empréstimos: o que o Brasil regula](https://safie.blog.br/artigos/2026-08-31-stablecoins-em-emprestimos-o-que-o-brasil-regula): No Brasil, operações de crédito lastreadas em stablecoins como USDT não possuem framework regulatório específico aprovado, mas estão sujeitas à Lei 14.478/2022, às normas do Banco Central e, dependend
 - [Bancos e tokenização: só 23% estão prontos em 2026](https://safie.blog.br/artigos/2026-08-28-bancos-e-tokenizacao-so-23-estao-prontos-em-2026): Apenas 23% dos bancos brasileiros consideram a tokenização de ativos uma prioridade estratégica e possuem estrutura mínima para implementá-la em 2026, segundo estudo da IBM divulgado em agosto de 2026
