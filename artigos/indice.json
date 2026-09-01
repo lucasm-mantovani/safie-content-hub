@@ -360,15 +360,6 @@
     "data": "2026-08-17T10:12:33Z"
   },
   {
-    "slug": "2026-08-17-tributacao-de-empresas-de-ia-no-brasil",
-    "titulo": "Tributação de Empresas de IA no Brasil",
-    "resumo": "Não existe, até agosto de 2026, um regime tributário específico para empresas de inteligência artificial no Brasil: a tributação segue frameworks criados para software, serviços e propriedade intelect",
-    "tema": "Tributação de empresas de tecnologia e IA",
-    "tema_slug": "tributacao-tech-ia",
-    "nicho": "ia",
-    "data": "2026-08-17T10:10:54Z"
-  },
-  {
     "slug": "2026-08-17-tokenizacao-regulacao-abre-mercado-institucional",
     "titulo": "Tokenização: regulação abre mercado institucional",
     "resumo": "A regulação brasileira de ativos digitais já oferece segurança jurídica suficiente para atrair capital institucional, segundo executivos e o Banco Central, mas o amadurecimento das regras e a transpar",
@@ -405,15 +396,6 @@
     "data": "2026-08-17T09:31:13Z"
   },
   {
-    "slug": "2026-08-17-regulacao-de-criptoativos-no-brasil-em-2026",
-    "titulo": "Regulação de Criptoativos no Brasil em 2026",
-    "resumo": "A regulação de criptoativos no Brasil avança sob o marco da Lei 14.478/2022 e das normas do Banco Central, impondo obrigações concretas a exchanges, custodiantes e demais prestadores de serviços de at",
-    "tema": "Regulação de criptoativos no Brasil",
-    "tema_slug": "regulacao-cripto",
-    "nicho": "cripto",
-    "data": "2026-08-17T09:29:18Z"
-  },
-  {
     "slug": "2026-08-14-ibs-e-cbs-impactos-nas-relacoes-de-trabalho",
     "titulo": "IBS e CBS: impactos nas relações de trabalho",
     "resumo": "As regras de creditamento do IBS e da CBS, instituídos pela Emenda Constitucional 132/2023, passam a influenciar diretamente a forma como empresas concedem benefícios a empregados e estruturam seus mo",
@@ -448,33 +430,6 @@
     "tema_slug": "marketplaces",
     "nicho": "ecommerce",
     "data": "2026-08-14T15:21:27Z"
-  },
-  {
-    "slug": "2026-08-14-estruturacao-societaria-de-empresas-cripto",
-    "titulo": "Estruturação societária de empresas cripto",
-    "resumo": "A nova regra do Banco Central que impõe prazo de 24 horas para determinadas operações com stablecoins altera diretamente a eficiência operacional de empresas cripto e exige revisão da estrutura societ",
-    "tema": "Estruturação societária de empresas cripto",
-    "tema_slug": "estruturacao-empresa-cripto",
-    "nicho": "cripto",
-    "data": "2026-08-14T15:19:27Z"
-  },
-  {
-    "slug": "2026-08-12-imposto-seletivo-o-que-muda-para-empresas",
-    "titulo": "Imposto Seletivo: o que muda para empresas",
-    "resumo": "O Imposto Seletivo, criado pela Emenda Constitucional 132/2023, incide sobre bens e serviços considerados prejudiciais à saúde ou ao meio ambiente, com alíquotas ainda em definição pelo Congresso Naci",
-    "tema": "Imposto Seletivo",
-    "tema_slug": "imposto-seletivo",
-    "nicho": "reforma",
-    "data": "2026-08-12T21:14:45Z"
-  },
-  {
-    "slug": "2026-08-12-regulacao-de-ia-no-brasil-o-caso-discord-e-a-anpd",
-    "titulo": "Regulação de IA no Brasil: o caso Discord e a ANPD",
-    "resumo": "A Agência Nacional de Proteção de Dados (ANPD) determinou, em 12 de agosto de 2026, a suspensão das transmissões ao vivo do Discord no Brasil por meio de medida preventiva, sinalizando o fortaleciment",
-    "tema": "Regulação de IA no Brasil",
-    "tema_slug": "regulacao-ia-brasil",
-    "nicho": "ia",
-    "data": "2026-08-12T21:13:16Z"
   },
   {
     "slug": "2026-08-12-regulacao-do-banco-central-para-fintechs",
@@ -522,15 +477,6 @@
     "data": "2026-08-10T11:25:56Z"
   },
   {
-    "slug": "2026-08-10-credito-digital-e-bnpl-riscos-e-regras-no-brasil",
-    "titulo": "Crédito Digital e BNPL: riscos e regras no Brasil",
-    "resumo": "O modelo BNPL (Buy Now, Pay Later) e o crédito digital estão sujeitos à regulação do Banco Central, exigindo autorização prévia ou parceria com instituição licenciada para operar. A RecargaPay, confor",
-    "tema": "Crédito digital e BNPL",
-    "tema_slug": "credito-digital",
-    "nicho": "fintechs",
-    "data": "2026-08-10T11:23:39Z"
-  },
-  {
     "slug": "2026-08-10-taxa-das-blusinhas-o-que-muda-em-setembro",
     "titulo": "Taxa das blusinhas: o que muda em setembro",
     "resumo": "Se a Medida Provisória que suspendeu a tributação de compras internacionais de até US$ 50 não for aprovada pelo Congresso, a taxação de 20% volta a valer no início de setembro de 2026. O mecanismo foi",
@@ -547,15 +493,6 @@
     "tema_slug": "estruturacao-empresa-cripto",
     "nicho": "cripto",
     "data": "2026-08-10T11:20:04Z"
-  },
-  {
-    "slug": "2026-07-22-imposto-seletivo-o-que-muda-para-empresas",
-    "titulo": "Imposto Seletivo: o que muda para empresas",
-    "resumo": "O Imposto Seletivo, instituído pela Emenda Constitucional 132/2023, incidirá sobre produção, extração, comercialização ou importação de bens e serviços considerados prejudiciais à saúde ou ao meio amb",
-    "tema": "Imposto Seletivo",
-    "tema_slug": "imposto-seletivo",
-    "nicho": "reforma",
-    "data": "2026-07-22T10:15:39Z"
   },
   {
     "slug": "2026-07-22-ai-act-e-regulacao-de-menores-o-que-muda",
@@ -603,15 +540,6 @@
     "data": "2026-07-22T09:35:03Z"
   },
   {
-    "slug": "2026-07-22-regulacao-do-banco-central-para-fintechs",
-    "titulo": "Regulação do Banco Central para fintechs",
-    "resumo": "A regulação do Banco Central para fintechs que operam como credenciadoras exige autorização específica e cumprimento das normas do arranjo de pagamentos, conforme a Lei 12.865/2013 e a Resolução BCB 8",
-    "tema": "Regulação do Banco Central para fintechs",
-    "tema_slug": "regulacao-bacen",
-    "nicho": "fintechs",
-    "data": "2026-07-22T09:32:42Z"
-  },
-  {
     "slug": "2026-07-22-trabalho-em-feriados-no-comercio-o-que-muda",
     "titulo": "Trabalho em Feriados no Comércio: o que Muda",
     "resumo": "O Ministério do Trabalho publicou nova regulamentação sobre o trabalho em feriados no comércio, alterando as condições para escala, compensação e pagamento adicional dos empregados. A medida afeta dir",
@@ -619,15 +547,6 @@
     "tema_slug": "marketplaces",
     "nicho": "ecommerce",
     "data": "2026-07-22T09:30:57Z"
-  },
-  {
-    "slug": "2026-07-22-estruturacao-societaria-de-empresas-cripto",
-    "titulo": "Estruturação societária de empresas cripto",
-    "resumo": "A ausência de controles societários claros em empresas que operam com criptoativos cria vulnerabilidades jurídicas graves, como demonstra o caso da Operação Decrypted, em que a alegação de compartilha",
-    "tema": "Estruturação societária de empresas cripto",
-    "tema_slug": "estruturacao-empresa-cripto",
-    "nicho": "cripto",
-    "data": "2026-07-22T09:29:05Z"
   },
   {
     "slug": "2026-07-20-ibs-e-cbs-o-que-muda-para-sua-empresa",
@@ -684,15 +603,6 @@
     "data": "2026-07-20T11:12:36Z"
   },
   {
-    "slug": "2026-07-17-simples-nacional-e-regimes-especiais-na-reforma-tributaria",
-    "titulo": "Simples Nacional e regimes especiais na reforma tributária",
-    "resumo": "O Simples Nacional permanece como regime diferenciado na reforma tributária, mas empresas optantes precisarão conviver com novas regras de apuração e repasse do IBS e da CBS a partir de 2026. A Lei Co",
-    "tema": "Regimes especiais e o Simples Nacional",
-    "tema_slug": "simples-reforma",
-    "nicho": "reforma",
-    "data": "2026-07-17T10:11:24Z"
-  },
-  {
     "slug": "2026-07-17-lgpd-e-ia-o-que-sua-empresa-precisa-saber",
     "titulo": "LGPD e IA: o que sua empresa precisa saber",
     "resumo": "Empresas que utilizam inteligência artificial no Brasil estão sujeitas à Lei Geral de Proteção de Dados (Lei 13.709/2018) desde já, independentemente de regulamentação específica para IA. A escolha de",
@@ -702,24 +612,6 @@
     "data": "2026-07-17T10:09:49Z"
   },
   {
-    "slug": "2026-07-17-regulacao-do-banco-central-para-fintechs",
-    "titulo": "Regulação do Banco Central para Fintechs",
-    "resumo": "As fintechs no Brasil operam sob um arcabouço regulatório estruturado pelo Banco Central, cujo ponto central são as Resoluções CMN 4.656 e 4.657/2018, que criaram as categorias de Sociedade de Crédito",
-    "tema": "Regulação do Banco Central para fintechs",
-    "tema_slug": "regulacao-bacen",
-    "nicho": "fintechs",
-    "data": "2026-07-17T10:07:20Z"
-  },
-  {
-    "slug": "2026-07-17-estruturacao-societaria-de-empresas-cripto",
-    "titulo": "Estruturação societária de empresas cripto",
-    "resumo": "A estrutura societária adequada para empresas cripto no Brasil deve contemplar o enquadramento como Prestadora de Serviços de Ativos Virtuais (PSAV) nos termos da Lei 14.478/2022, além de definir o re",
-    "tema": "Estruturação societária de empresas cripto",
-    "tema_slug": "estruturacao-empresa-cripto",
-    "nicho": "cripto",
-    "data": "2026-07-17T10:01:43Z"
-  },
-  {
     "slug": "2026-07-17-ibs-e-cbs-o-risco-de-fornecedores-no-simples",
     "titulo": "IBS e CBS: o risco de fornecedores no Simples",
     "resumo": "Empresas que adquirem bens ou serviços de fornecedores optantes pelo Simples Nacional correm o risco de não aproveitar créditos plenos de IBS e CBS a partir da implementação da reforma tributária. A E",
@@ -727,15 +619,6 @@
     "tema_slug": "ibs-cbs",
     "nicho": "reforma",
     "data": "2026-07-17T09:22:45Z"
-  },
-  {
-    "slug": "2026-07-17-direitos-autorais-e-ia-generativa-no-brasil",
-    "titulo": "Direitos autorais e IA generativa no Brasil",
-    "resumo": "A Lei 9.610/1998 não reconhece a IA como autora, e conteúdos gerados por sistemas generativos podem violar direitos de terceiros cujas obras integraram o treinamento dos modelos. Não existe, até a dat",
-    "tema": "Direitos autorais e IA generativa",
-    "tema_slug": "direitos-autorais-ia",
-    "nicho": "ia",
-    "data": "2026-07-17T09:21:11Z"
   },
   {
     "slug": "2026-07-17-credito-digital-e-bnpl-governanca-em-pauta",
@@ -810,15 +693,6 @@
     "data": "2026-07-15T10:32:02Z"
   },
   {
-    "slug": "2026-07-15-estruturacao-societaria-de-empresas-cripto",
-    "titulo": "Estruturação societária de empresas cripto",
-    "resumo": "A estruturação societária de empresas cripto no Brasil exige escolha adequada do tipo jurídico, enquadramento como prestadora de serviços de ativos virtuais (PSAV) e autorização do Banco Central, conf",
-    "tema": "Estruturação societária de empresas cripto",
-    "tema_slug": "estruturacao-empresa-cripto",
-    "nicho": "cripto",
-    "data": "2026-07-15T10:01:39Z"
-  },
-  {
     "slug": "2026-07-15-tributacao-de-empresas-de-ia-no-brasil",
     "titulo": "Tributação de Empresas de IA no Brasil",
     "resumo": "Empresas de inteligência artificial no Brasil não contam com um regime tributário próprio: elas se enquadram nas regras gerais de tecnologia, com variações importantes conforme a natureza da receita (",
@@ -826,15 +700,6 @@
     "tema_slug": "tributacao-tech-ia",
     "nicho": "ia",
     "data": "2026-07-15T09:13:52Z"
-  },
-  {
-    "slug": "2026-07-15-regulacao-do-banco-central-para-fintechs",
-    "titulo": "Regulação do Banco Central para Fintechs",
-    "resumo": "O Banco Central do Brasil regula fintechs por meio de um conjunto de normas que abrange instituições de pagamento (IPs), sociedades de crédito direto (SCDs) e sociedades de empréstimo entre pessoas (S",
-    "tema": "Regulação do Banco Central para fintechs",
-    "tema_slug": "regulacao-bacen",
-    "nicho": "fintechs",
-    "data": "2026-07-15T09:08:25Z"
   },
   {
     "slug": "2026-07-15-simples-nacional-e-regimes-especiais-na-reforma-tributaria",
@@ -972,15 +837,6 @@
     "data": "2026-07-10T17:17:40Z"
   },
   {
-    "slug": "2026-07-08-imposto-seletivo-o-que-muda-para-sua-empresa",
-    "titulo": "Imposto Seletivo: o que muda para sua empresa",
-    "resumo": "O Imposto Seletivo, criado pela EC 132/2023, incide sobre bens e serviços considerados prejudiciais à saúde ou ao meio ambiente. A Declaração de Regimes Específicos (DeRe), destacada pelo JOTA, mostra",
-    "tema": "Imposto Seletivo",
-    "tema_slug": "imposto-seletivo",
-    "nicho": "reforma",
-    "data": "2026-07-08T11:16:19Z"
-  },
-  {
     "slug": "2026-07-08-tributacao-de-empresas-de-ia-o-que-muda-em-2026",
     "titulo": "Tributação de empresas de IA: o que muda em 2026",
     "resumo": "A substituição de tarefas juniores por IA levanta questões trabalhistas e tributárias concretas para empresas brasileiras. Encargos sobre folha, desoneração e obrigações acessórias precisam ser revist",
@@ -1017,15 +873,6 @@
     "data": "2026-07-08T10:01:12Z"
   },
   {
-    "slug": "2026-07-08-regulacao-de-ia-no-brasil-o-que-muda-em-2026",
-    "titulo": "Regulação de IA no Brasil: o que muda em 2026",
-    "resumo": "O Brasil avança na regulação de inteligência artificial com o PL 2338/2023, enquanto startups globais como a Subquadratic anunciam avanços técnicos que desafiam os limites dos modelos de linguagem. Pa",
-    "tema": "Regulação de IA no Brasil",
-    "tema_slug": "regulacao-ia-brasil",
-    "nicho": "ia",
-    "data": "2026-07-08T09:20:30Z"
-  },
-  {
     "slug": "2026-07-08-open-finance-e-dados-do-ir-o-que-muda-para-fintechs",
     "titulo": "Open Finance e dados do IR: o que muda para fintechs",
     "resumo": "O ecossistema de Open Finance no Brasil avança na integração de dados financeiros, incluindo informações tributárias como o cashback do Imposto de Renda. Do ponto de vista jurídico, esse cruzamento de",
@@ -1051,15 +898,6 @@
     "tema_slug": "transicao-tributaria",
     "nicho": "reforma",
     "data": "2026-07-08T09:15:45Z"
-  },
-  {
-    "slug": "2026-07-08-estruturacao-societaria-de-empresas-cripto",
-    "titulo": "Estruturação societária de empresas cripto",
-    "resumo": "A expansão de exchanges internacionais como a MEXC no mercado brasileiro evidencia a necessidade de estruturas societárias sólidas para operar com criptoativos no país. A Lei 14.478/2022 e as normas d",
-    "tema": "Estruturação societária de empresas cripto",
-    "tema_slug": "estruturacao-empresa-cripto",
-    "nicho": "cripto",
-    "data": "2026-07-08T09:15:41Z"
   },
   {
     "slug": "2026-07-06-faturamento-em-ia-metricas-reais-para-investidores",
@@ -1098,15 +936,6 @@
     "data": "2026-07-06T09:18:28Z"
   },
   {
-    "slug": "2026-07-06-regulacao-do-banco-central-para-fintechs-em-2026",
-    "titulo": "Regulação do Banco Central para Fintechs em 2026",
-    "resumo": "O Banco Central do Brasil mantém uma agenda regulatória ativa para fintechs, com normas que abrangem desde o licenciamento de Instituições de Pagamento até as exigências de compliance, prevenção à lav",
-    "tema": "Regulação do Banco Central para fintechs",
-    "tema_slug": "regulacao-bacen",
-    "nicho": "fintechs",
-    "data": "2026-07-06T09:14:43Z"
-  },
-  {
     "slug": "2026-07-06-lgpd-e-privacidade-no-e-commerce-brinquedos-com-ia",
     "titulo": "LGPD e privacidade no e-commerce: brinquedos com IA",
     "resumo": "O Ministério da Justiça investiga brinquedos com inteligência artificial suspeitos de violar a privacidade de crianças, descumprindo a LGPD e normas do Estatuto da Criança e do Adolescente. O caso exp",
@@ -1125,33 +954,6 @@
     "data": "2026-07-06T09:14:14Z"
   },
   {
-    "slug": "2026-07-06-regulacao-de-criptoativos-no-brasil-em-2026",
-    "titulo": "Regulação de Criptoativos no Brasil em 2026",
-    "resumo": "O mercado brasileiro de criptoativos segue em expansão, com movimentos relevantes de empresas como Kalshi, Binance, Oobit e Nubank evidenciando a consolidação do setor. Do ponto de vista jurídico, ess",
-    "tema": "Regulação de criptoativos no Brasil",
-    "tema_slug": "regulacao-cripto",
-    "nicho": "cripto",
-    "data": "2026-07-06T09:14:13Z"
-  },
-  {
-    "slug": "2026-07-03-simples-nacional-e-regimes-especiais-na-reforma-tributaria",
-    "titulo": "Simples Nacional e regimes especiais na reforma tributária",
-    "resumo": "A reforma tributária traz mudanças profundas para os regimes diferenciados de tributação, incluindo o Simples Nacional. Empresas enquadradas nesses regimes precisam entender como o IBS e a CBS vão int",
-    "tema": "Regimes especiais e o Simples Nacional",
-    "tema_slug": "simples-reforma",
-    "nicho": "reforma",
-    "data": "2026-07-03T11:16:23Z"
-  },
-  {
-    "slug": "2026-07-03-regulacao-de-ia-no-brasil-o-que-muda-em-2026",
-    "titulo": "Regulação de IA no Brasil: o que muda em 2026",
-    "resumo": "O Brasil avança na construção de um marco regulatório para inteligência artificial, com o PL 2.338/2023 em tramitação no Congresso e diretrizes setoriais já em vigor. Para empresas de IA, isso signifi",
-    "tema": "Regulação de IA no Brasil",
-    "tema_slug": "regulacao-ia-brasil",
-    "nicho": "ia",
-    "data": "2026-07-03T11:01:56Z"
-  },
-  {
     "slug": "2026-07-03-pix-em-feriados-regras-e-obrigacoes-para-fintechs",
     "titulo": "PIX em feriados: regras e obrigações para fintechs",
     "resumo": "O PIX funciona ininterruptamente, independentemente de feriados nacionais ou internacionais, como o 4 de julho nos Estados Unidos. Para fintechs e instituições de pagamento brasileiras, isso implica o",
@@ -1168,15 +970,6 @@
     "tema_slug": "cross-border",
     "nicho": "ecommerce",
     "data": "2026-07-03T10:31:35Z"
-  },
-  {
-    "slug": "2026-07-03-estruturacao-societaria-de-empresas-cripto",
-    "titulo": "Estruturação societária de empresas cripto",
-    "resumo": "Os ganhos milionários de Donald Trump com criptoativos, revelados em relatório financeiro divulgado em 2025, reacenderam o debate global sobre conflito de interesses, transparência e governança em emp",
-    "tema": "Estruturação societária de empresas cripto",
-    "tema_slug": "estruturacao-empresa-cripto",
-    "nicho": "cripto",
-    "data": "2026-07-03T10:01:19Z"
   },
   {
     "slug": "2026-07-03-investimento-em-ia-e-deep-tech-no-brasil-em-2026",
@@ -1242,15 +1035,6 @@
     "data": "2026-07-01T11:01:40Z"
   },
   {
-    "slug": "2026-07-01-regulacao-do-banco-central-para-fintechs",
-    "titulo": "Regulação do Banco Central para Fintechs",
-    "resumo": "O Banco Central do Brasil consolidou ao longo dos últimos anos um arcabouço regulatório específico para fintechs, estruturado principalmente pelas Resoluções BCB n.º 80/2021, 150/2021 e pelo marco das",
-    "tema": "Regulação do Banco Central para fintechs",
-    "tema_slug": "regulacao-bacen",
-    "nicho": "fintechs",
-    "data": "2026-07-01T10:46:45Z"
-  },
-  {
     "slug": "2026-07-01-compliance-e-pld-no-mercado-cripto-brasileiro",
     "titulo": "Compliance e PLD no Mercado Cripto Brasileiro",
     "resumo": "A Câmara dos Deputados realizou audiência pública com o Banco Central, a Receita Federal e a Polícia Federal para debater a regulação das stablecoins no Brasil. O debate coloca em evidência as obrigaç",
@@ -1305,15 +1089,6 @@
     "data": "2026-06-29T11:16:28Z"
   },
   {
-    "slug": "2026-06-29-regulacao-de-ia-no-brasil-o-que-muda-em-2026",
-    "titulo": "Regulação de IA no Brasil: o que muda em 2026",
-    "resumo": "O Brasil avança na regulação de inteligência artificial com o PL 2.338/2023, aprovado pelo Senado em 2024 e em tramitação na Câmara. O marco estabelece obrigações de transparência, responsabilidade ci",
-    "tema": "Regulação de IA no Brasil",
-    "tema_slug": "regulacao-ia-brasil",
-    "nicho": "ia",
-    "data": "2026-06-29T11:01:48Z"
-  },
-  {
     "slug": "2026-06-29-open-finance-dados-financeiros-e-obrigacoes-legais",
     "titulo": "Open Finance: dados financeiros e obrigações legais",
     "resumo": "O Open Finance brasileiro, regulado pelo Banco Central, estrutura o compartilhamento de dados financeiros entre instituições mediante consentimento do titular. A framework combina a Resolução Conjunta",
@@ -1321,15 +1096,6 @@
     "tema_slug": "open-finance",
     "nicho": "fintechs",
     "data": "2026-06-29T10:46:36Z"
-  },
-  {
-    "slug": "2026-06-29-lgpd-e-privacidade-no-e-commerce-em-2026",
-    "titulo": "LGPD e privacidade no e-commerce em 2026",
-    "resumo": "A Europa abandonou sua postura regulatória rígida em tecnologia para priorizar soberania digital e competitividade, segundo análise publicada pela Folha Mercado. Esse movimento reacende o debate sobre",
-    "tema": "LGPD e privacidade no e-commerce",
-    "tema_slug": "lgpd-ecommerce",
-    "nicho": "ecommerce",
-    "data": "2026-06-29T10:31:24Z"
   },
   {
     "slug": "2026-06-29-stablecoins-e-risco-sistemico-o-alerta-do-bis",
@@ -1368,15 +1134,6 @@
     "data": "2026-06-29T09:02:14Z"
   },
   {
-    "slug": "2026-06-26-simples-nacional-e-regimes-especiais-na-reforma-tributaria",
-    "titulo": "Simples Nacional e regimes especiais na reforma tributária",
-    "resumo": "A reforma tributária mantém o Simples Nacional como regime diferenciado, mas impõe ajustes relevantes na forma como as empresas optantes interagem com o IBS e a CBS. O período de transição (2026-2033)",
-    "tema": "Regimes especiais e o Simples Nacional",
-    "tema_slug": "simples-reforma",
-    "nicho": "reforma",
-    "data": "2026-06-26T11:16:16Z"
-  },
-  {
     "slug": "2026-06-26-tributacao-de-empresas-de-ia-no-brasil-em-2026",
     "titulo": "Tributação de Empresas de IA no Brasil em 2026",
     "resumo": "O cenário macroeconômico brasileiro em 2026, com juros elevados e volatilidade cambial, pressiona diretamente a estrutura de custos das empresas de IA. Nesse contexto, escolher o regime tributário cor",
@@ -1384,15 +1141,6 @@
     "tema_slug": "tributacao-tech-ia",
     "nicho": "ia",
     "data": "2026-06-26T11:02:12Z"
-  },
-  {
-    "slug": "2026-06-26-regulacao-do-banco-central-para-fintechs-em-2026",
-    "titulo": "Regulação do Banco Central para fintechs em 2026",
-    "resumo": "O Banco Central do Brasil consolidou ao longo dos últimos anos um arcabouço regulatório robusto para fintechs, abrangendo desde a Resolução BCB nº 80/2021 até as normas de open finance e arranjos de p",
-    "tema": "Regulação do Banco Central para fintechs",
-    "tema_slug": "regulacao-bacen",
-    "nicho": "fintechs",
-    "data": "2026-06-26T10:46:43Z"
   },
   {
     "slug": "2026-06-26-anatel-e-marketplaces-contra-minicelulares-ilegais",
@@ -1422,15 +1170,6 @@
     "data": "2026-06-26T09:46:31Z"
   },
   {
-    "slug": "2026-06-26-regulacao-de-ia-no-brasil-o-que-muda-em-2026",
-    "titulo": "Regulação de IA no Brasil: o que muda em 2026",
-    "resumo": "A Coreia do Sul lidera globalmente a adoção cultural e industrial de inteligência artificial, com suporte regulatório ativo do Estado. O Brasil, por outro lado, ainda consolida seu marco legal de IA, ",
-    "tema": "Regulação de IA no Brasil",
-    "tema_slug": "regulacao-ia-brasil",
-    "nicho": "ia",
-    "data": "2026-06-26T09:15:49Z"
-  },
-  {
     "slug": "2026-06-26-open-finance-dados-do-bc-e-obrigacoes-para-fintechs",
     "titulo": "Open Finance: dados do BC e obrigações para fintechs",
     "resumo": "O Banco Central divulgou em 26 de junho de 2026 dados relevantes do sistema financeiro nacional, incluindo indicadores de crédito e endividamento. Para fintechs, esses dados reforçam a centralidade do",
@@ -1456,15 +1195,6 @@
     "tema_slug": "imposto-seletivo",
     "nicho": "reforma",
     "data": "2026-06-26T09:15:25Z"
-  },
-  {
-    "slug": "2026-06-24-direitos-autorais-e-ia-generativa-no-brasil",
-    "titulo": "Direitos Autorais e IA Generativa no Brasil",
-    "resumo": "Modelos de IA generativa treinam sobre obras protegidas e produzem conteúdo que pode infringir direitos autorais de terceiros, ou não ser protegível por lei. No Brasil, a Lei 9.610/98 não prevê autori",
-    "tema": "Direitos autorais e IA generativa",
-    "tema_slug": "direitos-autorais-ia",
-    "nicho": "ia",
-    "data": "2026-06-24T11:01:58Z"
   },
   {
     "slug": "2026-06-24-pix-em-2026-regulacao-limites-e-obrigacoes",
@@ -1530,24 +1260,6 @@
     "data": "2026-06-24T09:25:05Z"
   },
   {
-    "slug": "2026-06-24-estruturacao-societaria-de-empresas-cripto",
-    "titulo": "Estruturação societária de empresas cripto",
-    "resumo": "A correlação entre o mercado de tecnologia e o preço do Bitcoin, evidenciada pela queda registrada em junho de 2026, reforça que empresas cripto precisam de estruturas societárias sólidas para suporta",
-    "tema": "Estruturação societária de empresas cripto",
-    "tema_slug": "estruturacao-empresa-cripto",
-    "nicho": "cripto",
-    "data": "2026-06-24T09:07:30Z"
-  },
-  {
-    "slug": "2026-06-22-tributacao-de-empresas-de-ia-no-brasil-em-2026",
-    "titulo": "Tributação de empresas de IA no Brasil em 2026",
-    "resumo": "Empresas de tecnologia e inteligência artificial enfrentam um ambiente tributário brasileiro complexo, com alíquotas elevadas e regimes fiscais que nem sempre foram desenhados para modelos de negócio ",
-    "tema": "Tributação de empresas de tecnologia e IA",
-    "tema_slug": "tributacao-tech-ia",
-    "nicho": "ia",
-    "data": "2026-06-22T11:01:57Z"
-  },
-  {
     "slug": "2026-06-22-open-finance-dados-financeiros-e-transparencia",
     "titulo": "Open Finance: dados financeiros e transparência",
     "resumo": "O Open Finance consolida no Brasil um modelo regulado de compartilhamento de dados financeiros entre instituições, sob supervisão do Banco Central. Para fintechs, o sistema abre oportunidades de acess",
@@ -1573,33 +1285,6 @@
     "tema_slug": "tributacao-cripto",
     "nicho": "cripto",
     "data": "2026-06-22T10:13:12Z"
-  },
-  {
-    "slug": "2026-06-22-regulacao-de-criptoativos-no-brasil-em-2026",
-    "titulo": "Regulação de criptoativos no Brasil em 2026",
-    "resumo": "Um ex-integrante da Fundação Ethereum alertou publicamente sobre um possível déficit de financiamento para o desenvolvimento central da rede, o que levanta questões relevantes sobre a sustentabilidade",
-    "tema": "Regulação de criptoativos no Brasil",
-    "tema_slug": "regulacao-cripto",
-    "nicho": "cripto",
-    "data": "2026-06-22T09:36:03Z"
-  },
-  {
-    "slug": "2026-06-22-regulacao-de-ia-no-brasil-o-que-muda-em-2026",
-    "titulo": "Regulação de IA no Brasil: o que muda em 2026",
-    "resumo": "O Brasil avança na construção de um marco regulatório específico para inteligência artificial, com impacto direto sobre startups, plataformas e sistemas automatizados de decisão. O PL 2.338/2023, em t",
-    "tema": "Regulação de IA no Brasil",
-    "tema_slug": "regulacao-ia-brasil",
-    "nicho": "ia",
-    "data": "2026-06-22T09:24:30Z"
-  },
-  {
-    "slug": "2026-06-22-regulacao-do-banco-central-para-fintechs-em-2026",
-    "titulo": "Regulação do Banco Central para Fintechs em 2026",
-    "resumo": "O Banco Central do Brasil mantém um arcabouço regulatório ativo para fintechs, com normas que abrangem desde a autorização de funcionamento até requisitos de capital e governança. Em 2026, o ambiente ",
-    "tema": "Regulação do Banco Central para fintechs",
-    "tema_slug": "regulacao-bacen",
-    "nicho": "fintechs",
-    "data": "2026-06-22T09:24:09Z"
   },
   {
     "slug": "2026-06-22-lgpd-e-privacidade-no-e-commerce-o-que-muda",
@@ -1674,15 +1359,6 @@
     "data": "2026-06-19T09:21:58Z"
   },
   {
-    "slug": "2026-06-17-ibs-e-cbs-entenda-os-novos-tributos-da-reforma",
-    "titulo": "IBS e CBS: entenda os novos tributos da reforma",
-    "resumo": "A reforma tributária brasileira criou dois novos tributos — o IBS e a CBS — que substituirão cinco tributos existentes sobre consumo. Ambos seguem a lógica do IVA dual, com não cumulatividade plena e ",
-    "tema": "IBS e CBS — novos tributos",
-    "tema_slug": "ibs-cbs",
-    "nicho": "reforma",
-    "data": "2026-06-17T11:16:25Z"
-  },
-  {
     "slug": "2026-06-17-stf-marco-civil-e-ia-o-que-muda-para-startups",
     "titulo": "STF, Marco Civil e IA: o que muda para startups",
     "resumo": "O STF concluiu o julgamento sobre a responsabilidade civil das plataformas digitais prevista no artigo 19 do Marco Civil da Internet (Lei 12.965/2014). A decisão redefine o regime de responsabilização",
@@ -1708,24 +1384,6 @@
     "tema_slug": "tributacao-ecommerce",
     "nicho": "ecommerce",
     "data": "2026-06-17T10:31:45Z"
-  },
-  {
-    "slug": "2026-06-17-regulacao-de-criptoativos-no-brasil-em-2026",
-    "titulo": "Regulação de criptoativos no Brasil em 2026",
-    "resumo": "O banco Standard Chartered projeta que a tokenização de ativos do mundo real pode levar o mercado DeFi a US$ 2,7 trilhões, com potencial de valorização de 40 vezes em determinadas criptomoedas. No Bra",
-    "tema": "Regulação de criptoativos no Brasil",
-    "tema_slug": "regulacao-cripto",
-    "nicho": "cripto",
-    "data": "2026-06-17T10:01:14Z"
-  },
-  {
-    "slug": "2026-06-17-direitos-autorais-e-ia-generativa-no-brasil",
-    "titulo": "Direitos autorais e IA generativa no Brasil",
-    "resumo": "A expansão da IA generativa coloca em xeque as regras tradicionais de direitos autorais no Brasil, especialmente quanto ao uso de obras protegidas para treinar modelos. A Lei 9.610/98 não prevê expres",
-    "tema": "Direitos autorais e IA generativa",
-    "tema_slug": "direitos-autorais-ia",
-    "nicho": "ia",
-    "data": "2026-06-17T03:02:23Z"
   },
   {
     "slug": "2026-06-17-regulacao-do-bcb-para-fintechs-de-wealth",
@@ -1818,15 +1476,6 @@
     "data": "2026-06-15T11:01:57Z"
   },
   {
-    "slug": "2026-06-15-open-finance-e-dados-financeiros-no-brasil",
-    "titulo": "Open Finance e dados financeiros no Brasil",
-    "resumo": "O Open Finance consolida no Brasil um ecossistema regulado de compartilhamento de dados financeiros entre instituições autorizadas pelo Banco Central. Juridicamente, o sistema opera sob a Resolução BC",
-    "tema": "Open Finance e dados financeiros",
-    "tema_slug": "open-finance",
-    "nicho": "fintechs",
-    "data": "2026-06-15T10:46:31Z"
-  },
-  {
     "slug": "2026-06-15-lgpd-no-e-commerce-riscos-reais-e-como-evita-los",
     "titulo": "LGPD no E-commerce: riscos reais e como evitá-los",
     "resumo": "Uma vulnerabilidade no código da sua loja virtual pode expor dados de clientes e gerar sanções severas previstas na LGPD, chegando a R$ 50 milhões por infração. O e-commerce brasileiro concentra risco",
@@ -1834,15 +1483,6 @@
     "tema_slug": "lgpd-ecommerce",
     "nicho": "ecommerce",
     "data": "2026-06-15T10:31:33Z"
-  },
-  {
-    "slug": "2026-06-15-estruturacao-societaria-de-empresas-cripto",
-    "titulo": "Estruturação societária de empresas cripto",
-    "resumo": "O movimento Juntos Por Cripto reuniu empresas e profissionais do setor cripto brasileiro em um evento em São Paulo, evidenciando o crescimento do ecossistema organizado. Do ponto de vista jurídico, es",
-    "tema": "Estruturação societária de empresas cripto",
-    "tema_slug": "estruturacao-empresa-cripto",
-    "nicho": "cripto",
-    "data": "2026-06-15T10:01:13Z"
   },
   {
     "slug": "2026-06-15-captacao-e-investimento-em-fintechs-no-brasil",
@@ -1863,15 +1503,6 @@
     "data": "2026-06-15T03:21:41Z"
   },
   {
-    "slug": "2026-06-15-tributacao-no-e-commerce-guia-completo",
-    "titulo": "Tributação no E-commerce: Guia Completo",
-    "resumo": "A tributação no e-commerce segue as mesmas bases do comércio físico, mas apresenta particularidades relevantes, especialmente no ICMS interestadual e nas obrigações acessórias digitais. Escolher o reg",
-    "tema": "Tributação no e-commerce",
-    "tema_slug": "tributacao-ecommerce",
-    "nicho": "ecommerce",
-    "data": "2026-06-15T03:21:38Z"
-  },
-  {
     "slug": "2026-06-15-ibs-e-cbs-o-que-sao-os-novos-tributos",
     "titulo": "IBS e CBS: o que são os novos tributos",
     "resumo": "A reforma tributária brasileira, aprovada pela Emenda Constitucional 132/2023, criou dois novos tributos sobre o consumo: o IBS (Imposto sobre Bens e Serviços) e a CBS (Contribuição sobre Bens e Servi",
@@ -1890,24 +1521,6 @@
     "data": "2026-06-15T03:20:59Z"
   },
   {
-    "slug": "2026-06-14-ibs-e-cbs-entenda-os-novos-tributos-da-reforma",
-    "titulo": "IBS e CBS: entenda os novos tributos da reforma",
-    "resumo": "A reforma tributária criou dois novos tributos, o IBS e a CBS, que substituirão gradualmente o ICMS, o ISS, o PIS e o COFINS entre 2026 e 2033. Ambos seguem o modelo de IVA dual, com não cumulatividad",
-    "tema": "IBS e CBS — novos tributos",
-    "tema_slug": "ibs-cbs",
-    "nicho": "reforma",
-    "data": "2026-06-14T11:16:17Z"
-  },
-  {
-    "slug": "2026-06-14-tributacao-de-empresas-de-tecnologia-e-ia",
-    "titulo": "Tributação de empresas de tecnologia e IA",
-    "resumo": "Pequenas empresas e startups de IA estão adotando ferramentas como o Notion AI para automatizar tarefas administrativas, o que levanta questões tributárias relevantes no Brasil. A contratação de soluç",
-    "tema": "Tributação de empresas de tecnologia e IA",
-    "tema_slug": "tributacao-tech-ia",
-    "nicho": "ia",
-    "data": "2026-06-14T11:01:51Z"
-  },
-  {
     "slug": "2026-06-14-tributacao-de-fintechs-no-brasil-o-que-saber",
     "titulo": "Tributação de Fintechs no Brasil: O Que Saber",
     "resumo": "Fintechs brasileiras enfrentam um regime tributário complexo, com incidência de PIS/COFINS sobre receitas financeiras, ISS sobre serviços digitais e IOF sobre operações de crédito. Compreender essas o",
@@ -1917,24 +1530,6 @@
     "data": "2026-06-14T10:46:42Z"
   },
   {
-    "slug": "2026-06-14-tributacao-no-e-commerce-guia-completo",
-    "titulo": "Tributação no E-commerce: guia completo",
-    "resumo": "A tributação no e-commerce brasileiro envolve impostos federais, estaduais e municipais que variam conforme o regime fiscal, o tipo de produto e o destino da venda. Conhecer essas regras é essencial p",
-    "tema": "Tributação no e-commerce",
-    "tema_slug": "tributacao-ecommerce",
-    "nicho": "ecommerce",
-    "data": "2026-06-14T10:31:50Z"
-  },
-  {
-    "slug": "2026-06-14-tributacao-de-criptoativos-no-brasil-em-2026",
-    "titulo": "Tributação de Criptoativos no Brasil em 2026",
-    "resumo": "Brad Garlinghouse, CEO da Ripple, criticou publicamente Jamie Dimon, do JPMorgan, por se opor à legislação cripto nos EUA, acusando-o de defender interesses corporativos em detrimento da inovação. O e",
-    "tema": "Tributação de criptoativos",
-    "tema_slug": "tributacao-cripto",
-    "nicho": "cripto",
-    "data": "2026-06-14T10:01:17Z"
-  },
-  {
     "slug": "2026-06-14-credito-digital-e-bnpl-regulacao-e-riscos-no-brasil",
     "titulo": "Crédito digital e BNPL: regulação e riscos no Brasil",
     "resumo": "O modelo Buy Now, Pay Later (BNPL) avança no Brasil sem regulação específica, mas sujeito a normas do Banco Central aplicáveis a SCDs, SEPs e arranjos de pagamento. Fintechs que operam crédito parcela",
@@ -1942,15 +1537,6 @@
     "tema_slug": "credito-digital",
     "nicho": "fintechs",
     "data": "2026-06-14T03:20:03Z"
-  },
-  {
-    "slug": "2026-06-14-regulacao-de-ia-no-brasil-o-que-muda-em-2026",
-    "titulo": "Regulação de IA no Brasil: o que muda em 2026",
-    "resumo": "O Brasil avança na construção de um marco regulatório para inteligência artificial, com o PL 2.338/2023 em tramitação no Congresso e normas setoriais já em vigor. Para empresas de IA, isso significa o",
-    "tema": "Regulação de IA no Brasil",
-    "tema_slug": "regulacao-ia-brasil",
-    "nicho": "ia",
-    "data": "2026-06-14T03:19:57Z"
   },
   {
     "slug": "2026-06-14-taxa-das-blusinhas-r-2-bi-e-o-fim-da-cobranca",
@@ -1971,15 +1557,6 @@
     "data": "2026-06-14T03:19:41Z"
   },
   {
-    "slug": "2026-06-14-ibs-e-cbs-o-que-sao-os-novos-tributos",
-    "titulo": "IBS e CBS: o que são os novos tributos",
-    "resumo": "A reforma tributária criou dois novos tributos sobre consumo: o IBS, de competência dos estados e municípios, e a CBS, de competência federal. Juntos, eles substituem cinco tributos existentes e unifi",
-    "tema": "IBS e CBS — novos tributos",
-    "tema_slug": "ibs-cbs",
-    "nicho": "reforma",
-    "data": "2026-06-14T03:19:39Z"
-  },
-  {
     "slug": "2026-06-13-transicao-tributaria-2026-2033-o-que-muda-ja",
     "titulo": "Transição tributária 2026-2033: o que muda já",
     "resumo": "O STJ manteve o limite de 75% para aproveitamento de créditos de PIS/Cofins em serviços de transporte de cargas subcontratados, decisão que afeta diretamente transportadoras e embarcadores neste prime",
@@ -1987,33 +1564,6 @@
     "tema_slug": "transicao-tributaria",
     "nicho": "reforma",
     "data": "2026-06-13T11:16:22Z"
-  },
-  {
-    "slug": "2026-06-13-direitos-autorais-e-ia-generativa-no-brasil",
-    "titulo": "Direitos autorais e IA generativa no Brasil",
-    "resumo": "O uso de obras protegidas no treinamento de modelos de IA generativa levanta questões sérias de direito autoral no Brasil, ainda sem regulamentação específica. A Lei nº 9.610/98 não prevê exceções cla",
-    "tema": "Direitos autorais e IA generativa",
-    "tema_slug": "direitos-autorais-ia",
-    "nicho": "ia",
-    "data": "2026-06-13T11:01:46Z"
-  },
-  {
-    "slug": "2026-06-13-regulacao-do-banco-central-para-fintechs",
-    "titulo": "Regulação do Banco Central para Fintechs",
-    "resumo": "A valorização das ações de fintechs brasileiras na Nasdaq, com destaque para o PicPay e sua alta de 16% em uma semana, evidencia o amadurecimento do setor e a confiança dos investidores no arcabouço r",
-    "tema": "Regulação do Banco Central para fintechs",
-    "tema_slug": "regulacao-bacen",
-    "nicho": "fintechs",
-    "data": "2026-06-13T10:46:42Z"
-  },
-  {
-    "slug": "2026-06-13-tributacao-no-e-commerce-guia-completo",
-    "titulo": "Tributação no E-commerce: guia completo",
-    "resumo": "A tributação no e-commerce envolve tributos federais, estaduais e municipais que variam conforme o regime tributário, o tipo de produto e o destino da venda. Conhecer essas regras evita autuações fisc",
-    "tema": "Tributação no e-commerce",
-    "tema_slug": "tributacao-ecommerce",
-    "nicho": "ecommerce",
-    "data": "2026-06-13T10:31:44Z"
   },
   {
     "slug": "2026-06-13-tokenizacao-de-ativos-riscos-juridicos-no-brasil",
@@ -2088,15 +1638,6 @@
     "data": "2026-06-12T10:46:33Z"
   },
   {
-    "slug": "2026-06-12-tributacao-no-e-commerce-guia-completo",
-    "titulo": "Tributação no E-commerce: Guia Completo",
-    "resumo": "A tributação no e-commerce segue as mesmas regras gerais do comércio físico, mas apresenta particularidades importantes, especialmente nas operações interestaduais e na incidência do DIFAL. Conhecer o",
-    "tema": "Tributação no e-commerce",
-    "tema_slug": "tributacao-ecommerce",
-    "nicho": "ecommerce",
-    "data": "2026-06-12T10:31:44Z"
-  },
-  {
     "slug": "2026-06-12-ia-no-trabalho-riscos-trabalhistas-ao-escalar-rapido",
     "titulo": "IA no trabalho: riscos trabalhistas ao escalar rápido",
     "resumo": "Startups que crescem rápido sem alinhar processos de gestão de pessoas acumulam passivos trabalhistas silenciosos, especialmente quando adotam IA para automatizar funções antes exercidas por humanos. ",
@@ -2124,24 +1665,6 @@
     "data": "2026-06-12T03:24:31Z"
   },
   {
-    "slug": "2026-06-12-ibs-e-cbs-entenda-os-novos-tributos-da-reforma",
-    "titulo": "IBS e CBS: entenda os novos tributos da reforma",
-    "resumo": "A reforma tributária brasileira criou dois novos tributos, o IBS e a CBS, que substituirão cinco tributos existentes ao longo de um período de transição até 2033. Ambos seguem o modelo de IVA dual, co",
-    "tema": "IBS e CBS — novos tributos",
-    "tema_slug": "ibs-cbs",
-    "nicho": "reforma",
-    "data": "2026-06-12T03:22:21Z"
-  },
-  {
-    "slug": "2026-06-12-estruturacao-societaria-de-empresas-cripto",
-    "titulo": "Estruturação societária de empresas cripto",
-    "resumo": "A tributação de criptoativos no Brasil exige planejamento societário desde o início, pois o tipo de pessoa jurídica escolhido define alíquotas, obrigações acessórias e exposição regulatória. Empresas ",
-    "tema": "Estruturação societária de empresas cripto",
-    "tema_slug": "estruturacao-empresa-cripto",
-    "nicho": "cripto",
-    "data": "2026-06-12T03:22:19Z"
-  },
-  {
     "slug": "2026-06-11-funrural-e-reforma-tributaria-o-que-muda-no-agro",
     "titulo": "Funrural e reforma tributária: o que muda no agro",
     "resumo": "A Lei Complementar 224/2025 instituiu redução linear de benefícios fiscais que afetam diretamente o Funrural e o agronegócio brasileiro. A medida amplia a carga tributária sobre produtores rurais em u",
@@ -2167,15 +1690,6 @@
     "tema_slug": "investimento-fintech",
     "nicho": "fintechs",
     "data": "2026-06-11T10:46:40Z"
-  },
-  {
-    "slug": "2026-06-11-tributacao-no-e-commerce-guia-completo",
-    "titulo": "Tributação no e-commerce: guia completo",
-    "resumo": "A tributação no e-commerce brasileiro envolve impostos federais, estaduais e municipais, com regras específicas para vendas interestaduais e operações digitais. Escolher o regime fiscal correto e cump",
-    "tema": "Tributação no e-commerce",
-    "tema_slug": "tributacao-ecommerce",
-    "nicho": "ecommerce",
-    "data": "2026-06-11T10:31:54Z"
   },
   {
     "slug": "2026-06-11-defi-stablecoins-e-rwa-o-que-muda-no-brasil",
@@ -2214,15 +1728,6 @@
     "data": "2026-06-11T03:22:49Z"
   },
   {
-    "slug": "2026-06-11-tributacao-de-criptoativos-no-brasil-em-2026",
-    "titulo": "Tributação de Criptoativos no Brasil em 2026",
-    "resumo": "A CryptoQuant identificou sinais de que o Bitcoin pode estar próximo do fundo do ciclo de baixa, mas alerta que grandes detentores individuais ainda representam um fator de risco para o preço. No Bras",
-    "tema": "Tributação de criptoativos",
-    "tema_slug": "tributacao-cripto",
-    "nicho": "cripto",
-    "data": "2026-06-11T03:20:53Z"
-  },
-  {
     "slug": "2026-06-11-ibs-e-cbs-impacto-real-no-setor-aereo",
     "titulo": "IBS e CBS: impacto real no setor aéreo",
     "resumo": "Jerome Cadier, CEO da Latam no Brasil, afirmou que a reforma tributária deve aumentar o custo das passagens aéreas. O alerta expõe um problema estrutural: o setor aéreo tem características que dificul",
@@ -2241,24 +1746,6 @@
     "data": "2026-06-10T11:16:27Z"
   },
   {
-    "slug": "2026-06-10-regulacao-de-ia-no-brasil-o-que-muda-em-2026",
-    "titulo": "Regulação de IA no Brasil: o que muda em 2026",
-    "resumo": "O Brasil caminha para consolidar seu marco legal de inteligência artificial, com o PL 2.338/2023 em estágio avançado no Congresso e a ANPD ampliando sua atuação sobre sistemas automatizados. Para empr",
-    "tema": "Regulação de IA no Brasil",
-    "tema_slug": "regulacao-ia-brasil",
-    "nicho": "ia",
-    "data": "2026-06-10T11:01:56Z"
-  },
-  {
-    "slug": "2026-06-10-credito-digital-e-bnpl-regulacao-e-riscos-no-brasil",
-    "titulo": "Crédito Digital e BNPL: Regulação e Riscos no Brasil",
-    "resumo": "O modelo Buy Now, Pay Later (BNPL) cresce no Brasil, mas opera em zona de atenção regulatória crescente do Banco Central e do BACEN. Fintechs que oferecem crédito parcelado sem cobrar juros explícitos",
-    "tema": "Crédito digital e BNPL",
-    "tema_slug": "credito-digital",
-    "nicho": "fintechs",
-    "data": "2026-06-10T10:46:46Z"
-  },
-  {
     "slug": "2026-06-10-importacao-cross-border-regras-e-riscos-no-brasil",
     "titulo": "Importação Cross-Border: Regras e Riscos no Brasil",
     "resumo": "O comércio cross-border envolve obrigações fiscais e aduaneiras específicas que muitos lojistas brasileiros desconhecem. A instabilidade política e econômica em países fornecedores, como o México, afe",
@@ -2266,15 +1753,6 @@
     "tema_slug": "cross-border",
     "nicho": "ecommerce",
     "data": "2026-06-10T10:31:37Z"
-  },
-  {
-    "slug": "2026-06-10-regulacao-de-criptoativos-no-brasil-em-2026",
-    "titulo": "Regulação de criptoativos no Brasil em 2026",
-    "resumo": "Luana Lopes Lara, fundadora da Kalshi, afirmou que proibir mercados de criptoativos é a pior escolha regulatória possível, pois elimina arrecadação tributária, remove proteção ao consumidor e apaga o ",
-    "tema": "Regulação de criptoativos no Brasil",
-    "tema_slug": "regulacao-cripto",
-    "nicho": "cripto",
-    "data": "2026-06-10T10:01:20Z"
   },
   {
     "slug": "2026-06-10-lgpd-e-ia-no-marketing-riscos-e-obrigacoes",
@@ -2295,15 +1773,6 @@
     "data": "2026-06-10T03:21:16Z"
   },
   {
-    "slug": "2026-06-10-regulacao-do-banco-central-para-fintechs-em-2026",
-    "titulo": "Regulação do Banco Central para fintechs em 2026",
-    "resumo": "A saída do Banco Master do capital da Biomm, seguida de projeção de crescimento de 3.000% no Ebitda, evidencia como a exposição regulatória de instituições financeiras pode contaminar empresas do seto",
-    "tema": "Regulação do Banco Central para fintechs",
-    "tema_slug": "regulacao-bacen",
-    "nicho": "fintechs",
-    "data": "2026-06-10T03:21:12Z"
-  },
-  {
     "slug": "2026-06-10-cvm-regulara-tokenizacao-e-criptomoedas-com-ia",
     "titulo": "CVM regulará tokenização e criptomoedas com IA",
     "resumo": "Otto Lobo, novo presidente da CVM, anunciou em junho de 2026 que a autarquia avançará na regulação de tokenização de ativos e criptomoedas, utilizando inteligência artificial como suporte ao processo ",
@@ -2311,15 +1780,6 @@
     "tema_slug": "tokenizacao",
     "nicho": "cripto",
     "data": "2026-06-10T03:19:36Z"
-  },
-  {
-    "slug": "2026-06-10-simples-nacional-e-regimes-especiais-na-reforma",
-    "titulo": "Simples Nacional e Regimes Especiais na Reforma",
-    "resumo": "A reforma tributária (EC 132/2023) não extingue o Simples Nacional, mas altera profundamente sua lógica de funcionamento e seus efeitos sobre a cadeia de créditos. Empresas optantes precisam avaliar s",
-    "tema": "Regimes especiais e o Simples Nacional",
-    "tema_slug": "simples-reforma",
-    "nicho": "reforma",
-    "data": "2026-06-10T03:19:23Z"
   },
   {
     "slug": "2026-06-09-imposto-seletivo-bebidas-alcoolicas-e-as-duas-aliquotas",
@@ -2349,15 +1809,6 @@
     "data": "2026-06-09T10:46:38Z"
   },
   {
-    "slug": "2026-06-09-tributacao-no-e-commerce-guia-completo",
-    "titulo": "Tributação no E-commerce: Guia Completo",
-    "resumo": "A tributação no e-commerce segue as mesmas regras gerais do comércio físico, mas com particularidades importantes ligadas ao ICMS interestadual, ao tipo de produto ou serviço vendido e ao regime tribu",
-    "tema": "Tributação no e-commerce",
-    "tema_slug": "tributacao-ecommerce",
-    "nicho": "ecommerce",
-    "data": "2026-06-09T10:31:47Z"
-  },
-  {
     "slug": "2026-06-09-compliance-e-pld-cripto-o-que-muda-em-2026",
     "titulo": "Compliance e PLD Cripto: o que muda em 2026",
     "resumo": "O Congresso americano retomou em 2025 e 2026 as discussões sobre tributação de criptoativos, com revisão de projetos de lei no Comitê de Finanças. No Brasil, esse movimento externo reforça a urgência ",
@@ -2365,15 +1816,6 @@
     "tema_slug": "compliance-cripto",
     "nicho": "cripto",
     "data": "2026-06-09T10:01:33Z"
-  },
-  {
-    "slug": "2026-06-09-direitos-autorais-e-ia-generativa-no-brasil",
-    "titulo": "Direitos autorais e IA generativa no Brasil",
-    "resumo": "A expansão da IA generativa no setor de saúde, ilustrada pelo programa da AWS que levou healthtechs brasileiras a Londres, expõe uma lacuna jurídica crítica: o Brasil ainda não possui legislação espec",
-    "tema": "Direitos autorais e IA generativa",
-    "tema_slug": "direitos-autorais-ia",
-    "nicho": "ia",
-    "data": "2026-06-09T03:19:45Z"
   },
   {
     "slug": "2026-06-09-insurtech-no-brasil-regulacao-e-oportunidades",
@@ -2394,33 +1836,6 @@
     "data": "2026-06-09T03:19:26Z"
   },
   {
-    "slug": "2026-06-09-estruturacao-societaria-de-empresas-cripto",
-    "titulo": "Estruturação societária de empresas cripto",
-    "resumo": "Uma companhia brasileira identificada como MicroStrategy tupiniquim ultrapassou 3.800 bitcoins em reserva após adquirir mais 41 unidades, sinalizando que a estratégia de acumulação corporativa de crip",
-    "tema": "Estruturação societária de empresas cripto",
-    "tema_slug": "estruturacao-empresa-cripto",
-    "nicho": "cripto",
-    "data": "2026-06-09T03:18:17Z"
-  },
-  {
-    "slug": "2026-06-09-ibs-e-cbs-entenda-os-novos-tributos-da-reforma",
-    "titulo": "IBS e CBS: entenda os novos tributos da reforma",
-    "resumo": "A reforma tributária brasileira criou dois novos tributos, o IBS e a CBS, que substituirão gradualmente o ICMS, o ISS, o PIS, o COFINS e o IPI até 2033. Ambos seguem a lógica do IVA dual, com não cumu",
-    "tema": "IBS e CBS — novos tributos",
-    "tema_slug": "ibs-cbs",
-    "nicho": "reforma",
-    "data": "2026-06-09T03:17:55Z"
-  },
-  {
-    "slug": "2026-06-08-ibs-e-cbs-entenda-os-novos-tributos-da-reforma",
-    "titulo": "IBS e CBS: entenda os novos tributos da reforma",
-    "resumo": "A reforma tributária brasileira cria dois novos tributos sobre consumo: o IBS (Imposto sobre Bens e Serviços) e a CBS (Contribuição sobre Bens e Serviços). Juntos, eles substituem PIS, COFINS, IPI, IC",
-    "tema": "IBS e CBS — novos tributos",
-    "tema_slug": "ibs-cbs",
-    "nicho": "reforma",
-    "data": "2026-06-08T11:16:19Z"
-  },
-  {
     "slug": "2026-06-08-lgpd-e-protecao-de-dados-em-ia-guia-pratico",
     "titulo": "LGPD e proteção de dados em IA: guia prático",
     "resumo": "A LGPD impõe obrigações concretas a qualquer empresa que use inteligência artificial para tratar dados pessoais, independentemente do porte ou setor. As bases legais, os direitos dos titulares e as ex",
@@ -2439,15 +1854,6 @@
     "data": "2026-06-08T10:46:38Z"
   },
   {
-    "slug": "2026-06-08-tributacao-no-e-commerce-guia-completo",
-    "titulo": "Tributação no E-commerce: Guia Completo",
-    "resumo": "A tributação no e-commerce brasileiro envolve múltiplos impostos federais, estaduais e municipais, com regras específicas para vendas interestaduais e operações digitais. Conhecer cada tributo e suas ",
-    "tema": "Tributação no e-commerce",
-    "tema_slug": "tributacao-ecommerce",
-    "nicho": "ecommerce",
-    "data": "2026-06-08T10:31:50Z"
-  },
-  {
     "slug": "2026-06-08-defi-e-stablecoins-riscos-juridicos-no-brasil",
     "titulo": "DeFi e Stablecoins: riscos jurídicos no Brasil",
     "resumo": "A TC SA registrou prejuízo de aproximadamente 80% sobre o investimento realizado na compra de 1% do Mercado Bitcoin, evidenciando os riscos de valoração e liquidez em participações no setor cripto. O ",
@@ -2455,15 +1861,6 @@
     "tema_slug": "defi-stablecoin",
     "nicho": "cripto",
     "data": "2026-06-08T10:01:21Z"
-  },
-  {
-    "slug": "2026-06-08-investimento-em-ia-e-deep-tech-no-brasil-2026",
-    "titulo": "Investimento em IA e Deep Tech no Brasil 2026",
-    "resumo": "O Grupo Abra, controlador da Gol Linhas Aéreas, avança na aquisição da chilena Sky Airline com previsão de conclusão até agosto de 2026. A operação ilustra como movimentos de M&A em setores tradiciona",
-    "tema": "Investimento em IA e deep tech",
-    "tema_slug": "investimento-ia",
-    "nicho": "ia",
-    "data": "2026-06-08T03:17:58Z"
   },
   {
     "slug": "2026-06-08-captacao-e-ma-em-fintechs-licoes-do-caso-abra",
@@ -2475,15 +1872,6 @@
     "data": "2026-06-08T03:17:44Z"
   },
   {
-    "slug": "2026-06-08-tributacao-de-criptoativos-no-brasil-guia-completo",
-    "titulo": "Tributação de Criptoativos no Brasil: Guia Completo",
-    "resumo": "No Brasil, criptoativos são tratados como bens para fins tributários, com incidência de Imposto de Renda sobre ganhos de capital conforme faixas definidas pela legislação. Pessoas físicas contam com i",
-    "tema": "Tributação de criptoativos",
-    "tema_slug": "tributacao-cripto",
-    "nicho": "cripto",
-    "data": "2026-06-08T03:16:44Z"
-  },
-  {
     "slug": "2026-06-08-imposto-seletivo-o-que-sua-empresa-precisa-saber",
     "titulo": "Imposto Seletivo: o que sua empresa precisa saber",
     "resumo": "Enquanto o debate corporativo sobre a reforma tributária se concentra no IBS e na CBS, o Imposto Seletivo segue subestimado, apesar de representar risco financeiro relevante para setores específicos. ",
@@ -2491,24 +1879,6 @@
     "tema_slug": "ibs-cbs",
     "nicho": "reforma",
     "data": "2026-06-08T03:16:24Z"
-  },
-  {
-    "slug": "2026-06-07-ibs-e-cbs-entenda-os-novos-tributos-da-reforma",
-    "titulo": "IBS e CBS: entenda os novos tributos da reforma",
-    "resumo": "A reforma tributária brasileira criou dois novos tributos sobre consumo: o IBS (Imposto sobre Bens e Serviços) e a CBS (Contribuição sobre Bens e Serviços). Juntos, eles substituem cinco tributos vige",
-    "tema": "IBS e CBS — novos tributos",
-    "tema_slug": "ibs-cbs",
-    "nicho": "reforma",
-    "data": "2026-06-07T11:16:18Z"
-  },
-  {
-    "slug": "2026-06-07-tributacao-de-empresas-de-ia-o-que-muda-em-2026",
-    "titulo": "Tributação de empresas de IA: o que muda em 2026",
-    "resumo": "A automação por IA está reduzindo vagas de nível inicial em setores como jurídico, contábil e tecnologia, segundo a MIT Technology Review Brasil. Esse movimento impacta diretamente a folha de pagament",
-    "tema": "Tributação de empresas de tecnologia e IA",
-    "tema_slug": "tributacao-tech-ia",
-    "nicho": "ia",
-    "data": "2026-06-07T11:01:52Z"
   },
   {
     "slug": "2026-06-07-tributacao-de-fintechs-o-que-o-pix-revela",
@@ -2520,33 +1890,6 @@
     "data": "2026-06-07T10:46:46Z"
   },
   {
-    "slug": "2026-06-07-tributacao-no-e-commerce-guia-completo",
-    "titulo": "Tributação no E-commerce: Guia Completo",
-    "resumo": "A tributação no e-commerce brasileiro envolve impostos federais, estaduais e municipais que incidem sobre vendas online de forma específica. Conhecer o regime tributário adequado e as obrigações acess",
-    "tema": "Tributação no e-commerce",
-    "tema_slug": "tributacao-ecommerce",
-    "nicho": "ecommerce",
-    "data": "2026-06-07T10:31:33Z"
-  },
-  {
-    "slug": "2026-06-07-tributacao-de-criptoativos-no-brasil-guia-completo",
-    "titulo": "Tributação de Criptoativos no Brasil: Guia Completo",
-    "resumo": "A tributação de criptoativos no Brasil é regulada principalmente pela Instrução Normativa RFB nº 1.888/2019 e pelas regras de ganho de capital previstas na Lei nº 8.981/1995. Pessoas físicas pagam alí",
-    "tema": "Tributação de criptoativos",
-    "tema_slug": "tributacao-cripto",
-    "nicho": "cripto",
-    "data": "2026-06-07T04:00:50Z"
-  },
-  {
-    "slug": "2026-06-07-regulacao-de-ia-no-brasil-o-que-muda-em-2026",
-    "titulo": "Regulação de IA no Brasil: o que muda em 2026",
-    "resumo": "O Brasil avança na regulação de inteligência artificial com o PL 2.338/2023, que estabelece obrigações por nível de risco para sistemas de IA. Empresas que ignorarem o marco regulatório enfrentam sanç",
-    "tema": "Regulação de IA no Brasil",
-    "tema_slug": "regulacao-ia-brasil",
-    "nicho": "ia",
-    "data": "2026-06-07T03:31:24Z"
-  },
-  {
     "slug": "2026-06-07-credito-digital-e-bnpl-regulacao-e-contabilidade",
     "titulo": "Crédito digital e BNPL: regulação e contabilidade",
     "resumo": "O modelo Buy Now, Pay Later (BNPL) cresce no Brasil, mas opera em zona regulatória ainda em consolidação pelo Banco Central e pelo CMN. Fintechs que oferecem crédito parcelado sem juros explícitos pre",
@@ -2554,15 +1897,6 @@
     "tema_slug": "credito-digital",
     "nicho": "fintechs",
     "data": "2026-06-07T03:31:05Z"
-  },
-  {
-    "slug": "2026-06-06-simples-nacional-e-regimes-especiais-na-reforma-tributaria",
-    "titulo": "Simples Nacional e regimes especiais na reforma tributária",
-    "resumo": "O CARF estuda a criação de turmas especializadas para julgar litígios envolvendo a CBS, sinalizando que o contencioso tributário do novo sistema já preocupa a administração pública. Para empresas do S",
-    "tema": "Regimes especiais e o Simples Nacional",
-    "tema_slug": "simples-reforma",
-    "nicho": "reforma",
-    "data": "2026-06-06T11:16:21Z"
   },
   {
     "slug": "2026-06-06-lgpd-e-ia-nos-escritorios-o-que-muda-na-pratica",
@@ -2583,15 +1917,6 @@
     "data": "2026-06-06T10:46:29Z"
   },
   {
-    "slug": "2026-06-06-tributacao-no-e-commerce-guia-completo",
-    "titulo": "Tributação no E-commerce: Guia Completo",
-    "resumo": "A tributação no e-commerce segue as mesmas bases do comércio físico, mas apresenta particularidades relevantes, especialmente no ICMS interestadual e nas obrigações acessórias digitais. Conhecer o reg",
-    "tema": "Tributação no e-commerce",
-    "tema_slug": "tributacao-ecommerce",
-    "nicho": "ecommerce",
-    "data": "2026-06-06T10:31:48Z"
-  },
-  {
     "slug": "2026-06-06-zcash-pld-e-compliance-o-que-a-falha-revela",
     "titulo": "Zcash, PLD e compliance: o que a falha revela",
     "resumo": "Em outubro de 2025, o Zcash revelou uma vulnerabilidade crítica em seu protocolo de privacidade, provocando queda expressiva de valor e renovando o debate regulatório sobre moedas de privacidade. No B",
@@ -2608,24 +1933,6 @@
     "tema_slug": "ia-trabalhista",
     "nicho": "ia",
     "data": "2026-06-06T03:29:40Z"
-  },
-  {
-    "slug": "2026-06-06-pix-em-2026-regulacao-riscos-e-oportunidades",
-    "titulo": "PIX em 2026: regulação riscos e oportunidades",
-    "resumo": "O PIX consolida-se como principal meio de pagamento do Brasil, com mais de 60 bilhões de transações realizadas desde seu lançamento. O Banco Central segue ampliando o ecossistema com novas modalidades",
-    "tema": "PIX e meios de pagamento",
-    "tema_slug": "pix-pagamentos",
-    "nicho": "fintechs",
-    "data": "2026-06-06T03:29:24Z"
-  },
-  {
-    "slug": "2026-06-06-ibs-e-cbs-entenda-os-novos-tributos-da-reforma",
-    "titulo": "IBS e CBS: entenda os novos tributos da reforma",
-    "resumo": "A reforma tributária brasileira criou dois novos tributos sobre o consumo: o IBS (Imposto sobre Bens e Serviços) e a CBS (Contribuição sobre Bens e Serviços). Juntos, eles substituem cinco tributos ex",
-    "tema": "IBS e CBS — novos tributos",
-    "tema_slug": "ibs-cbs",
-    "nicho": "reforma",
-    "data": "2026-06-06T03:28:39Z"
   },
   {
     "slug": "2026-06-06-tokenizacao-no-varejo-parceria-inedita-no-brasil",
@@ -2653,33 +1960,6 @@
     "tema_slug": "ai-act",
     "nicho": "ia",
     "data": "2026-06-05T11:01:52Z"
-  },
-  {
-    "slug": "2026-06-05-insurtech-no-brasil-regulacao-e-oportunidades",
-    "titulo": "Insurtech no Brasil: regulação e oportunidades",
-    "resumo": "O mercado de seguros digitais (insurtech) cresce no Brasil impulsionado pela digitalização e pela abertura regulatória promovida pela SUSEP. Fintechs que operam ou pretendem operar nesse segmento prec",
-    "tema": "Seguros digitais (insurtech)",
-    "tema_slug": "insurtech",
-    "nicho": "fintechs",
-    "data": "2026-06-05T10:46:33Z"
-  },
-  {
-    "slug": "2026-06-05-tributacao-no-e-commerce-guia-completo",
-    "titulo": "Tributação no E-commerce: Guia Completo",
-    "resumo": "A tributação no e-commerce segue regras específicas que variam conforme o regime tributário, o tipo de produto ou serviço vendido e o destino da mercadoria. Empresas que operam lojas virtuais precisam",
-    "tema": "Tributação no e-commerce",
-    "tema_slug": "tributacao-ecommerce",
-    "nicho": "ecommerce",
-    "data": "2026-06-05T10:31:49Z"
-  },
-  {
-    "slug": "2026-06-05-estruturacao-societaria-de-empresas-cripto",
-    "titulo": "Estruturação societária de empresas cripto",
-    "resumo": "A estruturação societária de empresas cripto no Brasil exige atenção à Lei 14.478/2022, às normas do Banco Central e às obrigações contábeis e fiscais específicas do setor. Escolher o tipo societário ",
-    "tema": "Estruturação societária de empresas cripto",
-    "tema_slug": "estruturacao-empresa-cripto",
-    "nicho": "cripto",
-    "data": "2026-06-05T10:01:20Z"
   },
   {
     "slug": "2026-06-05-contratos-e-responsabilidade-em-ia-o-que-saber",
@@ -2718,15 +1998,6 @@
     "data": "2026-06-05T03:26:58Z"
   },
   {
-    "slug": "2026-06-04-ibs-e-cbs-entenda-os-novos-tributos-da-reforma",
-    "titulo": "IBS e CBS: entenda os novos tributos da reforma",
-    "resumo": "A Emenda Constitucional 132/2023 criou o IBS e a CBS para substituir cinco tributos que hoje oneram o consumo no Brasil: PIS, COFINS, IPI, ICMS e ISS. Os dois novos tributos operam sobre uma base ampl",
-    "tema": "IBS e CBS — novos tributos",
-    "tema_slug": "ibs-cbs",
-    "nicho": "reforma",
-    "data": "2026-06-04T11:16:28Z"
-  },
-  {
     "slug": "2026-06-04-tributacao-de-empresas-de-ia-no-brasil-o-que-muda",
     "titulo": "Tributação de empresas de IA no Brasil o que muda",
     "resumo": "O debate global sobre o impacto da IA no mercado de trabalho, repercutido pelo MIT Technology Review Brasil, tem reflexo direto na tributação de empresas de tecnologia no país. No Brasil, a escolha do",
@@ -2761,15 +2032,6 @@
     "tema_slug": "tributacao-cripto",
     "nicho": "cripto",
     "data": "2026-06-04T10:01:17Z"
-  },
-  {
-    "slug": "2026-06-04-regulacao-de-ia-no-brasil-o-que-muda-em-2026",
-    "titulo": "Regulação de IA no Brasil: o que muda em 2026",
-    "resumo": "O Brasil consolida em 2026 um arcabouço regulatório para inteligência artificial, com o PL 2338/2023 em fase avançada no Congresso e normas setoriais do Banco Central e da ANPD já em vigor. Para start",
-    "tema": "Regulação de IA no Brasil",
-    "tema_slug": "regulacao-ia-brasil",
-    "nicho": "ia",
-    "data": "2026-06-04T03:06:07Z"
   },
   {
     "slug": "2026-06-04-lgpd-no-e-commerce-obrigacoes-e-riscos-em-2026",
@@ -2808,15 +2070,6 @@
     "data": "2026-06-04T03:05:11Z"
   },
   {
-    "slug": "2026-06-03-investimento-em-ia-e-deep-tech-no-brasil-em-2026",
-    "titulo": "Investimento em IA e deep tech no Brasil em 2026",
-    "resumo": "O ecossistema brasileiro de startups de IA e deep tech enfrenta um paradoxo: há capital disponível, mas as exigências estruturais para captação ainda excluem a maioria dos fundadores. Juridicamente, a",
-    "tema": "Investimento em IA e deep tech",
-    "tema_slug": "investimento-ia",
-    "nicho": "ia",
-    "data": "2026-06-03T13:43:17Z"
-  },
-  {
     "slug": "2026-06-03-captacao-em-fintechs-licoes-do-caso-deepseek",
     "titulo": "Captação em fintechs: lições do caso DeepSeek",
     "resumo": "A DeepSeek, startup chinesa de inteligência artificial, iniciou sua primeira rodada de captação com valuation de US$ 59 bilhões, pretendendo levantar cerca de 50 bilhões de yuans. O caso evidencia com",
@@ -2824,15 +2077,6 @@
     "tema_slug": "investimento-fintech",
     "nicho": "fintechs",
     "data": "2026-06-03T13:43:00Z"
-  },
-  {
-    "slug": "2026-06-03-tributacao-no-e-commerce-guia-completo",
-    "titulo": "Tributação no E-commerce: Guia Completo",
-    "resumo": "A tributação no e-commerce brasileiro envolve tributos federais, estaduais e municipais que variam conforme o regime tributário, o tipo de produto ou serviço vendido e os estados de origem e destino d",
-    "tema": "Tributação no e-commerce",
-    "tema_slug": "tributacao-ecommerce",
-    "nicho": "ecommerce",
-    "data": "2026-06-03T13:42:50Z"
   },
   {
     "slug": "2026-06-03-lgpd-e-ia-o-que-sua-startup-precisa-saber",
@@ -2844,24 +2088,6 @@
     "data": "2026-06-03T03:21:16Z"
   },
   {
-    "slug": "2026-06-03-pix-em-2026-regulacao-riscos-e-oportunidades",
-    "titulo": "PIX em 2026: regulação riscos e oportunidades",
-    "resumo": "O PIX consolidou-se como o principal meio de pagamento instantâneo do Brasil, processando mais de 60 bilhões de transações acumuladas desde seu lançamento. O Banco Central segue ampliando o escopo do ",
-    "tema": "PIX e meios de pagamento",
-    "tema_slug": "pix-pagamentos",
-    "nicho": "fintechs",
-    "data": "2026-06-03T03:21:02Z"
-  },
-  {
-    "slug": "2026-06-03-ibs-e-cbs-entenda-os-novos-tributos-da-reforma",
-    "titulo": "IBS e CBS: entenda os novos tributos da reforma",
-    "resumo": "A reforma tributária brasileira, promulgada pela EC 132/2023, cria dois novos tributos sobre consumo: o IBS (Imposto sobre Bens e Serviços) e a CBS (Contribuição sobre Bens e Serviços). Juntos, eles s",
-    "tema": "IBS e CBS — novos tributos",
-    "tema_slug": "ibs-cbs",
-    "nicho": "reforma",
-    "data": "2026-06-03T03:20:54Z"
-  },
-  {
     "slug": "2026-06-03-tokenizacao-e-privacidade-riscos-juridicos-no-brasil",
     "titulo": "Tokenização e privacidade: riscos jurídicos no Brasil",
     "resumo": "Especialistas debatem que a transparência nativa das blockchains públicas expõe dados financeiros de empresas e pessoas, criando riscos regulatórios e de privacidade. No Brasil, essa tensão envolve di",
@@ -2869,15 +2095,6 @@
     "tema_slug": "tokenizacao",
     "nicho": "cripto",
     "data": "2026-06-03T03:20:46Z"
-  },
-  {
-    "slug": "2026-06-02-ibs-e-cbs-entenda-os-novos-tributos-da-reforma",
-    "titulo": "IBS e CBS: entenda os novos tributos da reforma",
-    "resumo": "A reforma tributária brasileira criou dois novos tributos sobre consumo: o IBS (Imposto sobre Bens e Serviços) e a CBS (Contribuição sobre Bens e Serviços). Juntos, eles substituem cinco tributos exis",
-    "tema": "IBS e CBS — novos tributos",
-    "tema_slug": "ibs-cbs",
-    "nicho": "reforma",
-    "data": "2026-06-02T11:16:28Z"
   },
   {
     "slug": "2026-06-02-ai-act-e-regulacao-internacional-de-ia-em-2026",
@@ -2889,24 +2106,6 @@
     "data": "2026-06-02T11:01:48Z"
   },
   {
-    "slug": "2026-06-02-regulacao-do-banco-central-para-fintechs",
-    "titulo": "Regulação do Banco Central para fintechs",
-    "resumo": "O Banco Central do Brasil estruturou um arcabouço regulatório específico para fintechs, organizado principalmente pelas Resoluções CMN 4.656/2018, 4.657/2018 e pela Lei 14.286/2021. Esse conjunto norm",
-    "tema": "Regulação do Banco Central para fintechs",
-    "tema_slug": "regulacao-bacen",
-    "nicho": "fintechs",
-    "data": "2026-06-02T10:46:34Z"
-  },
-  {
-    "slug": "2026-06-02-tributacao-no-e-commerce-guia-completo",
-    "titulo": "Tributação no E-commerce: Guia Completo",
-    "resumo": "A tributação no e-commerce envolve impostos federais, estaduais e municipais, além de regras específicas para operações interestaduais. Conhecer o regime fiscal adequado e as obrigações acessórias é e",
-    "tema": "Tributação no e-commerce",
-    "tema_slug": "tributacao-ecommerce",
-    "nicho": "ecommerce",
-    "data": "2026-06-02T10:31:36Z"
-  },
-  {
     "slug": "2026-06-02-compliance-e-pld-cripto-o-que-muda-no-brasil",
     "titulo": "Compliance e PLD Cripto: o que muda no Brasil",
     "resumo": "O CEO do JPMorgan, Jamie Dimon, declarou publicamente que lutará contra a Lei Clarity, proposta nos EUA para regulamentar criptoativos, e criticou a Coinbase por supostamente financiar políticos favor",
@@ -2916,24 +2115,6 @@
     "data": "2026-06-02T10:01:22Z"
   },
   {
-    "slug": "2026-06-02-tributacao-de-criptoativos-no-brasil-guia-completo",
-    "titulo": "Tributação de Criptoativos no Brasil: Guia Completo",
-    "resumo": "No Brasil, a tributação de criptoativos é regulada principalmente pela Instrução Normativa RFB nº 1.888/2019 e pelas regras gerais do Imposto de Renda, com alíquotas que variam de 15% a 22,5% sobre ga",
-    "tema": "Tributação de criptoativos",
-    "tema_slug": "tributacao-cripto",
-    "nicho": "cripto",
-    "data": "2026-06-02T03:42:50Z"
-  },
-  {
-    "slug": "2026-06-02-lgpd-e-ia-o-que-sua-empresa-precisa-saber",
-    "titulo": "LGPD e IA: o que sua empresa precisa saber",
-    "resumo": "A Lei Geral de Proteção de Dados (Lei 13.709/2018) se aplica integralmente ao desenvolvimento e à operação de sistemas de inteligência artificial que tratam dados pessoais no Brasil. Empresas de IA pr",
-    "tema": "LGPD e proteção de dados em IA",
-    "tema_slug": "lgpd-ia",
-    "nicho": "ia",
-    "data": "2026-06-02T03:11:50Z"
-  },
-  {
     "slug": "2026-06-02-iss-ibs-e-marketplaces-o-credito-que-muda-tudo",
     "titulo": "ISS IBS e marketplaces: o crédito que muda tudo",
     "resumo": "Quem vende por marketplace paga comissão à plataforma, e sobre essa comissão incide ISS, recolhido pelo município da plataforma, sem qualquer crédito para o vendedor. Com a reforma tributária e a cheg",
@@ -2941,51 +2122,6 @@
     "tema_slug": "marketplaces",
     "nicho": "ecommerce",
     "data": "2026-06-02T03:11:33Z"
-  },
-  {
-    "slug": "2026-06-01-ibs-e-cbs-entenda-os-novos-tributos-da-reforma",
-    "titulo": "IBS e CBS: entenda os novos tributos da reforma",
-    "resumo": "A reforma tributária brasileira, aprovada pela EC 132/2023, cria dois novos tributos sobre consumo: o IBS (Imposto sobre Bens e Serviços) e a CBS (Contribuição sobre Bens e Serviços). Juntos, eles sub",
-    "tema": "IBS e CBS — novos tributos",
-    "tema_slug": "ibs-cbs",
-    "nicho": "reforma",
-    "data": "2026-06-01T12:09:59Z"
-  },
-  {
-    "slug": "2026-06-01-lgpd-e-protecao-de-dados-em-ia-guia-pratico",
-    "titulo": "LGPD e proteção de dados em IA: guia prático",
-    "resumo": "A LGPD se aplica integralmente ao desenvolvimento e à operação de sistemas de IA que tratam dados pessoais no Brasil. Empresas de IA precisam identificar bases legais adequadas, implementar governança",
-    "tema": "LGPD e proteção de dados em IA",
-    "tema_slug": "lgpd-ia",
-    "nicho": "ia",
-    "data": "2026-06-01T12:07:01Z"
-  },
-  {
-    "slug": "2026-06-01-regulacao-do-banco-central-para-fintechs",
-    "titulo": "Regulação do Banco Central para fintechs",
-    "resumo": "O Banco Central do Brasil criou um arcabouço regulatório específico para fintechs, estruturado principalmente em torno das Instituições de Pagamento (IPs) e das Sociedades de Crédito Direto (SCDs) e d",
-    "tema": "Regulação do Banco Central para fintechs",
-    "tema_slug": "regulacao-bacen",
-    "nicho": "fintechs",
-    "data": "2026-06-01T12:03:55Z"
-  },
-  {
-    "slug": "2026-06-01-tributacao-no-e-commerce-guia-completo",
-    "titulo": "Tributação no E-commerce: Guia Completo",
-    "resumo": "A tributação no e-commerce segue as mesmas bases do comércio físico, mas apresenta particularidades importantes, especialmente na apuração do ICMS em vendas interestaduais. Conhecer os regimes tributá",
-    "tema": "Tributação no e-commerce",
-    "tema_slug": "tributacao-ecommerce",
-    "nicho": "ecommerce",
-    "data": "2026-06-01T12:00:53Z"
-  },
-  {
-    "slug": "2026-06-01-tributacao-de-criptoativos-no-brasil-guia-completo",
-    "titulo": "Tributação de Criptoativos no Brasil: Guia Completo",
-    "resumo": "No Brasil, criptoativos são tributados pelo Imposto de Renda com alíquotas de 15% a 22,5% sobre ganho de capital, conforme a Instrução Normativa RFB nº 1.888/2019 e a Lei nº 14.478/2022. Pessoas físic",
-    "tema": "Tributação de criptoativos",
-    "tema_slug": "tributacao-cripto",
-    "nicho": "cripto",
-    "data": "2026-06-01T11:33:41Z"
   },
   {
     "slug": "2026-06-01-lgpd-e-protecao-de-dados-em-ia-o-que-sua-empresa-precisa-saber",
@@ -3015,15 +2151,6 @@
     "data": "2026-05-23T11:01:46Z"
   },
   {
-    "slug": "2026-05-23-insurtech-no-brasil-regulacao-e-oportunidades",
-    "titulo": "Insurtech no Brasil: regulação e oportunidades",
-    "resumo": "O mercado de seguros digitais no Brasil movimenta mais de R$ 50 bilhões ao ano e opera sob regulação da SUSEP, com normas específicas para distribuição digital e microsseguros. Fintechs que atuam como",
-    "tema": "Seguros digitais (insurtech)",
-    "tema_slug": "insurtech",
-    "nicho": "fintechs",
-    "data": "2026-05-23T10:46:31Z"
-  },
-  {
     "slug": "2026-05-23-publi-de-atletas-tributacao-e-compliance-digital",
     "titulo": "Publi de atletas: tributação e compliance digital",
     "resumo": "A convocação de atletas para a seleção brasileira dispara contratos de publicidade em plataformas digitais, movimentando receitas que exigem enquadramento tributário correto e conformidade com as regr",
@@ -3031,24 +2158,6 @@
     "tema_slug": "marketplaces",
     "nicho": "ecommerce",
     "data": "2026-05-23T10:31:41Z"
-  },
-  {
-    "slug": "2026-05-23-estruturacao-societaria-de-empresas-cripto",
-    "titulo": "Estruturação societária de empresas cripto",
-    "resumo": "Com o avanço da fiscalização da Receita Federal e as novas exigências do Banco Central para prestadores de serviços de ativos virtuais (VASPs), organizar a estrutura societária de uma empresa cripto d",
-    "tema": "Estruturação societária de empresas cripto",
-    "tema_slug": "estruturacao-empresa-cripto",
-    "nicho": "cripto",
-    "data": "2026-05-23T10:01:27Z"
-  },
-  {
-    "slug": "2026-05-23-tributacao-de-empresas-de-ia-no-brasil-em-2026",
-    "titulo": "Tributação de empresas de IA no Brasil em 2026",
-    "resumo": "Startups de inteligência artificial operam em uma janela competitiva que pode se fechar com mudanças regulatórias e tributárias. No Brasil, a combinação de regimes fiscais favoráveis, incentivos à ino",
-    "tema": "Tributação de empresas de tecnologia e IA",
-    "tema_slug": "tributacao-tech-ia",
-    "nicho": "ia",
-    "data": "2026-05-23T03:26:25Z"
   },
   {
     "slug": "2026-05-23-open-finance-dados-financeiros-e-direitos-no-brasil",
@@ -3078,24 +2187,6 @@
     "data": "2026-05-23T03:24:49Z"
   },
   {
-    "slug": "2026-05-23-tributacao-de-criptoativos-no-brasil-em-2026",
-    "titulo": "Tributação de Criptoativos no Brasil em 2026",
-    "resumo": "O Bitcoin Pizza Day, celebrado em 22 de maio, relembra a transação de 10.000 BTC feita em 2010 para comprar duas pizzas avaliadas em US$ 41, montante que hoje representa bilhões de dólares. O episódio",
-    "tema": "Tributação de criptoativos",
-    "tema_slug": "tributacao-cripto",
-    "nicho": "cripto",
-    "data": "2026-05-23T03:24:32Z"
-  },
-  {
-    "slug": "2026-05-22-ibs-e-cbs-entenda-os-novos-tributos-da-reforma",
-    "titulo": "IBS e CBS: entenda os novos tributos da reforma",
-    "resumo": "A reforma tributária criou dois novos tributos sobre o consumo: o IBS (Imposto sobre Bens e Serviços) e a CBS (Contribuição sobre Bens e Serviços). Juntos, eles substituem ICMS, ISS, PIS e COFINS, alé",
-    "tema": "IBS e CBS — novos tributos",
-    "tema_slug": "ibs-cbs",
-    "nicho": "reforma",
-    "data": "2026-05-22T11:16:19Z"
-  },
-  {
     "slug": "2026-05-22-robbin-capta-us-108-mi-ia-e-credito-b2b-via-pix",
     "titulo": "Robbin capta US$ 108 mi: IA e crédito B2B via Pix",
     "resumo": "A Robbin captou US$ 108 milhões para expandir sua infraestrutura de crédito B2B baseada em Pix, sinalizando maturidade do mercado de fintechs com IA no Brasil. Do ponto de vista jurídico, a operação e",
@@ -3103,15 +2194,6 @@
     "tema_slug": "investimento-ia",
     "nicho": "ia",
     "data": "2026-05-22T11:01:45Z"
-  },
-  {
-    "slug": "2026-05-22-compliance-e-pld-em-fintechs-o-que-exige-a-lei",
-    "titulo": "Compliance e PLD em Fintechs: o que exige a lei",
-    "resumo": "Fintechs brasileiras estão sujeitas a um conjunto robusto de obrigações de Prevenção à Lavagem de Dinheiro (PLD) e compliance regulatório, definidos principalmente pela Lei 9.613/1998, pelas resoluçõe",
-    "tema": "Compliance e PLD em fintechs",
-    "tema_slug": "compliance-pld",
-    "nicho": "fintechs",
-    "data": "2026-05-22T10:46:40Z"
   },
   {
     "slug": "2026-05-22-pl-do-cdc-fiscalizacao-mais-fraca-no-e-commerce",
@@ -3159,24 +2241,6 @@
     "data": "2026-05-22T03:23:11Z"
   },
   {
-    "slug": "2026-05-21-ibs-e-cbs-entenda-os-novos-tributos-da-reforma",
-    "titulo": "IBS e CBS: entenda os novos tributos da reforma",
-    "resumo": "A reforma tributária criou dois novos tributos sobre consumo: o IBS (Imposto sobre Bens e Serviços) e a CBS (Contribuição sobre Bens e Serviços). Juntos, eles substituem cinco tributos atuais: ICMS, I",
-    "tema": "IBS e CBS — novos tributos",
-    "tema_slug": "ibs-cbs",
-    "nicho": "reforma",
-    "data": "2026-05-21T11:16:15Z"
-  },
-  {
-    "slug": "2026-05-21-direitos-autorais-e-ia-generativa-no-brasil",
-    "titulo": "Direitos Autorais e IA Generativa no Brasil",
-    "resumo": "A startup Draiven captou R$ 3 milhões e planeja expansão internacional com tecnologia de IA generativa aplicada ao setor automotivo. O movimento evidencia um tema ainda sem resposta legal definitiva n",
-    "tema": "Direitos autorais e IA generativa",
-    "tema_slug": "direitos-autorais-ia",
-    "nicho": "ia",
-    "data": "2026-05-21T11:01:51Z"
-  },
-  {
     "slug": "2026-05-21-pix-e-lavagem-de-dinheiro-o-que-fintechs-devem-saber",
     "titulo": "PIX e lavagem de dinheiro: o que fintechs devem saber",
     "resumo": "A prisão de Deolane Bezerra em operação que apura lavagem de dinheiro com suposta ligação ao PCC evidenciou o uso de meios de pagamento digitais, incluindo o PIX, em esquemas criminosos. Do ponto de v",
@@ -3186,15 +2250,6 @@
     "data": "2026-05-21T10:46:38Z"
   },
   {
-    "slug": "2026-05-21-tributacao-no-e-commerce-guia-completo",
-    "titulo": "Tributação no E-commerce: guia completo",
-    "resumo": "A tributação no e-commerce segue as mesmas bases do comércio físico, mas apresenta particularidades relevantes, especialmente no ICMS interestadual e nas obrigações acessórias. Conhecer o regime tribu",
-    "tema": "Tributação no e-commerce",
-    "tema_slug": "tributacao-ecommerce",
-    "nicho": "ecommerce",
-    "data": "2026-05-21T10:31:37Z"
-  },
-  {
     "slug": "2026-05-21-cartoes-cripto-bc-exige-reporte-e-abre-brecha-para-iof",
     "titulo": "Cartões Cripto: BC exige reporte e abre brecha para IOF",
     "resumo": "O Banco Central do Brasil atualizou a norma que regula cartões de pagamento vinculados a criptoativos, tornando obrigatório o reporte de operações e criando uma abertura regulatória para a cobrança de",
@@ -3202,33 +2257,6 @@
     "tema_slug": "tokenizacao",
     "nicho": "cripto",
     "data": "2026-05-21T10:01:18Z"
-  },
-  {
-    "slug": "2026-05-21-ai-act-e-regulacao-internacional-de-ia-em-2026",
-    "titulo": "AI Act e regulação internacional de IA em 2026",
-    "resumo": "O AI Act europeu entrou em vigor em agosto de 2024 e aplica obrigações extraterritoriais a qualquer empresa que ofereça sistemas de IA a usuários na União Europeia, incluindo startups brasileiras. O B",
-    "tema": "AI Act e regulação internacional",
-    "tema_slug": "ai-act",
-    "nicho": "ia",
-    "data": "2026-05-21T03:22:40Z"
-  },
-  {
-    "slug": "2026-05-21-regulacao-do-banco-central-para-fintechs",
-    "titulo": "Regulação do Banco Central para Fintechs",
-    "resumo": "O Banco Central do Brasil estruturou ao longo dos últimos anos um conjunto normativo específico para fintechs, que abrange desde a autorização de funcionamento até obrigações de compliance, capital mí",
-    "tema": "Regulação do Banco Central para fintechs",
-    "tema_slug": "regulacao-bacen",
-    "nicho": "fintechs",
-    "data": "2026-05-21T03:22:20Z"
-  },
-  {
-    "slug": "2026-05-21-simples-nacional-e-regimes-especiais-na-reforma",
-    "titulo": "Simples Nacional e regimes especiais na reforma",
-    "resumo": "A reforma tributária cria novos desafios para empresas enquadradas no Simples Nacional e para setores com regimes diferenciados. Com a proximidade do início da transição em 2026, decisões de planejame",
-    "tema": "Regimes especiais e o Simples Nacional",
-    "tema_slug": "simples-reforma",
-    "nicho": "reforma",
-    "data": "2026-05-21T03:21:57Z"
   },
   {
     "slug": "2026-05-21-compliance-e-pld-cripto-o-que-o-mica-ensina-ao-brasil",
@@ -3267,15 +2295,6 @@
     "data": "2026-05-20T10:46:37Z"
   },
   {
-    "slug": "2026-05-20-tributacao-no-e-commerce-guia-completo",
-    "titulo": "Tributação no E-commerce: Guia Completo",
-    "resumo": "A tributação no e-commerce brasileiro envolve múltiplos tributos federais, estaduais e municipais, com regras específicas para operações digitais e interestaduais. Conhecer cada obrigação fiscal é ess",
-    "tema": "Tributação no e-commerce",
-    "tema_slug": "tributacao-ecommerce",
-    "nicho": "ecommerce",
-    "data": "2026-05-20T10:31:46Z"
-  },
-  {
     "slug": "2026-05-20-defi-e-stablecoins-no-brasil-o-que-muda-com-a-b3",
     "titulo": "DeFi e Stablecoins no Brasil: o que muda com a B3",
     "resumo": "A B3 realizou o evento B3 Tokenização Day para debater tokenização, DeFi e stablecoins no mercado brasileiro, sinalizando que a bolsa oficial do país reconhece formalmente esses instrumentos como part",
@@ -3283,15 +2302,6 @@
     "tema_slug": "defi-stablecoin",
     "nicho": "cripto",
     "data": "2026-05-20T10:01:17Z"
-  },
-  {
-    "slug": "2026-05-20-tributacao-de-empresas-de-ia-no-brasil-guia-pratico",
-    "titulo": "Tributação de empresas de IA no Brasil: guia prático",
-    "resumo": "Empresas de IA no Brasil enfrentam um ambiente tributário complexo, com regras que ainda não acompanharam a especificidade do setor. A escolha correta do regime fiscal e o aproveitamento de incentivos",
-    "tema": "Tributação de empresas de tecnologia e IA",
-    "tema_slug": "tributacao-tech-ia",
-    "nicho": "ia",
-    "data": "2026-05-20T03:21:13Z"
   },
   {
     "slug": "2026-05-20-open-finance-dados-financeiros-e-compliance",
@@ -3330,15 +2340,6 @@
     "data": "2026-05-20T03:19:45Z"
   },
   {
-    "slug": "2026-05-19-ibs-e-cbs-entenda-os-novos-tributos-da-reforma",
-    "titulo": "IBS e CBS: entenda os novos tributos da reforma",
-    "resumo": "A reforma tributária brasileira cria dois novos tributos sobre o consumo: o IBS (Imposto sobre Bens e Serviços) e a CBS (Contribuição sobre Bens e Serviços). Juntos, eles substituem cinco tributos exi",
-    "tema": "IBS e CBS — novos tributos",
-    "tema_slug": "ibs-cbs",
-    "nicho": "reforma",
-    "data": "2026-05-19T11:16:25Z"
-  },
-  {
     "slug": "2026-05-19-contratos-de-ia-e-infraestrutura-critica-riscos-reais",
     "titulo": "Contratos de IA e infraestrutura crítica: riscos reais",
     "resumo": "Ataques a cabos submarinos de fibra ótica ameaçam a infraestrutura que sustenta serviços de IA em escala global. No Brasil, isso cria responsabilidade contratual concreta para empresas que entregam so",
@@ -3357,51 +2358,6 @@
     "data": "2026-05-19T10:46:42Z"
   },
   {
-    "slug": "2026-05-19-tributacao-no-e-commerce-guia-completo",
-    "titulo": "Tributação no E-commerce: Guia Completo",
-    "resumo": "A tributação no e-commerce brasileiro envolve tributos federais, estaduais e municipais que variam conforme o regime tributário, o tipo de produto ou serviço e o estado de destino da venda. Conhecer e",
-    "tema": "Tributação no e-commerce",
-    "tema_slug": "tributacao-ecommerce",
-    "nicho": "ecommerce",
-    "data": "2026-05-19T10:31:37Z"
-  },
-  {
-    "slug": "2026-05-19-tributacao-de-criptoativos-no-brasil-em-2026",
-    "titulo": "Tributação de Criptoativos no Brasil em 2026",
-    "resumo": "O Bitcoin opera abaixo de US$ 80 mil em maio de 2026, cenário que reforça a importância de investidores brasileiros compreenderem as regras tributárias vigentes sobre ganhos e perdas em criptoativos. ",
-    "tema": "Tributação de criptoativos",
-    "tema_slug": "tributacao-cripto",
-    "nicho": "cripto",
-    "data": "2026-05-19T10:01:08Z"
-  },
-  {
-    "slug": "2026-05-19-regulacao-de-ia-no-brasil-o-que-muda-em-2026",
-    "titulo": "Regulação de IA no Brasil: o que muda em 2026",
-    "resumo": "O Brasil avança na construção de um marco regulatório para inteligência artificial, com o PL 2.338/2023 em tramitação no Congresso e normas setoriais já em vigor. Para empresas de IA, isso significa o",
-    "tema": "Regulação de IA no Brasil",
-    "tema_slug": "regulacao-ia-brasil",
-    "nicho": "ia",
-    "data": "2026-05-19T03:19:20Z"
-  },
-  {
-    "slug": "2026-05-19-lgpd-e-privacidade-no-e-commerce-o-que-muda",
-    "titulo": "LGPD e privacidade no e-commerce: o que muda",
-    "resumo": "A coleta de dados pessoais em lojas virtuais está sujeita à Lei Geral de Proteção de Dados (Lei 13.709/2018), com penalidades de até R$ 50 milhões por infração. Uma reportagem do G1 sobre espionagem e",
-    "tema": "LGPD e privacidade no e-commerce",
-    "tema_slug": "lgpd-ecommerce",
-    "nicho": "ecommerce",
-    "data": "2026-05-19T03:19:02Z"
-  },
-  {
-    "slug": "2026-05-19-credito-digital-e-bnpl-regulacao-e-contabilidade",
-    "titulo": "Crédito Digital e BNPL: Regulação e Contabilidade",
-    "resumo": "O modelo BNPL (Buy Now, Pay Later) avança no Brasil como uma das principais frentes do crédito digital, mas opera em zona de atenção regulatória crescente. O Banco Central e a CVM já sinalizaram inter",
-    "tema": "Crédito digital e BNPL",
-    "tema_slug": "credito-digital",
-    "nicho": "fintechs",
-    "data": "2026-05-19T03:19:02Z"
-  },
-  {
     "slug": "2026-05-19-creditos-de-ibs-e-cbs-o-que-muda-para-empresas",
     "titulo": "Créditos de IBS e CBS: o que muda para empresas",
     "resumo": "A Lei Complementar nº 214/2025 regulamentou o direito ao crédito de IBS e CBS decorrente da aquisição de bens e serviços, ampliando significativamente o escopo em relação ao regime anterior. Para as e",
@@ -3409,15 +2365,6 @@
     "tema_slug": "setores-reforma",
     "nicho": "reforma",
     "data": "2026-05-19T03:18:26Z"
-  },
-  {
-    "slug": "2026-05-19-regulacao-de-criptoativos-no-brasil-em-2026",
-    "titulo": "Regulação de Criptoativos no Brasil em 2026",
-    "resumo": "Uma decisão judicial brasileira determinou que o Banco Central e a Receita Federal rastreiem criptomoedas envolvidas em um golpe de R$ 170 mil, sinalizando expansão do poder estatal sobre ativos digit",
-    "tema": "Regulação de criptoativos no Brasil",
-    "tema_slug": "regulacao-cripto",
-    "nicho": "cripto",
-    "data": "2026-05-19T03:18:15Z"
   },
   {
     "slug": "2026-05-18-imposto-seletivo-e-safs-o-que-muda-com-a-lc-22425",
@@ -3438,24 +2385,6 @@
     "data": "2026-05-18T11:01:56Z"
   },
   {
-    "slug": "2026-05-18-compliance-e-pld-em-fintechs-o-que-exige-a-lei",
-    "titulo": "Compliance e PLD em Fintechs: o que exige a lei",
-    "resumo": "Fintechs brasileiras estão sujeitas a um conjunto robusto de obrigações de PLD/FT (Prevenção à Lavagem de Dinheiro e ao Financiamento do Terrorismo), reguladas principalmente pelo Bacen e pelo COAF. O",
-    "tema": "Compliance e PLD em fintechs",
-    "tema_slug": "compliance-pld",
-    "nicho": "fintechs",
-    "data": "2026-05-18T10:46:36Z"
-  },
-  {
-    "slug": "2026-05-18-tributacao-no-e-commerce-guia-completo",
-    "titulo": "Tributação no E-commerce: Guia Completo",
-    "resumo": "A tributação no e-commerce brasileiro envolve tributos federais, estaduais e municipais que incidem sobre a venda de produtos e serviços pela internet. Conhecer cada obrigação fiscal é essencial para ",
-    "tema": "Tributação no e-commerce",
-    "tema_slug": "tributacao-ecommerce",
-    "nicho": "ecommerce",
-    "data": "2026-05-18T10:31:37Z"
-  },
-  {
     "slug": "2026-05-18-primeiro-token-rwa-integrado-ao-sfn-o-que-muda",
     "titulo": "Primeiro token RWA integrado ao SFN: o que muda",
     "resumo": "O sistema financeiro nacional registrou a emissão do primeiro token de ativo real (RWA) operando entre bancos e plenamente integrado ao SFN, conforme noticiado pelo CoinTelegraph Brasil em maio de 202",
@@ -3463,33 +2392,6 @@
     "tema_slug": "tokenizacao",
     "nicho": "cripto",
     "data": "2026-05-18T10:01:13Z"
-  },
-  {
-    "slug": "2026-05-18-lgpd-e-ia-o-que-sua-empresa-precisa-saber",
-    "titulo": "LGPD e IA: o que sua empresa precisa saber",
-    "resumo": "A Lei Geral de Proteção de Dados (Lei nº 13.709/2018) se aplica integralmente a sistemas de inteligência artificial que tratam dados pessoais, incluindo modelos de machine learning e IA generativa. Em",
-    "tema": "LGPD e proteção de dados em IA",
-    "tema_slug": "lgpd-ia",
-    "nicho": "ia",
-    "data": "2026-05-18T03:17:30Z"
-  },
-  {
-    "slug": "2026-05-18-regulacao-do-banco-central-para-fintechs-em-2026",
-    "titulo": "Regulação do Banco Central para fintechs em 2026",
-    "resumo": "O ambiente regulatório para fintechs no Brasil segue em evolução acelerada, com o Banco Central ampliando o escopo de supervisão sobre instituições de pagamento, sociedades de crédito direto e bancos ",
-    "tema": "Regulação do Banco Central para fintechs",
-    "tema_slug": "regulacao-bacen",
-    "nicho": "fintechs",
-    "data": "2026-05-18T03:17:14Z"
-  },
-  {
-    "slug": "2026-05-18-ibs-e-cbs-entenda-os-novos-tributos-da-reforma",
-    "titulo": "IBS e CBS: entenda os novos tributos da reforma",
-    "resumo": "A reforma tributária brasileira (EC 132/2023) criou dois novos tributos sobre o consumo: o IBS (Imposto sobre Bens e Serviços) e a CBS (Contribuição sobre Bens e Serviços). Juntos, eles substituirão c",
-    "tema": "IBS e CBS — novos tributos",
-    "tema_slug": "ibs-cbs",
-    "nicho": "reforma",
-    "data": "2026-05-18T03:17:06Z"
   },
   {
     "slug": "2026-05-18-compliance-e-pld-cripto-o-que-exige-a-lei",
@@ -3501,15 +2403,6 @@
     "data": "2026-05-18T03:16:59Z"
   },
   {
-    "slug": "2026-05-17-ibs-e-cbs-entenda-os-novos-tributos-da-reforma",
-    "titulo": "IBS e CBS: entenda os novos tributos da reforma",
-    "resumo": "A reforma tributária criou dois novos tributos, o IBS e a CBS, que substituirão gradualmente cinco impostos existentes entre 2026 e 2033. Ambos seguem o modelo de IVA dual, com não cumulatividade plen",
-    "tema": "IBS e CBS — novos tributos",
-    "tema_slug": "ibs-cbs",
-    "nicho": "reforma",
-    "data": "2026-05-17T11:16:28Z"
-  },
-  {
     "slug": "2026-05-17-ai-act-e-a-nova-geopolitica-da-regulacao-de-ia",
     "titulo": "AI Act e a nova geopolítica da regulação de IA",
     "resumo": "A disputa global por ativos estratégicos, como ouro e dados, revela um padrão: quem controla os recursos controla o poder. No campo da inteligência artificial, o AI Act da União Europeia inaugurou um ",
@@ -3519,33 +2412,6 @@
     "data": "2026-05-17T11:01:50Z"
   },
   {
-    "slug": "2026-05-17-pix-em-2026-regulacao-riscos-e-oportunidades",
-    "titulo": "PIX em 2026: regulação riscos e oportunidades",
-    "resumo": "O PIX consolidou-se como o principal meio de pagamento do Brasil, processando mais de 60 bilhões de transações em 2024, segundo o Banco Central. Para fintechs e instituições de pagamento, isso signifi",
-    "tema": "PIX e meios de pagamento",
-    "tema_slug": "pix-pagamentos",
-    "nicho": "fintechs",
-    "data": "2026-05-17T10:46:41Z"
-  },
-  {
-    "slug": "2026-05-17-tributacao-no-e-commerce-guia-completo",
-    "titulo": "Tributação no E-commerce: Guia Completo",
-    "resumo": "A tributação no e-commerce segue as mesmas bases do comércio físico, mas exige atenção redobrada a regras específicas sobre ICMS interestadual, emissão de notas fiscais e enquadramento tributário. Err",
-    "tema": "Tributação no e-commerce",
-    "tema_slug": "tributacao-ecommerce",
-    "nicho": "ecommerce",
-    "data": "2026-05-17T10:31:47Z"
-  },
-  {
-    "slug": "2026-05-17-tributacao-de-criptoativos-no-brasil-guia-completo",
-    "titulo": "Tributação de Criptoativos no Brasil: Guia Completo",
-    "resumo": "No Brasil, criptoativos são tributados pelo Imposto de Renda sobre o ganho de capital apurado na alienação, com alíquotas progressivas entre 15% e 22,5%. A Receita Federal regulamenta o tema por meio ",
-    "tema": "Tributação de criptoativos",
-    "tema_slug": "tributacao-cripto",
-    "nicho": "cripto",
-    "data": "2026-05-17T10:01:04Z"
-  },
-  {
     "slug": "2026-05-17-ia-no-trabalho-riscos-trabalhistas-da-automacao",
     "titulo": "IA no trabalho: riscos trabalhistas da automação",
     "resumo": "A Aimirim recebeu aporte de R$ 10 milhões para expandir automação industrial com IA, acelerando a substituição de funções humanas por sistemas automatizados. Esse movimento coloca em evidência lacunas",
@@ -3553,15 +2419,6 @@
     "tema_slug": "ia-trabalhista",
     "nicho": "ia",
     "data": "2026-05-17T03:16:10Z"
-  },
-  {
-    "slug": "2026-05-17-open-finance-dados-financeiros-e-compliance",
-    "titulo": "Open Finance: dados financeiros e compliance",
-    "resumo": "O Open Finance brasileiro, regulado pelo Banco Central, estrutura o compartilhamento de dados financeiros entre instituições autorizadas com base no consentimento do titular. O framework combina regra",
-    "tema": "Open Finance e dados financeiros",
-    "tema_slug": "open-finance",
-    "nicho": "fintechs",
-    "data": "2026-05-17T03:13:21Z"
   },
   {
     "slug": "2026-05-17-defi-e-stablecoins-riscos-e-oportunidades-no-brasil",
@@ -3591,15 +2448,6 @@
     "data": "2026-05-16T11:16:26Z"
   },
   {
-    "slug": "2026-05-16-tributacao-de-empresas-de-ia-no-brasil-o-que-muda",
-    "titulo": "Tributação de Empresas de IA no Brasil: o que muda",
-    "resumo": "A startup Goodfire lançou a ferramenta In Silico para depurar modelos de linguagem (LLMs), aproximando o desenvolvimento de IA à engenharia de software tradicional. No Brasil, esse tipo de produto lev",
-    "tema": "Tributação de empresas de tecnologia e IA",
-    "tema_slug": "tributacao-tech-ia",
-    "nicho": "ia",
-    "data": "2026-05-16T11:02:15Z"
-  },
-  {
     "slug": "2026-05-16-bonificacao-em-acoes-tributacao-em-fintechs",
     "titulo": "Bonificação em ações: tributação em fintechs",
     "resumo": "Bonificações em ações são distribuições gratuitas de novos papéis aos acionistas, incorporando reservas ou lucros ao capital social. A definição correta do custo de aquisição dessas ações é determinan",
@@ -3607,42 +2455,6 @@
     "tema_slug": "investimento-fintech",
     "nicho": "fintechs",
     "data": "2026-05-16T10:46:40Z"
-  },
-  {
-    "slug": "2026-05-16-tributacao-no-e-commerce-guia-completo",
-    "titulo": "Tributação no E-commerce: guia completo",
-    "resumo": "A tributação no e-commerce brasileiro envolve diferentes impostos federais, estaduais e municipais, com regras específicas para operações interestaduais e tipos de produto. Conhecer cada obrigação evi",
-    "tema": "Tributação no e-commerce",
-    "tema_slug": "tributacao-ecommerce",
-    "nicho": "ecommerce",
-    "data": "2026-05-16T10:31:36Z"
-  },
-  {
-    "slug": "2026-05-16-estruturacao-societaria-de-empresas-cripto",
-    "titulo": "Estruturação societária de empresas cripto",
-    "resumo": "São José dos Pinhais (PR) sancionou a Lei 5.000/2026, que autoriza o pagamento de impostos municipais em criptomoedas e cria o Programa Bitcoin Cidadão. O movimento reforça a tendência de instituciona",
-    "tema": "Estruturação societária de empresas cripto",
-    "tema_slug": "estruturacao-empresa-cripto",
-    "nicho": "cripto",
-    "data": "2026-05-16T10:01:15Z"
-  },
-  {
-    "slug": "2026-05-16-regulacao-de-ia-no-brasil-o-que-muda-em-2026",
-    "titulo": "Regulação de IA no Brasil: o que muda em 2026",
-    "resumo": "O Brasil ainda não possui uma lei geral de inteligência artificial aprovada, mas o PL 2.338/2023 avança no Senado com disposições que afetam diretamente empresas que desenvolvem ou utilizam sistemas d",
-    "tema": "Regulação de IA no Brasil",
-    "tema_slug": "regulacao-ia-brasil",
-    "nicho": "ia",
-    "data": "2026-05-16T03:14:23Z"
-  },
-  {
-    "slug": "2026-05-16-credito-digital-e-bnpl-regulacao-e-riscos-no-brasil",
-    "titulo": "Crédito Digital e BNPL: regulação e riscos no Brasil",
-    "resumo": "O modelo BNPL (Buy Now, Pay Later) avança no Brasil e atrai fintechs, varejistas e bancos digitais, mas opera em terreno regulatório ainda em consolidação. O Banco Central já sinalizou preocupações co",
-    "tema": "Crédito digital e BNPL",
-    "tema_slug": "credito-digital",
-    "nicho": "fintechs",
-    "data": "2026-05-16T03:11:37Z"
   },
   {
     "slug": "2026-05-16-tse-proibe-criptomoedas-em-financiamento-eleitoral",
@@ -3681,24 +2493,6 @@
     "data": "2026-05-15T11:01:46Z"
   },
   {
-    "slug": "2026-05-15-tributacao-de-fintechs-no-brasil-o-que-saber",
-    "titulo": "Tributação de fintechs no Brasil: o que saber",
-    "resumo": "O setor de serviços financeiros digitais opera sob uma carga tributária complexa, que combina tributos federais sobre receitas, lucros e operações financeiras. Fintechs precisam definir com precisão s",
-    "tema": "Tributação de fintechs",
-    "tema_slug": "tributacao-fintech",
-    "nicho": "fintechs",
-    "data": "2026-05-15T10:46:37Z"
-  },
-  {
-    "slug": "2026-05-15-tributacao-no-e-commerce-guia-completo",
-    "titulo": "Tributação no E-commerce: Guia Completo",
-    "resumo": "A tributação no e-commerce segue as mesmas bases do comércio físico, mas tem particularidades importantes, especialmente no ICMS e nas operações interestaduais. Conhecer as obrigações fiscais é essenc",
-    "tema": "Tributação no e-commerce",
-    "tema_slug": "tributacao-ecommerce",
-    "nicho": "ecommerce",
-    "data": "2026-05-15T10:31:45Z"
-  },
-  {
     "slug": "2026-05-15-tokenizacao-e-tributacao-de-criptoativos-no-brasil",
     "titulo": "Tokenização e tributação de criptoativos no Brasil",
     "resumo": "A Comissão Nacional de Valores (CNV) da Argentina firmou diálogo com a Comissão Nacional de Ativos Digitais (CNAD) de El Salvador para avançar na regulação conjunta de tokenização de ativos. O movimen",
@@ -3715,15 +2509,6 @@
     "tema_slug": "contratos-ia",
     "nicho": "ia",
     "data": "2026-05-15T03:12:00Z"
-  },
-  {
-    "slug": "2026-05-15-regulacao-do-banco-central-para-fintechs-em-2026",
-    "titulo": "Regulação do Banco Central para fintechs em 2026",
-    "resumo": "O Nubank divulgou resultados do primeiro trimestre de 2026 superando o consenso de mercado em receita, mas ficando abaixo nas estimativas de lucro líquido, enquanto a operação mexicana atingiu o break",
-    "tema": "Regulação do Banco Central para fintechs",
-    "tema_slug": "regulacao-bacen",
-    "nicho": "fintechs",
-    "data": "2026-05-15T03:09:35Z"
   },
   {
     "slug": "2026-05-15-bybit-migra-usuarios-br-riscos-juridicos-e-contabeis",
@@ -3762,15 +2547,6 @@
     "data": "2026-05-14T11:16:29Z"
   },
   {
-    "slug": "2026-05-14-direitos-autorais-e-ia-generativa-no-brasil",
-    "titulo": "Direitos autorais e IA generativa no Brasil",
-    "resumo": "A expansão de ferramentas de IA generativa no ambiente corporativo brasileiro levanta questões jurídicas sérias sobre titularidade de obras, uso de dados de treinamento e responsabilidade por plágio. ",
-    "tema": "Direitos autorais e IA generativa",
-    "tema_slug": "direitos-autorais-ia",
-    "nicho": "ia",
-    "data": "2026-05-14T11:01:53Z"
-  },
-  {
     "slug": "2026-05-14-pix-em-fintechs-regulacao-riscos-e-oportunidades",
     "titulo": "PIX em fintechs: regulação riscos e oportunidades",
     "resumo": "O PIX consolidou-se como o principal meio de pagamento instantâneo do Brasil, movimentando mais de R$ 27 trilhões em 2024, segundo o Banco Central. Para fintechs, isso representa tanto oportunidade de",
@@ -3787,42 +2563,6 @@
     "tema_slug": "cross-border",
     "nicho": "ecommerce",
     "data": "2026-05-14T10:31:31Z"
-  },
-  {
-    "slug": "2026-05-14-compliance-e-pld-no-mercado-cripto-brasileiro",
-    "titulo": "Compliance e PLD no mercado cripto brasileiro",
-    "resumo": "A inteligência artificial deve transformar a tokenização de ativos reais em até um ano, segundo executivo da ReserveOne ouvido pelo Portal do Bitcoin. Essa aceleração tecnológica amplia a exposição re",
-    "tema": "Compliance e PLD cripto",
-    "tema_slug": "compliance-cripto",
-    "nicho": "cripto",
-    "data": "2026-05-14T10:01:15Z"
-  },
-  {
-    "slug": "2026-05-14-lgpd-e-ia-o-que-sua-startup-precisa-saber",
-    "titulo": "LGPD e IA: o que sua startup precisa saber",
-    "resumo": "A MIT Technology Review Brasil identificou que a principal barreira à adoção de IA no Brasil não é orçamento, mas uma camada silenciosa de insegurança regulatória e gestão de dados. Do ponto de vista ",
-    "tema": "LGPD e proteção de dados em IA",
-    "tema_slug": "lgpd-ia",
-    "nicho": "ia",
-    "data": "2026-05-14T03:08:01Z"
-  },
-  {
-    "slug": "2026-05-14-tributacao-de-criptoativos-no-brasil-guia-completo",
-    "titulo": "Tributação de criptoativos no Brasil: guia completo",
-    "resumo": "A Receita Federal do Brasil trata criptoativos como bens sujeitos ao ganho de capital, com alíquotas entre 15% e 22,5% sobre o lucro apurado. Pessoas físicas têm isenção em vendas mensais de até R$ 35",
-    "tema": "Tributação de criptoativos",
-    "tema_slug": "tributacao-cripto",
-    "nicho": "cripto",
-    "data": "2026-05-14T03:06:03Z"
-  },
-  {
-    "slug": "2026-05-14-compliance-e-pld-em-fintechs-obrigacoes-e-riscos",
-    "titulo": "Compliance e PLD em Fintechs: obrigações e riscos",
-    "resumo": "Fintechs brasileiras estão sujeitas a um conjunto robusto de obrigações de prevenção à lavagem de dinheiro (PLD) e compliance regulatório, supervisionado principalmente pelo Banco Central e pelo COAF.",
-    "tema": "Compliance e PLD em fintechs",
-    "tema_slug": "compliance-pld",
-    "nicho": "fintechs",
-    "data": "2026-05-14T03:05:43Z"
   },
   {
     "slug": "2026-05-14-lgpd-e-pix-vazamento-de-dados-no-e-commerce",
@@ -3843,24 +2583,6 @@
     "data": "2026-05-14T03:04:25Z"
   },
   {
-    "slug": "2026-05-13-ibs-e-cbs-entenda-os-novos-tributos-da-reforma",
-    "titulo": "IBS e CBS: entenda os novos tributos da reforma",
-    "resumo": "A reforma tributária brasileira, promovida pela EC 132/2023, criou dois novos tributos sobre o consumo: o IBS (Imposto sobre Bens e Serviços) e a CBS (Contribuição sobre Bens e Serviços). Juntos, eles",
-    "tema": "IBS e CBS — novos tributos",
-    "tema_slug": "ibs-cbs",
-    "nicho": "reforma",
-    "data": "2026-05-13T11:16:22Z"
-  },
-  {
-    "slug": "2026-05-13-tributacao-de-empresas-de-ia-no-brasil",
-    "titulo": "Tributação de empresas de IA no Brasil",
-    "resumo": "O julgamento entre Elon Musk e Sam Altman revelou documentos internos da OpenAI que mostram disputas sobre a conversão de entidade sem fins lucrativos em empresa com fins lucrativos. No Brasil, essa d",
-    "tema": "Tributação de empresas de tecnologia e IA",
-    "tema_slug": "tributacao-tech-ia",
-    "nicho": "ia",
-    "data": "2026-05-13T11:01:54Z"
-  },
-  {
     "slug": "2026-05-13-open-finance-dados-financeiros-e-oportunidades",
     "titulo": "Open Finance: dados financeiros e oportunidades",
     "resumo": "O Open Finance consolida no Brasil um modelo regulado de compartilhamento de dados financeiros, baseado no consentimento do titular e operado sob supervisão do Banco Central. Para fintechs, isso repre",
@@ -3879,24 +2601,6 @@
     "data": "2026-05-13T10:31:36Z"
   },
   {
-    "slug": "2026-05-13-estruturacao-societaria-de-empresas-cripto",
-    "titulo": "Estruturação societária de empresas cripto",
-    "resumo": "Larry Fink, CEO da BlackRock, declarou publicamente ter 'inveja' do Pix brasileiro e defendeu a tokenização de ativos como o futuro do mercado financeiro. Para empresas cripto no Brasil, esse cenário ",
-    "tema": "Estruturação societária de empresas cripto",
-    "tema_slug": "estruturacao-empresa-cripto",
-    "nicho": "cripto",
-    "data": "2026-05-13T10:01:08Z"
-  },
-  {
-    "slug": "2026-05-13-regulacao-de-ia-no-brasil-o-que-muda-em-2026",
-    "titulo": "Regulação de IA no Brasil: o que muda em 2026",
-    "resumo": "O Brasil ainda não possui uma lei geral de inteligência artificial aprovada, mas o Projeto de Lei 2.338/2023 avança no Senado com disposições que impactam diretamente empresas desenvolvedoras e usuári",
-    "tema": "Regulação de IA no Brasil",
-    "tema_slug": "regulacao-ia-brasil",
-    "nicho": "ia",
-    "data": "2026-05-13T03:05:43Z"
-  },
-  {
     "slug": "2026-05-13-bc-multa-topazio-r-16-mi-por-irregularidades-em-cripto",
     "titulo": "BC multa Topázio R$ 16 mi por irregularidades em cripto",
     "resumo": "O Banco Central do Brasil proibiu a Topázio Distribuidora de Títulos e Valores Mobiliários de realizar operações com criptomoedas e aplicou multa de R$ 16 milhões após identificar irregularidades em o",
@@ -3904,24 +2608,6 @@
     "tema_slug": "regulacao-cripto",
     "nicho": "cripto",
     "data": "2026-05-13T03:04:48Z"
-  },
-  {
-    "slug": "2026-05-13-captacao-e-investimento-em-fintechs-no-brasil",
-    "titulo": "Captação e investimento em fintechs no Brasil",
-    "resumo": "O ecossistema de fintechs brasileiro movimentou bilhões em captações nos últimos anos, com estruturas que vão de rodadas seed até emissões de CRI, CRA e debêntures. Do ponto de vista jurídico, essas o",
-    "tema": "Investimento e captação em fintechs",
-    "tema_slug": "investimento-fintech",
-    "nicho": "fintechs",
-    "data": "2026-05-13T03:03:53Z"
-  },
-  {
-    "slug": "2026-05-13-tributacao-no-e-commerce-guia-completo",
-    "titulo": "Tributação no E-commerce: Guia Completo",
-    "resumo": "A tributação no e-commerce envolve regras específicas de ICMS, ISS, PIS, COFINS e outros tributos que variam conforme o regime fiscal adotado e o tipo de operação realizada. Empresas que vendem online",
-    "tema": "Tributação no e-commerce",
-    "tema_slug": "tributacao-ecommerce",
-    "nicho": "ecommerce",
-    "data": "2026-05-13T03:03:47Z"
   },
   {
     "slug": "2026-05-13-split-payment-e-fiscalizacao-na-reforma-tributaria",
@@ -3940,33 +2626,6 @@
     "tema_slug": "compliance-reforma",
     "nicho": "reforma",
     "data": "2026-05-12T11:16:27Z"
-  },
-  {
-    "slug": "2026-05-12-ai-act-e-regulacao-internacional-de-ia-em-2026",
-    "titulo": "AI Act e regulação internacional de IA em 2026",
-    "resumo": "O AI Act europeu entrou em vigor em agosto de 2024 e suas obrigações mais críticas passam a valer em 2025 e 2026, criando impacto direto para empresas brasileiras de IA que operam ou exportam para a E",
-    "tema": "AI Act e regulação internacional",
-    "tema_slug": "ai-act",
-    "nicho": "ia",
-    "data": "2026-05-12T11:01:44Z"
-  },
-  {
-    "slug": "2026-05-12-credito-digital-e-bnpl-riscos-e-regras-no-brasil",
-    "titulo": "Crédito digital e BNPL: riscos e regras no Brasil",
-    "resumo": "O ambiente macroeconômico brasileiro, com inflação monitorada pelo IPCA, pressiona diretamente as operações de crédito digital e Buy Now, Pay Later (BNPL). Do ponto de vista jurídico, essas operações ",
-    "tema": "Crédito digital e BNPL",
-    "tema_slug": "credito-digital",
-    "nicho": "fintechs",
-    "data": "2026-05-12T10:46:38Z"
-  },
-  {
-    "slug": "2026-05-12-tributacao-no-e-commerce-guia-completo",
-    "titulo": "Tributação no E-commerce: Guia Completo",
-    "resumo": "A tributação no e-commerce segue as mesmas bases do comércio físico, mas apresenta particularidades importantes, especialmente na incidência do ICMS em operações interestaduais. Conhecer os regimes tr",
-    "tema": "Tributação no e-commerce",
-    "tema_slug": "tributacao-ecommerce",
-    "nicho": "ecommerce",
-    "data": "2026-05-12T10:31:30Z"
   },
   {
     "slug": "2026-05-12-tributacao-de-criptoativos-b3-stablecoins-e-tokenizacao",
@@ -3996,15 +2655,6 @@
     "data": "2026-05-12T03:03:29Z"
   },
   {
-    "slug": "2026-05-12-tributacao-de-fintechs-no-brasil-o-que-saber",
-    "titulo": "Tributação de fintechs no Brasil: o que saber",
-    "resumo": "O ecossistema de fintechs segue atraindo investimentos no Brasil, mas a estrutura tributária aplicável a essas empresas ainda gera dúvidas operacionais relevantes. Fintechs enquadradas como instituiçõ",
-    "tema": "Tributação de fintechs",
-    "tema_slug": "tributacao-fintech",
-    "nicho": "fintechs",
-    "data": "2026-05-12T03:02:04Z"
-  },
-  {
     "slug": "2026-05-12-transicao-2026-2033-piscofins-ainda-cobra-caro",
     "titulo": "Transição 2026-2033: PIS/Cofins ainda cobra caro",
     "resumo": "O CARF manteve, por 4 votos a 2, a cobrança de PIS/Cofins sobre operações de arrendamento mercantil, sinalizando que o fisco continua exigindo os tributos antigos com rigor pleno durante o período de ",
@@ -4012,42 +2662,6 @@
     "tema_slug": "transicao-tributaria",
     "nicho": "reforma",
     "data": "2026-05-12T03:01:40Z"
-  },
-  {
-    "slug": "2026-05-11-ibs-e-cbs-entenda-os-novos-tributos-da-reforma",
-    "titulo": "IBS e CBS: entenda os novos tributos da reforma",
-    "resumo": "A EC 132/2023 criou o IBS e a CBS como os dois pilares da nova tributação sobre o consumo no Brasil. Esses tributos substituem cinco impostos atuais e seguem o modelo de IVA dual, com crédito amplo e ",
-    "tema": "IBS e CBS — novos tributos",
-    "tema_slug": "ibs-cbs",
-    "nicho": "reforma",
-    "data": "2026-05-11T11:16:26Z"
-  },
-  {
-    "slug": "2026-05-11-lgpd-e-protecao-de-dados-em-ia-guia-pratico",
-    "titulo": "LGPD e proteção de dados em IA: guia prático",
-    "resumo": "A LGPD (Lei nº 13.709/2018) impõe obrigações concretas a qualquer empresa que utilize dados pessoais para treinar, operar ou melhorar sistemas de inteligência artificial no Brasil. O descumprimento po",
-    "tema": "LGPD e proteção de dados em IA",
-    "tema_slug": "lgpd-ia",
-    "nicho": "ia",
-    "data": "2026-05-11T11:01:48Z"
-  },
-  {
-    "slug": "2026-05-11-insurtech-no-brasil-regulacao-e-oportunidades",
-    "titulo": "Insurtech no Brasil: regulação e oportunidades",
-    "resumo": "O mercado de seguros digitais (insurtech) no Brasil opera sob supervisão da SUSEP e do CNSP, com regras específicas para distribuição, subscrição e gestão de riscos. A entrada de grandes grupos de tel",
-    "tema": "Seguros digitais (insurtech)",
-    "tema_slug": "insurtech",
-    "nicho": "fintechs",
-    "data": "2026-05-11T10:46:31Z"
-  },
-  {
-    "slug": "2026-05-11-tributacao-no-e-commerce-guia-completo",
-    "titulo": "Tributação no E-commerce: Guia Completo",
-    "resumo": "A tributação no e-commerce segue as mesmas bases do comércio físico, mas apresenta particularidades relevantes, especialmente no ICMS interestadual e na emissão de documentos fiscais. Conhecer as regr",
-    "tema": "Tributação no e-commerce",
-    "tema_slug": "tributacao-ecommerce",
-    "nicho": "ecommerce",
-    "data": "2026-05-11T10:31:48Z"
   },
   {
     "slug": "2026-05-11-defi-e-stablecoins-riscos-e-regras-no-brasil",
@@ -4095,33 +2709,6 @@
     "data": "2026-05-11T09:30:16Z"
   },
   {
-    "slug": "2026-05-11-simples-nacional-e-regimes-especiais-na-reforma",
-    "titulo": "Simples Nacional e regimes especiais na reforma",
-    "resumo": "A reforma tributária (EC 132/2023 e LC 214/2025) traz mudanças profundas para empresas enquadradas no Simples Nacional e nos regimes especiais de tributação. Com a chegada do IBS e da CBS, o modelo de",
-    "tema": "Regimes especiais e o Simples Nacional",
-    "tema_slug": "simples-reforma",
-    "nicho": "reforma",
-    "data": "2026-05-11T09:30:13Z"
-  },
-  {
-    "slug": "2026-05-10-imposto-seletivo-o-que-muda-para-empresas",
-    "titulo": "Imposto Seletivo: o que muda para empresas",
-    "resumo": "O Imposto Seletivo, criado pela EC 132/2023, incide sobre produtos considerados prejudiciais à saúde e ao meio ambiente, como cigarros, bebidas alcoólicas e veículos poluentes. Artigo publicado pelo J",
-    "tema": "Imposto Seletivo",
-    "tema_slug": "imposto-seletivo",
-    "nicho": "reforma",
-    "data": "2026-05-10T11:16:28Z"
-  },
-  {
-    "slug": "2026-05-10-tributacao-de-empresas-de-tecnologia-e-ia",
-    "titulo": "Tributação de empresas de tecnologia e IA",
-    "resumo": "Uma rede de telefonia americana anunciou bloqueio automatizado de conteúdos por categoria, usando IA para filtragem. No Brasil, serviços com essa arquitetura técnica podem ter enquadramento tributário",
-    "tema": "Tributação de empresas de tecnologia e IA",
-    "tema_slug": "tributacao-tech-ia",
-    "nicho": "ia",
-    "data": "2026-05-10T11:01:45Z"
-  },
-  {
     "slug": "2026-05-10-open-finance-e-fraudes-o-que-fintechs-precisam-saber",
     "titulo": "Open Finance e fraudes: o que fintechs precisam saber",
     "resumo": "Pesquisa divulgada pela InfoMoney aponta que 3 em cada 10 torcedores brasileiros já foram vítimas de golpes relacionados ao futebol, incluindo fraudes em plataformas de apostas e pagamentos digitais. ",
@@ -4140,15 +2727,6 @@
     "data": "2026-05-10T10:31:39Z"
   },
   {
-    "slug": "2026-05-10-estruturacao-societaria-de-empresas-cripto",
-    "titulo": "Estruturação societária de empresas cripto",
-    "resumo": "Fábio Plein, diretor da Coinbase para as Américas, afirmou que stablecoins oferecem mais transparência do que moedas fiduciárias, reacendendo o debate sobre a legitimidade operacional dessas empresas ",
-    "tema": "Estruturação societária de empresas cripto",
-    "tema_slug": "estruturacao-empresa-cripto",
-    "nicho": "cripto",
-    "data": "2026-05-10T10:01:09Z"
-  },
-  {
     "slug": "2026-05-10-marketplaces-e-o-endividamento-do-consumidor",
     "titulo": "Marketplaces e o endividamento do consumidor",
     "resumo": "O uso intensivo de aplicativos de compra e a facilidade do parcelamento em marketplaces estão contribuindo para um ciclo de endividamento entre consumidores brasileiros. Para as plataformas digitais, ",
@@ -4156,15 +2734,6 @@
     "tema_slug": "marketplaces",
     "nicho": "ecommerce",
     "data": "2026-05-10T03:31:16Z"
-  },
-  {
-    "slug": "2026-05-10-regulacao-do-banco-central-para-fintechs-em-2026",
-    "titulo": "Regulação do Banco Central para Fintechs em 2026",
-    "resumo": "O Banco Central do Brasil mantém um arcabouço regulatório próprio para fintechs, estruturado principalmente pelas Resoluções BCB e pela Lei 4.595/1964, com atualizações constantes via Resolução CMN 4.",
-    "tema": "Regulação do Banco Central para fintechs",
-    "tema_slug": "regulacao-bacen",
-    "nicho": "fintechs",
-    "data": "2026-05-10T03:31:11Z"
   },
   {
     "slug": "2026-05-10-imposto-seletivo-criticas-e-impacto-nas-empresas",
@@ -4176,42 +2745,6 @@
     "data": "2026-05-10T03:30:10Z"
   },
   {
-    "slug": "2026-05-10-regulacao-de-criptoativos-no-brasil-em-2026",
-    "titulo": "Regulação de criptoativos no Brasil em 2026",
-    "resumo": "O Comitê Bancário do Senado dos EUA votou a Lei CLARITY, que estabelece critérios claros para classificar criptoativos como commodities ou valores mobiliários. No Brasil, a regulação segue estruturada",
-    "tema": "Regulação de criptoativos no Brasil",
-    "tema_slug": "regulacao-cripto",
-    "nicho": "cripto",
-    "data": "2026-05-10T03:03:39Z"
-  },
-  {
-    "slug": "2026-05-10-regulacao-de-ia-no-brasil-o-que-muda-em-2026",
-    "titulo": "Regulação de IA no Brasil: o que muda em 2026",
-    "resumo": "O Brasil avança na construção de um marco regulatório para inteligência artificial, com o PL 2338/2023 em tramitação no Congresso e normas setoriais já em vigor. Para empresas de IA, isso significa ob",
-    "tema": "Regulação de IA no Brasil",
-    "tema_slug": "regulacao-ia-brasil",
-    "nicho": "ia",
-    "data": "2026-05-10T03:03:02Z"
-  },
-  {
-    "slug": "2026-05-09-ibs-e-cbs-entenda-os-novos-tributos-da-reforma",
-    "titulo": "IBS e CBS: entenda os novos tributos da reforma",
-    "resumo": "A reforma tributária brasileira criou dois novos tributos, o IBS e a CBS, que substituirão progressivamente cinco impostos e contribuições existentes. Ambos seguem o modelo de IVA dual, com não cumula",
-    "tema": "IBS e CBS — novos tributos",
-    "tema_slug": "ibs-cbs",
-    "nicho": "reforma",
-    "data": "2026-05-09T11:16:25Z"
-  },
-  {
-    "slug": "2026-05-09-lgpd-e-protecao-de-dados-em-ia-guia-pratico",
-    "titulo": "LGPD e proteção de dados em IA: guia prático",
-    "resumo": "A LGPD (Lei nº 13.709/2018) se aplica integralmente ao desenvolvimento e uso de sistemas de inteligência artificial que tratam dados pessoais no Brasil. Empresas de IA precisam identificar bases legai",
-    "tema": "LGPD e proteção de dados em IA",
-    "tema_slug": "lgpd-ia",
-    "nicho": "ia",
-    "data": "2026-05-09T11:01:48Z"
-  },
-  {
     "slug": "2026-05-09-captacao-em-fintechs-risco-brasil-eua-e-o-impacto",
     "titulo": "Captação em Fintechs: Risco Brasil-EUA e o Impacto",
     "resumo": "A crise diplomática entre Brasil e Estados Unidos, debatida intensamente no cenário político em maio de 2026, gerou ruído no ambiente de investimentos e captação de fintechs brasileiras. Do ponto de v",
@@ -4219,33 +2752,6 @@
     "tema_slug": "investimento-fintech",
     "nicho": "fintechs",
     "data": "2026-05-09T10:46:41Z"
-  },
-  {
-    "slug": "2026-05-09-tributacao-no-e-commerce-guia-completo",
-    "titulo": "Tributação no E-commerce: Guia Completo",
-    "resumo": "A tributação no e-commerce brasileiro envolve tributos federais, estaduais e municipais que variam conforme o regime tributário, o tipo de produto e o destino da venda. Compreender essas regras é indi",
-    "tema": "Tributação no e-commerce",
-    "tema_slug": "tributacao-ecommerce",
-    "nicho": "ecommerce",
-    "data": "2026-05-09T10:31:43Z"
-  },
-  {
-    "slug": "2026-05-09-tributacao-de-criptoativos-no-brasil-em-2026",
-    "titulo": "Tributação de Criptoativos no Brasil em 2026",
-    "resumo": "O Banco Central do Brasil incluiu criptomoedas na pauta de sua conferência anual de 2026, sinalizando aprofundamento da agenda regulatória no país. Para investidores e empresas, isso reforça a necessi",
-    "tema": "Tributação de criptoativos",
-    "tema_slug": "tributacao-cripto",
-    "nicho": "cripto",
-    "data": "2026-05-09T10:01:00Z"
-  },
-  {
-    "slug": "2026-05-09-tributacao-de-criptoativos-no-brasil-guia-completo",
-    "titulo": "Tributação de Criptoativos no Brasil: Guia Completo",
-    "resumo": "No Brasil, criptoativos são tributados pelo Imposto de Renda sobre o ganho de capital obtido nas operações de venda, troca ou permuta. A Receita Federal regulamentou o tema por meio de instruções norm",
-    "tema": "Tributação de criptoativos",
-    "tema_slug": "tributacao-cripto",
-    "nicho": "cripto",
-    "data": "2026-05-09T03:06:25Z"
   },
   {
     "slug": "2026-05-09-ia-no-trabalho-questoes-trabalhistas-em-2026",
@@ -4284,15 +2790,6 @@
     "data": "2026-05-09T03:02:46Z"
   },
   {
-    "slug": "2026-05-08-direitos-autorais-e-ia-generativa-no-brasil",
-    "titulo": "Direitos autorais e IA generativa no Brasil",
-    "resumo": "A ausência de regulação específica sobre direitos autorais em obras geradas por IA cria insegurança jurídica real para empresas brasileiras que desenvolvem ou utilizam modelos generativos. A Lei 9.610",
-    "tema": "Direitos autorais e IA generativa",
-    "tema_slug": "direitos-autorais-ia",
-    "nicho": "ia",
-    "data": "2026-05-08T12:18:35Z"
-  },
-  {
     "slug": "2026-05-08-ia-e-energia-nuclear-o-que-muda-para-investidores",
     "titulo": "IA e energia nuclear: o que muda para investidores",
     "resumo": "O avanço da inteligência artificial impulsiona a demanda por energia nuclear como fonte de base para data centers. No Brasil, esse movimento exige atenção ao marco regulatório nuclear, às obrigações a",
@@ -4311,15 +2808,6 @@
     "data": "2026-05-08T11:40:58Z"
   },
   {
-    "slug": "2026-05-08-tributacao-no-e-commerce-guia-completo",
-    "titulo": "Tributação no E-commerce: Guia Completo",
-    "resumo": "A tributação no e-commerce brasileiro envolve impostos federais, estaduais e municipais, com regras específicas para operações interestaduais e venda ao consumidor final. Conhecer cada tributo e o reg",
-    "tema": "Tributação no e-commerce",
-    "tema_slug": "tributacao-ecommerce",
-    "nicho": "ecommerce",
-    "data": "2026-05-08T11:40:39Z"
-  },
-  {
     "slug": "2026-05-08-stablecoins-e-tributacao-o-que-o-bc-esta-preparando",
     "titulo": "Stablecoins e tributação: o que o BC está preparando",
     "resumo": "O Banco Central do Brasil está estruturando um marco regulatório que permitirá à Receita Federal cobrar imposto sobre operações com stablecoins, tratando esses ativos de forma distinta das demais crip",
@@ -4327,24 +2815,6 @@
     "tema_slug": "tokenizacao",
     "nicho": "cripto",
     "data": "2026-05-08T11:40:15Z"
-  },
-  {
-    "slug": "2026-05-08-transicao-tributaria-2026-2033-o-que-muda-agora",
-    "titulo": "Transição tributária 2026-2033: o que muda agora",
-    "resumo": "O regulamento da reforma tributária marca o início da fase operacional do novo sistema, com CBS e IBS começando a ganhar forma prática a partir de 2026. Ainda há lacunas normativas, sistemas em matura",
-    "tema": "Transição tributária (2026-2033)",
-    "tema_slug": "transicao-tributaria",
-    "nicho": "reforma",
-    "data": "2026-05-08T11:31:36Z"
-  },
-  {
-    "slug": "2026-05-07-simples-nacional-e-regimes-especiais-na-reforma",
-    "titulo": "Simples Nacional e regimes especiais na reforma",
-    "resumo": "A reforma tributária brasileira entrou em vigor em 2026 e já impõe desafios concretos de comunicação e adaptação para empresas de todos os portes. Para os optantes do Simples Nacional, a transição exi",
-    "tema": "Regimes especiais e o Simples Nacional",
-    "tema_slug": "simples-reforma",
-    "nicho": "reforma",
-    "data": "2026-05-07T11:16:20Z"
   },
   {
     "slug": "2026-05-07-tributacao-de-empresas-de-ia-no-brasil-o-essencial",
@@ -4392,24 +2862,6 @@
     "data": "2026-05-07T03:56:16Z"
   },
   {
-    "slug": "2026-05-07-ai-act-e-regulacao-internacional-de-ia-em-2026",
-    "titulo": "AI Act e Regulação Internacional de IA em 2026",
-    "resumo": "O AI Act da União Europeia, em vigor desde 2024 e com obrigações escalonadas até 2027, é o primeiro marco regulatório abrangente de IA com impacto extraterritorial relevante. Empresas brasileiras que ",
-    "tema": "AI Act e regulação internacional",
-    "tema_slug": "ai-act",
-    "nicho": "ia",
-    "data": "2026-05-07T03:23:53Z"
-  },
-  {
-    "slug": "2026-05-07-open-finance-dados-financeiros-e-regulacao-no-brasil",
-    "titulo": "Open Finance: dados financeiros e regulação no Brasil",
-    "resumo": "O Open Finance brasileiro opera sob um arcabouço regulatório denso, coordenado pelo Banco Central, que exige das fintechs conformidade técnica e jurídica contínua. O equilíbrio entre inovação, proteçã",
-    "tema": "Open Finance e dados financeiros",
-    "tema_slug": "open-finance",
-    "nicho": "fintechs",
-    "data": "2026-05-07T03:23:43Z"
-  },
-  {
     "slug": "2026-05-07-taxa-das-blusinhas-fim-do-imposto-em-debate",
     "titulo": "Taxa das blusinhas: fim do imposto em debate",
     "resumo": "O ministro da Fazenda, Dario Durigan, admitiu publicamente em 6 de maio de 2026 que o governo discute o fim da taxa de 20% sobre compras internacionais de até US$ 50, conhecida como 'taxa das blusinha",
@@ -4428,15 +2880,6 @@
     "data": "2026-05-07T03:23:38Z"
   },
   {
-    "slug": "2026-05-06-ibs-e-cbs-entenda-os-novos-tributos-da-reforma",
-    "titulo": "IBS e CBS: entenda os novos tributos da reforma",
-    "resumo": "A reforma tributária brasileira criou dois novos tributos, o IBS e a CBS, que substituirão cinco impostos e contribuições existentes. A transição começou em 2026 e se estende até 2033, exigindo adapta",
-    "tema": "IBS e CBS — novos tributos",
-    "tema_slug": "ibs-cbs",
-    "nicho": "reforma",
-    "data": "2026-05-06T18:07:45Z"
-  },
-  {
     "slug": "2026-05-06-lgpd-e-ia-obrigacoes-reais-para-startups",
     "titulo": "LGPD e IA: obrigações reais para startups",
     "resumo": "O avanço da inteligência aplicada nas empresas brasileiras amplia a superfície de exposição à LGPD, especialmente em sistemas que coletam, processam e inferem dados pessoais de forma automatizada. A A",
@@ -4444,15 +2887,6 @@
     "tema_slug": "lgpd-ia",
     "nicho": "ia",
     "data": "2026-05-06T16:51:47Z"
-  },
-  {
-    "slug": "2026-05-06-regulacao-do-banco-central-para-fintechs",
-    "titulo": "Regulação do Banco Central para fintechs",
-    "resumo": "O Banco Central do Brasil estruturou um conjunto de normas específicas para fintechs, abrangendo desde o credenciamento como Instituição de Pagamento até a autorização para funcionar como Sociedade de",
-    "tema": "Regulação do Banco Central para fintechs",
-    "tema_slug": "regulacao-bacen",
-    "nicho": "fintechs",
-    "data": "2026-05-06T10:46:48Z"
   },
   {
     "slug": "2026-05-06-responsabilidade-tributaria-nos-marketplaces",
@@ -4482,33 +2916,6 @@
     "data": "2026-05-06T03:23:56Z"
   },
   {
-    "slug": "2026-05-05-ibs-e-cbs-entenda-os-novos-tributos-da-reforma",
-    "titulo": "IBS e CBS: entenda os novos tributos da reforma",
-    "resumo": "A reforma tributária brasileira criou dois novos tributos sobre consumo: o IBS (Imposto sobre Bens e Serviços) e a CBS (Contribuição sobre Bens e Serviços). Ambos substituem cinco tributos existentes ",
-    "tema": "IBS e CBS — novos tributos",
-    "tema_slug": "ibs-cbs",
-    "nicho": "reforma",
-    "data": "2026-05-05T11:16:22Z"
-  },
-  {
-    "slug": "2026-05-05-regulacao-de-ia-no-brasil-o-que-muda-em-2026",
-    "titulo": "Regulação de IA no Brasil: o que muda em 2026",
-    "resumo": "O Brasil caminha para consolidar seu marco legal de inteligência artificial, com o PL 2.338/2023 em estágio avançado no Congresso e a ANPD ampliando sua atuação sobre sistemas automatizados de decisão",
-    "tema": "Regulação de IA no Brasil",
-    "tema_slug": "regulacao-ia-brasil",
-    "nicho": "ia",
-    "data": "2026-05-05T11:01:47Z"
-  },
-  {
-    "slug": "2026-05-05-regulacao-do-banco-central-para-fintechs-em-2026",
-    "titulo": "Regulação do Banco Central para fintechs em 2026",
-    "resumo": "O Banco Central do Brasil mantém um conjunto estruturado de normas que disciplina a atuação das fintechs, com destaque para as categorias de Sociedade de Crédito Direto (SCD) e Sociedade de Empréstimo",
-    "tema": "Regulação do Banco Central para fintechs",
-    "tema_slug": "regulacao-bacen",
-    "nicho": "fintechs",
-    "data": "2026-05-05T10:46:37Z"
-  },
-  {
     "slug": "2026-05-05-iss-e-saneamento-basico-impacto-no-e-commerce",
     "titulo": "ISS e Saneamento Básico: Impacto no E-commerce",
     "resumo": "A discussão sobre a cobrança do ISS em obras de saneamento básico levanta questões jurídicas relevantes para empresas que contratam serviços de infraestrutura. O tema afeta diretamente o custo de oper",
@@ -4527,33 +2934,6 @@
     "data": "2026-05-05T10:01:22Z"
   },
   {
-    "slug": "2026-05-05-regulacao-de-criptoativos-no-brasil-em-2026",
-    "titulo": "Regulação de criptoativos no Brasil em 2026",
-    "resumo": "O token SkyAI, que integra inteligência artificial e blockchain, registrou alta de 300% em uma semana, atraindo atenção de investidores brasileiros. No Brasil, tokens com essa característica podem ser",
-    "tema": "Regulação de criptoativos no Brasil",
-    "tema_slug": "regulacao-cripto",
-    "nicho": "cripto",
-    "data": "2026-05-05T03:22:39Z"
-  },
-  {
-    "slug": "2026-05-04-transicao-2026-2033-creditos-de-piscofins-em-risco",
-    "titulo": "Transição 2026-2033: créditos de PIS/Cofins em risco",
-    "resumo": "O CARF decidiu que empresas que compram ouro como ativo financeiro e o revendem como mercadoria não têm direito a crédito de PIS/Cofins, pois a aquisição não gerou incidência das contribuições. A deci",
-    "tema": "Transição tributária (2026-2033)",
-    "tema_slug": "transicao-tributaria",
-    "nicho": "reforma",
-    "data": "2026-05-04T11:16:23Z"
-  },
-  {
-    "slug": "2026-05-04-regulacao-de-ia-no-brasil-o-que-muda-em-2026",
-    "titulo": "Regulação de IA no Brasil: o que muda em 2026",
-    "resumo": "O Brasil avança na regulação de inteligência artificial com o PL 2.338/2023, que estabelece obrigações de transparência, responsabilidade civil e gestão de riscos para sistemas de IA. Para startups e ",
-    "tema": "Regulação de IA no Brasil",
-    "tema_slug": "regulacao-ia-brasil",
-    "nicho": "ia",
-    "data": "2026-05-04T11:01:52Z"
-  },
-  {
     "slug": "2026-05-04-opa-em-fintechs-o-que-muda-na-captacao",
     "titulo": "OPA em Fintechs: o que muda na captação",
     "resumo": "A CVC Corp informou ao mercado que não recebeu nenhuma proposta formal de OPA, após especulações envolvendo a Despegar.com. O episódio ilustra como ofertas públicas de aquisição movimentam o setor de ",
@@ -4563,33 +2943,6 @@
     "data": "2026-05-04T10:46:34Z"
   },
   {
-    "slug": "2026-05-04-lgpd-e-privacidade-no-e-commerce-em-2026",
-    "titulo": "LGPD e privacidade no e-commerce em 2026",
-    "resumo": "A LGPD impõe obrigações concretas a qualquer loja virtual que colete, armazene ou trate dados pessoais de clientes brasileiros. O descumprimento pode gerar multas de até 2% do faturamento, limitadas a",
-    "tema": "LGPD e privacidade no e-commerce",
-    "tema_slug": "lgpd-ecommerce",
-    "nicho": "ecommerce",
-    "data": "2026-05-04T10:31:29Z"
-  },
-  {
-    "slug": "2026-05-04-tributacao-de-criptoativos-no-brasil-em-2026",
-    "titulo": "Tributação de Criptoativos no Brasil em 2026",
-    "resumo": "O Bitcoin atingiu US$ 80 mil em 04/05/2026, segundo o CoinTelegraph Brasil, o que reacende a atenção sobre as obrigações fiscais dos investidores brasileiros. No Brasil, ganhos com criptoativos são tr",
-    "tema": "Tributação de criptoativos",
-    "tema_slug": "tributacao-cripto",
-    "nicho": "cripto",
-    "data": "2026-05-04T10:01:14Z"
-  },
-  {
-    "slug": "2026-05-04-regulacao-de-criptoativos-no-brasil-em-2026",
-    "titulo": "Regulação de criptoativos no Brasil em 2026",
-    "resumo": "Uma pesquisa divulgada pelo CoinTelegraph Brasil em maio de 2026 aponta que a maioria dos americanos desconfia de criptomoedas e de inteligência artificial, mesmo com o setor injetando recursos bilion",
-    "tema": "Regulação de criptoativos no Brasil",
-    "tema_slug": "regulacao-cripto",
-    "nicho": "cripto",
-    "data": "2026-05-04T03:22:41Z"
-  },
-  {
     "slug": "2026-05-03-transicao-2026-2033-creditos-de-piscofins-em-risco",
     "titulo": "Transição 2026-2033: créditos de PIS/Cofins em risco",
     "resumo": "O CARF decidiu que a compra de ouro financeiro não gera crédito de PIS/Cofins quando o ativo é revendido como mercadoria, pois a aquisição não foi tributada pelas contribuições. A decisão reforça um r",
@@ -4597,15 +2950,6 @@
     "tema_slug": "transicao-tributaria",
     "nicho": "reforma",
     "data": "2026-05-03T11:16:22Z"
-  },
-  {
-    "slug": "2026-05-03-regulacao-de-ia-no-brasil-o-que-muda-em-2026",
-    "titulo": "Regulação de IA no Brasil: o que muda em 2026",
-    "resumo": "O Brasil avança na regulação de inteligência artificial enquanto o mercado global de robôs humanoides com IA atinge escala comercial inédita. O PL 2.338/2023, aprovado pelo Senado e em tramitação na C",
-    "tema": "Regulação de IA no Brasil",
-    "tema_slug": "regulacao-ia-brasil",
-    "nicho": "ia",
-    "data": "2026-05-03T11:01:44Z"
   },
   {
     "slug": "2026-05-03-open-finance-e-vgblpgbl-dados-heranca-e-ir-2026",
@@ -4653,33 +2997,6 @@
     "data": "2026-05-02T11:16:14Z"
   },
   {
-    "slug": "2026-05-02-regulacao-de-ia-no-brasil-o-que-muda-em-2026",
-    "titulo": "Regulação de IA no Brasil: o que muda em 2026",
-    "resumo": "A valorização de profissionais com domínio de IA, apontada pela InfoMoney, não ocorre num vácuo regulatório: o Brasil acelera a aprovação do marco legal de inteligência artificial (PL 2338/2023), que ",
-    "tema": "Regulação de IA no Brasil",
-    "tema_slug": "regulacao-ia-brasil",
-    "nicho": "ia",
-    "data": "2026-05-02T11:01:58Z"
-  },
-  {
-    "slug": "2026-05-02-open-finance-dados-financeiros-e-compliance",
-    "titulo": "Open Finance: dados financeiros e compliance",
-    "resumo": "O Open Finance brasileiro, regulado pelo Banco Central, estrutura o compartilhamento padronizado de dados financeiros entre instituições autorizadas mediante consentimento do cliente. Para fintechs, i",
-    "tema": "Open Finance e dados financeiros",
-    "tema_slug": "open-finance",
-    "nicho": "fintechs",
-    "data": "2026-05-02T10:46:40Z"
-  },
-  {
-    "slug": "2026-05-02-tributacao-no-e-commerce-guia-completo",
-    "titulo": "Tributação no E-commerce: Guia Completo",
-    "resumo": "A tributação no e-commerce brasileiro envolve tributos federais, estaduais e municipais que variam conforme o regime tributário, o tipo de produto ou serviço vendido e o estado de destino da mercadori",
-    "tema": "Tributação no e-commerce",
-    "tema_slug": "tributacao-ecommerce",
-    "nicho": "ecommerce",
-    "data": "2026-05-02T10:32:39Z"
-  },
-  {
     "slug": "2026-05-02-bc-proibe-criptoativos-em-remessas-efx-no-brasil",
     "titulo": "BC proíbe criptoativos em remessas eFX no Brasil",
     "resumo": "O Banco Central do Brasil proibiu prestadores de serviços de câmbio eletrônico (eFX) de utilizar criptoativos, incluindo Bitcoin e stablecoins, em operações de remessa internacional. A medida não afet",
@@ -4705,24 +3022,6 @@
     "tema_slug": "ibs-cbs",
     "nicho": "reforma",
     "data": "2026-05-01T11:16:20Z"
-  },
-  {
-    "slug": "2026-05-01-regulacao-de-ia-no-brasil-o-que-muda-em-2026",
-    "titulo": "Regulação de IA no Brasil: o que muda em 2026",
-    "resumo": "Trabalhadores informais na Nigéria e na Índia estão sendo contratados para gravar tarefas domésticas e treinar robôs humanoides, expondo lacunas graves em proteção de dados, direitos trabalhistas e ra",
-    "tema": "Regulação de IA no Brasil",
-    "tema_slug": "regulacao-ia-brasil",
-    "nicho": "ia",
-    "data": "2026-05-01T11:01:43Z"
-  },
-  {
-    "slug": "2026-05-01-regulacao-do-banco-central-para-fintechs-em-2026",
-    "titulo": "Regulação do Banco Central para fintechs em 2026",
-    "resumo": "O Banco Central do Brasil consolidou, ao longo dos últimos anos, um conjunto normativo robusto que governa a atuação de fintechs no país, incluindo Instituições de Pagamento, Sociedades de Crédito Dir",
-    "tema": "Regulação do Banco Central para fintechs",
-    "tema_slug": "regulacao-bacen",
-    "nicho": "fintechs",
-    "data": "2026-05-01T10:46:45Z"
   },
   {
     "slug": "2026-05-01-dividendos-de-marketplaces-o-que-o-investidor-precisa-saber",
@@ -4752,24 +3051,6 @@
     "data": "2026-04-30T11:16:21Z"
   },
   {
-    "slug": "2026-04-30-regulacao-de-ia-no-brasil-o-que-muda-em-2026",
-    "titulo": "Regulação de IA no Brasil: o que muda em 2026",
-    "resumo": "O Brasil avança na regulação de inteligência artificial com o PL 2.338/2023, aprovado pelo Senado e em tramitação na Câmara, que estabelece obrigações de transparência, responsabilidade civil e avalia",
-    "tema": "Regulação de IA no Brasil",
-    "tema_slug": "regulacao-ia-brasil",
-    "nicho": "ia",
-    "data": "2026-04-30T11:01:50Z"
-  },
-  {
-    "slug": "2026-04-30-regulacao-do-banco-central-para-fintechs-em-2026",
-    "titulo": "Regulação do Banco Central para fintechs em 2026",
-    "resumo": "O Banco Central do Brasil consolidou nos últimos anos um arcabouço regulatório específico para fintechs, abrangendo Instituições de Pagamento, Sociedades de Crédito Direto e Correspondentes Digitais. ",
-    "tema": "Regulação do Banco Central para fintechs",
-    "tema_slug": "regulacao-bacen",
-    "nicho": "fintechs",
-    "data": "2026-04-30T10:46:43Z"
-  },
-  {
     "slug": "2026-04-30-contratabrasil-meis-em-marketplaces-publicos",
     "titulo": "Contrata+Brasil: MEIs em marketplaces",
     "resumo": "O governo federal lançou o Contrata+Brasil, plataforma digital que permite a microempreendedores individuais oferecer serviços diretamente a órgãos públicos. A iniciativa cria um novo canal de vendas ",
@@ -4788,15 +3069,6 @@
     "data": "2026-04-30T10:01:17Z"
   },
   {
-    "slug": "2026-04-30-regulacao-de-criptoativos-no-brasil-em-2026",
-    "titulo": "Regulação de Criptoativos no Brasil em 2026",
-    "resumo": "A história de Luana Lopes Lara, cofundadora brasileira da plataforma Kalshi e detentora de Bitcoin desde 2014, ilustra como o mercado cripto amadureceu antes da regulação formal no Brasil. A Lei 14.47",
-    "tema": "Regulação de criptoativos no Brasil",
-    "tema_slug": "regulacao-cripto",
-    "nicho": "cripto",
-    "data": "2026-04-30T03:08:25Z"
-  },
-  {
     "slug": "2026-04-29-ia-na-saude-regulacao-e-riscos-no-brasil",
     "titulo": "IA na Saúde: Regulação e Riscos no Brasil",
     "resumo": "Ferramentas de inteligência artificial já estão sendo usadas na assistência à saúde no Brasil, mas estudos indicam que precisão técnica não garante melhora nos resultados clínicos dos pacientes. Do po",
@@ -4806,15 +3078,6 @@
     "data": "2026-04-29T11:02:08Z"
   },
   {
-    "slug": "2026-04-29-regulacao-do-banco-central-para-fintechs-em-2026",
-    "titulo": "Regulação do Banco Central para fintechs em 2026",
-    "resumo": "O Banco Central do Brasil consolidou nos últimos anos um arcabouço regulatório robusto para fintechs, organizado principalmente por meio das Resoluções BCB e da Lei 14.286/2021. As instituições de pag",
-    "tema": "Regulação do Banco Central para fintechs",
-    "tema_slug": "regulacao-bacen",
-    "nicho": "fintechs",
-    "data": "2026-04-29T10:46:55Z"
-  },
-  {
     "slug": "2026-04-29-correios-prejuizo-e-o-impacto-no-cross-border",
     "titulo": "Correios: prejuízo e o impacto no cross border",
     "resumo": "O balanço prévio dos Correios aponta prejuízo de R$ 3,4 bilhões no primeiro trimestre de 2026, segundo o G1 Economia. Esse resultado coloca em evidência a fragilidade operacional da estatal que é, ain",
@@ -4822,15 +3085,6 @@
     "tema_slug": "cross-border",
     "nicho": "ecommerce",
     "data": "2026-04-29T10:31:59Z"
-  },
-  {
-    "slug": "2026-04-29-regulacao-de-criptoativos-no-brasil-em-2026",
-    "titulo": "Regulação de criptoativos no Brasil em 2026",
-    "resumo": "A América Latina consolida-se como região de adoção expressiva de criptoativos, com o Brasil ocupando posição central nesse movimento. O país conta com marco legal desde 2023 (Lei 14.478) e regulament",
-    "tema": "Regulação de criptoativos no Brasil",
-    "tema_slug": "regulacao-cripto",
-    "nicho": "cripto",
-    "data": "2026-04-29T10:01:20Z"
   },
   {
     "slug": "2026-04-28-regulamento-do-ibs-e-cbs-aprovado-o-que-muda",
@@ -4851,24 +3105,6 @@
     "data": "2026-04-28T10:46:57Z"
   },
   {
-    "slug": "2026-04-28-tributacao-no-e-commerce-guia-completo",
-    "titulo": "Tributação no E-commerce: Guia Completo",
-    "resumo": "A tributação no e-commerce brasileiro envolve tributos federais, estaduais e municipais que variam conforme o regime tributário, o tipo de produto e o destino da venda. Compreender essas regras é indi",
-    "tema": "Tributação no e-commerce",
-    "tema_slug": "tributacao-ecommerce",
-    "nicho": "ecommerce",
-    "data": "2026-04-28T10:31:39Z"
-  },
-  {
-    "slug": "2026-04-28-regulacao-de-criptoativos-no-brasil-em-2026",
-    "titulo": "Regulação de criptoativos no Brasil em 2026",
-    "resumo": "No primeiro trimestre de 2026, brasileiros dobraram o volume de compras de criptomoedas, atingindo R$ 34 bilhões, segundo o Portal do Bitcoin. O crescimento expressivo ocorre sob um marco regulatório ",
-    "tema": "Regulação de criptoativos no Brasil",
-    "tema_slug": "regulacao-cripto",
-    "nicho": "cripto",
-    "data": "2026-04-28T10:01:24Z"
-  },
-  {
     "slug": "2026-04-28-b3-lanca-contratos-de-eventos-para-bitcoin-e-dolar",
     "titulo": "B3 lança Contratos de Eventos para Bitcoin e dólar",
     "resumo": "A B3 lançou Contratos de Eventos referenciados em Ibovespa, dólar e Bitcoin, criando uma alternativa regulada aos mercados preditivos proibidos pelo Banco Central em 2025. O movimento representa uma r",
@@ -4876,24 +3112,6 @@
     "tema_slug": "regulacao-cripto",
     "nicho": "cripto",
     "data": "2026-04-28T03:28:56Z"
-  },
-  {
-    "slug": "2026-04-27-ibs-e-cbs-o-que-muda-para-sua-empresa-em-2026",
-    "titulo": "IBS e CBS: o que muda para sua empresa em 2026",
-    "resumo": "O Conselho Administrativo de Recursos Fiscais (Carf) aplicou recentemente a modulação de efeitos do Tema 985 do STF, afastando a contribuição previdenciária sobre o terço constitucional de férias. A d",
-    "tema": "IBS e CBS — novos tributos",
-    "tema_slug": "ibs-cbs",
-    "nicho": "reforma",
-    "data": "2026-04-27T11:16:16Z"
-  },
-  {
-    "slug": "2026-04-27-regulacao-de-ia-no-brasil-o-que-muda-em-2026",
-    "titulo": "Regulação de IA no Brasil: o que muda em 2026",
-    "resumo": "O Brasil avança na construção de um marco regulatório para inteligência artificial, com o PL 2.338/2023 em tramitação no Congresso e diretrizes já emanadas por órgãos setoriais. Para empresas de IA, i",
-    "tema": "Regulação de IA no Brasil",
-    "tema_slug": "regulacao-ia-brasil",
-    "nicho": "ia",
-    "data": "2026-04-27T11:01:55Z"
   },
   {
     "slug": "2026-04-27-open-finance-e-ia-o-novo-modelo-de-dados-financeiros",
@@ -4905,15 +3123,6 @@
     "data": "2026-04-27T10:46:29Z"
   },
   {
-    "slug": "2026-04-27-lgpd-e-privacidade-no-e-commerce-o-que-muda",
-    "titulo": "LGPD e Privacidade no E-commerce: O Que Muda",
-    "resumo": "A LGPD impõe obrigações concretas a qualquer loja virtual que colete, armazene ou processe dados de clientes. O descumprimento pode gerar multas de até 2% do faturamento, limitadas a R$ 50 milhões por",
-    "tema": "LGPD e privacidade no e-commerce",
-    "tema_slug": "lgpd-ecommerce",
-    "nicho": "ecommerce",
-    "data": "2026-04-27T10:31:39Z"
-  },
-  {
     "slug": "2026-04-27-jornada-de-6h-em-corretoras-de-cripto-o-que-muda",
     "titulo": "Jornada de 6h em corretoras de cripto: o que muda?",
     "resumo": "Um projeto de lei em tramitação no Brasil propõe alterar a CLT para fixar jornada de seis horas diárias aos trabalhadores de corretoras de criptoativos, reconhecendo o setor como atividade de natureza",
@@ -4923,15 +3132,6 @@
     "data": "2026-04-27T10:01:19Z"
   },
   {
-    "slug": "2026-04-27-tributacao-de-criptoativos-no-brasil-em-2026",
-    "titulo": "Tributação de Criptoativos no Brasil em 2026",
-    "resumo": "O Bitcoin retomou um ciclo de valorização em abril de 2026, com indicadores técnicos positivos como recuperação do hashrate e taxas de financiamento negativas apontando para novos ganhos. No Brasil, t",
-    "tema": "Tributação de criptoativos",
-    "tema_slug": "tributacao-cripto",
-    "nicho": "cripto",
-    "data": "2026-04-27T03:38:25Z"
-  },
-  {
     "slug": "2026-04-26-ibs-e-cbs-o-que-muda-na-tributacao-das-empresas",
     "titulo": "IBS e CBS: o que muda na tributação das empresas",
     "resumo": "A reforma tributária cria o IBS e a CBS para substituir cinco tributos atuais, simplificando o sistema mas exigindo adaptação imediata das empresas. Uma decisão recente do CARF, aplicando o Tema 985 d",
@@ -4939,15 +3139,6 @@
     "tema_slug": "ibs-cbs",
     "nicho": "reforma",
     "data": "2026-04-26T11:16:11Z"
-  },
-  {
-    "slug": "2026-04-26-regulacao-de-ia-no-brasil-o-que-muda-em-2026",
-    "titulo": "Regulação de IA no Brasil: o que muda em 2026",
-    "resumo": "O Brasil avança na regulamentação de inteligência artificial com o PL 2.338/2023, aprovado pelo Senado em 2024 e em tramitação na Câmara. Para empresas de IA, a questão central não é apenas inovar, ma",
-    "tema": "Regulação de IA no Brasil",
-    "tema_slug": "regulacao-ia-brasil",
-    "nicho": "ia",
-    "data": "2026-04-26T11:01:49Z"
   },
   {
     "slug": "2026-04-26-tributacao-de-fintechs-ganho-de-capital-e-ir",
@@ -4986,15 +3177,6 @@
     "data": "2026-04-26T03:05:36Z"
   },
   {
-    "slug": "2026-04-25-ibs-e-cbs-entenda-os-novos-tributos-da-reforma",
-    "titulo": "IBS e CBS: entenda os novos tributos da reforma",
-    "resumo": "A reforma tributária brasileira criou dois novos tributos, o IBS e a CBS, que substituirão gradualmente ICMS, ISS, PIS e COFINS entre 2026 e 2033. Ambos seguem o modelo de imposto sobre valor agregado",
-    "tema": "IBS e CBS — novos tributos",
-    "tema_slug": "ibs-cbs",
-    "nicho": "reforma",
-    "data": "2026-04-25T11:16:28Z"
-  },
-  {
     "slug": "2026-04-25-regulacao-de-ia-no-brasil-kyc-fraudes-e-compliance",
     "titulo": "Regulação de IA no Brasil: KYC, Fraudes e Compliance",
     "resumo": "A MIT Technology Review Brasil identificou dezenas de canais no Telegram oferecendo serviços para burlar processos de KYC em bancos e corretoras de criptomoedas, usando ferramentas baseadas em IA gene",
@@ -5002,15 +3184,6 @@
     "tema_slug": "regulacao-ia-brasil",
     "nicho": "ia",
     "data": "2026-04-25T11:01:52Z"
-  },
-  {
-    "slug": "2026-04-25-regulacao-do-banco-central-para-fintechs-em-2026",
-    "titulo": "Regulação do Banco Central para fintechs em 2026",
-    "resumo": "O Banco Central do Brasil consolidou, ao longo dos últimos anos, um arcabouço regulatório robusto para fintechs, que inclui as categorias de Instituição de Pagamento, Sociedade de Crédito Direto e Soc",
-    "tema": "Regulação do Banco Central para fintechs",
-    "tema_slug": "regulacao-bacen",
-    "nicho": "fintechs",
-    "data": "2026-04-25T10:46:31Z"
   },
   {
     "slug": "2026-04-25-taxa-das-blusinhas-impacto-nos-marketplaces",
@@ -5040,24 +3213,6 @@
     "data": "2026-04-25T03:34:24Z"
   },
   {
-    "slug": "2026-04-24-regulacao-de-ia-no-brasil-o-que-muda-em-2026",
-    "titulo": "Regulação de IA no Brasil: o que muda em 2026",
-    "resumo": "O Brasil avança na regulação de inteligência artificial enquanto tecnologias de risco emergente, como a biologia sintética com bactérias-espelho, evidenciam lacunas graves nos marcos normativos vigent",
-    "tema": "Regulação de IA no Brasil",
-    "tema_slug": "regulacao-ia-brasil",
-    "nicho": "ia",
-    "data": "2026-04-24T11:01:41Z"
-  },
-  {
-    "slug": "2026-04-24-regulacao-do-banco-central-para-fintechs-em-2026",
-    "titulo": "Regulação do Banco Central para fintechs em 2026",
-    "resumo": "O Banco Central do Brasil consolidou, ao longo dos últimos anos, um arcabouço regulatório específico para fintechs, estruturado principalmente pelas Resoluções BCB e pela Lei 12.865/2013. Esse conjunt",
-    "tema": "Regulação do Banco Central para fintechs",
-    "tema_slug": "regulacao-bacen",
-    "nicho": "fintechs",
-    "data": "2026-04-24T10:46:34Z"
-  },
-  {
     "slug": "2026-04-24-tributacao-de-big-techs-o-que-muda-para-e-commerce",
     "titulo": "Tributação de Big Techs: o que muda para e-commerce",
     "resumo": "A pressão dos EUA contra países que tributam plataformas digitais americanas revela a tensão global sobre como taxar marketplaces e big techs. Para o Brasil, o tema é urgente: a regulação fiscal de pl",
@@ -5065,15 +3220,6 @@
     "tema_slug": "marketplaces",
     "nicho": "ecommerce",
     "data": "2026-04-24T10:31:34Z"
-  },
-  {
-    "slug": "2026-04-24-regulacao-de-criptoativos-no-brasil-em-2026",
-    "titulo": "Regulação de criptoativos no Brasil em 2026",
-    "resumo": "A Blockchain.com lançou negociação de contratos futuros com auto custódia de criptomoedas, inovação que desafia diretamente o modelo regulatório brasileiro centrado em prestadoras de serviços de ativo",
-    "tema": "Regulação de criptoativos no Brasil",
-    "tema_slug": "regulacao-cripto",
-    "nicho": "cripto",
-    "data": "2026-04-24T10:01:19Z"
   },
   {
     "slug": "2026-04-24-ibs-e-cbs-o-que-muda-para-o-simples-nacional",
