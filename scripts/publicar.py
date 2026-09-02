@@ -68,6 +68,20 @@ MESES_ABREV = ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV"
 # Paleta SAFIE (decisão A2.1): capa NOVA sem cor de nicho.
 COR_ACENTO_SAFIE = "#154EFA"
 
+# Rede de proteção da capa (02/09/2026). Imagem institucional 1200x630 JÁ EXISTENTE no
+# repo, usada em og:image/JSON-LD quando o JPG do artigo não pôde ser rasterizado
+# (rede social e JSON-LD não lidam bem com SVG). Nunca criar arte nova aqui.
+CAPA_PADRAO_REL = "/assets/img/og-home.jpg"
+PREFIXO_FALLBACK_CAPA = "[CAPA-FALLBACK]"
+
+
+def _arquivo_ok(caminho: Path) -> bool:
+    """Existe no disco e tem mais de zero bytes — não confiar em código de retorno."""
+    try:
+        return caminho.is_file() and caminho.stat().st_size > 0
+    except OSError:
+        return False
+
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
 
@@ -222,22 +236,53 @@ def encontrar_duplicata(artigo: dict, indice: list,
 
 # ── 0. Gerar imagem de capa (paleta SAFIE — sem cor de nicho) ──────────────────
 
+def _fallback_capa(slug: str, motivo: str, url_blog: str) -> tuple:
+    """Decide o que a página aponta quando o JPG não existe. Regra: nunca emitir caminho
+    para arquivo inexistente; nunca abortar a publicação por causa de imagem.
+      - <img> visível: o SVG do artigo (vetorial), se existir; senão nenhum.
+      - og:image / twitter:image / JSON-LD: CAPA_PADRAO_REL se existir; senão "" (a tag é omitida).
+    Aviso em linha própria, com prefixo fixo, para o log do bot."""
+    svg = IMGS_DIR / f"{slug}.svg"
+    rel_img = f"/assets/img/artigos/{slug}.svg" if _arquivo_ok(svg) else ""
+    padrao_ok = _arquivo_ok(BASE / CAPA_PADRAO_REL.lstrip("/"))
+    url_og = f"{url_blog}{CAPA_PADRAO_REL}" if padrao_ok else ""
+    log.warning(
+        f"{PREFIXO_FALLBACK_CAPA} slug={slug} motivo={motivo} | "
+        f"img={'svg' if rel_img else 'nenhuma'} og_image={'padrao (' + CAPA_PADRAO_REL + ')' if padrao_ok else 'omitida'} "
+        f"| publicação segue"
+    )
+    return url_og, rel_img
+
+
 def gerar_imagem_capa(artigo: dict, config_site: dict) -> tuple:
     """Gera o SVG de capa em paleta SAFIE (azul #154EFA + navy), sem o título
     escrito (só marca + categoria + data), e rasteriza em JPG.
-    Retorna (url_completa_jpg, url_relativa_jpg)."""
+
+    Retorna (url_absoluta_para_og_e_jsonld, caminho_relativo_para_o_img_visivel).
+    Caminho feliz: os dois apontam para o MESMO JPG. Rede de proteção (02/09/2026):
+    esta função NUNCA levanta exceção e NUNCA devolve caminho para arquivo que não
+    existe — se a rasterização falhar (fonte, binário, memória, timeout), cai em
+    _fallback_capa e a publicação segue com aviso [CAPA-FALLBACK] no log."""
+    slug     = artigo["slug"]
+    url_blog = config_site.get("url_completa", "https://safie.blog.br")
+    try:
+        return _gerar_imagem_capa_interno(artigo, config_site)
+    except Exception as e:  # qualquer falha de capa: nunca derruba o post
+        return _fallback_capa(slug, f"erro inesperado na capa: {type(e).__name__}: {e}", url_blog)
+
+
+def _gerar_imagem_capa_interno(artigo: dict, config_site: dict) -> tuple:
+    url_blog = config_site.get("url_completa", "https://safie.blog.br")
+    slug     = artigo["slug"]
     if not TEMPLATE_IMG.exists():
-        log.warning(f"Template de imagem não encontrado: {TEMPLATE_IMG}")
-        return "", ""
+        return _fallback_capa(slug, f"template de capa ausente: {TEMPLATE_IMG}", url_blog)
 
     IMGS_DIR.mkdir(parents=True, exist_ok=True)
 
-    slug      = artigo["slug"]
     titulo    = artigo["titulo"]
     tema      = artigo.get("tema_nome", "")
     data      = data_capa(artigo.get("data_iso", ""))
     nome_blog = config_site.get("nome", "SAFIE Blog")
-    url_blog  = config_site.get("url_completa", "https://safie.blog.br")
     cor_dest  = COR_ACENTO_SAFIE   # fixo — sem cor de nicho (A2.1)
     cor_bco   = "#ffffff"
 
@@ -267,18 +312,46 @@ def gerar_imagem_capa(artigo: dict, config_site: dict) -> tuple:
     destino.write_text(svg, encoding="utf-8")
     log.info(f"Imagem de capa gerada (paleta SAFIE): {destino}")
 
-    # Rasteriza a capa para JPG 1200x630 — preview social não renderiza SVG.
-    # Falha alto: sem o JPG não faz sentido publicar (og:image ficaria quebrado).
+    # Rasteriza a capa para JPG 1200x630 (preview social não renderiza SVG).
+    # A falha do rasterizador NÃO derruba o post: cai na rede de proteção.
     destino_jpg = IMGS_DIR / f"{slug}.jpg"
-    rasterizar_capa(destino, destino_jpg)
-    log.info(f"Capa rasterizada para JPG (og:image): {destino_jpg}")
+    try:
+        rasterizar_capa(destino, destino_jpg)
+    except Exception as e:
+        return _fallback_capa(slug, f"rasterizador falhou: {type(e).__name__}: {str(e)[:160]}", url_blog)
+    # Verificação de existência REAL — não confiar no retorno do rasterizador.
+    if not _arquivo_ok(destino_jpg):
+        return _fallback_capa(slug, "rasterizador não gerou JPG (arquivo ausente ou vazio)", url_blog)
+    log.info(f"Capa rasterizada para JPG (og:image, JSON-LD e <img>): {destino_jpg}")
 
     rel_jpg = f"/assets/img/artigos/{slug}.jpg"   # og:image / twitter:image / JSON-LD / <img> visível — o mesmo arquivo
-    # Retorno: (URL absoluta do JPG p/ {{IMAGEM_CAPA_URL}}, caminho relativo do MESMO JPG p/ o <img>)
     return f"{url_blog}{rel_jpg}", rel_jpg
 
 
 # ── 1. Gerar HTML do artigo (template A1 unificado) ────────────────────────────
+
+def _alinhar_imagem_schema(schema_json: str, imagem_url: str) -> str:
+    """Faz o BlogPosting.image do JSON-LD apontar para a mesma URL de og:image.
+    Sem URL válida, remove a propriedade. Em qualquer erro de parse, devolve o original."""
+    if not schema_json:
+        return schema_json
+    try:
+        dados = json.loads(schema_json)
+    except Exception:
+        return schema_json
+    itens = dados if isinstance(dados, list) else [dados]
+    for item in itens:
+        if isinstance(item, dict) and item.get("@type") == "BlogPosting":
+            if imagem_url:
+                img = item.get("image")
+                if isinstance(img, dict):
+                    img["url"] = imagem_url
+                else:
+                    item["image"] = {"@type": "ImageObject", "url": imagem_url, "width": 1200, "height": 630}
+            else:
+                item.pop("image", None)
+    return json.dumps(dados, ensure_ascii=False, indent=2)
+
 
 def gerar_html_artigo(artigo: dict, config_site: dict, categoria: dict,
                       imagem_url: str = "", imagem_rel: str = "") -> Path:
@@ -293,6 +366,11 @@ def gerar_html_artigo(artigo: dict, config_site: dict, categoria: dict,
         f'width="1200" height="630" loading="lazy">'
         if imagem_rel else ""
     )
+
+    # JSON-LD coerente com a capa efetiva: o gerar_artigo.py escreve image.url = {slug}.jpg
+    # ANTES da rasterização. Aqui a URL é alinhada ao que existe de fato (JPG do artigo
+    # ou imagem padrão); sem URL válida, a propriedade "image" é omitida.
+    artigo["schema_json"] = _alinhar_imagem_schema(artigo.get("schema_json", ""), imagem_url)
 
     variaveis = {
         "HEADER":           _partial(PARTIAL_HEADER),
@@ -320,6 +398,9 @@ def gerar_html_artigo(artigo: dict, config_site: dict, categoria: dict,
     }
 
     html = preencher_template(template, variaveis)
+    if not imagem_url:
+        # nunca emitir og:image/twitter:image apontando para nada
+        html = re.sub(r'[ \t]*<meta (?:property="og:image(?::width|:height)?"|name="twitter:image")\s+content="[^"]*">\n', "", html)
 
     ARTIGOS_DIR.mkdir(exist_ok=True)
     destino = ARTIGOS_DIR / f"{artigo['slug']}.html"

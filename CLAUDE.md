@@ -97,3 +97,18 @@ Extraída dos blogs filhos na Fase 2. Tokens salvos em assets/css/tokens.css.
 - Sem travessão longo (—) na copy comercial (rodapé, CTAs, formulário).
 - Tagline do rodapé: "Assessoria jurídica e contabilidade para empresas digitais."
   (junção literal das taglines dos dois sites).
+
+## Capa do artigo — rede de proteção (norma permanente, 02/09/2026)
+
+- `gerar_imagem_capa` (`scripts/publicar.py`) **nunca levanta exceção e nunca devolve
+  caminho para arquivo que não existe** (existência real + tamanho > 0, não o código de
+  retorno do rasterizador). Falha de capa **nunca aborta a publicação**: o post sai.
+- Caminho feliz: `<img>` visível, `og:image`, `twitter:image` e `image` do JSON-LD apontam
+  para o **mesmo JPG** do artigo (`assets/img/artigos/{slug}.jpg`).
+- Se o JPG não existir: o `<img>` usa o **SVG** do artigo (vetorial); `og:image`,
+  `twitter:image` e JSON-LD usam a imagem institucional existente
+  `assets/img/og-home.jpg` (1200×630). Se ela também faltar, as tags são **omitidas**.
+- **`og:image` nunca aponta para SVG** (rede social e JSON-LD não renderizam SVG).
+- O aviso sai em linha própria no log, prefixo `[CAPA-FALLBACK] slug=… motivo=…`.
+- Provado em 02/09 com rasterizador levantando exceção e com rasterizador "retornando
+  sucesso" sem gravar arquivo: HTML completo, exit 0, aviso no log.
