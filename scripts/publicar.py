@@ -153,6 +153,25 @@ def quebrar_titulo(titulo: str) -> tuple:
     return " ".join(palavras[:i]), " ".join(palavras[i:j]), " ".join(palavras[j:])
 
 
+RESUMO_MAX_PALAVRAS = 30
+
+def resumo_card(texto: str, max_palavras: int = RESUMO_MAX_PALAVRAS) -> str:
+    """Resumo exibido nos cards (indice.json): corta em FRONTEIRA DE PALAVRA,
+    com reticências, limite em número de palavras. Substitui o antigo
+    texto[:200], que cortava no meio da palavra ("o que impõe ob").
+    Idempotente: um resumo já cortado (terminado em "…") passa intacto se
+    couber no limite."""
+    palavras = " ".join((texto or "").split()).split(" ")
+    if len(palavras) <= max_palavras:
+        return " ".join(palavras)
+    mantidas = palavras[:max_palavras]
+    # não terminar em artigo/preposição curta ("… 2026-2033. A…")
+    while len(mantidas) > 1 and len(mantidas[-1].strip(" ,;:.\u2014\u2013-()")) <= 2:
+        mantidas.pop()
+    corte = " ".join(mantidas).rstrip(" ,;:.\u2014\u2013-(")
+    return corte + "\u2026"
+
+
 def _partial(path: Path, ano: str = "") -> str:
     txt = path.read_text(encoding="utf-8") if path.exists() else ""
     return txt.replace("{{ANO}}", ano)
@@ -253,7 +272,7 @@ def gerar_imagem_capa(artigo: dict, config_site: dict) -> tuple:
     rasterizar_capa(destino, destino_jpg)
     log.info(f"Capa rasterizada para JPG (og:image): {destino_jpg}")
 
-    rel_svg = f"/assets/img/artigos/{slug}.svg"   # <img> visível na página (vetorial, nítido)
+    rel_svg = f"/assets/img/artigos/{slug}.svg"   # fonte vetorial do JPG (não é mais exibido na página)
     rel_jpg = f"/assets/img/artigos/{slug}.jpg"   # og:image / twitter:image (raster social)
     # Retorno: (URL do JPG p/ og:image via {{IMAGEM_CAPA_URL}}, rel do SVG p/ o <img> visível)
     return f"{url_blog}{rel_jpg}", rel_svg
@@ -266,12 +285,9 @@ def gerar_html_artigo(artigo: dict, config_site: dict, categoria: dict,
     template = TEMPLATE_ART.read_text(encoding="utf-8")
     ano      = datetime.now().strftime("%Y")
 
-    bloco_imagem = (
-        f'<img class="artigo-capa" src="{imagem_rel}" '
-        f'alt="{artigo["titulo"]} — capa ilustrativa do artigo sobre {artigo.get("tema_nome", "")}" '
-        f'width="1200" height="630" loading="lazy">'
-        if imagem_rel else ""
-    )
+    # 02/09/2026: a capa não é mais exibida na página (o título já está no H1;
+    # a arte repetia o título). O SVG/JPG segue sendo gerado só para og:image
+    # ({{IMAGEM_CAPA_URL}}). `imagem_rel` fica na assinatura por compatibilidade.
 
     variaveis = {
         "HEADER":           _partial(PARTIAL_HEADER),
@@ -295,7 +311,6 @@ def gerar_html_artigo(artigo: dict, config_site: dict, categoria: dict,
         "PALAVRAS_CHAVE":   artigo.get("palavras_chave", ""),
         "ANO":              ano,
         "IMAGEM_CAPA_URL":  imagem_url,
-        "IMAGEM_BLOCO":     bloco_imagem,
     }
 
     html = preencher_template(template, variaveis)
@@ -317,7 +332,7 @@ def atualizar_indice(artigo: dict):
     indice.insert(0, {
         "slug":      slug,
         "titulo":    artigo["titulo"],
-        "resumo":    artigo["resumo_executivo"][:200],
+        "resumo":    resumo_card(artigo["resumo_executivo"]),
         "tema":      artigo["tema_nome"],
         "tema_slug": artigo["tema_slug"],
         "nicho":     artigo.get("nicho", ""),

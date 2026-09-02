@@ -26,25 +26,21 @@ window.SafieCard = (function () {
     } catch (e) { return ""; }
   }
 
-  // Card com capa; fallback gracioso se o SVG não existir (onerror → placeholder)
+  // Card sem imagem (02/09/2026): faixa de categoria, título, resumo e data,
+  // como os cards dos sites. A arte 1200x630 do artigo segue existindo só como
+  // imagem de compartilhamento (og:image). O <a> é filho direto do grid para
+  // o subgrid de linhas do CSS alinhar as fileiras; os 4 filhos são sempre
+  // emitidos (mesmo vazios) para cada card ocupar 4 linhas.
   function cardHtml(a) {
     var slug = encodeURIComponent(a.slug || "");
-    var capa = "/assets/img/artigos/" + slug + ".svg";
     var d = dataFmt(a.data);
-    var inicial = escapeHtml((a.tema || a.titulo || "S").trim().charAt(0).toUpperCase());
     return (
-      '<article class="card-artigo">' +
-      '<a href="/artigos/' + slug + '">' +
-      '<div class="card-capa">' +
-      '<img src="' + capa + '" alt="" loading="lazy" ' +
-      "onerror=\"this.style.display='none';this.parentNode.classList.add('sem-capa');this.parentNode.setAttribute('data-inicial','" + inicial + "')\">" +
-      "</div>" +
-      '<div class="card-corpo">' +
-      (a.tema ? '<span class="card-tema">' + escapeHtml(a.tema) + "</span>" : "") +
+      '<a class="card-artigo" role="listitem" href="/artigos/' + slug + '">' +
+      '<span class="card-tema">' + escapeHtml(a.tema || "") + "</span>" +
       "<h2>" + escapeHtml(a.titulo || "") + "</h2>" +
-      (a.resumo ? '<p class="card-resumo">' + escapeHtml(a.resumo) + "</p>" : "") +
-      (d ? '<span class="card-data">' + d + "</span>" : "") +
-      "</div></a></article>"
+      '<p class="card-resumo">' + escapeHtml(a.resumo || "") + "</p>" +
+      '<span class="card-data">' + d + "</span>" +
+      "</a>"
     );
   }
 

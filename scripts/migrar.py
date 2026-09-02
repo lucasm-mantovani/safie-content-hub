@@ -375,7 +375,7 @@ def main(amostra=False):
     # índice consolidado (só na migração completa; amostra não sobrescreve o final)
     if not amostra:
         idx_norm = [{"slug": a["slug"], "titulo": a.get("titulo", ""),
-                     "resumo": (a.get("resumo") or "")[:200],
+                     "resumo": P.resumo_card(a.get("resumo") or ""),
                      "tema": a.get("tema") or a.get("tema_nome", ""),
                      "tema_slug": a.get("tema_slug", ""), "nicho": a["nicho"],
                      "data": a.get("data", "")} for a in indice_full]
