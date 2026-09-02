@@ -72,12 +72,20 @@ Extraída dos blogs filhos na Fase 2. Tokens salvos em assets/css/tokens.css.
    Decisão tomada. Nenhuma sessão deve "corrigir" razão social ou CNPJ por conta própria.
 
 2. **Autoria nominal dos artigos.** Os artigos seguem assinados pelos sócios (byline,
-   `<meta name="author">` e JSON-LD `author` Person, hoje Lucas Mantovani e Ítalo Cunha)
-   e trazem citações atribuídas a eles com número de OAB, com o objetivo declarado de
-   gerar autoridade para os nomes dos sócios, **sem revisão artigo por artigo**. É
-   **decisão do Lucas, não recomendação técnica**: o risco (conteúdo gerado por IA
-   assinado nominalmente, sem revisão individual) é conhecido e assumido por ele.
-   Não alterar autoria, citações nem JSON-LD de autor sem direcionamento explícito.
+   `<meta name="author">` e JSON-LD `author` Person, Lucas Mantovani e Ítalo Cunha),
+   com o objetivo declarado de gerar autoridade para os nomes dos sócios, **sem revisão
+   artigo por artigo**. É **decisão do Lucas, não recomendação técnica**: o risco
+   (conteúdo gerado por IA assinado nominalmente, sem revisão individual) é conhecido e
+   assumido por ele. Não alterar autoria nem JSON-LD de autor sem direcionamento explícito.
+   Autor definido por regra determinística por nicho (`_AUTOR_POR_NICHO` em
+   `gerar_artigo.py`): reforma e ecommerce → Ítalo; cripto, fintechs e ia → Lucas.
+
+3. **Citações atribuídas a sócio saíram (02/09/2026).** O blockquote "citacao-socio" com
+   `<cite>` (nome + número de OAB) não é mais gerado nem existe nos artigos publicados.
+   A assinatura continua; o que saiu é a afirmação de que um sócio DISSE aquelas palavras.
+   Textos impessoais viraram parágrafo de destaque (`p.destaque-artigo`) palavra por
+   palavra; textos em primeira pessoa foram removidos. Não reintroduzir citação, `<cite>`
+   nem número de OAB em página de conteúdo.
 
 ## Copy — vetos vigentes (02/09/2026)
 

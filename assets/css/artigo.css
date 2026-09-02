@@ -108,9 +108,16 @@
 .key-takeaways ul { margin: 0 0 0 var(--space-5); }
 .key-takeaways li { margin-bottom: var(--space-2); }
 
-/* Citação de sócio — herda .artigo-corpo blockquote */
-.citacao-socio p { margin-bottom: var(--space-3); }
-.citacao-socio cite { display: block; font-family: var(--font-body); font-style: normal; font-size: 0.9rem; color: var(--color-text-hint-light); }
+/* Parágrafo de destaque do artigo (02/09/2026) — mesmo visual da citação em
+   Fraunces itálico, sem atribuição a pessoa. Substituiu o blockquote.citacao-socio
+   (citação de sócio com OAB), removido por decisão do Lucas. */
+.artigo-corpo .destaque-artigo {
+  font-family: var(--font-serif); font-style: italic; font-weight: 400;
+  font-size: 1.4rem; line-height: 1.4; color: var(--color-text-on-light);
+  border-left: 3px solid var(--color-primary);
+  padding: var(--space-2) 0 var(--space-2) var(--space-5);
+  margin: var(--space-7) 0;
+}
 
 /* Tabelas no corpo (GEO) */
 .tabela-wrap { overflow-x: auto; margin: 0 0 var(--space-5); }

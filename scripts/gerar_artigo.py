@@ -6,12 +6,14 @@ Base GEO: Blog-reforma-tributaria (canônica). System prompt: factoring do
 Blog-ecommerce (construir_system_prompt + chamar_claude de 2 args).
 
 Preserva as 4 camadas GEO:
-  C1 — REGRAS_GEO, key_takeaways, citacao_socio, titulos densos, retry+JSON, max_tokens 8000
+  C1 — REGRAS_GEO, key_takeaways, titulos densos, retry+JSON, max_tokens 8000
+       (a citação de sócio saiu em 02/09/2026 — decisão do Lucas; ver CLAUDE.md)
   C2 — schema author Person + publisher(logo+sameAs) + BreadcrumbList + mainEntityOfPage
   C3 — relacionados (gerado em publicar.py, cross-categoria)
   C4 — llms.txt (gerado em publicar.py)
 
-Citação de sócio: roteada pelo ASSUNTO do artigo (não pelo nicho).
+Autor do artigo (byline + JSON-LD Person): regra determinística por NICHO em
+_AUTOR_POR_NICHO (02/09/2026). Antes vinha do sócio da citação, que não existe mais.
 
 Uso:
   python3 scripts/gerar_artigo.py                 # lê dados/noticia_selecionada.json
@@ -184,15 +186,7 @@ REGRAS_GEO = """REGRAS GEO (otimização para buscadores e IAs generativas) — 
    <a href='URL'>segundo o Valor Econômico</a>. Isso vale ALÉM da lista final de
    referências, que continua obrigatória.
 
-5. CITAÇÃO DE SÓCIO: o campo "citacao_socio" traz uma análise em primeira pessoa
-   atribuída a um sócio da SAFIE, com 15 a 40 palavras. É leitura de negócio (o que o
-   gestor deve pesar na decisão), não promessa de resultado nem autopromoção.
-   Escolha o autor pelo ASSUNTO do artigo (NÃO pelo nicho onde ele é publicado):
-   "Ítalo Cunha" para temas tributário, fiscal, contábil ou financeiro; "Lucas Mantovani"
-   para societário, contratos, LGPD, direito digital ou regulatório. Um artigo tributário
-   publicado em qualquer nicho cita Ítalo; um artigo societário cita Lucas.
-
-6. CLAIMS ESPECULATIVOS: se o gancho da notícia depender de tese, anúncio ou alegação
+5. CLAIMS ESPECULATIVOS: se o gancho da notícia depender de tese, anúncio ou alegação
    ainda não verificada (comunicado de empresa, tese não julgada, projeto não votado),
    diga isso explicitamente na primeira menção ("alegação ainda não verificada",
    "tese ainda não pacificada"). A análise jurídica do artigo se sustenta na norma
@@ -264,7 +258,6 @@ O artigo deve ter EXATAMENTE esta estrutura em JSON (não inclua markdown extern
   "impacto_pratico": "(2 a 3 parágrafos sobre o impacto prático para empresas: o que precisam fazer, adaptar ou monitorar, em HTML com tags <p>)",
   "titulo_consideracoes": "(H2 do fechamento, máximo 80 caracteres)",
   "consideracoes_finais": "(1 a 2 parágrafos de fechamento, em HTML com tags <p>)",
-  "citacao_socio": {{"autor": "(Lucas Mantovani OU Ítalo Cunha, escolhido pelo ASSUNTO do artigo)", "texto": "(15 a 40 palavras de análise de negócio, sem promessa de resultado)"}},
   "faq": [
     {{"pergunta": "...", "resposta": "..."}},
     {{"pergunta": "...", "resposta": "..."}},
@@ -389,7 +382,19 @@ def gerar_artigo_com_retry(prompt_original: str, system_prompt: str, max_tentati
 
 # ── Constantes GEO (C1/C2) — idênticas às dos 5 blogs ──────────────────────────
 
-_OAB_SOCIOS = {"Lucas Mantovani": "OAB-SP 506.733", "Ítalo Cunha": "OAB-SP 418.966"}
+# Autor do artigo por NICHO (02/09/2026). Regra determinística e documentada:
+# preserva a proporção histórica (368 artigos em 02/09: Lucas 225 / Ítalo 143;
+# por nicho, reforma 70/0 e ecommerce 61/6 eram Ítalo; cripto 81/5, fintechs 73/1
+# e ia 65/6 eram Lucas — a regra reproduz 350 dos 368 casos). Substitui o autor
+# derivado da citação de sócio, que deixou de existir. Nunca deixa artigo sem autor:
+# nicho desconhecido cai em _AUTHOR_DEFAULT.
+_AUTOR_POR_NICHO = {
+    "reforma":   "Ítalo Cunha",
+    "ecommerce": "Ítalo Cunha",
+    "cripto":    "Lucas Mantovani",
+    "fintechs":  "Lucas Mantovani",
+    "ia":        "Lucas Mantovani",
+}
 
 _AUTOR_SAMEAS = {
     "Lucas Mantovani": [
@@ -472,20 +477,9 @@ def montar_artigo_completo(dados_claude: dict, noticia: dict, config_site: dict,
             '  </ul>\n</div>\n\n'
         )
 
-    # Citação de sócio (C1) — whitelist dura de autor
-    cit = dados_claude.get("citacao_socio") or {}
-    if not isinstance(cit, dict):
-        cit = {}
-    autor     = (cit.get("autor") or "").strip()
-    texto_cit = (cit.get("texto") or "").strip()
-    citacao_html = ""
-    if autor in _OAB_SOCIOS and 10 <= len(texto_cit.split()) <= 50:
-        citacao_html = (
-            '\n<blockquote class="citacao-socio">\n'
-            f'  <p>{texto_cit}</p>\n'
-            f'  <cite>{autor}, sócio da SAFIE ({_OAB_SOCIOS[autor]})</cite>\n'
-            '</blockquote>\n'
-        )
+    # (02/09/2026) A citação de sócio ("citacao_socio", blockquote com <cite> e OAB)
+    # deixou de ser gerada por decisão do Lucas. Se o modelo devolver o campo por
+    # hábito, ele é ignorado aqui.
 
     corpo_html = (
         kt_html +
@@ -496,7 +490,6 @@ def montar_artigo_completo(dados_claude: dict, noticia: dict, config_site: dict,
         f"\n\n<h2>{_h2('titulo_impacto', 'Impacto prático para empresas')}</h2>\n" +
         _normalizar_secao(dados_claude.get("impacto_pratico", ""),
                           "Na prática, os efeitos para as empresas são os seguintes.") +
-        citacao_html +
         f"\n\n<h2>{_h2('titulo_consideracoes', 'Considerações finais')}</h2>\n" +
         _normalizar_secao(dados_claude.get("consideracoes_finais", ""),
                           "Em síntese, os pontos de atenção são estes.")
@@ -548,8 +541,8 @@ def montar_artigo_completo(dados_claude: dict, noticia: dict, config_site: dict,
         for item in dados_claude.get("faq", [])
     ]
 
-    # Autor do schema (C2): sócio da citação se válido; senão default
-    autor_schema = autor if autor in _OAB_SOCIOS else _AUTHOR_DEFAULT
+    # Autor do schema e da byline (C2): regra determinística por nicho (ver _AUTOR_POR_NICHO)
+    autor_schema = _AUTOR_POR_NICHO.get(categoria.get("nicho", ""), _AUTHOR_DEFAULT)
     tema_nome_s  = noticia.get("tema_nome", "") or categoria.get("nome", "")
     tema_slug_s  = noticia.get("tema_slug", "") or categoria.get("slug", "")
 
@@ -634,9 +627,6 @@ def montar_artigo_completo(dados_claude: dict, noticia: dict, config_site: dict,
 
 def _relatorio_dry_run(artigo: dict, dados_claude: dict) -> None:
     corpo = artigo["conteudo"]
-    cit = dados_claude.get("citacao_socio") or {}
-    if not isinstance(cit, dict):
-        cit = {}
     kts = dados_claude.get("key_takeaways") or []
     print("\n── RELATÓRIO DRY-RUN ──")
     print(f"Nicho / categoria: {artigo.get('nicho')} / {artigo.get('tema_slug')}")
@@ -647,7 +637,8 @@ def _relatorio_dry_run(artigo: dict, dados_claude: dict) -> None:
     h2_vazio = bool(re.search(r"<h2[^>]*>[^<]*</h2>\s*<h[23]", corpo))
     print(f"H2 vazio: {'SIM' if h2_vazio else 'não'}")
     print(f"key_takeaways: {len(kts)} itens")
-    print(f"citacao_socio: {cit.get('autor', 'AUSENTE')} ({len((cit.get('texto') or '').split())} palavras)")
+    print(f"citacao_socio no JSON do modelo: {'PRESENTE (ignorada)' if 'citacao_socio' in dados_claude else 'ausente'}")
+    print(f"autor (regra por nicho): {artigo.get('autor_nome')}")
     print(f"resumo_executivo: {len(str(artigo.get('resumo_executivo', '')).split())} palavras")
     print(f"Palavras no corpo: {artigo['palavras_corpo']}")
 

@@ -187,7 +187,6 @@
   </div>
 </header>
 
-
 <main>
   <nav class="breadcrumb" aria-label="Trilha de navegação">
     <div class="container">
@@ -215,7 +214,6 @@
 
     <img class="artigo-capa" src="/assets/img/artigos/2026-08-21-open-finance-como-infraestrutura-para-ia-financeira.jpg" alt="Capa do artigo — Open Finance e dados financeiros" width="1200" height="630" loading="lazy">
 
-
     <!-- Resumo executivo (para IAs generativas / GEO — Camada 1) -->
     <aside class="resumo-executivo" itemprop="abstract">
       <strong>Resumo executivo</strong>
@@ -242,11 +240,8 @@
 
 <h2>O que fintechs e bancos digitais precisam estruturar agora</h2>
 <p>Para empresas que operam ou pretendem operar na interseção entre Open Finance e IA financeira, o impacto prático é imediato e divide-se em três frentes: governança de dados, arquitetura de consentimento e documentação de modelos. Cada uma delas corresponde a uma exigência normativa existente, não a uma antecipação especulativa de regulação futura.</p><p>Na frente de governança de dados, a empresa precisa mapear com precisão quais dados originam-se do Open Finance, qual foi o consentimento associado e qual é a data de validade desse consentimento. Alimentar um modelo de IA com dados cujo consentimento expirou não é uma falha técnica: é uma violação ao art. 9º da LGPD, que exige informação clara ao titular sobre o prazo de uso. O controle de ciclo de vida dos dados deixa de ser uma boa prática e passa a ser requisito de conformidade.</p><p>Na frente de documentação de modelos, o art. 20 da LGPD exige que a empresa consiga explicar, em linguagem acessível, a lógica do processo automatizado quando o titular solicitar. Isso pressupõe que o modelo seja minimamente interpretável ou que a empresa mantenha uma camada de explicabilidade documentada. Modelos do tipo "caixa-preta" sem qualquer registro de critérios de decisão são incompatíveis com essa obrigação. As obrigações práticas incluem:</p><ul><li>Registro formal dos consentimentos ativos e suas datas de expiração, por produto e por titular</li><li>Processo documentado de revisão humana para decisões automatizadas que afetem o titular (crédito, limite, elegibilidade)</li><li>Política de retenção e exclusão de dados alinhada ao prazo do consentimento do Open Finance</li><li>Relatório de Impacto à Proteção de Dados (RIPD) para tratamentos de alto risco, conforme art. 38 da LGPD</li><li>Controles de segurança conformes à Resolução BCB n.º 85/2021 para dados consumidos via API</li></ul>
-<blockquote class="citacao-socio">
-  <p>O dado do Open Finance tem origem rastreável, escopo definido e prazo de consentimento. Empresas que ignoram esse ciclo de vida ao treinar modelos de IA estão assumindo passivo regulatório antes mesmo de lançar o produto.</p>
-  <cite>Lucas Mantovani, sócio da SAFIE (OAB-SP 506.733)</cite>
-</blockquote>
 
+<p class="destaque-artigo">O dado do Open Finance tem origem rastreável, escopo definido e prazo de consentimento. Empresas que ignoram esse ciclo de vida ao treinar modelos de IA estão assumindo passivo regulatório antes mesmo de lançar o produto.</p>
 
 <h2>Potencial real, mas condicionado à adequação regulatória</h2>
 <p>O Brasil tem, de fato, uma combinação de ativos que poucos países conseguiram montar: infraestrutura de pagamentos madura, dados financeiros estruturados em escala e uma base de usuários digitais expressiva. Isso torna o Open Finance uma vantagem competitiva real para aplicações de IA financeira. Mas essa vantagem só se materializa para empresas que construíram a adequação regulatória como parte da arquitetura do produto, não como camada posterior.</p><p>Tratar governança de dados, consentimento e documentação de modelos como etapas de compliance a serem resolvidas depois do lançamento é o erro mais comum nesse setor. A regulação brasileira já existe, é exigível e tem fiscalização ativa, tanto pelo Banco Central quanto pela <strong>Autoridade Nacional de Proteção de Dados (ANPD)</strong>. Empresas que estruturarem corretamente essas três frentes estarão em posição melhor do que concorrentes que descobrirem as exigências após o produto estar em produção.</p>
@@ -377,7 +372,6 @@
     </div>
   </div>
 </footer>
-
 
 <script>
 fetch('https://safie-analytics.lucas-mantovani.workers.dev/track', {
