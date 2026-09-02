@@ -49,6 +49,7 @@
 
 ## Artigos
 
+- [AI Act e estética facial: IA de diagnóstico em risco](https://safie.blog.br/artigos/2026-09-02-ai-act-e-estetica-facial-ia-de-diagnostico-em-risco): Ferramentas de inteligência artificial usadas em diagnóstico facial e planejamento estético são classificadas como sistemas de alto risco pelo AI Act europeu (Regulamento UE 2024/1689), o que impõe ob
 - [Open Finance: qualidade de dados como prioridade do BC](https://safie.blog.br/artigos/2026-09-02-open-finance-qualidade-de-dados-como-prioridade-do-bc): O Banco Central priorizará a qualidade dos dados compartilhados no Open Finance nos próximos meses, conforme declaração do diretor de regulação Gilneu Vivan em 1º de setembro de 2026
 - [Dia do Cliente 2026: obrigações nos marketplaces](https://safie.blog.br/artigos/2026-09-02-dia-do-cliente-2026-obrigacoes-nos-marketplaces): Datas promocionais como o Dia do Cliente geram obrigações específicas para marketplaces e varejistas digitais, especialmente em publicidade, precificação e emissão de documentos fiscais
 - [Autorização do Banco Central: o que provar para operar](https://safie.blog.br/artigos/2026-09-02-autorizacao-do-banco-central-o-que-provar-para-operar): Empresas de criptoativos que desejam operar legalmente no Brasil precisam obter autorização do Banco Central e demonstrar, com documentação concreta, que estão tecnicamente e societariamente aptas
