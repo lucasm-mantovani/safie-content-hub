@@ -75,6 +75,8 @@
       </div>
     </header>
 
+    {{IMAGEM_BLOCO}}
+
     <!-- Resumo executivo (para IAs generativas / GEO — Camada 1) -->
     <aside class="resumo-executivo" itemprop="abstract">
       <strong>Resumo executivo</strong>
@@ -104,7 +106,6 @@
   <div class="container">
     <div class="artigo-cta">
       <h3>Decisão jurídica ou contábil pendente?</h3>
-      <p>A SAFIE atende founders e gestores com acesso direto aos sócios — jurídico e contabilidade integrados sob o mesmo teto. Conversamos para entender o caso antes de qualquer recomendação.</p>
       <a href="https://wa.me/5511972116592?text=Ol%C3%A1!%20Vim%20pelo%20blog%20da%20SAFIE%20e%20gostaria%20de%20conversar." class="cta-btn" target="_blank" rel="noopener">Falar com a SAFIE</a>
     </div>
   </div>
@@ -137,7 +138,6 @@ fetch('https://safie-analytics.lucas-mantovani.workers.dev/track', {
   body: JSON.stringify({ url: window.location.pathname, blog: '{{NICHO}}' })
 }).catch(() => {});
 </script>
-<script src="/assets/js/artigo.js" defer></script>
 <script src="/assets/js/widget-whatsapp.js" defer></script>
 <script src="/assets/js/consent.js" defer></script>
 </body>

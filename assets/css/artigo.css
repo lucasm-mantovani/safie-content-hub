@@ -33,6 +33,9 @@
 }
 .artigo-meta strong { color: var(--color-text-on-light); font-weight: 600; }
 
+/* capa (JPG, o mesmo arquivo de og:image) — abaixo do H1 e da autoria */
+.artigo-capa { width: 100%; height: auto; border-radius: var(--radius-card); margin: var(--space-6) 0 0; }
+
 .resumo-executivo {
   background: var(--color-primary-soft);
   border-left: 3px solid var(--color-primary);

@@ -1,4 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <!-- Capa do artigo (02/09/2026): SEM o título escrito — o título já é o H1 da página
+       e repetido no card. Só composição gráfica, marca e faixa de categoria.
+       Todo texto em General Sans (--font-display); nunca serif. -->
   <defs>
     <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0f0f29"/>
@@ -41,23 +44,19 @@
           stroke-width="1" fill="#154EFA" fill-opacity="0.10" opacity="0.5"/>
   </g>
 
-  <!-- Logo — canto superior esquerdo -->
+  <!-- Marca — canto superior esquerdo -->
   <rect x="52" y="40" width="10" height="10" fill="#154EFA"/>
-  <text x="68" y="51" fill="#ffffff"
+  <text x="68" y="51" fill="#f5f7fd"
         font-family="'General Sans', Arial, sans-serif" font-size="15" font-weight="600">SAFIE Blog</text>
 
-  <!-- Categoria e data -->
-  <text x="52" y="210" fill="#154EFA"
-        font-family="'Inter', Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="3">CONTRATOS E RESPONSABILIDADE EM IA · 24 AGO 2026</text>
+  <!-- Data (sobretítulo) -->
+  <text x="52" y="292" fill="#154EFA"
+        font-family="'General Sans', Arial, sans-serif" font-size="14" font-weight="600" letter-spacing="3">24 AGO 2026</text>
 
-  <!-- Título — 3 linhas -->
-  <text x="52" y="286" fill="#ffffff"
-        font-family="Georgia, 'Times New Roman', serif" font-size="50" font-weight="700">Reajuste Nvidia acima</text>
-  <text x="52" y="352" fill="#ffffff"
-        font-family="Georgia, 'Times New Roman', serif" font-size="50" font-weight="700">de 15%: cláusulas que</text>
-  <text x="52" y="418" fill="#154EFA"
-        font-family="Georgia, 'Times New Roman', serif" font-size="50" font-weight="700">protegem sua empresa</text>
+  <!-- Faixa de categoria -->
+  <text x="52" y="342" fill="#f5f7fd"
+        font-family="'General Sans', Arial, sans-serif" font-size="30" font-weight="600" letter-spacing="1.5">CONTRATOS E RESPONSABILIDADE EM IA</text>
 
-  <!-- Barra de destaque — canto inferior esquerdo -->
-  <rect x="52" y="572" width="64" height="4" fill="#154EFA"/>
+  <!-- Barra de destaque sob a categoria -->
+  <rect x="52" y="366" width="64" height="4" fill="#154EFA"/>
 </svg>

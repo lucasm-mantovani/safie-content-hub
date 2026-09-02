@@ -2,8 +2,8 @@
 rasterizar_capa.py — Rasteriza a capa SVG de um artigo em JPG 1200x630.
 
 Motivo: og:image / twitter:image / JSON-LD image não renderizam SVG em preview
-social (Facebook, LinkedIn, WhatsApp, X). O SVG continua sendo a arte-fonte e a
-imagem visível na página; o JPG é derivado só para as tags sociais.
+social (Facebook, LinkedIn, WhatsApp, X). O SVG é a arte-fonte; o JPG é o que
+a página exibe e o que og:image / JSON-LD apontam (mesmo arquivo, desde 02/09/2026).
 
 Rasterizador: Chromium headless (alta fidelidade de fontes/gradientes). Presente
 no ambiente via cache do Playwright. Conversão PNG->JPG via ImageMagick.
@@ -18,6 +18,7 @@ mudar de caminho e quebrar a geração diária silenciosamente.
 """
 
 import os
+import re
 import shutil
 import subprocess
 import tempfile
@@ -105,12 +106,21 @@ def rasterizar(svg_path, jpg_path, qualidade: int = QUALIDADE_JPG_PADRAO) -> Pat
     with tempfile.TemporaryDirectory(prefix="capa_raster_") as td:
         td = Path(td)
         # SVG local + wrapper HTML 1200x630 sem margens (screenshot fiel, pixel-perfect)
-        (td / "capa.svg").write_text(svg_path.read_text(encoding="utf-8"), encoding="utf-8")
+        # SVG INLINE no wrapper (02/09/2026): como <img src=svg> a arte não consegue
+        # carregar fonte externa e caía em Arial; inline, o @font-face abaixo vale
+        # dentro do SVG e a capa sai em General Sans, a mesma fonte do site.
+        svg_txt = svg_path.read_text(encoding="utf-8")
+        svg_txt = re.sub(r"^\s*<\?xml[^>]*\?>", "", svg_txt).strip()
+        fontes = Path(__file__).resolve().parent.parent / "assets" / "fonts"
+        font_face = (
+            "@font-face{font-family:'General Sans';src:url('" + (fontes / "GeneralSans-Variable.woff2").as_uri() + "') format('woff2');font-weight:100 900}"
+            "@font-face{font-family:'Inter';src:url('" + (fontes / "Inter-Variable.woff2").as_uri() + "') format('woff2');font-weight:100 900}"
+        )
         (td / "wrap.html").write_text(
-            "<!doctype html><html><head><style>*{margin:0;padding:0}"
+            "<!doctype html><html><head><meta charset='utf-8'><style>" + font_face + "*{margin:0;padding:0}"
             f"html,body{{width:{LARGURA}px;height:{ALTURA}px;overflow:hidden}}"
-            f"img{{display:block;width:{LARGURA}px;height:{ALTURA}px}}</style></head>"
-            '<body><img src="capa.svg"></body></html>',
+            f"svg{{display:block;width:{LARGURA}px;height:{ALTURA}px}}</style></head>"
+            "<body>" + svg_txt + "</body></html>",
             encoding="utf-8",
         )
         png = td / "capa.png"

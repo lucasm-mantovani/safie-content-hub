@@ -62,3 +62,30 @@ Extraída dos blogs filhos na Fase 2. Tokens salvos em assets/css/tokens.css.
 - [x] Fase 5 — GitHub + Cloudflare Pages
 - [x] Fase 5 DNS — www.safie.blog.br propagado ✅
 - [x] Fase 6 — Validação SEO concluída (2026-04-28): DNS confirmado, HTTP 200, robots.txt + sitemap ok, 15 posts dos 5 blogs no ar
+
+## Decisões do Lucas — registradas em 02/09/2026, não reabrir sem ele
+
+1. **Entidade que publica o blog: a SAFIE**, independentemente de a página tratar de
+   Consultoria/Jurídico ou de Contabilidade. O rodapé identifica **SAFIE TECNOLOGIA E
+   CONSULTORIA LTDA, CNPJ 42.224.278/0001-92** e fica assim, mesmo sendo uma entidade
+   diferente das duas que assinam os sites novos (`Safie-Copy/site/targets/*`).
+   Decisão tomada. Nenhuma sessão deve "corrigir" razão social ou CNPJ por conta própria.
+
+2. **Autoria nominal dos artigos.** Os artigos seguem assinados pelos sócios (byline,
+   `<meta name="author">` e JSON-LD `author` Person, hoje Lucas Mantovani e Ítalo Cunha)
+   e trazem citações atribuídas a eles com número de OAB, com o objetivo declarado de
+   gerar autoridade para os nomes dos sócios, **sem revisão artigo por artigo**. É
+   **decisão do Lucas, não recomendação técnica**: o risco (conteúdo gerado por IA
+   assinado nominalmente, sem revisão individual) é conhecido e assumido por ele.
+   Não alterar autoria, citações nem JSON-LD de autor sem direcionamento explícito.
+
+## Copy — vetos vigentes (02/09/2026)
+
+- Nenhuma copy nova sem aprovação. Reaproveitar **verbatim** copy já aprovada dos sites
+  (`Safie-Copy/site/targets/{juridico,contabil}/config.ts`).
+- Removidos de todas as páginas e proibidos de voltar: "acesso direto aos sócios"
+  (afirmação não verdadeira), "jurídico e contabilidade sob o mesmo teto" / "mesma casa"
+  (enquadramento de oferta integrada, risco de venda casada) e "nova economia" (saturação).
+- Sem travessão longo (—) na copy comercial (rodapé, CTAs, formulário).
+- Tagline do rodapé: "Assessoria jurídica e contabilidade para empresas digitais."
+  (junção literal das taglines dos dois sites).

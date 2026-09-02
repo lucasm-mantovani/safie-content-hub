@@ -390,6 +390,8 @@ h1 em, .hero em { font-family: var(--font-serif); font-style: italic; font-weigh
   gap: 16px;
   margin: 24px 0;
 }
+/* home: são 5 nichos — uma fileira só no desktop (auto-fit dava 4 + 1 órfão) */
+@media (min-width: 1024px) { .nichos-grid { grid-template-columns: repeat(5, 1fr); } }
 .nicho-card {
   display: block;
   padding: 20px;
@@ -593,8 +595,13 @@ h1 em, .hero em { font-family: var(--font-serif); font-style: italic; font-weigh
     gap: 16px;
   }
   .nav-principal.aberto { display: flex; }
-  .menu-toggle { display: block; }
-  .header-busca input[type="search"] { width: 110px; }
+  .menu-toggle { display: block; flex-shrink: 0; }
+  /* sem overflow horizontal: o link "Voltar ao site" sai da barra (o rodapé
+     mantém safie.com.br) e a busca encolhe; o hambúrguer fica visível */
+  .nav-voltar { display: none; }
+  .header-inner { gap: 12px; }
+  .header-busca { flex: 1 1 auto; min-width: 0; }
+  .header-busca input[type="search"] { width: 100%; min-width: 0; }
   .footer-topo { grid-template-columns: 1fr; gap: 32px; }
   .footer-nav { grid-template-columns: 1fr 1fr; }
   .footer-form-inner { grid-template-columns: 1fr; gap: 28px; }

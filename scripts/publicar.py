@@ -223,8 +223,9 @@ def encontrar_duplicata(artigo: dict, indice: list,
 # ── 0. Gerar imagem de capa (paleta SAFIE — sem cor de nicho) ──────────────────
 
 def gerar_imagem_capa(artigo: dict, config_site: dict) -> tuple:
-    """Gera o SVG de capa em paleta SAFIE (azul #154EFA + navy).
-    Retorna (url_completa, url_relativa)."""
+    """Gera o SVG de capa em paleta SAFIE (azul #154EFA + navy), sem o título
+    escrito (só marca + categoria + data), e rasteriza em JPG.
+    Retorna (url_completa_jpg, url_relativa_jpg)."""
     if not TEMPLATE_IMG.exists():
         log.warning(f"Template de imagem não encontrado: {TEMPLATE_IMG}")
         return "", ""
@@ -272,10 +273,9 @@ def gerar_imagem_capa(artigo: dict, config_site: dict) -> tuple:
     rasterizar_capa(destino, destino_jpg)
     log.info(f"Capa rasterizada para JPG (og:image): {destino_jpg}")
 
-    rel_svg = f"/assets/img/artigos/{slug}.svg"   # fonte vetorial do JPG (não é mais exibido na página)
-    rel_jpg = f"/assets/img/artigos/{slug}.jpg"   # og:image / twitter:image (raster social)
-    # Retorno: (URL do JPG p/ og:image via {{IMAGEM_CAPA_URL}}, rel do SVG p/ o <img> visível)
-    return f"{url_blog}{rel_jpg}", rel_svg
+    rel_jpg = f"/assets/img/artigos/{slug}.jpg"   # og:image / twitter:image / JSON-LD / <img> visível — o mesmo arquivo
+    # Retorno: (URL absoluta do JPG p/ {{IMAGEM_CAPA_URL}}, caminho relativo do MESMO JPG p/ o <img>)
+    return f"{url_blog}{rel_jpg}", rel_jpg
 
 
 # ── 1. Gerar HTML do artigo (template A1 unificado) ────────────────────────────
@@ -285,9 +285,14 @@ def gerar_html_artigo(artigo: dict, config_site: dict, categoria: dict,
     template = TEMPLATE_ART.read_text(encoding="utf-8")
     ano      = datetime.now().strftime("%Y")
 
-    # 02/09/2026: a capa não é mais exibida na página (o título já está no H1;
-    # a arte repetia o título). O SVG/JPG segue sendo gerado só para og:image
-    # ({{IMAGEM_CAPA_URL}}). `imagem_rel` fica na assinatura por compatibilidade.
+    # Capa exibida abaixo do H1 e da autoria — o MESMO arquivo JPG de og:image /
+    # JSON-LD image (arte sem o título escrito desde 02/09/2026).
+    bloco_imagem = (
+        f'<img class="artigo-capa" src="{imagem_rel}" '
+        f'alt="Capa do artigo — {artigo.get("tema_nome", "")}" '
+        f'width="1200" height="630" loading="lazy">'
+        if imagem_rel else ""
+    )
 
     variaveis = {
         "HEADER":           _partial(PARTIAL_HEADER),
@@ -311,6 +316,7 @@ def gerar_html_artigo(artigo: dict, config_site: dict, categoria: dict,
         "PALAVRAS_CHAVE":   artigo.get("palavras_chave", ""),
         "ANO":              ano,
         "IMAGEM_CAPA_URL":  imagem_url,
+        "IMAGEM_BLOCO":     bloco_imagem,
     }
 
     html = preencher_template(template, variaveis)
