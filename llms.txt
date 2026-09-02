@@ -49,6 +49,7 @@
 
 ## Artigos
 
+- [Autorização do Banco Central: o que provar para operar](https://safie.blog.br/artigos/2026-09-02-autorizacao-do-banco-central-o-que-provar-para-operar): Empresas de criptoativos que desejam operar legalmente no Brasil precisam obter autorização do Banco Central e demonstrar, com documentação concreta, que estão tecnicamente e societariamente aptas
 - [IBS e CBS: fato gerador nas compras governamentais](https://safie.blog.br/artigos/2026-08-31-ibs-e-cbs-fato-gerador-nas-compras-governamentais): Nas compras governamentais, o momento de ocorrência do fato gerador do IBS e da CBS segue regra especial que pode antecipar ou postergar obrigações fiscais em relação ao regime geral
 - [Digitalização forçada: carga tributária sobre IA](https://safie.blog.br/artigos/2026-08-31-digitalizacao-forcada-carga-tributaria-sobre-ia): Empresas que investem em digitalização e IA no Brasil enfrentam uma carga tributária que pode consumir entre 30% e 45% da receita bruta, dependendo do regime escolhido e da natureza dos serviços contr
 - [Open Finance e Pix no e-commerce: obrigações para fintechs](https://safie.blog.br/artigos/2026-08-31-open-finance-e-pix-no-e-commerce-obrigacoes-para-fintechs): A integração entre Open Finance e Pix no e-commerce cria novas obrigações operacionais e de conformidade para fintechs iniciadores de pagamento, reguladas pela Resolução BCB nº 1 de 2020 e pelo ecossi
