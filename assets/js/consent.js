@@ -15,7 +15,7 @@
       region: 'na1',
       target: '#hs-form-rodape'
     },
-    whatsapp: 'https://wa.me/5511972116592?text=Ol%C3%A1!%20Vim%20pelo%20blog%20da%20SAFIE%20e%20gostaria%20de%20conversar.',
+    whatsapp: 'https://wa.me/5511955937070?text=Ol%C3%A1!%20Vim%20pelo%20blog%20da%20SAFIE%20e%20gostaria%20de%20conversar.',
     politica: '/politica-de-cookies/'
   };
 

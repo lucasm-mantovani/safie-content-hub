@@ -47,6 +47,7 @@ Extraída dos blogs filhos na Fase 2. Tokens salvos em assets/css/tokens.css.
 ## Contatos e links institucionais
 - Site: https://safie.com.br
 - Email: contato@safie.com.br
+- WhatsApp: +55 11 95593-7070 (`wa.me/5511955937070`, vigente desde 03/09/2026; histórico das trocas no git log de `templates/artigo.html`). Hardcoded de propósito em `templates/artigo.html`, `assets/js/widget-whatsapp.js` e `assets/js/consent.js` — trocar sempre pelo procedimento `scripts/README-numeros.md` (fontes + `backfill_whatsapp.py`). Não criar campo em `config/site.json`.
 - Copyright: SAFIE Sociedade de Advogados
 
 ## Repositório e deploy
