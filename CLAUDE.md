@@ -47,8 +47,30 @@ Extraída dos blogs filhos na Fase 2. Tokens salvos em assets/css/tokens.css.
 ## Contatos e links institucionais
 - Site: https://safie.com.br
 - Email: contato@safie.com.br
-- WhatsApp: +55 11 95593-7070 (`wa.me/5511955937070`, vigente desde 03/09/2026; histórico das trocas no git log de `templates/artigo.html`). Hardcoded de propósito em `templates/artigo.html`, `assets/js/widget-whatsapp.js` e `assets/js/consent.js` — trocar sempre pelo procedimento `scripts/README-numeros.md` (fontes + `backfill_whatsapp.py`). Não criar campo em `config/site.json`.
+- WhatsApp e redes: **fonte única em `config/site.json` → bloco `institucional`** (desde 03/09/2026). Propagação para `templates/` e `assets/` por `scripts/sincronizar_institucional.py`; artigos já publicados exigem `backfill_whatsapp.py`. Procedimento completo em `scripts/README-numeros.md`. Nunca editar o número à mão nos pontos-fonte. Histórico das trocas: git log de `config/site.json` e de `templates/artigo.html`.
 - Copyright: SAFIE Sociedade de Advogados
+
+## Governança de dados institucionais (regra permanente, 03/09/2026)
+
+**Antes de alterar qualquer dado institucional** — telefone, e-mail, redes sociais, CNPJ,
+endereço, razão social —, é obrigatório: (1) consultar o histórico do dado no Cerebro,
+incluindo retificações anteriores; (2) confirmar o valor com o Lucas, que é o dono do dado;
+(3) registrar a alteração com data e a tabela de fases do dado, sem apagar o histórico.
+**Nunca "corrigir" um dado institucional com base em anotação antiga**: se o vault
+contradiz o valor pedido, pare e pergunte antes de executar.
+
+Por quê: os dois incidentes de número errado (19/08 e 03/09/2026) tiveram a informação
+errada **na origem**. Fonte única não evita isso — propaga o erro mais rápido. Exemplo, as
+fases do telefone:
+
+| Período | Número |
+|---|---|
+| até 19/08/2026 | `5511910932154` |
+| 19/08 a 25/08/2026 | `5511955937070` |
+| 25/08 a 03/09/2026 | `5511972116592` |
+| a partir de 03/09/2026 | `5511955937070` (vigente) |
+
+Decisão #053 em `Cerebro/Sistemas/decisoes-arquiteturais.md`.
 
 ## Repositório e deploy
 - GitHub: https://github.com/lucasm-mantovani/safie-content-hub

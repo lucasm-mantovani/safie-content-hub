@@ -68,6 +68,23 @@ cd "$PASTA"
 source "$HOME/.zshrc" 2>/dev/null || true
 source "$PASTA/.env" 2>/dev/null || true
 
+# ── Pré-voo institucional (config/site.json vs. pontos-fonte) ──
+# scripts/sincronizar_institucional.py --check compara o bloco "institucional" do
+# site.json com templates/, assets/ e páginas geradas (artigos/, categorias/).
+# Divergência AVISA e SEGUE: o post do dia sai mesmo assim (regra da casa). A
+# linha abaixo tem prefixo próprio para ser grep-ável no log e no health check.
+set +e
+PREVOO_SAIDA=$(python3 "$PASTA/scripts/sincronizar_institucional.py" --check 2>&1)
+PREVOO_EXIT=$?
+set -e
+if [ "$PREVOO_EXIT" -ne 0 ]; then
+  echo "[INSTITUCIONAL-DIVERGENTE] pré-voo do site.json falhou (exit $PREVOO_EXIT). Publicação segue. Corrigir: python3 scripts/sincronizar_institucional.py --check" >> "$LOG"
+  # "|| true": sob set -e, um grep sem casamento (ex.: traceback do Python) não pode derrubar a publicação
+  echo "$PREVOO_SAIDA" | grep -E '^\[(DIVERGENTE|NAO-RECONHECIDO)\]' >> "$LOG" || true
+else
+  echo "[$(date '+%H:%M:%S')] Pré-voo institucional OK (site.json = pontos-fonte)." >> "$LOG"
+fi
+
 # ── Loop por nicho agendado ──
 for NICHO in ${(z)NICHOS_HOJE}; do
   echo "" >> "$LOG"

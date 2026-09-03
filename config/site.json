@@ -7,6 +7,16 @@
   "autor": "SAFIE",
   "email_contato": "contato@safie.com.br",
   "site_institucional": "https://safie.com.br",
+  "institucional": {
+    "_comentario": "Fonte unica dos dados institucionais do blog. Propagada para templates/ e assets/ por scripts/sincronizar_institucional.py; artigos/ e categorias/ ja publicados exigem backfill (scripts/README-numeros.md). Antes de alterar: regra de governanca no CLAUDE.md.",
+    "whatsapp": "5511955937070",
+    "whatsapp_texto": "Olá! Vim pelo blog da SAFIE e gostaria de conversar.",
+    "email_contato": "contato@safie.com.br",
+    "same_as": [
+      "https://www.instagram.com/safiegroup/",
+      "https://www.instagram.com/safiecontabilidade/"
+    ]
+  },
   "artigos_por_pagina": 9,
   "recentes_home": 9,
   "paleta_base": {
