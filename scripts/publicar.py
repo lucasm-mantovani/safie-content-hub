@@ -360,10 +360,13 @@ def gerar_html_artigo(artigo: dict, config_site: dict, categoria: dict,
 
     # Capa exibida abaixo do H1 e da autoria — o MESMO arquivo JPG de og:image /
     # JSON-LD image (arte sem o título escrito desde 02/09/2026).
+    # Primeira dobra e candidata a LCP: eager + fetchpriority=high, NUNCA lazy (03/09/2026).
+    # width/height ficam: reservam a altura e evitam salto de layout. Vale também
+    # quando imagem_rel é o SVG do fallback.
     bloco_imagem = (
         f'<img class="artigo-capa" src="{imagem_rel}" '
         f'alt="Capa do artigo — {artigo.get("tema_nome", "")}" '
-        f'width="1200" height="630" loading="lazy">'
+        f'width="1200" height="630" loading="eager" fetchpriority="high">'
         if imagem_rel else ""
     )
 

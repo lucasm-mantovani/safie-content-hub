@@ -109,6 +109,9 @@ Extraída dos blogs filhos na Fase 2. Tokens salvos em assets/css/tokens.css.
   `twitter:image` e JSON-LD usam a imagem institucional existente
   `assets/img/og-home.jpg` (1200×630). Se ela também faltar, as tags são **omitidas**.
 - **`og:image` nunca aponta para SVG** (rede social e JSON-LD não renderizam SVG).
+- A capa é **imagem de primeira dobra e candidata a LCP**: o `<img class="artigo-capa">`
+  sai com `loading="eager" fetchpriority="high"`, mantendo `width="1200" height="630"`
+  (reserva de altura, sem salto de layout). **Nunca `lazy`** — inclusive no fallback SVG.
 - O aviso sai em linha própria no log, prefixo `[CAPA-FALLBACK] slug=… motivo=…`.
 - Provado em 02/09 com rasterizador levantando exceção e com rasterizador "retornando
   sucesso" sem gravar arquivo: HTML completo, exit 0, aviso no log.
